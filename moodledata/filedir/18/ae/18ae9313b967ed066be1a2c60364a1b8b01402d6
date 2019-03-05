@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | TEMA 2. LA PROPIEDAD HORIZONTAL II. FIGURAS JURÍDICAS ANÁLOGAS. </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id114">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 1;
+var key2 = 0;
+var key3 = 1;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b114");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm114").key0b114[i].checked)
+               {
+                  question0 = document.getElementById("quizForm114").key0b114[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b114");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm114").key1b114[i].checked)
+               {
+                  question1 = document.getElementById("quizForm114").key1b114[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b114");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm114").key2b114[i].checked)
+               {
+                  question2 = document.getElementById("quizForm114").key2b114[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b114");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm114").key3b114[i].checked)
+               {
+                  question3 = document.getElementById("quizForm114").key3b114[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b114");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm114").key4b114[i].checked)
+               {
+                  question4 = document.getElementById("quizForm114").key4b114[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm114").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm114" id="quizForm114" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-114" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b114" class="block iDevice_content">
+<p><strong>Señala si la siguiente afirmación es verdadera o falsa: “El artículo 13.8 de la LPH dispone que cuando el número de propietarios de viviendas o locales en un edificio no exceda de ocho, podrán acogerse al régimen de administración del art. 398 del Código Civil”.</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1141" class="sr-av"><a href="#answer-key0b1141">Opción 1</a></label><input type="radio" name="key0b114" id="key0b1141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1141"><a name="answer-key0b1141"></a>
+<div id="taoptionAnswer0q0b114" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1142" class="sr-av"><a href="#answer-key0b1142">Opción 2</a></label><input type="radio" name="key0b114" id="key0b1142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1142"><a name="answer-key0b1142"></a>
+<div id="taoptionAnswer1q0b114" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b114" class="block iDevice_content">
+<p><strong>¿Qué artículo establece que las cargas y beneficios de la comunidad se deben repartir entre los partícipes en partes proporcionales?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1141" class="sr-av"><a href="#answer-key1b1141">Opción 1</a></label><input type="radio" name="key1b114" id="key1b1141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1141"><a name="answer-key1b1141"></a>
+<div id="taoptionAnswer0q1b114" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Artículo 23 de la Ley de Propiedad Horizontal.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1142" class="sr-av"><a href="#answer-key1b1142">Opción 2</a></label><input type="radio" name="key1b114" id="key1b1142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1142"><a name="answer-key1b1142"></a>
+<div id="taoptionAnswer1q1b114" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Artículo 393 del Código Civil.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1143" class="sr-av"><a href="#answer-key1b1143">Opción 3</a></label><input type="radio" name="key1b114" id="key1b1143" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1143"><a name="answer-key1b1143"></a>
+<div id="taoptionAnswer2q1b114" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Artículo 14.5 de la Ley de Propiedad Horizontal.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1144" class="sr-av"><a href="#answer-key1b1144">Opción 4</a></label><input type="radio" name="key1b114" id="key1b1144" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1144"><a name="answer-key1b1144"></a>
+<div id="taoptionAnswer3q1b114" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Artículo 487 del Código Civil.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b114" class="block iDevice_content">
+<div class="ee_enunciado"><strong>¿Qué establece el artículo 397 del Código Civil?</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1141" class="sr-av"><a href="#answer-key2b1141">Opción 1</a></label><input type="radio" name="key2b114" id="key2b1141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1141"><a name="answer-key2b1141"></a>
+<div id="taoptionAnswer0q2b114" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Que ningún copropietario puede alterar los bienes comunes sin el consentimiento de los demás.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1142" class="sr-av"><a href="#answer-key2b1142">Opción 2</a></label><input type="radio" name="key2b114" id="key2b1142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1142"><a name="answer-key2b1142"></a>
+<div id="taoptionAnswer1q2b114" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Que los copropietarios pueden usar las cosas objetos de copropiedad.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1143" class="sr-av"><a href="#answer-key2b1143">Opción 3</a></label><input type="radio" name="key2b114" id="key2b1143" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1143"><a name="answer-key2b1143"></a>
+<div id="taoptionAnswer2q2b114" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Que serán obligatorios los acuerdos de la mayoría de los partícipes.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1144" class="sr-av"><a href="#answer-key2b1144">Opción 4</a></label><input type="radio" name="key2b114" id="key2b1144" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1144"><a name="answer-key2b1144"></a>
+<div id="taoptionAnswer3q2b114" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Que la propiedad puede disolverse en cualquier momento.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b114" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Señala si la siguiente afirmación es verdadera o falsa: “Cada condueño puede disponer libremente de su parte del condominio a tenor de lo dispuesto en el artículo 398 del CC”.</strong></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1141" class="sr-av"><a href="#answer-key3b1141">Opción 1</a></label><input type="radio" name="key3b114" id="key3b1141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1141"><a name="answer-key3b1141"></a>
+<div id="taoptionAnswer0q3b114" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1142" class="sr-av"><a href="#answer-key3b1142">Opción 2</a></label><input type="radio" name="key3b114" id="key3b1142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1142"><a name="answer-key3b1142"></a>
+<div id="taoptionAnswer1q3b114" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b114" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Señala si la siguiente afirmación es verdadera o falsa: “Con la expresión «Complejos Inmobiliarios Privados», la LPH hace referencia al régimen jurídico que rige las urbanizaciones”.</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1141" class="sr-av"><a href="#answer-key4b1141">Opción 1</a></label><input type="radio" name="key4b114" id="key4b1141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1141"><a name="answer-key4b1141"></a>
+<div id="taoptionAnswer0q4b114" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1142" class="sr-av"><a href="#answer-key4b1142">Opción 2</a></label><input type="radio" name="key4b114" id="key4b1142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1142"><a name="answer-key4b1142"></a>
+<div id="taoptionAnswer1q4b114" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

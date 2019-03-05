@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1. Valores condicionales </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1. Valores condicionales</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id0">
+<div class="iDevice emphasis0">
+<div id="ta0_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Para tomar un valor u otro dependiendo de que una cierta expresión, relacional o lógica, sea cierta o falsa, podemos utilizar la función Iif. Ésta toma tres parámetros:</p>
+<ul>
+<li>La expresión que debe evaluarse obteniendo True o False como resultado.</li>
+<li>El valor a devolver en caso de que el resultado sea True.</li>
+<li>El valor a devolver en caso de que el resultado sea False.</li>
+</ul>
+<p>Suponga que desea obtener en una variable la cadena Grande o Pequeño dependiendo de un valor, supuestamente almacenado en otra variable, que hace referencia a la población de un país. La sentencia siguiente sería todo lo necesario:</p>
+<p>TipoPais = Iif (Población&gt;40000, “Grande”, “Pequeño”)</p>
+<p>Puede introducir esta sentencia en un módulo de código, como parte de una función, definiendo previamente las dos variables y habiendo dado un valor a Población.</p>
+<p>Si el caso es más complejo tenemos a nuestra disposición la función Switch. El número de parámetros, en este caso, es variable y van formando nuevas parejas.</p>
+<p>El primer parámetro será un condicional y el segundo el valor a devolver si la condición es cierta. En caso contrario se evaluará la expresión entregada como tercer parámetro, repitiendo el proceso.</p>
+<p>Observe la sentencia siguiente:</p>
+<p>TipoPais = Switch (Población &gt; 1000000, “Gigante”, _</p>
+<p>Población &gt; 100000, “Muy grande”, _</p>
+<p>Población &gt; 20000, “Grande”, _</p>
+<p>Población &lt;= 20000, “Pequeño”)</p>
+<p>En este caso, clasificamos el país, según su población, de manera bastante más exacta.</p>
+<p>Cada condicional lleva asociado un valor a devolver. En la figura 14.1 puede ver el código de una función que usa Switch y el resultado obtenido en la ventana Inmediato.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WXRnNlh4a2szbEQ2b0RmSGZXJTJCUjZydmpKUDFBQ3Z5UjVlenA5YnlXQ0RZJTNE" id="IMG_WXRnNlh4a2szbEQ2b0RmSGZXJTJCUjZydmpKUDFBQ3Z5UjVlenA5YnlXQ0RZJTNE" alt="Estructuras de control. El modelo de objetos de Excel" title="Estructuras de control. El modelo de objetos de Excel" width="483" /></p>
+<p><b>Figura 14.1.</b> Ejemplo de uso de la función Switch.</p>
+<p>Otra alternativa, especialmente útil cuando se quiere elegir un resultado según el valor de un índice numérico, es la función Choose. Ésta es equivalente a la función ELEGIR de Excel que ya conoce, tomando los mismos parámetros y funcionando de manera análoga.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

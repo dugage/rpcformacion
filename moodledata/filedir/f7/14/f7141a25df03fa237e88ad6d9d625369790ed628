@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.2. Bucles por condición </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3.2. Bucles por condición</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>No siempre conoceremos de antemano el número de veces que debe repetirse un bucle, no siendo posible el uso de las instrucciones For/Next para su codificación. Suponga, por ejemplo, que necesita recuperar los datos no de las primeras diez celdillas de la columna, sino de todas las celdillas hasta encontrar una que marque el fin. No sabemos, por tanto, cuántas veces debemos repetir el proceso.</p>
+<p>Para estos casos Visual Basic cuenta con los bucles Do/Loop While y Do/Loop Until. Las sentencias a ejecutar se dispondrán entre la palabra Do, que irá al principio en una línea, y Loop, que irá al final y seguida de While o Until.</p>
+<p>Detrás de una de estas palabras dispondremos la expresión condicional. En el primer caso, usando While, el bucle se estará repitiendo mientras la condición devuelva True. En el segundo el bucle se repetirá mientras que la condición devuelva False.</p>
+<p>Con el bucle siguiente conseguiríamos mostrar en la ventana Inmediato el contenido de todas las celdillas que existan en la columna A, deteniéndose el bucle cuando se encuentre el valor cero o inferior.</p>
+<p>Fila = 1</p>
+<p>Do</p>
+<p>Debug.Print Cells (Fila, 1).Value</p>
+<p>Fila = Fila + 1</p>
+<p>Loop While Cells (Fila, 1) &gt; 0</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

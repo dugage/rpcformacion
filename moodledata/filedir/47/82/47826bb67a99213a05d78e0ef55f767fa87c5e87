@@ -1,0 +1,1098 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Examen </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Examen</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id1">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 15;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var question5;
+var question6;
+var question7;
+var question8;
+var question9;
+var question10;
+var question11;
+var question12;
+var question13;
+var question14;
+var key0 = 1;
+var key1 = 0;
+var key2 = 2;
+var key3 = 0;
+var key4 = 0;
+var key5 = 0;
+var key6 = 2;
+var key7 = 1;
+var key8 = 1;
+var key9 = 0;
+var key10 = 1;
+var key11 = 1;
+var key12 = 0;
+var key13 = 2;
+var key14 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b1");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key0b1[i].checked)
+               {
+                  question0 = document.getElementById("quizForm1").key0b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b1");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key1b1[i].checked)
+               {
+                  question1 = document.getElementById("quizForm1").key1b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b1");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key2b1[i].checked)
+               {
+                  question2 = document.getElementById("quizForm1").key2b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b1");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm1").key3b1[i].checked)
+               {
+                  question3 = document.getElementById("quizForm1").key3b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b1");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key4b1[i].checked)
+               {
+                  question4 = document.getElementById("quizForm1").key4b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.5.id","key5b1");
+            scorm.SetInteractionValue("cmi.interactions.5.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.5.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key5b1[i].checked)
+               {
+                  question5 = document.getElementById("quizForm1").key5b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.5.student_response",question5);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.6.id","key6b1");
+            scorm.SetInteractionValue("cmi.interactions.6.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.6.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key6b1[i].checked)
+               {
+                  question6 = document.getElementById("quizForm1").key6b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.6.student_response",question6);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.7.id","key7b1");
+            scorm.SetInteractionValue("cmi.interactions.7.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.7.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key7b1[i].checked)
+               {
+                  question7 = document.getElementById("quizForm1").key7b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.7.student_response",question7);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.8.id","key8b1");
+            scorm.SetInteractionValue("cmi.interactions.8.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.8.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key8b1[i].checked)
+               {
+                  question8 = document.getElementById("quizForm1").key8b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.8.student_response",question8);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.9.id","key9b1");
+            scorm.SetInteractionValue("cmi.interactions.9.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.9.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key9b1[i].checked)
+               {
+                  question9 = document.getElementById("quizForm1").key9b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.9.student_response",question9);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.10.id","key10b1");
+            scorm.SetInteractionValue("cmi.interactions.10.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.10.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key10b1[i].checked)
+               {
+                  question10 = document.getElementById("quizForm1").key10b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.10.student_response",question10);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.11.id","key11b1");
+            scorm.SetInteractionValue("cmi.interactions.11.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.11.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key11b1[i].checked)
+               {
+                  question11 = document.getElementById("quizForm1").key11b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.11.student_response",question11);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.12.id","key12b1");
+            scorm.SetInteractionValue("cmi.interactions.12.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.12.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm1").key12b1[i].checked)
+               {
+                  question12 = document.getElementById("quizForm1").key12b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.12.student_response",question12);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.13.id","key13b1");
+            scorm.SetInteractionValue("cmi.interactions.13.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.13.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key13b1[i].checked)
+               {
+                  question13 = document.getElementById("quizForm1").key13b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.13.student_response",question13);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.14.id","key14b1");
+            scorm.SetInteractionValue("cmi.interactions.14.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.14.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm1").key14b1[i].checked)
+               {
+                  question14 = document.getElementById("quizForm1").key14b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.14.student_response",question14);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+            if (question5 == key5)
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","wrong");
+            }
+            if (question6 == key6)
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","wrong");
+            }
+            if (question7 == key7)
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","wrong");
+            }
+            if (question8 == key8)
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","wrong");
+            }
+            if (question9 == key9)
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","wrong");
+            }
+            if (question10 == key10)
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","wrong");
+            }
+            if (question11 == key11)
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","wrong");
+            }
+            if (question12 == key12)
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","wrong");
+            }
+            if (question13 == key13)
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","wrong");
+            }
+            if (question14 == key14)
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm1").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona la Opcion Correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm1" id="quizForm1" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-1" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">¿Qué es la tecnificación?</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b11" class="sr-av"><a href="#answer-key0b11">Opción 1</a></label><input type="radio" name="key0b1" id="key0b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b11"><a name="answer-key0b11"></a>
+<div id="taoptionAnswer0q0b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Modificación o transformación de la propia naturaleza, que aporta las materias primas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b12" class="sr-av"><a href="#answer-key0b12">Opción 2</a></label><input type="radio" name="key0b1" id="key0b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b12"><a name="answer-key0b12"></a>
+<div id="taoptionAnswer1q0b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Proceso mediante el cual el hombre elabora y fabrica todas aquellas herramientas, máquinas y equipos materiales, dirigidos a la realización de una actividad específica.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b13" class="sr-av"><a href="#answer-key0b13">Opción 3</a></label><input type="radio" name="key0b1" id="key0b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b13"><a name="answer-key0b13"></a>
+<div id="taoptionAnswer2q0b1" class="block iDevice_content">
+<p>Proceso mediante el cual el hombre como animal social que es planifica y distribuye las diferentes actividades a desarrollar, buscando generalmente obtener los mayores beneficios económicos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">¿Qué tres elementos clave lleva asociado el concepto de riesgo en el ámbito de <acronym title="Prevención de Riesgos Laborales"> P.R.L.</acronym>?</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b11" class="sr-av"><a href="#answer-key1b11">Opción 1</a></label><input type="radio" name="key1b1" id="key1b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b11"><a name="answer-key1b11"></a>
+<div id="taoptionAnswer0q1b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Frecuencia, probabilidad, consecuencia.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b12" class="sr-av"><a href="#answer-key1b12">Opción 2</a></label><input type="radio" name="key1b1" id="key1b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b12"><a name="answer-key1b12"></a>
+<div id="taoptionAnswer1q1b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Peligro, riesgo, probabilidad.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b13" class="sr-av"><a href="#answer-key1b13">Opción 3</a></label><input type="radio" name="key1b1" id="key1b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b13"><a name="answer-key1b13"></a>
+<div id="taoptionAnswer2q1b1" class="block iDevice_content">
+<p>Existencia, peligro, intensidad.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">La materialización de los riesgos derivados de la organización del trabajo puede generar:</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b11" class="sr-av"><a href="#answer-key2b11">Opción 1</a></label><input type="radio" name="key2b1" id="key2b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b11"><a name="answer-key2b11"></a>
+<div id="taoptionAnswer0q2b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Exceso en la carga de trabajo, presión y depresión.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b12" class="sr-av"><a href="#answer-key2b12">Opción 2</a></label><input type="radio" name="key2b1" id="key2b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b12"><a name="answer-key2b12"></a>
+<div id="taoptionAnswer1q2b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ansiedad y depresión.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b13" class="sr-av"><a href="#answer-key2b13">Opción 3</a></label><input type="radio" name="key2b1" id="key2b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b13"><a name="answer-key2b13"></a>
+<div id="taoptionAnswer2q2b1" class="block iDevice_content">
+<p>Fatiga crónica, estrés y pérdida de atención.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">Confirma si la siguiente afirmación es verdadera o falsa:
+<p><em>“Las técnicas de protección colectiva son aquellas que protegen a los trabajadores de una forma general, es decir que eliminan o reducen las consecuencias de un riesgo que afecta a un número determinado de trabajadores”.</em></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b11" class="sr-av"><a href="#answer-key3b11">Opción 1</a></label><input type="radio" name="key3b1" id="key3b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b11"><a name="answer-key3b11"></a>
+<div id="taoptionAnswer0q3b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b12" class="sr-av"><a href="#answer-key3b12">Opción 2</a></label><input type="radio" name="key3b1" id="key3b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b12"><a name="answer-key3b12"></a>
+<div id="taoptionAnswer1q3b1" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">Indica qué disciplina trata la adecuación entre las distintas capacidades de las personas y las exigencias de las capacidades demandadas por las tareas de trabajo realizadas.</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b11" class="sr-av"><a href="#answer-key4b11">Opción 1</a></label><input type="radio" name="key4b1" id="key4b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b11"><a name="answer-key4b11"></a>
+<div id="taoptionAnswer0q4b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Ergonomía.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b12" class="sr-av"><a href="#answer-key4b12">Opción 2</a></label><input type="radio" name="key4b1" id="key4b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b12"><a name="answer-key4b12"></a>
+<div id="taoptionAnswer1q4b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Medicina del trabajo.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b13" class="sr-av"><a href="#answer-key4b13">Opción 3</a></label><input type="radio" name="key4b1" id="key4b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b13"><a name="answer-key4b13"></a>
+<div id="taoptionAnswer2q4b1" class="block iDevice_content">
+<p>Psicosociología laboral.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion5b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">El accidente in itinere es aquel que:</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b11" class="sr-av"><a href="#answer-key5b11">Opción 1</a></label><input type="radio" name="key5b1" id="key5b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b11"><a name="answer-key5b11"></a>
+<div id="taoptionAnswer0q5b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Sufre el trabajador al ir al trabajo o al volver de éste.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b12" class="sr-av"><a href="#answer-key5b12">Opción 2</a></label><input type="radio" name="key5b1" id="key5b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b12"><a name="answer-key5b12"></a>
+<div id="taoptionAnswer1q5b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Sufre el trabajador en horas laborales. Existe limitación horaria.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b13" class="sr-av"><a href="#answer-key5b13">Opción 3</a></label><input type="radio" name="key5b1" id="key5b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b13"><a name="answer-key5b13"></a>
+<div id="taoptionAnswer2q5b1" class="block iDevice_content">
+<p>Sufre el trabajador al desarrollar actividades distintas a las habituales.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion6b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">La definición legal de un accidente de trabajo es:</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b11" class="sr-av"><a href="#answer-key6b11">Opción 1</a></label><input type="radio" name="key6b1" id="key6b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b11"><a name="answer-key6b11"></a>
+<div id="taoptionAnswer0q6b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Toda lesión corporal que el trabajador sufre desde el momento de salir a su casa hasta el momento de volver a ella.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b12" class="sr-av"><a href="#answer-key6b12">Opción 2</a></label><input type="radio" name="key6b1" id="key6b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b12"><a name="answer-key6b12"></a>
+<div id="taoptionAnswer1q6b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Toda lesión corporal que el trabajador sufre durante el horario laboral.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b13" class="sr-av"><a href="#answer-key6b13">Opción 3</a></label><input type="radio" name="key6b1" id="key6b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b13"><a name="answer-key6b13"></a>
+<div id="taoptionAnswer2q6b1" class="block iDevice_content">
+<p>Toda lesión corporal que el trabajador sufre con ocasión o a consecuencia del trabajo que ejecuta por cuenta ajena.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion7b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">Desde el punto de vista de la <acronym title="Prevención de Riesgos Laborales"> P.R.L.</acronym>? los tres tipos de accidentes son:</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b11" class="sr-av"><a href="#answer-key7b11">Opción 1</a></label><input type="radio" name="key7b1" id="key7b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b11"><a name="answer-key7b11"></a>
+<div id="taoptionAnswer0q7b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Incidente y accidente.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b12" class="sr-av"><a href="#answer-key7b12">Opción 2</a></label><input type="radio" name="key7b1" id="key7b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b12"><a name="answer-key7b12"></a>
+<div id="taoptionAnswer1q7b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Incidente, accidente sin baja y accidente con baja.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b13" class="sr-av"><a href="#answer-key7b13">Opción 3</a></label><input type="radio" name="key7b1" id="key7b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b13"><a name="answer-key7b13"></a>
+<div id="taoptionAnswer2q7b1" class="block iDevice_content">
+<p>Accidente con y sin baja.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion8b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">Un accidente de trabajo conlleva, además del daño personal, costes económicos. De los siguientes, ¿cuál sería un coste directo?</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b11" class="sr-av"><a href="#answer-key8b11">Opción 1</a></label><input type="radio" name="key8b1" id="key8b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b11"><a name="answer-key8b11"></a>
+<div id="taoptionAnswer0q8b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Pérdidas productivas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b12" class="sr-av"><a href="#answer-key8b12">Opción 2</a></label><input type="radio" name="key8b1" id="key8b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b12"><a name="answer-key8b12"></a>
+<div id="taoptionAnswer1q8b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Gastos en pólizas de seguros de accidentes y enfermedades profesionales.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b13" class="sr-av"><a href="#answer-key8b13">Opción 3</a></label><input type="radio" name="key8b1" id="key8b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b13"><a name="answer-key8b13"></a>
+<div id="taoptionAnswer2q8b1" class="block iDevice_content">
+<p>Pérdidas de materiales.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion9b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">¿Cuál es el nombre de la disciplina científica que tiene por objeto la prevención de enfermedades profesionales a través del estudio y valoración del medio ambiente del trabajo?</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b11" class="sr-av"><a href="#answer-key9b11">Opción 1</a></label><input type="radio" name="key9b1" id="key9b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b11"><a name="answer-key9b11"></a>
+<div id="taoptionAnswer0q9b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Higiene Industrial.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b12" class="sr-av"><a href="#answer-key9b12">Opción 2</a></label><input type="radio" name="key9b1" id="key9b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b12"><a name="answer-key9b12"></a>
+<div id="taoptionAnswer1q9b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ergonomía.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b13" class="sr-av"><a href="#answer-key9b13">Opción 3</a></label><input type="radio" name="key9b1" id="key9b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b13"><a name="answer-key9b13"></a>
+<div id="taoptionAnswer2q9b1" class="block iDevice_content">
+<p>Seguridad en el trabajo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion10b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">¿Cuál es el principio fundamental de toda acción preventiva?</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b11" class="sr-av"><a href="#answer-key10b11">Opción 1</a></label><input type="radio" name="key10b1" id="key10b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b11"><a name="answer-key10b11"></a>
+<div id="taoptionAnswer0q10b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Proteger al trabajador en su puesto de trabajo.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b12" class="sr-av"><a href="#answer-key10b12">Opción 2</a></label><input type="radio" name="key10b1" id="key10b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b12"><a name="answer-key10b12"></a>
+<div id="taoptionAnswer1q10b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Evitar el riesgo.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b13" class="sr-av"><a href="#answer-key10b13">Opción 3</a></label><input type="radio" name="key10b1" id="key10b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b13"><a name="answer-key10b13"></a>
+<div id="taoptionAnswer2q10b1" class="block iDevice_content">
+<p>Prevenir los accidentes laborales.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion11b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">Señala la opción correcta en relación a los reglamentos.</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b11" class="sr-av"><a href="#answer-key11b11">Opción 1</a></label><input type="radio" name="key11b1" id="key11b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b11"><a name="answer-key11b11"></a>
+<div id="taoptionAnswer0q11b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Serán de aplicación específica.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b12" class="sr-av"><a href="#answer-key11b12">Opción 2</a></label><input type="radio" name="key11b1" id="key11b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b12"><a name="answer-key11b12"></a>
+<div id="taoptionAnswer1q11b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Serán vinculantes en su totalidad y directamente aplicables en todos los Estados miembros.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b13" class="sr-av"><a href="#answer-key11b13">Opción 3</a></label><input type="radio" name="key11b1" id="key11b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b13"><a name="answer-key11b13"></a>
+<div id="taoptionAnswer2q11b1" class="block iDevice_content">
+<p>Se utilizan para armonizar o aproximar las legislaciones nacionales.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion12b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">Confirma si la siguiente afirmación es verdadera o falsa:
+<p><em>“La Organización Internacional del Trabajo, es un organismo en el que participan los gobiernos, los empresarios y los trabajadores de los países miembros cuya función es establecer una directrices de carácter general en materia laboral”.</em></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b11" class="sr-av"><a href="#answer-key12b11">Opción 1</a></label><input type="radio" name="key12b1" id="key12b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b11"><a name="answer-key12b11"></a>
+<div id="taoptionAnswer0q12b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b12" class="sr-av"><a href="#answer-key12b12">Opción 2</a></label><input type="radio" name="key12b1" id="key12b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b12"><a name="answer-key12b12"></a>
+<div id="taoptionAnswer1q12b1" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion13b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">Indica cuál de los siguientes casos corresponde con las obligaciones del trabajador en materia de prevención de riesgos laborales recogidas en el artículo 29.</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b11" class="sr-av"><a href="#answer-key13b11">Opción 1</a></label><input type="radio" name="key13b1" id="key13b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b11"><a name="answer-key13b11"></a>
+<div id="taoptionAnswer0q13b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Vigilancia periódica de su salud.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b12" class="sr-av"><a href="#answer-key13b12">Opción 2</a></label><input type="radio" name="key13b1" id="key13b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b12"><a name="answer-key13b12"></a>
+<div id="taoptionAnswer1q13b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Participar en todos los aspectos de la prevención en el trabajo.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b13" class="sr-av"><a href="#answer-key13b13">Opción 3</a></label><input type="radio" name="key13b1" id="key13b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b13"><a name="answer-key13b13"></a>
+<div id="taoptionAnswer2q13b1" class="block iDevice_content">
+<p>Cooperar con el empresario para que éste pueda garantizar unas condiciones de trabajo seguras.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion14b1" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado">Confirma si la siguiente afirmación es verdadera o falsa:
+<p><em>“El incumplimiento de las obligaciones en materia de prevención de riesgos laborales por parte de un empresario puede dar lugar a responsabilidades civiles por daños y perjuicios y en casos extremos a responsabilidades penales”.</em></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b11" class="sr-av"><a href="#answer-key14b11">Opción 1</a></label><input type="radio" name="key14b1" id="key14b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b11"><a name="answer-key14b11"></a>
+<div id="taoptionAnswer0q14b1" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b12" class="sr-av"><a href="#answer-key14b12">Opción 2</a></label><input type="radio" name="key14b1" id="key14b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b12"><a name="answer-key14b12"></a>
+<div id="taoptionAnswer1q14b1" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.3. Cambios a los nombres de las hojas </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4.3. Cambios a los nombres de las hojas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id9">
+<div class="iDevice emphasis0">
+<div id="ta9_85" class="block iDevice_content">
+<p>Abra de nuevo el editor de código de Visual Basic, haciendo doble clic sobre el libro en el Examinador de proyectos. En la parte superior del editor, a la izquierda, hay una lista. Despliéguela y elija el único elemento existente: Workbokk. El editor generará automáticamente un procedimiento llamado Workbook_Open, dentro del cual podemos introducir el código que necesitemos. Este procedimiento tiene la particularidad de ejecutarse cada vez que se abre el libro, que es precisamente lo que nos interesa en este momento.</p>
+<p>Complete el código del procedimiento dejándolo tal como se puede ver a continuación:</p>
+<p>Private Sub Workbook_Open ()</p>
+<p>‘ La primera hoja tendrá el número 1</p>
+<p>Numero = 1</p>
+<p>For Each Hoja In Worksheets</p>
+<p>‘ Cambiando su nombre</p>
+<p>Hoja.Name = “Hoja” &amp; Numero</p>
+<p>‘ sumamos uno al número</p>
+<p>Numero = Numero + 1</p>
+<p>Next ‘ siguiente hoja</p>
+<p>End sub</p>
+<p>Lo primero que hacemos es crear una variable, un recipiente, al que hemos llamado Numero, almacenando en él el valor 1. Es como si tuviésemos una celdilla con un nombre y escribiésemos en ella un dato, la diferencia es que esa celdilla no aparece en libro alguno.</p>
+<p>A continuación usamos la pareja de órdenes For Each/Next para examinar, una a una, todas las hojas que haya en el libro, obteniéndolas de la propiedad Worksheets. Las órdenes que hay entre For Each y Next, en este caso sólo dos, se repiten una vez por cada hoja. La hoja a tratar la obtenemos en la variable Hoja, cuya propiedad Name usamos para modificar el nombre. El valor que asignamos es el título Hoja seguido del número que tenga la variable Numero.</p>
+<p>Finalmente, tomamos el valor que tiene la variable y le sumamos 1. Es como si introdujésemos en una celdilla una fórmula que le suma uno a esa misma celdilla.</p>
+<p>Para comprobar el funcionamiento de esta macro comience cambiando los nombres de todas sus hojas. A continuación, guárdelo y ciérrelo, abriéndolo seguidamente habilitado la ejecución de macros. Podrá apreciar cómo durante un instante las hojas aparecen con los nombres que les dio, pero inmediato, se cambian por sus nombres por defecto.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

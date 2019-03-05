@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>5.1.Una función para calcular raíces cúbicas </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">5.1.Una función para calcular raíces cúbicas</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id219">
+<div class="iDevice emphasis0">
+<div id="ta219_85" class="block iDevice_content">
+<p>Como de lo que se trata es de conocer el procedimiento para crear la función, y no de su utilidad práctica, tomaremos un caso muy sencillo: crear una función que permita obtener la raíz cúbica de cualquier número.</p>
+<p>Lo primero que tiene que hacer es abrir el editor de Visual Basic, lo cual puede conseguir mediante la opción Desarrollador&gt;Código&gt;Visual Basic o pulsando <b>Alt-F11 . </b>Y en el editor, que en principio muestra el código de la macro creada anteriormente pero podría estar vacío, introducimos el código que puede verse en la parte inferior de la figura 11 .9 .</p>
+<p><img width="495" id="IMG_NXA3SVJydHklMkJHYUVCTXQzNWQ2NldMV0xiRHBxaG5rdEVhNjNnNVliTDVzJTNE" alt="Cómo grabar y usar los macros" title="Cómo grabar y usar los macros" src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NXA3SVJydHklMkJHYUVCTXQzNWQ2NldMV0xiRHBxaG5rdEVhNjNnNVliTDVzJTNE" /></p>
+<p><strong>FIGURA 11.9</strong></p>
+<p></p>
+<p>Para indicar a VBA que vamos a crear una función usamos la palabra Function, tras la cual disponemos el nombre de esa función. Entre paréntesis se enumeran los argumentos que precisaría la función.</p>
+<p>En este caso, como puede ver, tan sólo hay un parámetro que se ha identificado con el nombre Valor. El final de la función viene indicado por End Function. Las líneas intermedias contienen las órdenes necesarias para obtener la raíz cúbica del número entregado como argumento.</p>
+<p>Calcular la raíz cúbica no es una operación compleja. Ya que la radicación es la operación inversa a la potenciación, lo que hacemos es usar como exponente para el operador ^ el inverso de la base, que en este caso sería 3 . Observe que lo que se ha escrito es prácticamente una fórmula que, como todas, comienza con el símbolo = y está seguida de unos operandos y operadores. La diferencia, no obstante, es que delante se ha dispuesto el nombre de la función.</p>
+<p>Utilizando la misma técnica podría escribir, por ejemplo, una función para obtener el área de un triángulo rectángulo, la hipotenusa u otros valores que pudiera necesitar.</p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

@@ -1,0 +1,467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id9">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 0;
+var key1 = 0;
+var key2 = 1;
+var key3 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b9");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm9").key0b9[i].checked)
+               {
+                  question0 = document.getElementById("quizForm9").key0b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b9");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm9").key1b9[i].checked)
+               {
+                  question1 = document.getElementById("quizForm9").key1b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b9");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm9").key2b9[i].checked)
+               {
+                  question2 = document.getElementById("quizForm9").key2b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b9");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm9").key3b9[i].checked)
+               {
+                  question3 = document.getElementById("quizForm9").key3b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm9").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm9" id="quizForm9" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-9" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b9" class="block iDevice_content">
+<p><b>¿Qué propiedades usamos para seleccionar una tabla de datos a partir de una celdilla?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b91" class="sr-av"><a href="#answer-key0b91">Opción 1</a></label><input type="radio" name="key0b9" id="key0b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b91"><a name="answer-key0b91"></a>
+<div id="taoptionAnswer0q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">ActiveCell, Selection y Range</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b92" class="sr-av"><a href="#answer-key0b92">Opción 2</a></label><input type="radio" name="key0b9" id="key0b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b92"><a name="answer-key0b92"></a>
+<div id="taoptionAnswer1q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">ActiveCell, Selection y Rango</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b93" class="sr-av"><a href="#answer-key0b93">Opción 3</a></label><input type="radio" name="key0b9" id="key0b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b93"><a name="answer-key0b93"></a>
+<div id="taoptionAnswer2q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">ActiveCell, Rango y Sección</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b94" class="sr-av"><a href="#answer-key0b94">Opción 4</a></label><input type="radio" name="key0b9" id="key0b94" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b94"><a name="answer-key0b94"></a>
+<div id="taoptionAnswer3q0b9" class="block iDevice_content">
+<p>ActiveCell, Sección y Range</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b9" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Usamos </b> <i><b>Select</b> </i><b> para seleccionar múltiples celdillas?</b></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b91" class="sr-av"><a href="#answer-key1b91">Opción 1</a></label><input type="radio" name="key1b9" id="key1b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b91"><a name="answer-key1b91"></a>
+<div id="taoptionAnswer0q1b9" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b92" class="sr-av"><a href="#answer-key1b92">Opción 2</a></label><input type="radio" name="key1b9" id="key1b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b92"><a name="answer-key1b92"></a>
+<div id="taoptionAnswer1q1b9" class="block iDevice_content">
+<p>Falso</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b9" class="block iDevice_content">
+<p><b>¿Para qué solicitamos al usuario que nos indique dónde desea esos resultados?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b91" class="sr-av"><a href="#answer-key2b91">Opción 1</a></label><input type="radio" name="key2b9" id="key2b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b91"><a name="answer-key2b91"></a>
+<div id="taoptionAnswer0q2b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Para añadir nuevas formulas a una tabla</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b92" class="sr-av"><a href="#answer-key2b92">Opción 2</a></label><input type="radio" name="key2b9" id="key2b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b92"><a name="answer-key2b92"></a>
+<div id="taoptionAnswer1q2b9" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Para añadir nuevos datos a una hoja</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b93" class="sr-av"><a href="#answer-key2b93">Opción 3</a></label><input type="radio" name="key2b9" id="key2b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b93"><a name="answer-key2b93"></a>
+<div id="taoptionAnswer2q2b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Para añadir nuevos datos a un libro</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b94" class="sr-av"><a href="#answer-key2b94">Opción 4</a></label><input type="radio" name="key2b9" id="key2b94" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b94"><a name="answer-key2b94"></a>
+<div id="taoptionAnswer3q2b9" class="block iDevice_content">
+<p>Todas las respuestas son falsas</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b9" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Qué función tienen los métodos </b> <i><b>Next </b> </i><b>y </b> <i><b>Previous</b> </i><b>?</b></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b91" class="sr-av"><a href="#answer-key3b91">Opción 1</a></label><input type="radio" name="key3b9" id="key3b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b91"><a name="answer-key3b91"></a>
+<div id="taoptionAnswer0q3b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Desplazan una celdilla a la derecha</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b92" class="sr-av"><a href="#answer-key3b92">Opción 2</a></label><input type="radio" name="key3b9" id="key3b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b92"><a name="answer-key3b92"></a>
+<div id="taoptionAnswer1q3b9" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Devuelven una referencia a la celdilla anterior o a la siguiente</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b93" class="sr-av"><a href="#answer-key3b93">Opción 3</a></label><input type="radio" name="key3b9" id="key3b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b93"><a name="answer-key3b93"></a>
+<div id="taoptionAnswer2q3b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Desplazan una celdilla a la izquierda</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b94" class="sr-av"><a href="#answer-key3b94">Opción 4</a></label><input type="radio" name="key3b9" id="key3b94" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b94"><a name="answer-key3b94"></a>
+<div id="taoptionAnswer3q3b9" class="block iDevice_content">
+<p>Devuelven una referencia a la celdilla posterior</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id10">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-10_108">
+<form name="multi-select-form-10_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion10_108" class="block question iDevice_content">
+<p><b>¿Para acceder al contenido de la celdilla de que propiedades disponemos? Elige las respuestas correctas</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op10_1080" class="sr-av"><a href="#answer-10_111">Opción 1</a></label><input type="checkbox" id="op10_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-10_111"><a name="answer-10_111"></a>
+<div id="taans10_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Borders</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-10_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op10_1081" class="sr-av"><a href="#answer-10_370">Opción 2</a></label><input type="checkbox" id="op10_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-10_370"><a name="answer-10_370"></a>
+<div id="taans10_370" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Font</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-10_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op10_1082" class="sr-av"><a href="#answer-10_372">Opción 3</a></label><input type="checkbox" id="op10_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-10_372"><a name="answer-10_372"></a>
+<div id="taans10_372" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Formula</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-10_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op10_1083" class="sr-av"><a href="#answer-10_374">Opción 4</a></label><input type="checkbox" id="op10_1083" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-10_374"><a name="answer-10_374"></a>
+<div id="taans10_374" class="block iDevice_content">
+<p>Value</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-10_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'10_108')"/> 
+</p>
+</div>
+<div id="f10_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-10_111" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-10_370" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-10_372" class="right">Correcto</a></li>
+<li><a href="#answer-10_374" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,1561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Examen </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Examen</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id0">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 20;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var question5;
+var question6;
+var question7;
+var question8;
+var question9;
+var question10;
+var question11;
+var question12;
+var question13;
+var question14;
+var question15;
+var question16;
+var question17;
+var question18;
+var question19;
+var key0 = 1;
+var key1 = 0;
+var key2 = 2;
+var key3 = 2;
+var key4 = 0;
+var key5 = 0;
+var key6 = 1;
+var key7 = 2;
+var key8 = 1;
+var key9 = 1;
+var key10 = 1;
+var key11 = 0;
+var key12 = 2;
+var key13 = 2;
+var key14 = 3;
+var key15 = 3;
+var key16 = 2;
+var key17 = 0;
+var key18 = 2;
+var key19 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b0");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key0b0[i].checked)
+               {
+                  question0 = document.getElementById("quizForm0").key0b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b0");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key1b0[i].checked)
+               {
+                  question1 = document.getElementById("quizForm0").key1b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b0");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key2b0[i].checked)
+               {
+                  question2 = document.getElementById("quizForm0").key2b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b0");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key3b0[i].checked)
+               {
+                  question3 = document.getElementById("quizForm0").key3b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b0");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key4b0[i].checked)
+               {
+                  question4 = document.getElementById("quizForm0").key4b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.5.id","key5b0");
+            scorm.SetInteractionValue("cmi.interactions.5.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.5.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key5b0[i].checked)
+               {
+                  question5 = document.getElementById("quizForm0").key5b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.5.student_response",question5);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.6.id","key6b0");
+            scorm.SetInteractionValue("cmi.interactions.6.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.6.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key6b0[i].checked)
+               {
+                  question6 = document.getElementById("quizForm0").key6b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.6.student_response",question6);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.7.id","key7b0");
+            scorm.SetInteractionValue("cmi.interactions.7.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.7.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key7b0[i].checked)
+               {
+                  question7 = document.getElementById("quizForm0").key7b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.7.student_response",question7);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.8.id","key8b0");
+            scorm.SetInteractionValue("cmi.interactions.8.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.8.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key8b0[i].checked)
+               {
+                  question8 = document.getElementById("quizForm0").key8b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.8.student_response",question8);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.9.id","key9b0");
+            scorm.SetInteractionValue("cmi.interactions.9.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.9.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key9b0[i].checked)
+               {
+                  question9 = document.getElementById("quizForm0").key9b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.9.student_response",question9);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.10.id","key10b0");
+            scorm.SetInteractionValue("cmi.interactions.10.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.10.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key10b0[i].checked)
+               {
+                  question10 = document.getElementById("quizForm0").key10b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.10.student_response",question10);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.11.id","key11b0");
+            scorm.SetInteractionValue("cmi.interactions.11.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.11.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key11b0[i].checked)
+               {
+                  question11 = document.getElementById("quizForm0").key11b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.11.student_response",question11);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.12.id","key12b0");
+            scorm.SetInteractionValue("cmi.interactions.12.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.12.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key12b0[i].checked)
+               {
+                  question12 = document.getElementById("quizForm0").key12b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.12.student_response",question12);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.13.id","key13b0");
+            scorm.SetInteractionValue("cmi.interactions.13.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.13.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key13b0[i].checked)
+               {
+                  question13 = document.getElementById("quizForm0").key13b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.13.student_response",question13);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.14.id","key14b0");
+            scorm.SetInteractionValue("cmi.interactions.14.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.14.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key14b0[i].checked)
+               {
+                  question14 = document.getElementById("quizForm0").key14b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.14.student_response",question14);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.15.id","key15b0");
+            scorm.SetInteractionValue("cmi.interactions.15.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.15.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key15b0[i].checked)
+               {
+                  question15 = document.getElementById("quizForm0").key15b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.15.student_response",question15);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.16.id","key16b0");
+            scorm.SetInteractionValue("cmi.interactions.16.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.16.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key16b0[i].checked)
+               {
+                  question16 = document.getElementById("quizForm0").key16b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.16.student_response",question16);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.17.id","key17b0");
+            scorm.SetInteractionValue("cmi.interactions.17.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.17.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key17b0[i].checked)
+               {
+                  question17 = document.getElementById("quizForm0").key17b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.17.student_response",question17);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.18.id","key18b0");
+            scorm.SetInteractionValue("cmi.interactions.18.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.18.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key18b0[i].checked)
+               {
+                  question18 = document.getElementById("quizForm0").key18b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.18.student_response",question18);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.19.id","key19b0");
+            scorm.SetInteractionValue("cmi.interactions.19.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.19.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key19b0[i].checked)
+               {
+                  question19 = document.getElementById("quizForm0").key19b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.19.student_response",question19);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+            if (question5 == key5)
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","wrong");
+            }
+            if (question6 == key6)
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","wrong");
+            }
+            if (question7 == key7)
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","wrong");
+            }
+            if (question8 == key8)
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","wrong");
+            }
+            if (question9 == key9)
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","wrong");
+            }
+            if (question10 == key10)
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","wrong");
+            }
+            if (question11 == key11)
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","wrong");
+            }
+            if (question12 == key12)
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","wrong");
+            }
+            if (question13 == key13)
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","wrong");
+            }
+            if (question14 == key14)
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","wrong");
+            }
+            if (question15 == key15)
+            {
+               scorm.SetInteractionValue("cmi.interactions.15.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.15.result","wrong");
+            }
+            if (question16 == key16)
+            {
+               scorm.SetInteractionValue("cmi.interactions.16.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.16.result","wrong");
+            }
+            if (question17 == key17)
+            {
+               scorm.SetInteractionValue("cmi.interactions.17.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.17.result","wrong");
+            }
+            if (question18 == key18)
+            {
+               scorm.SetInteractionValue("cmi.interactions.18.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.18.result","wrong");
+            }
+            if (question19 == key19)
+            {
+               scorm.SetInteractionValue("cmi.interactions.19.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.19.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm0").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica.</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm0" id="quizForm0" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-0" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b0" class="block iDevice_content">
+<p><strong>Una de las características más útiles e importantes del marketing consiste:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b01" class="sr-av"><a href="#answer-key0b01">Opción 1</a></label><input type="radio" name="key0b0" id="key0b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b01"><a name="answer-key0b01"></a>
+<div id="taoptionAnswer0q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En el compromiso juicioso entre los diferentes elementos internos y externos que participan en todo ciclo de actividad.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b02" class="sr-av"><a href="#answer-key0b02">Opción 2</a></label><input type="radio" name="key0b0" id="key0b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b02"><a name="answer-key0b02"></a>
+<div id="taoptionAnswer1q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">En poder planificar, con bastante garantía de éxito, el futuro de nuestra empresa, basándonos para ello en las respuestas que ofrezcamos a las demandas del mercado.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b03" class="sr-av"><a href="#answer-key0b03">Opción 3</a></label><input type="radio" name="key0b0" id="key0b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b03"><a name="answer-key0b03"></a>
+<div id="taoptionAnswer2q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En identificar qué variables y factores influyen en la calidad de nuestra empresa.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b04" class="sr-av"><a href="#answer-key0b04">Opción 4</a></label><input type="radio" name="key0b0" id="key0b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b04"><a name="answer-key0b04"></a>
+<div id="taoptionAnswer3q0b0" class="block iDevice_content">
+<p>Todas las respuestas son correctas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b0" class="block iDevice_content">
+<p><strong>¿Qué es la imagen corporativa?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b01" class="sr-av"><a href="#answer-key1b01">Opción 1</a></label><input type="radio" name="key1b0" id="key1b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b01"><a name="answer-key1b01"></a>
+<div id="taoptionAnswer0q1b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Es el valor perceptivo que el público tiene de la marca y se forma como resultado acumulativo de todos los mensajes que emite la empresa.</div>
+<p></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b02" class="sr-av"><a href="#answer-key1b02">Opción 2</a></label><input type="radio" name="key1b0" id="key1b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b02"><a name="answer-key1b02"></a>
+<div id="taoptionAnswer1q1b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Conjunto de características de un proceso, producto o servicio, que le confieren su aptitud para satisfacer las necesidades del cliente y sus expectativas razonables.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b03" class="sr-av"><a href="#answer-key1b03">Opción 3</a></label><input type="radio" name="key1b0" id="key1b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b03"><a name="answer-key1b03"></a>
+<div id="taoptionAnswer2q1b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Es el conjunto de técnicas que se aplican en el punto de venta para motivar el acto de compra de la manera más rentable, tanto para el fabricante como para el distribuidor, satisfaciendo, al mismo tiempo, las necesidades del consumidor.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b04" class="sr-av"><a href="#answer-key1b04">Opción 4</a></label><input type="radio" name="key1b0" id="key1b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b04"><a name="answer-key1b04"></a>
+<div id="taoptionAnswer3q1b0" class="block iDevice_content">
+<p>Ninguna de las respuestas es correcta.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b0" class="block iDevice_content">
+<div class="ee_enunciado"><strong> Completa la siguiente afirmación con la opción correcta:</strong><br /> <em>“El ___</em> _____<em> es el área dentro de la cual los vendedores y los compradores de una mercancía mantienen estrechas relaciones comerciales y llevan a cabo abundantes transacciones, de tal manera que los distintos precios a que éstas se realizan tienden a unificarse”.</em></div>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b01" class="sr-av"><a href="#answer-key2b01">Opción 1</a></label><input type="radio" name="key2b0" id="key2b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b01"><a name="answer-key2b01"></a>
+<div id="taoptionAnswer0q2b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Escaparatismo.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b02" class="sr-av"><a href="#answer-key2b02">Opción 2</a></label><input type="radio" name="key2b0" id="key2b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b02"><a name="answer-key2b02"></a>
+<div id="taoptionAnswer1q2b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Merchandising.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b03" class="sr-av"><a href="#answer-key2b03">Opción 3</a></label><input type="radio" name="key2b0" id="key2b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b03"><a name="answer-key2b03"></a>
+<div id="taoptionAnswer2q2b0" class="block iDevice_content">
+<p>Mercado.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b0" class="block iDevice_content">
+<p><strong>¿Cómo se define al conjunto de características de un proceso, producto o servicio, que le confieren su aptitud para satisfacer las necesidades del cliente y sus expectativas razonables?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b01" class="sr-av"><a href="#answer-key3b01">Opción 1</a></label><input type="radio" name="key3b0" id="key3b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b01"><a name="answer-key3b01"></a>
+<div id="taoptionAnswer0q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Excelencia.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b02" class="sr-av"><a href="#answer-key3b02">Opción 2</a></label><input type="radio" name="key3b0" id="key3b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b02"><a name="answer-key3b02"></a>
+<div id="taoptionAnswer1q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Marca.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b03" class="sr-av"><a href="#answer-key3b03">Opción 3</a></label><input type="radio" name="key3b0" id="key3b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b03"><a name="answer-key3b03"></a>
+<div id="taoptionAnswer2q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Calidad.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b04" class="sr-av"><a href="#answer-key3b04">Opción 4</a></label><input type="radio" name="key3b0" id="key3b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b04"><a name="answer-key3b04"></a>
+<div id="taoptionAnswer3q3b0" class="block iDevice_content">
+<p>Identidad corporativa.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b0" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><strong> Confirma si la siguiente afirmación es verdadera o falsa: </strong><br /> <em>“El concepto de excelencia, vendrá definido por la ejecución exitosa de los criterios de calidad”.</em></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b01" class="sr-av"><a href="#answer-key4b01">Opción 1</a></label><input type="radio" name="key4b0" id="key4b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b01"><a name="answer-key4b01"></a>
+<div id="taoptionAnswer0q4b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b02" class="sr-av"><a href="#answer-key4b02">Opción 2</a></label><input type="radio" name="key4b0" id="key4b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b02"><a name="answer-key4b02"></a>
+<div id="taoptionAnswer1q4b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion5b0" class="block iDevice_content">
+<p><strong>Completa la siguiente afirmación con la opción correcta: </strong><br /> <em>“El _</em> ______________<em> es el conjunto de técnicas que se aplican en el punto de venta para motivar el acto de compra de la manera más rentable, tanto para el fabricante como para el distribuidor, satisfaciendo, al mismo tiempo, las necesidades del consumidor”.</em></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b01" class="sr-av"><a href="#answer-key5b01">Opción 1</a></label><input type="radio" name="key5b0" id="key5b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b01"><a name="answer-key5b01"></a>
+<div id="taoptionAnswer0q5b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Merchandising</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b02" class="sr-av"><a href="#answer-key5b02">Opción 2</a></label><input type="radio" name="key5b0" id="key5b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b02"><a name="answer-key5b02"></a>
+<div id="taoptionAnswer1q5b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Mercado.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b03" class="sr-av"><a href="#answer-key5b03">Opción 3</a></label><input type="radio" name="key5b0" id="key5b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b03"><a name="answer-key5b03"></a>
+<div id="taoptionAnswer2q5b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Marketing.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b04" class="sr-av"><a href="#answer-key5b04">Opción 4</a></label><input type="radio" name="key5b0" id="key5b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b04"><a name="answer-key5b04"></a>
+<div id="taoptionAnswer3q5b0" class="block iDevice_content">
+<p>Escaparatismo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion6b0" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><strong> Confirma si la siguiente afirmación es verdadera o falsa:</strong> <br /> <em>“El escaparate no debe sintetizar y reflejar las características del establecimiento, así el cliente no se va a hacer una idea de los productos y por lo tanto aumentará su curiosidad por entrar al comercio”.</em></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b01" class="sr-av"><a href="#answer-key6b01">Opción 1</a></label><input type="radio" name="key6b0" id="key6b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b01"><a name="answer-key6b01"></a>
+<div id="taoptionAnswer0q6b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b02" class="sr-av"><a href="#answer-key6b02">Opción 2</a></label><input type="radio" name="key6b0" id="key6b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b02"><a name="answer-key6b02"></a>
+<div id="taoptionAnswer1q6b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion7b0" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><strong> ¿En qué época se concibe realmente el escaparate como tal?</strong></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b01" class="sr-av"><a href="#answer-key7b01">Opción 1</a></label><input type="radio" name="key7b0" id="key7b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b01"><a name="answer-key7b01"></a>
+<div id="taoptionAnswer0q7b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En la antigüedad, con los fenicios.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b02" class="sr-av"><a href="#answer-key7b02">Opción 2</a></label><input type="radio" name="key7b0" id="key7b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b02"><a name="answer-key7b02"></a>
+<div id="taoptionAnswer1q7b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En la Edad Media.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b03" class="sr-av"><a href="#answer-key7b03">Opción 3</a></label><input type="radio" name="key7b0" id="key7b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b03"><a name="answer-key7b03"></a>
+<div id="taoptionAnswer2q7b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Durante el dominio de Roma.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b04" class="sr-av"><a href="#answer-key7b04">Opción 4</a></label><input type="radio" name="key7b0" id="key7b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b04"><a name="answer-key7b04"></a>
+<div id="taoptionAnswer3q7b0" class="block iDevice_content">
+<p>Junto con la Revolución Industrial</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion8b0" class="block iDevice_content">
+<p><strong>¿Cuál es la función del escaparate?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b01" class="sr-av"><a href="#answer-key8b01">Opción 1</a></label><input type="radio" name="key8b0" id="key8b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b01"><a name="answer-key8b01"></a>
+<div id="taoptionAnswer0q8b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Crear nuevos clientes.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b02" class="sr-av"><a href="#answer-key8b02">Opción 2</a></label><input type="radio" name="key8b0" id="key8b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b02"><a name="answer-key8b02"></a>
+<div id="taoptionAnswer1q8b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Exhibir estéticamente los artículos y promover las ventas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b03" class="sr-av"><a href="#answer-key8b03">Opción 3</a></label><input type="radio" name="key8b0" id="key8b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b03"><a name="answer-key8b03"></a>
+<div id="taoptionAnswer2q8b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ambientar las calles.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b04" class="sr-av"><a href="#answer-key8b04">Opción 4</a></label><input type="radio" name="key8b0" id="key8b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b04"><a name="answer-key8b04"></a>
+<div id="taoptionAnswer3q8b0" class="block iDevice_content">
+<p>Producir sensaciones al observador.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion9b0" class="block iDevice_content">
+<p><strong>¿Qué tipos de escaparates nos encontramos según la presentación del escaparate?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b01" class="sr-av"><a href="#answer-key9b01">Opción 1</a></label><input type="radio" name="key9b0" id="key9b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b01"><a name="answer-key9b01"></a>
+<div id="taoptionAnswer0q9b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Escaparate isla, escaparate de visión frontal y escaparate clásico</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b02" class="sr-av"><a href="#answer-key9b02">Opción 2</a></label><input type="radio" name="key9b0" id="key9b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b02"><a name="answer-key9b02"></a>
+<div id="taoptionAnswer1q9b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Escaparates de rebajas, escaparates de fiesta, escaparates de alto nivel, escaparates informativos y escaparates animados.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b03" class="sr-av"><a href="#answer-key9b03">Opción 3</a></label><input type="radio" name="key9b0" id="key9b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b03"><a name="answer-key9b03"></a>
+<div id="taoptionAnswer2q9b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Escaparates de artículos y escaparates de moda.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b04" class="sr-av"><a href="#answer-key9b04">Opción 4</a></label><input type="radio" name="key9b0" id="key9b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b04"><a name="answer-key9b04"></a>
+<div id="taoptionAnswer3q9b0" class="block iDevice_content">
+<p>Ninguna de las respuestas es correcta.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion10b0" class="block iDevice_content">
+<p><strong>¿Qué tipo de escaparate transmiten imagen de exclusividad?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b01" class="sr-av"><a href="#answer-key10b01">Opción 1</a></label><input type="radio" name="key10b0" id="key10b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b01"><a name="answer-key10b01"></a>
+<div id="taoptionAnswer0q10b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Escaparates publicitarios de marca.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b02" class="sr-av"><a href="#answer-key10b02">Opción 2</a></label><input type="radio" name="key10b0" id="key10b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b02"><a name="answer-key10b02"></a>
+<div id="taoptionAnswer1q10b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Escaparates sin mercancía o producto.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b03" class="sr-av"><a href="#answer-key10b03">Opción 3</a></label><input type="radio" name="key10b0" id="key10b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b03"><a name="answer-key10b03"></a>
+<div id="taoptionAnswer2q10b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Escaparate de artículos.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b04" class="sr-av"><a href="#answer-key10b04">Opción 4</a></label><input type="radio" name="key10b0" id="key10b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b04"><a name="answer-key10b04"></a>
+<div id="taoptionAnswer3q10b0" class="block iDevice_content">
+<p>Escaparates informativos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion11b0" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><strong> Confirma si la siguiente afirmación es verdadera o falsa: </strong><br /> “<em>Los precios, en el caso de que no sea visible o sean tan pequeños que no se consiguen casi ver, serán identificados como precios caros”</em></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b01" class="sr-av"><a href="#answer-key11b01">Opción 1</a></label><input type="radio" name="key11b0" id="key11b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b01"><a name="answer-key11b01"></a>
+<div id="taoptionAnswer0q11b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b02" class="sr-av"><a href="#answer-key11b02">Opción 2</a></label><input type="radio" name="key11b0" id="key11b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b02"><a name="answer-key11b02"></a>
+<div id="taoptionAnswer1q11b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion12b0" class="block iDevice_content">
+<p><strong>¿Qué tipo de composición trata de reproducir la misma composición a un lado y el otro del escaparate?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b01" class="sr-av"><a href="#answer-key12b01">Opción 1</a></label><input type="radio" name="key12b0" id="key12b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b01"><a name="answer-key12b01"></a>
+<div id="taoptionAnswer0q12b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Triangular.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b02" class="sr-av"><a href="#answer-key12b02">Opción 2</a></label><input type="radio" name="key12b0" id="key12b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b02"><a name="answer-key12b02"></a>
+<div id="taoptionAnswer1q12b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Lineal</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b03" class="sr-av"><a href="#answer-key12b03">Opción 3</a></label><input type="radio" name="key12b0" id="key12b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b03"><a name="answer-key12b03"></a>
+<div id="taoptionAnswer2q12b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Simétrica.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b04" class="sr-av"><a href="#answer-key12b04">Opción 4</a></label><input type="radio" name="key12b0" id="key12b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b04"><a name="answer-key12b04"></a>
+<div id="taoptionAnswer3q12b0" class="block iDevice_content">
+<p>Asimétrica.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion13b0" class="block iDevice_content">
+<p><strong>¿Qué principio básico del escaparate contribuye a que el cliente capte inmediatamente la imagen de un escaparate con el mínimo esfuerzo por parte de aquél?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b01" class="sr-av"><a href="#answer-key13b01">Opción 1</a></label><input type="radio" name="key13b0" id="key13b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b01"><a name="answer-key13b01"></a>
+<div id="taoptionAnswer0q13b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El principio de nitidez.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b02" class="sr-av"><a href="#answer-key13b02">Opción 2</a></label><input type="radio" name="key13b0" id="key13b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b02"><a name="answer-key13b02"></a>
+<div id="taoptionAnswer1q13b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El principio de homogeneidad.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b03" class="sr-av"><a href="#answer-key13b03">Opción 3</a></label><input type="radio" name="key13b0" id="key13b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b03"><a name="answer-key13b03"></a>
+<div id="taoptionAnswer2q13b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">El principio de simplicidad.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b04" class="sr-av"><a href="#answer-key13b04">Opción 4</a></label><input type="radio" name="key13b0" id="key13b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b04"><a name="answer-key13b04"></a>
+<div id="taoptionAnswer3q13b0" class="block iDevice_content">
+<p>El principio de economía.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion14b0" class="block iDevice_content">
+<p><strong>El montaje frecuente y repetido de escaparates requiere una importante inversión, ¿Qué soluciones utilizarías para conseguir un ahorro?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b01" class="sr-av"><a href="#answer-key14b01">Opción 1</a></label><input type="radio" name="key14b0" id="key14b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b01"><a name="answer-key14b01"></a>
+<div id="taoptionAnswer0q14b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El empleo de módulos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b02" class="sr-av"><a href="#answer-key14b02">Opción 2</a></label><input type="radio" name="key14b0" id="key14b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b02"><a name="answer-key14b02"></a>
+<div id="taoptionAnswer1q14b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El empleo de elementos multifuncionales.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b03" class="sr-av"><a href="#answer-key14b03">Opción 3</a></label><input type="radio" name="key14b0" id="key14b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b03"><a name="answer-key14b03"></a>
+<div id="taoptionAnswer2q14b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El empleo de materiales reutilizables.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b04" class="sr-av"><a href="#answer-key14b04">Opción 4</a></label><input type="radio" name="key14b0" id="key14b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b04"><a name="answer-key14b04"></a>
+<div id="taoptionAnswer3q14b0" class="block iDevice_content">
+<p>Todas las respuestas son correctas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion15b0" class="block iDevice_content">
+<p><strong>¿Qué otros factores influyen claramente en el peso?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b01" class="sr-av"><a href="#answer-key15b01">Opción 1</a></label><input type="radio" name="key15b0" id="key15b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b01"><a name="answer-key15b01"></a>
+<div id="taoptionAnswer0q15b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El color y el tamaño</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b02" class="sr-av"><a href="#answer-key15b02">Opción 2</a></label><input type="radio" name="key15b0" id="key15b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b02"><a name="answer-key15b02"></a>
+<div id="taoptionAnswer1q15b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Las características del objeto</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b03" class="sr-av"><a href="#answer-key15b03">Opción 3</a></label><input type="radio" name="key15b0" id="key15b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b03"><a name="answer-key15b03"></a>
+<div id="taoptionAnswer2q15b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El aislamiento y el interés.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b04" class="sr-av"><a href="#answer-key15b04">Opción 4</a></label><input type="radio" name="key15b0" id="key15b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b04"><a name="answer-key15b04"></a>
+<div id="taoptionAnswer3q15b0" class="block iDevice_content">
+<p>Todas las respuestas son correctas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion16b0" class="block iDevice_content">
+<p><strong>Para lograr una visibilidad óptima es importante saber a qué altura hay que situar el artículo. ¿Qué posición se utiliza para artículos de gran tamaño?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b01" class="sr-av"><a href="#answer-key16b01">Opción 1</a></label><input type="radio" name="key16b0" id="key16b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b01"><a name="answer-key16b01"></a>
+<div id="taoptionAnswer0q16b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Altura de la vista.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b02" class="sr-av"><a href="#answer-key16b02">Opción 2</a></label><input type="radio" name="key16b0" id="key16b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b02"><a name="answer-key16b02"></a>
+<div id="taoptionAnswer1q16b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Altura de las manos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b03" class="sr-av"><a href="#answer-key16b03">Opción 3</a></label><input type="radio" name="key16b0" id="key16b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b03"><a name="answer-key16b03"></a>
+<div id="taoptionAnswer2q16b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Altura de los pies.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b04" class="sr-av"><a href="#answer-key16b04">Opción 4</a></label><input type="radio" name="key16b0" id="key16b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b04"><a name="answer-key16b04"></a>
+<div id="taoptionAnswer3q16b0" class="block iDevice_content">
+<p>Por encima de la altura de la vista.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion17b0" class="block iDevice_content">
+<p><strong>Confirma si la siguiente afirmación es verdadera o falsa: </strong><br /> <em>“La distribución de los elementos en el escaparate ha de hacerse posicionando los objetos según su peso visual”.</em></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b01" class="sr-av"><a href="#answer-key17b01">Opción 1</a></label><input type="radio" name="key17b0" id="key17b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b01"><a name="answer-key17b01"></a>
+<div id="taoptionAnswer0q17b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b02" class="sr-av"><a href="#answer-key17b02">Opción 2</a></label><input type="radio" name="key17b0" id="key17b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b02"><a name="answer-key17b02"></a>
+<div id="taoptionAnswer1q17b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion18b0" class="block iDevice_content">
+<p><strong>¿En qué consiste la técnica del punto dominante?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b01" class="sr-av"><a href="#answer-key18b01">Opción 1</a></label><input type="radio" name="key18b0" id="key18b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b01"><a name="answer-key18b01"></a>
+<div id="taoptionAnswer0q18b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Reunir los artículos que forman la composición, en el lado extremo derecho del área expositiva del escaparate.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b02" class="sr-av"><a href="#answer-key18b02">Opción 2</a></label><input type="radio" name="key18b0" id="key18b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b02"><a name="answer-key18b02"></a>
+<div id="taoptionAnswer1q18b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Segmentar o fragmentar el área expositiva del escaparate, en pequeños espacios o nichos con el fin de componer diferentes escenas o pequeños escaparates monográficos o multitemáticos entre ellos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b03" class="sr-av"><a href="#answer-key18b03">Opción 3</a></label><input type="radio" name="key18b0" id="key18b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b03"><a name="answer-key18b03"></a>
+<div id="taoptionAnswer2q18b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">En concentrar los artículos que forman la composición del escaparate, en la parte izquierda del área expositiva.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b04" class="sr-av"><a href="#answer-key18b04">Opción 4</a></label><input type="radio" name="key18b0" id="key18b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b04"><a name="answer-key18b04"></a>
+<div id="taoptionAnswer3q18b0" class="block iDevice_content">
+<p>Conformar una composición temática con el fin de crear una escena integrada, guardando el orden y sentido de una representación escénica dentro del área expositiva del escaparate.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion19b0" class="block iDevice_content">
+<p><strong>La técnica de punto concéntrico transmite un mensaje de:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b01" class="sr-av"><a href="#answer-key19b01">Opción 1</a></label><input type="radio" name="key19b0" id="key19b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b01"><a name="answer-key19b01"></a>
+<div id="taoptionAnswer0q19b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Equilibrio.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b02" class="sr-av"><a href="#answer-key19b02">Opción 2</a></label><input type="radio" name="key19b0" id="key19b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b02"><a name="answer-key19b02"></a>
+<div id="taoptionAnswer1q19b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Simetría.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b03" class="sr-av"><a href="#answer-key19b03">Opción 3</a></label><input type="radio" name="key19b0" id="key19b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b03"><a name="answer-key19b03"></a>
+<div id="taoptionAnswer2q19b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Asimetría.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b04" class="sr-av"><a href="#answer-key19b04">Opción 4</a></label><input type="radio" name="key19b0" id="key19b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b04"><a name="answer-key19b04"></a>
+<div id="taoptionAnswer3q19b0" class="block iDevice_content">
+<p>Unidad.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

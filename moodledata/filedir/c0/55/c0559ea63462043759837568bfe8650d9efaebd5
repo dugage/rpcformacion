@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-36" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id39">
+<div class="iDevice emphasis0">
+<div id="ta39_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id40">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 2;
+var key1 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b40");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm40").key0b40[i].checked)
+               {
+                  question0 = document.getElementById("quizForm40").key0b40[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b40");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm40").key1b40[i].checked)
+               {
+                  question1 = document.getElementById("quizForm40").key1b40[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm40").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm40" id="quizForm40" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-40" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b40" class="block iDevice_content">
+<div class="ee_enunciado"><b>1. ¿Cuál no pertenece a una función de los hidratos de carbono?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b401" class="sr-av"><a href="#answer-key0b401">Opción 1</a></label><input type="radio" name="key0b40" id="key0b401" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b401">
+<div id="taoptionAnswer0q0b40" class="block iDevice_content">
+<p>Función energética.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b402" class="sr-av"><a href="#answer-key0b402">Opción 2</a></label><input type="radio" name="key0b40" id="key0b402" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b402">
+<div id="taoptionAnswer1q0b40" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada">Función desintoxicante.</div>
+</div>
+<div class="botonera" id="botonera"></div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b403" class="sr-av"><a href="#answer-key0b403">Opción 3</a></label><input type="radio" name="key0b40" id="key0b403" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b403">
+<div id="taoptionAnswer2q0b40" class="block iDevice_content">
+<p>Función transportadora.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b40" class="block iDevice_content">
+<div class="ee_enunciado"><b>2. ¿Qué carbohidratos de los siguientes se pueden clasificar como polisacáridos de reserva?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b401" class="sr-av"><a href="#answer-key1b401">Opción 1</a></label><input type="radio" name="key1b40" id="key1b401" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b401">
+<div id="taoptionAnswer0q1b40" class="block iDevice_content">
+<p>Celulosa y glucógeno.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b402" class="sr-av"><a href="#answer-key1b402">Opción 2</a></label><input type="radio" name="key1b40" id="key1b402" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b402">
+<div id="taoptionAnswer1q1b40" class="block iDevice_content">
+<p>Glucógeno y almidón.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b403" class="sr-av"><a href="#answer-key1b403">Opción 3</a></label><input type="radio" name="key1b40" id="key1b403" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b403">
+<div id="taoptionAnswer2q1b40" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="botonera" id="botonera">Almidón y gomas.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore40"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id41">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-41_108">
+<form name="multi-select-form-41_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion41_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>3. ¿Cuáles de estos son considerados azúcares? (Respuesta múltiple)</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op41_1080" class="sr-av"><a href="#answer-41_111">Opción 1</a></label><input type="checkbox" id="op41_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-41_111"><div id="taans41_111" class="block iDevice_content">
+<p>Sacarosa.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-41_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op41_1081" class="sr-av"><a href="#answer-41_166">Opción 2</a></label><input type="checkbox" id="op41_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-41_166"><div id="taans41_166" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada"></div>
+</div>
+<div class="botonera" id="botonera">Glucógeno.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-41_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op41_1082" class="sr-av"><a href="#answer-41_168">Opción 3</a></label><input type="checkbox" id="op41_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-41_168"><div id="taans41_168" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada"></div>
+<div class="ee_respuesta ee_correct">Glucosa.</div>
+</div>
+<div class="botonera" id="botonera"></div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-41_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-41_108" /> 
+</p>
+</div>
+<section id="f41_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-41_111" class="right">Correcto</a></li>
+<li><a href="#answer-41_166" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-41_168" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+<section class="question">
+<div id="actitity-41_170">
+<form name="multi-select-form-41_170" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion41_170" class="block question iDevice_content">
+<div class="ee_enunciado"><b>4. ¿En qué porciones diferentes se divide el almidón? (Respuesta múltiple)</b></div>
+<p><span class="textPregSolucionario"> </span></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op41_1700" class="sr-av"><a href="#answer-41_173">Opción 1</a></label><input type="checkbox" id="op41_1700" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-41_173"><div id="taans41_173" class="block iDevice_content">
+<p>Amilosa.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-41_1700" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op41_1701" class="sr-av"><a href="#answer-41_175">Opción 2</a></label><input type="checkbox" id="op41_1701" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-41_175"><div id="taans41_175" class="block iDevice_content">
+<p>Amilopectina.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-41_1701" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op41_1702" class="sr-av"><a href="#answer-41_177">Opción 3</a></label><input type="checkbox" id="op41_1702" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-41_177"><div id="taans41_177" class="block iDevice_content">
+<p>Sustancias pécticas.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-41_1702" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-41_170" /> 
+</p>
+</div>
+<section id="f41_170" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-41_173" class="right">Correcto</a></li>
+<li><a href="#answer-41_175" class="right">Correcto</a></li>
+<li><a href="#answer-41_177" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id42">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b42");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm42").key0b42[i].checked)
+               {
+                  question0 = document.getElementById("quizForm42").key0b42[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm42").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm42" id="quizForm42" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-42" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b42" class="block iDevice_content">
+<div class="ee_enunciado"><b>5. ¿Qué tipo de enlace existe entre los monómeros de glucosa en la celulosa?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b421" class="sr-av"><a href="#answer-key0b421">Opción 1</a></label><input type="radio" name="key0b42" id="key0b421" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b421">
+<div id="taoptionAnswer0q0b42" class="block iDevice_content">
+<p>Enlace α 1,4.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b422" class="sr-av"><a href="#answer-key0b422">Opción 2</a></label><input type="radio" name="key0b42" id="key0b422" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b422">
+<div id="taoptionAnswer1q0b42" class="block iDevice_content">
+<p>Enlace α 1,6.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b423" class="sr-av"><a href="#answer-key0b423">Opción 3</a></label><input type="radio" name="key0b42" id="key0b423" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b423">
+<div id="taoptionAnswer2q0b42" class="block iDevice_content">
+<p>Enlace β 1,4.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore42"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

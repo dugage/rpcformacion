@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value="presencial"></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value="classroom"></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_extraHeadContent"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value="learner"></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="1"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="Glosario"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="2"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="2"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="5">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Glosario"></unicode>
+     <string role="key" value="idevices"></string>
+     <list></list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="1"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="scorm"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Glosario"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="4">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Glosario"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="3">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;AMINOÁCIDOS&lt;/strong&gt;. Compuestos orgánicos a partir de los cuales se construyen las proteínas.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;AMINOÁCIDOS ESENCIALES&lt;/strong&gt;. Aminoácidos para los cuales la síntesis es inadecuada para mantener las necesidades metabólicas de forma que tienen que ser reemplazados en la dieta; estos aminoácidos son: trionina, triptófano, histidina, lisina, leucina, isoleucina, metionina, valina y fenilalanina.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;AMINOÁCIDOS NO ESENCIALES&lt;/strong&gt;. Aminoácidos que el cuerpo es capaz de sintetizar para mantener los requerimientos metabólicos; estos son: Ácido glutámico. alanina, arginina, asparagina, cisteina, cistina, glicina, glutamina, ornitina, prolina, serina y tirosina.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ÁCIDO ASCÓRBICO&lt;/strong&gt;. Es la Vitamina C y se encuentra casi exclusivamente en los vegetales frescos. Opera en el organismo como transportadora de oxigeno e hidrógeno y también interviene en la asimilación de ciertos aminoácidos, del ácido fólico y del hierro; tiene efectos antioxidantes y participa de forma determinante en los procesos de desintoxicación que se producen en el hígado. Contrarresta los efectos de los nitratos (pesticidas) en el estomago.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ALBÚMINA DE HUEVO&lt;/strong&gt;. Proteína de la clara del huevo.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ANABÓLICA&lt;/strong&gt;. Condición metabólica donde se sintetizan nuevas moléculas.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ANABÓLICOS&lt;/strong&gt;. Sustancias que tienen como función principal la síntesis de las proteínas corporales.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ANABOLISMO&lt;/strong&gt;. Conjunto de reacciones metabólicas que conducen a la síntesis de los compuestos necesarios para el crecimiento, desarrollo y mantenimiento de las estructuras de un organismo.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ANFETAMINAS&lt;/strong&gt;. Fármacos que provocan euforia, disminución del sueño y reducción de la sensación de hambre y fatiga.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ARTERIOSCLEROSIS&lt;/strong&gt;. Endurecimiento de las paredes de las arterias.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ATP&lt;/strong&gt;. Adenosina trifosfato.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;AVICEL&lt;/strong&gt;. CELULOSA MICROCRISTALINA. Bioflavonoides: Parte del complejo C, necesario para la adecuada función y absorción de vitamina C; ayuda a resistir infecciones, nutren y fortalecen los capilares y células del cuerpo.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;CALCIO&lt;/strong&gt;. Es un mineral que cumple un papel esencial en la formación de los huesos, tejidos duros, dientes y los mantiene fuertes. También participa en la coagulación de la sangre, las funciones musculares, y es vital para la transmisión nerviosa.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;CATABOLISMO&lt;/strong&gt;. Conjunto de reacciones enzimáticas por las cuales el organismo degrada los glucósidos, lípidos y prótidos ingeridos como nutrientes, y obtiene los materiales y la energía necesaria para la biosíntesis o anabolismo. // Destrucción de fibra muscular.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;COLINA&lt;/strong&gt;. Vitamina que forma parte del grupo B y que produce en el cerebro una sustancia que fortalece la memoria y participa también en la transmisión de los impulsos nerviosos. Si se toma una gran cantidad de esta vitamina, debe tomarse también calcio para compensar el exceso de fósforo que se produce en el organismo.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;CREATINA&lt;/strong&gt;. La Creatina es una sustancia producida por nuestro cuerpo, en el hígado y almacenada en la fibra muscular. Se libera en forma de alta energía como un combustible inmediato del cuerpo cuando se realiza alguna actividad física.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;CRETINISMO&lt;/strong&gt;. Un tipo de discapacidad mental y física grave que se presenta en los hijos de mujeres con deficiencia grave de hierro en el primer trimestre del embarazo.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ENZIMAS&lt;/strong&gt;. Moléculas diminutas que desencadenan determinadas reacciones. Ayudan a procesar los alimentos entre otras cosas. Nosotros creamos nuestras propias enzimas y otras vienen ya en los alimentos.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ENZIMAS DIGESTIVAS&lt;/strong&gt;. Sustancias que actúan sobre los alimentos para dejarlos en su forma más simple y que puedan ser absorbidos.&lt;/p&gt;
+&lt;p style=&quot;outline: none; color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;ESTEROIDES ANABÓLICOS&lt;/strong&gt;. Son una versión sintética de la hormona masculina testosterona.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;FENILALANINA&lt;/strong&gt;. Aminoácido que forma parte de gran número de proteínas.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;FLATULENCIA&lt;/strong&gt;. Combinación de gases generados por trastornos digestivos, producidos cuando las bacterias en el intestino se nutren por las porciones no absorbidas de ciertos alimentos.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;FÓSFORO&lt;/strong&gt;. Es un mineral que se encuentra presente en todos los alimentos, sobre todo en los alimentos ricos en calcio. Es esencial para la producción de energía a través de los alimentos.&lt;/p&gt;
+&lt;p style=&quot;outline: none; color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;FRUCTUOSA&lt;/strong&gt;. La fructosa, o levulosa, es una forma de azúcar encontrada en los vegetales, las frutas y la miel. Es un monosacárido con la misma fórmula empírica que la glucosa pero con diferente estructura, es decir, es un isómero de ésta.&lt;/p&gt;
+&lt;p style=&quot;outline: none; color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fcfdfd; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;GARCINIA CAMBOGIA. &lt;/strong&gt;&lt;span style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fcfdfd; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;La Garcinia cambogia es una planta común en el sur de la India, donde ha sido utilizada durante años como especia, y también para tratar diversas afecciones (infecciones bucofaríngeas, hepatitis, problemas digestivos…).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;L-CARNITINA&lt;/strong&gt;. La L-Carnitina es un transportador de los ácidos grasos (lípidos) a la mitocondria, encargada de la producción de la energía de la célula, pero también es el lugar donde estos ácidos grasos son convertidos en energía.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;L-GLUTAMINA&lt;/strong&gt;. Este aminoácido ayuda a mantener y desarrollar la masa muscular evitando que se presente una disminución de la misma causado por la falta de L-glutamina durante los períodos de ejercicio. La L-Glutamina es un aminoácido que se encuentra en grandes cantidades en los músculos.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;LIPOTRÓPICO&lt;/strong&gt;. Sustancia que favorece la eliminación de grasas.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;L-LISINA&lt;/strong&gt;. Es uno de los más importantes aminoácidos porque, en junto con varios aminoácidos más interviene en diversas funciones, incluyendo el crecimiento, reparación de tejidos, anticuerpos del sistema inmunológico y síntesis de hormonas. Aminoácido vital para la fabricación de proteínas esenciales para el cuerpo.&lt;/p&gt;
+&lt;p style=&quot;outline: none; color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;L-TAURINA&lt;/strong&gt;. Estimula la hormona del crecimiento en asociación con otros aminoácidos y esta implicada en la regulación de la presión sanguínea. Fortalece el músculo cardiaco y tonifica el sistema nervioso.&lt;/p&gt;
+&lt;p style=&quot;outline: none; color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fcfdfd; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;METABOLISMO&lt;/strong&gt;&lt;span style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fcfdfd; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;. Conjunto de modificaciones que sufre una sustancia desde su entrada en el interior de un organismo hasta su transformación final.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;PEPSINA&lt;/strong&gt;. Enzima segregada por la membrana mucosa del estómago. Es el principio más importante del jugo gástrico.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;PÉPTIDOS&lt;/strong&gt;. Los péptidos  son un tipo de moléculas formadas por la unión de varios aminoácidos mediante enlaces peptídicos.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;PICOLINATO DE CROMO&lt;/strong&gt;. Es un mineral traza esencial o metal de transición, cuya principal y más importante acción es potenciar la acción de la insulina a nivel celular.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;POLINICOTINATO DE CROMO&lt;/strong&gt;. Es un compuesto que permite que el organismo absorba 300 veces más el cromo que el mineral solo y 150 veces más que el picolinato de cromo. La función del cromo dietético es la de ser un cofactor de la insulina (ayuda a que la insulina trabaje mejor). La insulina es necesaria para el metabolismo de grasas y proteínas.&lt;/p&gt;
+&lt;p style=&quot;outline: none; color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;PROTEÍNAS&lt;/strong&gt;. Sustancia orgánica formada por la unión de moléculas sencillas, llamadas aminoácidos.&lt;/p&gt;
+&lt;p style=&quot;outline: none; color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;RADICALES LIBRES&lt;/strong&gt;. Fragmentos químicos altamente reactivos que pueden producir irritación en las paredes de las arterias e iniciar el proceso de arteriosclerosis si la vitamina E no está presente. Por lo general son perjudiciales.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;REBOTE&lt;/strong&gt;. Descomposición por falta de algún nutriente. Reacción inversa a lo que se ha manejado.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;SACAROSA&lt;/strong&gt;. Azúcar ordinaria.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;SANITIZADO&lt;/strong&gt;. Tratamiento especial por el cual se elimina la contaminación microbiológica en determinado producto. Anglosajonismo.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;SODIO&lt;/strong&gt;. Mineral que se encuentra presente en casi todos los alimentos como un ingrediente natural o como un ingrediente añadido durante el proceso de elaboración del mismo. La fuente principal es la sal de mesa. Este mineral contribuye al proceso digestivo manteniendo una presión osmótica adecuada y junto con el potasio, regula el equilibrio de los líquidos.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA A (BETACAROTENO)&lt;/strong&gt;. Es un antioxidante. Los carotenos son extractos de origen natural que actúan contra las sustancias cancerígenas. La vitamina A y su precursor betacaroteno, son poderosos reductores de radicales libres y son necesarios para mantener la salud de la piel y de las membranas mucosas, es fundamental para la salud de los ojos e incrementa la resistencia inmunológica.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA B&lt;sub&gt;1&lt;/sub&gt;(TIAMINA)&lt;/strong&gt;. La tiamina es indispensable para la nutrición de las células nerviosas, y afecta el metabolismo de los carbohidratos en el cuerpo; se encuentra comúnmente en alimentos como los frijoles, levadura de cerveza, harina integral, granos y cereales vitaminados y fortificados.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA B&lt;sub&gt;2&lt;/sub&gt;(RIVOFLAVINA)&lt;/strong&gt;. Vital para el crecimiento, la reproducción y el buen estado de la piel, uñas, cabellos y membranas mucosas. También beneficia la visión.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA B&lt;sub&gt;3&lt;/sub&gt;(NIACINA)&lt;/strong&gt;. Útil para el cerebro y el sistema nervioso. Ayuda a mantener una piel sana y un sistema digestivo eficaz.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA B&lt;sub&gt;5&lt;/sub&gt;(ACIDO PANTOTÉNICO)&lt;/strong&gt;. Útil para cicatrizar heridas y prevenir la fatiga; ayuda a la formación de las células, al crecimiento y al desarrollo del sistema nervioso. Se encuentra en casi todos los alimentos no procesados en exceso ni congelados.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA B&lt;sub&gt;6&lt;/sub&gt;(PIRIDOXINA)&lt;/strong&gt;. Estimula el sistema nervioso.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA B&lt;sub&gt;8&lt;/sub&gt;(BIOTINA)&lt;/strong&gt;. También conocida como vitamina H. Ideal para combatir la depresión, en el tratamiento de la calvicie y para que el cabello no se vuelva blanco, alivia los dolores musculares.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA B&lt;sub&gt;9&lt;/sub&gt;(ÁCIDO FÓLICO)&lt;/strong&gt;. Vital durante el crecimiento ya que participa en la síntesis del ADN, favorece el buen estado del cutis, retarda la aparición de las canas y ayuda a aumentar la leche materna.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA B&lt;sub&gt;12&lt;/sub&gt;(COBALAMINA)&lt;/strong&gt;. Se encuentra principalmente en alimentos de origen animal, para la rápida regeneración de los glóbulos rojos y de la medula ósea, mejora la concentración de la memoria.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA C (ÁCIDO ASCÓRBICO)&lt;/strong&gt;. La Vitamina C es un ingrediente indispensable en los procesos metabólicos de nuestro cuerpo y entre otros beneficios protege las células del cerebro y la medula espinal, estimula el sistema inmunológico y disminuye la incidencia de coágulos sanguíneos. Es un importante antioxidante hidrosoluble que actúa potenciando el efecto de otros antioxidantes tal como sucede con la Vitamina E.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA D (CALCIFEROL)&lt;/strong&gt;. Ayuda a absorber el calcio y fósforo útiles para el mantenimiento del sistema nervioso, dientes y huesos sanos; vital para la prevención y tratamiento de la osteoporosis.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important;&quot;&gt;VITAMINA E (TOCOFEROL)&lt;/strong&gt;. La Vitamina E es reconocida como una sustancia indispensable para mantener una salud general que nos proporciona una calidad de vida aceptable. Ayuda a metabolizar la glucosa en la sangre, es vital en la síntesis o transformación de grasas y proteínas. Es un antioxidante liposoluble que previene la oxidación de las sustancias oleosas que protegen las células, incrementa la respuesta inmune, previene la formación de cataratas y puede reducir el riesgo de daños a la arteria coronaria. Para potenciar su efecto debe tomarse con Selenio.&lt;/p&gt;
+&lt;p style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;color: #000000 !important; font-weight: bold !important; display: inline !important; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fcfdfd; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;ZINC&lt;/strong&gt;&lt;span style=&quot;color: #222222; font-family: Verdana, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 15px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #fcfdfd; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;. Mineral vital para el crecimiento y para la producción de insulina y las resistencias naturales; regula el desarrollo sexual.&lt;/span&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="3"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="4"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="scorm"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Glosario:Glosario"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="4"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value="Base"></string>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="4"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="15"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="None"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="other"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="school"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <none></none>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="yes"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <none></none>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="presencial"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="classroom"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Default"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="copyrightAndOtherRestrictions"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.copyrightAndOtherRestrictionsValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="None"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="5"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="INTEF"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

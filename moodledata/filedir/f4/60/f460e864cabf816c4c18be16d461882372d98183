@@ -1,0 +1,476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id4">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 2;
+var key1 = 2;
+var key2 = 0;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b4");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm4").key0b4[i].checked)
+               {
+                  question0 = document.getElementById("quizForm4").key0b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b4");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm4").key1b4[i].checked)
+               {
+                  question1 = document.getElementById("quizForm4").key1b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b4");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm4").key2b4[i].checked)
+               {
+                  question2 = document.getElementById("quizForm4").key2b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b4");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm4").key3b4[i].checked)
+               {
+                  question3 = document.getElementById("quizForm4").key3b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm4").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona la opción correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm4" id="quizForm4" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-4" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e" style="color: #233c4e;"><span face="Verdana, serif" style="font-family: Verdana, serif;"><span><b><span>¿Quién es el autor de la primera obra considerada de contabilidad?</span></b></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b41" class="sr-av"><a href="#answer-key0b41">Opción 1</a></label><input type="radio" name="key0b4" id="key0b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b41"><a name="answer-key0b41"></a>
+<div id="taoptionAnswer0q0b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>Giovanni Domenico Peri.</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b42" class="sr-av"><a href="#answer-key0b42">Opción 2</a></label><input type="radio" name="key0b4" id="key0b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b42"><a name="answer-key0b42"></a>
+<div id="taoptionAnswer1q0b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>Simon Stevin.</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b43" class="sr-av"><a href="#answer-key0b43">Opción 3</a></label><input type="radio" name="key0b4" id="key0b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b43"><a name="answer-key0b43"></a>
+<div id="taoptionAnswer2q0b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>Fray Luca Pacioli.</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b44" class="sr-av"><a href="#answer-key0b44">Opción 4</a></label><input type="radio" name="key0b4" id="key0b44" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b44"><a name="answer-key0b44"></a>
+<div id="taoptionAnswer3q0b4" class="block iDevice_content">
+<p><b>Hustcraft Stephens.</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e" style="color: #233c4e;"><span face="Verdana, serif" style="font-family: Verdana, serif;"><span><b>¿Qué significa que la contabilidad ha de ser comparable?</b></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b41" class="sr-av"><a href="#answer-key1b41">Opción 1</a></label><input type="radio" name="key1b4" id="key1b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b41"><a name="answer-key1b41"></a>
+<div id="taoptionAnswer0q1b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>Que ha de estar en continua relación con otras materias.</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b42" class="sr-av"><a href="#answer-key1b42">Opción 2</a></label><input type="radio" name="key1b4" id="key1b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b42"><a name="answer-key1b42"></a>
+<div id="taoptionAnswer1q1b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>Que debe comparar los resultados de otras ciencias para así obtener los suyos propios.</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b43" class="sr-av"><a href="#answer-key1b43">Opción 3</a></label><input type="radio" name="key1b4" id="key1b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b43"><a name="answer-key1b43"></a>
+<div id="taoptionAnswer2q1b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>Que nos debe permitir analizar el estado de distintas unidades económicas.</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b44" class="sr-av"><a href="#answer-key1b44">Opción 4</a></label><input type="radio" name="key1b4" id="key1b44" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b44"><a name="answer-key1b44"></a>
+<div id="taoptionAnswer3q1b4" class="block iDevice_content">
+<p><b>Que debe analizar los resultados económicos de un contexto.</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e" style="color: #233c4e;"><span face="Verdana, serif" style="font-family: Verdana, serif;"><span><b><span>Completa la siguiente afirmación: </span></b></span></span></span></p>
+<p align="justify"><span color="#233c4e" style="color: #233c4e;"><span>“<span face="Verdana, serif" style="font-family: Verdana, serif;"><span><b>La contabilidad es una ciencia de naturaleza _________ que tiene por objeto producir información para hacer posible el conocimiento pasado, presente y futuro de la ________ _________ en términos cuantitativos en todos sus niveles organizativos”.</b></span></span></span></span></p>
+<p align="justify"></p>
+<h2 class="western" align="justify"><br /><br /></h2>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b41" class="sr-av"><a href="#answer-key2b41">Opción 1</a></label><input type="radio" name="key2b4" id="key2b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b41"><a name="answer-key2b41"></a>
+<div id="taoptionAnswer0q2b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>Económica/Realidad Económica</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b42" class="sr-av"><a href="#answer-key2b42">Opción 2</a></label><input type="radio" name="key2b4" id="key2b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b42"><a name="answer-key2b42"></a>
+<div id="taoptionAnswer1q2b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>Financiera/Realidad Financiera</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b43" class="sr-av"><a href="#answer-key2b43">Opción 3</a></label><input type="radio" name="key2b4" id="key2b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b43"><a name="answer-key2b43"></a>
+<div id="taoptionAnswer2q2b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>Monetaria/Realidad Monetaria</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b44" class="sr-av"><a href="#answer-key2b44">Opción 4</a></label><input type="radio" name="key2b4" id="key2b44" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b44"><a name="answer-key2b44"></a>
+<div id="taoptionAnswer3q2b4" class="block iDevice_content">
+<p><b>Ninguna es correcta</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e" style="color: #233c4e;"><span face="Verdana, serif" style="font-family: Verdana, serif;"><span><b>Responde verdadero o falso: </b></span></span></span></p>
+<p align="justify"><span color="#233c4e" style="color: #233c4e;"><span>“<span face="Verdana, serif" style="font-family: Verdana, serif;"><span><b>En la Edad Media, el despegue de la actividad contable vendrá marcado por factores como el desarrollo del crédito, la creación de sociedades mercantiles y el uso del contrato de mandato”.</b></span></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b41" class="sr-av"><a href="#answer-key3b41">Opción 1</a></label><input type="radio" name="key3b4" id="key3b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b41"><a name="answer-key3b41"></a>
+<div id="taoptionAnswer0q3b4" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>Verdadero.</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b42" class="sr-av"><a href="#answer-key3b42">Opción 2</a></label><input type="radio" name="key3b4" id="key3b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b42"><a name="answer-key3b42"></a>
+<div id="taoptionAnswer1q3b4" class="block iDevice_content">
+<p><b>Falso.</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id6">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Elige las opciones correctas</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-6_108">
+<form name="multi-select-form-6_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion6_108" class="block question iDevice_content">
+<p align="justify"><span color="#233c4e" style="color: #233c4e;"><span face="Verdana, serif" style="font-family: Verdana, serif;"><span><b>¿Dónde surgen los primeros documentos contables que reflejan compraventas y operaciones comerciales? Respuesta Múltiple</b></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op6_1080" class="sr-av"><a href="#answer-6_111">Opción 1</a></label><input type="checkbox" id="op6_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-6_111"><a name="answer-6_111"></a>
+<div id="taans6_111" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>En Mesopotamia.</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-6_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op6_1081" class="sr-av"><a href="#answer-6_176">Opción 2</a></label><input type="checkbox" id="op6_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-6_176"><a name="answer-6_176"></a>
+<div id="taans6_176" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>En Grecia.</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-6_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op6_1082" class="sr-av"><a href="#answer-6_178">Opción 3</a></label><input type="checkbox" id="op6_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-6_178"><a name="answer-6_178"></a>
+<div id="taans6_178" class="block iDevice_content">
+<p align="justify"><span color="#233c4e"><span face="Verdana, serif"><b>En Egipto.</b></span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-6_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op6_1083" class="sr-av"><a href="#answer-6_180">Opción 4</a></label><input type="checkbox" id="op6_1083" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-6_180"><a name="answer-6_180"></a>
+<div id="taans6_180" class="block iDevice_content">
+<p><b>En Roma.</b></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-6_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'6_108')"/> 
+</p>
+</div>
+<div id="f6_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-6_111" class="right">Correcto</a></li>
+<li><a href="#answer-6_176" class="right">Correcto</a></li>
+<li><a href="#answer-6_178" class="right">Correcto</a></li>
+<li><a href="#answer-6_180" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

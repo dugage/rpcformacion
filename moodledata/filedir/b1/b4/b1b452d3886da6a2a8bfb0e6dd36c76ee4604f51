@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="XHTML"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Topic"></unicode>
+   <unicode value="Section"></unicode>
+   <unicode value="Unit"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="tema19"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="2"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="3"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="5">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="EJERCICIOS"></unicode>
+     <string role="key" value="idevices"></string>
+     <list></list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="1"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:EJERCICIOS"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="4">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="1. Enunciados:"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="3">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;En el siguiente ejercicio, vamos a realizar una planificación para una obra de construcción, crearemos una serie de proyectos iniciales que compondrán un proyecto consolidado.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 1.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Abra Microsoft Project 2016. Configure el archivo para que se programe de forma automática, programe el proyecto para a partir de la fecha de comienzo y regule las tareas nuevas para que estén condicionadas por el esfuerzo. Seleccione la opción para todos los proyectos futuros y guarde el proyecto con el nombre OBRA DE CONSTRUCCION.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 2.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Cree un nuevo calendario para el proyecto y denomínelo CALENDARIO PARA OBRA DE CONSTRUCCION. Configúrelo para que tenga el siguiente horario, Lunes a viernes de 8:00-14:00// 15:00-17:00. Festivos: 3 de Mayo y 16 de Agosto de 2015. Seleccione el calendario para el proyecto e indique la fecha de comienzo para el día 18 de Enero de 2015.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 3. &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Abra un nuevo archivo de Project, asígnele el calendario “CALENDARIO PARA OBRA DE CONSTRUCCION” y cree un grupo de recursos con los datos de la tabla y guarde el archivo con el nombre RECURSOS PARA OBRA DE CONSTRUCCIÓN.&lt;/p&gt;
+&lt;table border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;Nombre del recurso&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;&lt;b&gt;Tipo&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;
+&lt;p&gt;&lt;b&gt;Capacidad máxima&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;Tasa estándar&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;&lt;b&gt;Acumular&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;JEFE DE OBRA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Trabajo&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;
+&lt;p&gt;100%&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;3.500,00 €/ms&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Prorrateo&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;DIRECCION FACULTATIVA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Material&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;0,00 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Prorrateo&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CUADRILLA DE ALBAÑILERIA 1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Trabajo&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;
+&lt;p&gt;100%&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;6.000,00 €/ms&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Prorrateo&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CUADRILLA DE ALBAÑILERIA 2&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Trabajo&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;
+&lt;p&gt;100%&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;4.500,00 €/ms&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Prorrateo&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;EMPRESA DE PLADUR&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Material&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;13.000,00 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Fin&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;EMPRESA DE AISLAMIENTOS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Material&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;6.250,00 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Fin&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;SUMINISTROS DE ALBAÑILERIA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Material&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;12.000,00 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Comienzo&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;EMPRESA DE MONOCAPA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Material&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;8.000,00 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Fin&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;EMPRESA DE YESOS Y ESCAYOLAS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Material&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;4.500,00 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Fin&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;SUMINISTRO DE REVESTIMIENTOS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Material&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;13.000,00 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Comienzo&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;EMPRESA DE TARIMA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;53&quot;&gt;
+&lt;p&gt;Material&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;77&quot;&gt;&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;9.000,00 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;71&quot;&gt;
+&lt;p&gt;Fin&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 4.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Cree un archivo de Project para cada uno de los dos proyectos que se enuncian a continuación, asígneles el calendario “CALENDARIO PARA OBRA DE CONSTRUCCION” y defina como fecha de comienzo el día 18 de Enero de 2015. Denomine los proyectos como se indica e incorpore las tareas con sus correspondientes duraciones y recursos asignados. Los nombres en negrita indican que son tareas resumen.&lt;/p&gt;
+&lt;p&gt;Proyecto 1. Nombre: ALBAÑILERIA Y CUBIERTAS&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;Nombre de tarea&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;&lt;b&gt;Duración&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;Nombres de los recursos&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;ALBAÑILERIA&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;&lt;b&gt;1 día ?&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CERRAMIENTOS DE TERMOARCILLA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;15 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CUADRILLA DE ALBAÑILERIA 1;SUMINISTROS DE ALBAÑILERIA[1]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;TABIQUERIA DE PLADUR&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;10 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;EMPRESA DE PLADUR[1]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;CUBIERTAS&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;&lt;b&gt;1 día ?&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;FORMACION DE PENDIENTES&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;5 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CUADRILLA DE ALBAÑILERIA 2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;IMPERMEABILIZACION Y AISLAMIENTOS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;2 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;EMPRESA DE AISLAMIENTOS[1]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;RELLENO DE GRAVA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;1 día&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CUADRILLA DE ALBAÑILERIA 2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Proyecto 2. Nombre: REVESTIMIENTOS&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;Nombre de tarea&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;&lt;b&gt;Duración&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;Nombres de los recursos&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;REVESTIMIENTOS CONTINUOS&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;&lt;b&gt;1 día ?&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;ENFOSCADOS ALICATADO&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;6 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CUADRILLA DE ALBAÑILERIA 2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;MONOCAPA EXTERIOR&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;10 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;EMPRESA DE MONOCAPA[1]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;YESOS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;15 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;EMPRESA DE YESOS Y ESCAYOLAS[1]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;ALICATADOS Y CHAPADOS&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;&lt;b&gt;1 día ?&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;ALICATADO DE CUARTOS HUMEDOS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;12 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CUADRILLA DE ALBAÑILERIA 2;SUMINISTRO DE REVESTIMIENTOS[1]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;ALBARBILLAS EN CUBIERTA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;2 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CUADRILLA DE ALBAÑILERIA 1&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;PAVIMENTOS&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;&lt;b&gt;1 día ?&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;MORTERO AUTONIVELANTE&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;2 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CUADRILLA DE ALBAÑILERIA 2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;SOLERIA CUARTOS HUMEDOS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;3 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CUADRILLA DE ALBAÑILERIA 2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;TARIMA SINTETICA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot; width=&quot;67&quot;&gt;
+&lt;p&gt;5 días&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;EMPRESA DE TARIMA[1]&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 5&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Cierre los archivos dejando tan solo activo el proyecto OBRA DE CONSTRUCCION&lt;/p&gt;
+&lt;p&gt;e inserte una tarea repetitiva en la primera fila denomínela REUNION DE OBRA y configúrela para que tenga una duración de 2 horas y se realice todas la semanas los lunes y miércoles. Asígnele los recursos JEFE DE OBRAS y DIRECCION FACULTATIVA.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 6&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Inserte al proyecto OBRA DE CONSTRUCCION como subproyectos, los creados anteriormente y guardados como ALBAÑILERIA Y CUBIERTAS, y REVESTIMIENTOS.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 7&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Cree una línea base para el proyecto completo.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 8&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Vincule las tareas como se indica en el cuadro y corrija las sobreasignaciones como más le convenga.&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;&lt;b&gt;Nº&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;Nombre de tarea&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #dfe3e8;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;Predecesoras&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;&lt;b&gt;1&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;REUNION OBRA&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;&lt;b&gt;2&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;ALBAÑILERIA Y CUBIERTAS&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;&lt;b&gt;3&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt; ALBAÑILERIA&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CERRAMIENTOS DE TERMOARCILLA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;TABIQUERIA DE PLADUR&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;8&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;&lt;b&gt;6&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt; CUBIERTAS&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;7&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;FORMACION DE PENDIENTES&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;8&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;IMPERMEABILIZACION Y AISLAMIENTOS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;7&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;9&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;RELLENO DE GRAVA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;8&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;&lt;b&gt;10&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;REVESTIMIENTOS&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;&lt;b&gt;11&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt; REVESTIMIENTOS CONTINUOS&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;12&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;ENFOSCADOS ALICATADO&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;13&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;MONOCAPA EXTERIOR&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;4&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;14&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;YESOS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;&lt;b&gt;15&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt; ALICATADOS Y CHAPADOS&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;16&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;ALICATADO DE CUARTOS HUMEDOS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;12&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;17&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;ALBARBILLAS EN CUBIERTA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;11FF&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;&lt;b&gt;18&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt; PAVIMENTOS&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;19&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;MORTERO AUTONIVELANTE&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;5FF&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;20&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;SOLERIA CUARTOS HUMEDOS&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;19;16&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;top&quot; width=&quot;37&quot;&gt;
+&lt;p&gt;21&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;TARIMA SINTETICA&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #b1bbcc; border-style: solid; background-color: #ffffff;&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;19;14&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Fin a comienzo (FC, o sin nota), Comienzo a comienzo (CC), Fin a fin (FF) y Comienzo a fin (CF).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 9&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Visualice la ruta crítica del proyecto.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 10&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Visualice el informe Resumen del proyecto.&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="3"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="1"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="0"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="1"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:EJERCICIOS:1.%20Enunciados%3A"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="8">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="2. Soluciones:"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="6">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="7">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="6"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;b&gt;EJERCICIO 1&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Abra el programa y en el menú Archivo haga clic en Opciones y marque Programación, en el grupo Opciones de programación de este proyecto indique Todos los proyectos nuevos. Seleccione en los desplegables: programación automática y programación a partir de la fecha de comienzo del proyecto. En Tipo de tarea predeterminado, marque la casilla: Las tareas nuevas están condicionadas por el esfuerzo. Para Guardar el proyecto seleccione Archivo y haga clic en Guardar como, indique el nombre del enunciado y guárdelo en su ordenador.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 2&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Seleccione el comando Cambiar tiempo de trabajo, configure el calendario tomando como base el Estándar y seleccione la pestaña Semanas laborales para introducir el horario y la pestaña Excepciones para incorporar los festivos. Abra el cuadro de dialogo de Información del proyecto, indique la fecha de comienzo del enunciado y seleccione en el cuadro Calendario el modelo que acaba de crear.&lt;/p&gt;
+&lt;p&gt;Nota: Para asignar el calendario “CALENDARIO PARA OBRA DE CONSTRUCCION” a otros proyectos, primero tiene que poder visualizarlo. En el menú Archivo seleccione Información y abra el cuadro de dialogo Organizador. En la pestaña calendarios seleccione el calendario que hemos definido y cópielo en el cuadro “Global.MPT”.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 3&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Abra un nuevo proyecto en blanco desde el menú Archivo. Para seleccionar el calendario, abra el cuadro de Información del proyecto y selecciónelo en el desplegable Calendario. Abra la hoja de recursos y rellene los valores indicados en la tabla para cada campo. Para Guardar el proyecto seleccione Archivo y haga clic en Guardar como, indique el nombre el enunciado y guárdelo en su ordenador.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 4.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Abra un nuevo archivo de Project para cada proyecto. Para seleccionar el calendario en los nuevos proyectos abra el cuadro de información del proyecto y selecciónelo en el desplegable Calendario. En la tabla incorpore los nombres y duraciones del enunciado. Para asignar recursos del Grupo de recursos, tiene que abrir el archivo correspondiente. Seleccione Grupo de recursos, y en el cuadro de dialogo marque la casilla Usar recursos, seleccione el archivo creado con anterioridad y haga clic en Aceptar. Seleccione el comando Agregar recursos, active la tarea, seleccione los recursos y pulse Asignar. Guarde los archivos con los nombres indicados usando el comando Guardar como.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 5&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Active la primera celda disponible y seleccione el comando Insertar tarea periódica, en el cuadro de dialogo, configure los patrones de repetición y pulse Aceptar. Para asignar recursos del Grupo de recursos, tiene que abrir el archivo correspondiente. Seleccione Grupo de recursos, y en el cuadro de dialogo marque la casilla Usar recursos, y seleccione el archivo creado con anterioridad y haga clic en Aceptar. Seleccione el comando Agregar recursos, active la tarea, seleccione los recursos y pulse Asignar.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 6&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Sitúese en la tabla en la siguiente fila disponible, en la ficha Proyecto seleccione el comando Subproyecto, en la ventana busque los proyectos guardados con anterioridad y haga clic en Insertar.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 7&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Seleccione el comando Establecer línea base, de la ficha Proyecto. En el cuadro de dialogo marque línea base y proyecto completo y a continuación, haga clic en aceptar.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 8&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Seleccione las tareas en la tabla y haga clic en el comando Vincular tareas de la ficha Tarea. Para cambiar el vínculo haga un doble clic sobre la línea de vínculo y modifique el tipo en la ventana. Para corregir las sobreasignaciones puede usar el comando Redistribuir todo o aumentar la capacidad máxima de los recursos.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 9&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Seleccione la vista Gantt detallado en el cuadro de diálogo Mas vistas.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;EJERCICIO 10&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;En la ficha Proyecto, grupo Informes, haga clic en el comando Informes, en el grupo generales selección el informe Resumen del proyecto.&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="7"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="8"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:EJERCICIOS:2.%20Soluciones%3A"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="4"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="8"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="8"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="5c03de26-21e3-4346-b818-886a7acc9ee3"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="13"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="license"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="5c03de26-21e3-4346-b818-886a7acc9ee3"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="5c03de26-21e3-4346-b818-886a7acc9ee3"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Preestablecido"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="5"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="FPD-MEDU"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

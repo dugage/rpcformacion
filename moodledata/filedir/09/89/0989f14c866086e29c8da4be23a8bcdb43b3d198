@@ -1,0 +1,745 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Examen | Examen </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Examen</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id145">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 10;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var question5;
+var question6;
+var question7;
+var question8;
+var question9;
+var key0 = 1;
+var key1 = 0;
+var key2 = 2;
+var key3 = 1;
+var key4 = 1;
+var key5 = 0;
+var key6 = 0;
+var key7 = 0;
+var key8 = 2;
+var key9 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b145");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm145").key0b145[i].checked)
+               {
+                  question0 = document.getElementById("quizForm145").key0b145[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b145");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm145").key1b145[i].checked)
+               {
+                  question1 = document.getElementById("quizForm145").key1b145[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b145");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm145").key2b145[i].checked)
+               {
+                  question2 = document.getElementById("quizForm145").key2b145[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b145");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm145").key3b145[i].checked)
+               {
+                  question3 = document.getElementById("quizForm145").key3b145[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b145");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm145").key4b145[i].checked)
+               {
+                  question4 = document.getElementById("quizForm145").key4b145[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.5.id","key5b145");
+            scorm.SetInteractionValue("cmi.interactions.5.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.5.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm145").key5b145[i].checked)
+               {
+                  question5 = document.getElementById("quizForm145").key5b145[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.5.student_response",question5);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.6.id","key6b145");
+            scorm.SetInteractionValue("cmi.interactions.6.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.6.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm145").key6b145[i].checked)
+               {
+                  question6 = document.getElementById("quizForm145").key6b145[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.6.student_response",question6);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.7.id","key7b145");
+            scorm.SetInteractionValue("cmi.interactions.7.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.7.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm145").key7b145[i].checked)
+               {
+                  question7 = document.getElementById("quizForm145").key7b145[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.7.student_response",question7);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.8.id","key8b145");
+            scorm.SetInteractionValue("cmi.interactions.8.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.8.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm145").key8b145[i].checked)
+               {
+                  question8 = document.getElementById("quizForm145").key8b145[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.8.student_response",question8);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.9.id","key9b145");
+            scorm.SetInteractionValue("cmi.interactions.9.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.9.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm145").key9b145[i].checked)
+               {
+                  question9 = document.getElementById("quizForm145").key9b145[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.9.student_response",question9);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+            if (question5 == key5)
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","wrong");
+            }
+            if (question6 == key6)
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","wrong");
+            }
+            if (question7 == key7)
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","wrong");
+            }
+            if (question8 == key8)
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","wrong");
+            }
+            if (question9 == key9)
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm145").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm145" id="quizForm145" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-145" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b145" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si es verdadero o falso el siguiente enunciado: </b>“La nutrición es un proceso voluntario y consciente, por el que le proporcionamos a nuestro organismo los alimentos necesarios para poder vivir, crecer y desarrollarnos”.</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1451" class="sr-av"><a href="#answer-key0b1451">Opción 1</a></label><input type="radio" name="key0b145" id="key0b1451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1451"><a name="answer-key0b1451"></a>
+<div id="taoptionAnswer0q0b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1452" class="sr-av"><a href="#answer-key0b1452">Opción 2</a></label><input type="radio" name="key0b145" id="key0b1452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1452"><a name="answer-key0b1452"></a>
+<div id="taoptionAnswer1q0b145" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b145" class="block iDevice_content">
+<div class="ee_enunciado"><b>Los nutrientes se adquieren a través de…:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1451" class="sr-av"><a href="#answer-key1b1451">Opción 1</a></label><input type="radio" name="key1b145" id="key1b1451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1451"><a name="answer-key1b1451"></a>
+<div id="taoptionAnswer0q1b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Los alimentos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1452" class="sr-av"><a href="#answer-key1b1452">Opción 2</a></label><input type="radio" name="key1b145" id="key1b1452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1452"><a name="answer-key1b1452"></a>
+<div id="taoptionAnswer1q1b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Los frutivos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1453" class="sr-av"><a href="#answer-key1b1453">Opción 3</a></label><input type="radio" name="key1b145" id="key1b1453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1453"><a name="answer-key1b1453"></a>
+<div id="taoptionAnswer2q1b145" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Los hidratos de carbono.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b145" class="block iDevice_content">
+<div class="ee_enunciado"><b>El proceso por medio del cual el organismo fragmenta estos nutrientes en sustancias más sencillas para que puedan ser absorbidas se denomina:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1451" class="sr-av"><a href="#answer-key2b1451">Opción 1</a></label><input type="radio" name="key2b145" id="key2b1451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1451"><a name="answer-key2b1451"></a>
+<div id="taoptionAnswer0q2b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Alimentación.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1452" class="sr-av"><a href="#answer-key2b1452">Opción 2</a></label><input type="radio" name="key2b145" id="key2b1452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1452"><a name="answer-key2b1452"></a>
+<div id="taoptionAnswer1q2b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Nutrición.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1453" class="sr-av"><a href="#answer-key2b1453">Opción 3</a></label><input type="radio" name="key2b145" id="key2b1453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1453"><a name="answer-key2b1453"></a>
+<div id="taoptionAnswer2q2b145" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Digestión.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b145" class="block iDevice_content">
+<div class="ee_enunciado"><b>Completa el espacio en blanco del siguiente enunciado: </b>“Las ________________________ son una importante fuente de proteínas de alto valor biológico, de vitamina B12, hierro, potasio, fósforo y zinc”.</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1451" class="sr-av"><a href="#answer-key3b1451">Opción 1</a></label><input type="radio" name="key3b145" id="key3b1451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1451"><a name="answer-key3b1451"></a>
+<div id="taoptionAnswer0q3b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Legumbres.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1452" class="sr-av"><a href="#answer-key3b1452">Opción 2</a></label><input type="radio" name="key3b145" id="key3b1452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1452"><a name="answer-key3b1452"></a>
+<div id="taoptionAnswer1q3b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Carnes y embutidos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1453" class="sr-av"><a href="#answer-key3b1453">Opción 3</a></label><input type="radio" name="key3b145" id="key3b1453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1453"><a name="answer-key3b1453"></a>
+<div id="taoptionAnswer2q3b145" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Hortalizas.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b145" class="block iDevice_content">
+<p><b>Indica si es verdadero o falso el siguiente enunciado: </b><span>“Se entiende por alergia a los alimentos la incapacidad de consumir ciertos alimentos o nutrientes sin sufrir efectos adversos sobre la salud. Los efectos pueden ser más o menos rápidos”.</span></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1451" class="sr-av"><a href="#answer-key4b1451">Opción 1</a></label><input type="radio" name="key4b145" id="key4b1451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1451"><a name="answer-key4b1451"></a>
+<div id="taoptionAnswer0q4b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1452" class="sr-av"><a href="#answer-key4b1452">Opción 2</a></label><input type="radio" name="key4b145" id="key4b1452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1452"><a name="answer-key4b1452"></a>
+<div id="taoptionAnswer1q4b145" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion5b145" class="block iDevice_content">
+<div class="ee_enunciado"><b>La forma específica de reacción adversa a un alimento o a alguno de sus componentes es lo que se denomina:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b1451" class="sr-av"><a href="#answer-key5b1451">Opción 1</a></label><input type="radio" name="key5b145" id="key5b1451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b1451"><a name="answer-key5b1451"></a>
+<div id="taoptionAnswer0q5b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Alergia.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b1452" class="sr-av"><a href="#answer-key5b1452">Opción 2</a></label><input type="radio" name="key5b145" id="key5b1452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b1452"><a name="answer-key5b1452"></a>
+<div id="taoptionAnswer1q5b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Intolerancia.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b1453" class="sr-av"><a href="#answer-key5b1453">Opción 3</a></label><input type="radio" name="key5b145" id="key5b1453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b1453"><a name="answer-key5b1453"></a>
+<div id="taoptionAnswer2q5b145" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Intoxicación alimentaria.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion6b145" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si es verdadero o falso el siguiente enunciado:</b>“Dependiendo de la edad, las alergias pueden ser permanentes o pueden desaparecer con el paso del tiempo”.</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b1451" class="sr-av"><a href="#answer-key6b1451">Opción 1</a></label><input type="radio" name="key6b145" id="key6b1451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b1451"><a name="answer-key6b1451"></a>
+<div id="taoptionAnswer0q6b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b1452" class="sr-av"><a href="#answer-key6b1452">Opción 2</a></label><input type="radio" name="key6b145" id="key6b1452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b1452"><a name="answer-key6b1452"></a>
+<div id="taoptionAnswer1q6b145" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion7b145" class="block iDevice_content">
+<div class="ee_enunciado"><b>La alergia más frecuente en la infancia es la alergia a:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b1451" class="sr-av"><a href="#answer-key7b1451">Opción 1</a></label><input type="radio" name="key7b145" id="key7b1451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b1451"><a name="answer-key7b1451"></a>
+<div id="taoptionAnswer0q7b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Las leche de vaca.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b1452" class="sr-av"><a href="#answer-key7b1452">Opción 2</a></label><input type="radio" name="key7b145" id="key7b1452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b1452"><a name="answer-key7b1452"></a>
+<div id="taoptionAnswer1q7b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La sacarosa.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b1453" class="sr-av"><a href="#answer-key7b1453">Opción 3</a></label><input type="radio" name="key7b145" id="key7b1453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b1453"><a name="answer-key7b1453"></a>
+<div id="taoptionAnswer2q7b145" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Los huevos.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion8b145" class="block iDevice_content">
+<div class="ee_enunciado"><b>Completa el espacio en blanco del siguiente enunciado: </b>“En la enfermedad celíaca ___________________ predominan los síntomas digestivos, aparece especialmente en niños menores de dos años, y en adultos entre los treinta y los cuarenta años, los síntomas más frecuentes son: diarrea con heces voluminosas, malolientes y brillantes…”.</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b1451" class="sr-av"><a href="#answer-key8b1451">Opción 1</a></label><input type="radio" name="key8b145" id="key8b1451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b1451"><a name="answer-key8b1451"></a>
+<div id="taoptionAnswer0q8b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Atípica.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b1452" class="sr-av"><a href="#answer-key8b1452">Opción 2</a></label><input type="radio" name="key8b145" id="key8b1452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b1452"><a name="answer-key8b1452"></a>
+<div id="taoptionAnswer1q8b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Mixta.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b1453" class="sr-av"><a href="#answer-key8b1453">Opción 3</a></label><input type="radio" name="key8b145" id="key8b1453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b1453"><a name="answer-key8b1453"></a>
+<div id="taoptionAnswer2q8b145" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Clásica.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion9b145" class="block iDevice_content">
+<div class="ee_enunciado"><b>La aparición de cambios o modificaciones, fácilmente apreciables por los órganos de los sentidos, que muestran una pérdida de las características de calidad y frescura en los alimentos, es lo que se conoce como:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b1451" class="sr-av"><a href="#answer-key9b1451">Opción 1</a></label><input type="radio" name="key9b145" id="key9b1451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b1451"><a name="answer-key9b1451"></a>
+<div id="taoptionAnswer0q9b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Contaminación.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b1452" class="sr-av"><a href="#answer-key9b1452">Opción 2</a></label><input type="radio" name="key9b145" id="key9b1452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b1452"><a name="answer-key9b1452"></a>
+<div id="taoptionAnswer1q9b145" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Alteración.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b1453" class="sr-av"><a href="#answer-key9b1453">Opción 3</a></label><input type="radio" name="key9b145" id="key9b1453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b1453"><a name="answer-key9b1453"></a>
+<div id="taoptionAnswer2q9b145" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Intoxicación.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

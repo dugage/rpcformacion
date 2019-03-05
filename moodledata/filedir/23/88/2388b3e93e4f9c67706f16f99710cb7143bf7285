@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.4. Cuestiones de ámbito </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.4. Cuestiones de ámbito</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id4">
+<div class="iDevice emphasis0">
+<div id="ta4_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Las variables en Visual Basic tienen un tiempo de vida, existen durante un tiempo, que depende del ámbito en que hayan sido declaradas. Básicamente podemos distinguir dos casos: variables locales a un procedimiento o función (se declaran en el interior de una función y tan sólo pueden utilizarse desde ella) y variables globales (se declaran antes de cualquier otro elemento y están disponibles para todo el módulo de código).</p>
+<p>Asumamos que tenemos en un módulo el código mostrado a continuación, compuesto de una declaración de variable global y dos funciones.</p>
+<p>Dim VariableGlobal As Integer</p>
+<p>Function Funcion1 ()</p>
+<p>Dim Titulo As String</p>
+<p>VariableGlobal = 10</p>
+<p>End Function</p>
+<p>Function Función2 ()</p>
+<p>VariableGlobal = 20</p>
+<p>Titulo = “Europa”</p>
+<p>End Function</p>
+<p>En este supuesto VariableGlobal no está en el interior de ninguna de las dos funciones, por lo que automáticamente se convierte en una variable global. Esto significa que podemos usar esa variable desde cualquier punto del código, tal como puede verse posteriormente en las dos funciones. La variable Titulo, por el contrario, se ha declarado en el interior de Funcion1, por lo que no puede ser usada desde fuera.</p>
+<p>Teóricamente, no podríamos utilizar la variable Titulo desde al función Funcion2. ¿Qué ocurre, por lo tanto, cuando en dicha función le asignamos un valor a Titulo? Como se indicó previamente, la declaración de las variables, aunque recomendable, no es obligatoria. Lo que ocurre en Funcion2 es que hemos creado otra variable Titulo.</p>
+<p>Esto, que aparentemente es una comodidad, puede inducir a errores. En Funcion2 podemos creer que estamos accediendo a una variable global Titulo, pero lo que en realidad ocurre es que hemos creado una variable local. Para evitar estos problemas lo mejor es poner al inicio del módulo la línea siguiente:</p>
+<p>Option Explicit</p>
+<p>Tras introducir esta sentencia, al ejecutar Funcion2 se encontrará con mensajes de error como el de la figura 13.2. En él se no sindica que Titulo no se ha declarado.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aHdTeG9ScmQzMmRFemV0TXlJWWllYkRmWjBRZXpJRjhIc0FPYk5sQVlQWSUzRA==" id="IMG_aHdTeG9ScmQzMmRFemV0TXlJWWllYkRmWjBRZXpJRjhIc0FPYk5sQVlQWSUzRA==" alt="Variables y expresiones" title="Variables y expresiones" width="495" /></p>
+<p><b>Figura 13.2.</b> Error al usar una variable sin haberla declarado previamente.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

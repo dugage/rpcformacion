@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.4. Endoso De Efectos </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">3.4. Endoso De Efectos</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id8">
+<div class="iDevice emphasis0">
+<div id="ta8_85" class="block iDevice_content">
+<p>Se puede transmitir la <span class="ee_palabra_diccionario">propiedad </span>de las letras de <span class="ee_palabra_diccionario">cambio </span>, operación a la que se conoce con el nombre de endoso.</p>
+<p>Veamos un ejemplo desde el punto de vista de la <span class="ee_palabra_diccionario">empresa </span>que endosa la letra (endosante)</p>
+<p>Una empresa vende mercaderías el 12/08/2010 por 1.000€ documentando la operación en una letra de cambio que vence el día 12/10/2010.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="42" valign="top">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="67" height="42" valign="top">
+<p><b>DEBE</b></p>
+</td>
+<td width="67" height="42" valign="top">
+<p><i><b>HABER</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="42" valign="top">
+<p>431. Clientes, efectos comerciales a cobrar</p>
+</td>
+<td width="67" height="42" valign="top">
+<p>1.180</p>
+</td>
+<td width="67" height="42" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="46" valign="top">
+<p>700. Venta de mercaderías</p>
+</td>
+<td width="67" height="46" valign="top"></td>
+<td width="67" height="46" valign="top">
+<p>1.000</p>
+</td>
+</tr>
+<tr valign="top">
+<td height="46" valign="top">
+<p>477. H.P. IVA Repercutido</p>
+</td>
+<td width="67" height="46" valign="top"></td>
+<td width="67" height="46" valign="top">
+<p>180</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Esta misma empresa compra mercaderías por 1.000€ a un proveedor el día 01/09/2010 con vencimiento el 01/10/2010.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="42" valign="top">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="67" height="42" valign="top">
+<p><b>DEBE</b></p>
+</td>
+<td width="67" height="42" valign="top">
+<p><i><b>HABER</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="42" valign="top">
+<p>600. Compra de mercaderías</p>
+</td>
+<td width="67" height="42" valign="top">
+<p>1.000</p>
+</td>
+<td width="67" height="42" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="46" valign="top">
+<p>472. H.P. IVA Soportado</p>
+</td>
+<td width="67" height="46" valign="top">
+<p>180</p>
+</td>
+<td width="67" height="46" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="46" valign="top">
+<p>400. Proveedores</p>
+</td>
+<td width="67" height="46" valign="top"></td>
+<td width="67" height="46" valign="top">
+<p>1.180</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Al llegar el día 01/10/2010 y tener que pagar al proveedor, ante la falta de liquidez, la empresa le endosa la letra como forma de pago.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="42" valign="top">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="67" height="42" valign="top">
+<p><b>DEBE</b></p>
+</td>
+<td width="67" height="42" valign="top">
+<p><i><b>HABER</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="42" valign="top">
+<p>400. Proveedores</p>
+</td>
+<td width="67" height="42" valign="top">
+<p>1.180</p>
+</td>
+<td width="67" height="42" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="46" valign="top">
+<p>431. Clientes, efectos comerciales a cobrar</p>
+</td>
+<td width="67" height="46" valign="top"></td>
+<td width="67" height="46" valign="top">
+<p>1.180</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Si el importe de la letra no coincide con la deuda que tenemos con el proveedor, la diferencia se puede cuadrar con:</p>
+<ul>
+<li>Caja</li>
+<li>Cuentas financieras:</li>
+</ul>
+<ul>
+<li>Si la empresa endosa una letra de menor importe que la deuda y el proveedor lo acepta: cuenta 769.</li>
+<li>Si la empresa endosa una letra de mayor importe que la deuda y no le abona la diferencia: cuenta 669.</li>
+</ul>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

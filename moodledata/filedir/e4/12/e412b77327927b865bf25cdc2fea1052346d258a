@@ -1,0 +1,454 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | TEMA 12. PERSONAL AL SERVICIO DE LAS COMUNIDADES DE PROPIETARIOS. </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id49">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 0;
+var key1 = 1;
+var key2 = 2;
+var key3 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b49");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm49").key0b49[i].checked)
+               {
+                  question0 = document.getElementById("quizForm49").key0b49[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b49");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm49").key1b49[i].checked)
+               {
+                  question1 = document.getElementById("quizForm49").key1b49[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b49");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm49").key2b49[i].checked)
+               {
+                  question2 = document.getElementById("quizForm49").key2b49[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b49");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm49").key3b49[i].checked)
+               {
+                  question3 = document.getElementById("quizForm49").key3b49[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm49").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm49" id="quizForm49" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-49" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b49" class="block iDevice_content">
+<p><b>¿Quién firma el alta y la baja de los trabajadores en una comunidad de propietarios?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b491" class="sr-av"><a href="#answer-key0b491">Opción 1</a></label><input type="radio" name="key0b49" id="key0b491" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b491"><a name="answer-key0b491"></a>
+<div id="taoptionAnswer0q0b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Presidente.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b492" class="sr-av"><a href="#answer-key0b492">Opción 2</a></label><input type="radio" name="key0b49" id="key0b492" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b492"><a name="answer-key0b492"></a>
+<div id="taoptionAnswer1q0b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Administrador.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b493" class="sr-av"><a href="#answer-key0b493">Opción 3</a></label><input type="radio" name="key0b49" id="key0b493" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b493"><a name="answer-key0b493"></a>
+<div id="taoptionAnswer2q0b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Secretario.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b494" class="sr-av"><a href="#answer-key0b494">Opción 4</a></label><input type="radio" name="key0b49" id="key0b494" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b494"><a name="answer-key0b494"></a>
+<div id="taoptionAnswer3q0b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Abogado.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b49" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si la siguiente afirmación es verdadera o falsa: “Las comunidades de propietarios no están obligadas a cotizar por contingencias comunes y profesionales”.</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b491" class="sr-av"><a href="#answer-key1b491">Opción 1</a></label><input type="radio" name="key1b49" id="key1b491" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b491"><a name="answer-key1b491"></a>
+<div id="taoptionAnswer0q1b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b492" class="sr-av"><a href="#answer-key1b492">Opción 2</a></label><input type="radio" name="key1b49" id="key1b492" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b492"><a name="answer-key1b492"></a>
+<div id="taoptionAnswer1q1b49" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b49" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Quién es el principal responsable en la materia preventiva?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b491" class="sr-av"><a href="#answer-key2b491">Opción 1</a></label><input type="radio" name="key2b49" id="key2b491" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b491"><a name="answer-key2b491"></a>
+<div id="taoptionAnswer0q2b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Trabajador.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b492" class="sr-av"><a href="#answer-key2b492">Opción 2</a></label><input type="radio" name="key2b49" id="key2b492" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b492"><a name="answer-key2b492"></a>
+<div id="taoptionAnswer1q2b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Estado.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b493" class="sr-av"><a href="#answer-key2b493">Opción 3</a></label><input type="radio" name="key2b49" id="key2b493" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b493"><a name="answer-key2b493"></a>
+<div id="taoptionAnswer2q2b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Empresario.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b494" class="sr-av"><a href="#answer-key2b494">Opción 4</a></label><input type="radio" name="key2b49" id="key2b494" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b494"><a name="answer-key2b494"></a>
+<div id="taoptionAnswer3q2b49" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Administrador.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b49" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si la siguiente afirmación es verdadera o falsa: “El artículo 19 de la LPRL defiende la obligación de evaluar los riesgos”.</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b491" class="sr-av"><a href="#answer-key3b491">Opción 1</a></label><input type="radio" name="key3b49" id="key3b491" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b491"><a name="answer-key3b491"></a>
+<div id="taoptionAnswer0q3b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b492" class="sr-av"><a href="#answer-key3b492">Opción 2</a></label><input type="radio" name="key3b49" id="key3b492" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b492"><a name="answer-key3b492"></a>
+<div id="taoptionAnswer1q3b49" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id50">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-50_108">
+<form name="multi-select-form-50_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion50_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Señala cuáles de las siguientes Leyes y Reales Decretos hacen referencia a la prevención de riesgos laborales en las comunidades de propietarios: (Respuesta múltiple)</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op50_1080" class="sr-av"><a href="#answer-50_111">Opción 1</a></label><input type="checkbox" id="op50_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-50_111"><a name="answer-50_111"></a>
+<div id="taans50_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">RD 39/1997 de 17 de Enero, sobre reglamento de los servicios de prevención.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-50_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op50_1081" class="sr-av"><a href="#answer-50_392">Opción 2</a></label><input type="checkbox" id="op50_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-50_392"><a name="answer-50_392"></a>
+<div id="taans50_392" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">RD 486/1997 sobre disposiciones mínimas de seguridad y salud en los lugares de trabajo.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-50_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op50_1082" class="sr-av"><a href="#answer-50_394">Opción 3</a></label><input type="checkbox" id="op50_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-50_394"><a name="answer-50_394"></a>
+<div id="taans50_394" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales. (LPRL).</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-50_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op50_1083" class="sr-av"><a href="#answer-50_396">Opción 4</a></label><input type="checkbox" id="op50_1083" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-50_396"><a name="answer-50_396"></a>
+<div id="taans50_396" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada">RD 487/1997 sobre disposiciones mínimas de seguridad y salud relativas a la manipulación de cargas que entrañe riesgos, en particular dorso lumbares, para los trabajadores.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-50_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'50_108')"/> 
+</p>
+</div>
+<div id="f50_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-50_111" class="right">Correcto</a></li>
+<li><a href="#answer-50_392" class="right">Correcto</a></li>
+<li><a href="#answer-50_394" class="right">Correcto</a></li>
+<li><a href="#answer-50_396" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | UNIDAD DIDÁCTICA 9. TÉCNICAS DE COMUNICACIÓN DEL ACNEE </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id184">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 0;
+var key2 = 1;
+var key3 = 2;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b184");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm184").key0b184[i].checked)
+               {
+                  question0 = document.getElementById("quizForm184").key0b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b184");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm184").key1b184[i].checked)
+               {
+                  question1 = document.getElementById("quizForm184").key1b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b184");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm184").key2b184[i].checked)
+               {
+                  question2 = document.getElementById("quizForm184").key2b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b184");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm184").key3b184[i].checked)
+               {
+                  question3 = document.getElementById("quizForm184").key3b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b184");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm184").key4b184[i].checked)
+               {
+                  question4 = document.getElementById("quizForm184").key4b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm184").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Seleccion Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm184" id="quizForm184" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-184" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b184" class="block iDevice_content">
+<p><b>1. ¿En qué consiste la zona de petición?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1841" class="sr-av"><a href="#answer-key0b1841">Opción 1</a></label><input type="radio" name="key0b184" id="key0b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1841"><a name="answer-key0b1841"></a>
+<div id="taoptionAnswer0q0b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En un lugar donde todos los materiales se encuentran bien organizados, y con las marcaciones correspondientes.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1842" class="sr-av"><a href="#answer-key0b1842">Opción 2</a></label><input type="radio" name="key0b184" id="key0b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1842"><a name="answer-key0b1842"></a>
+<div id="taoptionAnswer1q0b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En un panel con fotografías para que comunique aquello que necesitan o quieran.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1843" class="sr-av"><a href="#answer-key0b1843">Opción 3</a></label><input type="radio" name="key0b184" id="key0b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1843"><a name="answer-key0b1843"></a>
+<div id="taoptionAnswer2q0b184" class="block iDevice_content">
+<p>En un rincón destinado a realizar las rutinas diarias.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b184" class="block iDevice_content">
+<p><b>2. La organización temporal, está basada en rutinas, que quedarán fijadas en la agenda personal de cada alumno, con la que se pretende:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1841" class="sr-av"><a href="#answer-key1b1841">Opción 1</a></label><input type="radio" name="key1b184" id="key1b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1841"><a name="answer-key1b1841"></a>
+<div id="taoptionAnswer0q1b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Fomentar la comunicación.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1842" class="sr-av"><a href="#answer-key1b1842">Opción 2</a></label><input type="radio" name="key1b184" id="key1b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1842"><a name="answer-key1b1842"></a>
+<div id="taoptionAnswer1q1b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Dificultar la anticipación.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1843" class="sr-av"><a href="#answer-key1b1843">Opción 3</a></label><input type="radio" name="key1b184" id="key1b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1843"><a name="answer-key1b1843"></a>
+<div id="taoptionAnswer2q1b184" class="block iDevice_content">
+<p>Disminuir la capacidad de elección.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b184" class="block iDevice_content">
+<p><b>3. ¿Qué es el entorno bassal?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1841" class="sr-av"><a href="#answer-key2b1841">Opción 1</a></label><input type="radio" name="key2b184" id="key2b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1841"><a name="answer-key2b1841"></a>
+<div id="taoptionAnswer0q2b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Una experiencia enriquecedora que permite al alumno desenvolverse en un medio natural.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1842" class="sr-av"><a href="#answer-key2b1842">Opción 2</a></label><input type="radio" name="key2b184" id="key2b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1842"><a name="answer-key2b1842"></a>
+<div id="taoptionAnswer1q2b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Una estimulación de los sentidos.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1843" class="sr-av"><a href="#answer-key2b1843">Opción 3</a></label><input type="radio" name="key2b184" id="key2b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1843"><a name="answer-key2b1843"></a>
+<div id="taoptionAnswer2q2b184" class="block iDevice_content">
+<p>Una experiencia enriquecedora que permite al alumno desarrollar su imaginación.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b184" class="block iDevice_content">
+<p><b>4. Completa el espacio en blanco del siguiente enunciado:</b> “Las _________ ________ consisten en representar en una simple hoja de papel con dibujos esquemáticos, pero realistas, cada una de las actividades y acontecimientos que ocurran en el día”.</p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1841" class="sr-av"><a href="#answer-key3b1841">Opción 1</a></label><input type="radio" name="key3b184" id="key3b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1841"><a name="answer-key3b1841"></a>
+<div id="taoptionAnswer0q3b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Agendas escritas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1842" class="sr-av"><a href="#answer-key3b1842">Opción 2</a></label><input type="radio" name="key3b184" id="key3b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1842"><a name="answer-key3b1842"></a>
+<div id="taoptionAnswer1q3b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Agendas de objetos reales.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1843" class="sr-av"><a href="#answer-key3b1843">Opción 3</a></label><input type="radio" name="key3b184" id="key3b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1843"><a name="answer-key3b1843"></a>
+<div id="taoptionAnswer2q3b184" class="block iDevice_content">
+<p>Agendas de pictogramas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b184" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>5. Indica si es verdadero o falso el siguiente enunciado:</b> <i>“Un criterio básico de trato con los ACNEE es partir de los intereses de los alumnos”.</i></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1841" class="sr-av"><a href="#answer-key4b1841">Opción 1</a></label><input type="radio" name="key4b184" id="key4b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1841"><a name="answer-key4b1841"></a>
+<div id="taoptionAnswer0q4b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1842" class="sr-av"><a href="#answer-key4b1842">Opción 2</a></label><input type="radio" name="key4b184" id="key4b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1842"><a name="answer-key4b1842"></a>
+<div id="taoptionAnswer1q4b184" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

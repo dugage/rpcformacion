@@ -1,0 +1,474 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | LAS REDES SOCIALES EN MEDIOS PROFESIONALES </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id107">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 2;
+var key1 = 1;
+var key2 = 3;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b107");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm107").key0b107[i].checked)
+               {
+                  question0 = document.getElementById("quizForm107").key0b107[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b107");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm107").key1b107[i].checked)
+               {
+                  question1 = document.getElementById("quizForm107").key1b107[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b107");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm107").key2b107[i].checked)
+               {
+                  question2 = document.getElementById("quizForm107").key2b107[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b107");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm107").key3b107[i].checked)
+               {
+                  question3 = document.getElementById("quizForm107").key3b107[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm107").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm107" id="quizForm107" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-107" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b107" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿En qué año fue lanzada la red social conocida como Likendin?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1071" class="sr-av"><a href="#answer-key0b1071">Opción 1</a></label><input type="radio" name="key0b107" id="key0b1071" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1071"><a name="answer-key0b1071"></a>
+<div id="taoptionAnswer0q0b107" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En 2001.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1072" class="sr-av"><a href="#answer-key0b1072">Opción 2</a></label><input type="radio" name="key0b107" id="key0b1072" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1072"><a name="answer-key0b1072"></a>
+<div id="taoptionAnswer1q0b107" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En 2002.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1073" class="sr-av"><a href="#answer-key0b1073">Opción 3</a></label><input type="radio" name="key0b107" id="key0b1073" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1073"><a name="answer-key0b1073"></a>
+<div id="taoptionAnswer2q0b107" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En 2003.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1074" class="sr-av"><a href="#answer-key0b1074">Opción 4</a></label><input type="radio" name="key0b107" id="key0b1074" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1074"><a name="answer-key0b1074"></a>
+<div id="taoptionAnswer3q0b107" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">En 2004.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b107" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿A qué quiere hacer referencia con la estrategia “Aumenta tus conexiones” a la hora de hacer marketing en la red social de LinkedIn?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1071" class="sr-av"><a href="#answer-key1b1071">Opción 1</a></label><input type="radio" name="key1b107" id="key1b1071" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1071"><a name="answer-key1b1071"></a>
+<div id="taoptionAnswer0q1b107" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A la posibilidad de recomendar gente.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1072" class="sr-av"><a href="#answer-key1b1072">Opción 2</a></label><input type="radio" name="key1b107" id="key1b1072" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1072"><a name="answer-key1b1072"></a>
+<div id="taoptionAnswer1q1b107" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A que cuántos más contactos tengas, más gente tendrá acceso a tu perfil.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1073" class="sr-av"><a href="#answer-key1b1073">Opción 3</a></label><input type="radio" name="key1b107" id="key1b1073" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1073"><a name="answer-key1b1073"></a>
+<div id="taoptionAnswer2q1b107" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">A la posibilidad de crear tu propio grupo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1074" class="sr-av"><a href="#answer-key1b1074">Opción 4</a></label><input type="radio" name="key1b107" id="key1b1074" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1074"><a name="answer-key1b1074"></a>
+<div id="taoptionAnswer3q1b107" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">A la posibilidad de actualizar tu perfil.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b107" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Cómo puedes encontrar clientes potenciales a través de la página de LinkedIn? Señala todas las posibles respuestas correctas.</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1071" class="sr-av"><a href="#answer-key2b1071">Opción 1</a></label><input type="radio" name="key2b107" id="key2b1071" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1071"><a name="answer-key2b1071"></a>
+<div id="taoptionAnswer0q2b107" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Utilizar la opción de Búsqueda Avanzada.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1072" class="sr-av"><a href="#answer-key2b1072">Opción 2</a></label><input type="radio" name="key2b107" id="key2b1072" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1072"><a name="answer-key2b1072"></a>
+<div id="taoptionAnswer1q2b107" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Navega por los contactos de tus propios contactos y preferentemente de tus clientes actuales.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1073" class="sr-av"><a href="#answer-key2b1073">Opción 3</a></label><input type="radio" name="key2b107" id="key2b1073" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1073"><a name="answer-key2b1073"></a>
+<div id="taoptionAnswer2q2b107" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Examina las Actualizaciones de manera regular.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1074" class="sr-av"><a href="#answer-key2b1074">Opción 4</a></label><input type="radio" name="key2b107" id="key2b1074" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1074"><a name="answer-key2b1074"></a>
+<div id="taoptionAnswer3q2b107" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Todas las opciones anteriores son correctas.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b107" class="block iDevice_content">
+<div class="ee_enunciado"><b>Confirma si la siguiente afirmación es verdadera o falsa: </b><i>“La empresa Xing se fundó en Junio de 2003 en Alemania bajo el nombre de OpenBC (Open Business Club, Club abierto de negocios) y cuenta, en septiembre de 2010, con más de 10 millones de usuarios en todo el mundo, de los que 4,2 millones son de habla alemana”</i></div>
+<p><i> </i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1071" class="sr-av"><a href="#answer-key3b1071">Opción 1</a></label><input type="radio" name="key3b107" id="key3b1071" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1071"><a name="answer-key3b1071"></a>
+<div id="taoptionAnswer0q3b107" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1072" class="sr-av"><a href="#answer-key3b1072">Opción 2</a></label><input type="radio" name="key3b107" id="key3b1072" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1072"><a name="answer-key3b1072"></a>
+<div id="taoptionAnswer1q3b107" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id108">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-108_108">
+<form name="multi-select-form-108_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion108_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>¿Qué utilidad tiene la red social conocida como LinkedIn? Selecciona todas las posibles respuestas correctas.</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op108_1080" class="sr-av"><a href="#answer-108_111">Opción 1</a></label><input type="checkbox" id="op108_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-108_111"><a name="answer-108_111"></a>
+<div id="taans108_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Hacer nuevos contactos en cualquier sector que nos interese.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-108_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op108_1081" class="sr-av"><a href="#answer-108_330">Opción 2</a></label><input type="checkbox" id="op108_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-108_330"><a name="answer-108_330"></a>
+<div id="taans108_330" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Retomar contacto con compañeros de la escuela, universidad, postgrado, trabajos… que hace mucho que no vemos.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-108_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op108_1082" class="sr-av"><a href="#answer-108_332">Opción 3</a></label><input type="checkbox" id="op108_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-108_332"><a name="answer-108_332"></a>
+<div id="taans108_332" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Subir vídeos o fotos sobre temas de los que estamos interesados.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-108_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op108_1083" class="sr-av"><a href="#answer-108_334">Opción 4</a></label><input type="checkbox" id="op108_1083" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-108_334"><a name="answer-108_334"></a>
+<div id="taans108_334" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Buscar referencias de cualquier persona.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-108_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'108_108')"/> 
+</p>
+</div>
+<div id="f108_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-108_111" class="right">Correcto</a></li>
+<li><a href="#answer-108_330" class="right">Correcto</a></li>
+<li><a href="#answer-108_332" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-108_334" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

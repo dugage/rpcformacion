@@ -1,0 +1,419 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id9">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 0;
+var key2 = 0;
+var key3 = 2;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b9");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm9").key0b9[i].checked)
+               {
+                  question0 = document.getElementById("quizForm9").key0b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b9");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm9").key1b9[i].checked)
+               {
+                  question1 = document.getElementById("quizForm9").key1b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b9");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm9").key2b9[i].checked)
+               {
+                  question2 = document.getElementById("quizForm9").key2b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b9");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm9").key3b9[i].checked)
+               {
+                  question3 = document.getElementById("quizForm9").key3b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b9");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm9").key4b9[i].checked)
+               {
+                  question4 = document.getElementById("quizForm9").key4b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm9").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona la respuesta correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm9" id="quizForm9" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-9" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b9" class="block iDevice_content">
+<div class="ee_enunciado"><b>1. Las series dobles en las cuales dos series de tipo sencillo se suceden son intervalo de descanso se denomina:</b></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b91" class="sr-av"><a href="#answer-key0b91">Opción 1</a></label><input type="radio" name="key0b9" id="key0b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b91"><a name="answer-key0b91"></a>
+<div id="taoptionAnswer0q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Series gigantes.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b92" class="sr-av"><a href="#answer-key0b92">Opción 2</a></label><input type="radio" name="key0b9" id="key0b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b92"><a name="answer-key0b92"></a>
+<div id="taoptionAnswer1q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Superseries.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b93" class="sr-av"><a href="#answer-key0b93">Opción 3</a></label><input type="radio" name="key0b9" id="key0b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b93"><a name="answer-key0b93"></a>
+<div id="taoptionAnswer2q0b9" class="block iDevice_content">
+<p><span>Repeticiones negativas.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b9" class="block iDevice_content">
+<div class="ee_enunciado"><b>2. ¿Qué tipo de técnica se caracteriza por estimular el mismo músculo con distintos ejercicios cambiando los planos de referencia?</b></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b91" class="sr-av"><a href="#answer-key1b91">Opción 1</a></label><input type="radio" name="key1b9" id="key1b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b91"><a name="answer-key1b91"></a>
+<div id="taoptionAnswer0q1b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Confusión muscular.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b92" class="sr-av"><a href="#answer-key1b92">Opción 2</a></label><input type="radio" name="key1b9" id="key1b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b92"><a name="answer-key1b92"></a>
+<div id="taoptionAnswer1q1b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Sujeciones parciales.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b93" class="sr-av"><a href="#answer-key1b93">Opción 3</a></label><input type="radio" name="key1b9" id="key1b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b93"><a name="answer-key1b93"></a>
+<div id="taoptionAnswer2q1b9" class="block iDevice_content">
+<p><span>Series gigantes.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b9" class="block iDevice_content">
+<div class="ee_enunciado"><b>3. Indica si es verdadero o falso el siguiente enunciado:</b> <i>“kinesiología son las técnicas terapéuticas que ayudan a la persona a recuperar el movimiento normal de ciertas partes de su cuerpo”.</i></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b91" class="sr-av"><a href="#answer-key2b91">Opción 1</a></label><input type="radio" name="key2b9" id="key2b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b91"><a name="answer-key2b91"></a>
+<div id="taoptionAnswer0q2b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b92" class="sr-av"><a href="#answer-key2b92">Opción 2</a></label><input type="radio" name="key2b9" id="key2b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b92"><a name="answer-key2b92"></a>
+<div id="taoptionAnswer1q2b9" class="block iDevice_content">
+<p><span>Falso.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b9" class="block iDevice_content">
+<div class="ee_enunciado"><b>4. Completa el espacio en blanco del siguiente enunciado:</b> “El aumento de la ____________ en la práctica de los ejercicios físicos, es lo que convierte a un deportista común en un verdadero atleta”.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b91" class="sr-av"><a href="#answer-key3b91">Opción 1</a></label><input type="radio" name="key3b9" id="key3b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b91"><a name="answer-key3b91"></a>
+<div id="taoptionAnswer0q3b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Velocidad.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b92" class="sr-av"><a href="#answer-key3b92">Opción 2</a></label><input type="radio" name="key3b9" id="key3b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b92"><a name="answer-key3b92"></a>
+<div id="taoptionAnswer1q3b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Resistencia</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b93" class="sr-av"><a href="#answer-key3b93">Opción 3</a></label><input type="radio" name="key3b9" id="key3b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b93"><a name="answer-key3b93"></a>
+<div id="taoptionAnswer2q3b9" class="block iDevice_content">
+<p><span>Intensidad</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b9" class="block iDevice_content">
+<div class="ee_enunciado"><b>5. ¿Cuál es el principio que nos RECUERDA que el organismo es una máquina que actúa como en conjunto?</b></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b91" class="sr-av"><a href="#answer-key4b91">Opción 1</a></label><input type="radio" name="key4b9" id="key4b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b91"><a name="answer-key4b91"></a>
+<div id="taoptionAnswer0q4b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Principio de la unidad.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b92" class="sr-av"><a href="#answer-key4b92">Opción 2</a></label><input type="radio" name="key4b9" id="key4b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b92"><a name="answer-key4b92"></a>
+<div id="taoptionAnswer1q4b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Principio de la equidad.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b93" class="sr-av"><a href="#answer-key4b93">Opción 3</a></label><input type="radio" name="key4b9" id="key4b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b93"><a name="answer-key4b93"></a>
+<div id="taoptionAnswer2q4b9" class="block iDevice_content">
+<p><span>Principio de la continuidad.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

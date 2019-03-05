@@ -1,0 +1,2995 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <string value="XHTML"></string>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <string value="es"></string>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Topic"></unicode>
+   <unicode value="Section"></unicode>
+   <unicode value="Unit"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="TEMA_2"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="9"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="11"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="5">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="TEMA 2. EL ESCAPARATE"></unicode>
+     <string role="key" value="idevices"></string>
+     <list></list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="1"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:TEMA%202.%20EL%20ESCAPARATE"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="4">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Introducción"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="3">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;caja_borde_gris&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;El escaparate es el vehículo fundamental de comunicación entre el comercio y los clientes potenciales, sintetizando y reflejando el estilo de la tienda, lo que es y lo que vende.&lt;/p&gt;
+&lt;p&gt;Es una herramienta clave de atracción de los clientes, aunque su importancia varía en función del tipo de compra que se vaya a realizar. Así, dicha importancia aumenta si el comercio se sitúa a pie de calle.&lt;/p&gt;
+&lt;p&gt;Un objetivo fundamental del escaparate es conseguir que los clientes potenciales entren en el local. Hay algunos puntos de venta en los que se suele determinar cerca del 70% de las entradas al comercio.&lt;/p&gt;
+&lt;p&gt;La efectividad aumenta en aquellos casos en que existe un tráfico denso de peatones, ya que la combinación de productos que se venden está compuesta por bienes que los clientes compararán en precios, calidad y estilo en varias tiendas antes de tomar una decisión de compra.&lt;/p&gt;
+&lt;p&gt;También tendrá mayor importancia en el caso de compras de productos no necesarios; el escaparate en estos casos tendrá que atraer el cliente y provocar el deseo inicial de compra.&lt;/p&gt;
+&lt;p&gt;El escaparate debe sintetizar y reflejar las características del establecimiento, así el cliente se va a hacer una idea de los productos y la calidad que se va a encontrar en el interior. Se va a formar una determinada imagen del establecimiento y los productos que forman o pueden formar el surtido que éste ofrece.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bldyJTJCV0ZwQnF2YklvYjc3Q2hnVFJoQlM2R2s2N3dXbTRIMHFpNkF6dCUyRnclM0Q=&quot; id=&quot;IMG_bldyJTJCV0ZwQnF2YklvYjc3Q2hnVFJoQlM2R2s2N3dXbTRIMHFpNkF6dCUyRnclM0Q=&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;492&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="3"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="0"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%202.%20EL%20ESCAPARATE:Introducci%C3%B3n"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="8">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Introducción histórica del escaparate"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="6">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="7">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="6"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;El hombre, desde sus orígenes, ha estado inmerso en un mundo lleno de carencias y necesidades y el mecanismo del trueque, el acto de intercambio, constituye el primer intento para satisfacerlas. Pensemos en aquel hombre primitivo que dejaba sus pieles sobrantes a la entrada de la cueva a la espera de alguien las necesitará y pudiera ofrecer algo a cambio.&lt;/p&gt;
+&lt;p&gt;Este intercambio de artículos irá evolucionando. En un principio el hombre, instintivamente, sólo desea aquello que pueda satisfacer sus necesidades más elementales. Una vez cubiertas éstas, el ser humano tiende a la satisfacción de otras necesidades más superficiales, menos importantes desde un punto de vista objetivo, pero no por ello menos codiciadas.&lt;/p&gt;
+&lt;p&gt;En la antigüedad, los comerciantes fenicios fueron, probablemente, los que dieron mayor impulso a la actividad comercial, que la acompañaban de avisos públicos y de distintas y curiosas técnicas para anunciar numerosos objetos. De hecho, se considera que la necesidad de registrar sus actividades dio origen a un alfabeto muy avanzado.&lt;/p&gt;
+&lt;p&gt;Los grandes competidores de este pueblo fueron los griegos, cultura en la que la figura del pregonero adquiere un extraordinario auge ya que éste vendía su mercancía tras ensalzarla en voz alta por las calles.&lt;/p&gt;
+&lt;p&gt;Con la creación de las primeras lonjas encontramos los primeros atisbos de la publicidad tal como la conocemos, con la utilización de los muros existentes en las poblaciones. Por ejemplo, los distintos establecimientos se anunciaban a través de paneles de mármol con llamativas letras. También empleaban grandes lonas extendidas en el suelo, cuidando especialmente la colocación de los artículos en ella para su mejor exposición.&lt;/p&gt;
+&lt;p&gt;Pero es durante el dominio de Roma cuando realmente se concibe el escaparate. El propio Séneca recomienda vaciar las tiendas para llenar los escaparates. Los romanos fueron también los primeros en crear catálogos de artículos, para fomentar y dar auge a las ferias comerciales, y también desarrollaron la forma y estructura de los anuncios exteriores, al estilo de modernos eslóganes como “sólo vendo flores a los enamorados”.&lt;/p&gt;
+&lt;p&gt;La Edad Media, tras la caída del Imperio Romano, es una época caracterizada por el retroceso, la oscuridad y la inseguridad, pero, a su vez, es testigo del nacimiento de los gremios que impulsan activamente el comercio, una de cuyas consecuencias es la creación de los diferentes símbolos que identifican a los oficios. No obstante, el comercio sufre importantes restricciones debido al establecimiento de un control de precios que impedía al comerciante subirlos, suprimiendo de esta forma la competencia.&lt;/p&gt;
+&lt;p&gt;La invención de la imprenta se convertirá en un factor esencial por su capacidad de reproducir un gran número de imágenes rápidamente. Esto será aprovechado para la creación de carteles.&lt;/p&gt;
+&lt;p&gt;Otro hecho fundamental de esta época, que influirá en estos aspectos, es el descubrimiento del Nuevo Mundo, pues producirá un aumento de poder y riqueza general, y, en consecuencia, una mayor especulación. A esto debe unirse la progresiva desaparición del sistema gremial. Ambos factores tendrán grandes consecuencias en el comercio, que son: la instauración o fortalecimiento del estamento burgués como uno de los grupos sociales en auge, un gran incremento de la competitividad entre mercaderes y un profundo desarrollo de la mentalidad de negocio&lt;/p&gt;
+&lt;p&gt;Uno de los acontecimientos que más influyó en el mundo del comercio y su publicidad fue la revolución industrial, debido a su capacidad de producir en serie gran cantidad de objetos, al mecanizarse los sistemas. De esta forma, cada vez había mayor oferta de productos para mostrar, exhibir y vender. El resultado fue un gran cambio de la mentalidad en el propio comercio ya que hasta ese momento era el consumidor quien esperaba la mercancía, pero después fueron los objetos los que esperan al consumidor. Por ello, se empieza a hacer indispensable la publicidad, cuyo objetivo es atraer al público, para que tenga la posibilidad de elegir entre varios productos similares, y de provocar la necesidad de consumirlos.&lt;/p&gt;
+&lt;p&gt;Con el tiempo surgen nuevos inventos, como la fotografía, la electricidad, etc., que permitirán la creación de nuevas técnicas de publicidad, tales como: “el hombre sándwich”, un individuo se pasea por las calles con dos carteles colgados sobre los hombros, de tal manera que el anuncio se pueda leer por delante y por detrás; la iluminación de los escaparates, no sólo cuando es de noche o el establecimiento está cerrado, sino también de día, para dar realce a ciertos objetos y así atraer la atención del público hacia lo más interesante. En este punto también cabe destacar uno de los elementos fundamentales de nuestra época, que son los carteles luminosos.&lt;/p&gt;
+&lt;p&gt;La venta de artículos a través de grandes almacenes incorpora nuevas tecnologías, como es el caso de la publicidad en el punto de venta (PLV) y la venta a crédito.&lt;/p&gt;
+&lt;p&gt;Otro elemento de gran importancia para los comercios de textil y para muchos otros, son los maniquíes, que van adquiriendo una imagen más atractiva y cuidada, pues antes tenían un aspecto artificial y poco atrayente. En este sentido es fundamental la incorporación de la cara y las extremidades, que producen una sensación más real, consiguiendo de esta forma un valor individual como expositor.&lt;/p&gt;
+&lt;p&gt;En un principio se elaboraban a base de cera como material principal. Sin embargo, con el uso de la electricidad, los maniquíes se derretían, lo que les daba un aspecto un tanto extraño; éste es el motivo fundamental por el que se abandona el uso de la cera y se comienza a emplear otro tipo de materiales, como el cartón o la madera. En la actualidad el material más utilizado es el plástico, aunque también es muy útil la fibra de vidrio.&lt;/p&gt;
+&lt;p&gt;Por tanto, se puede concluir que el desarrollo del maniquí va íntimamente ligado a la creación de nuevos materiales, así como a las tendencias actuales. No hay más que observar las enormes diferencias de los maniquíes expuestos en los años veinte, muy estilizados, en contraposición a los de la moda de los años cincuenta, cuyas figuras tendían hacia formas más sensuales.&lt;/p&gt;
+&lt;p&gt;Ya en el siglo XX se advierte la revolución de los medios audiovisuales en el campo de la publicidad. En este momento el escaparate se conforma ya como un concepto independiente y, como tal, necesita un desarrollo y un planteamiento correcto, con el objeto de llevar a buen término su finalidad última, que es promover la venta por medio de la atracción y el estímulo.&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="7"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="8"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%202.%20EL%20ESCAPARATE:Introducci%C3%B3n%20hist%C3%B3rica%20del%20escaparate"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="11">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Funciones y objetivos de un escaparate"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="9">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="10">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="9"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;caja_borde_gris&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;De una manera muy resumida, se podría decir que la función del escaparate es exhibir estéticamente los artículos y promover las ventas.&lt;/p&gt;
+&lt;p&gt;En cuanto a los objetivos que persigue un buen escaparate se pueden distinguir dos tipos, los técnicos-estéticos y los técnicos-comerciales.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Objetivos técnicos-estéticos&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Llamar la atención del observador&lt;/li&gt;
+&lt;li&gt;Producir sensaciones al observador&lt;/li&gt;
+&lt;li&gt;Dejar una buena imagen del comercio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Objetivos técnicos-comerciales&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Aumentar la demanda, atrayendo al comprador y reteniéndolo&lt;/li&gt;
+&lt;li&gt;Destacar frente a la competencia&lt;/li&gt;
+&lt;li&gt;Dar imagen propia&lt;/li&gt;
+&lt;li&gt;Aumentar la cuota de mercado y el volumen de ventas, repercutiendo por tanto, en un incremento de los beneficios&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;La misión del escaparate consiste en exponer al público los productos, las marcas, los precios y la variedad de surtido que dispone el comercio.&lt;/p&gt;
+&lt;p&gt;El escaparate es el medio más idóneo para informar al público, es el mejor display publicitario que puede crearse, ya que da una información amena y ofrece al público una publicidad persuasiva, directa, controlable e informa sin prisa.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bkNVZkVwVm9CVEdjVSUyRmJHZ3VPSTJCWjRtVXBxMkZUYVlVcEh3MHR6SndRJTNE&quot; id=&quot;IMG_bkNVZkVwVm9CVEdjVSUyRmJHZ3VPSTJCWjRtVXBxMkZUYVlVcEh3MHR6SndRJTNE&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;399&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;El fin primordial del escaparate es vender más. Este, debe dar la imagen más real posible de los productos expuestos para que nunca defraude al cliente a la hora de realizar la compra; en caso contrario, se producirá un rechazo inmediato haciendo que el individuo no llegue a materializar dicha compra y posiblemente no vuelva a entrar en el establecimiento.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="10"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="11"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="3"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%202.%20EL%20ESCAPARATE:Funciones%20y%20objetivos%20de%20un%20escaparate"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="14">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Tipos de escaparates"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="12">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="13">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="12"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;Los escaparates pueden clasificarse atendiendo a distintos criterios. Así, se pueden diferenciar distintos tipos de escaparates, según criterios como: el tipo de mercancía o producto del que se trate, es decir, el escaparate de tipo publicitario; el tipo de marca, esto es, de diseño; etc.&lt;/p&gt;
+&lt;p&gt;A continuación nos centraremos en los distintos tipos de escaparates que pueden establecerse en función de su ubicación, del producto y según la presentación del escaparate. Asimismo explicaremos los escaparates publicitarios de marca y los escaparates sin mercancía o producto.&lt;/p&gt;
+&lt;h4&gt;&lt;b&gt; Tipos de escaparates según su ubicación&lt;/b&gt;&lt;/h4&gt;
+&lt;p&gt;En relación a la ubicación, que influye en el buen desarrollo del negocio, se puede decir que existen tres tipos de escaparates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Frontales o de fachada&lt;/b&gt;: Poseen la mejor ubicación, ya que están orientados a la calle, y deben estar colocados hacia el lugar donde se aglutine una mayor cantidad de gente. Si la entrada al local está cerca del escaparate o si se dispone a la derecha de la puerta, tendrá una mayor aceptación. Se subdividen en:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Escaparate-isla: Es visible por sus cuatro lados y, por ello, los transeúntes circulan a su alrededor.&lt;/li&gt;
+&lt;li&gt;Escaparate de visión frontal: No posee profundidad, limitándose la exposición a un sitio reducido.&lt;/li&gt;
+&lt;li&gt;Escaparate clásico: Es el que posee visibilidad a tres caras.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;&lt;b&gt;De pasillos interiores&lt;/b&gt;: Entre los escaparates de pasillos interiores se pueden distinguir dos tipos que explicamos a continuación:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Establecimiento con pasillo, escaparates laterales y puerta al final: Son escaparates que funcionan porque van llevando al cliente hacia el punto de venta y a su vez lo estimulan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Escaparates de galerías comerciales: Son de tipo frontal, pero incluidos en un espacio interior. Su impacto depende de forma directa de los elementos que se encuentren a su alrededor, que, por lo general, son muy numerosos; en las galerías suele haber muchos locales de reducido tamaño y con escaparates muy pequeños, por lo que debe intentarse crear un tipo de escaparate lo más llamativo y sugestivo posible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Escaparates interiores&lt;/b&gt;: Son aquéllos que se encuentran dentro de las tiendas: vitrinas, móviles, estanterías, etc. Es importante recordar que en el interior de un comercio también existen zonas más importantes o sugestivas, llamadas zonas calientes. Éstas serán las más adecuadas para colocar los mostradores y expositores para atraer la vista del público.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;b&gt; Tipos de escaparates según la presentación del escaparate&lt;/b&gt;&lt;/h4&gt;
+&lt;p&gt;Según el tipo de presentación del escaparate que se quiera ofrecer, éste puede clasificarse en: escaparates corrientes, variados, de rebajas o saldos, de fiesta, de alto nivel, informativos y animados.&lt;/p&gt;
+&lt;p&gt;Los escaparates corrientes son aquéllos en los que el objetivo único del comerciante es la venta del artículo, dejando como elemento secundario la imagen de la tienda. Se trata de escaparates poco trabajados y carentes de originalidad.&lt;/p&gt;
+&lt;p&gt;No obstante, la variedad de tipos en los escaparates variados es mucho más surtida. Lo mejor, como veremos, es realizar separaciones para poder crear espacios distintos que expongan productos diferentes. Hay una gran cantidad de gente a la que le gusta esta clase de locales, tipo bazar, donde hay que buscar con atención para encontrar algún producto interesante. Es importante resaltar que el abuso de las mezclas puede llevar a la confusión de la gente.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Los &lt;b&gt;escaparates de rebajas o saldos&lt;/b&gt;prácticamente no se decoran y los productos suelen aparecer amontonados y desordenados. Su mayor reclamo consiste en la colocación de carteles llamativos indicando los precios de saldo.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_anhCN0pQVWZJR3l2U3ZLRzZIVnRQWTRrbGZQemxFeUZkQ0pnc0xzOHluNCUzRA==&quot; id=&quot;IMG_anhCN0pQVWZJR3l2U3ZLRzZIVnRQWTRrbGZQemxFeUZkQ0pnc0xzOHluNCUzRA==&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;441&quot; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Los escaparates que responden al reclamo de un acontecimiento o fiesta concreta son los denominados &lt;b&gt;escaparates de fiesta&lt;/b&gt;. Su período de tiempo es corto, pero se pretende conseguir una gran cantidad de objetivos, elaborando un escaparate vistoso y concreto que ponga de manifiesto el motivo de la fiesta.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NktIWnJidURueHpUSDNXNnNCYWlnb0prTENSaXBNNGRzT1NOWUp3dFM5WSUzRA==&quot; id=&quot;IMG_NktIWnJidURueHpUSDNXNnNCYWlnb0prTENSaXBNNGRzT1NOWUp3dFM5WSUzRA==&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;424&quot; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Los &lt;b&gt;escaparates de alto nivel&lt;/b&gt; suelen estar orientados hacia personas de alto nivel económico. Su juego consiste en centrarse en un artículo de lujo, sin recargarlo demasiado, con elegancia, originalidad, sobriedad y buen gusto.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_b2dMWHdTQlBKU0xpaTVCUFFaJTJGZSUyQkxpWCUyQnVSdU1tM09HRXV2ZEZuY3JzSSUzRA==&quot; id=&quot;IMG_b2dMWHdTQlBKU0xpaTVCUFFaJTJGZSUyQkxpWCUyQnVSdU1tM09HRXV2ZEZuY3JzSSUzRA==&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;292&quot; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Los &lt;b&gt;escaparates informativos&lt;/b&gt; son aquéllos que simplemente informan sobre el producto. Su diseño deberá ser claro, sencillo y preciso, cuyo fin es que se entienda bien el objeto y el motivo de la información.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Y05Zb0NZRWlyZ1FXNld6cE91UmtIMnV3anM3akpYJTJGZDZNcVBSZXFtUHA4JTNE&quot; id=&quot;IMG_Y05Zb0NZRWlyZ1FXNld6cE91UmtIMnV3anM3akpYJTJGZDZNcVBSZXFtUHA4JTNE&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;308&quot; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Por último, los &lt;b&gt;escaparates animados&lt;/b&gt;suelen caracterizarse por llamar la atención del transeúnte, lo que se consigue colocando aparatos en movimiento, seres vivos, artículos móviles, etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NU85d25EYU5wT2JIY1haM1N1dGEyUXFseEdLWlV5M1RlOGFDcmN6bU8zbyUzRA==&quot; id=&quot;IMG_NU85d25EYU5wT2JIY1haM1N1dGEyUXFseEdLWlV5M1RlOGFDcmN6bU8zbyUzRA==&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;456&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Como vemos a tenor de esta clasificación, e independientemente de que los escaparates cambien en determinadas épocas del año, la presentación de los artículos puede realizarse de diferentes formas. En primer lugar, colocando los objetos en total desorden o amontonados; en segundo lugar, en montones ordenados, de tal forma que se limite la cantidad atendiendo a la idea a mostrar, haciendo una selección con divisiones regulares, irregulares o de artículos relacionados; y, por último, realizando la presentación de los artículos en montones con formas especiales.&lt;/p&gt;
+&lt;p&gt;Un ejemplo representativo de artículos colocados en masa pueden ser los escaparates de los comercios cuando están de rebajas, que en ocasiones parece más un almacén, debido a la excesiva, y a veces heterogénea e inconexa, acumulación de artículos. Como ejemplo de artículos presentados en montones ordenados puede ser las tiendas de retales o de trozos de telas, donde se expone mucho a un precio bajo. Una muestra de montones con formas especiales la observamos en los supermercados, a través de las construcciones piramidales de artículos iguales.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Escaparates publicitarios de marca&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Los escaparates publicitarios de marca simplemente se presentan como el resultado de una campaña de publicidad, es decir, esa es su finalidad.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_d252SXNKbHlVd0VrSUslMkZSJTJCWVhTakNLSHAlMkZOYXM0NkklMkZhdjVLQ0VBUDhrJTNE&quot; id=&quot;IMG_d252SXNKbHlVd0VrSUslMkZSJTJCWVhTakNLSHAlMkZOYXM0NkklMkZhdjVLQ0VBUDhrJTNE&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;496&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Escaparates sin mercancía o producto&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Este tipo de escaparates transmiten imagen de exclusividad. Pretende transferir una idea para la que no hace falta mostrar productos, ya que en este caso los productos del establecimiento suelen ser suficientemente conocidos.&lt;/p&gt;
+&lt;h4&gt;&lt;b&gt; Clases de escaparates en función del producto&lt;/b&gt;&lt;/h4&gt;
+&lt;p&gt;Otra división es la que se realiza en función del objeto a exhibir, de esta manera, tendremos dos tipos de escaparate:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Escaparates de artículos: Se componen de objetos que no están de moda, pero son completamente necesarios, como por ejemplo, alimentación, vivienda, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aTY3RVlZWkhSJTJGeXFURmF4Y2tkTWpKUEk3MXM0cVNKTzlESiUyQnVMdktFZW8lM0Q=&quot; id=&quot;IMG_aTY3RVlZWkhSJTJGeXFURmF4Y2tkTWpKUEk3MXM0cVNKTzlESiUyQnVMdktFZW8lM0Q=&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;533&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Escaparates de moda: son aquéllos que venden todo tipo de artículos relacionados con el consumo caprichoso; como por ejemplo, ropa, zapatos, complementos, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UE54MDc4S0NSMXg5cHUxQkJJTmNRZiUyRjhqZzBMWkxHTEZKb0ZsaCUyRjY0ck0lM0Q=&quot; id=&quot;IMG_UE54MDc4S0NSMXg5cHUxQkJJTmNRZiUyRjhqZzBMWkxHTEZKb0ZsaCUyRjY0ck0lM0Q=&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;492&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Según esta última clasificación, podemos reflexionar y hacernos las siguientes preguntas: ¿la venta de estas dos mercancías necesita exponerse en un escaparate?; ¿influiría, a la hora de captar clientes, un escaparate llamativo en una panadería o vendrían igual sin apenas mostrar la calidad de su producto?; ¿los objetos de moda se adquirirían si no nos parásemos en un escaparate atraídos por los colores, la luz o el montaje original?&lt;/p&gt;
+&lt;p&gt;A pesar de las respuestas que hayamos dado a las cuestiones anteriores, lo más importante es que el escaparate no sólo sea un bonito montaje, sino que además comunique la idea y logre venderla.&lt;/p&gt;
+&lt;p&gt;Esto es fácil de comprobar, ya que, si paseamos por una calle de cualquier ciudad, observaremos que nos fijamos con detenimiento en los escaparates que nos atraen mucho y otros, en cambio, pasan totalmente inadvertidos porque no consiguen llamar nuestra atención. Esta circunstancia se debe a que no todos los escaparates tienen la misma eficacia y poder de seducción.&lt;/p&gt;
+&lt;p&gt;En todo caso, el escaparate debe tener especialmente en cuenta a su “público” ya que no es lo mismo captar la atención de un grupo de jóvenes estudiantes del instituto, que atraer el interés de un pensionista que se mueve en un ambiente rural. La clase social, la actividad profesional, la edad, el nivel cultural, etc., conforman mayoritariamente las características de un público determinado.&lt;/p&gt;
+&lt;p&gt;Por supuesto, la finalidad prevista en la creación del escaparate es siempre atraer la mayor cantidad posible de clientes. De la misma manera, no hay que olvidar que la presentación de los objetos no puede ser la misma en el ambiente de un gran centro comercial que en una pequeña tienda de ambiente rural o que en un comercio de un barrio obrero.&lt;/p&gt;
+&lt;p&gt;Los intereses del público despiertan una curiosidad matizada de una forma diferente. Hay que despertar ese interés sin olvidar nunca a qué tipo de cliente nos dirigimos, para que nuestro esfuerzo sea en vano.&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="13"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="14"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="5"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%202.%20EL%20ESCAPARATE:Tipos%20de%20escaparates"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="17">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="El escaparate como elemento comunicador ﻿"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="15">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="16">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="15"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;A través del escaparate el comerciante ha de logar dos cosas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Que el cliente potencial se detenga a observar el escaparate, lo cual cuando se consigue se hace en un breve espacio de tiempo.&lt;/li&gt;
+&lt;li&gt;Que en los segundos que ha conseguido que se detenga convencerle de los beneficios de la tienda y los productos que hay en ella.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para que consiga las dos cosas citadas anteriormente, el escaparate ha de tener un orden y no muchos productos, para que es escasos segundos obtenga una información clara que le dará una idea de los que se encontrará dentro, consiguiendo que resulte atractivo.&lt;/p&gt;
+&lt;p&gt;El escaparate tiene que ser diferente, pero no se puede pensar en la comunicación del diseño exterior aisladamente, como si fuese la única empresa que existe, siempre hay que pensar que se forma parte de un conjunto de escaparates con diferentes mensajes y de un conjunto de tiendas que van a ofrecer productos iguales o sustitutivos.&lt;/p&gt;
+&lt;p&gt;El cliente pasa por cientos de escaparates, percibiendo multitud de mensajes, encontrándose sobresaturado de estímulos e información. La única solución para que se fije en un establecimiento en concreto es siendo diferentes, y así podes atraer su atención. Con esta diferenciación conseguirá posicionarse en la mente del consumidor; éste tendrá una imagen del establecimiento comercial y cuando quiera comprar algo que se relacione con ese posicionamiento, acudirá al establecimiento.&lt;/p&gt;
+&lt;p&gt;Este posicionamiento también se consigue con una imagen corporativa clara, con esta identidad se podrá diferenciar y posicionarse y vendrá determinado por el precio, las marcas, la cantidad de productos expuestos y los servicios que ofrece el establecimiento.&lt;/p&gt;
+&lt;p&gt;Los precios, en el caso de que no sea visible o sean tan pequeños que no se consiguen casi ver, serán identificados como precios caros. Además, no se debe saturar el escaparate de etiquetas, sustituyendo las mismas por tablillas que recojan la relación de precios de los artículos expuestos. Estas se situarán a una distancia intermedia del producto o productos al que hacen referencia.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, muchos productos expuestos sin estar agrupados de una manera armónica y por temas, darán la imagen de precios bajos y de productos de baja calidad.&lt;/p&gt;
+&lt;p&gt;Las relaciones que un individuo debe sentir delante de un escaparate son las siguientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Atracción. Crear la fuerza que obliga al individuo a mirar el escaparate.&lt;/li&gt;
+&lt;li&gt;Motivación. Energía que conduce al individuo hacia el escaparate.&lt;/li&gt;
+&lt;li&gt;Reflexión. Hacerle pensar sobre la posibilidad de compra.&lt;/li&gt;
+&lt;li&gt;Sensibilidad. Auto-convencimiento y justificación del por qué de la compra en unos casos, así como el análisis del artículo que irá mejor en otros.&lt;/li&gt;
+&lt;li&gt;Deseo. Fin del proceso; el cliente tiene la imperiosa necesidad de poseer lo que ha contemplado en el escaparate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Con el deseo se acaba normalmente el proceso del mensaje que tiene que emitir un escaparate bien creado. Se iniciará entonces un segundo proceso el cual debe de hacer recordar lo que vio y le gustó, aunque haya transcurrido un tiempo, y relacionar el individuo lo que ha visto.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Vlp3NHBpT0VFbGdlQzVNellUJTJGNm0wZXJMM0oxdll5enNPZ0E0c3N3ZGlvJTNE&quot; id=&quot;IMG_Vlp3NHBpT0VFbGdlQzVNellUJTJGNm0wZXJMM0oxdll5enNPZ0E0c3N3ZGlvJTNE&quot; alt=&quot;El Escaparate&quot; title=&quot;El Escaparate&quot; width=&quot;563&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="16"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="4"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="17"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="6"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%202.%20EL%20ESCAPARATE:El%20escaparate%20como%20elemento%20comunicador%20%EF%BB%BF"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="20">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Requisitos de un buen escaparate"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="18">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="19">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="18"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;&lt;b&gt;1. Transmisión de la información&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Con el escaparate se transmite una información que hará que el consumidor catalogue el establecimiento y refleje la atmósfera, el surtido, el precio, el nivel y el estilo de éste a los clientes a los que se dirige.&lt;/p&gt;
+&lt;p&gt;Se puede exponer productos que se quieran liquidar, viejos o pasados de moda, siempre que estos adornen como si fueran nuevos o estuvieran de moda, esto posibilita su liquidación.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;2. Atracción del público objetivo&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Es primordial, que el comercio conozca cuál es su público objetivo, sus características, deseos, necesidades y con qué se sienten identificados, para después adaptar el escaparate a ese público, con el fin de llamar su atención.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;3. Persuasión del consumidor&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;El escaparate es un elemento vendedor, incluso fuera del horario comercial. Como elemento vendedor informa de los productos y motiva la compra. Los productos se debe mostrar haciéndolos deseables, a través de una presentación llamativa, con el contraste de color acertado y con un refuerzo luminoso apropiado.&lt;/p&gt;
+&lt;p&gt;La mercancía podría reforzarse con un texto corto que llame la atención. Como por ejemplo: frases que hagan referencia a los precios, “Oferta”, o una fecha señalada, “El mejor regalos para el día del padre”.&lt;/p&gt;
+&lt;p&gt;Se recomienda que en el escaparate figuren tanto el nombre del comercio como el logotipo, ya que refuerza la imagen del establecimiento y fomenta el recuerdo del mismo en la mente del cliente.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;4. Originalidad&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Un escaparate con un diseño original llama más la atención, provocando que los transeúntes que pasen por delante del mismo lo recuerden e incluso lo comenten con otras personas.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;5. Adecuación al entorno&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Es escaparate se integrará en el mercado que le rodea, por un lado con la fachada y los establecimientos cercanos, y por otro con la arquitectura en la que se enmarcan.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;6. Exposición clara del precio&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Según la legislación vigente, todos los artículos expuestos deben llevar los precios claramente indicados, salvo excepciones.&lt;/p&gt;
+&lt;p&gt;Además si conocimiento es decisivo a la hora de comprar: cuando no se indica el precio la mayoría de la gente cree que el producto debe ser caro.&lt;/p&gt;
+&lt;p&gt;Los precios han de ser legibles, no estar ocultos y deben ser atractivos. Los que más atraen serán los terminados en números impares, las cifras como 99 y las cifras redondas como 150.&lt;/p&gt;
+&lt;p&gt;También podemos aumentar su atractivo a través del diseño y los colores utilizados; por ejemplo: en época de rebajas poner el precio antiguo abajo y tachado, poniendo el nuevo en grande y en un color llamativo como pueda ser el rojo.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;7. Renovación&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;El escaparate busca impactar al público que pasa por delante el mayor número de veces, este objetivo se conseguirá en el momento que el máximo número de transeúntes se paren a observarlo. Se debe calcular la media de impactos que se quiere realizar, y saber que una vez impactado un cliente potencial un número de veces, se pierde eficacia. En el momento que pierde la eficacia se debe renovar el escaparate.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;8. Planificación&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Es muy importante, y quizá una de las tareas más difíciles para el pequeño comerciante la de realizar una correcta planificación para la renovación del escaparate.&lt;/p&gt;
+&lt;p&gt;Para realizar esta planificación se ha de tener es cuneta el calendario festivo y los diferentes eventos. En este sentido se aprovechará el cambio de estación, navidades, el día del padre, fiestas locales y ferias. Igualmente, se cambiara el escaparate con los diferentes eventos de la tienda, como aniversarios, promociones y rebajas. Se recomienda que se renueve el escaparate al menos cada 20 días.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;9. Correcta colocación&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;No se puede olvidar que el escaparate es el medio de comunicación entre el comercio y el cliente potencial, la comunicación debe ser con un mensaje claro y sencillo. Por ello, a la hora de presentar los productos se debe transmitir un solo tema.&lt;/p&gt;
+&lt;p&gt;Por ejemplo en un establecimiento dedicado a la venta de ropa, para la campaña de Navidad se ambientará el escaparate con vestidos y complementos relacionados con la fiesta de fin de año. Nunca se mezclará con ropa informal o de deporte.&lt;/p&gt;
+&lt;p&gt;En el escaparate no habrá muchos productos, ya que transmitiría confusión y mala imagen, creando un único centro de atención y no varios repartidos en zonas.&lt;/p&gt;
+&lt;p&gt;Por ejemplo: se establece una figura central y alrededor elementos complementarios. La limpieza y el orden son requisitos imprescindibles a tener en cuenta en un escaparate.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="19"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="20"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="7"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%202.%20EL%20ESCAPARATE:Requisitos%20de%20un%20buen%20escaparate"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="23">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="¿Qué es un escaparatista? ﻿"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="21">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="22">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="21"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Tal y como lo define la Real Academia Española, el escaparatista es la persona encargada de disponer artísticamente los objetos que se muestran en los escaparates.&lt;/p&gt;
+&lt;p&gt;Ahondando un poco más en lo que significa un escaparate y su función, se puede decir que el escaparatista es aquella persona que arregla los escaparates de los comercios con miras a la atracción del público y promover la venta de los artículos de la tienda.&lt;/p&gt;
+&lt;p&gt;Una definición aún más completa es la siguiente:&lt;/p&gt;
+&lt;p&gt;“Técnico que expone los productos de una forma estética y armónica, aplicando sus conocimiento técnicos, estéticos y comerciales, a través de lo cual consigue despertar el interés de los potenciales compradores con el objeto de realizar en último término la operación comercial de venta”.&lt;/p&gt;
+&lt;p&gt;El escaparatista, por tanto, necesita poseer conocimiento muy diversos y también varias habilidades, por lo que su formación es muy rica y debe seguir adaptándose a los largo de su vida profesional. Para ello debe tener una mentalidad abierta a los cambios que ocurren a medida que el mercado va evolucionando y no conformarse sólo con la experiencia.&lt;/p&gt;
+&lt;p&gt;Dentro de los variados conocimientos en los que un profesional del escaparatismo debería formarse, podemos destacar los siguientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conocimientos de mercado&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Son necesarias nociones sobre el mercado en general y en particular sobre el sector que se va a trabajar.&lt;/li&gt;
+&lt;li&gt;Conocimientos sobre la demanda y la competencia del producto, y también sobre el producto en sí, sus características y lo que puede ofrecer.&lt;/li&gt;
+&lt;li&gt;En todo momento además el escaparatista deberá tener presente cuáles son los objetivos de la empresa.&lt;/li&gt;
+&lt;li&gt;Estudiar la psicología de las ventas y las características del público a quien van dirigidos los artículos.&lt;/li&gt;
+&lt;li&gt;Estar al tanto de las modas, de las novedades y de todo lo que ocurre o que llama la atención de los potenciales clientes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Habilidades y conocimientos técnicos&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Algunas nociones sobre dibujo artístico y técnico, al menos de forma básica, ayudaran al escaparatista en la creación de sus proyectos.&lt;/li&gt;
+&lt;li&gt;También tendrá que saber sobre herramientas, materiales y aplicaciones de éstos, lo cual implica desenvolverse bien con algunos trabajos de carpintería, tapizados, pintura o incluso iluminación y electricidad.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Habilidades y conocimientos artísticos&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Al escaparatista actual se le exige un gran sentido artístico, ya que debe formarse en conocimientos de composición y estética, estilismo, tratamiento de materiales y además necesita grandes dosis de creatividad para ser original y distinguirse de la competencia.&lt;/li&gt;
+&lt;li&gt;Es escaparate, desde el punto de vista artístico, representa a la propia sociedad, sus deseos, sus expectativas, y cambia y se adapta con el mismo dinamismo que ésta.&lt;/li&gt;
+&lt;li&gt;Por todo ello, el escaparatista deberá estar informado sobre los diferentes estilos artísticos, tanto históricos como actuales, conocer técnicas de decoración, color, iluminación, y como no, tener buen gusto.&lt;/li&gt;
+&lt;li&gt;El escaparatista debe estar en continuo contacto con las últimas tendencias, estilos y modas, tanto estéticas como sociales. Una buena forma de estar informado acerca de los elementos que definen los cambios es la de recurrir a la publicidad y a las noticias sobre política y arte.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;p&gt;Como se puede comprobar, el profesional de escaparatismo es a la vez creativo/a y muy habilidoso/a, con buen sentido de los estético y lo comercial.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="22"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="23"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="8"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%202.%20EL%20ESCAPARATE:%C2%BFQu%C3%A9%20es%20un%20escaparatista%3F%20%EF%BB%BF"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="26">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Recuerda"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="24">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="25">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="24"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block; padding: 30px 40px;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;div class=&quot;ee_marco1_htm&quot;&gt;
+&lt;ul style=&quot;padding: 10px; list-style-position: inside; background-color: #dadada;&quot;&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;El escaparate es el vehículo fundamental de comunicación entre el comercio y los clientes potenciales, sintetizando y reflejando el estilo de la tienda, lo que es y lo que vende.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul style=&quot;padding: 10px; list-style-position: inside; background-color: #dadada;&quot;&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;A lo largo del siglo XX, el escaparate, debido a la revolución en el campo de la publicidad y los medios audiovisuales, adquiere independencia y se conforma como tal. Su razón de ser es promover la venta por medio de la atracción y el estímulo, para lo que se necesita un desarrollo y un planteamiento correcto.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;La misión del escaparate consiste en exponer al público los productos, las marcas, los precios y la variedad de surtido que dispone el comercio.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Los escaparates pueden clasificarse atendiendo a distintos criterios. Así, se pueden diferenciar distintos tipos de escaparates, según criterios como: el tipo de mercancía o producto del que se trate, es decir, el escaparate de tipo publicitario; el tipo de marca, esto es, de diseño; etc.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;A través del escaparate el comerciante ha de logar dos cosas:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Que el cliente potencial se detenga a observar el escaparate, lo cual cuando se consigue se hace en un breve espacio de tiempo.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Que en los segundos que ha conseguido que se detenga convencerle de los beneficios de la tienda y los productos que hay en ella.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul style=&quot;padding: 10px; list-style-position: inside; background-color: #dadada;&quot;&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;El escaparatista es una persona encargada de arreglar los escaparates de los comercios, con miras a la atracción del público. El profesional del escaparate necesitará de conocimientos artísticos, comerciales y técnicos para realizar su trabajo de una forma efectiva.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="25"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="26"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="9"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%202.%20EL%20ESCAPARATE:Recuerda"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="27">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Preguntas de Autoevaluación"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.quiztestidevice.QuizTestIdevice" reference="28">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Cuestionario: Seleccion Unica."></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="Unlike the MCQ the SCORM quiz is used to test 
+the learners knowledge on a topic without providing the learner with feedback 
+to the correct answer. The quiz will often be given once the learner has had 
+time to learn and practice using the information or skill.
+ "></unicode>
+           <string role="key" value="_tip"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.quiztestidevice.QuizTestIdevice.persistenceVersion"></string>
+           <int value="10"></int>
+           <string role="key" value="icon"></string>
+           <string value="question"></string>
+           <string role="key" value="id"></string>
+           <unicode value="8"></unicode>
+           <string role="key" value="isAnswered"></string>
+           <bool value="1"></bool>
+           <string role="key" value="isQuiz"></string>
+           <bool value="1"></bool>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value="question"></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="27"></reference>
+           <string role="key" value="passRate"></string>
+           <unicode value="50"></unicode>
+           <string role="key" value="questions"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="31">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="29">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="113"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;b&gt;¿La aparición de qué elemento fue de gran importancia para los comercios de textil?&lt;/b&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="29"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="30">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="114"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Los maniquíes.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="30"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="31"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="32">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="178"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Carteles luminosos.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="32"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="31"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="33">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="179"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Display.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="33"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="31"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="34">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="180"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Rótulos.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="34"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="31"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="37">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="35">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="181"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt; Confirma si la siguiente afirmación es verdadera o falsa: &lt;/b&gt;&lt;br /&gt; &lt;i&gt;“El escaparate debe sintetizar y reflejar las características del establecimiento, así el cliente se va a hacer una idea de los productos y la calidad que se va a encontrar en el interior”.&lt;/i&gt;&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="35"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="36">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="182"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Verdadero&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="36"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="37"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="38">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="183"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Falso&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="38"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="37"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="41">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="39">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="184"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;b&gt;¿Qué objetivos técnicos-estéticos persigue el escaparate?&lt;/b&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="39"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="3"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="40">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="185"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Aumentar la demanda, atrayendo al comprador y reteniéndolo.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="40"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="41"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="42">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="186"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Dar imagen propia.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="42"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="41"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="43">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="187"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Destacar frente a la competencia.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="43"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="41"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="44">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="188"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Ninguna de las respuestas es correcta.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="44"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="41"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="47">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="45">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="189"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;b&gt;¿Cada cuanto tiempo es recomendable cambiar el escaparate?&lt;/b&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="45"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="46">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="190"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Al menos cada 10 días.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="46"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="47"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="48">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="191"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Al menos cada 15 días.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="48"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="47"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="49">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="192"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Al menos cada 20 días.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="49"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="47"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="50">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="193"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Al menos cada 30 días.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="50"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="47"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="53">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="51">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="194"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;b&gt;Un escaparatista:&lt;/b&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="51"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="3"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="52">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="195"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Deberá tener nociones sobre el mercado en general y en particular sobre el sector que se va a trabajar.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="52"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="53"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="54">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="196"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Debe estar en continuo contacto con las últimas tendencias, estilos, modas, tanto estéticas como sociales.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="54"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="53"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="55">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="197"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Debe tener algunas nociones de dibujo artístico y técnico que le ayudaran en la creación de sus proyectos.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="55"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="53"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="56">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="198"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Todas las respuestas son correctas.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="4"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="56"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="53"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="score"></string>
+           <int value="-1"></int>
+           <string role="key" value="systemResources"></string>
+           <list>
+            <string value="common.js"></string>
+           </list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="10"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%202.%20EL%20ESCAPARATE:Preguntas%20de%20Autoevaluaci%C3%B3n"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="4"></reference>
+   <unicode role="key" value="10"></unicode>
+   <reference key="27"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="8"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="11"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="14"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="17"></reference>
+   <unicode role="key" value="7"></unicode>
+   <reference key="20"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="23"></reference>
+   <unicode role="key" value="9"></unicode>
+   <reference key="26"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="27"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="5abadcd9-4aed-4dce-804c-2094f4eb4511"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="13"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="license"></string>
+  <string value="creative commons: attribution - share alike 4.0"></string>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="5abadcd9-4aed-4dce-804c-2094f4eb4511"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="5abadcd9-4aed-4dce-804c-2094f4eb4511"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Preestablecido"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="5"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="FPD-MEDU"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

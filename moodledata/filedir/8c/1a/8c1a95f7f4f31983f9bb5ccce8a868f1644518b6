@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.Formato condicional </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">4.Formato condicional</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id98">
+<div class="iDevice emphasis0">
+<div id="ta98_85" class="block iDevice_content">
+<p>Por regla general, el formato se aplica globalmente a conjuntos de datos con la finalidad de que éstos se presenten de manera homogénea. No obstante, en ocasiones vendría bien que ese formato cambiase ante ciertas situaciones. Tomemos como ejemplo nuestro rango de datos. Todos los números aparecen con un formato normal.</p>
+<p>Sería útil, por ejemplo, que los datos que destacasen de los demás, porque el número fuese mayor de un cierto límite, apareciese destacado visualmente, por ejemplo de otro color.</p>
+<p>Imaginando que en cada colegio se cuente con un número de alumnas entre 100 o 150, un dato llamativo podría ser que en un colegio apareciesen más de 200 alumnas.</p>
+<p>Seleccione de nuevo en rango de valores y, a continuación, despliegue la opción Estilos&gt;Formato&gt;Formato condicional de la ficha Inicio de la Cinta de opciones.</p>
+<p>Aparecerá un Menú como el de la figura 4 .27, con una extensa lista de reglas que pueden aplicarse a las celdillas seleccionadas. En nuestro caso elegiremos la opción Resaltar reglas de celdas &gt;Es mayor que, abriendo una ventana en la que introduciremos el número en cuestión, en nuestro caso, 200</p>
+<p><img src="excel_4.27.png" alt="FIGURA 4.27" width="500" height="270" /></p>
+<p><strong>FIGURA 4.27</strong></p>
+<p>Introducido el valor de referencia y cerrado la ventana, veremos que en la hoja aparecerá en color rojo sobre fondo claro aquellos valores que cumplen la condición indicada. En nuestro caso hemos indicado una condición concreta en cada columna. De esta forma es fácil identificar directamente los datos que destacan de los demás.</p>
+<p>El formato condicional puede ser múltiple, es decir, pueden existir varia condiciones con varios atributos asociados. No tienen más que volver a abrir el menú Formato Condicional e ir agregando reglas.. Puede por ejemplo elegir la opción Barras de datos para agregar al interior de cada cedilla una barra de color suave que representa gráficamente el valor de esa misma celdilla, tal como se ha hecho en la figura 4 .28</p>
+<p><img src="excel_4.28.png" alt="FIGURA 4.28" width="749" height="457" /></p>
+<p><strong>FIGURA 4.28</strong></p>
+<p>Observe la hoja de cálculo a medida que se desplace por las opciones de Barra de datos, Escala de color y Conjunto de iconos, podrá ver una vista previa de cómo quedará la hoja.</p>
+<p>En lugar de rellenar el fondo de cada celdilla con un determinado color, puede optarse por disponer un icono indicativo del color que almacenan. Para ello se recurriría a la rama Conjunto de iconos del menú Formato condicional (véase la figura 4 .29).</p>
+<p><img src="excel_4.29.png" alt="FIGURA 4.29" width="600" height="352" /></p>
+<p><strong>FIGURA 4.29</strong></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.1. Funciones informativas </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.1. Funciones informativas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Todas las funciones informativas toman como parámetro un número considerado como la fecha u hora de la que extraer un cierto dato. Esa fecha y/u hora pueden ser introducidas manualmente o bien mediante funciones como HOY y AHORA, que devuelven la fecha y la fecha y la hora actuales, respectivamente.</p>
+<p>Puede componer una fecha también usando la función FECHA. Ésta precisa de tres parámetros: año, mes y día. El año puede entregarse en formato de dos o cuatro dígitos.</p>
+<p>Cuando un número se almacena en una celdilla que tiene formato de fecha, se cuenta como el número de días transcurridos desde el 1 de enero de 1900. La parte decimal del número, si es que existe, es tratada como la hora, sabiendo que 0,5 corresponde a las doce del mediodía.</p>
+<p>Partiendo de que ya tenemos en una celdilla la fecha y hora, bien introducida manualmente o bien con cualquiera de las funciones mencionadas, podríamos extraer cualquiera de sus elementos mediante las siguientes funciones:</p>
+<ul>
+<li>AÑO: devuelve el año. Toma como único parámetro una fecha.</li>
+<li>MES: devuelve el número del mes. Toma como único parámetro una fecha.</li>
+<li>DIA: devuelve el día. Esta función toma como único parámetro una fecha.</li>
+<li>DIASEM: devuelve el número indicando el número de la semana. Los parámetros necesarios son dos: una fecha y un índice de los enumerados en la tabla 9.1. El segundo es opcional y, de omitirse, se asumiría el valor 1 por defecto.</li>
+<li>NUM.DE.SEMANA: devuelve el número de la semana dentro del año. También necesita dos parámetros: la fecha y un número indicando si se considera que la semana comienza por domingo, valor 1, o por lunes, valor 2.</li>
+<li>HORA: devuelve la hora. Toma como único parámetro la hora o fecha y hora.</li>
+<li>MINUTO: devuelve el minuto, tomando como parámetro el mismo que la anterior.</li>
+<li>SEGUNDO: devuelve el segundo, usando el mismo parámetro que las dos anteriores.</li>
+</ul>
+<table style="border-width: 0px; border-collapse: collapse;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top" width="48">
+<p><b>Índice</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Significado</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>1</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>El número de día estará comprendido entre 1 y 7, siendo el primero el domingo.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>2</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>El número de día estará comprendido entre 1 y 7, siendo el primero el lunes.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>3</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>El número de día estará comprendido entre 0 y 6, siendo el primero el lunes.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 9.1. </b> Índice para el segundo parámetro de la función DIASEM</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Z2l6WkU1c3BtQ3drRjlhbkk2NlFPYVRkJTJGZzFaVXo3QW5neG16RmJLQzRnJTNE" id="IMG_Z2l6WkU1c3BtQ3drRjlhbkk2NlFPYVRkJTJGZzFaVXo3QW5neG16RmJLQzRnJTNE" alt="Otras funciones de interés" title="Otras funciones de interés" width="342" /></p>
+<p><b>Figura 9.7.</b> Hoja de cálculo conteniendo diversas operaciones con fechas.</p>
+<p>En la figura 9.7 puede ver cómo se ha introducido la fecha y hora en una celdilla y, posteriormente, se han extraído algunos de sus componentes utilizando las funciones que acaban de enumerarse.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

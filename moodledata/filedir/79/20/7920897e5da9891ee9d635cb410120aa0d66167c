@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id5">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 2;
+var key2 = 2;
+var key3 = 0;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b5");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm5").key0b5[i].checked)
+               {
+                  question0 = document.getElementById("quizForm5").key0b5[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b5");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm5").key1b5[i].checked)
+               {
+                  question1 = document.getElementById("quizForm5").key1b5[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b5");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm5").key2b5[i].checked)
+               {
+                  question2 = document.getElementById("quizForm5").key2b5[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b5");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm5").key3b5[i].checked)
+               {
+                  question3 = document.getElementById("quizForm5").key3b5[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b5");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm5").key4b5[i].checked)
+               {
+                  question4 = document.getElementById("quizForm5").key4b5[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm5").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona la opción correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm5" id="quizForm5" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-5" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b5" class="block iDevice_content">
+<div class="ee_enunciado"><b>Responde verdadero o falso:</b> <br />“El principio de no compensación hace referencia a la contabilización de beneficios realizados a la fecha de cierre del ejercicio”.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b51" class="sr-av"><a href="#answer-key0b51">Opción 1</a></label><input type="radio" name="key0b5" id="key0b51" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b51"><a name="answer-key0b51"></a>
+<div id="taoptionAnswer0q0b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b52" class="sr-av"><a href="#answer-key0b52">Opción 2</a></label><input type="radio" name="key0b5" id="key0b52" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b52"><a name="answer-key0b52"></a>
+<div id="taoptionAnswer1q0b5" class="block iDevice_content">
+<p><span>Falso.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b5" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Cuántos principios encontramos en el actual PGC?</b></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b51" class="sr-av"><a href="#answer-key1b51">Opción 1</a></label><input type="radio" name="key1b5" id="key1b51" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b51"><a name="answer-key1b51"></a>
+<div id="taoptionAnswer0q1b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">4</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b52" class="sr-av"><a href="#answer-key1b52">Opción 2</a></label><input type="radio" name="key1b5" id="key1b52" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b52"><a name="answer-key1b52"></a>
+<div id="taoptionAnswer1q1b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">5</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b53" class="sr-av"><a href="#answer-key1b53">Opción 3</a></label><input type="radio" name="key1b5" id="key1b53" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b53"><a name="answer-key1b53"></a>
+<div id="taoptionAnswer2q1b5" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">6</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b54" class="sr-av"><a href="#answer-key1b54">Opción 4</a></label><input type="radio" name="key1b5" id="key1b54" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b54"><a name="answer-key1b54"></a>
+<div id="taoptionAnswer3q1b5" class="block iDevice_content">
+<p><span>7</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b5" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿A qué se denomina principio de importancia relativa?</b></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b51" class="sr-av"><a href="#answer-key2b51">Opción 1</a></label><input type="radio" name="key2b5" id="key2b51" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b51"><a name="answer-key2b51"></a>
+<div id="taoptionAnswer0q2b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Se refiere al cambio de principio si se detecta que no es válido para su evaluación.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b52" class="sr-av"><a href="#answer-key2b52">Opción 2</a></label><input type="radio" name="key2b5" id="key2b52" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b52"><a name="answer-key2b52"></a>
+<div id="taoptionAnswer1q2b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Al cálculo de los balances relativos al final de ejercicio.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b53" class="sr-av"><a href="#answer-key2b53">Opción 3</a></label><input type="radio" name="key2b5" id="key2b53" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b53"><a name="answer-key2b53"></a>
+<div id="taoptionAnswer2q2b5" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">A la no aplicación de alguno de los principios siempre y cuando su repercusión en las cuentas anuales sea poco significativa.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b54" class="sr-av"><a href="#answer-key2b54">Opción 4</a></label><input type="radio" name="key2b5" id="key2b54" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b54"><a name="answer-key2b54"></a>
+<div id="taoptionAnswer3q2b5" class="block iDevice_content">
+<p><span>A la aplicación del factor relativo para corregir pequeñas variaciones de resultado.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b5" class="block iDevice_content">
+<div class="ee_enunciado"><b>Completa la siguiente afirmación:</b> <br />“El ______ ________ o coste de un activo es su precio de adquisición o coste de producción”.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b51" class="sr-av"><a href="#answer-key3b51">Opción 1</a></label><input type="radio" name="key3b5" id="key3b51" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b51"><a name="answer-key3b51"></a>
+<div id="taoptionAnswer0q3b5" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Coste Histórico</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b52" class="sr-av"><a href="#answer-key3b52">Opción 2</a></label><input type="radio" name="key3b5" id="key3b52" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b52"><a name="answer-key3b52"></a>
+<div id="taoptionAnswer1q3b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Coste auténtico</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b53" class="sr-av"><a href="#answer-key3b53">Opción 3</a></label><input type="radio" name="key3b5" id="key3b53" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b53"><a name="answer-key3b53"></a>
+<div id="taoptionAnswer2q3b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Coste verdadero</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b54" class="sr-av"><a href="#answer-key3b54">Opción 4</a></label><input type="radio" name="key3b5" id="key3b54" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b54"><a name="answer-key3b54"></a>
+<div id="taoptionAnswer3q3b5" class="block iDevice_content">
+<p><span>Coste fiel</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b5" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Cuál es la fórmula que se utiliza para calcular el valor actual?</b></div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b51" class="sr-av"><a href="#answer-key4b51">Opción 1</a></label><input type="radio" name="key4b5" id="key4b51" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b51"><a name="answer-key4b51"></a>
+<div id="taoptionAnswer0q4b5" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Co = Cn (1+i)-n</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b52" class="sr-av"><a href="#answer-key4b52">Opción 2</a></label><input type="radio" name="key4b5" id="key4b52" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b52"><a name="answer-key4b52"></a>
+<div id="taoptionAnswer1q4b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">C = Cn (1+i)-n</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b53" class="sr-av"><a href="#answer-key4b53">Opción 3</a></label><input type="radio" name="key4b5" id="key4b53" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b53"><a name="answer-key4b53"></a>
+<div id="taoptionAnswer2q4b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Co = Cn (1-i)-n</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b54" class="sr-av"><a href="#answer-key4b54">Opción 4</a></label><input type="radio" name="key4b5" id="key4b54" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b54"><a name="answer-key4b54"></a>
+<div id="taoptionAnswer3q4b5" class="block iDevice_content">
+<p><span>C = Cn (1-i)-n</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

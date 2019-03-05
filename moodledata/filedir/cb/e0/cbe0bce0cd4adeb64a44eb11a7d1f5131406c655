@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Registro De Las Operaciones Del Ejercicio </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Registro De Las Operaciones Del Ejercicio</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<p>A partir de la apertura de la contabilidad, se irán registrando todas las operaciones propias de la empresa, tales como compras, ventas, movimientos bancarios, etc. Este registro se realiza mediante asientos en el libro diario.</p>
+<p>A la hora de realizar un asiento, es de vital importancia tener claro el método de partida doble y la dualidad contable, que ya comentamos en el tema anterior. Para recordarlo brevemente:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="32" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td colspan="2" width="177" height="32" valign="middle"></td>
+<td height="32" valign="middle">
+<p><b>HABER</b></p>
+</td>
+<td width="3"></td>
+</tr>
+<tr valign="top">
+<td colspan="2" width="273" height="53" valign="middle">
+<p>Aumentos de activo</p>
+</td>
+<td colspan="3" width="275" height="53" valign="middle">
+<p>Disminuciones de activo</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Los incrementos de pasivo y neto generalmente constituyen recursos (Haber) y las disminuciones representarán empleos (Debe):</p>
+<table border="1" cellpadding="4" cellspacing="-1" style="width: 576px;">
+<tbody>
+<tr valign="top">
+<td colspan="2" width="178" height="37" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td colspan="2" width="178" height="37" valign="middle"></td>
+<td colspan="2" width="178" height="37" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="66" valign="middle">
+<p>Disminuciones de pasivo</p>
+</td>
+<td colspan="2" width="130" height="66" valign="middle"></td>
+<td colspan="2" width="130" height="66" valign="middle"></td>
+<td height="66" valign="middle">
+<p>Saldo inicial Aumentos de pasivo</p>
+</td>
+</tr>
+<tr valign="top">
+<td colspan="2" width="178" height="41" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td colspan="2" width="178" height="41" valign="middle"></td>
+<td colspan="2" width="178" height="41" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Disminuciones de Neto</p>
+</td>
+<td colspan="2" width="130" valign="middle"></td>
+<td colspan="2" width="130" valign="middle"></td>
+<td valign="middle">
+<p>Saldo inicial</p>
+<p>Incrementos de Neto</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>A continuación, contabilizaremos las operaciones relativas a la empresa de nuestro ejemplo:</p>
+<p>El 10 de enero compra mercaderías (muebles) por valor de 1.500 € pagándolo al contado:</p>
+<table border="1" cellpadding="4" cellspacing="-1" style="width: 495px;">
+<tbody>
+<tr valign="top">
+<td height="37" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td height="37" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td height="37" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="37" valign="middle">
+<p>Compra de Mercaderías</p>
+</td>
+<td height="37" valign="middle">
+<p>1.500</p>
+</td>
+<td height="37" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="37" valign="middle">
+<p>Dinero</p>
+</td>
+<td height="37" valign="middle"></td>
+<td height="37" valign="middle">
+<p>1.500</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>La cuenta abonada podría ser «mercaderías», pero se va a utilizar la de «Compras de mercaderías», que nos indica que de esta operación se deriva una compra.</p>
+<p>El 20 de enero vende la mitad de las mercaderías que ha comprado por 1.300 €, y el cliente se compromete a pagarle a 30 días.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="35" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td height="35" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td height="35" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="35" valign="middle">
+<p>Créditos de Clientes</p>
+</td>
+<td height="35" valign="middle">
+<p>1.300</p>
+</td>
+<td height="35" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="35" valign="middle">
+<p>Venta de Mercaderías</p>
+</td>
+<td height="35" valign="middle"></td>
+<td height="35" valign="middle">
+<p>1.300</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>El 20 de febrero el cliente nos paga:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="37" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td height="37" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td height="37" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="37" valign="middle">
+<p>Dinero</p>
+</td>
+<td height="37" valign="middle">
+<p>1.300</p>
+</td>
+<td height="37" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="37" valign="middle">
+<p>Créditos de Clientes</p>
+</td>
+<td height="37" valign="middle"></td>
+<td height="37" valign="middle">
+<p>1.300</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>El 15 de mayo vendemos mercaderías por un valor de 400 € cobrándolo al contado:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="37" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td height="37" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td height="37" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="37" valign="middle">
+<p>Dinero</p>
+</td>
+<td height="37" valign="middle">
+<p>400</p>
+</td>
+<td height="37" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="37" valign="middle">
+<p>Venta de Mercaderías</p>
+</td>
+<td height="37" valign="middle"></td>
+<td height="37" valign="middle">
+<p>400</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>El 9 de septiembre compramos una impresora por 200 € pagadero a 60 días:</p>
+<table border="1" cellpadding="4" cellspacing="-1" style="width: 521px;">
+<tbody>
+<tr valign="top">
+<td height="39" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="81" height="39" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="81" height="39" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="39" valign="middle">
+<p>Impresora</p>
+</td>
+<td width="81" height="39" valign="middle">
+<p>200</p>
+</td>
+<td width="81" height="39" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="39" valign="middle">
+<p>Deudas con suministradores de inmovilizado</p>
+</td>
+<td width="81" height="39" valign="middle"></td>
+<td width="81" height="39" valign="middle">
+<p>200</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>El 9 de noviembre le pagamos al proveedor de la impresora</p>
+<table border="1" cellpadding="4" cellspacing="-1" style="width: 518px;">
+<tbody>
+<tr valign="top">
+<td height="43" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="81" height="43" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="81" height="43" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="43" valign="middle">
+<p>Deudas con suministradores de inmovilizado</p>
+</td>
+<td width="81" height="43" valign="middle">
+<p>200</p>
+</td>
+<td width="81" height="43" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="43" valign="middle">
+<p>Dinero</p>
+</td>
+<td width="81" height="43" valign="middle"></td>
+<td width="81" height="43" valign="middle">
+<p>200</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

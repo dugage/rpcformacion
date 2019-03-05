@@ -1,0 +1,2733 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <string value="XHTML"></string>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <string value="es"></string>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Topic"></unicode>
+   <unicode value="Section"></unicode>
+   <unicode value="Unit"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="TEMA_3"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="10"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="10"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="5">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="UNIDAD DIDÁCTICA 3. ACTUACIÓN EN EMERGENCIAS Y EVACUACIÓN"></unicode>
+     <string role="key" value="idevices"></string>
+     <list></list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="1"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:UNIDAD%20DID%C3%81CTICA%203.%20ACTUACI%C3%93N%20EN%20EMERGENCIAS%20Y%20EVACUACI%C3%93N"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="4">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="1. Tipos de accidentes"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="3">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Un accidente de trabajo es el que sucede al trabajador durante su jornada laboral o bien en el trayecto al trabajo o desde el trabajo a su casa. En este último caso el accidente recibe el nombre de in itinere.&lt;/p&gt;
+&lt;p&gt;El artículo 115 de la Ley de Prevención de Riesgos Laborales lo define como:&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;«La lesión corporal que el trabajador sufre con ocasión o consecuencia del trabajo que ejecuta por cuneta ajena».&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;Para que un accidente de trabajo sea considerado como tal es necesario que se cumplan las siguientes características:&lt;/p&gt;
+&lt;p&gt;1. Lesión corporal, que puede ser física o psíquica.&lt;/p&gt;
+&lt;p&gt;2. Que el trabajador sea por cuenta ajena o esté dado de alta en la contingencia de accidente de trabajo como autónomo por cuenta propia.&lt;/p&gt;
+&lt;p&gt;3. También se extiende el concepto a los trabajadores socios de sociedades mercantiles.&lt;/p&gt;
+&lt;p&gt;4. Que el accidente con ocasión o por consecuencia del trabajo.&lt;/p&gt;
+&lt;p&gt;Se consideran asimismo accidentes laborales en España, a diferencia del resto de los países del entorno:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Los accidentes que ocurren al ir o volver del trabajo. Denominados accidentes in itinere. Es necesario para considerar in itinere un accidente laboral que se haya producido entre el domicilio habitual del trabajador y el puesto de trabajo. No se considerará accidente laboral, si se producen interrupciones en el camino para realizar actos ajenos al trabajo o se dirige desde el trabajo a lugares distintos del domicilio habitual.&lt;/li&gt;
+&lt;li&gt;Los que desempeñe el trabajador con ocasión o como consecuencia del desempeño de cargos electivos de carácter sindical o de gobierno de las entidades gestoras, así como los ocurridos al ir o al volver del lugar en el que se ejerciten las funciones propias de dichos cargos.&lt;/li&gt;
+&lt;li&gt;Los ocurridos con ocasión o por consecuencia de las tareas que, aún siendo distintas a las de su categoría profesional, ejecuta el trabajador en cumplimiento de las órdenes del empresario o espontáneamente en interés del buen funcionamiento de la empresa.&lt;/li&gt;
+&lt;li&gt;Los acaecidos en actos de salvamento y en otros de naturaleza análoga, cuando unos y otros tengan conexión con el trabajo.&lt;/li&gt;
+&lt;li&gt;Las enfermedades que contraiga el trabajador con motivo de la realización de su trabajo, siempre y cuando se pruebe que la enfermedad tuvo por causa exclusiva la realización del mismo y no esté catalogada como enfermedad profesional.&lt;/li&gt;
+&lt;li&gt;Las enfermedades o defectos padecidos con anterioridad por el trabajador que se agraven como consecuencia de la lesión constitutiva del accidente.&lt;/li&gt;
+&lt;li&gt;Los infartos de trombosis, hemorragias cerebrales o similares cuando se producen a causa o consecuencia del trabajo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No se considerará accidente de trabajo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La Imprudencia temeraria, aunque sí la imprudencia profesional.&lt;/li&gt;
+&lt;li&gt;El accidente que se produce en el puesto de trabajo cuando el accidentado está cometiendo un delito doloso.&lt;/li&gt;
+&lt;li&gt;Los infartos de miocardio, trombosis, hemorragias cerebrales o similares si no son producto del trabajo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los accidentes se clasifican por su gravedad y por si originan o no baja médica del siguiente modo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Leves: gravedad baja y sin secuelas, son frecuentes.&lt;/li&gt;
+&lt;li&gt;Graves y mortales: gravedad alta, éstos son poco frecuentes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="3"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="0"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%203.%20ACTUACI%C3%93N%20EN%20EMERGENCIAS%20Y%20EVACUACI%C3%93N:1.%20Tipos%20de%20accidentes"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="8">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="2. Evaluación primaria del accidentado"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="6">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="7">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="6"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Cuando se produce un herido hay que activar el sistema de emergencia recordando siempre la palabra &lt;b&gt;P.A.S.,&lt;/b&gt; es decir &lt;b&gt;P&lt;/b&gt; roteger, &lt;b&gt;A&lt;/b&gt; visar y &lt;b&gt;S&lt;/b&gt; ocorrer.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_QzdrOHMzVllEdVRJZWlZTlFieVdiMG52ZGVIQlglMkJGWlhPY1g2THV4QkwwJTNE&quot; id=&quot;IMG_QzdrOHMzVllEdVRJZWlZTlFieVdiMG52ZGVIQlglMkJGWlhPY1g2THV4QkwwJTNE&quot; alt=&quot;Actuación en emergencias y evacuación&quot; title=&quot;Actuación en emergencias y evacuación&quot; width=&quot;558&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Dicho de otra forma:&lt;/p&gt;
+&lt;p&gt;Hay que asegurarse que el accidentado y el que socorre al accidentado están fuera de peligro, es decir, que estén protegidos.&lt;/p&gt;
+&lt;p&gt;Hay que avisar a los servicios sanitarios con celeridad pero con calma, proporcionando toda la información que se pueda dar de forma clara y concisa.&lt;/p&gt;
+&lt;p&gt;Hay que socorrer al accidentado reconociendo sus signos vitales, siempre siguiendo el mismo orden:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Evaluación Primaria:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Conciencia.&lt;/li&gt;
+&lt;li&gt;Respiración.&lt;/li&gt;
+&lt;li&gt;Pulso.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Evaluación Secundaria:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Hemorragias.&lt;/li&gt;
+&lt;li&gt;Fracturas.&lt;/li&gt;
+&lt;li&gt;Quemaduras.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;RECONOCIMIENTO DE SIGNOS VITALES&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Conciencia&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Para saber si un accidentado está consciente le preguntaremos qué le ha pasado. Si contesta, descartaremos la existencia de paro respiratorio. El problema surge cuando el paciente NO CONTESTA. Entonces tendremos que provocarle el estímulo doloroso, mediante un pellizco para observar sus reacciones (gemidos, apertura de ojos, movimientos de cabeza, etc.). Si no existe ningún tipo de reacción significa que el estado de inconsciencia está declarado, por lo que inmediatamente y, en lo posible, SIN TOCARLO (pues puede ser un paciente traumático y existir lesiones óseas que agraven su estado) comprobaremos su respiración.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Respiración&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Teniendo al accidentado inconsciente, existen dos posibilidades: que RESPIRE o que NO RESPIRE. Para comprobar la presencia de la respiración en un accidentado, el socorrista debe utilizar la vista, el oído y el tacto, para ello acercará su propia mejilla o el dorso de la mano a la boca-nariz del accidentado y, mirando hacia el pecho, podrá observar el movimiento torácico o abdominal, escuchar la salida del aire y notar en su mejilla el calor del aire exhalado.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;i&gt;SI RESPIRA: &lt;/i&gt;No hará falta seguir explorando sus signos vitales, ya que el corazón funciona seguro. En este momento se inicia la Evaluación Secundaria, siendo el procedimiento a seguir el control de las hemorragias, el tratamiento de las heridas y la inmovilización de las fracturas y, siempre que no sea traumático, el de colocarlo en una posición de seguridad para prevenir las posibles consecuencias de un vómito (bronco-aspiración) y la caída de la lengua hacia la faringe. Esta posición es la denominada en el argot del socorrismo como P.L.S., que significa: Posición Lateral de Seguridad.&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WGw2YlJrOGhaaVpxNG5QUVQ2Zk5LZ0c3RGhIbkpWbVA5SkNRN01IUGFQUSUzRA==&quot; id=&quot;IMG_WGw2YlJrOGhaaVpxNG5QUVQ2Zk5LZ0c3RGhIbkpWbVA5SkNRN01IUGFQUSUzRA==&quot; alt=&quot;Actuación en emergencias y evacuación&quot; title=&quot;Actuación en emergencias y evacuación&quot; width=&quot;442&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;En el caso de que el paciente respire pero sea traumático, NO LO MOVEREMOS. En ambos casos seguiremos a su lado vigilando sus signos vitales, tras la evaluación secundaria y hasta que llegue la ayuda solicitada.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;i&gt;NO RESPIRA: &lt;/i&gt;Si al acercar nuestra mejilla o el dorso de nuestra mano a su boca, comprobamos que NO RESPIRA, en seguida y sin perder tiempo colocaremos al accidentado, sea traumático o no, en posición de decúbito supino (estirado mirando hacia arriba) pero respetando la alineación del eje cervical. Después de explorar su boca para comprobar la existencia de cuerpos extraños (dientes desprendidos, chicles...), procederemos a abrir las vías aéreas, mediante una hiperextensión del cuello, mediante la maniobra de fronto-mentón, evitando que la lengua obstruya la vía de entrada de aire. En ocasiones, con esta simple maniobra, el paciente vuelve a respirar.&lt;/li&gt;
+&lt;li&gt;En caso contrario, el paro es evidente, por lo que deberemos suplir la función ausente mediante la respiración artificial método BOCA-BOCA.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;b&gt;Pulso &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Cuando el paro respiratorio está instaurado y ya hemos procedido a iniciar el BOCA-BOCA, es necesario comprobar el funcionamiento cardíaco mediante la toma del pulso carotídeo (cuello), por ser éste el más próximo al corazón y el de más fácil localización. Caso de existir PULSO seguiremos efectuando la respiración artificial, pero en el momento en que desaparezca este pulso deberemos iniciar sin demora el MASAJE CARDIACO EXTERNO, acompañado siempre de la respiración BOCA-BOCA.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TmpFVVgwQzdoVyUyQiUyQlQxbzF3NnJiNHc5R2VXRXFkUTJqN0h2cDRKZnVXMjglM0Q=&quot; id=&quot;IMG_TmpFVVgwQzdoVyUyQiUyQlQxbzF3NnJiNHc5R2VXRXFkUTJqN0h2cDRKZnVXMjglM0Q=&quot; alt=&quot;Actuación en emergencias y evacuación&quot; title=&quot;Actuación en emergencias y evacuación&quot; width=&quot;167&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="7"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="8"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%203.%20ACTUACI%C3%93N%20EN%20EMERGENCIAS%20Y%20EVACUACI%C3%93N:2.%20Evaluaci%C3%B3n%20primaria%20del%20accidentado"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="11">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="3. Primeros auxilios"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="9">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="10">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="9"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Se entiende por primeros auxilios el &lt;b&gt;conjunto de actuaciones &lt;/b&gt; y &lt;b&gt;técnicas que permiten la atención inmediata de un accidentado&lt;/b&gt;, hasta que llega la asistencia médica profesional, a fin de que las lesiones que se han producido no empeoren.&lt;/p&gt;
+&lt;p&gt;El estado y la evolución de las lesiones derivadas de un accidente dependen, en gran parte, de la rapidez y de la calidad de los primeros auxilios recibidos.&lt;/p&gt;
+&lt;p&gt;La Ley de Prevención de Riesgos Laborales en el Capítulo III, artículo 20, marca como obligación del empresario el análisis de las posibles situaciones de emergencia, así como la adopción de la medidas necesarias, entre otras, en materia de primeros auxilios.&lt;/p&gt;
+&lt;p&gt;Los puntos a considerar, tal como marca la citada ley, serían:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designación del personal encargado de poner en práctica dichas medidas.&lt;/li&gt;
+&lt;li&gt;Comprobación periódica del correcto funcionamiento de las mismas.&lt;/li&gt;
+&lt;li&gt;En relación con el personal citado y en función de los riesgos se deberá asegurar una formación adecuada, un número suficiente y proporcionar el material adecuado.&lt;/li&gt;
+&lt;li&gt;Organización de las relaciones que sean necesarias con servicios externos para garantizar la rapidez y eficacia de las actuaciones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En caso de actuación para proporcionar a la persona accidentada los primeros auxilios, tras haber realizado la valoración primaria y haber medido sus constantes vitales, habremos de tener en cuenta las siguientes consideraciones:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;1. Si la herida es superficial: &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;a) La persona que vaya a realizar la cura debe lavarse previamente las manos con agua y jabón.&lt;/p&gt;
+&lt;p&gt;b) Lavar la herida con agua y jabón (preferiblemente) o con agua oxigenada a chorro, procurando si la herida es sucia limpiarla de impurezas y cuerpos extraños lo mejor posible.&lt;/p&gt;
+&lt;p&gt;c) Aplicar a la herida un antiséptico y cubrirla con un apósito estéril.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;2. Si la herida es importante, por su extensión, profundidad o localización: &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;a) Corta la hemorragia presionando directamente sobre un apósito limpio colocado sobre la herida.&lt;/p&gt;
+&lt;p&gt;b) No retires de la herida los apósitos empapados en sangre, coloca otros limpios encima de ellos y continúa presionando hasta detener la hemorragia.&lt;/p&gt;
+&lt;p&gt;c) Evita poner un torniquete, sobre todo si no tienes experiencia.&lt;/p&gt;
+&lt;p&gt;d) Cubrir la herida con apósitos limpios y traslada al herido urgentemente a un centro sanitario.&lt;/p&gt;
+&lt;p&gt;e) Si la hemorragia es nasal presionar con los dedos las alas de la nariz y bajar la cabeza.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;3. En caso de mareo o lipotimia: &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;a) Echar a la persona en el suelo elevándole los pies.&lt;/p&gt;
+&lt;p&gt;b) Aflojar el cinturón, la corbata o cualquier prenda de vestir que pueda oprimir.&lt;/p&gt;
+&lt;p&gt;c) Procura que le llegue aire suficiente a la víctima (retira a los curiosos, abre alguna ventana, abanícale la cara, etc.).&lt;/p&gt;
+&lt;p&gt;d) Si a pesar de todo, la víctima no recupera la consciencia podríamos estar ante una situación más grave: Comprueba si tiene respiración y pulso:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si tiene pulso y respira, colocar a la víctima en posición de seguridad y avisar a un servicio de urgencias.&lt;/li&gt;
+&lt;li&gt;Si no tiene pulso ni respira, realizar las maniobras de reanimación cardiopulmonar y avisar a un servicio de urgencias.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;4. No dar de beber nada, ni administrar analgésicos, ni dejar nunca solo a un accidentado (sobre todo si se encuentra inconsciente). Mantenlo caliente tapándolo con ropa. &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Si después de un accidente observas en la víctima problemas de habla o de coordinación, ha de ser reconocida urgentemente en un centro sanitario.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;5. Si observas un cuerpo extraño en un ojo: &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;a) No permitas que el accidentado se restriegue el ojo.&lt;/p&gt;
+&lt;p&gt;b) Si está suelto retíralo suavemente con la punta de un pañuelo.&lt;/p&gt;
+&lt;p&gt;c) Si esta enclavado no lo extraigas (sobre todo si se encuentra en la zona coloreada del ojo) cúbrelo con un apósito limpio y remite al accidentado a un centro sanitario.&lt;/p&gt;
+&lt;p&gt;d) No utilices nunca objetos puntiagudos o afilados para extraer cuerpos extraños de los ojos.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;6. En caso de quemaduras: &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;a) Enfría la zona afectada con agua fría (no cubitos ni agua helada).&lt;/p&gt;
+&lt;p&gt;b) No apliques remedios caseros sobre una quemadura.&lt;/p&gt;
+&lt;p&gt;c) No abras las ampollas.&lt;/p&gt;
+&lt;p&gt;d) No retires las ropas quemadas del cuerpo.&lt;/p&gt;
+&lt;p&gt;e) Remite a la víctima a un centro sanitario siempre que la quemadura tenga más de 2 cm. o afecte a ojos, manos, articulaciones o cara.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;7. En caso de contacto eléctrico, se procederá por el siguiente orden: &lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;a) No toques a la víctima.&lt;/p&gt;
+&lt;p&gt;b) Corta primero el suministro de corriente.&lt;/p&gt;
+&lt;p&gt;c) Avisa a los servicios de urgencias.&lt;/p&gt;
+&lt;p&gt;d) Caso de no poder cortar la corriente (baja tensión) se intentará desenganchar a la víctima utilizando cualquier elemento no conductor a nuestro alcance.&lt;/p&gt;
+&lt;p&gt;e) Socorre a la victima. Si es preciso, practícale una reanimación cardio-pulmonar.&lt;/p&gt;
+&lt;p&gt;f) Si la corriente es de alta tensión y no se ha podido cortar el suministro, no se intentará desenganchar a la víctima ni siquiera mediante elementos no conductores.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="10"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="11"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="3"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%203.%20ACTUACI%C3%93N%20EN%20EMERGENCIAS%20Y%20EVACUACI%C3%93N:3.%20Primeros%20auxilios"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="14">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="4. Socorrismo"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="12">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="13">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="12"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Existen 10 consideraciones que se deben tener en cuenta, siempre, como actitud a mantener ante los accidentes.&lt;/p&gt;
+&lt;p&gt;El asumir estos 10 consejos nos permitirá evitar cometer los errores más habituales en la atención de accidentados y, con ello, conseguir no agravar las lesiones de los mismos.&lt;/p&gt;
+&lt;p&gt;Por ello, le recomendamos que lea detenidamente cada uno de estos consejos:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;1. Conservar la calma:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;No perder los nervios es básico para poder actuar de forma correcta, evitando errores irremediables.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;2. Evitar aglomeraciones:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;No se debe permitir que el accidente se transforme en espectáculo. Evitando la “histeria” colectiva, se facilita la actuación del socorrista.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;3. Saber imponerse:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Es preciso hacerse cargo de la situación y dirigir la organización de recursos y la posterior evacuación del herido.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;4. No mover:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Como norma básica y elemental no se debe mover a nadie que haya sufrido un accidente, hasta estar seguros de que se pueden realizar movimientos sin riesgo de empeorar las lesiones ya existentes.&lt;/p&gt;
+&lt;p&gt;No obstante, existen situaciones en las que la movilización debe ser inmediata: cuando las condiciones ambientales así lo exijan o bien cuando se deba realizar la maniobra de reanimación cardiopulmonar.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;5. Examinar al herido:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Como ya hemos comentado en apartados anteriores, se debe efectuar una evaluación primaria, que consistirá en determinar aquellas situaciones en que exista la posibilidad de la pérdida de la vida de forma inmediata.&lt;/p&gt;
+&lt;p&gt;Posteriormente, se procederá a realizar la evaluación secundaria o, lo que es lo mismo, controlar aquellas lesiones que pueden esperar la llegada de los servicios profesionalizados.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;6. Tranquilizar al herido:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Los accidentados suelen estar asustados, desconocen las lesiones que sufren y necesitan a alguien en quien confiar en esos momentos de angustia.&lt;/p&gt;
+&lt;p&gt;Es función del socorrista el ofrecer esa confianza y mejorar el estado anímico del lesionado.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;7. Mantener al herido caliente:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Cuando el organismo humano recibe una agresión, se activan los mecanismos de autodefensa implicando, en muchas ocasiones, la pérdida de calor corporal.&lt;/p&gt;
+&lt;p&gt;Esta situación se acentúa cuando existe la pérdida de sangre, ya que una de las funciones de ésta es la de mantener la temperatura interna del cuerpo.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;8. Avisar a personal sanitario:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Este consejo o recomendación se traduce como la necesidad de pedir ayuda, con rapidez, a fin de establecer un tratamiento médico lo más precozmente posible.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;9. Traslado adecuado:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Según las lesiones que presente el accidentado, la posición de espera y traslado variará.&lt;/p&gt;
+&lt;p&gt;Es importante acabar con la práctica habitual de la evacuación en coche particular, ya que si la lesión es vital, no se puede trasladar y se debe atender &quot;in situ&quot; y si la lesión no es vital, quiere decir que puede esperar la llegada de un vehículo (ambulancia) debidamente acondicionado.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;10. No medicar:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Esta facultad es exclusiva del médico.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="13"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="14"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%203.%20ACTUACI%C3%93N%20EN%20EMERGENCIAS%20Y%20EVACUACI%C3%93N:4.%20Socorrismo"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="17">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="5. Situaciones de emergencia"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="15">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="16">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="15"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;La rápida actuación ante un accidente puede salvar la vida de una persona o evitar el empeoramiento de las posibles lesiones que padezca.&lt;/p&gt;
+&lt;p&gt;En cualquier accidente, tal y como ya hemos avanzado en los apartados anteriores, usted &lt;b&gt;DEBE ACTIVAR EL SISTEMA DE EMERGENCIA&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Para ello recuerde la palabra P.A.S., que está formada por las iniciales de tres actuaciones para empezar a atender al accidentado:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;P&lt;/b&gt; roteger. &lt;b&gt;A&lt;/b&gt; visar. &lt;b&gt;S&lt;/b&gt; ocorrer.&lt;/p&gt;
+&lt;p&gt;Veamos a continuación cómo ha de actuar en cada caso:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;La P de PROTEGER&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Antes de actuar, &lt;b&gt;asegúrese de que tanto el accidentado como Ud. están fuera de todo peligro.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Por ejemplo, ante un ambiente tóxico, no atienda al intoxicado sin antes proteger sus vías respiratorias (uso de máscaras con filtros adecuados), pues de lo contrario se accidentaría Ud. también.&lt;/p&gt;
+&lt;p&gt;Protéjase en casos de electrocución.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;La A de AVISAR&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Siempre que sea posible &lt;b&gt;avise &lt;/b&gt; a &lt;b&gt;los servicios sanitarios &lt;/b&gt; (médico, ambulancia...) de la existencia del accidente, y así activará el Sistema de Emergencia. Inmediatamente después comience a socorrer mientras espera la ayuda.&lt;/p&gt;
+&lt;p&gt;Es muy importante &lt;b&gt;dar la ALERTA de forma correcta &lt;/b&gt; y &lt;b&gt;estructurada. &lt;/b&gt; Para ello se debe tener muy claro:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quien tiene que avisar.&lt;/li&gt;
+&lt;li&gt;Como tiene que dar el mensaje.&lt;/li&gt;
+&lt;li&gt;A quién debe dar el mensaje.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ya que muchas veces un error en la forma de alertar implica la pérdida de la vida del accidentado, por retraso o por mala interpretación del mensaje.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;La S de SOCORRER&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Una vez haya protegido y avisado, procederá a actuar sobre el accidentado, &lt;b&gt;reconociendo sus signos vitales &lt;/b&gt; ¡SIEMPRE! por este orden:&lt;/p&gt;
+&lt;p&gt;1. &lt;b&gt;Conciencia.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;2. &lt;b&gt;Respiración.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;3. &lt;b&gt;Pulso.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Las situaciones de emergencia se pueden clasificar, siguiendo el criterio de menor a mayor gravedad, en:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Conato de Emergencia:&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Situación que puede ser neutralizada con los medios contra incendios y emergencias disponibles en el lugar donde se produce, por el personal presente en el lugar del incidente.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Emergencia Parcial:&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Situación de emergencia que no puede ser neutralizada de inmediato como un Conato y obliga al personal presente a solicitar la ayuda de un grupo de lucha más preparado que dispone de mayores medios contra incendios y emergencias.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Emergencia General:&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Situación de emergencia que supera la capacidad de los medios humanos y materiales contra incendios y emergencias establecidos en el centro de trabajo y obliga a alterar toda la organización habitual de la empresa, sustituyéndola por otra de emergencia y teniéndose que solicitar ayuda al exterior.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Evacuación:&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Situación de emergencia que obliga a desalojar total o parcialmente el centro de trabajo de forma ordenada y controlada.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="16"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="4"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="17"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="5"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%203.%20ACTUACI%C3%93N%20EN%20EMERGENCIAS%20Y%20EVACUACI%C3%93N:5.%20Situaciones%20de%20emergencia"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="20">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="6. Planes de emergencia y evacuación"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="18">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="19">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="18"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;En la actividad laboral de una empresa se pueden presentar circunstancias inesperadas y súbitas que tengan como consecuencia la aparición de situaciones de peligro para los trabajadores y, en ciertos casos, la población.&lt;/p&gt;
+&lt;p&gt;Todo ello podría ir unido a un riesgo de daño a las instalaciones y al medio ambiente. Cuando ocurre alguna de estas circunstancias, se dice que hay una situación de emergencia.&lt;/p&gt;
+&lt;p&gt;Según se establece en la Ley de Prevención de Riesgos Laborales el empresario, teniendo en cuenta el tamaño y actividad de la empresa, debe analizar las posibles situaciones de emergencia y adoptar las medidas necesarias para evitar sus consecuencias, fundamentalmente en relación a los primeros auxilios, lucha contra incendios y evacuación de los trabajadores.&lt;/p&gt;
+&lt;p&gt;Para ello el empresario deberá designar al personal encargado de poner en práctica dichas medidas, comprobando periódicamente, en su caso, su correcto funcionamiento.&lt;/p&gt;
+&lt;p&gt;Considerando una situación de emergencia, se expondrán las nociones básicas de actuación de cualquier trabajador de una empresa, para conseguir evitar por completo o minimizar los daños a las personas, a las instalaciones y al medio ambiente.&lt;/p&gt;
+&lt;p&gt;Una situación de emergencia puede generar daños a las personas, instalaciones y medio ambiente. Para evitar o minimizar dichos daños, en la empresa se debe prever y organizar adecuadamente el modo de actuación ante las emergencias. Según sea el tamaño y actividad de la empresa, la actuación a desarrollar será más o menos compleja.&lt;/p&gt;
+&lt;p&gt;Existe legislación que obliga a determinadas empresas, según su tamaño, tipo de actividad y cantidad de sustancias peligrosas empleadas, a que se disponga de Autoprotección (ver documentación al final de la unidad), es decir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Que se identifiquen y evalúen los riesgos de accidentes graves,&lt;/li&gt;
+&lt;li&gt;Que se elabore un plan de emergencia interior (PEI) y...&lt;/li&gt;
+&lt;li&gt;Que se informe, forme y equipe adecuadamente a las personas que trabajan en las instalaciones con el fin de garantizar su seguridad.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En el caso de empresas muy pequeñas o que no estén obligadas por ley a disponer de Autoprotección, también se debería garantizar la seguridad del trabajador. Para ello, se tendría que tener prevista una actuación mínima ante emergencias que debería ir acompañada también de un mínimo de información y formación al trabajador.&lt;/p&gt;
+&lt;p&gt;En ambos casos siempre se debería tener en cuenta la posible colaboración de los recursos exteriores que podrían ser: Protección Civil, Bomberos, Policía y, si existiese el Pacto de Ayuda Mutua, empresas cercanas.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="19"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="20"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="6"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%203.%20ACTUACI%C3%93N%20EN%20EMERGENCIAS%20Y%20EVACUACI%C3%93N:6.%20Planes%20de%20emergencia%20y%20evacuaci%C3%B3n"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="23">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="7. Información de apoyo para la actuación de emergencias"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="21">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="22">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="21"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Para cada situación de emergencia debería existir un plan de actuación, una organización y unos medios de lucha.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Planes de actuación&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ante una situación de emergencia, lo principal es salvaguardar a los trabajadores y población afectada. Esto se consigue alejando del peligro a las personas, o sea, realizando una Evacuación.&lt;/p&gt;
+&lt;p&gt;Si además se quiere evitar completamente o minimizar el daño a las instalaciones debería disponerse de un Plan de Emergencia Interior (PEI).&lt;/p&gt;
+&lt;p&gt;Cuando son varias las empresas que pueden estar implicadas se debería preparar un &lt;b&gt;Plan de Emergencia Exterior.&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Plan de evacuación&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es un plan de actuación que obliga al personal de un centro de trabajo a trasladarse de forma ordenada y controlada hacia lugares seguros interiores o exteriores al centro, según sea evacuación parcial o total respectivamente.&lt;/p&gt;
+&lt;p&gt;El plan de evacuación protege a las personas.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt; Plan de emergencia interior (PEI)&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es la organización y conjunto de medios y procedimientos de actuación, previstos en una empresa o en empresas contiguas, con el fin de prevenir los accidentes de cualquier tipo y, en su caso, mitigar sus efectos en el interior de las instalaciones de trabajo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Plan de emergencia exterior (PEE)&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es un plan de emergencia que agrupa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Varios planes de emergencia interiores de empresas cercanas.&lt;/li&gt;
+&lt;li&gt;El plan de actuación municipal (PAM).&lt;/li&gt;
+&lt;li&gt;El plan básico de emergencia municipal (PBEM) y&lt;/li&gt;
+&lt;li&gt;El plan de actuación de los grupos de actuación (PAGr).&lt;/li&gt;
+&lt;li&gt;Se nutre de la información dada por las empresas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Asimismo dentro de la organización de emergencias nos podemos encontrar los siguientes equipos de actuación:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Equipos de primera intervención (EPI)&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grupos de un mínimo de dos trabajadores, con conocimientos básicos contra incendios y emergencias, que actúan directamente contra las causas de la emergencia.&lt;/p&gt;
+&lt;p&gt;Sería recomendable que todos los trabajadores recibieran la formación imprescindible para ser EPI.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Equipos de segunda intervención (ESI)&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grupos de trabajadores con formación y entrenamiento suficientemente intensivo para la lucha contra cualquier tipo de emergencia. Son los bomberos de la empresa.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Equipos de primeros auxilios (EPA)&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grupos de trabajadores con la preparación imprescindible para realizar los primeros auxilios.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt; Equipos de alarma y evacuación (EAE)&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grupos de dos o tres trabajadores cuyas misiones serían la de dirigir ordenadamente a las personas hacia las salidas de emergencia correspondientes, verificando que nadie quede sin evacuar, y auxiliar a los heridos en colaboración con los equipos de primeros auxilios.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="22"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="23"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="7"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%203.%20ACTUACI%C3%93N%20EN%20EMERGENCIAS%20Y%20EVACUACI%C3%93N:7.%20Informaci%C3%B3n%20de%20apoyo%20para%20la%20actuaci%C3%B3n%20de%20emergencias"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="26">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Recuerda"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="24">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="25">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="24"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;ul style=&quot;padding: 10px; list-style-position: inside; background-color: #dadada;&quot;&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Los accidentes se clasifican por su gravedad y por si originan o no baja médica del siguiente modo:&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Leves: gravedad baja y sin secuelas, son frecuentes.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Graves y mortales: gravedad alta, éstos son poco frecuentes.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Cuando se produce un herido hay que activar el sistema de emergencia recordando siempre la palabra P.A.S., es decir Proteger, Avisar y Socorrer.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Se entiende por primeros auxilios el &lt;b&gt;conjunto de actuaciones &lt;/b&gt; y &lt;b&gt;técnicas que permiten la atención inmediata de un accidentado&lt;/b&gt;, hasta que llega la asistencia médica profesional, a fin de que las lesiones que se han producido no empeoren.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;En caso de contacto eléctrico NO toques a la víctima, corta primero el suministro de corriente.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Los accidentados suelen estar asustados, desconocen las lesiones que sufren y necesitan a alguien en quien confiar en esos momentos de angustia. Es función del socorrista el ofrecer esa confianza y mejorar el estado anímico del lesionado.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Una vez haya protegido y avisado, procederá a actuar sobre el accidentado, reconociendo sus signos vitales ¡SIEMPRE! por este orden:&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Conciencia&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Respiración&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Pulso&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Ante una situación de emergencia, lo principal es salvaguardar a los trabajadores y población afectada. Esto se consigue alejando del peligro a las personas, o sea, realizando una Evacuación.&lt;/li&gt;
+&lt;/ul&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="25"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="9"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="26"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="9"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%203.%20ACTUACI%C3%93N%20EN%20EMERGENCIAS%20Y%20EVACUACI%C3%93N:Recuerda"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="27">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Autoevaluación"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.quiztestidevice.QuizTestIdevice" reference="28">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Cuestionario: Selección Unica"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="Unlike the MCQ the SCORM quiz is used to test 
+the learners knowledge on a topic without providing the learner with feedback 
+to the correct answer. The quiz will often be given once the learner has had 
+time to learn and practice using the information or skill.
+ "></unicode>
+           <string role="key" value="_tip"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.quiztestidevice.QuizTestIdevice.persistenceVersion"></string>
+           <int value="10"></int>
+           <string role="key" value="icon"></string>
+           <string value="question"></string>
+           <string role="key" value="id"></string>
+           <unicode value="8"></unicode>
+           <string role="key" value="isAnswered"></string>
+           <bool value="1"></bool>
+           <string role="key" value="isQuiz"></string>
+           <bool value="1"></bool>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value="question"></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="27"></reference>
+           <string role="key" value="passRate"></string>
+           <unicode value="50"></unicode>
+           <string role="key" value="questions"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="31">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="29">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="113"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt;1. Responde verdadero o falso:&lt;/b&gt; &lt;i&gt;“Se entiende por primeros auxilios el conjunto de actuaciones y técnicas que permiten la atención inmediata de un accidentado, hasta que llega la asistencia médica profesional, a fin de que las lesiones que se han producido no empeoren”.&lt;/i&gt;&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="29"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="30">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="114"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Verdadero.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="30"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="31"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="32">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="186"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Falso.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="32"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="31"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="35">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="33">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="187"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;b&gt;2. Cuando se produce un herido hay que activar el sistema de emergencia recordando siempre la palabra P.A.S., ¿Qué significan estas siglas?&lt;/b&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="33"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="34">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="188"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Proteger, Avisar y Socorrer.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="34"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="35"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="36">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="189"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Permanecer tranquilo, Alertar y Solucionar.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="36"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="35"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="37">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="190"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Proteger, Animar y Sentar.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="37"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="35"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="40">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="38">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="191"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt;3. Responde verdadero o falso:&lt;/b&gt; &lt;i&gt;“Si al acercar nuestra mejilla o el dorso de nuestra mano a su boca, comprobamos que NO RESPIRA, en seguida y sin perder tiempo colocaremos al accidentado, sea traumático o no, en posición de decúbito supino (estirado mirando hacia arriba) pero respetando la alineación del eje cervical.&lt;/i&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="38"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="39">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="192"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Verdadero.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="39"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="40"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="41">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="193"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Falso.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="41"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="40"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="44">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="42">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="194"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;b&gt;4. ¿Qué orden hemos de seguir a la hora de realizar el reconocimiento de los signos vitales de una persona en una situación de emergencia y primeros auxilios?&lt;/b&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="42"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="43">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="195"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Conciencia, Pulso, Respiración&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="43"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="44"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="45">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="196"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Pulso, Respiración, Conciencia.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="45"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="44"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="46">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="197"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Conciencia, Respiración, Pulso.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="46"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="44"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="49">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="47">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="198"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt;5. Responde verdadero o falso:&lt;/b&gt; &lt;i&gt;“Ante una situación de emergencia, lo principal es salvaguardar a los trabajadores y población afectada. Esto se consigue alejando del peligro a las personas, o sea, realizando una Evacuación”.&lt;/i&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="47"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="48">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="199"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Verdadero.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="48"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="49"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="50">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="200"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Falso.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="50"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="49"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="score"></string>
+           <int value="-1"></int>
+           <string role="key" value="systemResources"></string>
+           <list>
+            <string value="common.js"></string>
+           </list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="8"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%203.%20ACTUACI%C3%93N%20EN%20EMERGENCIAS%20Y%20EVACUACI%C3%93N:Autoevaluaci%C3%B3n"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="4"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="8"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="11"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="14"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="17"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="20"></reference>
+   <unicode role="key" value="7"></unicode>
+   <reference key="23"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="27"></reference>
+   <unicode role="key" value="9"></unicode>
+   <reference key="26"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="26"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="50f1350a-db46-4c09-b9a4-f7e5cdaa8e80"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="13"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="license"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="50f1350a-db46-4c09-b9a4-f7e5cdaa8e80"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="50f1350a-db46-4c09-b9a4-f7e5cdaa8e80"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Preestablecido"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="5"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="FPD-MEDU"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

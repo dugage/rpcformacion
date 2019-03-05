@@ -1,0 +1,2705 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="51" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="XHTML"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Topic"></unicode>
+   <unicode value="Section"></unicode>
+   <unicode value="Unit"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="TEMA11"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="1"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="2"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="1">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="EXAMEN"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.quiztestidevice.QuizTestIdevice" reference="2">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Selecciona la opcion correcta"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="Unlike the MCQ the SCORM quiz is used to test 
+the learners knowledge on a topic without providing the learner with feedback 
+to the correct answer. The quiz will often be given once the learner has had 
+time to learn and practice using the information or skill.
+ "></unicode>
+        <string role="key" value="_tip"></string>
+        <unicode value=""></unicode>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="1"></int>
+        <string role="key" value="exe.engine.quiztestidevice.QuizTestIdevice.persistenceVersion"></string>
+        <int value="10"></int>
+        <string role="key" value="icon"></string>
+        <string value="question"></string>
+        <string role="key" value="id"></string>
+        <unicode value="0"></unicode>
+        <string role="key" value="isAnswered"></string>
+        <bool value="1"></bool>
+        <string role="key" value="isQuiz"></string>
+        <bool value="1"></bool>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="originalicon"></string>
+        <string value="question"></string>
+        <string role="key" value="parentNode"></string>
+        <reference key="1"></reference>
+        <string role="key" value="passRate"></string>
+        <unicode value="50"></unicode>
+        <string role="key" value="questions"></string>
+        <list>
+         <instance class="exe.engine.quiztestidevice.TestQuestion" reference="5">
+          <dictionary>
+           <string role="key" value="questionTextArea"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="3">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="113"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Question:"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt;1. ¿Cuál es el mejor auxilio?&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="3"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_correctAnswerInstruc"></string>
+           <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+           <string role="key" value="_optionInstruc"></string>
+           <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+           <string role="key" value="correctAns"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="idevice"></string>
+           <reference key="2"></reference>
+           <string role="key" value="options"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="4">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="114"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Autoprotección&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="4"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="5"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="6">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="155"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Protección&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="6"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="5"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="7">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="156"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Prevención&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="7"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="1"></bool>
+              <string role="key" value="question"></string>
+              <reference key="5"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="userAns"></string>
+           <int value="-1"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.quiztestidevice.TestQuestion" reference="10">
+          <dictionary>
+           <string role="key" value="questionTextArea"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="8">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="157"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Question:"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt;2. Responde Verdadero o Falso:&lt;/b&gt; “La redacción de un adecuado plan de autoprotección aporta una serie de beneficios previos al plan de emergencia, que por lo general la gente no es consciente de ellos.”&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="8"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_correctAnswerInstruc"></string>
+           <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+           <string role="key" value="_optionInstruc"></string>
+           <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+           <string role="key" value="correctAns"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="idevice"></string>
+           <reference key="2"></reference>
+           <string role="key" value="options"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="9">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="158"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Verdadero&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="9"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="1"></bool>
+              <string role="key" value="question"></string>
+              <reference key="10"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="11">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="159"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Falso&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="11"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="10"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="userAns"></string>
+           <int value="-1"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.quiztestidevice.TestQuestion" reference="14">
+          <dictionary>
+           <string role="key" value="questionTextArea"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="12">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="160"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Question:"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt;3. ¿Cómo se denomina la situación en la que las medidas carentes no puedan ser asumibles?&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="12"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_correctAnswerInstruc"></string>
+           <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+           <string role="key" value="_optionInstruc"></string>
+           <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+           <string role="key" value="correctAns"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="idevice"></string>
+           <reference key="2"></reference>
+           <string role="key" value="options"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="13">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="161"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Riesgo asumible&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="13"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="1"></bool>
+              <string role="key" value="question"></string>
+              <reference key="14"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="15">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="162"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Riesgo condicionado&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="15"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="14"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="16">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="163"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Asunción de carencia&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="16"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="14"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="userAns"></string>
+           <int value="-1"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.quiztestidevice.TestQuestion" reference="19">
+          <dictionary>
+           <string role="key" value="questionTextArea"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="17">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="164"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Question:"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt;4. Completa la siguiente afirmación:&lt;/b&gt; “Las _______________, se describen como método coercitivo para la corrección de descuidos. La astucia de sancionados y letrados que los asisten, conlleva a la absolución de muchas de ellas.”&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="17"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_correctAnswerInstruc"></string>
+           <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+           <string role="key" value="_optionInstruc"></string>
+           <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+           <string role="key" value="correctAns"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="idevice"></string>
+           <reference key="2"></reference>
+           <string role="key" value="options"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="18">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="165"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Gestiones&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="18"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="19"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="20">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="166"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Multas&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="20"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="19"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="21">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="167"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Sanciones&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="21"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="1"></bool>
+              <string role="key" value="question"></string>
+              <reference key="19"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="userAns"></string>
+           <int value="-1"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.quiztestidevice.TestQuestion" reference="24">
+          <dictionary>
+           <string role="key" value="questionTextArea"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="22">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="168"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Question:"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt;5. Si la peligrosidad del combustible está relacionada con la temperatura, hablamos de:&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="22"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_correctAnswerInstruc"></string>
+           <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+           <string role="key" value="_optionInstruc"></string>
+           <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+           <string role="key" value="correctAns"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="idevice"></string>
+           <reference key="2"></reference>
+           <string role="key" value="options"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="23">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="169"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Límites de inflamabilidad&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="23"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="24"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="25">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="170"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Puntos de inflamabilidad&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="25"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="1"></bool>
+              <string role="key" value="question"></string>
+              <reference key="24"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="26">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="171"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Temperatura de autoignición&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="26"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="24"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="userAns"></string>
+           <int value="-1"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.quiztestidevice.TestQuestion" reference="29">
+          <dictionary>
+           <string role="key" value="questionTextArea"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="27">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="172"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Question:"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt;6. ¿Cuál de los siguientes elementos no es un comburente?&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="27"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_correctAnswerInstruc"></string>
+           <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+           <string role="key" value="_optionInstruc"></string>
+           <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+           <string role="key" value="correctAns"></string>
+           <int value="2"></int>
+           <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="idevice"></string>
+           <reference key="2"></reference>
+           <string role="key" value="options"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="28">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="173"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Oxígeno&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="28"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="29"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="30">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="174"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Halógenos&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="30"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="29"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="31">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="175"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Rayos&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="31"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="1"></bool>
+              <string role="key" value="question"></string>
+              <reference key="29"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="userAns"></string>
+           <int value="-1"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.quiztestidevice.TestQuestion" reference="34">
+          <dictionary>
+           <string role="key" value="questionTextArea"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="32">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="176"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Question:"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt;7. De las siguientes fuentes de ignición cuáles podemos clasificar como llamas comunes:&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="32"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_correctAnswerInstruc"></string>
+           <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+           <string role="key" value="_optionInstruc"></string>
+           <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+           <string role="key" value="correctAns"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="idevice"></string>
+           <reference key="2"></reference>
+           <string role="key" value="options"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="33">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="177"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Quemadores&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="33"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="1"></bool>
+              <string role="key" value="question"></string>
+              <reference key="34"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="35">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="178"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Cargas estáticas&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="35"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="34"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="36">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="179"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Cigarrillos&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="36"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="34"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="userAns"></string>
+           <int value="-1"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.quiztestidevice.TestQuestion" reference="39">
+          <dictionary>
+           <string role="key" value="questionTextArea"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="37">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="180"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Question:"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;b&gt;8. Si la velocidad de propagación es superior a la velocidad del sonido en el medio, de qué tipo de combustión estamos hablando:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="37"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_correctAnswerInstruc"></string>
+           <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+           <string role="key" value="_optionInstruc"></string>
+           <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+           <string role="key" value="correctAns"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="idevice"></string>
+           <reference key="2"></reference>
+           <string role="key" value="options"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="38">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="181"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Combustión detonante&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="38"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="1"></bool>
+              <string role="key" value="question"></string>
+              <reference key="39"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="40">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="182"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Combustión deflagrante&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="40"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="39"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="41">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="183"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Combustión simple&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="41"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="39"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="userAns"></string>
+           <int value="-1"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.quiztestidevice.TestQuestion" reference="44">
+          <dictionary>
+           <string role="key" value="questionTextArea"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="42">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="184"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Question:"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;b&gt; 9.Las combustiones de aportación, que son lentas y sin manifestaciones luminosas visibles, son:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="42"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_correctAnswerInstruc"></string>
+           <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+           <string role="key" value="_optionInstruc"></string>
+           <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+           <string role="key" value="correctAns"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="idevice"></string>
+           <reference key="2"></reference>
+           <string role="key" value="options"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="43">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="185"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Combustiones espontáneas&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="43"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="44"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="45">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="186"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Combustiones latentes&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="45"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="1"></bool>
+              <string role="key" value="question"></string>
+              <reference key="44"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="46">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="187"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Combustiones súbitas generalizadas&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="46"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="44"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="userAns"></string>
+           <int value="-1"></int>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.quiztestidevice.TestQuestion" reference="49">
+          <dictionary>
+           <string role="key" value="questionTextArea"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="47">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="188"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Question:"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;b&gt;10. Responde Verdadero o Falso:&lt;/b&gt; &lt;i&gt;“Si los gases emitidos durante la combustión son también combustibles, pueden arder dando lugar a las llamas, que suelen ir acompañadas por radiación luminosa.”&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="47"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="_correctAnswerInstruc"></string>
+           <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+           <string role="key" value="_optionInstruc"></string>
+           <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+           <string role="key" value="_questionInstruc"></string>
+           <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+           <string role="key" value="correctAns"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+           <int value="3"></int>
+           <string role="key" value="idevice"></string>
+           <reference key="2"></reference>
+           <string role="key" value="options"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="48">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="189"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Verdadero&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="48"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="1"></bool>
+              <string role="key" value="question"></string>
+              <reference key="49"></reference>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.AnswerOption">
+             <dictionary>
+              <string role="key" value="answerTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="50">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="190"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="2"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Option"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Falso&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="50"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="idevice"></string>
+              <reference key="2"></reference>
+              <string role="key" value="isCorrect"></string>
+              <bool value="0"></bool>
+              <string role="key" value="question"></string>
+              <reference key="49"></reference>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="userAns"></string>
+           <int value="-1"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="score"></string>
+        <int value="-1"></int>
+        <string role="key" value="systemResources"></string>
+        <list>
+         <string value="common.js"></string>
+        </list>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="51"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:EXAMEN"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list></list>
+    </dictionary>
+   </instance>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="1"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="9cf7cd0d-4ba2-4d46-88ea-2c6b6726c25c"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="13"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="license"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="9cf7cd0d-4ba2-4d46-88ea-2c6b6726c25c"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="9cf7cd0d-4ba2-4d46-88ea-2c6b6726c25c"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Preestablecido"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="1"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="FPD-MEDU"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

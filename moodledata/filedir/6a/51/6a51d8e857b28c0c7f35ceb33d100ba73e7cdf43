@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-0" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id0">
+<div class="iDevice emphasis0">
+<div id="ta0_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id1">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta1_100" class="block iDevice_content">
+<div class="numeracion">1. <b> Señale si la siguiente afirmación es verdadera o falsa: </b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b1" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b1" class="block iDevice_content">
+<p>“El m<i>odelo de Actividad Física para toda la vida es un modelo sustentado por la importancia de generar hábitos cotidianos de práctica de ejercicio físico aunque no supongan grandes esfuerzos y que acompañe al individuo durante toda la vida”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b1"><input type="radio" name="option0b1" id="true0b1" class="exe-radio-option exe-radio-option-0-2-0b1-truefalse" /> Verdadero</label> 
+<label for="false0b1"><input type="radio" name="option0b1" id="false0b1" class="exe-radio-option exe-radio-option-1-2-0b1-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b1" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b1-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id2">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b2");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key0b2[i].checked)
+               {
+                  question0 = document.getElementById("quizForm2").key0b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm2").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm2" id="quizForm2" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-2" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b2" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">2. <b>¿Cuándo se utiliza la glucosa como fuente de energía?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b21" class="sr-av"><a href="#answer-key0b21">Opción 1</a></label><input type="radio" name="key0b2" id="key0b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b21">
+<div id="taoptionAnswer0q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En los ejercicios aeróbicos.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b22" class="sr-av"><a href="#answer-key0b22">Opción 2</a></label><input type="radio" name="key0b2" id="key0b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b22">
+<div id="taoptionAnswer1q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En los ejercicios anaeróbicos.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b23" class="sr-av"><a href="#answer-key0b23">Opción 3</a></label><input type="radio" name="key0b2" id="key0b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b23">
+<div id="taoptionAnswer2q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En los ejercicios de fuerza.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore2"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id4">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 3;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var key0 = 0;
+var key1 = 1;
+var key2 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b4");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm4").key0b4[i].checked)
+               {
+                  question0 = document.getElementById("quizForm4").key0b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b4");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm4").key1b4[i].checked)
+               {
+                  question1 = document.getElementById("quizForm4").key1b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b4");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm4").key2b4[i].checked)
+               {
+                  question2 = document.getElementById("quizForm4").key2b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm4").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm4" id="quizForm4" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-4" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b4" class="block iDevice_content">
+<div class="numeracion">3. <b> Complete el espacio en blanco de la siguiente afirmación:</b> <br /> “____________________ no tienen función energética, pero si tienen una función importante en la composición de las membranas celulares y en la defensa inmunitaria del organismo”.</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b41" class="sr-av"><a href="#answer-key0b41">Opción 1</a></label><input type="radio" name="key0b4" id="key0b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b41">
+<div id="taoptionAnswer0q0b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Las proteínas</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b42" class="sr-av"><a href="#answer-key0b42">Opción 2</a></label><input type="radio" name="key0b4" id="key0b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b42">
+<div id="taoptionAnswer1q0b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Los lípidos</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b43" class="sr-av"><a href="#answer-key0b43">Opción 3</a></label><input type="radio" name="key0b4" id="key0b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b43">
+<div id="taoptionAnswer2q0b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Los hidratos de carbono</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b4" class="block iDevice_content">
+<div class="numeracion">4. <b> Complete el espacio en blanco de la siguiente afirmación:</b> <br /> “El resultado fisiológico de la _____________________ es una reducción del volumen plasmático y, por tanto, el total de sangre disponible por el organismo, a la vez que se aumenta la viscosidad de la sangre y la resistencia al flujo de la misma”.</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b41" class="sr-av"><a href="#answer-key1b41">Opción 1</a></label><input type="radio" name="key1b4" id="key1b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b41">
+<div id="taoptionAnswer0q1b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Hidratación</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b42" class="sr-av"><a href="#answer-key1b42">Opción 2</a></label><input type="radio" name="key1b4" id="key1b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b42">
+<div id="taoptionAnswer1q1b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Deshidratación</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b43" class="sr-av"><a href="#answer-key1b43">Opción 3</a></label><input type="radio" name="key1b4" id="key1b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b43">
+<div id="taoptionAnswer2q1b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Cafeína</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b4" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">5. <b>¿Qué establece la ley aprobada por el Congreso de os Estados Unidos en 1994 sobre los suplementos dietéticos?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b41" class="sr-av"><a href="#answer-key2b41">Opción 1</a></label><input type="radio" name="key2b4" id="key2b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b41">
+<div id="taoptionAnswer0q2b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Está destinado a complementar la alimentación.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b42" class="sr-av"><a href="#answer-key2b42">Opción 2</a></label><input type="radio" name="key2b4" id="key2b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b42">
+<div id="taoptionAnswer1q2b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Puede utilizarse, en determinadas ocasiones, como sustituto de un alimento convencional o como componente único de una comida o de la dieta alimenticia.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b43" class="sr-av"><a href="#answer-key2b43">Opción 3</a></label><input type="radio" name="key2b4" id="key2b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b43">
+<div id="taoptionAnswer2q2b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se presentan, únicamente, como pastillas y polvos.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore4"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

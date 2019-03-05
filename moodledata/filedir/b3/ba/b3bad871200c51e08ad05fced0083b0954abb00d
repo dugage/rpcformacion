@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.1. Sistema De Aire Acondicionado Manual | UNIDAD DIDÁCTICA 9. REGULACIÓN Y CONTROL DEL AIRE ACONDICIONADO </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.1. Sistema De Aire Acondicionado Manual</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id180">
+<div class="iDevice emphasis0">
+<div id="ta180_85" class="block iDevice_content">
+<p>El sistema de control consta de <diccionario>sensores</diccionario> de entrada, interruptores, el control de aire delantero y las salidas. La relación de estos componentes se muestra en la figura siguiente:</p>
+<p><img width="564" id="IMG_alIwbnNjdzNXU0Jselo2b1lieGU4SXZEenZENmtvMVdublpFNzNJeHolMkJzJTNE" alt="Regulación y control del aire acondicionado" title="Regulación y control del aire acondicionado" src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_alIwbnNjdzNXU0Jselo2b1lieGU4SXZEenZENmtvMVdublpFNzNJeHolMkJzJTNE" /></p>
+<h5><b>Esquema de los controles del aire acondicionado manual</b></h5>
+<p><img width="491" id="IMG_dXpPWFAwcU12MUI0U09SdFNsQjVmeGlMczFXT29SVWZUdURnSWpzbjUzWSUzRA==" alt="Regulación y control del aire acondicionado" title="Regulación y control del aire acondicionado" src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dXpPWFAwcU12MUI0U09SdFNsQjVmeGlMczFXT29SVWZUdURnSWpzbjUzWSUzRA==" /></p>
+<ol>
+<li><b>Selector de control del soplador:</b></li>
+</ol>
+<ul>
+<li>Con este selector se controla manualmente la velocidad del soplador. Cuando el soplador está en alguna posición de encendido, se envía al BCM una señal de ventilador encendido.</li>
+<li>El compresor y el soplador están apagados, las compuertas de admisión y las puertas de modo son controlados automáticamente.</li>
+</ul>
+<ol>
+<li><b>Interruptor de recirculación del aire:</b></li>
+</ol>
+<ul>
+<li>Cuando el interruptor REC está encendido (LED REC encendido), la toma de aire de admisión se fija en la posición de recirculación (REC).</li>
+<li>Cuando se oprime de nuevo el interruptor de admisión (LED REC apagado), la toma de aire de admisión se fija en la posición de aire fresco (FRE).</li>
+<li>Cuando el LED REC está prendido, al cambiar de posición del modo a D/F o a DEF, o al cambiar el compresor de ENC a APAG, el interruptor REC se apaga automáticamente.</li>
+</ul>
+<ol>
+<li><b>Interruptor de desescarchador:</b> las compuertas de modo se ponen en la posición de desescarchado (DEF). Además, las compuertas de admisión se ponen en la posición de aire exterior y el compresor envía al BCM una señal de ENC.</li>
+<li><b>Interruptor de ENC/APAG de A/A MAX.</b></li>
+<li><b>Interruptor del desescarchador del cristal trasero:</b> este interruptor enciende y apaga el desempañador del cristal trasero.</li>
+<li><b>Interruptor de ENC/APAG de A/A:</b> este interruptor controla la señal de ENC del compresor. Si se oprime el interruptor del A/A cuando el interruptor del A/A está encendido, el interruptor del A/A se apagará y se cancelará la señal de ENC del compresor. Debe haber una señal de ventilador encendido para que el interruptor del A/A se ilumine, el control de aire delantero envíe una señal de compresor encendido o el compresor se active.</li>
+<li><b>Selector de control de temperatura:</b> la temperatura programada aumenta o disminuye con este selector.</li>
+<li><b>Interruptores de modo:</b> las salidas de descarga del aire acondicionado son controladas por la compuerta de modo.</li>
+</ol>
+<h5><b>Sistema de control LAN del aire acondicionado manual</b></h5>
+<p>El sistema de red de área local (LAN) consta del control de aire delantero, el motor de la compuerta de modo, el motor de la compuerta de mezcla de aire y el motor de la compuerta de admisión.</p>
+<p><img width="547" id="IMG_cU9JQjF5NzNNVmxhUWlxbmdmMkQ2ZGhEWHN4bzJReVF4eHNob08lMkJKc2FrJTNE" alt="Regulación y control del aire acondicionado" title="Regulación y control del aire acondicionado" src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cU9JQjF5NzNNVmxhUWlxbmdmMkQ2ZGhEWHN4bzJReVF4eHNob08lMkJKc2FrJTNE" /></p>
+<p>Se construye una pequeña red entre el control de aire delantero, el motor de la compuerta de modo, el motor de la compuerta de mezcla de aire y el motor de la compuerta de admisión. El control de aire delantero y los motores están conectados mediante líneas de transmisión de datos y líneas de alimentación eléctrica para los motores. La red LAN está integrada por los circuitos de tierra del motor de cada compuerta.</p>
+<p>Las direcciones, las señales del ángulo de apertura del motor, las señales de detención del motor y los mensajes de verificación de errores se transmiten por medio de las líneas de transmisión de datos que conectan el control de aire delantero con cada motor.</p>
+<h5>Las siguientes funciones se encuentran en las unidades de control local (LCU) integradas al motor de la compuerta de modo, al motor de la compuerta de mezcla de aire y al motor de la compuerta de admisión.</h5>
+<ul>
+<li>Dirección.</li>
+<li>Señales de ángulo de apertura del motor.</li>
+<li>Transmisión de datos.</li>
+<li>Decisión de parada o activación del motor.</li>
+<li>Sensor del ángulo de apertura (función del resistor de posición equilibrado [PBR]).</li>
+<li>Comparación.</li>
+<li>Decisión (valor indicado en el control de aire delantero y comparación del ángulo de apertura del motor).</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

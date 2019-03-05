@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | TEMA 9. LA IMPORTANCIA DE UNA BUENA ALIMENTACIÓN. </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id202">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 3;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var key0 = 2;
+var key1 = 1;
+var key2 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b202");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm202").key0b202[i].checked)
+               {
+                  question0 = document.getElementById("quizForm202").key0b202[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b202");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm202").key1b202[i].checked)
+               {
+                  question1 = document.getElementById("quizForm202").key1b202[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b202");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm202").key2b202[i].checked)
+               {
+                  question2 = document.getElementById("quizForm202").key2b202[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm202").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm202" id="quizForm202" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-202" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b202" class="block iDevice_content">
+<p><b>Las dietas de recuperación están destinadas a recuperar las reservas de:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2021" class="sr-av"><a href="#answer-key0b2021">Opción 1</a></label><input type="radio" name="key0b202" id="key0b2021" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2021"><a name="answer-key0b2021"></a>
+<div id="taoptionAnswer0q0b202" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Lípidos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2022" class="sr-av"><a href="#answer-key0b2022">Opción 2</a></label><input type="radio" name="key0b202" id="key0b2022" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2022"><a name="answer-key0b2022"></a>
+<div id="taoptionAnswer1q0b202" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Glucógeno.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2023" class="sr-av"><a href="#answer-key0b2023">Opción 3</a></label><input type="radio" name="key0b202" id="key0b2023" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2023"><a name="answer-key0b2023"></a>
+<div id="taoptionAnswer2q0b202" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Azúcares.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b202" class="block iDevice_content">
+<div class="ee_enunciado"><b>El volumen sistólico que se reduce cuando se produce la deshidratación corporal es del orden de:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2021" class="sr-av"><a href="#answer-key1b2021">Opción 1</a></label><input type="radio" name="key1b202" id="key1b2021" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2021"><a name="answer-key1b2021"></a>
+<div id="taoptionAnswer0q1b202" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">10-15%.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2022" class="sr-av"><a href="#answer-key1b2022">Opción 2</a></label><input type="radio" name="key1b202" id="key1b2022" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2022"><a name="answer-key1b2022"></a>
+<div id="taoptionAnswer1q1b202" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">30-35%.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2023" class="sr-av"><a href="#answer-key1b2023">Opción 3</a></label><input type="radio" name="key1b202" id="key1b2023" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2023"><a name="answer-key1b2023"></a>
+<div id="taoptionAnswer2q1b202" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">60-75%.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b202" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Cuándo podemos decir que comienza la secreción de sudor en un hombre en reposo y desnudo?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2021" class="sr-av"><a href="#answer-key2b2021">Opción 1</a></label><input type="radio" name="key2b202" id="key2b2021" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2021"><a name="answer-key2b2021"></a>
+<div id="taoptionAnswer0q2b202" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Cuando la temperatura ambiental alcanza valores cercanos a los 30ºC.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2022" class="sr-av"><a href="#answer-key2b2022">Opción 2</a></label><input type="radio" name="key2b202" id="key2b2022" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2022"><a name="answer-key2b2022"></a>
+<div id="taoptionAnswer1q2b202" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Cuando la temperatura ambiental aumenta rápidamente en un corto espacio temporal.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2023" class="sr-av"><a href="#answer-key2b2023">Opción 3</a></label><input type="radio" name="key2b202" id="key2b2023" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2023"><a name="answer-key2b2023"></a>
+<div id="taoptionAnswer2q2b202" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Cuando la temperatura ambiental sobrepasa valores de 40ºC.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id203">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-203_108">
+<form name="multi-select-form-203_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion203_108" class="block question iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">
+<div class="ee_enunciado"><b>¿Cuáles de las siguientes opciones, respecto a los hidratos de carbono, son correctas? (Respuesta múltiple)</b></div>
+<p><b> </b></p>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op203_1080" class="sr-av"><a href="#answer-203_111">Opción 1</a></label><input type="checkbox" id="op203_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-203_111"><a name="answer-203_111"></a>
+<div id="taans203_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Los hidratos de carbono son la principal fuente de energía para el organismo.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-203_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op203_1081" class="sr-av"><a href="#answer-203_401">Opción 2</a></label><input type="checkbox" id="op203_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-203_401"><a name="answer-203_401"></a>
+<div id="taans203_401" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Los hidratos de carbono se almacenan en forma de glucógeno solamente en el hígado.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-203_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op203_1082" class="sr-av"><a href="#answer-203_403">Opción 3</a></label><input type="checkbox" id="op203_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-203_403"><a name="answer-203_403"></a>
+<div id="taans203_403" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Los hidratos de carbono se almacenan en forma de glucógeno en el músculo y en el hígado.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-203_1082" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'203_108')"/> 
+</p>
+</div>
+<div id="f203_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-203_111" class="right">Correcto</a></li>
+<li><a href="#answer-203_401" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-203_403" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-203_405">
+<form name="multi-select-form-203_405" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion203_405" class="block question iDevice_content">
+<div class="ee_enunciado"><b>¿Qué función tienen las proteínas? (Respuesta múltiple)</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op203_4050" class="sr-av"><a href="#answer-203_408">Opción 1</a></label><input type="checkbox" id="op203_4050" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-203_408"><a name="answer-203_408"></a>
+<div id="taans203_408" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Función energética.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-203_4050" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op203_4051" class="sr-av"><a href="#answer-203_410">Opción 2</a></label><input type="checkbox" id="op203_4051" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-203_410"><a name="answer-203_410"></a>
+<div id="taans203_410" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Función importante en la composición de las membranas celulares.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-203_4051" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op203_4052" class="sr-av"><a href="#answer-203_412">Opción 3</a></label><input type="checkbox" id="op203_4052" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-203_412"><a name="answer-203_412"></a>
+<div id="taans203_412" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Función en la defensa inmunitaria del organismo.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-203_4052" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'203_405')"/> 
+</p>
+</div>
+<div id="f203_405" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-203_408" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-203_410" class="right">Correcto</a></li>
+<li><a href="#answer-203_412" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id9">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 0;
+var key1 = 1;
+var key2 = 3;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b9");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm9").key0b9[i].checked)
+               {
+                  question0 = document.getElementById("quizForm9").key0b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b9");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm9").key1b9[i].checked)
+               {
+                  question1 = document.getElementById("quizForm9").key1b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b9");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm9").key2b9[i].checked)
+               {
+                  question2 = document.getElementById("quizForm9").key2b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b9");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm9").key3b9[i].checked)
+               {
+                  question3 = document.getElementById("quizForm9").key3b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm9").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario SCORM</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm9" id="quizForm9" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-9" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b9" class="block iDevice_content">
+<p align="justify"><span color="#000000" style="color: #000000;"><b><span face="Verdana, serif" style="font-family: Verdana, serif;"><span></span></span></b></span></p>
+<div class="ee_enunciado"><strong>Completa la siguiente afirmación:</strong> <br />“Las inversiones mantenidas hasta el vencimiento se valorarán por su ______ ________. Los intereses devengados se contabilizarán en la cuenta de Resultado del ejercicio, aplicando el método del tipo de _______ ________”.</div>
+<p align="justify"><span color="#000000" style="color: #000000;"><b><span face="Verdana, serif" style="font-family: Verdana, serif;"><span></span></span></b></span></p>
+<div class="ee_respuesta ee_correct"></div>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b91" class="sr-av"><a href="#answer-key0b91">Opción 1</a></label><input type="radio" name="key0b9" id="key0b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b91"><a name="answer-key0b91"></a>
+<div id="taoptionAnswer0q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_correct"><span>Coste amortizado /interés efectivo</span></div>
+<p align="justify"></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b92" class="sr-av"><a href="#answer-key0b92">Opción 2</a></label><input type="radio" name="key0b9" id="key0b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b92"><a name="answer-key0b92"></a>
+<div id="taoptionAnswer1q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada"><em>Coste amortizado /interés inefectivo.</em></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b93" class="sr-av"><a href="#answer-key0b93">Opción 3</a></label><input type="radio" name="key0b9" id="key0b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b93"><a name="answer-key0b93"></a>
+<div id="taoptionAnswer2q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada"><em>Coste pagado /interés efectivo.</em></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b94" class="sr-av"><a href="#answer-key0b94">Opción 4</a></label><input type="radio" name="key0b9" id="key0b94" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b94"><a name="answer-key0b94"></a>
+<div id="taoptionAnswer3q0b9" class="block iDevice_content">
+<p align="justify"><em>Coste pagado /interés inefectivo.</em></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b9" class="block iDevice_content">
+<p align="justify"><span color="#000000" style="color: #000000;"><b><span face="Verdana, serif" style="font-family: Verdana, serif;"><span>¿En qué cuenta se registran los activos financieros para negociar?</span></span></b></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b91" class="sr-av"><a href="#answer-key1b91">Opción 1</a></label><input type="radio" name="key1b9" id="key1b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b91"><a name="answer-key1b91"></a>
+<div id="taoptionAnswer0q1b9" class="block iDevice_content">
+<p align="justify"><span color="#000000"><span face="Verdana, serif">En la cuenta 802 Transferencia de beneficios en activos financieros disponibles para negociar.</span></span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b92" class="sr-av"><a href="#answer-key1b92">Opción 2</a></label><input type="radio" name="key1b9" id="key1b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b92"><a name="answer-key1b92"></a>
+<div id="taoptionAnswer1q1b9" class="block iDevice_content">
+<p align="justify"><span color="#000000">En la cuenta 540 Inversiones financieras temporales en instrumentos de patrimonio.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b93" class="sr-av"><a href="#answer-key1b93">Opción 3</a></label><input type="radio" name="key1b9" id="key1b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b93"><a name="answer-key1b93"></a>
+<div id="taoptionAnswer2q1b9" class="block iDevice_content">
+<p align="justify"><span color="#000000">En la cuenta 761 Ingresos valores representativos deuda.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b94" class="sr-av"><a href="#answer-key1b94">Opción 4</a></label><input type="radio" name="key1b9" id="key1b94" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b94"><a name="answer-key1b94"></a>
+<div id="taoptionAnswer3q1b9" class="block iDevice_content">
+<p><span>En la cuenta 900 Beneficios en activos financieros mantenidos para negociar.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b9" class="block iDevice_content">
+<p align="justify"><span color="#000000" style="color: #000000;"><b><span face="Verdana, serif" style="font-family: Verdana, serif;"><span><span>¿Qué características ha de poseer un activo financiero para negociar?</span></span></span></b></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b91" class="sr-av"><a href="#answer-key2b91">Opción 1</a></label><input type="radio" name="key2b9" id="key2b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b91"><a name="answer-key2b91"></a>
+<div id="taoptionAnswer0q2b9" class="block iDevice_content">
+<p align="justify"><span color="#000000"><span face="Verdana, serif">Que se origine o adquiera con el propósito de venderlo en el corto plazo.</span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b92" class="sr-av"><a href="#answer-key2b92">Opción 2</a></label><input type="radio" name="key2b9" id="key2b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b92"><a name="answer-key2b92"></a>
+<div id="taoptionAnswer1q2b9" class="block iDevice_content">
+<p align="justify"><span color="#000000">Que forme parte de una cartera de instrumentos financieros identificados y gestionados conjuntamente de la que existan evidencias de actuaciones recientes para obtener ganancias en el corto plazo.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b93" class="sr-av"><a href="#answer-key2b93">Opción 3</a></label><input type="radio" name="key2b9" id="key2b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b93"><a name="answer-key2b93"></a>
+<div id="taoptionAnswer2q2b9" class="block iDevice_content">
+<p align="justify"><span color="#000000">Sea un instrumento financiero derivado, siempre que no sea un contrato de garantía financiera ni haya sido designado como instrumento de cobertura.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b94" class="sr-av"><a href="#answer-key2b94">Opción 4</a></label><input type="radio" name="key2b9" id="key2b94" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b94"><a name="answer-key2b94"></a>
+<div id="taoptionAnswer3q2b9" class="block iDevice_content">
+<p><span>Todas son correctas.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b9" class="block iDevice_content">
+<p align="justify"><span color="#000000" style="color: #000000;"><b><span face="Verdana, serif" style="font-family: Verdana, serif;"><span>Responde verdadero o falso: </span></span></b></span></p>
+<p align="justify"><span color="#000000" style="color: #000000;"><span>“<b><span face="Verdana, serif" style="font-family: Verdana, serif;"><span><i>Dentro de los activos financieros disponibles para la venta, se incluirán los valores representativos de deuda e instrumentos de patrimonio de otras empresas que no se hayan clasificado en ninguna de las categorías anteriores”.</i></span></span></b></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b91" class="sr-av"><a href="#answer-key3b91">Opción 1</a></label><input type="radio" name="key3b9" id="key3b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b91"><a name="answer-key3b91"></a>
+<div id="taoptionAnswer0q3b9" class="block iDevice_content">
+<p align="justify"><span color="#000000"><span face="Verdana, serif">Verdadero.</span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b92" class="sr-av"><a href="#answer-key3b92">Opción 2</a></label><input type="radio" name="key3b9" id="key3b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b92"><a name="answer-key3b92"></a>
+<div id="taoptionAnswer1q3b9" class="block iDevice_content">
+<p><span>Falso.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id10">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Pregunta de Elección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id11">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona mas de una Opción</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-11_108">
+<form name="multi-select-form-11_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion11_108" class="block question iDevice_content">
+<p align="justify"><span color="#000000" style="color: #000000;"><b><span face="Verdana, serif" style="font-family: Verdana, serif;"><span><span>¿Qué cuentas se utilizan en las inversiones mantenidas hasta el vencimiento? (respuesta múltiple)</span></span></span></b></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op11_1080" class="sr-av"><a href="#answer-11_111">Opción 1</a></label><input type="checkbox" id="op11_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-11_111"><a name="answer-11_111"></a>
+<div id="taans11_111" class="block iDevice_content">
+<p align="justify"><span color="#000000"><span face="Verdana, serif">541. Valores representativos de deuda a c/p.</span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-11_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op11_1081" class="sr-av"><a href="#answer-11_172">Opción 2</a></label><input type="checkbox" id="op11_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-11_172"><a name="answer-11_172"></a>
+<div id="taans11_172" class="block iDevice_content">
+<p align="justify"><span color="#000000">251.Valores representativos de deuda a l/p.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-11_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op11_1082" class="sr-av"><a href="#answer-11_174">Opción 3</a></label><input type="checkbox" id="op11_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-11_174"><a name="answer-11_174"></a>
+<div id="taans11_174" class="block iDevice_content">
+<p align="justify"><span color="#000000">261. Valores representativos de deuda a c/p.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-11_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op11_1083" class="sr-av"><a href="#answer-11_176">Opción 4</a></label><input type="checkbox" id="op11_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-11_176"><a name="answer-11_176"></a>
+<div id="taans11_176" class="block iDevice_content">
+<p><span>551.Valores representativos de deuda a l/p.</span></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-11_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'11_108')"/> 
+</p>
+</div>
+<div id="f11_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-11_111" class="right">Correcto</a></li>
+<li><a href="#answer-11_172" class="right">Correcto</a></li>
+<li><a href="#answer-11_174" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-11_176" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

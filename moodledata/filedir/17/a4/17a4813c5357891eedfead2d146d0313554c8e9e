@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.1. Definición de variables </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.1. Definición de variables</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id1">
+<div class="iDevice emphasis0">
+<div id="ta1_85" class="block iDevice_content">
+<p>Antes de utilizar una variable, lo habitual es definirla o declararla, ambos términos son válidos, indicando su nombre y el tipo de datos que puede contener. Generalmente esta declaración de las variables se realiza al inicio del método o función donde van a ser usadas. El formato de esta declaración será:</p>
+<p>Dim Variable As Tipo</p>
+<p>Las palabras Dim y As forman parte del conjunto de palabras reservadas de Visual Basic. Aparecerán siempre y en esa misma posición. Variable será el nombre que deseemos dar a la variable. En éste puede usar letras de números, sin espacios ni otros símbolos especiales. En cuanto al tipo, será alguno de los enumerados en la tabla 13.1. En ella aparecen los tipos más usuales, no siendo una recopilación completa de todos los disponibles.</p>
+<p>Además de los tipos anteriores, también es posible usar variables para almacenar referencias a objetos, por ejemplo una hoja de cálculo, un libro completo o una celdilla. Además, existe la posibilidad de crear tipos definidos por el usuario.</p>
+<table style="border-width: 0px; border-collapse: collapse;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Tipo</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Datos que puede contener</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Boolean</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>True o False.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Byte</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Números enteros entre 0 y 255.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Integer</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Números enteros entre -32768 y 32767.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Long</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Números enteros entre -2147483648 a 2147483647</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Single</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Números decimales de precisión simple.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Double</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Números decimales de precisión doble.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>String</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Cadenas de caracteres.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Date</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Fechas.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Object</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Referencias a objetos.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>Variant</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>Cualquier tipo de dato</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 13.1.</b> Tipos de datos en Visual Basic.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

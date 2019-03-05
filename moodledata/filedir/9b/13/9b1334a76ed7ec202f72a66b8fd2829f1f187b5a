@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2. Invocación de funciones </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2. Invocación de funciones</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Con el fin de invocar las funciones que nos interesa, utilizaremos la función LLAMAR, cuyo número de parámetros es variable. Como mínimo tendremos que facilitarle el identificador devuelto por la función REGISTRAR. Obviamente, podemos introducir ese identificador facilitando como parámetro una referencia a la celdilla donde hemos introducido la llamada a REGISTRAR.</p>
+<p>Dependiendo de los parámetros que necesite la función externa a la que invocaremos, tendremos que entregar más o menos parámetros a LLAMAR, aparte del mencionado identificador. Al final del punto anterior registrábamos dos funciones que no toman parámetros por lo que, al llamarlas, no tendríamos que facilitar ningún dato adicional. Para hacer una prueba, introduzca en una hoja de macros el contenido que se ve en la figura 10.3 de teclas <b>Alt-º</b> ya que, por defecto, las hojas de macros muestran las fórmulas en lugar de los resultados obtenidos. Despliegue el menú emergente y elija la opción apropiada para ejecutar la macro que acaba de crear.</p>
+<p>Aparecerá un cuadro de diálogo con los nombres de macros definidos y, en la parte superior, la referencia a la celdilla que tiene la función LLAMAR. Haga clic en el botón <b>Ejecutar</b> para registrar y llamar a la función externa. Por una parte verá los resultados en las celdillas y, por otra, una ventana comunicando un error (véase la figura 10.4) que, en este caso, no tiene importancia. Lo importante es que en una celdilla tenemos el valor devuelto por la función GetTickCount de Windows: el número de milisegundos transcurridos desde que se inició el sistema.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WGtWN29jeVlpdUZpcnd3RHJHOEVHM3VmUXVIJTJCbTlOVVBqRjlZeVlnV0FrJTNE" id="IMG_WGtWN29jeVlpdUZpcnd3RHJHOEVHM3VmUXVIJTJCbTlOVVBqRjlZeVlnV0FrJTNE" alt="Acceso a funciones externas" title="Acceso a funciones externas" width="458" /></p>
+<p><b>Figura 10.3.</b> Invocamos a una función externa.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZmN6eFVQdVlZTVlQUGNXVHlZSEUlMkIlMkJ1THVjUEZOVkk5RmVxbjVjMEZpcnMlM0Q=" id="IMG_ZmN6eFVQdVlZTVlQUGNXVHlZSEUlMkIlMkJ1THVjUEZOVkk5RmVxbjVjMEZpcnMlM0Q=" alt="Acceso a funciones externas" title="Acceso a funciones externas" width="400" /></p>
+<p><b>Figura 10.4.</b> Resultados obtenidos al ejecutar la función externa.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

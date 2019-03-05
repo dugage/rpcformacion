@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4. Funciones de bases de datos </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4. Funciones de bases de datos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id12">
+<div class="iDevice emphasis0">
+<div id="ta12_85" class="block iDevice_content">
+<p>Sobre la información de una base de datos podemos operar utilizando cualquiera de las funciones estadísticas y matemáticas que ya conocemos. Es posible así, por ejemplo, contar el número de entradas que existen, hallar los valores máximo, mínimo y medio, etc. De igual forma, pueden utilizarse opciones descritas en capítulos previos para filtrar los datos y hacer más fácil la búsqueda e interpretación. Excel, no obstante, dispone de un conjunto de funciones específicas para el trabajo con bases de datos. Éstas se caracterizan por comenzar siempre su nombre con los caracteres BD, siendo su finalidad la resumida en la tabla 5.2. Los parámetros necesarios son casi siempre los mismos.</p>
+<table style="border-width: 0px; border-collapse: collapse; width: 482px;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" height="25" valign="top" width="80">
+<p><b>Función</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" height="25" valign="top">
+<p><b>Finalidad</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top">
+<p>BDCONTAR</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top">
+<p>Cuenta el número de celdillas que contienen datos numéricos.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>BDCONTARA</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Cuenta el número de celdillas que no están vacías.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>BDDESVEST</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Calcula la desviación estándar basándose en una muestra.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="44" valign="top">
+<p>BDDESVESTP</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="44" valign="top">
+<p>Calcula la desviación estándar basándose en todos los datos de la base.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>BDEXTRAER</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Recupera un cierto dato de la base.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top">
+<p>BDMAX</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top">
+<p>Devuelve el máximo valor.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>BDMIN</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Devuelve el mínimo valor.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>BDPRODUCTO</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Multiplica los valores indicados.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top">
+<p>BDPROMEDIO</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top">
+<p>Devuelve el valor promedio.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>BDSUMA</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Devuelve la suma de los valores.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>BDVAR</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Calcula la varianza basándose en una muestra.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" height="26" valign="top">
+<p>BDVARP</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" height="26" valign="top">
+<p>Calcula la varianza basándose en todos los datos de la base.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 4.2.</b> Funciones para operar sobre bases de datos en Excel.</p>
+<p>Los parámetros que necesitan estas funciones para poder afectar su trabajo son tres:</p>
+<ul>
+<li>Una referencia al rango de celdas que contiene la base de datos. Se asume que la primera fila contiene los títulos de cada columna. Lógicamente, podemos utilizar un nombre previamente asignado a la base de datos.</li>
+<li>Nombre de la columna sobre la que va a operarse. Ese nombre deberá ser el título que exista en dicha columna, aunque también pueden utilizarse números para referirse a ellas por orden.</li>
+<li>Referencia a un rango de celdillas que contenga los criterios de selección de los datos. La sintaxis es similar a la descrita en un capítulo previo para la creación de filtros avanzados.</li>
+</ul>
+<p>Para ver un ejemplo de uso de estas funciones volvamos a abrir la hoja de cálculo con datos de población que usábamos en capítulos previos. Nos interesa, concretamente, la hoja de datos global con población de todos los continentes y los porcentajes de población rural y femenina.</p>
+<p>Lo primero que haríamos sería copiar la fila que contiene todos los títulos en otro lugar, por ejemplo debajo de la tabla de datos, para usarlos como encabezados del área de criterios. Justo debajo introducimos dichos criterios, por ejemplo países europeos que cuenten con una población rural superior al 50 por ciento, tal y como se aprecia en la figura 4.27. Tan sólo resta introducir las fórmulas con las funciones de bases de datos. En la misma figura puede ver cómo se usa la función BDPROMEDIO para calcular la población media de los países que cumplen esos criterios.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MjEwamQyMzdJT0pyT3Q5ZkVtRTJnYjJod2VmNHFaOERHQVYwSEdpSXFJRSUzRA==" id="IMG_MjEwamQyMzdJT0pyT3Q5ZkVtRTJnYjJod2VmNHFaOERHQVYwSEdpSXFJRSUzRA==" alt="Bases de datos" title="Bases de datos" width="410" /></p>
+<p><b>Figura 4.27.</b> Utilizamos las funciones de bases de datos para extraer información.</p>
+<p>De forma análoga podríamos obtener el porcentaje máximo de población urbana de las filas que cumplen los criterios, la desviación o la varianza. Observe que el cálculo es dinámico y basta la modificación de cualquier parámetro en el área de criterios para que los resultados se actualicen en consecuencia. De esta manera, puede ver los datos relativos a cada continente simplemente cambiando su nombre en los criterios. Si elimina el nombre del continente la función analizará toda la base de datos sin tener en cuenta ese criterio.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

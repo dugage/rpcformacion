@@ -1,0 +1,1456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Examen </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Examen</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id0">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 21;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var question5;
+var question6;
+var question7;
+var question8;
+var question9;
+var question10;
+var question11;
+var question12;
+var question13;
+var question14;
+var question15;
+var question16;
+var question17;
+var question18;
+var question19;
+var question20;
+var key0 = 0;
+var key1 = 0;
+var key2 = 2;
+var key3 = 2;
+var key4 = 0;
+var key5 = 2;
+var key6 = 1;
+var key7 = 2;
+var key8 = 2;
+var key9 = 2;
+var key10 = 1;
+var key11 = 2;
+var key12 = 2;
+var key13 = 2;
+var key14 = 2;
+var key15 = 2;
+var key16 = 2;
+var key17 = 2;
+var key18 = 1;
+var key19 = 2;
+var key20 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b0");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key0b0[i].checked)
+               {
+                  question0 = document.getElementById("quizForm0").key0b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b0");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key1b0[i].checked)
+               {
+                  question1 = document.getElementById("quizForm0").key1b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b0");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key2b0[i].checked)
+               {
+                  question2 = document.getElementById("quizForm0").key2b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b0");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key3b0[i].checked)
+               {
+                  question3 = document.getElementById("quizForm0").key3b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b0");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key4b0[i].checked)
+               {
+                  question4 = document.getElementById("quizForm0").key4b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.5.id","key5b0");
+            scorm.SetInteractionValue("cmi.interactions.5.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.5.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key5b0[i].checked)
+               {
+                  question5 = document.getElementById("quizForm0").key5b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.5.student_response",question5);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.6.id","key6b0");
+            scorm.SetInteractionValue("cmi.interactions.6.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.6.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key6b0[i].checked)
+               {
+                  question6 = document.getElementById("quizForm0").key6b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.6.student_response",question6);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.7.id","key7b0");
+            scorm.SetInteractionValue("cmi.interactions.7.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.7.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key7b0[i].checked)
+               {
+                  question7 = document.getElementById("quizForm0").key7b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.7.student_response",question7);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.8.id","key8b0");
+            scorm.SetInteractionValue("cmi.interactions.8.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.8.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key8b0[i].checked)
+               {
+                  question8 = document.getElementById("quizForm0").key8b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.8.student_response",question8);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.9.id","key9b0");
+            scorm.SetInteractionValue("cmi.interactions.9.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.9.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key9b0[i].checked)
+               {
+                  question9 = document.getElementById("quizForm0").key9b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.9.student_response",question9);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.10.id","key10b0");
+            scorm.SetInteractionValue("cmi.interactions.10.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.10.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key10b0[i].checked)
+               {
+                  question10 = document.getElementById("quizForm0").key10b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.10.student_response",question10);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.11.id","key11b0");
+            scorm.SetInteractionValue("cmi.interactions.11.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.11.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key11b0[i].checked)
+               {
+                  question11 = document.getElementById("quizForm0").key11b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.11.student_response",question11);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.12.id","key12b0");
+            scorm.SetInteractionValue("cmi.interactions.12.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.12.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key12b0[i].checked)
+               {
+                  question12 = document.getElementById("quizForm0").key12b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.12.student_response",question12);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.13.id","key13b0");
+            scorm.SetInteractionValue("cmi.interactions.13.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.13.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key13b0[i].checked)
+               {
+                  question13 = document.getElementById("quizForm0").key13b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.13.student_response",question13);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.14.id","key14b0");
+            scorm.SetInteractionValue("cmi.interactions.14.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.14.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key14b0[i].checked)
+               {
+                  question14 = document.getElementById("quizForm0").key14b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.14.student_response",question14);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.15.id","key15b0");
+            scorm.SetInteractionValue("cmi.interactions.15.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.15.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key15b0[i].checked)
+               {
+                  question15 = document.getElementById("quizForm0").key15b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.15.student_response",question15);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.16.id","key16b0");
+            scorm.SetInteractionValue("cmi.interactions.16.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.16.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key16b0[i].checked)
+               {
+                  question16 = document.getElementById("quizForm0").key16b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.16.student_response",question16);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.17.id","key17b0");
+            scorm.SetInteractionValue("cmi.interactions.17.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.17.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key17b0[i].checked)
+               {
+                  question17 = document.getElementById("quizForm0").key17b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.17.student_response",question17);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.18.id","key18b0");
+            scorm.SetInteractionValue("cmi.interactions.18.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.18.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key18b0[i].checked)
+               {
+                  question18 = document.getElementById("quizForm0").key18b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.18.student_response",question18);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.19.id","key19b0");
+            scorm.SetInteractionValue("cmi.interactions.19.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.19.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key19b0[i].checked)
+               {
+                  question19 = document.getElementById("quizForm0").key19b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.19.student_response",question19);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.20.id","key20b0");
+            scorm.SetInteractionValue("cmi.interactions.20.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.20.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key20b0[i].checked)
+               {
+                  question20 = document.getElementById("quizForm0").key20b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.20.student_response",question20);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+            if (question5 == key5)
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","wrong");
+            }
+            if (question6 == key6)
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","wrong");
+            }
+            if (question7 == key7)
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","wrong");
+            }
+            if (question8 == key8)
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","wrong");
+            }
+            if (question9 == key9)
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","wrong");
+            }
+            if (question10 == key10)
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","wrong");
+            }
+            if (question11 == key11)
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","wrong");
+            }
+            if (question12 == key12)
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","wrong");
+            }
+            if (question13 == key13)
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","wrong");
+            }
+            if (question14 == key14)
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","wrong");
+            }
+            if (question15 == key15)
+            {
+               scorm.SetInteractionValue("cmi.interactions.15.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.15.result","wrong");
+            }
+            if (question16 == key16)
+            {
+               scorm.SetInteractionValue("cmi.interactions.16.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.16.result","wrong");
+            }
+            if (question17 == key17)
+            {
+               scorm.SetInteractionValue("cmi.interactions.17.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.17.result","wrong");
+            }
+            if (question18 == key18)
+            {
+               scorm.SetInteractionValue("cmi.interactions.18.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.18.result","wrong");
+            }
+            if (question19 == key19)
+            {
+               scorm.SetInteractionValue("cmi.interactions.19.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.19.result","wrong");
+            }
+            if (question20 == key20)
+            {
+               scorm.SetInteractionValue("cmi.interactions.20.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.20.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm0").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario Selección Unica.</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm0" id="quizForm0" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-0" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b0" class="block iDevice_content">
+<p><b>Completa el espacio en blanco del siguiente enunciado:</b> “Los primeros auxilios ________ son aquellos en los que existe un peligro vital para la vida de la persona accidentada”.</p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b01" class="sr-av"><a href="#answer-key0b01">Opción 1</a></label><input type="radio" name="key0b0" id="key0b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b01"><a name="answer-key0b01"></a>
+<div id="taoptionAnswer0q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">No emergentes.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b02" class="sr-av"><a href="#answer-key0b02">Opción 2</a></label><input type="radio" name="key0b0" id="key0b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b02"><a name="answer-key0b02"></a>
+<div id="taoptionAnswer1q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Prioritarios.</div>
+<div class="ee_respuesta ee_simpleSeleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b03" class="sr-av"><a href="#answer-key0b03">Opción 3</a></label><input type="radio" name="key0b0" id="key0b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b03"><a name="answer-key0b03"></a>
+<div id="taoptionAnswer2q0b0" class="block iDevice_content">
+<p>Emergentes.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b0" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si es verdadero o falso el siguiente enunciado:</b> <i>“Los primeros auxilios son todas aquellas actuaciones o medidas terapéuticas urgentes que se aplican a las víctimas de accidentes o enfermedades hasta disponer de tratamiento especializado”.</i></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b01" class="sr-av"><a href="#answer-key1b01">Opción 1</a></label><input type="radio" name="key1b0" id="key1b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b01"><a name="answer-key1b01"></a>
+<div id="taoptionAnswer0q1b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b02" class="sr-av"><a href="#answer-key1b02">Opción 2</a></label><input type="radio" name="key1b0" id="key1b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b02"><a name="answer-key1b02"></a>
+<div id="taoptionAnswer1q1b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b0" class="block iDevice_content">
+<p><b>¿Cuál es la secuencia que debe seguir una persona encargada de atender o socorrer a otra?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b01" class="sr-av"><a href="#answer-key2b01">Opción 1</a></label><input type="radio" name="key2b0" id="key2b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b01"><a name="answer-key2b01"></a>
+<div id="taoptionAnswer0q2b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Socorrer-Trasladar.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b02" class="sr-av"><a href="#answer-key2b02">Opción 2</a></label><input type="radio" name="key2b0" id="key2b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b02"><a name="answer-key2b02"></a>
+<div id="taoptionAnswer1q2b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Proteger-Avisar-Socorrer.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b03" class="sr-av"><a href="#answer-key2b03">Opción 3</a></label><input type="radio" name="key2b0" id="key2b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b03"><a name="answer-key2b03"></a>
+<div id="taoptionAnswer2q2b0" class="block iDevice_content">
+<p>Socorrer-Avisar-Proteger.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b0" class="block iDevice_content">
+<p><b>¿Cuántas fases componen la intervención sanitaria?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b01" class="sr-av"><a href="#answer-key3b01">Opción 1</a></label><input type="radio" name="key3b0" id="key3b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b01"><a name="answer-key3b01"></a>
+<div id="taoptionAnswer0q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Tres.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b02" class="sr-av"><a href="#answer-key3b02">Opción 2</a></label><input type="radio" name="key3b0" id="key3b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b02"><a name="answer-key3b02"></a>
+<div id="taoptionAnswer1q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Cinco.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b03" class="sr-av"><a href="#answer-key3b03">Opción 3</a></label><input type="radio" name="key3b0" id="key3b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b03"><a name="answer-key3b03"></a>
+<div id="taoptionAnswer2q3b0" class="block iDevice_content">
+<p>Diez.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b0" class="block iDevice_content">
+<p><b>¿Qué es la anatomía patológica?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b01" class="sr-av"><a href="#answer-key4b01">Opción 1</a></label><input type="radio" name="key4b0" id="key4b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b01"><a name="answer-key4b01"></a>
+<div id="taoptionAnswer0q4b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Es la parte de la ciencia que se encarga del estudio de las lesiones celulares, tejidos, órganos, de sus consecuencias estructurales y funcionales y por tanto de las repercusiones en el organismo.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b02" class="sr-av"><a href="#answer-key4b02">Opción 2</a></label><input type="radio" name="key4b0" id="key4b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b02"><a name="answer-key4b02"></a>
+<div id="taoptionAnswer1q4b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Es la parte de la física que se encarga del estudio de las lesiones celulares, tejidos, órganos, de sus consecuencias estructurales y funcionales y por tanto de las repercusiones en el organismo.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b03" class="sr-av"><a href="#answer-key4b03">Opción 3</a></label><input type="radio" name="key4b0" id="key4b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b03"><a name="answer-key4b03"></a>
+<div id="taoptionAnswer2q4b0" class="block iDevice_content">
+<p>Es la parte de la química que se encarga del estudio de las lesiones celulares, tejidos, órganos, de sus consecuencias estructurales y funcionales y por tanto de las repercusiones en el organismo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion5b0" class="block iDevice_content">
+<p><b>¿Cuántos circuitos posee el aparato circulatorio?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b01" class="sr-av"><a href="#answer-key5b01">Opción 1</a></label><input type="radio" name="key5b0" id="key5b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b01"><a name="answer-key5b01"></a>
+<div id="taoptionAnswer0q5b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Dos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b02" class="sr-av"><a href="#answer-key5b02">Opción 2</a></label><input type="radio" name="key5b0" id="key5b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b02"><a name="answer-key5b02"></a>
+<div id="taoptionAnswer1q5b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Tres.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b03" class="sr-av"><a href="#answer-key5b03">Opción 3</a></label><input type="radio" name="key5b0" id="key5b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b03"><a name="answer-key5b03"></a>
+<div id="taoptionAnswer2q5b0" class="block iDevice_content">
+<p>Uno</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion6b0" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si es verdadero o falso el siguiente enunciado:</b> <i>“Un síntoma manifestación de una alteración orgánica o funcional apreciable tanto por la o el paciente como por la persona que observa”.</i></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b01" class="sr-av"><a href="#answer-key6b01">Opción 1</a></label><input type="radio" name="key6b0" id="key6b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b01"><a name="answer-key6b01"></a>
+<div id="taoptionAnswer0q6b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b02" class="sr-av"><a href="#answer-key6b02">Opción 2</a></label><input type="radio" name="key6b0" id="key6b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b02"><a name="answer-key6b02"></a>
+<div id="taoptionAnswer1q6b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion7b0" class="block iDevice_content">
+<p><b>¿Cómo se define una enfermedad?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b01" class="sr-av"><a href="#answer-key7b01">Opción 1</a></label><input type="radio" name="key7b0" id="key7b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b01"><a name="answer-key7b01"></a>
+<div id="taoptionAnswer0q7b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Como un desequilibrio físico, mental y social debido a unas causas, y que produce unas manifestaciones objetivas y subjetivas, que disminuyen o anulan la capacidad de la persona para realizar sus actividades normales y le obliga a pedir ayuda a profesionales de la salud.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b02" class="sr-av"><a href="#answer-key7b02">Opción 2</a></label><input type="radio" name="key7b0" id="key7b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b02"><a name="answer-key7b02"></a>
+<div id="taoptionAnswer1q7b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Como un desequilibrio físico debido a unas causas, y que produce unas manifestaciones objetivas y subjetivas, que disminuyen o anulan la capacidad de la persona para realizar sus actividades.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b03" class="sr-av"><a href="#answer-key7b03">Opción 3</a></label><input type="radio" name="key7b0" id="key7b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b03"><a name="answer-key7b03"></a>
+<div id="taoptionAnswer2q7b0" class="block iDevice_content">
+<p>Como un desequilibrio mental que anula la capacidad de la persona para realizar sus actividades normales.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion8b0" class="block iDevice_content">
+<p><b>¿Qué maniobra se utiliza en individuos que debido a una obstrucción han dejado de respirar?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b01" class="sr-av"><a href="#answer-key8b01">Opción 1</a></label><input type="radio" name="key8b0" id="key8b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b01"><a name="answer-key8b01"></a>
+<div id="taoptionAnswer0q8b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">P-A-S.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b02" class="sr-av"><a href="#answer-key8b02">Opción 2</a></label><input type="radio" name="key8b0" id="key8b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b02"><a name="answer-key8b02"></a>
+<div id="taoptionAnswer1q8b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Heimlich.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b03" class="sr-av"><a href="#answer-key8b03">Opción 3</a></label><input type="radio" name="key8b0" id="key8b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b03"><a name="answer-key8b03"></a>
+<div id="taoptionAnswer2q8b0" class="block iDevice_content">
+<p>Respiración asistida.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion9b0" class="block iDevice_content">
+<p><b>De los siguientes, ¿cuál no es un dispositivo orofaríngeo?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b01" class="sr-av"><a href="#answer-key9b01">Opción 1</a></label><input type="radio" name="key9b0" id="key9b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b01"><a name="answer-key9b01"></a>
+<div id="taoptionAnswer0q9b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Cánula Yankauer.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b02" class="sr-av"><a href="#answer-key9b02">Opción 2</a></label><input type="radio" name="key9b0" id="key9b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b02"><a name="answer-key9b02"></a>
+<div id="taoptionAnswer1q9b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Cánula de aspiración dental.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b03" class="sr-av"><a href="#answer-key9b03">Opción 3</a></label><input type="radio" name="key9b0" id="key9b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b03"><a name="answer-key9b03"></a>
+<div id="taoptionAnswer2q9b0" class="block iDevice_content">
+<p>Respirador eléctrico.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion10b0" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si es verdadero o falso el siguiente enunciado:</b> <i>“La intubación endotraqueal es un asegura protección contra el paso de cuerpos extraños al árbol bronquial”.</i></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b01" class="sr-av"><a href="#answer-key10b01">Opción 1</a></label><input type="radio" name="key10b0" id="key10b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b01"><a name="answer-key10b01"></a>
+<div id="taoptionAnswer0q10b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b02" class="sr-av"><a href="#answer-key10b02">Opción 2</a></label><input type="radio" name="key10b0" id="key10b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b02"><a name="answer-key10b02"></a>
+<div id="taoptionAnswer1q10b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion11b0" class="block iDevice_content">
+<p><b>Completa el espacio en blanco del siguiente enunciado:</b> “La aspiración ________ es una técnica que tiene como objetivo mantener la vía aérea permeable, retirando del árbol bronquial las secreciones que el paciente no puede eliminar de forma espontánea, facilitando la respiración del paciente y su correcta oxigenación”.</p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b01" class="sr-av"><a href="#answer-key11b01">Opción 1</a></label><input type="radio" name="key11b0" id="key11b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b01"><a name="answer-key11b01"></a>
+<div id="taoptionAnswer0q11b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">De oxígeno.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b02" class="sr-av"><a href="#answer-key11b02">Opción 2</a></label><input type="radio" name="key11b0" id="key11b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b02"><a name="answer-key11b02"></a>
+<div id="taoptionAnswer1q11b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">De partículas.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b03" class="sr-av"><a href="#answer-key11b03">Opción 3</a></label><input type="radio" name="key11b0" id="key11b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b03"><a name="answer-key11b03"></a>
+<div id="taoptionAnswer2q11b0" class="block iDevice_content">
+<p>De secreciones.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion12b0" class="block iDevice_content">
+<p><b>¿Para qué se utiliza un balón resucitador?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b01" class="sr-av"><a href="#answer-key12b01">Opción 1</a></label><input type="radio" name="key12b0" id="key12b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b01"><a name="answer-key12b01"></a>
+<div id="taoptionAnswer0q12b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Para operaciones de reanimación.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b02" class="sr-av"><a href="#answer-key12b02">Opción 2</a></label><input type="radio" name="key12b0" id="key12b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b02"><a name="answer-key12b02"></a>
+<div id="taoptionAnswer1q12b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Para operaciones de fisioterapia.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b03" class="sr-av"><a href="#answer-key12b03">Opción 3</a></label><input type="radio" name="key12b0" id="key12b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b03"><a name="answer-key12b03"></a>
+<div id="taoptionAnswer2q12b0" class="block iDevice_content">
+<p>Para operaciones de recuperación psicológica.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion13b0" class="block iDevice_content">
+<p><b>¿Cuándo no podemos usar oxígeno medicinal?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b01" class="sr-av"><a href="#answer-key13b01">Opción 1</a></label><input type="radio" name="key13b0" id="key13b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b01"><a name="answer-key13b01"></a>
+<div id="taoptionAnswer0q13b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Cuando los materiales son no inflamables.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b02" class="sr-av"><a href="#answer-key13b02">Opción 2</a></label><input type="radio" name="key13b0" id="key13b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b02"><a name="answer-key13b02"></a>
+<div id="taoptionAnswer1q13b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Cuando los materiales son inflamables.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b03" class="sr-av"><a href="#answer-key13b03">Opción 3</a></label><input type="radio" name="key13b0" id="key13b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b03"><a name="answer-key13b03"></a>
+<div id="taoptionAnswer2q13b0" class="block iDevice_content">
+<p>Cuando los materiales poseen un grado de inflamabilidad nulo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion14b0" class="block iDevice_content">
+<p><b>Ante una administración de 02 de un litro por minuto a través de cánula, ¿qué concentración de 02 aproximada se obtendrá?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b01" class="sr-av"><a href="#answer-key14b01">Opción 1</a></label><input type="radio" name="key14b0" id="key14b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b01"><a name="answer-key14b01"></a>
+<div id="taoptionAnswer0q14b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">40 %.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b02" class="sr-av"><a href="#answer-key14b02">Opción 2</a></label><input type="radio" name="key14b0" id="key14b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b02"><a name="answer-key14b02"></a>
+<div id="taoptionAnswer1q14b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">24 %.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b03" class="sr-av"><a href="#answer-key14b03">Opción 3</a></label><input type="radio" name="key14b0" id="key14b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b03"><a name="answer-key14b03"></a>
+<div id="taoptionAnswer2q14b0" class="block iDevice_content">
+<p>36%.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion15b0" class="block iDevice_content">
+<p><b>¿Qué es la hemostasia?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b01" class="sr-av"><a href="#answer-key15b01">Opción 1</a></label><input type="radio" name="key15b0" id="key15b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b01"><a name="answer-key15b01"></a>
+<div id="taoptionAnswer0q15b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Es el conjunto de mecanismos aptos para detener una hemorragia interna.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b02" class="sr-av"><a href="#answer-key15b02">Opción 2</a></label><input type="radio" name="key15b0" id="key15b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b02"><a name="answer-key15b02"></a>
+<div id="taoptionAnswer1q15b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Es el conjunto de mecanismos aptos para detener una hemorragia interna de poca consideración.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b03" class="sr-av"><a href="#answer-key15b03">Opción 3</a></label><input type="radio" name="key15b0" id="key15b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b03"><a name="answer-key15b03"></a>
+<div id="taoptionAnswer2q15b0" class="block iDevice_content">
+<p>Es el conjunto de mecanismos aptos para detener una hemorragia externa.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion16b0" class="block iDevice_content">
+<p><b>¿Qué indican las siglas D.E.A.?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b01" class="sr-av"><a href="#answer-key16b01">Opción 1</a></label><input type="radio" name="key16b0" id="key16b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b01"><a name="answer-key16b01"></a>
+<div id="taoptionAnswer0q16b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Desfibrilación En Aparatos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b02" class="sr-av"><a href="#answer-key16b02">Opción 2</a></label><input type="radio" name="key16b0" id="key16b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b02"><a name="answer-key16b02"></a>
+<div id="taoptionAnswer1q16b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Desfibrilación Externa Semi Automática.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b03" class="sr-av"><a href="#answer-key16b03">Opción 3</a></label><input type="radio" name="key16b0" id="key16b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b03"><a name="answer-key16b03"></a>
+<div id="taoptionAnswer2q16b0" class="block iDevice_content">
+<p>Descompresión del Estado Actual.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion17b0" class="block iDevice_content">
+<p><b>¿Cuándo se realizó la primera desfibrilación?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b01" class="sr-av"><a href="#answer-key17b01">Opción 1</a></label><input type="radio" name="key17b0" id="key17b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b01"><a name="answer-key17b01"></a>
+<div id="taoptionAnswer0q17b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">1900.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b02" class="sr-av"><a href="#answer-key17b02">Opción 2</a></label><input type="radio" name="key17b0" id="key17b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b02"><a name="answer-key17b02"></a>
+<div id="taoptionAnswer1q17b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">1970.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b03" class="sr-av"><a href="#answer-key17b03">Opción 3</a></label><input type="radio" name="key17b0" id="key17b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b03"><a name="answer-key17b03"></a>
+<div id="taoptionAnswer2q17b0" class="block iDevice_content">
+<p>1947.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion18b0" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>Indica si es verdadero o falso el siguiente enunciado:</b> <i>“En la mayor parte de los equipos semiautomáticos (DESA) para liberar la descarga eléctrica, y tras recomendar la misma, debe ser el reanimador quien con la presión de un botón realiza la descarga”.</i></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b01" class="sr-av"><a href="#answer-key18b01">Opción 1</a></label><input type="radio" name="key18b0" id="key18b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b01"><a name="answer-key18b01"></a>
+<div id="taoptionAnswer0q18b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleSeleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b02" class="sr-av"><a href="#answer-key18b02">Opción 2</a></label><input type="radio" name="key18b0" id="key18b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b02"><a name="answer-key18b02"></a>
+<div id="taoptionAnswer1q18b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion19b0" class="block iDevice_content">
+<p><b>¿En qué ondas la corriente tiene un solo paso por el organismo?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b01" class="sr-av"><a href="#answer-key19b01">Opción 1</a></label><input type="radio" name="key19b0" id="key19b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b01"><a name="answer-key19b01"></a>
+<div id="taoptionAnswer0q19b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Bifásicas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b02" class="sr-av"><a href="#answer-key19b02">Opción 2</a></label><input type="radio" name="key19b0" id="key19b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b02"><a name="answer-key19b02"></a>
+<div id="taoptionAnswer1q19b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Trifásicas.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b03" class="sr-av"><a href="#answer-key19b03">Opción 3</a></label><input type="radio" name="key19b0" id="key19b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b03"><a name="answer-key19b03"></a>
+<div id="taoptionAnswer2q19b0" class="block iDevice_content">
+<p>Monofásicas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion20b0" class="block iDevice_content">
+<p><b>Completa el espacio en blanco del siguiente enunciado:</b> “En niños ___________ 8 años puede usarse los DEA estándar sin ningún tipo de adaptación”.</p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key20b01" class="sr-av"><a href="#answer-key20b01">Opción 1</a></label><input type="radio" name="key20b0" id="key20b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key20b01"><a name="answer-key20b01"></a>
+<div id="taoptionAnswer0q20b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Mayores de.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key20b02" class="sr-av"><a href="#answer-key20b02">Opción 2</a></label><input type="radio" name="key20b0" id="key20b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key20b02"><a name="answer-key20b02"></a>
+<div id="taoptionAnswer1q20b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Menores de.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key20b03" class="sr-av"><a href="#answer-key20b03">Opción 3</a></label><input type="radio" name="key20b0" id="key20b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key20b03"><a name="answer-key20b03"></a>
+<div id="taoptionAnswer2q20b0" class="block iDevice_content">
+<p>De.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

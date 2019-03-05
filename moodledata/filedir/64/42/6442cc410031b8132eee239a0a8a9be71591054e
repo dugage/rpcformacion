@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.2. Direcciones e indirecciones </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.2. Direcciones e indirecciones</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Partiendo del número de fila y columna de una celdilla, y gracias a la función DIRECCION, es posible generar una referencia, absoluta o relativa, obteniéndola como si fuese un texto. Éste se almacenaría en la celdilla donde introduzcamos la función.</p>
+<p>Esta función precisa cinco parámetros, de los cuales únicamente los dos primeros son obligatorios. Si no se entrega cualquiera de los parámetros opcionales se asume un valor por defecto para ellos. Estos parámetros son:</p>
+<ul>
+<li>Fila: número de fila a la que quiere hacerse referencia.</li>
+<li>Columna: número de columna. Observe que no es una letra sino un número.</li>
+<li>Absoluta: este parámetro será uno de los índices enumerados en la tabla 9.1. En caso de no facilitarse, ya que es un parámetro opcional, se asumirá el valor por defecto, que es el primero.</li>
+<li>Formato: será VERDADERO si queremos que la referencia en el formato habitual, A1, o bien FALSO para el formato F1C1 usado en algunas aplicaciones de hoja de cálculo más antiguas. Por defecto ese parámetro toma el valor VERDADERO.</li>
+<li>Hoja: podemos facilitar el nombre de hoja si la referencia no es a una celdilla de la hoja actual.</li>
+</ul>
+<table style="border-width: 0px; border-collapse: collapse;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top" width="40">
+<p><b>Valor</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Significado</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="40">
+<p>1</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>La referencia será absoluta.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="40">
+<p>2</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>La fila será absoluta pero la columna relativa.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="40">
+<p>3</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>La fila será relativa pero la columna absoluta.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top" width="40">
+<p>4</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>La referencia será relativa.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 8.1. </b> Valores que puede tomar el parámetro Absoluta</p>
+<p>Supongamos que tenemos una tabla de datos como la de la figura 8.2, con datos de población totalizados por continentes. Aunque en este ejemplo la tabla se encuentra en la misma hoja donde vamos a introducir las fórmulas, en la práctica podría ser una tabla externa, en otra hoja o incluso otro libro.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bVV1a0tqd0U2N2gxME1oeGFLSjljY3VzTm5NV3Vod0JrSGhDZW9OeERCUSUzRA==" id="IMG_bVV1a0tqd0U2N2gxME1oeGFLSjljY3VzTm5NV3Vod0JrSGhDZW9OeERCUSUzRA==" alt="Búsqueda de datos" title="Búsqueda de datos" width="377" /></p>
+<p><b>Figura 8.2.</b> Tabla con los datos y la función DIRECCION componiendo la referencia.</p>
+<p>Solicitamos en dos celdillas la fila correspondiente al número de continente de que desea obtener datos, así como la columna del dato a recuperar. A partir de estos dos datos, componemos la referencia a la celdilla con esta fórmula:</p>
+<p>=DIRECCIÓN (B8+1;B9+1)</p>
+<p>Si queremos seleccionar el número de hombres de América, por ejemplo, introduciríamos el valor 2 como índice de continente y el número 1 como índice de dato. En la celdilla obtenemos la referencia $B$3, que es donde se encuentra esa información.</p>
+<p>Lo que nos facilita la función DIRECCIÓN es una cadena de texto, como un título, aunque lo que describa sea una referencia a una celdilla. Utilizando otra función, llamada INDIRECTO, podemos tomar esa referencia y usarla para referirnos a la celdilla y recuperar el valor. Es lo que se ha hecho en la figura 8.3. Observe en la parte superior, en la barra de fórmulas, la llamada a la función INDIRECTO.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_R1IwalFKbVNYN3dqNEROamJpdHlvRmJ4RkZsTHZxOWhva0RKWnJZc3E1TSUzRA==" id="IMG_R1IwalFKbVNYN3dqNEROamJpdHlvRmJ4RkZsTHZxOWhva0RKWnJZc3E1TSUzRA==" alt="Búsqueda de datos" title="Búsqueda de datos" width="438" /></p>
+<p><b>Figura 8.3.</b> Recuperamos en una celdilla el valor indicado mediante los índices.</p>
+<p>Aunque en este caso la cadena con la referencia la tomamos de otra celdilla, realmente podríamos facilitarla como parámetro directo a la función REFERENCIA, o bien componerla según la necesidad del caso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

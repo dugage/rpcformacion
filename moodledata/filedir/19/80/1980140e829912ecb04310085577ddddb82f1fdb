@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Movimientos de caja </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Movimientos de caja</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id1">
+<div class="iDevice emphasis0">
+<div id="ta1_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>La opción <b>Movimientos de Caja</b> nos permitirá definir todos los movimientos que se realizarán en la caja durante el día (hasta que se realice el cierre). Para definirlos utilizará los códigos de caja definidos en la opción <b>Códigos de Caja</b> del apartado <b>Tablas Generales</b> del menú <b>Sistema</b>.</p>
+<p>En esta opción deberán reflejarse todas las entradas y salidas que se realicen sobre la caja, ya sean pagos a proveedores, cobros de mercancía, etc., esto nos permitirá tener un exhaustivo control sobre el estado de la caja.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_S3BWTW5QTDZleFB1M1o0RWpiQjE4VlUxeVhkckw5czVES0ZmU1p5eEsxQSUzRA==" id="IMG_S3BWTW5QTDZleFB1M1o0RWpiQjE4VlUxeVhkckw5czVES0ZmU1p5eEsxQSUzRA==" alt="Caja" title="Caja" width="498" /></p>
+<p>Ventana de movimientos de caja</p>
+<p>Con el botón <b>Añadir</b> accedemos a una pantalla en la que introduciremos los datos correspondientes al movimiento que queramos añadir.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_SFVjaXh1ZGZ5ZEtDTTY0enlPU3Nlc29ZeVN4d1klMkZYUGNLSlFkbGwlMkJhaVElM0Q=" id="IMG_SFVjaXh1ZGZ5ZEtDTTY0enlPU3Nlc29ZeVN4d1klMkZYUGNLSlFkbGwlMkJhaVElM0Q=" alt="Caja" title="Caja" width="474" /></p>
+<p>Mantenimiento de movimientos de caja</p>
+<ul>
+<li><b>Serie: </b> en este campo introduciremos una serie para que en el cierre se incluyan en su serie por separado. De esta forma podremos enviar cada movimiento a un cierre y de la misma forma se llevarán a una segunda empresa si así lo indica el usuario.</li>
+<li><b>Moneda: </b> el campo de selección de la divisa en la que se realizará el movimiento de caja estará visible siempre que en caja se seleccione el campo de dualidad de moneda en tickets. Por defecto tomará la divisa de la caja activa.</li>
+<li><b>Caja: </b> mostrará el código de caja donde añadiremos los movimientos. Debe existir en la tabla de Códigos explicada anteriormente.</li>
+<li><b>Grupo de Movimientos: </b> mostrará el código del grupo al que pertenece este movimiento. Deberá estar definido previamente en la opción Grupos de Movimientos de la opción Tablas Generales del menú Sistema.</li>
+<li><b>Fecha: </b> incluirá la fecha en la que se realizó la operación.</li>
+<li><b>Concepto: </b> literal reservado para incluir el concepto por el cual se realizó el movimiento.</li>
+<li><b>Forma de Pago: </b> código de la Forma de Pago utilizada en el movimiento actual (informativo).</li>
+<li><b>Importe: </b> reflejará la cantidad que se invirtió en el movimiento.</li>
+<li><b>Tipo de Movimiento: </b> nos indicará si el movimiento registrado en la caja es una salida o una entrada. Se rellenará automáticamente dependiendo del Código de Caja introducido en el primer campo.</li>
+</ul>
+<p>Aceptaremos el movimiento con el botón Aceptar. Si necesitamos abrir el cajón, disponemos para ello del botón <b>Abrir Cajón</b>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

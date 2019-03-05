@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1. Descripción general de calendarios del proyecto </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1. Descripción general de calendarios del proyecto</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id0">
+<div class="iDevice emphasis0">
+<div id="ta0_85" class="block iDevice_content">
+<p>Project usa varios <b>calendarios</b> para determinar la disponibilidad de los recursos y la forma en que se programan las tareas. Son los siguientes:</p>
+<ul>
+<li><b>Calendario del proyecto:</b> Éste es el calendario que se usa para designar la programación de trabajo predeterminada de todas las tareas de un proyecto.</li>
+</ul>
+<ul>
+<li><b>Calendario de recursos: </b> Para cada recurso que especifique, Project crea calendarios de recursos individuales basados en la configuración del calendario Estándar. Para modificar dichos calendarios, haga clic en Cambiar calendario laboral, en la ficha General del cuadro de diálogo Información del recurso. También puede crear y asignar calendarios de recursos para recursos individuales o grupos de recursos con el fin de indicar horas de trabajo específicas. Por ejemplo, puede asignar un recurso al turno de tarde o al turno de noche. Puede modificar los calendarios de recursos para indicar períodos no laborables, como vacaciones y permisos.</li>
+</ul>
+<ul>
+<li><b>Calendario de tareas:</b> Las tareas se programan según los períodos laborables del calendario del proyecto. No obstante, puede personalizar los períodos laborables desde el calendario del proyecto en un calendario de tareas si tiene tareas que necesitan completarse a distintas horas, especialmente tareas que son independientes de los recursos. Un calendario de tareas resulta especialmente útil para un equipamiento que ejecuta y completa tareas en noches o fines de semana, que están designados como períodos no laborables en el calendario del proyecto.</li>
+</ul>
+<ul>
+<li><b>Calendario base:</b> Un calendario base es aquel que se puede utilizar como calendario del proyecto y de tareas en el que se especifican los períodos laborables y no laborables predeterminados de un conjunto de recursos. Difiere del calendario de recursos en que este último especifica los períodos laborables y no laborables para un sólo recurso. Se usa como plantilla en la que se basan el calendario del proyecto, el calendario de recursos y el calendario de tareas. Project ofrece tres calendarios base:</li>
+</ul>
+<ul>
+<li><b>Estándar:</b> Establecido de lunes a viernes, de 09:00 a 13:00 y de 15:00 a 19:00.</li>
+<li><b>24 horas:</b> Determinado para periodos de 24 horas, todos los días de la semana.</li>
+<li><b>Turno de noche:</b> Establecido de 23:00 a 8:00 los cinco días a la semana con un descanso de una hora de 03:00 a 0:400 de la mañana</li>
+</ul>
+<p>Tenga en cuenta que los calendarios de períodos laborables y de disponibilidad de recursos no se aplican a los <b>recursos materiales</b>.</p>
+<p>Sugerencia: Si establece el mismo calendario cada vez que cree un proyecto, considere la opción de guardar un proyecto terminado como plantilla.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

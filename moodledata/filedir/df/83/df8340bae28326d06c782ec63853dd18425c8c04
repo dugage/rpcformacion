@@ -1,0 +1,3460 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>EXAMEN </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">EXAMEN</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id1">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 50;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var question5;
+var question6;
+var question7;
+var question8;
+var question9;
+var question10;
+var question11;
+var question12;
+var question13;
+var question14;
+var question15;
+var question16;
+var question17;
+var question18;
+var question19;
+var question20;
+var question21;
+var question22;
+var question23;
+var question24;
+var question25;
+var question26;
+var question27;
+var question28;
+var question29;
+var question30;
+var question31;
+var question32;
+var question33;
+var question34;
+var question35;
+var question36;
+var question37;
+var question38;
+var question39;
+var question40;
+var question41;
+var question42;
+var question43;
+var question44;
+var question45;
+var question46;
+var question47;
+var question48;
+var question49;
+var key0 = 2;
+var key1 = 0;
+var key2 = 1;
+var key3 = 0;
+var key4 = 0;
+var key5 = 1;
+var key6 = 1;
+var key7 = 2;
+var key8 = 2;
+var key9 = 0;
+var key10 = 1;
+var key11 = 0;
+var key12 = 1;
+var key13 = 0;
+var key14 = 1;
+var key15 = 0;
+var key16 = 0;
+var key17 = 2;
+var key18 = 2;
+var key19 = 1;
+var key20 = 2;
+var key21 = 1;
+var key22 = 2;
+var key23 = 0;
+var key24 = 0;
+var key25 = 0;
+var key26 = 1;
+var key27 = 0;
+var key28 = 2;
+var key29 = 1;
+var key30 = 0;
+var key31 = 1;
+var key32 = 2;
+var key33 = 0;
+var key34 = 2;
+var key35 = 2;
+var key36 = 0;
+var key37 = 2;
+var key38 = 0;
+var key39 = 2;
+var key40 = 0;
+var key41 = 0;
+var key42 = 2;
+var key43 = 2;
+var key44 = 1;
+var key45 = 0;
+var key46 = 1;
+var key47 = 1;
+var key48 = 1;
+var key49 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b1");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key0b1[i].checked)
+               {
+                  question0 = document.getElementById("quizForm1").key0b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b1");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key1b1[i].checked)
+               {
+                  question1 = document.getElementById("quizForm1").key1b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b1");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key2b1[i].checked)
+               {
+                  question2 = document.getElementById("quizForm1").key2b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b1");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm1").key3b1[i].checked)
+               {
+                  question3 = document.getElementById("quizForm1").key3b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b1");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key4b1[i].checked)
+               {
+                  question4 = document.getElementById("quizForm1").key4b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.5.id","key5b1");
+            scorm.SetInteractionValue("cmi.interactions.5.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.5.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key5b1[i].checked)
+               {
+                  question5 = document.getElementById("quizForm1").key5b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.5.student_response",question5);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.6.id","key6b1");
+            scorm.SetInteractionValue("cmi.interactions.6.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.6.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key6b1[i].checked)
+               {
+                  question6 = document.getElementById("quizForm1").key6b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.6.student_response",question6);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.7.id","key7b1");
+            scorm.SetInteractionValue("cmi.interactions.7.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.7.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key7b1[i].checked)
+               {
+                  question7 = document.getElementById("quizForm1").key7b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.7.student_response",question7);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.8.id","key8b1");
+            scorm.SetInteractionValue("cmi.interactions.8.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.8.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key8b1[i].checked)
+               {
+                  question8 = document.getElementById("quizForm1").key8b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.8.student_response",question8);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.9.id","key9b1");
+            scorm.SetInteractionValue("cmi.interactions.9.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.9.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key9b1[i].checked)
+               {
+                  question9 = document.getElementById("quizForm1").key9b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.9.student_response",question9);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.10.id","key10b1");
+            scorm.SetInteractionValue("cmi.interactions.10.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.10.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key10b1[i].checked)
+               {
+                  question10 = document.getElementById("quizForm1").key10b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.10.student_response",question10);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.11.id","key11b1");
+            scorm.SetInteractionValue("cmi.interactions.11.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.11.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key11b1[i].checked)
+               {
+                  question11 = document.getElementById("quizForm1").key11b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.11.student_response",question11);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.12.id","key12b1");
+            scorm.SetInteractionValue("cmi.interactions.12.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.12.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key12b1[i].checked)
+               {
+                  question12 = document.getElementById("quizForm1").key12b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.12.student_response",question12);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.13.id","key13b1");
+            scorm.SetInteractionValue("cmi.interactions.13.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.13.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm1").key13b1[i].checked)
+               {
+                  question13 = document.getElementById("quizForm1").key13b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.13.student_response",question13);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.14.id","key14b1");
+            scorm.SetInteractionValue("cmi.interactions.14.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.14.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key14b1[i].checked)
+               {
+                  question14 = document.getElementById("quizForm1").key14b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.14.student_response",question14);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.15.id","key15b1");
+            scorm.SetInteractionValue("cmi.interactions.15.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.15.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key15b1[i].checked)
+               {
+                  question15 = document.getElementById("quizForm1").key15b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.15.student_response",question15);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.16.id","key16b1");
+            scorm.SetInteractionValue("cmi.interactions.16.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.16.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key16b1[i].checked)
+               {
+                  question16 = document.getElementById("quizForm1").key16b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.16.student_response",question16);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.17.id","key17b1");
+            scorm.SetInteractionValue("cmi.interactions.17.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.17.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key17b1[i].checked)
+               {
+                  question17 = document.getElementById("quizForm1").key17b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.17.student_response",question17);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.18.id","key18b1");
+            scorm.SetInteractionValue("cmi.interactions.18.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.18.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key18b1[i].checked)
+               {
+                  question18 = document.getElementById("quizForm1").key18b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.18.student_response",question18);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.19.id","key19b1");
+            scorm.SetInteractionValue("cmi.interactions.19.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.19.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key19b1[i].checked)
+               {
+                  question19 = document.getElementById("quizForm1").key19b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.19.student_response",question19);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.20.id","key20b1");
+            scorm.SetInteractionValue("cmi.interactions.20.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.20.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key20b1[i].checked)
+               {
+                  question20 = document.getElementById("quizForm1").key20b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.20.student_response",question20);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.21.id","key21b1");
+            scorm.SetInteractionValue("cmi.interactions.21.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.21.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key21b1[i].checked)
+               {
+                  question21 = document.getElementById("quizForm1").key21b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.21.student_response",question21);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.22.id","key22b1");
+            scorm.SetInteractionValue("cmi.interactions.22.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.22.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key22b1[i].checked)
+               {
+                  question22 = document.getElementById("quizForm1").key22b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.22.student_response",question22);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.23.id","key23b1");
+            scorm.SetInteractionValue("cmi.interactions.23.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.23.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key23b1[i].checked)
+               {
+                  question23 = document.getElementById("quizForm1").key23b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.23.student_response",question23);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.24.id","key24b1");
+            scorm.SetInteractionValue("cmi.interactions.24.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.24.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key24b1[i].checked)
+               {
+                  question24 = document.getElementById("quizForm1").key24b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.24.student_response",question24);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.25.id","key25b1");
+            scorm.SetInteractionValue("cmi.interactions.25.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.25.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key25b1[i].checked)
+               {
+                  question25 = document.getElementById("quizForm1").key25b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.25.student_response",question25);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.26.id","key26b1");
+            scorm.SetInteractionValue("cmi.interactions.26.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.26.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key26b1[i].checked)
+               {
+                  question26 = document.getElementById("quizForm1").key26b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.26.student_response",question26);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.27.id","key27b1");
+            scorm.SetInteractionValue("cmi.interactions.27.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.27.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key27b1[i].checked)
+               {
+                  question27 = document.getElementById("quizForm1").key27b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.27.student_response",question27);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.28.id","key28b1");
+            scorm.SetInteractionValue("cmi.interactions.28.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.28.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key28b1[i].checked)
+               {
+                  question28 = document.getElementById("quizForm1").key28b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.28.student_response",question28);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.29.id","key29b1");
+            scorm.SetInteractionValue("cmi.interactions.29.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.29.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm1").key29b1[i].checked)
+               {
+                  question29 = document.getElementById("quizForm1").key29b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.29.student_response",question29);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.30.id","key30b1");
+            scorm.SetInteractionValue("cmi.interactions.30.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.30.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key30b1[i].checked)
+               {
+                  question30 = document.getElementById("quizForm1").key30b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.30.student_response",question30);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.31.id","key31b1");
+            scorm.SetInteractionValue("cmi.interactions.31.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.31.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key31b1[i].checked)
+               {
+                  question31 = document.getElementById("quizForm1").key31b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.31.student_response",question31);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.32.id","key32b1");
+            scorm.SetInteractionValue("cmi.interactions.32.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.32.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key32b1[i].checked)
+               {
+                  question32 = document.getElementById("quizForm1").key32b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.32.student_response",question32);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.33.id","key33b1");
+            scorm.SetInteractionValue("cmi.interactions.33.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.33.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key33b1[i].checked)
+               {
+                  question33 = document.getElementById("quizForm1").key33b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.33.student_response",question33);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.34.id","key34b1");
+            scorm.SetInteractionValue("cmi.interactions.34.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.34.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key34b1[i].checked)
+               {
+                  question34 = document.getElementById("quizForm1").key34b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.34.student_response",question34);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.35.id","key35b1");
+            scorm.SetInteractionValue("cmi.interactions.35.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.35.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key35b1[i].checked)
+               {
+                  question35 = document.getElementById("quizForm1").key35b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.35.student_response",question35);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.36.id","key36b1");
+            scorm.SetInteractionValue("cmi.interactions.36.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.36.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key36b1[i].checked)
+               {
+                  question36 = document.getElementById("quizForm1").key36b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.36.student_response",question36);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.37.id","key37b1");
+            scorm.SetInteractionValue("cmi.interactions.37.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.37.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key37b1[i].checked)
+               {
+                  question37 = document.getElementById("quizForm1").key37b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.37.student_response",question37);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.38.id","key38b1");
+            scorm.SetInteractionValue("cmi.interactions.38.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.38.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key38b1[i].checked)
+               {
+                  question38 = document.getElementById("quizForm1").key38b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.38.student_response",question38);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.39.id","key39b1");
+            scorm.SetInteractionValue("cmi.interactions.39.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.39.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key39b1[i].checked)
+               {
+                  question39 = document.getElementById("quizForm1").key39b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.39.student_response",question39);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.40.id","key40b1");
+            scorm.SetInteractionValue("cmi.interactions.40.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.40.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key40b1[i].checked)
+               {
+                  question40 = document.getElementById("quizForm1").key40b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.40.student_response",question40);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.41.id","key41b1");
+            scorm.SetInteractionValue("cmi.interactions.41.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.41.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key41b1[i].checked)
+               {
+                  question41 = document.getElementById("quizForm1").key41b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.41.student_response",question41);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.42.id","key42b1");
+            scorm.SetInteractionValue("cmi.interactions.42.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.42.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key42b1[i].checked)
+               {
+                  question42 = document.getElementById("quizForm1").key42b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.42.student_response",question42);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.43.id","key43b1");
+            scorm.SetInteractionValue("cmi.interactions.43.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.43.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key43b1[i].checked)
+               {
+                  question43 = document.getElementById("quizForm1").key43b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.43.student_response",question43);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.44.id","key44b1");
+            scorm.SetInteractionValue("cmi.interactions.44.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.44.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key44b1[i].checked)
+               {
+                  question44 = document.getElementById("quizForm1").key44b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.44.student_response",question44);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.45.id","key45b1");
+            scorm.SetInteractionValue("cmi.interactions.45.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.45.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key45b1[i].checked)
+               {
+                  question45 = document.getElementById("quizForm1").key45b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.45.student_response",question45);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.46.id","key46b1");
+            scorm.SetInteractionValue("cmi.interactions.46.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.46.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key46b1[i].checked)
+               {
+                  question46 = document.getElementById("quizForm1").key46b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.46.student_response",question46);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.47.id","key47b1");
+            scorm.SetInteractionValue("cmi.interactions.47.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.47.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key47b1[i].checked)
+               {
+                  question47 = document.getElementById("quizForm1").key47b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.47.student_response",question47);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.48.id","key48b1");
+            scorm.SetInteractionValue("cmi.interactions.48.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.48.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key48b1[i].checked)
+               {
+                  question48 = document.getElementById("quizForm1").key48b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.48.student_response",question48);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.49.id","key49b1");
+            scorm.SetInteractionValue("cmi.interactions.49.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.49.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key49b1[i].checked)
+               {
+                  question49 = document.getElementById("quizForm1").key49b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.49.student_response",question49);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+            if (question5 == key5)
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","wrong");
+            }
+            if (question6 == key6)
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","wrong");
+            }
+            if (question7 == key7)
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","wrong");
+            }
+            if (question8 == key8)
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","wrong");
+            }
+            if (question9 == key9)
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","wrong");
+            }
+            if (question10 == key10)
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","wrong");
+            }
+            if (question11 == key11)
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","wrong");
+            }
+            if (question12 == key12)
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","wrong");
+            }
+            if (question13 == key13)
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","wrong");
+            }
+            if (question14 == key14)
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","wrong");
+            }
+            if (question15 == key15)
+            {
+               scorm.SetInteractionValue("cmi.interactions.15.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.15.result","wrong");
+            }
+            if (question16 == key16)
+            {
+               scorm.SetInteractionValue("cmi.interactions.16.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.16.result","wrong");
+            }
+            if (question17 == key17)
+            {
+               scorm.SetInteractionValue("cmi.interactions.17.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.17.result","wrong");
+            }
+            if (question18 == key18)
+            {
+               scorm.SetInteractionValue("cmi.interactions.18.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.18.result","wrong");
+            }
+            if (question19 == key19)
+            {
+               scorm.SetInteractionValue("cmi.interactions.19.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.19.result","wrong");
+            }
+            if (question20 == key20)
+            {
+               scorm.SetInteractionValue("cmi.interactions.20.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.20.result","wrong");
+            }
+            if (question21 == key21)
+            {
+               scorm.SetInteractionValue("cmi.interactions.21.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.21.result","wrong");
+            }
+            if (question22 == key22)
+            {
+               scorm.SetInteractionValue("cmi.interactions.22.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.22.result","wrong");
+            }
+            if (question23 == key23)
+            {
+               scorm.SetInteractionValue("cmi.interactions.23.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.23.result","wrong");
+            }
+            if (question24 == key24)
+            {
+               scorm.SetInteractionValue("cmi.interactions.24.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.24.result","wrong");
+            }
+            if (question25 == key25)
+            {
+               scorm.SetInteractionValue("cmi.interactions.25.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.25.result","wrong");
+            }
+            if (question26 == key26)
+            {
+               scorm.SetInteractionValue("cmi.interactions.26.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.26.result","wrong");
+            }
+            if (question27 == key27)
+            {
+               scorm.SetInteractionValue("cmi.interactions.27.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.27.result","wrong");
+            }
+            if (question28 == key28)
+            {
+               scorm.SetInteractionValue("cmi.interactions.28.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.28.result","wrong");
+            }
+            if (question29 == key29)
+            {
+               scorm.SetInteractionValue("cmi.interactions.29.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.29.result","wrong");
+            }
+            if (question30 == key30)
+            {
+               scorm.SetInteractionValue("cmi.interactions.30.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.30.result","wrong");
+            }
+            if (question31 == key31)
+            {
+               scorm.SetInteractionValue("cmi.interactions.31.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.31.result","wrong");
+            }
+            if (question32 == key32)
+            {
+               scorm.SetInteractionValue("cmi.interactions.32.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.32.result","wrong");
+            }
+            if (question33 == key33)
+            {
+               scorm.SetInteractionValue("cmi.interactions.33.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.33.result","wrong");
+            }
+            if (question34 == key34)
+            {
+               scorm.SetInteractionValue("cmi.interactions.34.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.34.result","wrong");
+            }
+            if (question35 == key35)
+            {
+               scorm.SetInteractionValue("cmi.interactions.35.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.35.result","wrong");
+            }
+            if (question36 == key36)
+            {
+               scorm.SetInteractionValue("cmi.interactions.36.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.36.result","wrong");
+            }
+            if (question37 == key37)
+            {
+               scorm.SetInteractionValue("cmi.interactions.37.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.37.result","wrong");
+            }
+            if (question38 == key38)
+            {
+               scorm.SetInteractionValue("cmi.interactions.38.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.38.result","wrong");
+            }
+            if (question39 == key39)
+            {
+               scorm.SetInteractionValue("cmi.interactions.39.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.39.result","wrong");
+            }
+            if (question40 == key40)
+            {
+               scorm.SetInteractionValue("cmi.interactions.40.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.40.result","wrong");
+            }
+            if (question41 == key41)
+            {
+               scorm.SetInteractionValue("cmi.interactions.41.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.41.result","wrong");
+            }
+            if (question42 == key42)
+            {
+               scorm.SetInteractionValue("cmi.interactions.42.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.42.result","wrong");
+            }
+            if (question43 == key43)
+            {
+               scorm.SetInteractionValue("cmi.interactions.43.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.43.result","wrong");
+            }
+            if (question44 == key44)
+            {
+               scorm.SetInteractionValue("cmi.interactions.44.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.44.result","wrong");
+            }
+            if (question45 == key45)
+            {
+               scorm.SetInteractionValue("cmi.interactions.45.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.45.result","wrong");
+            }
+            if (question46 == key46)
+            {
+               scorm.SetInteractionValue("cmi.interactions.46.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.46.result","wrong");
+            }
+            if (question47 == key47)
+            {
+               scorm.SetInteractionValue("cmi.interactions.47.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.47.result","wrong");
+            }
+            if (question48 == key48)
+            {
+               scorm.SetInteractionValue("cmi.interactions.48.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.48.result","wrong");
+            }
+            if (question49 == key49)
+            {
+               scorm.SetInteractionValue("cmi.interactions.49.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.49.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm1").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona la respuesta correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm1" id="quizForm1" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-1" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>La primera infancia es la etapa que se extiende desde la gestación hasta:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b11" class="sr-av"><a href="#answer-key0b11">Opción 1</a></label><input type="radio" name="key0b1" id="key0b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b11"><a name="answer-key0b11"></a>
+<div id="taoptionAnswer0q0b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Los 10 años de edad.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b12" class="sr-av"><a href="#answer-key0b12">Opción 2</a></label><input type="radio" name="key0b1" id="key0b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b12"><a name="answer-key0b12"></a>
+<div id="taoptionAnswer1q0b1" class="block iDevice_content">
+<p><span color="#00000a">Los 3 años de edad.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b13" class="sr-av"><a href="#answer-key0b13">Opción 3</a></label><input type="radio" name="key0b1" id="key0b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b13"><a name="answer-key0b13"></a>
+<div id="taoptionAnswer2q0b1" class="block iDevice_content">
+<p><span>Los 6 años de edad.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿En qué consiste la latencia?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b11" class="sr-av"><a href="#answer-key1b11">Opción 1</a></label><input type="radio" name="key1b1" id="key1b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b11"><a name="answer-key1b11"></a>
+<div id="taoptionAnswer0q1b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">En la cantidad de tiempo que se mantiene la respuesta emocional.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b12" class="sr-av"><a href="#answer-key1b12">Opción 2</a></label><input type="radio" name="key1b1" id="key1b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b12"><a name="answer-key1b12"></a>
+<div id="taoptionAnswer1q1b1" class="block iDevice_content">
+<p><span color="#00000a">En el parámetro por el cual las personas alteran su comportamiento cuando sospechan que están siendo observados.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b13" class="sr-av"><a href="#answer-key1b13">Opción 3</a></label><input type="radio" name="key1b1" id="key1b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b13"><a name="answer-key1b13"></a>
+<div id="taoptionAnswer2q1b1" class="block iDevice_content">
+<p><span>En las evaluaciones subjetivas que realizamos sobre cómo la información recibida afecta a nuestro bienestar.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Qué es el reflejo de individualización?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b11" class="sr-av"><a href="#answer-key2b11">Opción 1</a></label><input type="radio" name="key2b1" id="key2b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b11"><a name="answer-key2b11"></a>
+<div id="taoptionAnswer0q2b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Pasar rápidamente de una emoción a otra.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b12" class="sr-av"><a href="#answer-key2b12">Opción 2</a></label><input type="radio" name="key2b1" id="key2b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b12"><a name="answer-key2b12"></a>
+<div id="taoptionAnswer1q2b1" class="block iDevice_content">
+<p><span color="#00000a">Empezar a reflejar la influencia de los aprendizajes.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b13" class="sr-av"><a href="#answer-key2b13">Opción 3</a></label><input type="radio" name="key2b1" id="key2b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b13"><a name="answer-key2b13"></a>
+<div id="taoptionAnswer2q2b1" class="block iDevice_content">
+<p><span>Emociones que se debilitan y otras que se fortalecen.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Indica si es verdadero o falso el siguiente enunciado:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><i>“La función motivacional sería congruente con la existencia de las dimensiones principales de las emociones de: agrado-desagrado, e intensidad de la reacción afectiva”.</i></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b11" class="sr-av"><a href="#answer-key3b11">Opción 1</a></label><input type="radio" name="key3b1" id="key3b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b11"><a name="answer-key3b11"></a>
+<div id="taoptionAnswer0q3b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Verdadero.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b12" class="sr-av"><a href="#answer-key3b12">Opción 2</a></label><input type="radio" name="key3b1" id="key3b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b12"><a name="answer-key3b12"></a>
+<div id="taoptionAnswer1q3b1" class="block iDevice_content">
+<p><span>Falso.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>En qué consiste la teoría de la discrepancia cognitivo-evolutiva?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b11" class="sr-av"><a href="#answer-key4b11">Opción 1</a></label><input type="radio" name="key4b1" id="key4b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b11"><a name="answer-key4b11"></a>
+<div id="taoptionAnswer0q4b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">En cómo los estímulos nuevos conducen a reacciones de dolor emocional.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b12" class="sr-av"><a href="#answer-key4b12">Opción 2</a></label><input type="radio" name="key4b1" id="key4b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b12"><a name="answer-key4b12"></a>
+<div id="taoptionAnswer1q4b1" class="block iDevice_content">
+<p><span color="#00000a">En que las reacciones ante los estímulos que eran novedosos podían ser aprendidas a través del condicionamiento clásico.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b13" class="sr-av"><a href="#answer-key4b13">Opción 3</a></label><input type="radio" name="key4b1" id="key4b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b13"><a name="answer-key4b13"></a>
+<div id="taoptionAnswer2q4b1" class="block iDevice_content">
+<p><span>En la fuerza central de las emociones, es decir, que sirven para la adaptación en todos los aspectos de la actividad humana.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion5b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Completa el espacio en blanco del siguiente enunciado:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> “El cerebro está compuesto por dos hemisferios cerebrales separados por ________ _______”. </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b11" class="sr-av"><a href="#answer-key5b11">Opción 1</a></label><input type="radio" name="key5b1" id="key5b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b11"><a name="answer-key5b11"></a>
+<div id="taoptionAnswer0q5b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Un cuerpo calloso.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b12" class="sr-av"><a href="#answer-key5b12">Opción 2</a></label><input type="radio" name="key5b1" id="key5b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b12"><a name="answer-key5b12"></a>
+<div id="taoptionAnswer1q5b1" class="block iDevice_content">
+<p><span color="#00000a">La cisura longitudinal.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b13" class="sr-av"><a href="#answer-key5b13">Opción 3</a></label><input type="radio" name="key5b1" id="key5b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b13"><a name="answer-key5b13"></a>
+<div id="taoptionAnswer2q5b1" class="block iDevice_content">
+<p><span>La cisura de Rolando.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion6b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Dónde se encuentra y de qué se encarga el giro superior?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b11" class="sr-av"><a href="#answer-key6b11">Opción 1</a></label><input type="radio" name="key6b1" id="key6b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b11"><a name="answer-key6b11"></a>
+<div id="taoptionAnswer0q6b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">En el lóbulo parietal y se encarga de los procesos de asociación y percepción.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b12" class="sr-av"><a href="#answer-key6b12">Opción 2</a></label><input type="radio" name="key6b1" id="key6b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b12"><a name="answer-key6b12"></a>
+<div id="taoptionAnswer1q6b1" class="block iDevice_content">
+<p><span color="#00000a">En el lóbulo temporal, y se encarga de funciones de procesamiento multimodal, es decir, integra información de distinto tipo.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b13" class="sr-av"><a href="#answer-key6b13">Opción 3</a></label><input type="radio" name="key6b1" id="key6b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b13"><a name="answer-key6b13"></a>
+<div id="taoptionAnswer2q6b1" class="block iDevice_content">
+<p><span>En el lóbulo parietal y se encarga de funciones de lectoescritura.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion7b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Qué función tiene el lóbulo temporal?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b11" class="sr-av"><a href="#answer-key7b11">Opción 1</a></label><input type="radio" name="key7b1" id="key7b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b11"><a name="answer-key7b11"></a>
+<div id="taoptionAnswer0q7b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Funciones motoras y relacionado con la personalidad.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b12" class="sr-av"><a href="#answer-key7b12">Opción 2</a></label><input type="radio" name="key7b1" id="key7b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b12"><a name="answer-key7b12"></a>
+<div id="taoptionAnswer1q7b1" class="block iDevice_content">
+<p><span color="#00000a">Funciones relacionadas con la percepción, sobre todo de estímulos táctiles.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b13" class="sr-av"><a href="#answer-key7b13">Opción 3</a></label><input type="radio" name="key7b1" id="key7b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b13"><a name="answer-key7b13"></a>
+<div id="taoptionAnswer2q7b1" class="block iDevice_content">
+<p><span>Funciones relacionadas con el lenguaje y la audición.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion8b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Dónde se encuentran principalmente los centros de afectividad?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b11" class="sr-av"><a href="#answer-key8b11">Opción 1</a></label><input type="radio" name="key8b1" id="key8b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b11"><a name="answer-key8b11"></a>
+<div id="taoptionAnswer0q8b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">En la amígdala.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b12" class="sr-av"><a href="#answer-key8b12">Opción 2</a></label><input type="radio" name="key8b1" id="key8b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b12"><a name="answer-key8b12"></a>
+<div id="taoptionAnswer1q8b1" class="block iDevice_content">
+<p><span color="#00000a">En el hipocampo.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b13" class="sr-av"><a href="#answer-key8b13">Opción 3</a></label><input type="radio" name="key8b1" id="key8b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b13"><a name="answer-key8b13"></a>
+<div id="taoptionAnswer2q8b1" class="block iDevice_content">
+<p><span>En el sistema límbico.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion9b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>De qué está formada la capa molecular del hipocampo?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b11" class="sr-av"><a href="#answer-key9b11">Opción 1</a></label><input type="radio" name="key9b1" id="key9b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b11"><a name="answer-key9b11"></a>
+<div id="taoptionAnswer0q9b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">De fibras y células diseminadas.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b12" class="sr-av"><a href="#answer-key9b12">Opción 2</a></label><input type="radio" name="key9b1" id="key9b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b12"><a name="answer-key9b12"></a>
+<div id="taoptionAnswer1q9b1" class="block iDevice_content">
+<p><span color="#00000a">De células piramidales.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b13" class="sr-av"><a href="#answer-key9b13">Opción 3</a></label><input type="radio" name="key9b1" id="key9b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b13"><a name="answer-key9b13"></a>
+<div id="taoptionAnswer2q9b1" class="block iDevice_content">
+<p><span>De células piramidales con cuerpo ovoide.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion10b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Qué es el tronco encéfalo?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b11" class="sr-av"><a href="#answer-key10b11">Opción 1</a></label><input type="radio" name="key10b1" id="key10b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b11"><a name="answer-key10b11"></a>
+<div id="taoptionAnswer0q10b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">El que permite la complejidad emocional.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b12" class="sr-av"><a href="#answer-key10b12">Opción 2</a></label><input type="radio" name="key10b1" id="key10b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b12"><a name="answer-key10b12"></a>
+<div id="taoptionAnswer1q10b1" class="block iDevice_content">
+<p><span color="#00000a">El que regula alunas funciones básicas como la respiración o el metabolismo.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b13" class="sr-av"><a href="#answer-key10b13">Opción 3</a></label><input type="radio" name="key10b1" id="key10b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b13"><a name="answer-key10b13"></a>
+<div id="taoptionAnswer2q10b1" class="block iDevice_content">
+<p><span>El que produce las respuestas emocionales ante los hechos.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion11b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b></b></span></span></p>
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Cuál es una de las características que tiene una persona que posee una buena capacidad de conciencia emocional?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b></b></span></span></p>
+<p></p>
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b> </b></span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b11" class="sr-av"><a href="#answer-key11b11">Opción 1</a></label><input type="radio" name="key11b1" id="key11b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b11"><a name="answer-key11b11"></a>
+<div id="taoptionAnswer0q11b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Conocen qué emociones están sintiendo y por qué.</span></span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b12" class="sr-av"><a href="#answer-key11b12">Opción 2</a></label><input type="radio" name="key11b1" id="key11b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b12"><a name="answer-key11b12"></a>
+<div id="taoptionAnswer1q11b1" class="block iDevice_content">
+<p><span color="#00000a">Detectan el pensamiento negativo.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b13" class="sr-av"><a href="#answer-key11b13">Opción 3</a></label><input type="radio" name="key11b1" id="key11b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b13"><a name="answer-key11b13"></a>
+<div id="taoptionAnswer2q11b1" class="block iDevice_content">
+<p><span>Adquieren vocabulario de las emociones.</span><br class="Apple-interchange-newline" /><br /></p>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion12b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Un componente fundamental de la autoconciencia es:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b11" class="sr-av"><a href="#answer-key12b11">Opción 1</a></label><input type="radio" name="key12b1" id="key12b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b11"><a name="answer-key12b11"></a>
+<div id="taoptionAnswer0q12b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Diferenciar emociones.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b12" class="sr-av"><a href="#answer-key12b12">Opción 2</a></label><input type="radio" name="key12b1" id="key12b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b12"><a name="answer-key12b12"></a>
+<div id="taoptionAnswer1q12b1" class="block iDevice_content">
+<p><span color="#00000a">Capacidad para asociar los signos físicos con las emociones.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b13" class="sr-av"><a href="#answer-key12b13">Opción 3</a></label><input type="radio" name="key12b1" id="key12b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b13"><a name="answer-key12b13"></a>
+<div id="taoptionAnswer2q12b1" class="block iDevice_content">
+<p><span>Reconocer las propias emociones y efectos.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion13b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Indica si es verdadero o falso el siguiente enunciado:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> “La motivación es una habilidad de la inteligencia emocional que participa en dos </span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><i>habilidades prácticas: intrapersonal e interpersonal”.</i></span></span></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b11" class="sr-av"><a href="#answer-key13b11">Opción 1</a></label><input type="radio" name="key13b1" id="key13b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b11"><a name="answer-key13b11"></a>
+<div id="taoptionAnswer0q13b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Verdadero.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b12" class="sr-av"><a href="#answer-key13b12">Opción 2</a></label><input type="radio" name="key13b1" id="key13b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b12"><a name="answer-key13b12"></a>
+<div id="taoptionAnswer1q13b1" class="block iDevice_content">
+<p><span>Falso</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion14b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Qué problema puede suponer la baja competencia social?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b11" class="sr-av"><a href="#answer-key14b11">Opción 1</a></label><input type="radio" name="key14b1" id="key14b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b11"><a name="answer-key14b11"></a>
+<div id="taoptionAnswer0q14b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Alta aceptación.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b12" class="sr-av"><a href="#answer-key14b12">Opción 2</a></label><input type="radio" name="key14b1" id="key14b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b12"><a name="answer-key14b12"></a>
+<div id="taoptionAnswer1q14b1" class="block iDevice_content">
+<p><span color="#00000a">Problemas emocionales.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b13" class="sr-av"><a href="#answer-key14b13">Opción 3</a></label><input type="radio" name="key14b1" id="key14b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b13"><a name="answer-key14b13"></a>
+<div id="taoptionAnswer2q14b1" class="block iDevice_content">
+<p><span>Ajustes psicológicos.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion15b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Qué es imprescindible para desarrollar la conciencia emocional?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b11" class="sr-av"><a href="#answer-key15b11">Opción 1</a></label><input type="radio" name="key15b1" id="key15b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b11"><a name="answer-key15b11"></a>
+<div id="taoptionAnswer0q15b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Disponer de palabras para denominar las emociones.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b12" class="sr-av"><a href="#answer-key15b12">Opción 2</a></label><input type="radio" name="key15b1" id="key15b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b12"><a name="answer-key15b12"></a>
+<div id="taoptionAnswer1q15b1" class="block iDevice_content">
+<p><span color="#00000a">Trabajar el lenguaje corporal.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b13" class="sr-av"><a href="#answer-key15b13">Opción 3</a></label><input type="radio" name="key15b1" id="key15b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b13"><a name="answer-key15b13"></a>
+<div id="taoptionAnswer2q15b1" class="block iDevice_content">
+<p><span>Saber distinguir las emociones ajenas.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion16b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Qué significa la tolerancia a la frustración?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b11" class="sr-av"><a href="#answer-key16b11">Opción 1</a></label><input type="radio" name="key16b1" id="key16b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b11"><a name="answer-key16b11"></a>
+<div id="taoptionAnswer0q16b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Ser capaz de afrontar los problemas y limitaciones que nos encontramos a lo largo de la vida.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b12" class="sr-av"><a href="#answer-key16b12">Opción 2</a></label><input type="radio" name="key16b1" id="key16b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b12"><a name="answer-key16b12"></a>
+<div id="taoptionAnswer1q16b1" class="block iDevice_content">
+<p><span color="#00000a">Saber controlar las emociones.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b13" class="sr-av"><a href="#answer-key16b13">Opción 3</a></label><input type="radio" name="key16b1" id="key16b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b13"><a name="answer-key16b13"></a>
+<div id="taoptionAnswer2q16b1" class="block iDevice_content">
+<p><span>Tener bienestar emocional.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion17b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Qué están haciendo padres y/o madres cuando mantienen una actitud positiva a la hora de afrontar las situaciones adversas?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b11" class="sr-av"><a href="#answer-key17b11">Opción 1</a></label><input type="radio" name="key17b1" id="key17b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b11"><a name="answer-key17b11"></a>
+<div id="taoptionAnswer0q17b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Educar al niño en la cultura del esfuerzo.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b12" class="sr-av"><a href="#answer-key17b12">Opción 2</a></label><input type="radio" name="key17b1" id="key17b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b12"><a name="answer-key17b12"></a>
+<div id="taoptionAnswer1q17b1" class="block iDevice_content">
+<p><span color="#00000a">No darle todo hecho al niño.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b13" class="sr-av"><a href="#answer-key17b13">Opción 3</a></label><input type="radio" name="key17b1" id="key17b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b13"><a name="answer-key17b13"></a>
+<div id="taoptionAnswer2q17b1" class="block iDevice_content">
+<p><span>Dar buen ejemplo.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion18b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Con el desarrollo de la inteligencia emocional, también se desarrollan y se ponen en práctica:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b11" class="sr-av"><a href="#answer-key18b11">Opción 1</a></label><input type="radio" name="key18b1" id="key18b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b11"><a name="answer-key18b11"></a>
+<div id="taoptionAnswer0q18b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Habilidades motoras.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b12" class="sr-av"><a href="#answer-key18b12">Opción 2</a></label><input type="radio" name="key18b1" id="key18b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b12"><a name="answer-key18b12"></a>
+<div id="taoptionAnswer1q18b1" class="block iDevice_content">
+<p><span color="#00000a">Habilidades físicas.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b13" class="sr-av"><a href="#answer-key18b13">Opción 3</a></label><input type="radio" name="key18b1" id="key18b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b13"><a name="answer-key18b13"></a>
+<div id="taoptionAnswer2q18b1" class="block iDevice_content">
+<p><span>Habilidades de conversación.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion19b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Qué es la asertividad?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b11" class="sr-av"><a href="#answer-key19b11">Opción 1</a></label><input type="radio" name="key19b1" id="key19b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b11"><a name="answer-key19b11"></a>
+<div id="taoptionAnswer0q19b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Dar manifestaciones de afecto.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b12" class="sr-av"><a href="#answer-key19b12">Opción 2</a></label><input type="radio" name="key19b1" id="key19b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b12"><a name="answer-key19b12"></a>
+<div id="taoptionAnswer1q19b1" class="block iDevice_content">
+<p><span color="#00000a">Habilidad para actuar o expresar las ideas y sentimientos propios de manera adecuada.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b13" class="sr-av"><a href="#answer-key19b13">Opción 3</a></label><input type="radio" name="key19b1" id="key19b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b13"><a name="answer-key19b13"></a>
+<div id="taoptionAnswer2q19b1" class="block iDevice_content">
+<p><span>Aprender a cuidar las cosas propias y de los demás.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion20b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Cuál es el principal autor que se destaca en el enfoque biológico?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key20b11" class="sr-av"><a href="#answer-key20b11">Opción 1</a></label><input type="radio" name="key20b1" id="key20b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key20b11"><a name="answer-key20b11"></a>
+<div id="taoptionAnswer0q20b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif"><span lang="en-US">Sigmund Freud.</span></span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key20b12" class="sr-av"><a href="#answer-key20b12">Opción 2</a></label><input type="radio" name="key20b1" id="key20b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key20b12"><a name="answer-key20b12"></a>
+<div id="taoptionAnswer1q20b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif"><span lang="en-US">William James.</span></span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key20b13" class="sr-av"><a href="#answer-key20b13">Opción 3</a></label><input type="radio" name="key20b1" id="key20b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key20b13"><a name="answer-key20b13"></a>
+<div id="taoptionAnswer2q20b1" class="block iDevice_content">
+<p><span>Charles Darwin.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion21b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Qué se plantea en el enfoque neurológico?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key21b11" class="sr-av"><a href="#answer-key21b11">Opción 1</a></label><input type="radio" name="key21b1" id="key21b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key21b11"><a name="answer-key21b11"></a>
+<div id="taoptionAnswer0q21b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">La vida afectiva del adulto depende de cómo hayan sido sus experiencias afectivas pasadas.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key21b12" class="sr-av"><a href="#answer-key21b12">Opción 2</a></label><input type="radio" name="key21b1" id="key21b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key21b12"><a name="answer-key21b12"></a>
+<div id="taoptionAnswer1q21b1" class="block iDevice_content">
+<p><span color="#00000a">El estímulo emocional origina unos impulsos que, a través del tálamo, llegan a la corteza cerebral.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key21b13" class="sr-av"><a href="#answer-key21b13">Opción 3</a></label><input type="radio" name="key21b1" id="key21b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key21b13"><a name="answer-key21b13"></a>
+<div id="taoptionAnswer2q21b1" class="block iDevice_content">
+<p><span>Una serie de procesos cognitivos que se sitúan entre el estímulo y la respuesta emocional.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion22b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Según Goleman, ¿qué componente que constituye la inteligencia emocional es la capacidad para inducir respuestas deseables?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key22b11" class="sr-av"><a href="#answer-key22b11">Opción 1</a></label><input type="radio" name="key22b1" id="key22b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key22b11"><a name="answer-key22b11"></a>
+<div id="taoptionAnswer0q22b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Motivación.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key22b12" class="sr-av"><a href="#answer-key22b12">Opción 2</a></label><input type="radio" name="key22b1" id="key22b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key22b12"><a name="answer-key22b12"></a>
+<div id="taoptionAnswer1q22b1" class="block iDevice_content">
+<p><span color="#00000a">Empatía.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key22b13" class="sr-av"><a href="#answer-key22b13">Opción 3</a></label><input type="radio" name="key22b1" id="key22b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key22b13"><a name="answer-key22b13"></a>
+<div id="taoptionAnswer2q22b1" class="block iDevice_content">
+<p><span>Habilidades sociales.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion23b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿En el Modelo de Bar-On, ¿a qué se refiere la prueba de realidad?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key23b11" class="sr-av"><a href="#answer-key23b11">Opción 1</a></label><input type="radio" name="key23b1" id="key23b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key23b11"><a name="answer-key23b11"></a>
+<div id="taoptionAnswer0q23b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">A la capacidad para identificar y definir los problemas.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key23b12" class="sr-av"><a href="#answer-key23b12">Opción 2</a></label><input type="radio" name="key23b1" id="key23b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key23b12"><a name="answer-key23b12"></a>
+<div id="taoptionAnswer1q23b1" class="block iDevice_content">
+<p><span color="#00000a">A la habilidad pare realizar un ajuste adecuado de nuestras emociones.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key23b13" class="sr-av"><a href="#answer-key23b13">Opción 3</a></label><input type="radio" name="key23b1" id="key23b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key23b13"><a name="answer-key23b13"></a>
+<div id="taoptionAnswer2q23b1" class="block iDevice_content">
+<p><span>A la habilidad para evaluar la correspondencia entre lo que experimentamos y lo que en realidad existe.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion24b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿En qué consiste el modelo de Boccardo, Sasia y Fontenla?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key24b11" class="sr-av"><a href="#answer-key24b11">Opción 1</a></label><input type="radio" name="key24b1" id="key24b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key24b11"><a name="answer-key24b11"></a>
+<div id="taoptionAnswer0q24b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">En la distinción entre la inteligencia emocional e inteligencia interpersonal.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key24b12" class="sr-av"><a href="#answer-key24b12">Opción 2</a></label><input type="radio" name="key24b1" id="key24b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key24b12"><a name="answer-key24b12"></a>
+<div id="taoptionAnswer1q24b1" class="block iDevice_content">
+<p><span color="#00000a">En la existencia de una serie de habilidades cognitivas.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key24b13" class="sr-av"><a href="#answer-key24b13">Opción 3</a></label><input type="radio" name="key24b1" id="key24b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key24b13"><a name="answer-key24b13"></a>
+<div id="taoptionAnswer2q24b1" class="block iDevice_content">
+<p><span>En las características de modelos anteriores que se incluyen en la inteligencia emocional.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion25b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Cuándo se debe desarrollar la habilidad para mostrar emociones?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key25b11" class="sr-av"><a href="#answer-key25b11">Opción 1</a></label><input type="radio" name="key25b1" id="key25b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key25b11"><a name="answer-key25b11"></a>
+<div id="taoptionAnswer0q25b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Desde los primeros años de vida.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key25b12" class="sr-av"><a href="#answer-key25b12">Opción 2</a></label><input type="radio" name="key25b1" id="key25b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key25b12"><a name="answer-key25b12"></a>
+<div id="taoptionAnswer1q25b1" class="block iDevice_content">
+<p><span color="#00000a">A partir de los 10 años.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key25b13" class="sr-av"><a href="#answer-key25b13">Opción 3</a></label><input type="radio" name="key25b1" id="key25b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key25b13"><a name="answer-key25b13"></a>
+<div id="taoptionAnswer2q25b1" class="block iDevice_content">
+<p><span>Desde los 3 años.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion26b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>A partir de los 3 meses, ¿qué mostrará el niño?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key26b11" class="sr-av"><a href="#answer-key26b11">Opción 1</a></label><input type="radio" name="key26b1" id="key26b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key26b11"><a name="answer-key26b11"></a>
+<div id="taoptionAnswer0q26b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Carácter de causa-efecto.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key26b12" class="sr-av"><a href="#answer-key26b12">Opción 2</a></label><input type="radio" name="key26b1" id="key26b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key26b12"><a name="answer-key26b12"></a>
+<div id="taoptionAnswer1q26b1" class="block iDevice_content">
+<p><span color="#00000a">Interés selectivo por la parte más significativa de su entorno.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key26b13" class="sr-av"><a href="#answer-key26b13">Opción 3</a></label><input type="radio" name="key26b1" id="key26b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key26b13"><a name="answer-key26b13"></a>
+<div id="taoptionAnswer2q26b1" class="block iDevice_content">
+<p><br class="Apple-interchange-newline" /><span>Autorregulación.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion27b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Cuál es el gran objetivo de la etapa de los 9 a los 18 meses?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key27b11" class="sr-av"><a href="#answer-key27b11">Opción 1</a></label><input type="radio" name="key27b1" id="key27b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key27b11"><a name="answer-key27b11"></a>
+<div id="taoptionAnswer0q27b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Mejor organización de la conducta y de la vida emocional.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key27b12" class="sr-av"><a href="#answer-key27b12">Opción 2</a></label><input type="radio" name="key27b1" id="key27b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key27b12"><a name="answer-key27b12"></a>
+<div id="taoptionAnswer1q27b1" class="block iDevice_content">
+<p><span color="#00000a">Conseguir independencia para explorar.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key27b13" class="sr-av"><a href="#answer-key27b13">Opción 3</a></label><input type="radio" name="key27b1" id="key27b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key27b13"><a name="answer-key27b13"></a>
+<div id="taoptionAnswer2q27b1" class="block iDevice_content">
+<p><span>Experimentar emociones relacionadas con el amor o la seguridad.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion28b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>De los 30 a los 40 meses, ¿en qué sentido se requiere la labor de los padres?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key28b11" class="sr-av"><a href="#answer-key28b11">Opción 1</a></label><input type="radio" name="key28b1" id="key28b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key28b11"><a name="answer-key28b11"></a>
+<div id="taoptionAnswer0q28b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Descifrar y responder apropiadamente a cada una de las señales de los bebés.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key28b12" class="sr-av"><a href="#answer-key28b12">Opción 2</a></label><input type="radio" name="key28b1" id="key28b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key28b12"><a name="answer-key28b12"></a>
+<div id="taoptionAnswer1q28b1" class="block iDevice_content">
+<p><span color="#00000a">Transmitirle al niño que el hecho de que vaya a tener un hermano no significa su desatención.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key28b13" class="sr-av"><a href="#answer-key28b13">Opción 3</a></label><input type="radio" name="key28b1" id="key28b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key28b13"><a name="answer-key28b13"></a>
+<div id="taoptionAnswer2q28b1" class="block iDevice_content">
+<p><span>Apoyo imprescindible para un desarrollo adecuado y una buena relación con su hijo.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion29b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Indica si es verdadero o falso el siguiente enunciado:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><i>“A los seis años de edad los niños no manifiestan emociones autoconscientes”.</i></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key29b11" class="sr-av"><a href="#answer-key29b11">Opción 1</a></label><input type="radio" name="key29b1" id="key29b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key29b11"><a name="answer-key29b11"></a>
+<div id="taoptionAnswer0q29b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Verdadero.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key29b12" class="sr-av"><a href="#answer-key29b12">Opción 2</a></label><input type="radio" name="key29b1" id="key29b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key29b12"><a name="answer-key29b12"></a>
+<div id="taoptionAnswer1q29b1" class="block iDevice_content">
+<p><span>Falso.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion30b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Las intervenciones psicopedagógicas para el desarrollo de las competencias emocionales están centradas en:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key30b11" class="sr-av"><a href="#answer-key30b11">Opción 1</a></label><input type="radio" name="key30b1" id="key30b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key30b11"><a name="answer-key30b11"></a>
+<div id="taoptionAnswer0q30b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">El diseño y en la aplicación de programas específicos.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key30b12" class="sr-av"><a href="#answer-key30b12">Opción 2</a></label><input type="radio" name="key30b1" id="key30b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key30b12"><a name="answer-key30b12"></a>
+<div id="taoptionAnswer1q30b1" class="block iDevice_content">
+<p><span color="#00000a">Desarrollar a personas emocionalmente inteligentes.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key30b13" class="sr-av"><a href="#answer-key30b13">Opción 3</a></label><input type="radio" name="key30b1" id="key30b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key30b13"><a name="answer-key30b13"></a>
+<div id="taoptionAnswer2q30b1" class="block iDevice_content">
+<p><span>El desarrollo integral de la persona.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion31b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Qué es necesario cuando vamos a aplicar un programa?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key31b11" class="sr-av"><a href="#answer-key31b11">Opción 1</a></label><input type="radio" name="key31b1" id="key31b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key31b11"><a name="answer-key31b11"></a>
+<div id="taoptionAnswer0q31b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Una entrevista con los padres.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key31b12" class="sr-av"><a href="#answer-key31b12">Opción 2</a></label><input type="radio" name="key31b1" id="key31b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key31b12"><a name="answer-key31b12"></a>
+<div id="taoptionAnswer1q31b1" class="block iDevice_content">
+<p><span color="#00000a">La previa evaluación del menor.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key31b13" class="sr-av"><a href="#answer-key31b13">Opción 3</a></label><input type="radio" name="key31b1" id="key31b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key31b13"><a name="answer-key31b13"></a>
+<div id="taoptionAnswer2q31b1" class="block iDevice_content">
+<p><span>Observar al niño en su entorno.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion32b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>En qué consiste el estilo sobreprotector de los profesores?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key32b11" class="sr-av"><a href="#answer-key32b11">Opción 1</a></label><input type="radio" name="key32b1" id="key32b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key32b11"><a name="answer-key32b11"></a>
+<div id="taoptionAnswer0q32b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">En prestar atención a los comportamientos inadecuados, en las imperfecciones y errores.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key32b12" class="sr-av"><a href="#answer-key32b12">Opción 2</a></label><input type="radio" name="key32b1" id="key32b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key32b12"><a name="answer-key32b12"></a>
+<div id="taoptionAnswer1q32b1" class="block iDevice_content">
+<p><span color="#00000a">En prestar poca atención al comportamiento adecuado del alumno.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key32b13" class="sr-av"><a href="#answer-key32b13">Opción 3</a></label><input type="radio" name="key32b1" id="key32b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key32b13"><a name="answer-key32b13"></a>
+<div id="taoptionAnswer2q32b1" class="block iDevice_content">
+<p><span>En tratar de evitar las penas al alumno, es decir, el profesor suele facilitar demasiado las tareas.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion33b1" class="block iDevice_content">
+<p><b>¿Qué estilo educativo de los profesores consiste en dirigir el aprendizaje y la conducta del niño, propiciando el desarrollo personal?</b></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key33b11" class="sr-av"><a href="#answer-key33b11">Opción 1</a></label><input type="radio" name="key33b1" id="key33b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key33b11"><a name="answer-key33b11"></a>
+<div id="taoptionAnswer0q33b1" class="block iDevice_content">
+<p>Estilo asertivo.</p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key33b12" class="sr-av"><a href="#answer-key33b12">Opción 2</a></label><input type="radio" name="key33b1" id="key33b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key33b12"><a name="answer-key33b12"></a>
+<div id="taoptionAnswer1q33b1" class="block iDevice_content">
+<p>Estilo inhibicionista.</p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key33b13" class="sr-av"><a href="#answer-key33b13">Opción 3</a></label><input type="radio" name="key33b1" id="key33b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key33b13"><a name="answer-key33b13"></a>
+<div id="taoptionAnswer2q33b1" class="block iDevice_content">
+<p><span>Estilo punitivo.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion34b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿En qué consiste la relación de tutoría?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key34b11" class="sr-av"><a href="#answer-key34b11">Opción 1</a></label><input type="radio" name="key34b1" id="key34b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key34b11"><a name="answer-key34b11"></a>
+<div id="taoptionAnswer0q34b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">En que existe un mayor grado de compromiso muto y de igualdad.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key34b12" class="sr-av"><a href="#answer-key34b12">Opción 2</a></label><input type="radio" name="key34b1" id="key34b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key34b12"><a name="answer-key34b12"></a>
+<div id="taoptionAnswer1q34b1" class="block iDevice_content">
+<p><span color="#00000a">En que el grupo es heterogéneo en habilidad y los niños pueden asumir diferentes papeles.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key34b13" class="sr-av"><a href="#answer-key34b13">Opción 3</a></label><input type="radio" name="key34b1" id="key34b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key34b13"><a name="answer-key34b13"></a>
+<div id="taoptionAnswer2q34b1" class="block iDevice_content">
+<p><span>En que un niño, que puede considerarse experto, instruye a otro que se considera aprendiz.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion35b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿En el primer año de vida, lo importante es prestar especial a:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key35b11" class="sr-av"><a href="#answer-key35b11">Opción 1</a></label><input type="radio" name="key35b1" id="key35b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key35b11"><a name="answer-key35b11"></a>
+<div id="taoptionAnswer0q35b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">El apego que muestra el niño hacia su madre o su padre.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key35b12" class="sr-av"><a href="#answer-key35b12">Opción 2</a></label><input type="radio" name="key35b1" id="key35b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key35b12"><a name="answer-key35b12"></a>
+<div id="taoptionAnswer1q35b1" class="block iDevice_content">
+<p><span color="#00000a">La forma en la que el niño expresa sus emociones.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key35b13" class="sr-av"><a href="#answer-key35b13">Opción 3</a></label><input type="radio" name="key35b1" id="key35b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key35b13"><a name="answer-key35b13"></a>
+<div id="taoptionAnswer2q35b1" class="block iDevice_content">
+<p><span>Señales como el contacto visual.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion36b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿En qué consiste la autoridad participativa?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key36b11" class="sr-av"><a href="#answer-key36b11">Opción 1</a></label><input type="radio" name="key36b1" id="key36b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key36b11"><a name="answer-key36b11"></a>
+<div id="taoptionAnswer0q36b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">En que la autoridad sólo tendrá una función educativa correcta si se ejerce de manera persuasiva cuando los hijos son pequeños, y de manera participativa cuando ya sean mayores.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key36b12" class="sr-av"><a href="#answer-key36b12">Opción 2</a></label><input type="radio" name="key36b1" id="key36b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key36b12"><a name="answer-key36b12"></a>
+<div id="taoptionAnswer1q36b1" class="block iDevice_content">
+<p><span color="#00000a">En que la autoridad irá dirigida a buscar la felicidad de los hijos y ayudarles para que si vida sea agradable y más plena.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key36b13" class="sr-av"><a href="#answer-key36b13">Opción 3</a></label><input type="radio" name="key36b1" id="key36b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key36b13"><a name="answer-key36b13"></a>
+<div id="taoptionAnswer2q36b1" class="block iDevice_content">
+<p><span>En que lo importante es que el niño se sienta querido, diciéndoselo con palabras y demostrando que nos gusta cómo es, que queremos su felicidad.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion37b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Completa el espacio en blanco del siguiente enunciado:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> “En el modelo de _______ _______ se rompe el vínculo de sexualidad y reproducción, y también la obligación de que los padres sean de diferente sexo”. </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key37b11" class="sr-av"><a href="#answer-key37b11">Opción 1</a></label><input type="radio" name="key37b1" id="key37b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key37b11"><a name="answer-key37b11"></a>
+<div id="taoptionAnswer0q37b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Familia adoptiva.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key37b12" class="sr-av"><a href="#answer-key37b12">Opción 2</a></label><input type="radio" name="key37b1" id="key37b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key37b12"><a name="answer-key37b12"></a>
+<div id="taoptionAnswer1q37b1" class="block iDevice_content">
+<p><span color="#00000a">Familia de acogida.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key37b13" class="sr-av"><a href="#answer-key37b13">Opción 3</a></label><input type="radio" name="key37b1" id="key37b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key37b13"><a name="answer-key37b13"></a>
+<div id="taoptionAnswer2q37b1" class="block iDevice_content">
+<p><span>Familia homoparental.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion38b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Qué estilo educativo parental se caracteriza por alto control y alta calidez afectiva?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key38b11" class="sr-av"><a href="#answer-key38b11">Opción 1</a></label><input type="radio" name="key38b1" id="key38b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key38b11"><a name="answer-key38b11"></a>
+<div id="taoptionAnswer0q38b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Estilo democrático.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key38b12" class="sr-av"><a href="#answer-key38b12">Opción 2</a></label><input type="radio" name="key38b1" id="key38b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key38b12"><a name="answer-key38b12"></a>
+<div id="taoptionAnswer1q38b1" class="block iDevice_content">
+<p><span color="#00000a">Estilo autoritario.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key38b13" class="sr-av"><a href="#answer-key38b13">Opción 3</a></label><input type="radio" name="key38b1" id="key38b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key38b13"><a name="answer-key38b13"></a>
+<div id="taoptionAnswer2q38b1" class="block iDevice_content">
+<p><span>Estilo permisivo.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion39b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Qué influencia tiene en la inteligencia emocional de los hijos tener unos padres permisivos?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key39b11" class="sr-av"><a href="#answer-key39b11">Opción 1</a></label><input type="radio" name="key39b1" id="key39b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key39b11"><a name="answer-key39b11"></a>
+<div id="taoptionAnswer0q39b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Peor rendimiento en las habilidades sociales.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key39b12" class="sr-av"><a href="#answer-key39b12">Opción 2</a></label><input type="radio" name="key39b1" id="key39b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key39b12"><a name="answer-key39b12"></a>
+<div id="taoptionAnswer1q39b1" class="block iDevice_content">
+<p><span color="#00000a">Ejecución moderadamente buena en la escuela, aunque tienden a no implicarse en problemas que tengan que resolver.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key39b13" class="sr-av"><a href="#answer-key39b13">Opción 3</a></label><input type="radio" name="key39b1" id="key39b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key39b13"><a name="answer-key39b13"></a>
+<div id="taoptionAnswer2q39b1" class="block iDevice_content">
+<p><span>Mayor tendencia a tener mayor autoestima y mayor iniciativa, pero carecen de autocontrol.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion40b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Qué son los signos de alarma?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key40b11" class="sr-av"><a href="#answer-key40b11">Opción 1</a></label><input type="radio" name="key40b1" id="key40b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key40b11"><a name="answer-key40b11"></a>
+<div id="taoptionAnswer0q40b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Alteraciones de lo esperable en el proceso del desarrollo.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key40b12" class="sr-av"><a href="#answer-key40b12">Opción 2</a></label><input type="radio" name="key40b1" id="key40b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key40b12"><a name="answer-key40b12"></a>
+<div id="taoptionAnswer1q40b1" class="block iDevice_content">
+<p><span color="#00000a">Cuando el bebé llora porque tiene hambre o está enfermo.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key40b13" class="sr-av"><a href="#answer-key40b13">Opción 3</a></label><input type="radio" name="key40b1" id="key40b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key40b13"><a name="answer-key40b13"></a>
+<div id="taoptionAnswer2q40b1" class="block iDevice_content">
+<p><span>Cuando el niño tiene problemas emocionales y conductuales.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion41b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Un factor de riesgo que se debe evitar es:</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key41b11" class="sr-av"><a href="#answer-key41b11">Opción 1</a></label><input type="radio" name="key41b1" id="key41b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key41b11"><a name="answer-key41b11"></a>
+<div id="taoptionAnswer0q41b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Las situaciones de hiperestimulación.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key41b12" class="sr-av"><a href="#answer-key41b12">Opción 2</a></label><input type="radio" name="key41b1" id="key41b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key41b12"><a name="answer-key41b12"></a>
+<div id="taoptionAnswer1q41b1" class="block iDevice_content">
+<p><span color="#00000a">El establecimiento de rutinas.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key41b13" class="sr-av"><a href="#answer-key41b13">Opción 3</a></label><input type="radio" name="key41b1" id="key41b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key41b13"><a name="answer-key41b13"></a>
+<div id="taoptionAnswer2q41b1" class="block iDevice_content">
+<p><span>El trato democrático.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion42b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Dentro de los elementos fundamentales del impacto final de un determinado acontecimiento, ¿qué se tiene en cuenta en la severidad del acontecimiento?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key42b11" class="sr-av"><a href="#answer-key42b11">Opción 1</a></label><input type="radio" name="key42b1" id="key42b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key42b11"><a name="answer-key42b11"></a>
+<div id="taoptionAnswer0q42b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">La capacidad de los adultos que rodean al niño para servir de amortiguadores y ayudarle a comprender el evento o las circunstancias difíciles.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key42b12" class="sr-av"><a href="#answer-key42b12">Opción 2</a></label><input type="radio" name="key42b1" id="key42b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key42b12"><a name="answer-key42b12"></a>
+<div id="taoptionAnswer1q42b1" class="block iDevice_content">
+<p><span color="#00000a">Tanto la edad como los recursos de afrontamiento del niño en cuestión.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key42b13" class="sr-av"><a href="#answer-key42b13">Opción 3</a></label><input type="radio" name="key42b1" id="key42b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key42b13"><a name="answer-key42b13"></a>
+<div id="taoptionAnswer2q42b1" class="block iDevice_content">
+<p><span>La intensidad y duración en ese nivel de intensidad, lo imprevisto del acontecimiento, frecuencia e impredictibilidad de su recurrencia.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion43b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Qué se puede considerar como factores protectores?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key43b11" class="sr-av"><a href="#answer-key43b11">Opción 1</a></label><input type="radio" name="key43b1" id="key43b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key43b11"><a name="answer-key43b11"></a>
+<div id="taoptionAnswer0q43b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Recursos propios de la persona para tener un autoestima sana.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key43b12" class="sr-av"><a href="#answer-key43b12">Opción 2</a></label><input type="radio" name="key43b1" id="key43b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key43b12"><a name="answer-key43b12"></a>
+<div id="taoptionAnswer1q43b1" class="block iDevice_content">
+<p><span color="#00000a">El ambiente cuidador en el que se encuentra el niño.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key43b13" class="sr-av"><a href="#answer-key43b13">Opción 3</a></label><input type="radio" name="key43b1" id="key43b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key43b13"><a name="answer-key43b13"></a>
+<div id="taoptionAnswer2q43b1" class="block iDevice_content">
+<p><span>Habilidades y actitudes que permiten que el niño tenga los suficientes recursos y estrategias de afrontamiento.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion44b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Cuál es uno de los criterios diagnósticos según DSM-V del TEPT en niños menores de 6 años?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key44b11" class="sr-av"><a href="#answer-key44b11">Opción 1</a></label><input type="radio" name="key44b1" id="key44b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key44b11"><a name="answer-key44b11"></a>
+<div id="taoptionAnswer0q44b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Experiencia indirecta de sucesos traumáticos.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key44b12" class="sr-av"><a href="#answer-key44b12">Opción 2</a></label><input type="radio" name="key44b1" id="key44b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key44b12"><a name="answer-key44b12"></a>
+<div id="taoptionAnswer1q44b1" class="block iDevice_content">
+<p><span color="#00000a">Presencia directa del suceso ocurrido a otros.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key44b13" class="sr-av"><a href="#answer-key44b13">Opción 3</a></label><input type="radio" name="key44b1" id="key44b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key44b13"><a name="answer-key44b13"></a>
+<div id="taoptionAnswer2q44b1" class="block iDevice_content">
+<p><span>Desconocimiento de que el suceso traumático ha ocurrido a uno de los padres o cuidadores.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion45b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Según la adecuación de la conducta del modelo, ¿qué modelado modela las conductas no deseadas?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key45b11" class="sr-av"><a href="#answer-key45b11">Opción 1</a></label><input type="radio" name="key45b1" id="key45b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key45b11"><a name="answer-key45b11"></a>
+<div id="taoptionAnswer0q45b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Modelado negativo.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key45b12" class="sr-av"><a href="#answer-key45b12">Opción 2</a></label><input type="radio" name="key45b1" id="key45b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key45b12"><a name="answer-key45b12"></a>
+<div id="taoptionAnswer1q45b1" class="block iDevice_content">
+<p><span color="#00000a">Modeo positivo.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key45b13" class="sr-av"><a href="#answer-key45b13">Opción 3</a></label><input type="radio" name="key45b1" id="key45b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key45b13"><a name="answer-key45b13"></a>
+<div id="taoptionAnswer2q45b1" class="block iDevice_content">
+<p><span>Modelado mixto.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion46b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>Según la competencia mostrada por el modelo, ¿en qué consiste el modelado mastery?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key46b11" class="sr-av"><a href="#answer-key46b11">Opción 1</a></label><input type="radio" name="key46b1" id="key46b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key46b11"><a name="answer-key46b11"></a>
+<div id="taoptionAnswer0q46b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">En que el modelo muestra en un comienzo habilidades similares al observador.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key46b12" class="sr-av"><a href="#answer-key46b12">Opción 2</a></label><input type="radio" name="key46b1" id="key46b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key46b12"><a name="answer-key46b12"></a>
+<div id="taoptionAnswer1q46b1" class="block iDevice_content">
+<p><span color="#00000a">En que el modelo dispone de habilidades y recursos necesarios para manejar de forma efectiva la situación desde un principio.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key46b13" class="sr-av"><a href="#answer-key46b13">Opción 3</a></label><input type="radio" name="key46b1" id="key46b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key46b13"><a name="answer-key46b13"></a>
+<div id="taoptionAnswer2q46b1" class="block iDevice_content">
+<p><span>En que el modelo es una persona que debe poseer características de semejanza para el observador.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion47b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Cómo es la retroalimentación como información inmediata?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key47b11" class="sr-av"><a href="#answer-key47b11">Opción 1</a></label><input type="radio" name="key47b1" id="key47b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key47b11"><a name="answer-key47b11"></a>
+<div id="taoptionAnswer0q47b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Como cuando se informa del desempeño únicamente al final del curso.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key47b12" class="sr-av"><a href="#answer-key47b12">Opción 2</a></label><input type="radio" name="key47b1" id="key47b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key47b12"><a name="answer-key47b12"></a>
+<div id="taoptionAnswer1q47b1" class="block iDevice_content">
+<p><span color="#00000a">Como cuando el profesor explica un concepto, observa los rostros de los niños y percibe confusión en ellos.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key47b13" class="sr-av"><a href="#answer-key47b13">Opción 3</a></label><input type="radio" name="key47b1" id="key47b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key47b13"><a name="answer-key47b13"></a>
+<div id="taoptionAnswer2q47b1" class="block iDevice_content">
+<p><span>Como las recomendaciones que se incluyen en los exámenes o trabajos escritos.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion48b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Cuándo se da el refuerzo negativo?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key48b11" class="sr-av"><a href="#answer-key48b11">Opción 1</a></label><input type="radio" name="key48b1" id="key48b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key48b11"><a name="answer-key48b11"></a>
+<div id="taoptionAnswer0q48b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Cuando se realiza la conducta deseada, le damos algo positivo o agradable.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key48b12" class="sr-av"><a href="#answer-key48b12">Opción 2</a></label><input type="radio" name="key48b1" id="key48b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key48b12"><a name="answer-key48b12"></a>
+<div id="taoptionAnswer1q48b1" class="block iDevice_content">
+<p><span color="#00000a">Cuando se realiza la conducta deseada, le quitamos algo negativo o desagradable.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key48b13" class="sr-av"><a href="#answer-key48b13">Opción 3</a></label><input type="radio" name="key48b1" id="key48b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key48b13"><a name="answer-key48b13"></a>
+<div id="taoptionAnswer2q48b1" class="block iDevice_content">
+<p><span>Cuando se realiza una conducta inapropiada, le damos algo desagradable.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion49b1" class="block iDevice_content">
+<p><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><b>¿Cuál es una de las capacidades cognitivas y emocionales que podemos encontrar en todo proceso de resolución de problemas?</b></span></span><span color="#00000a" style="color: #00000a;"><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"> </span></span></p>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key49b11" class="sr-av"><a href="#answer-key49b11">Opción 1</a></label><input type="radio" name="key49b1" id="key49b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key49b11"><a name="answer-key49b11"></a>
+<div id="taoptionAnswer0q49b1" class="block iDevice_content">
+<p><span color="#00000a"><span face="Times New Roman, serif">Identificar qué es lo que se busca.</span></span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key49b12" class="sr-av"><a href="#answer-key49b12">Opción 2</a></label><input type="radio" name="key49b1" id="key49b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key49b12"><a name="answer-key49b12"></a>
+<div id="taoptionAnswer1q49b1" class="block iDevice_content">
+<p><span color="#00000a">Rechazar los puntos de vista y establecer estrategias.</span></p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key49b13" class="sr-av"><a href="#answer-key49b13">Opción 3</a></label><input type="radio" name="key49b1" id="key49b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key49b13"><a name="answer-key49b13"></a>
+<div id="taoptionAnswer2q49b1" class="block iDevice_content">
+<p><span>Desanimarse ante la búsqueda de soluciones por miedo a equivocarse.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

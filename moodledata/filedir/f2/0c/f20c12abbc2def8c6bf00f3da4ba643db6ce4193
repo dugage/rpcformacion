@@ -1,0 +1,3067 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="XHTML"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Topic"></unicode>
+   <unicode value="Section"></unicode>
+   <unicode value="Unit"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="tema4"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="11"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="12"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="5">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="TEMA 4. PREVENCIÓN DE LAS INFECCIONES"></unicode>
+     <string role="key" value="idevices"></string>
+     <list></list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="1"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="4">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="1. La piel del anciano"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="3">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Con el envejecimiento se producen cambios en la piel que no sólo se deben al deterioro natural de nuestras estructuras, sino también a las agresiones externas que nuestra piel recibe por ser barrera frente al exterior. Los cambios más importantes que se producen en la piel como consecuencia del paso del tiempo afectan a la estructura de la misma de distinto modo.&lt;/p&gt;
+&lt;p&gt;Como consecuencia del envejecimiento, en la epidermis se producen los siguientes cambios:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Atrofia generalizada con adelgazamiento del área epidérmica&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;El número de melanocitos disminuye en un 10 – 20 % con cada década de la vida, aunque hay zonas de melanización intensa (léntigo senil2) que se concentran fundamentalmente en zonas descubiertas. De todo esto se deduce que la función fotoprotectora de la piel está disminuida y que hay que extremar las precauciones ante la exposición a radiación ultravioleta.&lt;/p&gt;
+&lt;p&gt;Las células de Langerhans disminuyen en un 50 % con la edad madura. Como su función era inmune, esto podría explicar el aumento de tumores cutáneos con el avance de la edad.&lt;/p&gt;
+&lt;p&gt;A consecuencia del envejecimiento, se produce una atrofia intensa en la dermis que da la apariencia de piel fina que tienen los ancianos. Una persona de 80 años tiene reducido el grosor de su dermis en, aproximadamente, un 80%. De ahí la mayor fragilidad, que se traduce en pérdida de elasticidad (aparición de arrugas) y en mayor facilidad para la producción de los hematomas (púrpura senil).&lt;/p&gt;
+&lt;p&gt;Debido al proceso de envejecimiento, se produce atrofia del tejido graso de cara, manos y plantas de los pies, el cual se acompaña de una hipertrofia o aumento del tamaño del tejido graso de abdomen y muslos. La grasa corporal total aumenta proporcionalmente con la edad.&lt;/p&gt;
+&lt;p&gt;Los cambios fundamentales que se producen en los anejos cutáneos como consecuencia del envejecimiento son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gradualmente, se produce una pérdida del número y densidad de folículos pilosos en el cuero cabelludo, así como una disminución de los melanocitos activos. Estos cambios se traducen como muestras visibles de senectud: pérdida de cabello y encanecimiento.&lt;/li&gt;
+&lt;li&gt;Las glándulas sebáceas aumentan de tamaño pero disminuye la producción de sebo debido, fundamentalmente, a los cambios hormonales como consecuencia del envejecimiento.&lt;/li&gt;
+&lt;li&gt;Las glándulas sudoríparas también producen menos cantidad de sudor. Esta producción disminuida de ambos tipos de glándulas contribuye a la sequedad cutánea, alteración en la termorregulación y aparición de comedones, que son puntos negros producidos por el cúmulo de queratina y sebo en el orificio de salida de un folículo piloso.&lt;/li&gt;
+&lt;li&gt;En las uñas disminuye el grosor y el tamaño de la lúnula, crecen más lentamente y se agrietan y fisuran con facilidad. En algunos casos, se engrosan anormalmente (hiperqueratosis), sobre todo en los pies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="3"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="4"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="0"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:1.%20La%20piel%20del%20anciano"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="8">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="1.1. Cambios en la vascularización e inervación"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="6">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="7">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="6"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Existe menor vascularización por pérdida de asas capilares y disminución en la comunicación de ambos plexos. Los vasos presentes se adelgazan y se vuelven más frágiles. De ahí se deriva la facilidad en la aparición de hematomas y las alteraciones en la termorregulación. También se aprecia una disminución en el número de terminaciones especializadas o corpúsculos con el proceso involutivo. Las terminaciones libres apenas varían en número.&lt;/p&gt;
+&lt;p&gt;De todo ello, podemos extraer las siguientes conclusiones en relación a la piel del anciano:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Es más frágil y vulnerable, especialmente, a la radiación ultravioleta, por pérdida de melanocitos, y a los cambios de temperatura por disminución del plexo vascular.&lt;/li&gt;
+&lt;li&gt;Es más sensible a los traumatismos por pérdida de la red fibro-elástica de sostén.&lt;/li&gt;
+&lt;li&gt;Presenta una cicatrización enlentecida y tendencia a la formación de ampollas debido a un desorden en su arquitectura interna.&lt;/li&gt;
+&lt;li&gt;Presenta mayor predisposición al cáncer de piel e infecciones debido a pérdida de las células de Langerhans, encargadas de procesar antígenos y combatir los tumores cutáneos.&lt;/li&gt;
+&lt;li&gt;Tiene mayor predisposición a la formación de hematomas por fragilidad capilar y atrofia dermo-epidérmica.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="7"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="8"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="1"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="1"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="1"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="8"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:1.%20La%20piel%20del%20anciano:1.1.%20Cambios%20en%20la%20vascularizaci%C3%B3n%20e%20inervaci%C3%B3n"></string>
+           <string role="key" value="parent"></string>
+           <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="11">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="1.2. Procesos dermatológicos más frecuentes en los ancianos"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="9">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="10">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="9"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Antes de conocer algunas patologías dérmicas frecuentes, vamos a definir brevemente algunas lesiones elementales que nos serán de utilidad:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mácula: mancha o cambio de coloración en la piel.&lt;/li&gt;
+&lt;li&gt;Pápula: elevación bien delimitada, menor a 1 cm, y sin contenido líquido.&lt;/li&gt;
+&lt;li&gt;Nódulo: elevación sólida mayor a 1 cm.&lt;/li&gt;
+&lt;li&gt;Vesícula: elevación de pequeño tamaño de contenido líquido. - Pústula: vesícula de contenido purulento.&lt;/li&gt;
+&lt;li&gt;Ampolla: también se conoce con el nombre de flictena. Es una elevación de contenido líquido de tamaño superior a 5 mm.&lt;/li&gt;
+&lt;li&gt;Placa: elevación en meseta de más de 1 cm de diámetro.&lt;/li&gt;
+&lt;li&gt;Quiste: lesión redondeada de consistencia elástica.&lt;/li&gt;
+&lt;li&gt;Equimosis: coloración rojo -azulada que aparece tras la agresión mecánica y evoluciona a un color amarillo - verdoso. Se produce por extravasación sanguínea.&lt;/li&gt;
+&lt;li&gt;Hematoma: abultamiento de varios centímetros que implica extravasación de sangre mayor que la equimosis.&lt;/li&gt;
+&lt;li&gt;Costra: se forma por la evolución de otras lesiones anteriores; ej: vesículas, pústulas,...&lt;/li&gt;
+&lt;li&gt;Fisura: solución de continuidad en la piel de aspecto lineal.&lt;/li&gt;
+&lt;li&gt;Úlcera: pérdida de sustancia que afecta a la epidermis y a la dermis pero que puede seguir avanzando hasta capas más profundas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Patologías dérmicas más frecuentes en ancianos&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;El anciano presenta con frecuencia ciertos cuadros clínicos dermatológicos que, en la mayoría de los casos, tienen una etiología relacionada con el envejecimiento. Los más comunes son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prurito: El prurito es un síntoma que consiste en picor y provoca la necesidad urgente de rascarse. La primera causa de prurito cutáneo es la sequedad de la piel, pero también puede ser síntoma centinela de enfermedades sistémicas que hay que descartar.&lt;/li&gt;
+&lt;li&gt;Infecciones bacterianas. Las más frecuentes son:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Foliculitis y forúnculos de uno o más folículos pilosos&lt;/i&gt;. Aparecen como nódulos alrededor del folículo piloso y luego evoluciona a pústula y costra.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Impétigo:&lt;/i&gt; infección cutánea por bacterias. Comienza por un eritema que evoluciona a vesícula, pústula y costra. Adopta forma redondeada en relación con los orificios naturales.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Infecciones víricas:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Herpes simple:&lt;/i&gt; comienza como una zona eritematosa con aparición de vesículas en pequeños grupos. Muy frecuente en los labios.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt; Herpes zoster:&lt;/i&gt; entidad bastante frecuente en el anciano. Se produce por una reactivación del virus de la varicela en situaciones de déficit inmunitario. La lesión es similar a la del herpes simple, pero es más dolorosa, y se extiende a lo largo del recorrido de un nervio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Infecciones por hongos:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Candidiasis mucocutánea:&lt;/i&gt; es la infección de la piel o mucosas producida por el hongo Cándida Albicans. Se ve favorecido su crecimiento por la existencia de humedad en la zona. Es muy frecuente la afectación de los pliegues submamarios y genitales que se conoce con el nombre de intertrigo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Infecciones por parásitos:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Sarna: enfermedad contagiosa producida por el parásito Sarcoptes Scabiei y caracterizada por intenso prurito y erosiones en la piel debido al rascado.&lt;/li&gt;
+&lt;li&gt;Pediculosis: infestación por piojos en cuero cabelludo, párpados, pestañas o vello púbico.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Tumores cutáneos:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Benignos:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Verruga:&lt;/i&gt; lesión cutánea de origen vírico con superficie rugosa y papilomatosa.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Angioma:&lt;/i&gt; tumor benigno constituido por vasos sanguíneos (hemangioma) o vasos linfáticos (linfagioma). La mayoría son congénitos.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Nevus o lunares:&lt;/i&gt; son pápulas o máculas hiperpigmentadas por cúmulo de melanocitos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Malignos:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Melanoma:&lt;/i&gt; neoplasia maligna de la piel constituida por melanocitos. La mayoría se desarrollan sobre nevus pigmentados. Cualquier mancha negra o marrón de borde irregular que haya presentado cambios de tamaño, forma o consistencia se debe biopsiar.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Epitelioma basocelular:&lt;/i&gt; es el más común de todos los tumores cutáneos malignos. Son muy raras las metástasis.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Epitelioma espinocelular:&lt;/i&gt; presenta una base infiltrada y superficie hiperquerátósica. Se localiza en áreas expuestas al sol. Es responsable de metástasis a distancia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Procesos clínicos más frecuentes en el pelo del anciano&lt;/b&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="10"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="11"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="2"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="11"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:1.%20La%20piel%20del%20anciano:1.2.%20Procesos%20dermatol%C3%B3gicos%20m%C3%A1s%20frecuentes%20en%20los%20ancianos"></string>
+           <string role="key" value="parent"></string>
+           <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="14">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="2. Epidemiología, cadena epidemiológica y transmisión de infecciones"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="12">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="13">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="12"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;Uno de los grandes problemas sanitarios es el control de las infecciones, tanto las de la comunidad como las adquiridas en el medio hospitalario. Entendemos como infección nosocomial (nosocomio = hospital) a aquélla que se adquiere durante la estancia hospitalaria del paciente y que no motivó su ingreso; es decir, el paciente ingresa, por ejemplo, para intervenirse de vesícula biliar y durante el postoperatorio adquiere una infección respiratoria. Esa infección respiratoria se dice que es nosocomial porque el paciente no la padecía antes de ingresar, ni en su período clínico ni en el de incubación. El Consejo de Europa define en 1984 a la infección nosocomial como “toda enfermedad contraída en el hospital, causada por un microorganismo, clínica y/o microbiológicamente reconocible, que afecta al paciente con motivo de su estancia en el hospital o de los cuidados recibidos mientras está hospitalizado, pudiendo aparecer sus síntomas durante su estancia o después del alta.” El servicio de Medicina Preventiva es el que se encarga de estudiar el número, frecuencia y proporción de enfermedades nosocomiales y de establecer medidas encaminadas a prevenir la aparición de las mismas.&lt;/p&gt;
+&lt;p&gt;La infección hospitalaria o nosocomial viene determinada por tres factores:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Huésped: persona susceptible de adquirir la infección. En los hospitales se encuentran personas con problemas de salud que están predispuestas a padecer una infección.&lt;/li&gt;
+&lt;li&gt;Agente patógeno: microorganismo responsable de la infección. En los hospitales se encuentran los más peligrosos porque son los más resistentes a la acción antibiótica.&lt;/li&gt;
+&lt;li&gt;Ambiente hospitalario: lo constituyen tanto el personal y los visitantes, como el instrumental y la actividad asistencial propiamente dicha, que pueden actuar como vehículos o transportadores de la infección.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La Epidemiología es la parte de la Medicina que se encarga de estudiar cómo se distribuye la enfermedad entre la población y qué factores están relacionados con su aparición. La cadena epidemiológica es el conjunto de elementos que constituyen todo proceso infeccioso (fuente de infección, mecanismo de transmisión y huésped susceptible). En toda enfermedad infecciosa, ya sea de comunidad o nosocomial, se distinguen tres eslabones de la cadena epidemiológica:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reservorio o fuente de infección: es la fuente de la enfermedad infecciosa; es decir, es el lugar donde el microorganismo se encuentra alojado y desde el que pasa al huésped. En el reservorio se deben dar unas condiciones óptimas de vida para el agente infeccioso. El hombre es el ejemplo más claro de reservorio. Puede liberar los microorganismos por vía respiratoria, digestiva, urinaria, hematológica y a través de piel y mucosas. Por cualquiera de estas vías puede pasarlos a otra persona. Consideramos que el hombre es portador sano cuando es reservorio (tiene dentro de sí los microorganismos) y no padece la enfermedad; es portador convaleciente cuando, tras la curación de la enfermedad, sigue durante un tiempo eliminando gérmenes (y pudiendo, por tanto, pasarlos a otras personas y contagiarles la enfermedad); y, finalmente, portador precoz cuando elimina gérmenes antes de que la enfermedad comience a dar síntomas en él; es decir, durante el período de incubación. En la cadena epidemiológica son muy importantes los portadores sanos, ya que ellos no padecen la enfermedad pero pueden transmitirla. Todo el mundo sabe que una persona que padece una enfermedad infecciosa la puede transmitir, pero es difícil prevenirnos de algo que no vemos; esto es, de los portadores sanos.&lt;/li&gt;
+&lt;li&gt;Huésped susceptible: El huésped susceptible es el “candidato a infectarse”. Las vías de entrada del germen al huésped son: respiratoria, digestiva, urinaria, hemática y cutáneo - mucosa. Hay unas personas que están más predispuestas a contraer la infección, como es el caso de niños, ancianos o los que padecen enfermedades crónicas, estados de inmunosupresión o son portadores de sondas y catéteres (estos últimos, además, proporcionan al germen una vía de entrada).&lt;/li&gt;
+&lt;li&gt;Mecanismo de transmisión: Son los medios que permiten el paso del microorganismo desde el reservorio al huésped.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hay varias formas de clasificar los mecanismos de transmisión. En este curso nos centraremos en una de ellas: la clasificación según el medio de transmisión. De acuerdo con ella, tendríamos:&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="13"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="14"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="14"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:2.%20Epidemiolog%C3%ADa%2C%20cadena%20epidemiol%C3%B3gica%20y%20transmisi%C3%B3n%20de%20infecciones"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="17">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="3. Medidas para disminuir el riesgo de transmisión de infecciones"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="15">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="16">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="15"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Aunque es imposible erradicar en un 100% las enfermedades infecciosas, sí hay medidas encaminadas a disminuir el riesgo de su aparición. Estas medidas se jerarquizan atendiendo a su eficacia.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Grado I. Eficacia probada&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Esterilización.&lt;/li&gt;
+&lt;li&gt;Lavado de manos.&lt;/li&gt;
+&lt;li&gt;Empleo de guantes.&lt;/li&gt;
+&lt;li&gt;Drenaje urinario cerrado.&lt;/li&gt;
+&lt;li&gt;Cuidados y vigilancia en los catéteres intravenosos.&lt;/li&gt;
+&lt;li&gt;No tocar las heridas con las manos.&lt;/li&gt;
+&lt;li&gt;Administración de antibióticos previa cirugía sucia o contaminada.&lt;/li&gt;
+&lt;li&gt;Vigilancia en los equipos de respiración asistida y oxigenoterapia.&lt;/li&gt;
+&lt;li&gt;Vacunación frente a hepatitis B.&lt;/li&gt;
+&lt;li&gt;Protocolos de actuación frente a accidentes con material corto-punzante.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Grado II. Eficacia lógica sugerida por la experiencia:&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Técnicas de aislamientos.&lt;/li&gt;
+&lt;li&gt;Educación sanitaria.&lt;/li&gt;
+&lt;li&gt;Establecimiento de un sistema de vigilancia.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Grado III. Eficacia dudosa:&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Desinfección de suelo y paredes.&lt;/li&gt;
+&lt;li&gt;Rayos ultravioleta.&lt;/li&gt;
+&lt;li&gt;Fumigaciones.&lt;/li&gt;
+&lt;li&gt;Corrientes de aire laminar.&lt;/li&gt;
+&lt;li&gt;Administración de antibióticos previa a cirugía limpia.&lt;/li&gt;
+&lt;li&gt;Muestreos bacteriológicos ambientales.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="16"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="17"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="4"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="17"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="5"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:3.%20Medidas%20para%20disminuir%20el%20riesgo%20de%20transmisi%C3%B3n%20de%20infecciones"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="20">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="3.1. Lavado de manos"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="18">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="19">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="18"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Es la medida más importante para evitar la transmisión de enfermedades infecciosas en el medio hospitalario. El lavado de manos es uno de los métodos más antiguos, sencillo, eficaz y económico en la disminución de infecciones nosocomiales. Quizás sea por eso, por ser algo tan simple y barato, no le damos la importancia que realmente tiene. Hay estudios que reflejan el escaso cumplimiento de la técnica correcta de lavado de manos entre el personal sanitario. Por ello, los servicios de Medicina Preventiva deben, con sus planes de actuación, fomentar la práctica del lavado de manos, así como seguir investigando otras herramientas útiles en la prevención de la infección nosocomial. La flora bacteriana de las manos se divide en flora residente (constituida por los gérmenes habituales de la piel) y flora transitoria (constituida por gérmenes que no son comunes en la piel y que llegan a ella al tocar objetos contaminados). Esta última tiene gran importancia en la transmisión de enfermedades.&lt;/p&gt;
+&lt;p&gt;Así, los objetivos que perseguimos al llevar a cabo el lavado de manos son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eliminar la mayor cantidad de gérmenes transitorios y residentes.&lt;/li&gt;
+&lt;li&gt;Prevenir la aparición de infecciones nosocomiales.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NFVzRVpXZTdXb3pHY3pqSVlJSkF3SHBhM0p1V3pkNDR6dFlicmpqdEtDYyUzRA==&quot; id=&quot;IMG_NFVzRVpXZTdXb3pHY3pqSVlJSkF3SHBhM0p1V3pkNDR6dFlicmpqdEtDYyUzRA==&quot; alt=&quot;Prevención de las infecciones&quot; title=&quot;Prevención de las infecciones&quot; width=&quot;415&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Recomendaciones generales para el correcto lavado de manos&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No usar anillos o pulseras, ya que pueden actuar como reservorios.&lt;/li&gt;
+&lt;li&gt;Las uñas deben tenerse cortas y limpias. No llevar uñas artificiales.&lt;/li&gt;
+&lt;li&gt;El uso de emolientes tras la jornada laboral en las manos es recomendable porque puede aumentar la resistencia de la piel a los gérmenes, pero hay que tenerlo en cuenta porque algunos antisépticos se inactivan con estos productos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="19"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="20"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="1"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="5"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="1"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="20"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:3.%20Medidas%20para%20disminuir%20el%20riesgo%20de%20transmisi%C3%B3n%20de%20infecciones:3.1.%20Lavado%20de%20manos"></string>
+           <string role="key" value="parent"></string>
+           <reference key="17"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="23">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="3.2. Aislamiento: concepto, tipos y procedimientos. Protección universal"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="21">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="22">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="21"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Se entiende por aislamiento la separación de un individuo en el medio hospitalario para evitar la transmisión de enfermedades. El aislamiento tiene como finalidad interrumpir la cadena epidemiológica separando la fuente o reservorio y cortando el mecanismo de transmisión.&lt;/p&gt;
+&lt;p&gt;Pretende lograr, así, los siguientes fines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Si el paciente padece una enfermedad infecciosa, evitar que la transmita.&lt;/li&gt;
+&lt;li&gt;Si el paciente presenta un estado de inmunosupresión (déficit en su sistema de defensa), evitar que se contagie con algún germen del ambiente. El fin último del aislamiento es, por tanto, disminuir la incidencia de infección nosocomial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Controlar las enfermedades infecciosas tiene gran importancia a la hora de preservar la salud de la población. Por ello, existe un organismo dedicado a este fin: el Centro para el Control de Enfermedades Infecciosas (CDC). Este Centro publica un manual donde clasifica las enfermedades infecciosas en función de su mecanismo de transmisión y manejo.&lt;/p&gt;
+&lt;p&gt;Según esta clasificación de mecanismos de transmisión, se establecen distintos tipos de aislamientos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aislamiento Respiratorio: Este tipo de aislamiento es necesario cuando la vía de transmisión de gérmenes es el aire o las gotas que se emiten al toser o estornudar. El sarampión, la rubéola, la tos ferina, la parotiditis, la meningitis meningocócica o la tuberculosis pulmonar activa son ejemplos de enfermedades de transmisión aérea que precisan de aislamiento respiratorio. Lo que debe protegerse es la vía aérea del personal que atiende al paciente; es decir, la boca y nariz.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Incluye las siguientes medidas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Habitación individual con puerta siempre cerrada.&lt;/li&gt;
+&lt;li&gt;Lavado de manos antes de entrar en la habitación y al salir de ella.&lt;/li&gt;
+&lt;li&gt;Obligatoriedad del uso de mascarilla, tanto para el personal sanitario como para las visitas.&lt;/li&gt;
+&lt;li&gt;Colocación de mascarillas al entrar en la habitación y desecho de ellas al salir de la misma en un recipiente específico para ello.&lt;/li&gt;
+&lt;li&gt;Uso de pañuelos desechables de un solo uso para recoger las secreciones del paciente.&lt;/li&gt;
+&lt;li&gt;Especial cuidado al manipular las muestras de esputo y secreciones respiratorias del enfermo.&lt;/li&gt;
+&lt;li&gt;Los pacientes que estén contaminados con el mismo germen pueden compartir habitación.&lt;/li&gt;
+&lt;li&gt;Preferiblemente, el personal sanitario que los atiende debe estar inmunizado o vacunado frente a estas infecciones.&lt;/li&gt;
+&lt;li&gt;Traslado del paciente siempre cubriendo la boca y la nariz del enfermo con una mascarilla.&lt;/li&gt;
+&lt;li&gt;Letrero visible en la puerta de la habitación en el que rece “AISLAMIENTO RESPIRATORIO”.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Aislamiento Entérico: Se aplica para prevenir la transmisión de enfermedades a través de contacto directo o indirecto con heces infectadas o a través de contacto con objetos contaminados por estas heces. El cólera, la fiebre tifoidea, la salmonelosis, la gastroenteritis por E. Coli, la hepatitis viral y la poliomielitis son ejemplos de enfermedades que requieren este tipo de aislamiento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Incluye las siguientes medidas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lavado de manos antes de entrar en la habitación y al salir de ella.&lt;/li&gt;
+&lt;li&gt;Uso de guantes y bata cuando haya contacto directo con el paciente o con sus heces. Estas prendas de aislamiento se desecharán antes de salir de la habitación en un recipiente específico para ello.&lt;/li&gt;
+&lt;li&gt;Lejía para desinfectar el inodoro, la cuña y demás objetos contaminados por las heces del paciente.&lt;/li&gt;
+&lt;li&gt;Tratar la ropa de cama como contaminada.&lt;/li&gt;
+&lt;li&gt;Instruir al paciente en medidas higiénicas y lavado de manos después de usar el inodoro y defecar.&lt;/li&gt;
+&lt;li&gt;Letrero visible en la puerta que indique “AISLAMIENTO ENTÉRICO”.&lt;/li&gt;
+&lt;li&gt;No es obligatorio que la habitación en la que se instale al paciente sea individual. De serlo, sería recomendable que tuviera incluido el lavabo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Aislamiento Cutáneo: Se aplica a las enfermedades que se transmiten por contacto directo con grandes heridas infectadas, quemaduras extensas contaminadas y drenajes purulentos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Incluye:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lavado de manos antes de entrar en la habitación y al salir de ella.&lt;/li&gt;
+&lt;li&gt;Las curas de estos pacientes se harán en último lugar. Durante las mismas, el sanitario vestirá guantes, bata y mascarilla.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;El instrumental quirúrgico utilizado será estéril y se procesará como material contaminado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Los residuos se clasificarán como grupo III1.&lt;/li&gt;
+&lt;li&gt;La ropa de cama se tratará como contaminada.&lt;/li&gt;
+&lt;li&gt;Se aconseja habitación individual.&lt;/li&gt;
+&lt;li&gt;En la puerta de la habitación se colocará un letrero visible que indique “AISLAMIENTO CUTÁNEO-MUCOSO”.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Aislamiento Protector o inverso: Su finalidad es aislar a pacientes que sufren una deficiencia en su sistema de defensa (aquéllos que han sido trasplantados, que están en tratamiento con quimioterapia, que padecen leucemias,...) para protegerlos del entorno y evitar que se les transmita alguna infección.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Incluye:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Habitación individual, a ser posible con antesala.&lt;/li&gt;
+&lt;li&gt;Instrumental médico y material de limpieza de uso exclusivo para esa habitación.&lt;/li&gt;
+&lt;li&gt;Lavado de manos antes de entrar y al salir de la misma.&lt;/li&gt;
+&lt;li&gt;Antes de entrar en la habitación, el personal sanitario se colocará bata, mascarilla y guantes estériles.&lt;/li&gt;
+&lt;li&gt;Las visitas también adoptarán todas estas medidas de protección.&lt;/li&gt;
+&lt;li&gt;Puerta siempre cerrada con letrero visible en el que se lea “AISLAMIENTO PROTECTOR”.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Aislamiento Estricto: Se utiliza para prevenir enfermedades que se transmiten por contacto directo y por vía aérea. El carbunco, la difteria, la fiebre de Lassa, la varicela/zoster diseminado, la peste, el pénfigo del recién nacido y las quemaduras infectadas por S. Aureus o estreptococo tipo A son algunas de las enfermedades que requieren este tipo de aislamiento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Incluye:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Habitación individual con antesala.&lt;/li&gt;
+&lt;li&gt;Instrumental médico de uso exclusivo para esa habitación, el cual permanecerá dentro de ella mientras dure el aislamiento.&lt;/li&gt;
+&lt;li&gt;Se recomienda que el personal sanitario que atienda a estos pacientes esté vacunado o inmunizado frente a estas enfermedades.&lt;/li&gt;
+&lt;li&gt;Lavado de manos antes de entrar y al salir de la habitación.&lt;/li&gt;
+&lt;li&gt;Uso de guantes, bata y mascarilla de un solo uso.&lt;/li&gt;
+&lt;li&gt;Los cuidados y atención médica se harán al final, una vez atendido el resto de los pacientes.&lt;/li&gt;
+&lt;li&gt;Tratar la ropa como material contaminado.&lt;/li&gt;
+&lt;li&gt;Tratar los residuos como del grupo III2.&lt;/li&gt;
+&lt;li&gt;Puerta cerrada siempre con letrero visible de “AISLAMIENTO ESTRICTO”.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Medidas generales o de precaución estandarizadas&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Independientemente del tipo de aislamiento que precise el enfermo, existen unas medidas generales o de precaución estandarizadas que deben observarse siempre:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La habitación del paciente será individual y dispondrá de lavamanos, inodoro, toalla de papel y sitio para guardar la ropa.&lt;/li&gt;
+&lt;li&gt;Cuando sea necesario compartir habitación, se colocarán en la misma pacientes infectados por el mismo germen.&lt;/li&gt;
+&lt;li&gt;La puerta de la habitación permanecerá siempre cerrada y con un letrero donde se lea de forma clara el tipo de aislamiento que presenta.&lt;/li&gt;
+&lt;li&gt;El lavado de manos se efectuará siempre que entremos y salgamos de la habitación.&lt;/li&gt;
+&lt;li&gt;El uso de guantes, bata, mascarilla y demás prendas de barrera se hará siempre que el tipo de aislamiento lo requiera.&lt;/li&gt;
+&lt;li&gt;Cuando se tengan que retirar ropa y utensilios de la habitación (fómites), se hará con la técnica de la doble bolsa.&lt;/li&gt;
+&lt;li&gt;Esta técnica consiste en lo siguiente: se deja preparada una bolsa en la puerta de la habitación; en una segunda bolsa que sí se mete en la habitación, se introducen los objetos y prendas a retirar.&lt;/li&gt;
+&lt;li&gt;Se cierra esta segunda bolsa con un nudo y luego se mete dentro de la que se dejó preparada en la puerta.&lt;/li&gt;
+&lt;li&gt;Los utensilios de comida serán de un solo uso.&lt;/li&gt;
+&lt;li&gt;La desinfección de la habitación debe hacerse por personal entrenado y siguiendo las normas de desinfección del centro hospitalario.&lt;/li&gt;
+&lt;li&gt;Es importante limitar el traslado del paciente.&lt;/li&gt;
+&lt;li&gt;Cuando éste sea estrictamente necesario, se hará informando al resto del personal de las medidas de protección que deben utilizar, tanto para ellos como para el resto de pacientes.&lt;/li&gt;
+&lt;li&gt;Información al paciente y a su familia de las razones por las que se procede al aislamiento. Esto se hará para intentar impedir que el enfermo se sienta moral y psíquicamente aislado.&lt;/li&gt;
+&lt;li&gt;Las visitas que reciba el enfermo deberán cumplir unas normas de protección, que les serán explicadas por el personal de enfermería.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La aparición creciente de portadores de virus del SIDA, de hepatitis B y de otros virus de transmisión por la sangre, hace muy difícil la identificación de pacientes de riesgo. Por ello los CDC establecieron la medida de tratar a todos los pacientes como potencialmente infectados y adoptar medidas de protección universal; es decir, medidas de precaución en todos los casos, siempre que se tratara con sangre o fluidos biológicos del paciente. En definitiva, se trata de prevenir ante todo, tratando al paciente como si estuviera infectado, aunque en realidad no lo esté.&lt;/p&gt;
+&lt;p&gt;Incluyen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vacunación frente a hepatitis B por parte del personal sanitario que tenga contacto directo o indirecto con sangre y fluidos orgánicos.&lt;/li&gt;
+&lt;li&gt;Lavado de manos antes y después del contacto con el paciente, aunque se hayan utilizados guantes.&lt;/li&gt;
+&lt;li&gt;Uso de guantes, mascarilla, bata y gafas siempre que se prevea contacto con líquidos orgánicos del paciente.&lt;/li&gt;
+&lt;li&gt;En caso de que algún miembro del personal tenga un corte o una herida, deberá cubrirla antes de comenzar su jornada laboral.&lt;/li&gt;
+&lt;li&gt;Extremar la precaución con los objetos corto - punzantes y, tras su uso, depositarlos en contenedores rígidos de bioseguridad. Las agujas, una vez usadas, no deben encapucharse porque esta actividad entraña mucho riesgo de auto punción.&lt;/li&gt;
+&lt;li&gt;Todas las muestras remitidas a laboratorio deben considerarse como peligrosas y con riesgo de infección.&lt;/li&gt;
+&lt;li&gt;Si ocurre un accidente laboral por contacto o punción, éste deberá notificarse inmediatamente e informar al Servicio de Medicina Preventiva para tomar de forma inmediata las medidas adecuadas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Colocación de prendas de aislamiento o barrera&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El uso de la bata: La bata se utiliza para impedir la contaminación del uniforme de trabajo y/o para evitar la transmisión de gérmenes desde la ropa de trabajo al paciente. Debe ser amplia y cubrir hasta debajo de las rodillas. Los puños son elásticos, por delante es lisa y por detrás se sujeta mediante unas cintas. Puede ser de tela (reutilizables) o de papel (desechables). Se usa en todos los casos en que haya riesgo de contaminación del paciente. Se utiliza una bata con cada enfermo y no se puede salir con ella fuera del lugar concreto donde se ha usado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Procedimiento de colocación de la bata.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lavar las manos antes de abrir el paquete de la bata.&lt;/li&gt;
+&lt;li&gt;Se toma por la parte interior del cuello o cintas. Al desdoblarla se debe evitar que toque el suelo o cualquier objeto.&lt;/li&gt;
+&lt;li&gt;Introducir los brazos en las mangas y dejarla resbalar hacia los hombros; se puede ayudar con las manos, pero sin que éstas toquen el exterior de la bata.&lt;/li&gt;
+&lt;li&gt;Se atan las cintas empezando por las del cuello.&lt;/li&gt;
+&lt;li&gt;Para quitarse la bata, antes habrá que quitarse los guantes. Si no se llevan puestos, habrá que lavarse las manos. Se desatan las cintas y se deja resbalar la bata.&lt;/li&gt;
+&lt;li&gt;Si se va a desechar, se recoge con el exterior hacia dentro y se introduce en la bolsa de sucio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;El uso de los guantes estériles. Se utilizan para evitar contaminar y ser contaminados. Son la última prenda que se coloca y siempre son de un solo uso. En ningún caso, el uso de guantes sustituirá al lavado de manos. Los guantes usados normalmente son de plástico no estériles. Los usados en procedimientos quirúrgicos y técnicas invasivas son de látex, estériles y de distinto tamaño, éste se registra en el exterior del envase con un número.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Procedimiento de colocación de guantes estériles.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Realizar el lavado de manos quirúrgico.&lt;/li&gt;
+&lt;li&gt;Se toma el paquete donde vienen los guantes atendiendo a las indicaciones izquierda derecha que aparecen en él.&lt;/li&gt;
+&lt;li&gt;Se coge el primer guante por el puño, que está doblado hacia fuera, tocando sólo el interior y se introduce la mano.&lt;/li&gt;
+&lt;li&gt;Con la mano enguantada, se coge el segundo guante por la parte externa del puño y se introduce la otra mano.&lt;/li&gt;
+&lt;li&gt;Después se ajustan los dedos y se desdoblan los puños tocando sólo el exterior.&lt;/li&gt;
+&lt;li&gt;Para quitarlos, se retira el primer guante tocándolo sólo por el exterior. El otro se retira con la mano desenguantada sin tocar el exterior.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;El uso de la mascarilla. Se utiliza para proteger de la infección en los dos sentidos:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Evitar que gérmenes del aire pasen a nuestras vías respiratorias protegiéndonos a nosotros mismos.&lt;/li&gt;
+&lt;li&gt;Evitar que al hablar y respirar seamos nosotros los que lanzamos gérmenes al ambiente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La mascarilla debe cubrir nariz, boca y mentón y se debe cambiar cada vez que se humedezca, ya que entonces pierde eficacia como barrera de aislamiento.&lt;/p&gt;
+&lt;p&gt;Pueden ser de tela o de papel, siendo estas últimas desechables.&lt;/p&gt;
+&lt;p&gt;Procedimiento de colocación de mascarilla.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lavar las manos.&lt;/li&gt;
+&lt;li&gt;Colocar la mascarilla antes de colocar bata y guantes.&lt;/li&gt;
+&lt;li&gt;Atar las cintas superiores de la mascarilla a la zona alta de la parte posterior de la cabeza.&lt;/li&gt;
+&lt;li&gt;Atar las cintas inferiores a la parte posterior de la cabeza a la altura de la nuca.&lt;/li&gt;
+&lt;li&gt;Adaptar el puente, generalmente de metal, a la parte superior de la nariz.&lt;/li&gt;
+&lt;li&gt;Una vez puesta, evitar toser. Hablar sólo en caso de que sea preciso y sólo lo imprescindible para evitar humedecerla.&lt;/li&gt;
+&lt;li&gt;Nunca se debe colocar la mascarilla sin cubrir la nariz.&lt;/li&gt;
+&lt;li&gt;Retirar después de lavarse las manos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Uso de gorro y calzas. Se utilizan principalmente en quirófanos, aislamientos estrictos y unidades de pacientes críticos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El gorro puede ser de tela (reutilizable) o de papel (desechable). Estos últimos llevan un elástico que se ajusta al contorno de la cabeza. Debe cubrir todo el pelo. En caso de que se lleve el pelo largo, se deberá recoger antes de colocar el gorro.&lt;/p&gt;
+&lt;p&gt;Las calzas suelen ser de plástico (desechables) y se usan para cubrir el calzado.&lt;/p&gt;
+&lt;p&gt;Procedimiento de colocación de gorro y calzas.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Para colocar el gorro, introducir las manos por la parte interna del mismo y cubrir con él la cabeza. Poco a poco, tirar a medida que se sacan las manos procurando no tocar la parte externa.&lt;/li&gt;
+&lt;li&gt;Para poner las calzas, cogerlas por su parte interna, estirando el elástico que rodea la entrada, e introducir el zapato a través de ella.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;El uso de gafas y pantallas. Tanto las gafas como las pantallas se utilizan para proteger la mucosa conjuntival de salpicaduras de sangre u otros líquidos biológicos, de aerosoles y de sustancias volátiles. También se usarán siempre que se utilice terapéutica con láser, electrocoagulación y nitrógeno líquido.&lt;/li&gt;
+&lt;li&gt;Orden de colocación de las prendas de aislamiento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Colocación de calzas.&lt;/li&gt;
+&lt;li&gt;Colocación de gorro.&lt;/li&gt;
+&lt;li&gt;Colocación de mascarilla.&lt;/li&gt;
+&lt;li&gt;Colocación de gafas o pantalla.&lt;/li&gt;
+&lt;li&gt;Colocación de bata.&lt;/li&gt;
+&lt;li&gt;Colocación de guantes.&lt;/li&gt;
+&lt;/ul&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="22"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="23"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="6"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="23"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:3.%20Medidas%20para%20disminuir%20el%20riesgo%20de%20transmisi%C3%B3n%20de%20infecciones:3.2.%20Aislamiento%3A%20concepto%2C%20tipos%20y%20procedimientos.%20Protecci%C3%B3n%20universal"></string>
+           <string role="key" value="parent"></string>
+           <reference key="17"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="26">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="4. La piel como órgano protector ante las infecciones"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="24">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="25">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="24"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;La piel es el órgano más extenso del organismo y el que nos separa del mundo exterior. En el individuo adulto, tiene un peso medio aproximado de 4 Kg y una superficie media de 1.6 m2. Está constituida por tres capas principales. Desde el exterior al interior, podemos distinguir:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Epidermis: Las células de la base de la epidermis van siendo empujadas gradualmente hasta las capas más superficiales sufriendo cambios en su forma durante esta migración. Este proceso de renovación recibe el nombre de queratinización. La capa córnea superior se va desprendiendo en un proceso constante. La epidermis es avascular; es decir, no tiene vasos sanguíneos, y en ella podemos encontrar 4 tipos de células:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Queratinocitos.&lt;/li&gt;
+&lt;li&gt;Melanocitos: sintetizan la melanina, que interviene en la termorregulación local, en la síntesis de vitamina D y en la resistencia a los efectos de la radiación ultravioleta. Esta sustancia es, además, la responsable de que adquiramos el color moreno al exponernos de forma continuada al sol.&lt;/li&gt;
+&lt;li&gt;Células de Langerhans: estas células están involucradas en gran cantidad de respuestas inmunes.&lt;/li&gt;
+&lt;li&gt;Células de Merkel: intervienen en la percepción de la sensibilidad táctil, de ahí que se localice fundamentalmente en la epidermis del pulpejo de los dedos, en el folículo piloso...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Dermis: Tiene una estructura parecida a la de una malla constituida por tejido fibroelástico. En la dermis podemos encontrar fibras (colágeno, elásticas,...), células, elementos vasculares, y elementos nerviosos. En ella se encuentran los anejos cutáneos, que son los siguientes:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i&gt;Pelo:&lt;/i&gt; se distribuye por toda la superficie corporal excepto en las mucosas, las palmas y las plantas. Son estructuras flexibles y resistentes constituidas por queratina dura. El proceso de crecimiento del pelo está regulado por factores hormonales; por término medio, un cabello crece unos 0.3 mm al día.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Uñas:&lt;/i&gt; son placas córneas transparentes constituidas también por queratina dura. Tienen un crecimiento aproximado de 3 mm al mes.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Glándulas sebáceas:&lt;/i&gt; estas glándulas producen una sustancia llamada sebo, que está formada por grasas, células y ácidos, y cuya misión es engrasar la piel y el cabello como mecanismo de protección.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;Glándulas sudoríparas:&lt;/i&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Ecrinas: son las encargadas de producir el sudor. La función más importante del sudor es regular la temperatura corporal y responder a estímulos tales como el calor, el estrés, los estímulos del sistema nervioso, etc.&lt;/li&gt;
+&lt;li&gt;Apocrinas: localizadas fundamentalmente en la axila, el área genital, la areola y el pezón. El inicio de la secreción de estas glándulas tiene lugar en la pubertad.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Hipodermis: Constituye el estrato más profundo de la piel. En ella se almacena el tejido adiposo, formado por células llamadas adipositos, que cumple funciones de aislamiento y de almacén de energía en forma de grasas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="25"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="26"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="26"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="8"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:4.%20La%20piel%20como%20%C3%B3rgano%20protector%20ante%20las%20infecciones"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="29">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="4.1. Las Funciones de la piel"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="27">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="28">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="27"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;A medida que describíamos la estructura de la piel hemos ido comentando sus funciones. De forma simplista, podríamos decir que la piel es nuestra barrera de protección frente al exterior y, por otro lado, es el enlace entre nuestro interior y el mundo externo.&lt;/p&gt;
+&lt;p&gt;La piel desempeña las siguientes funciones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capacidad de resistencia y protección a nuestro medio interno de agresiones externas.&lt;/li&gt;
+&lt;li&gt;Protección frente al ataque de microorganismos: la piel actúa a modo de escudo protector. De este modo, una herida en la piel es una puerta de entrada de gérmenes a nuestro organismo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Protección frente a la radiación ultravioleta: la piel absorbe e impide que pase al interior de nuestro organismo gran parte de la radiación ultravioleta que recibimos. Una excesiva exposición a ésta propicia alteraciones estructurales y mutaciones que, en el peor de los casos, serían causantes de tumores de piel.&lt;/li&gt;
+&lt;li&gt;Termorregulación: la existencia en la piel de plexos vasculares permite retener o eliminar calor según las necesidades de nuestro organismo en cada momento.&lt;/li&gt;
+&lt;li&gt;Percepción y localización de estímulos táctiles, dolorosos, presión, vibración, etc.: en la piel se encuentran gran cantidad de terminaciones nerviosas que son las encargadas de percibir y localizar los distintos estímulos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Intervención en el metabolismo de la vitamina D: esta vitamina se sintetiza a partir de un precursor del colesterol. Cuando se expone la piel a la luz solar, la radiación ultravioleta penetra en la epidermis y convierte este precursor en vitamina D3. Una vez sintetizada, la vitamina abandona la piel y pasa a la circulación.&lt;/li&gt;
+&lt;li&gt;Absorción de sustancias: gracias a esta función, podemos utilizar la piel como vía de administración de fármacos.&lt;/li&gt;
+&lt;li&gt;Cosmética y estética: nuestra apariencia es lo que primero perciben los demás. Nos esforzamos por mantener nuestro cuerpo limpio y atractivo, aspecto en el que la piel desarrolla un papel fundamental.&lt;/li&gt;
+&lt;li&gt;Identificación personal: las huellas dactilares, también llamadas dermatoglifos, son nuestro sello de identificación más personal y se encuentran en la piel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="28"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="29"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="8"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="29"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="9"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:4.%20La%20piel%20como%20%C3%B3rgano%20protector%20ante%20las%20infecciones:4.1.%20Las%20Funciones%20de%20la%20piel"></string>
+           <string role="key" value="parent"></string>
+           <reference key="26"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="32">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Recuerda"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="30">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="31">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="30"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;ul style=&quot;padding: 10px; list-style-position: inside; background-color: #dadada;&quot;&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Con el envejecimiento se producen cambios en la piel que no sólo se deben al deterioro natural de nuestras estructuras, sino también a las agresiones externas que nuestra piel recibe por ser barrera frente al exterior.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;El número de melanocitos disminuye en un 10 – 20 % con cada década de la vida.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Debido al proceso de envejecimiento, se produce atrofia del tejido graso de cara, manos y plantas de los pies, el cual se acompaña de una hipertrofia o aumento del tamaño del tejido graso de abdomen y muslos.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;La Epidemiología es la parte de la Medicina que se encarga de estudiar cómo se distribuye la enfermedad entre la población y qué factores están relacionados con su aparición.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Se entiende por aislamiento la separación de un individuo en el medio hospitalario para evitar la transmisión de enfermedades. El aislamiento tiene como finalidad interrumpir la cadena epidemiológica separando la fuente o reservorio y cortando el mecanismo de transmisión.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;El Centro para el Control de Enfermedades Infecciosas (CDC). Este Centro publica un manual donde clasifica las enfermedades infecciosas en función de su mecanismo de transmisión y manejo.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;La piel es el órgano más extenso del organismo y el que nos separa del mundo exterior. En el individuo adulto, tiene un peso medio aproximado de 4 Kg y una superficie media de 1.6 m2. Está constituida por tres capas principales: Epidermis, Dermis e hipodermis.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;La piel es nuestra barrera de protección frente al exterior y, por otro lado, es el enlace entre nuestro interior y el mundo externo.&lt;/li&gt;
+&lt;/ul&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="31"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="32"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="9"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="32"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="10"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:Recuerda"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="33">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Autoevaluación"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.quiztestidevice.QuizTestIdevice" reference="34">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Selecciona la respuesta correcta"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="Unlike the MCQ the SCORM quiz is used to test 
+the learners knowledge on a topic without providing the learner with feedback 
+to the correct answer. The quiz will often be given once the learner has had 
+time to learn and practice using the information or skill.
+ "></unicode>
+           <string role="key" value="_tip"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.quiztestidevice.QuizTestIdevice.persistenceVersion"></string>
+           <int value="10"></int>
+           <string role="key" value="icon"></string>
+           <string value="question"></string>
+           <string role="key" value="id"></string>
+           <unicode value="10"></unicode>
+           <string role="key" value="isAnswered"></string>
+           <bool value="1"></bool>
+           <string role="key" value="isQuiz"></string>
+           <bool value="1"></bool>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value="question"></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="33"></reference>
+           <string role="key" value="passRate"></string>
+           <unicode value="50"></unicode>
+           <string role="key" value="questions"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="37">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="35">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="113"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="34"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;b&gt;Qué son las verrugas, angiomas y nevus o lunares?:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="35"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="33"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="34"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="36">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="114"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Tumores cutáneos benignos.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="36"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="37"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="38">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="199"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Tumores cutáneos malignos.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="38"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="37"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="39">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="200"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Prurito.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="39"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="37"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="42">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="40">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="201"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="34"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt; Indique si es verdadero o falso el siguiente enunciado:&lt;/b&gt; &lt;br /&gt; “El aislamiento protector o inverso se aplica a las enfermedades que se transmiten por contacto directo por grandes heridas infectadas, quemaduras extensas contaminadas y drenajes purulentos.”&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="40"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="33"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="34"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="41">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="202"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Verdadero.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="41"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="42"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="43">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="203"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Falso.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="43"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="42"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="46">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="44">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="204"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="34"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt; ¿Dónde se almacena el tejido adiposo?:&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="44"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="33"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="34"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="45">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="205"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;En la dermis.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="45"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="46"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="47">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="206"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;En la hipodermis.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="47"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="46"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="48">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="207"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;En la epidermis.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="48"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="46"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="51">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="49">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="208"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="34"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;ee_pregunta&quot;&gt;
+&lt;div class=&quot;ee_enunciado&quot;&gt;&lt;b&gt; Completa el siguiente enunciado con la opción correcta:&lt;/b&gt; &lt;br /&gt; “__________ intervienen en la percepción de la sensibilidad táctil”.&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="49"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <reference key="33"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="34"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="50">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="209"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Las células Langerhans.&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="50"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="51"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="52">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="210"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Las células Merkel.&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="52"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="51"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="53">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="211"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="34"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;La absorción de sustancias.&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="53"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <reference key="33"></reference>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="34"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="51"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="score"></string>
+           <int value="-1"></int>
+           <string role="key" value="systemResources"></string>
+           <list>
+            <string value="common.js"></string>
+           </list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="11"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%204.%20PREVENCI%C3%93N%20DE%20LAS%20INFECCIONES:Autoevaluaci%C3%B3n"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="4"></reference>
+   <unicode role="key" value="10"></unicode>
+   <reference key="32"></reference>
+   <unicode role="key" value="11"></unicode>
+   <reference key="33"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="8"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="11"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="14"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="17"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="20"></reference>
+   <unicode role="key" value="7"></unicode>
+   <reference key="23"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="26"></reference>
+   <unicode role="key" value="9"></unicode>
+   <reference key="29"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="33"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="708c177c-79be-4ba7-a92a-ed03d1169a1e"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="13"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="license"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="708c177c-79be-4ba7-a92a-ed03d1169a1e"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="708c177c-79be-4ba7-a92a-ed03d1169a1e"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Preestablecido"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="5"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="FPD-MEDU"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

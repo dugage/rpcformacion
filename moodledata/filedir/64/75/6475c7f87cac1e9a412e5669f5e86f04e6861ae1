@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>7.3. Opciones de resolución </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">7.3. Opciones de resolución</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id13">
+<div class="iDevice emphasis0">
+<div id="ta13_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Existe una ventana de opciones cuya finalidad es modificar el funcionamiento por defecto de Solver. Puede abrir dicha ventana, mostrada en la figura 3.24, usando el botón <b>Opciones</b> de la ventana Parámetros de Solver.</p>
+<p>Las opciones que establezcamos para la resolución pueden almacenarse generando un modelo. Éste puede ser recuperado cuando nos interese.</p>
+<p>Como se aprecia en la figura 3.24, el número de opciones es importante. En dicha figura aparecen los valores adoptados por defecto, sin ninguna modificación.</p>
+<p>Los apartados Tiempo e Iteraciones limitan el tiempo empleado en la búsqueda de los objetivos. El primero especifica el tiempo máximo, en segundos, que puede tardarse, mientras que el segundo limita el número de cálculos a usar.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_REdiQ0pJRGdhbldGTHJ4M3F0dXZTdTR5alJHbHVvWVBDNkJsOGR3aTZDYyUzRA==" id="IMG_REdiQ0pJRGdhbldGTHJ4M3F0dXZTdTR5alJHbHVvWVBDNkJsOGR3aTZDYyUzRA==" alt="Análisis de datos" title="Análisis de datos" width="330" /></p>
+<p><b>Figura 3.24.</b> Opciones que afectan a la herramienta Solver.</p>
+<p>Los apartados Precisión, Tolerancia y Convergencia también influyen en el número de cálculos y, consecuentemente, en el tiempo que se tardará en alcanzar la solución. Con Tolerancia estableceremos un porcentaje que, aplicado a la celda para la cual se persigue un objetivo, dispone el margen de valores considerado aceptable. El valor por defecto, 5 por 100, indica que cuando el resultado de los cálculos tenga una diferencia de sólo el 3 por ciento, o menos, respecto al objetivo, se dará el proceso por terminado. Los valores de Precisión y Convergencia, un decimal en el rango de 0 a 1, establecen el nivel de precisión que debe utilizarse al comparar los resultados con los objetivos y límites. Cuantos más decimales tengan mejor precisión se obtendrá pero, a cambio, se alargará el proceso.</p>
+<p>Por último, en la parte inferior, tenemos varios grupos de opciones que afectan a la metodología que Solver usará para alcanzar el objetivo fijado. Por defecto se utiliza un mecanismo de estimación lineal, más rápido en la búsqueda de soluciones, que es adecuado siempre que los valores tengan ese tipo de progresión. Cuando los valores no se ajusten a ese modelo, podemos elegir la opción Cuadrática para obtener un mejor resultado.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

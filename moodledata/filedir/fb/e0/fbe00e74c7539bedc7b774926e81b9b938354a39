@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | TEMA 8. CONOCIMIENTO BÁSICO PARA UN CORRECTO ENTRENAMIENTO. </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id185">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 1;
+var key1 = 0;
+var key2 = 0;
+var key3 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b185");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm185").key0b185[i].checked)
+               {
+                  question0 = document.getElementById("quizForm185").key0b185[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b185");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm185").key1b185[i].checked)
+               {
+                  question1 = document.getElementById("quizForm185").key1b185[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b185");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm185").key2b185[i].checked)
+               {
+                  question2 = document.getElementById("quizForm185").key2b185[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b185");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm185").key3b185[i].checked)
+               {
+                  question3 = document.getElementById("quizForm185").key3b185[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm185").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm185" id="quizForm185" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-185" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b185" class="block iDevice_content">
+<div class="ee_enunciado"><b>Podemos definir el entrenamiento siguiendo a Weineck como:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1851" class="sr-av"><a href="#answer-key0b1851">Opción 1</a></label><input type="radio" name="key0b185" id="key0b1851" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1851"><a name="answer-key0b1851"></a>
+<div id="taoptionAnswer0q0b185" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Un proceso de constante adaptación de los sistemas orgánicos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1852" class="sr-av"><a href="#answer-key0b1852">Opción 2</a></label><input type="radio" name="key0b185" id="key0b1852" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1852"><a name="answer-key0b1852"></a>
+<div id="taoptionAnswer1q0b185" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Como un proceso de constante adaptación de los sistemas orgánicos, a través de la aplicación sistemática de estímulos conocidos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1853" class="sr-av"><a href="#answer-key0b1853">Opción 3</a></label><input type="radio" name="key0b185" id="key0b1853" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1853"><a name="answer-key0b1853"></a>
+<div id="taoptionAnswer2q0b185" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Como un proceso de constante adaptación de los sistemas inorgánicos, a través de la aplicación sistemática de estímulos conocidos.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b185" class="block iDevice_content">
+<div class="ee_enunciado"><b>El síndrome general de adaptación o teoría del estrés de Seyle se refiere al estudio:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1851" class="sr-av"><a href="#answer-key1b1851">Opción 1</a></label><input type="radio" name="key1b185" id="key1b1851" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1851"><a name="answer-key1b1851"></a>
+<div id="taoptionAnswer0q1b185" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De las reacciones generales del organismo ante cualquier estímulo independientemente de su naturaleza.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1852" class="sr-av"><a href="#answer-key1b1852">Opción 2</a></label><input type="radio" name="key1b185" id="key1b1852" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1852"><a name="answer-key1b1852"></a>
+<div id="taoptionAnswer1q1b185" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Del incremento de las capacidades deportivas y obtener buenos resultados sin seguir unos principios básicos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1853" class="sr-av"><a href="#answer-key1b1853">Opción 3</a></label><input type="radio" name="key1b185" id="key1b1853" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1853"><a name="answer-key1b1853"></a>
+<div id="taoptionAnswer2q1b185" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">De los cambios periódicos de la estructura y contenido del entrenamiento.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b185" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="ee_enunciado"><b>¿Qué quiere decir el principio de progresión?</b></div>
+<p><b> </b></p>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1851" class="sr-av"><a href="#answer-key2b1851">Opción 1</a></label><input type="radio" name="key2b185" id="key2b1851" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1851"><a name="answer-key2b1851"></a>
+<div id="taoptionAnswer0q2b185" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se refiere a la elevación de las exigencias de carga.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1852" class="sr-av"><a href="#answer-key2b1852">Opción 2</a></label><input type="radio" name="key2b185" id="key2b1852" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1852"><a name="answer-key2b1852"></a>
+<div id="taoptionAnswer1q2b185" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se refiere a que para que le entrenamiento permita una mejora debe ser continuo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1853" class="sr-av"><a href="#answer-key2b1853">Opción 3</a></label><input type="radio" name="key2b185" id="key2b1853" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1853"><a name="answer-key2b1853"></a>
+<div id="taoptionAnswer2q2b185" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Dice que una correcta preparación tiene que abarcar los diferentes sistemas, las capacidades físicas básicas y buscar el equilibrio corporal en el entrenamiento.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b185" class="block iDevice_content">
+<div class="ee_enunciado"><b>Dentro de los ciclos de ordenación del entrenamiento existe el microciclo; ¿qué duración tiene?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1851" class="sr-av"><a href="#answer-key3b1851">Opción 1</a></label><input type="radio" name="key3b185" id="key3b1851" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1851"><a name="answer-key3b1851"></a>
+<div id="taoptionAnswer0q3b185" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Entre 2 y 6 semanas.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1852" class="sr-av"><a href="#answer-key3b1852">Opción 2</a></label><input type="radio" name="key3b185" id="key3b1852" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1852"><a name="answer-key3b1852"></a>
+<div id="taoptionAnswer1q3b185" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">7-10 días.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1853" class="sr-av"><a href="#answer-key3b1853">Opción 3</a></label><input type="radio" name="key3b185" id="key3b1853" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1853"><a name="answer-key3b1853"></a>
+<div id="taoptionAnswer2q3b185" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Un año o una temporada.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id186">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-186_108">
+<form name="multi-select-form-186_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion186_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Los principios del entrenamiento de la condición física tienen dos funciones principales. ¿Cuáles de los siguientes enunciados se corresponden con dichas funciones? (Respuesta múltiple)</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op186_1080" class="sr-av"><a href="#answer-186_111">Opción 1</a></label><input type="checkbox" id="op186_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-186_111"><a name="answer-186_111"></a>
+<div id="taans186_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Ordenar sistemáticamente los pasos y las fases de los procesos de adaptación.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-186_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op186_1081" class="sr-av"><a href="#answer-186_387">Opción 2</a></label><input type="checkbox" id="op186_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-186_387"><a name="answer-186_387"></a>
+<div id="taans186_387" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Determinar las líneas directrices de los métodos de entrenamiento.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-186_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op186_1082" class="sr-av"><a href="#answer-186_389">Opción 3</a></label><input type="checkbox" id="op186_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-186_389"><a name="answer-186_389"></a>
+<div id="taans186_389" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Desarrollar una serie de pautas que ayuden a su coordinación.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-186_1082" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'186_108')"/> 
+</p>
+</div>
+<div id="f186_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-186_111" class="right">Correcto</a></li>
+<li><a href="#answer-186_387" class="right">Correcto</a></li>
+<li><a href="#answer-186_389" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

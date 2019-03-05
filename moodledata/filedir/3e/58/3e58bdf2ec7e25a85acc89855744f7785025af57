@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-48" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id52">
+<div class="iDevice emphasis0">
+<div id="ta52_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+<p></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id53">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b53");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm53").key0b53[i].checked)
+               {
+                  question0 = document.getElementById("quizForm53").key0b53[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm53").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm53" id="quizForm53" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-53" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b53" class="block iDevice_content">
+<div class="ee_enunciado"><b>1. En una alimentación vegetariana estricta, ¿Qué dos alimentos sería interesante combinar para conseguir un aporte de aminoácidos esenciales óptimo?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b531" class="sr-av"><a href="#answer-key0b531">Opción 1</a></label><input type="radio" name="key0b53" id="key0b531" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b531">
+<div id="taoptionAnswer0q0b53" class="block iDevice_content">
+<p>Vegetales y cereales.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b532" class="sr-av"><a href="#answer-key0b532">Opción 2</a></label><input type="radio" name="key0b53" id="key0b532" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b532">
+<div id="taoptionAnswer1q0b53" class="block iDevice_content">
+<p>Legumbres y hortalizas.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b533" class="sr-av"><a href="#answer-key0b533">Opción 3</a></label><input type="radio" name="key0b53" id="key0b533" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b533">
+<div id="taoptionAnswer2q0b53" class="block iDevice_content">
+<p>Cereales y legumbres.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore53"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id54">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-54_108">
+<form name="multi-select-form-54_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion54_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>2. ¿Qué aceites vegetales destacan por poseer un alto contenido en ácidos grasos oleico y linoleico? (Respuesta múltiple)</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op54_1080" class="sr-av"><a href="#answer-54_111">Opción 1</a></label><input type="checkbox" id="op54_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-54_111"><div id="taans54_111" class="block iDevice_content">
+<p>Aceite de soja.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-54_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op54_1081" class="sr-av"><a href="#answer-54_273">Opción 2</a></label><input type="checkbox" id="op54_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-54_273"><div id="taans54_273" class="block iDevice_content">
+<p>Aceite de girasol.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-54_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op54_1082" class="sr-av"><a href="#answer-54_275">Opción 3</a></label><input type="checkbox" id="op54_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-54_275"><div id="taans54_275" class="block iDevice_content">
+<p>Aceite de cacahuete.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-54_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-54_108" /> 
+</p>
+</div>
+<section id="f54_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-54_111" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-54_273" class="right">Correcto</a></li>
+<li><a href="#answer-54_275" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id55">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 1;
+var key1 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b55");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm55").key0b55[i].checked)
+               {
+                  question0 = document.getElementById("quizForm55").key0b55[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b55");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm55").key1b55[i].checked)
+               {
+                  question1 = document.getElementById("quizForm55").key1b55[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm55").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm55" id="quizForm55" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-55" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b55" class="block iDevice_content">
+<div class="ee_enunciado"><b>3. ¿Qué alimento aporta mayor cantidad de calorías por 100g de producto?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b551" class="sr-av"><a href="#answer-key0b551">Opción 1</a></label><input type="radio" name="key0b55" id="key0b551" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b551">
+<div id="taoptionAnswer0q0b55" class="block iDevice_content">
+<p>Huevo.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b552" class="sr-av"><a href="#answer-key0b552">Opción 2</a></label><input type="radio" name="key0b55" id="key0b552" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b552">
+<div id="taoptionAnswer1q0b55" class="block iDevice_content">
+<p>Aceite de oliva.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b553" class="sr-av"><a href="#answer-key0b553">Opción 3</a></label><input type="radio" name="key0b55" id="key0b553" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b553">
+<div id="taoptionAnswer2q0b55" class="block iDevice_content">
+<p>Cereales.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b55" class="block iDevice_content">
+<div class="ee_enunciado"><b>4. ¿Cuál es el componente principal de las verduras y hortalizas?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b551" class="sr-av"><a href="#answer-key1b551">Opción 1</a></label><input type="radio" name="key1b55" id="key1b551" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b551">
+<div id="taoptionAnswer0q1b55" class="block iDevice_content">
+<p>Agua.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b552" class="sr-av"><a href="#answer-key1b552">Opción 2</a></label><input type="radio" name="key1b55" id="key1b552" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b552">
+<div id="taoptionAnswer1q1b55" class="block iDevice_content">
+<p>Fibra.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b553" class="sr-av"><a href="#answer-key1b553">Opción 3</a></label><input type="radio" name="key1b55" id="key1b553" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b553">
+<div id="taoptionAnswer2q1b55" class="block iDevice_content">
+<p>Proteínas.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore55"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id56">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta56_100" class="block iDevice_content">
+<p><b>5. Indica si es verdadero o falso el siguiente enunciado:</b></p>
+</div>
+<section class="question">
+<form name="true-false-form-0b56" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b56" class="block iDevice_content">
+<p><i>“Las frutas carnosas, al igual que los frutos secos, son una buena fuente de proteínas”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b56"><input type="radio" name="option0b56" id="true0b56" class="exe-radio-option exe-radio-option-0-2-0b56-truefalse" /> Verdadero</label> 
+<label for="false0b56"><input type="radio" name="option0b56" id="false0b56" class="exe-radio-option exe-radio-option-1-2-0b56-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b56" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b56-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

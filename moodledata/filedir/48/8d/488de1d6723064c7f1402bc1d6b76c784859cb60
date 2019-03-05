@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>AutoEvaluación | AutoEvaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-21" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">AutoEvaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id65">
+<div class="iDevice emphasis0">
+<div id="ta65_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda " title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+<p></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id66">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b66");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm66").key0b66[i].checked)
+               {
+                  question0 = document.getElementById("quizForm66").key0b66[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm66").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm66" id="quizForm66" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-66" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b66" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">1. ¿Qué nombre recibe el método que de acuerdo con la normativa hipotecaria, está basado en el principio de equivalencia funcional, también conocido como principio de sustitución?</div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b661" class="sr-av"><a href="#answer-key0b661">Opción 1</a></label><input type="radio" name="key0b66" id="key0b661" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b661">
+<div id="taoptionAnswer0q0b66" class="block iDevice_content">
+<p>Método de valoración.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b662" class="sr-av"><a href="#answer-key0b662">Opción 2</a></label><input type="radio" name="key0b66" id="key0b662" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b662">
+<div id="taoptionAnswer1q0b66" class="block iDevice_content">
+<p>Método de comparación</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b663" class="sr-av"><a href="#answer-key0b663">Opción 3</a></label><input type="radio" name="key0b66" id="key0b663" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b663">
+<div id="taoptionAnswer2q0b66" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Método del valor residual.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore66"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id67">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta67_100" class="block iDevice_content">
+<div class="numeracion">2. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b67" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b67" class="block iDevice_content">
+<p>"Los valores testigo hacen referencia a las muestras de diferentes bienes inmuebles que se utilizarán en comparación".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b67"><input type="radio" name="option0b67" id="true0b67" class="exe-radio-option exe-radio-option-0-2-0b67-truefalse" /> Verdadero</label> 
+<label for="false0b67"><input type="radio" name="option0b67" id="false0b67" class="exe-radio-option exe-radio-option-1-2-0b67-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b67" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b67-result" class="right">Verdadero</strong></p>
+<div class="ee_feedback" style="display: block;">Los valores testigo hacen referencia a las muestras de diferentes bienes inmuebles que se utilizaran en la comparación.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id68">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta68_100" class="block iDevice_content">
+<div class="numeracion">3. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b68" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b68" class="block iDevice_content">
+<p>"El método de actualización de rentas, también llamado método de capitalización, se encuentra regulado en los artículos 24 a 33 de la Orden ECO/805/2003, de 27 de marzo, sobre normas de valoración de bienes inmuebles y de determinados derechos para ciertas finalidades financieras".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b68"><input type="radio" name="option0b68" id="true0b68" class="exe-radio-option exe-radio-option-0-2-0b68-truefalse" /> Verdadero</label> 
+<label for="false0b68"><input type="radio" name="option0b68" id="false0b68" class="exe-radio-option exe-radio-option-1-2-0b68-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b68" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b68-result" class="right">Verdadero</strong></p>
+<div class="ee_feedback" style="display: block;">El método de actualización de rentas, también llamado método de capitalización, se encuentra regulado en los artículos 24 a 33 de la Orden ECO/805/2003, de 27 de marzo, sobre normas de valoración de bienes inmuebles y de determinados derechos para ciertas finalidades financieras.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id69">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta69_100" class="block iDevice_content">
+<div class="numeracion">4. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b69" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b69" class="block iDevice_content">
+<p>"El método del coste esta basado en el principio de valor residual".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b69"><input type="radio" name="option0b69" id="true0b69" class="exe-radio-option exe-radio-option-0-2-0b69-truefalse" /> Verdadero</label> 
+<label for="false0b69"><input type="radio" name="option0b69" id="false0b69" class="exe-radio-option exe-radio-option-1-2-0b69-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b69" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b69-result" class="right">Verdadero</strong></p>
+<div class="ee_feedback" style="display: block;">El método del coste está basado en el Principio de valor residual.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ClozeIdevice em_iDevice" id="id70">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Rellenar huecos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section id="ta70_104" class="block instructions iDevice_content">
+<p><span class="textPregSolucionario">Completa el espacio en blanco del siguiente enunciado:</span></p>
+</section>
+
+    <section class="activity" id="activity-70_105">
+<form name="cloze-form-70_105" action="#" class="activity-form cloze-activity-form">
+<div id="cloze70_105">
+<input type="hidden" name="clozeFlag70_105.strictMarking" id="clozeFlag70_105.strictMarking" value="false"/>
+
+<input type="hidden" name="clozeFlag70_105.checkCaps" id="clozeFlag70_105.checkCaps" value="false"/>
+
+<input type="hidden" name="clozeFlag70_105.instantMarking" id="clozeFlag70_105.instantMarking" value="false"/>
+
+<p><span class="textPregSolucionario">"El 
+<label for="clozeBlank70_105.0" class="sr-av">Rellenar huecos (1):</label>
+<input class="autocomplete-off" type="text" value="" id="clozeBlank70_105.0" style="width:15em" />
+<span style="display:none" id="clozeAnswer70_105.0">JXUwMDJlJXUwMDE3JXUwMDBkJXUwMDAzJXUwMDFkJXUwMDUyJXUwMDQzJXUwMDAyJXUwMDE1JXUw
+MDE1JXUwMDEyJXUwMDA3JXUwMDA2JXUwMDEzJXUwMDBk
+</span>
+ es el determinado objetivamente para cada inmueble a partir de los datos obrantes en el catastro inmobiliario y está integrado por el valor del suelo y el valor de las construcciones". </span></p>
+<div class="block iDevice_buttons">
+<p>
+<input class="button" type="submit" name="submit70_105" value="Enviar"  id="submit70_105" />
+
+<input type="button" name="restart70_105" value="Reiniciar" style="display:none" id="restart70_105" onclick="$exe.cloze.restart('70_105')" />
+
+ 
+<input type="button" name="70_105showAnswersButton" value="Mostrar las respuestas" style="display:none" id="showAnswersButton70_105" onclick="$exe.cloze.fillInputs('70_105')" />
+
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div id="clozeScore70_105"></div>
+</div>
+</form>
+</section></div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

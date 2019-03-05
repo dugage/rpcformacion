@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | BLOG </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id170">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 3;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var key0 = 2;
+var key1 = 0;
+var key2 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b170");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm170").key0b170[i].checked)
+               {
+                  question0 = document.getElementById("quizForm170").key0b170[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b170");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm170").key1b170[i].checked)
+               {
+                  question1 = document.getElementById("quizForm170").key1b170[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b170");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm170").key2b170[i].checked)
+               {
+                  question2 = document.getElementById("quizForm170").key2b170[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm170").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm170" id="quizForm170" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-170" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b170" class="block iDevice_content">
+<p><b>¿Qué es un Blog?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1701" class="sr-av"><a href="#answer-key0b1701">Opción 1</a></label><input type="radio" name="key0b170" id="key0b1701" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1701"><a name="answer-key0b1701"></a>
+<div id="taoptionAnswer0q0b170" class="block iDevice_content">
+<p><span>Es un servicio que permite a sus usuarios enviar y publicar mensajes breves (alrededor de 140 caracteres), generalmente de sólo texto.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1702" class="sr-av"><a href="#answer-key0b1702">Opción 2</a></label><input type="radio" name="key0b170" id="key0b1702" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1702"><a name="answer-key0b1702"></a>
+<div id="taoptionAnswer1q0b170" class="block iDevice_content">
+<p><span>Es una enciclopedia de contenido libre que permite la edición de sus contenidos por cualquier usuario desde un navegador Web.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1703" class="sr-av"><a href="#answer-key0b1703">Opción 3</a></label><input type="radio" name="key0b170" id="key0b1703" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1703"><a name="answer-key0b1703"></a>
+<div id="taoptionAnswer2q0b170" class="block iDevice_content">
+<p><span>Es un sitio Web periódicamente actualizado que recopila cronológicamente textos o artículos de uno o varios autores, apareciendo primero el más reciente, donde el autor conserva siempre la libertad de dejar publicado lo que crea pertinente.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b170" class="block iDevice_content">
+<p><b>¿Qué tipo de artículo explica detalladamente cómo llevar determinada tarea relevante para los profesionales del sector de tu blog?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1701" class="sr-av"><a href="#answer-key1b1701">Opción 1</a></label><input type="radio" name="key1b170" id="key1b1701" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1701"><a name="answer-key1b1701"></a>
+<div id="taoptionAnswer0q1b170" class="block iDevice_content">
+<p><span>Artículo Tutorial</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1702" class="sr-av"><a href="#answer-key1b1702">Opción 2</a></label><input type="radio" name="key1b170" id="key1b1702" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1702"><a name="answer-key1b1702"></a>
+<div id="taoptionAnswer1q1b170" class="block iDevice_content">
+<p><span>Artículo definición</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1703" class="sr-av"><a href="#answer-key1b1703">Opción 3</a></label><input type="radio" name="key1b170" id="key1b1703" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1703"><a name="answer-key1b1703"></a>
+<div id="taoptionAnswer2q1b170" class="block iDevice_content">
+<p><span>Artículo lista</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b170" class="block iDevice_content">
+<p><b>Confirma si la siguiente afirmación es verdadera o falsa: </b><span></span><i>“Hoy en día el blogging es uno de los servicios más populares en el Internet, llegando hasta el punto que cantantes o actores famosos tienen Blogs, así también como empresas Internacionales inclusive”.</i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1701" class="sr-av"><a href="#answer-key2b1701">Opción 1</a></label><input type="radio" name="key2b170" id="key2b1701" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1701"><a name="answer-key2b1701"></a>
+<div id="taoptionAnswer0q2b170" class="block iDevice_content">
+<p><span>Verdadero.</span></p>
+<p><span style="color: #000000; font-family: Verdana, Arial; font-size: 14px; line-height: 24px; text-align: justify;">Verdadero.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1702" class="sr-av"><a href="#answer-key2b1702">Opción 2</a></label><input type="radio" name="key2b170" id="key2b1702" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1702"><a name="answer-key2b1702"></a>
+<div id="taoptionAnswer1q2b170" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id171">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-171_108">
+<form name="multi-select-form-171_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion171_108" class="block question iDevice_content">
+<p><b>¿Qué reglas podríamos aplicar a la hora de dirigirse, contactar y captar la atención de un bloguero? Respuesta Múltiple.</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op171_1080" class="sr-av"><a href="#answer-171_111">Opción 1</a></label><input type="checkbox" id="op171_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-171_111"><a name="answer-171_111"></a>
+<div id="taans171_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La información que se envié no tiene por qué adaptarse al tema del blog.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-171_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op171_1081" class="sr-av"><a href="#answer-171_166">Opción 2</a></label><input type="checkbox" id="op171_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-171_166"><a name="answer-171_166"></a>
+<div id="taans171_166" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">El bloguero tiene que tener claro quién es el remitente, quién el anunciante y qué intereses tienen.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-171_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op171_1082" class="sr-av"><a href="#answer-171_168">Opción 3</a></label><input type="checkbox" id="op171_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-171_168"><a name="answer-171_168"></a>
+<div id="taans171_168" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Los emails que se envíen deben ser personales, nada de envíos masivos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-171_1082" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'171_108')"/> 
+</p>
+</div>
+<div id="f171_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-171_111" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-171_166" class="right">Correcto</a></li>
+<li><a href="#answer-171_168" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-171_170">
+<form name="multi-select-form-171_170" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion171_170" class="block question iDevice_content">
+<div class="ee_enunciado"><b>¿Qué características tienen los artículos esenciales? Respuesta Múltiple.</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op171_1700" class="sr-av"><a href="#answer-171_173">Opción 1</a></label><input type="checkbox" id="op171_1700" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-171_173"><a name="answer-171_173"></a>
+<div id="taans171_173" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Son contenidos originales y únicos de tu blog.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-171_1700" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op171_1701" class="sr-av"><a href="#answer-171_175">Opción 2</a></label><input type="checkbox" id="op171_1701" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-171_175"><a name="answer-171_175"></a>
+<div id="taans171_175" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">No son contenidos especialmente útiles para tus lectores.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-171_1701" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op171_1702" class="sr-av"><a href="#answer-171_177">Opción 3</a></label><input type="checkbox" id="op171_1702" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-171_177"><a name="answer-171_177"></a>
+<div id="taans171_177" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Continuarán atrayendo lectores incluso mucho después de haber sido enterrados en los archivos de tu blog.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-171_1702" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'171_170')"/> 
+</p>
+</div>
+<div id="f171_170" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-171_173" class="right">Correcto</a></li>
+<li><a href="#answer-171_175" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-171_177" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

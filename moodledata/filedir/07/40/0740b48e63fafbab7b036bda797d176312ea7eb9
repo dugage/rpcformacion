@@ -1,0 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | Tema 17: La propiedad horizontal I. Constitución y Extinción </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.1 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id535">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 3;
+var key1 = 1;
+var key2 = 3;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b535");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm535").key0b535[i].checked)
+               {
+                  question0 = document.getElementById("quizForm535").key0b535[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b535");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm535").key1b535[i].checked)
+               {
+                  question1 = document.getElementById("quizForm535").key1b535[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b535");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm535").key2b535[i].checked)
+               {
+                  question2 = document.getElementById("quizForm535").key2b535[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b535");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm535").key3b535[i].checked)
+               {
+                  question3 = document.getElementById("quizForm535").key3b535[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm535").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm535" id="quizForm535" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-535" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b535" class="block iDevice_content">
+<p><strong>Señala la respuesta incorrecta respecto a la propiedad horizontal:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b5351" class="sr-av"><a href="#answer-key0b5351">Opción 1</a></label><input type="radio" name="key0b535" id="key0b5351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b5351"><a name="answer-key0b5351"></a>
+<div id="taoptionAnswer0q0b535" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Es una figura jurídica especial.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b5352" class="sr-av"><a href="#answer-key0b5352">Opción 2</a></label><input type="radio" name="key0b535" id="key0b5352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b5352"><a name="answer-key0b5352"></a>
+<div id="taoptionAnswer1q0b535" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Comprende una propiedad exclusiva sobre unos determinados elementos y una copropiedad sobre otros elementos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b5353" class="sr-av"><a href="#answer-key0b5353">Opción 3</a></label><input type="radio" name="key0b535" id="key0b5353" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b5353"><a name="answer-key0b5353"></a>
+<div id="taoptionAnswer2q0b535" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Es el derecho de copropiedad sobre elementos del edificio, tales como el suelo, escaleras, ascensores, etc.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b5354" class="sr-av"><a href="#answer-key0b5354">Opción 4</a></label><input type="radio" name="key0b535" id="key0b5354" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b5354"><a name="answer-key0b5354"></a>
+<div id="taoptionAnswer3q0b535" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Ninguna de las opciones anteriores es incorrecta.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b535" class="block iDevice_content">
+<p><strong>¿Qué artículo del Código Civil hace referencia a la propiedad horizontal?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b5351" class="sr-av"><a href="#answer-key1b5351">Opción 1</a></label><input type="radio" name="key1b535" id="key1b5351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b5351"><a name="answer-key1b5351"></a>
+<div id="taoptionAnswer0q1b535" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">457.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b5352" class="sr-av"><a href="#answer-key1b5352">Opción 2</a></label><input type="radio" name="key1b535" id="key1b5352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b5352"><a name="answer-key1b5352"></a>
+<div id="taoptionAnswer1q1b535" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">396.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b5353" class="sr-av"><a href="#answer-key1b5353">Opción 3</a></label><input type="radio" name="key1b535" id="key1b5353" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b5353"><a name="answer-key1b5353"></a>
+<div id="taoptionAnswer2q1b535" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">298.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b5354" class="sr-av"><a href="#answer-key1b5354">Opción 4</a></label><input type="radio" name="key1b535" id="key1b5354" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b5354"><a name="answer-key1b5354"></a>
+<div id="taoptionAnswer3q1b535" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">124.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b535" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica cuál de las siguientes opciones no forma parte de los requisitos básicos para constituir una comunidad de propietarios:</strong></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b5351" class="sr-av"><a href="#answer-key2b5351">Opción 1</a></label><input type="radio" name="key2b535" id="key2b5351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b5351"><a name="answer-key2b5351"></a>
+<div id="taoptionAnswer0q2b535" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada"><span>Que exista un edificio.</span></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b5352" class="sr-av"><a href="#answer-key2b5352">Opción 2</a></label><input type="radio" name="key2b535" id="key2b5352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b5352"><a name="answer-key2b5352"></a>
+<div id="taoptionAnswer1q2b535" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Que el edificio esté dividido en elementos privativos susceptibles de aprovechamiento independiente.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b5353" class="sr-av"><a href="#answer-key2b5353">Opción 3</a></label><input type="radio" name="key2b535" id="key2b5353" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b5353"><a name="answer-key2b5353"></a>
+<div id="taoptionAnswer2q2b535" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Que se haya otorgado el título constitutivo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b5354" class="sr-av"><a href="#answer-key2b5354">Opción 4</a></label><input type="radio" name="key2b535" id="key2b5354" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b5354"><a name="answer-key2b5354"></a>
+<div id="taoptionAnswer3q2b535" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Haber inscrito la conclusión de la obra en el Registro de la Propiedad.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b535" class="block iDevice_content">
+<p><strong>Indica si la siguiente afirmación es verdadera: “La prehorizontalidad es aquella situación jurídica en que el régimen de propiedad horizontal no está todavía constituido por completo”.</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b5351" class="sr-av"><a href="#answer-key3b5351">Opción 1</a></label><input type="radio" name="key3b535" id="key3b5351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b5351"><a name="answer-key3b5351"></a>
+<div id="taoptionAnswer0q3b535" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b5352" class="sr-av"><a href="#answer-key3b5352">Opción 2</a></label><input type="radio" name="key3b535" id="key3b5352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b5352"><a name="answer-key3b5352"></a>
+<div id="taoptionAnswer1q3b535" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id536">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-536_108">
+<form name="multi-select-form-536_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion536_108" class="block question iDevice_content">
+<div class="ee_enunciado"><strong>Señala cuáles de las siguientes opciones son formas de creación de un régimen de propiedad horizontal:</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op536_1080" class="sr-av"><a href="#answer-536_111">Opción 1</a></label><input type="checkbox" id="op536_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-536_111"><a name="answer-536_111"></a>
+<div id="taans536_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">División de un inmueble en situación de copropiedad.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-536_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op536_1081" class="sr-av"><a href="#answer-536_574">Opción 2</a></label><input type="checkbox" id="op536_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-536_574"><a name="answer-536_574"></a>
+<div id="taans536_574" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Construcción de una serie de chalés independientes.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-536_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op536_1082" class="sr-av"><a href="#answer-536_576">Opción 3</a></label><input type="checkbox" id="op536_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-536_576"><a name="answer-536_576"></a>
+<div id="taans536_576" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">División por el propietario de un inmueble, hasta entonces único.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-536_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op536_1083" class="sr-av"><a href="#answer-536_580">Opción 4</a></label><input type="checkbox" id="op536_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-536_580"><a name="answer-536_580"></a>
+<div id="taans536_580" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Ninguna de las opciones anteriores es correcta.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-536_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="$exe.showFeedback(this,4,'536_108')"/> 
+</p>
+</div>
+<div id="f536_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-536_111" class="right">Correcto</a></li>
+<li><a href="#answer-536_574" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-536_576" class="right">Correcto</a></li>
+<li><a href="#answer-536_580" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_max_js.js"></script></body></html>

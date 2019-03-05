@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4. Funciones para hacer pronósticos </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4. Funciones para hacer pronósticos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Excel cuenta con diversas funciones que nos permiten realizar pronósticos de manera más cómoda y exacta. Imagine cómo podría pronosticar la población no para un año después, sino para cinco o diez años. El cálculo no es tan sencillo, a menos que utilicemos funciones como CRECIMIENTO o PRONOSTICO.</p>
+<p>La función PRONÓSTICO se basa en dos series de datos dependientes, por ejemplo años y población, para calcular un pronóstico de un cierto valor respecto a otro. El sistema que utiliza esta función es el de la regresión lineal, siendo precisos los siguientes parámetros:</p>
+<ul>
+<li>X: es el punto para el cual desea efectuarse el pronóstico.</li>
+<li>Conocido_y: lista de los valores que ha tenido la medida de cada punto de Conocido_x.</li>
+<li>Conocido_x: lista de los puntos asociados a los valores anteriores.</li>
+</ul>
+<p>Como vemos en la figura 3.8, usamos como parámetro X, en primer lugar, una celdilla que contiene el punto para el cual deseamos hacer el pronóstico, en este caso el año 2013. El parámetro Conociedo_y es la lista de datos sobre población en los años 1955 a 2005, mientras que Conocido_x es la lista que contiene dichos años. En este caso, tras ver los crecimientos porcentuales de cada año, está bastante claro que, al menos en los últimos, la evolución de la población es lineal. De ahí que la función PRONOSTICO sea muy adecuada para el caso que nos ocupa. En caso de que el crecimiento fuese exponencial, una alternativa sería la función CRECIMIENTO. Aunque en un orden distinto (véase figura 3.9) los parámetros a facilitar son los mismos. El resultado, aplicado sobre los datos que tenemos, será bien distinto por el método utilizado para efectuar la previsión.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_YzJUTWtQa1RwYXR4Z3NqY0RQZkFyRXpjN3RyaEFkc25MR21SVEV5aUVYWSUzRA==" id="IMG_YzJUTWtQa1RwYXR4Z3NqY0RQZkFyRXpjN3RyaEFkc25MR21SVEV5aUVYWSUzRA==" alt="Análisis de datos" title="Análisis de datos" width="564" /></p>
+<p><b>Figura 3.8.</b> Usamos la función PRONOSTICO para prever la población mundial en el 2013.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aER2UFJVYjVRZW5Xck1iSU5yRjVtMDFlZ1lxNUFnSGs4czJXNEtEejBSOCUzRA==" id="IMG_aER2UFJVYjVRZW5Xck1iSU5yRjVtMDFlZ1lxNUFnSGs4czJXNEtEejBSOCUzRA==" alt="Análisis de datos" title="Análisis de datos" width="559" /></p>
+<p><b>Figura 3.9.</b> La función CRECIMIENTO utiliza los mismos parámetros que PRONOSTICO pero usa un método distinto para hacer el cálculo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

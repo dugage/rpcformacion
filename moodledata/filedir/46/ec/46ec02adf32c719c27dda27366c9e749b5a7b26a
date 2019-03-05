@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.1. Adecuación del proceso a las opciones </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4.1. Adecuación del proceso a las opciones</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id9">
+<div class="iDevice emphasis0">
+<div id="ta9_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Mientras se introducen los parámetros en el cuadro de diálogo, el código que éste alberga está detenido, esperando una señal. Dicha señal será la pulsación del botón <b>Aceptar</b>. Encontrándose en el entorno de Visual Basic, haga doble clic sobre dicho botón para generar el método que debe ejecutarse al hacer clic en él.</p>
+<p>Lo único que haremos en este método será comprobar la celdilla que contiene el total de población alberga, efectivamente, un valor numérico. De no ser así lo comunicamos y el cuadro de diálogo quedaría nuevamente a la espera. Si la celdilla contiene un número, por el contrario, ocultamos el cuadro de diálogo y llamamos a otro método.</p>
+<p>‘ Al pulsar el botón Aceptar</p>
+<p>Private Sub Aceptar_Click ()</p>
+<p>‘ si el dato en la celdilla de total no es un número</p>
+<p>If Not IsNumeric (Range (Celdilla.Text)) Then</p>
+<p>‘ indicamos que debe seleccionar un número</p>
+<p>MsgBox “Debe seleccionar la celdilla con el total”, _</p>
+<p>vbOKOnly Or vbInformation</p>
+<p>Else ‘ si todo está bien</p>
+<p>Hide ‘ ocultamos el cuadro de diálogo</p>
+<p>Procesa ‘ y procesamos la tabla de datos</p>
+<p>End If</p>
+<p>Ens Sub</p>
+<p>Como se ve en el código siguiente, tras crear una nueva hoja le asignamos el nombre introducido como tercer parámetro. Al copiar títulos, se ponen en negrita o no dependiendo de que se haya marcado la opción correspondiente.</p>
+<p>Private Sub Procesa ()</p>
+<p>Dim UnaCeldilla As Range</p>
+<p>Dim PoblaciónTotal As Long</p>
+<p></p>
+<p>‘ Recuperamos la población total de la celdilla indicada</p>
+<p>PoblaciónTotal = Range (Celdilla.Text).Value</p>
+<p>‘ Insertamos una nueva hoja y la activamos</p>
+<p>ActiveWorkbook.Worksheets.Add.Activate</p>
+<p>‘ estableciendo el título que se haya indicado</p>
+<p>ActiveSheet.Name = TituloHoja.Text</p>
+<p>‘ recorremos cada celdilla de la tabla</p>
+<p>Form Each UnaCeldilla In Range (Tabla.Text)</p>
+<p>‘ Activamos en la neuva hoja la misma celdilla</p>
+<p>‘ de l atabla</p>
+<p>Range (UnaCeldilla.Address).Activate</p>
+<p>‘ si el valor que contiene es numérico</p>
+<p>If IsNumeric (UnaCelcilla.&gt;Value) Then</p>
+<p>‘ calculamos el porcentaje sobre el total</p>
+<p>ActiveCell.Value = UnaCeldilla.Value / PoblaciónTotal</p>
+<p>‘ y le aplicamos el formato adecuado</p>
+<p>ActiveCell.NumberFormat = “#0.00%”</p>
+<p>Else ‘ en caso contrario copiamos el título</p>
+<p>ActiveCell.Value = UnaCeldilla.Value</p>
+<p>‘ y lo ponemos en negrita o no según TitulosNegrita</p>
+<p>AciveCell.Font.Bold = TitulosNegrita.Value</p>
+<p>End If</p>
+<p>Next</p>
+<p>Ens Sub</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

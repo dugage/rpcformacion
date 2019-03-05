@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.2. Archivos de texto </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.2. Archivos de texto</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<p>Los datos de un archivo de texto pueden estar almacenados de diversas formas. Es habitual, por ejemplo, utilizar una longitud fija para cada columna de datos. También es corriente la separación de datos usando comas.</p>
+<p>Observe la imagen del Bloc de notas de la figura 4.1. Corresponde a un archivo que podrá encontrar en la carpeta de ejemplos de este capítulo (descargable en el apartado introducción de este curso) y que, como puede verse, contiene datos relativos a cultivos agrarios, en concreto superficies por cultivo en Europa. Fíjese en que las columnas tienen una longitud fija. El nombre del cultivo tiene 20 caracteres y a partir de la posición 21 encontramos las hectáreas cultivadas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UWpRWjh5YWw2SlFaUkIlMkZNNG1VemVLSXIxQmdOWUdoa2twQ3VmTXh4Nm1zJTNE" id="IMG_UWpRWjh5YWw2SlFaUkIlMkZNNG1VemVLSXIxQmdOWUdoa2twQ3VmTXh4Nm1zJTNE" alt="Bases de datos" title="Bases de datos" width="444" /></p>
+<p><strong>Figura 4.1.</strong> Un archivo de texto con columnas de longitud fija.</p>
+<p>Este tipo de archivos, los de longitud fija, son tan habituales como los que usan comas, u otro símbolo, para separar un dato de otro. Este sistema hace innecesario que cada columna tenga la misma longitud, ahorrando así algo de espacio, es decir, el archivo contiene los mismos datos pero ocupa menos. Esto es importante ya que tanto el espacio en los soportes magnéticos como el ancho de banda para su transferencia son bienes limitados.</p>
+<p>La figura 4.2 muestra un archivo, también en el Bloc de notas, que contiene la misma información que el de la figura 4.1. La diferencia es que los datos de cada columna están separados por comas, en lugar de tener una longitud fija.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TW9RalFUdk5kTm1KZUdTaEVjWU1GJTJGJTJCUzZ2TTQxQVdkRmklMkJTTFRzTVZXRSUzRA==" id="IMG_TW9RalFUdk5kTm1KZUdTaEVjWU1GJTJGJTJCUzZ2TTQxQVdkRmklMkJTTFRzTVZXRSUzRA==" alt="Bases de datos" title="Bases de datos" width="407" /></p>
+<p><strong>Figura 4.2.</strong> Archivo de texto con datos separados por comas.</p>
+<h5><strong>2.2.1. Proceso de importación</strong></h5>
+<p>Asumiendo que tenemos uno o más archivos de texto conteniendo datos, los dos archivos mencionados en el punto previo los encontrará en el paquete de ejemplos cuya descarga podrá realizar desde el apartado "Introducción" de este curso, veamos cuáles serían los pasos que daríamos para importarlos a una hoja Excel.</p>
+<p>Abra un nuevo libro de Excel y, a continuación, véase la figura 4.3., seleccione la opción Datos&gt;Obtener datos externos&gt;Desde texto. Aparecerá un cuadro de diálogo típico para abrir archivo. Busque su archivo de texto con columnas de longitud fija que, en el paquete de ejemplos, se llama Cultivos.txt. Al seleccionarlo y, cerrar el mencionado cuadro de diálogo, aparecerá la primera ficha de un asistente en tres pasos.</p>
+<p>El primer paso consiste en indicar si el archivo de texto utiliza algún tipo de separador entre datos, que no es el caso, o si éstos son de ancho fijo. Como se aprecia en la figura 4.4, Excel por defecto ya ha seleccionado la opción apropiada. Dado que el archivo pudiera contener alguna fila de introducción, comentario o títulos, debajo, en la misma ventana, indicaremos a partir de qué fila deseamos recuperar datos. Observe que en la parte superior de la ventana hay una vista parcial del contenido del archivo que hemos abierto.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NnVHdlp6b1Iwc3p5c2dOY0ZiJTJGeUJnY3liZE1oaG9ZeTNxdm1UQVhYb2JnJTNE" id="IMG_NnVHdlp6b1Iwc3p5c2dOY0ZiJTJGeUJnY3liZE1oaG9ZeTNxdm1UQVhYb2JnJTNE" alt="Bases de datos" title="Bases de datos" width="506" /></p>
+<p><strong>Figura 4.3.</strong> Elegimos la opción adecuada para importar el archivo de datos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Umt3JTJCaW8yVWZJTVFYelF1OEIlMkJOdDNBdkxpQWU1anZVQ2F5aXN2N2FsN28lM0Q=" id="IMG_Umt3JTJCaW8yVWZJTVFYelF1OEIlMkJOdDNBdkxpQWU1anZVQ2F5aXN2N2FsN28lM0Q=" alt="Bases de datos" title="Bases de datos" width="530" /></p>
+<p><strong>Figura 4.4.</strong> Primera ventana de parámetros para la importación del texto.</p>
+<p>Un elemento importarte es el apartado Origen del archivo que, como se ven en la figura, tiene asociado una lista desplegable. En ella seleccionará la codificación del archivo de texto a importar. De ello depende que ciertos caracteres, como las letras acentuadas y otros símbolos, se importen apropiadamente o no. Si el texto lo ha creado desde Windows usando el Bloc de notas, por ejemplo, la codificación será Windows (ANSI).</p>
+<p>El siguiente paso será delimitar el ancho de cada uno de los datos, entendiendo tal la porción de información que va a copiarse en cada celdilla por cada fila existente en el archivo de texto. Inicialmente Excel propone (véase la figura 4.5) un ancho para cada columna que supone ha encontrado. Con simples operaciones de arrastrar y soltar podemos ajustar ese ancho, pudiendo también añadir y eliminar columnas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_eDRPNUJrNmROdEJIT1BNNlJrWkFIUU5TdXd6b1hUM3c3SlY2SyUyQkZYY3dzJTNE" id="IMG_eDRPNUJrNmROdEJIT1BNNlJrWkFIUU5TdXd6b1hUM3c3SlY2SyUyQkZYY3dzJTNE" alt="Bases de datos" title="Bases de datos" width="503" /></p>
+<p><strong>Figura 4.5.</strong> Modificamos el ancho de las columnas de datos.</p>
+<p>Teniendo ya indicadas las columnas, el último paso consistirá en indica el formato de cada una de ellas. Básicamente, como puede ver en la figura 4.6, tenemos tres alternativas: usar un formato general, importar como texto o como una fecha. También es posible obviar la columna que, en ese momento, tengamos marca en la parte inferior de la ventana.</p>
+<p>El fin del proceso, al hacer clic en Finalizar, tendrá como resultado la copia de los datos de su ubicación original al destino que seleccionemos: una determinada posición en hoja actual o una hoja nueva.</p>
+<p>En caso de que los datos en el archivo de texto no tengan un ancho fijo sino que estén separados por algún carácter, como puede ser una coma, el segundo paso del asistente será distinto. Dicha ventana , ahora con el aspecto de la figura 4.7, nos permite indicar qué caracteres actuarán como separadores. Inicialmente está elegida solamente la opción Tabulación y, consecuentemente, deberíamos activar la opción Coma. Al hacerlo verá que automáticamente, en la parte inferior de la ventana, se definen las columnas de datos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_anhhSG0wNlZDZVRubEZNeDB6bXNWMDRyTUZNWllKRyUyRlZZU2tkZWUlMkJRQVklM0Q=" id="IMG_anhhSG0wNlZDZVRubEZNeDB6bXNWMDRyTUZNWllKRyUyRlZZU2tkZWUlMkJRQVklM0Q=" alt="Bases de datos" title="Bases de datos" width="482" /></p>
+<p><strong>Figura 4.6.</strong> Seleccionamos el formato de cada una de las columnas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ajZRSExFVW9FMGY3aHdPJTJGNyUyQmpMdE1MTlVCblRtME1NbGczTjRuQU45a0klM0Q=" id="IMG_ajZRSExFVW9FMGY3aHdPJTJGNyUyQmpMdE1MTlVCblRtME1NbGczTjRuQU45a0klM0Q=" alt="Bases de datos" title="Bases de datos" width="466" /></p>
+<p><strong>Figura 4.7.</strong> Ventana en la que se indican los caracteres que actúan como separadores de datos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | UNIDAD DIDÁCTICA 11. MANTENIMIENTO Y REPARACIÓN DE AVERÍAS </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id218">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 0;
+var key1 = 1;
+var key2 = 2;
+var key3 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b218");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm218").key0b218[i].checked)
+               {
+                  question0 = document.getElementById("quizForm218").key0b218[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b218");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm218").key1b218[i].checked)
+               {
+                  question1 = document.getElementById("quizForm218").key1b218[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b218");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm218").key2b218[i].checked)
+               {
+                  question2 = document.getElementById("quizForm218").key2b218[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b218");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm218").key3b218[i].checked)
+               {
+                  question3 = document.getElementById("quizForm218").key3b218[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm218").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm218" id="quizForm218" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-218" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b218" class="block iDevice_content">
+<p><b>Indica si es verdadero o falso el siguiente enunciado:</b><span> </span><i>“El mantenimiento de un motor término va a estar determinado por el fabricante, para ello, dicho fabricante establece los manuales y los planes de mantenimiento”.</i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2181" class="sr-av"><a href="#answer-key0b2181">Opción 1</a></label><input type="radio" name="key0b218" id="key0b2181" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2181"><a name="answer-key0b2181"></a>
+<div id="taoptionAnswer0q0b218" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2182" class="sr-av"><a href="#answer-key0b2182">Opción 2</a></label><input type="radio" name="key0b218" id="key0b2182" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2182"><a name="answer-key0b2182"></a>
+<div id="taoptionAnswer1q0b218" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b218" class="block iDevice_content">
+<div class="ee_enunciado"><b>Completa el espacio en blanco del siguiente enunciado:</b> “El mantenimiento _______________ se puede definir como el conjunto de actividades programadas de antemano.”</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2181" class="sr-av"><a href="#answer-key1b2181">Opción 1</a></label><input type="radio" name="key1b218" id="key1b2181" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2181"><a name="answer-key1b2181"></a>
+<div id="taoptionAnswer0q1b218" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Correctivo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2182" class="sr-av"><a href="#answer-key1b2182">Opción 2</a></label><input type="radio" name="key1b218" id="key1b2182" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2182"><a name="answer-key1b2182"></a>
+<div id="taoptionAnswer1q1b218" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Preventivo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2183" class="sr-av"><a href="#answer-key1b2183">Opción 3</a></label><input type="radio" name="key1b218" id="key1b2183" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2183"><a name="answer-key1b2183"></a>
+<div id="taoptionAnswer2q1b218" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Proactivo.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b218" class="block iDevice_content">
+<div class="ee_enunciado"><b>Completa el espacio en blanco del siguiente enunciado:</b>“Los _________________ tienen por objeto ayudar a la mejor instalación, uso, manejo y mantenimiento del equipo o sistema que se va a utilizar”.</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2181" class="sr-av"><a href="#answer-key2b2181">Opción 1</a></label><input type="radio" name="key2b218" id="key2b2181" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2181"><a name="answer-key2b2181"></a>
+<div id="taoptionAnswer0q2b218" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Documentos técnicos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2182" class="sr-av"><a href="#answer-key2b2182">Opción 2</a></label><input type="radio" name="key2b218" id="key2b2182" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2182"><a name="answer-key2b2182"></a>
+<div id="taoptionAnswer1q2b218" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Planes de mantenimiento.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2183" class="sr-av"><a href="#answer-key2b2183">Opción 3</a></label><input type="radio" name="key2b218" id="key2b2183" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2183"><a name="answer-key2b2183"></a>
+<div id="taoptionAnswer2q2b218" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Manuales de instrucciones.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b218" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Qué tipo de galgas están constituidas por finas láminas de acero flexible que llevan grabadas su dimensión?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b2181" class="sr-av"><a href="#answer-key3b2181">Opción 1</a></label><input type="radio" name="key3b218" id="key3b2181" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b2181"><a name="answer-key3b2181"></a>
+<div id="taoptionAnswer0q3b218" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Galgas de radios.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b2182" class="sr-av"><a href="#answer-key3b2182">Opción 2</a></label><input type="radio" name="key3b218" id="key3b2182" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b2182"><a name="answer-key3b2182"></a>
+<div id="taoptionAnswer1q3b218" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Galgas de espesores.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b2183" class="sr-av"><a href="#answer-key3b2183">Opción 3</a></label><input type="radio" name="key3b218" id="key3b2183" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b2183"><a name="answer-key3b2183"></a>
+<div id="taoptionAnswer2q3b218" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Galgas de pasos de rosca.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id219">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-219_108">
+<form name="multi-select-form-219_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion219_108" class="block question iDevice_content">
+<p><b>¿Cuáles son los objetivos principales para la obtención de una muestra representada? (Respuesta múltiple)</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op219_1080" class="sr-av"><a href="#answer-219_111">Opción 1</a></label><input type="checkbox" id="op219_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-219_111"><a name="answer-219_111"></a>
+<div id="taans219_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Maximizar la densidad de información.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-219_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op219_1081" class="sr-av"><a href="#answer-219_357">Opción 2</a></label><input type="checkbox" id="op219_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-219_357"><a name="answer-219_357"></a>
+<div id="taans219_357" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Minimizar la distorsión de información.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-219_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op219_1082" class="sr-av"><a href="#answer-219_359">Opción 3</a></label><input type="checkbox" id="op219_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-219_359"><a name="answer-219_359"></a>
+<div id="taans219_359" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Minimizar la densidad de información.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-219_1082" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'219_108')"/> 
+</p>
+</div>
+<div id="f219_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-219_111" class="right">Correcto</a></li>
+<li><a href="#answer-219_357" class="right">Correcto</a></li>
+<li><a href="#answer-219_359" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

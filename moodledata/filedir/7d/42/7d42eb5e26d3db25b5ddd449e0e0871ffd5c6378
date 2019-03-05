@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.2. Firmado digital </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.2. Firmado digital</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Supongamos que nuestro libro, el que hemos estado protegiendo, va a contener algunas macros para automatizar ciertos procesos.</p>
+<p>El destinatario, al abrir el libro, obtendrá un aviso o directamente, al no estar firmadas digitalmente, verá deshabilitadas esas macros. Todo depende del nivel de seguridad que tenga establecido.</p>
+<p>Teniendo abierto el entorno de Visual Basic y seleccionado, en la ventana Proyecto, el proyecto que contiene el código de nuestras macros, elija la opción Herramientas&gt;Firma digital. Aparecerá una ventana indicando si proyecto está o no firmado. Utilice el botón <b>Elegir</b> para acceder a una ventana con la lista de certificados disponibles, seguramente sólo en el que ha añadido antes, y márquelo. La ventana debería quedar con una apariencia similar a la de la figura 18.8.</p>
+<p>Figura 18.8. Firmamos el proyecto con nuestro certificado digital.</p>
+<p>Ahora, al abrir el documento que contiene las macros, aparecerá el habitual mensaje indicando que se han deshabilitado las macros, pero al abrir la ventana mediante el botón <b>Opciones</b> podrá ver la información asociada al certificado y una opción adicional que le permite habilitar todas las macros firmadas con este certificado.</p>
+<p>Si activamos la opción Confiar en todos los documentos de este editor (véase figura 18.9) el certificado será añadido a la lista de fuentes de confianza. A partir de este momento, todos los libros que vengan con código firmado por esa fuente se abrirán sin ninguna notificación.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_eG4zREtnRVNjbEZub01HdWtNT0duUmVHdjdJZzVnWWo4WSUyRmF3QiUyRklBRm8lM0Q=" id="IMG_eG4zREtnRVNjbEZub01HdWtNT0duUmVHdjdJZzVnWWo4WSUyRmF3QiUyRklBRm8lM0Q=" alt="Documentos y seguridad" title="Documentos y seguridad" width="334" /></p>
+<p><b>Figura 18.9.</b> Aviso de apertura del archivo con la macro firmada digitalmente.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

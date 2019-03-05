@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id11">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 1;
+var key1 = 2;
+var key2 = 0;
+var key3 = 3;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b11");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 5; i++)
+            {
+               if (document.getElementById("quizForm11").key0b11[i].checked)
+               {
+                  question0 = document.getElementById("quizForm11").key0b11[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b11");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm11").key1b11[i].checked)
+               {
+                  question1 = document.getElementById("quizForm11").key1b11[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b11");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm11").key2b11[i].checked)
+               {
+                  question2 = document.getElementById("quizForm11").key2b11[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b11");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm11").key3b11[i].checked)
+               {
+                  question3 = document.getElementById("quizForm11").key3b11[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm11").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona la Opcion Correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm11" id="quizForm11" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-11" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b11" class="block iDevice_content">
+<div class="ee_enunciado"><strong>¿A qué se denomina proveedores?</strong></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b111" class="sr-av"><a href="#answer-key0b111">Opción 1</a></label><input type="radio" name="key0b11" id="key0b111" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b111"><a name="answer-key0b111"></a>
+<div id="taoptionAnswer0q0b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">A las personas físicas que surten a la empresa de mercaderías.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b112" class="sr-av"><a href="#answer-key0b112">Opción 2</a></label><input type="radio" name="key0b11" id="key0b112" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b112"><a name="answer-key0b112"></a>
+<div id="taoptionAnswer1q0b11" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">A las persona físicas o jurídicas que surten a la empresa de existencias.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b113" class="sr-av"><a href="#answer-key0b113">Opción 3</a></label><input type="radio" name="key0b11" id="key0b113" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b113"><a name="answer-key0b113"></a>
+<div id="taoptionAnswer2q0b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">A las personas físicas que realizan una prestación de servicios a la empresa.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b114" class="sr-av"><a href="#answer-key0b114">Opción 4</a></label><input type="radio" name="key0b11" id="key0b114" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b114"><a name="answer-key0b114"></a>
+<div id="taoptionAnswer3q0b11" class="block iDevice_content">
+<p><span>A las personas o empresas que proporcionan mercaderías o materias primas.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b115" class="sr-av"><a href="#answer-key0b115">Opción 5</a></label><input type="radio" name="key0b11" id="key0b115" value="4" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b115"><a name="answer-key0b115"></a>
+<div id="taoptionAnswer4q0b11" class="block iDevice_content">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b11" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="ee_enunciado"><strong>¿Qué cuenta se utiliza para registrar las deudas con el personal de la empresa?</strong></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b111" class="sr-av"><a href="#answer-key1b111">Opción 1</a></label><input type="radio" name="key1b11" id="key1b111" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b111"><a name="answer-key1b111"></a>
+<div id="taoptionAnswer0q1b11" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">
+<div class="ee_respuesta ee_simpleNo_seleccionada">485 Remuneraciones del personal.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b112" class="sr-av"><a href="#answer-key1b112">Opción 2</a></label><input type="radio" name="key1b11" id="key1b112" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b112"><a name="answer-key1b112"></a>
+<div id="taoptionAnswer1q1b11" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">
+<div class="ee_respuesta ee_correct">465 Remuneraciones pendientes de pago.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b113" class="sr-av"><a href="#answer-key1b113">Opción 3</a></label><input type="radio" name="key1b11" id="key1b113" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b113"><a name="answer-key1b113"></a>
+<div id="taoptionAnswer2q1b11" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">
+<div class="ee_respuesta ee_simpleNo_seleccionada">467 Salarios pendientes.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b114" class="sr-av"><a href="#answer-key1b114">Opción 4</a></label><input type="radio" name="key1b11" id="key1b114" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b114"><a name="answer-key1b114"></a>
+<div id="taoptionAnswer3q1b11" class="block iDevice_content">
+<p><span>485 Gastos de salarios.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b11" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Responde verdadero o falso:</strong> <br /><em>“Para las deudas contraídas con la Administración Pública, el PGC desarrolla el subgrupo 47, «Administraciones Públicas»”.</em></div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b111" class="sr-av"><a href="#answer-key2b111">Opción 1</a></label><input type="radio" name="key2b11" id="key2b111" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b111"><a name="answer-key2b111"></a>
+<div id="taoptionAnswer0q2b11" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b112" class="sr-av"><a href="#answer-key2b112">Opción 2</a></label><input type="radio" name="key2b11" id="key2b112" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b112"><a name="answer-key2b112"></a>
+<div id="taoptionAnswer1q2b11" class="block iDevice_content">
+<p><span>Falso.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b11" class="block iDevice_content">
+<div class="ee_enunciado"><strong>¿Qué son los pasivos financieros mantenidos para negociar?</strong></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b111" class="sr-av"><a href="#answer-key3b111">Opción 1</a></label><input type="radio" name="key3b11" id="key3b111" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b111"><a name="answer-key3b111"></a>
+<div id="taoptionAnswer0q3b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Los gastos que la empresa negocia con las Administraciones Públicas.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b112" class="sr-av"><a href="#answer-key3b112">Opción 2</a></label><input type="radio" name="key3b11" id="key3b112" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b112"><a name="answer-key3b112"></a>
+<div id="taoptionAnswer1q3b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Es el egreso donde disminuye el valor de pérdida.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b113" class="sr-av"><a href="#answer-key3b113">Opción 3</a></label><input type="radio" name="key3b11" id="key3b113" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b113"><a name="answer-key3b113"></a>
+<div id="taoptionAnswer2q3b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Es la fuente de financiación ajena dividida en partes alícuotas llamadas obligaciones.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b114" class="sr-av"><a href="#answer-key3b114">Opción 4</a></label><input type="radio" name="key3b11" id="key3b114" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b114"><a name="answer-key3b114"></a>
+<div id="taoptionAnswer3q3b11" class="block iDevice_content">
+<p><span>Son los empréstitos emitidos por la empresa.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id12">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Pregunta de Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-12_108">
+<form name="multi-select-form-12_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion12_108" class="block question iDevice_content">
+<div class="ee_enunciado"><strong>¿Cómo pueden clasificarse las deudas de los pasivos financieros? (Respuesta Múltiple)</strong></div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op12_1080" class="sr-av"><a href="#answer-12_111">Opción 1</a></label><input type="checkbox" id="op12_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-12_111"><a name="answer-12_111"></a>
+<div id="taans12_111" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Deudas con el personal y deudas con las Administraciones Públicas.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-12_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op12_1081" class="sr-av"><a href="#answer-12_194">Opción 2</a></label><input type="checkbox" id="op12_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-12_194"><a name="answer-12_194"></a>
+<div id="taans12_194" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Deudas con el personal y deudas con las entidades de crédito.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-12_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op12_1082" class="sr-av"><a href="#answer-12_196">Opción 3</a></label><input type="checkbox" id="op12_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-12_196"><a name="answer-12_196"></a>
+<div id="taans12_196" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Deudas con el personal, con las Administraciones Públicas y deudas con las entidades de crédito.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-12_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op12_1083" class="sr-av"><a href="#answer-12_198">Opción 4</a></label><input type="checkbox" id="op12_1083" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-12_198"><a name="answer-12_198"></a>
+<div id="taans12_198" class="block iDevice_content">
+<p><span>Deudas a los acreedores y deudas a los proveedores.</span></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-12_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'12_108')"/> 
+</p>
+</div>
+<div id="f12_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-12_111" class="right">Correcto</a></li>
+<li><a href="#answer-12_194" class="right">Correcto</a></li>
+<li><a href="#answer-12_196" class="right">Correcto</a></li>
+<li><a href="#answer-12_198" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

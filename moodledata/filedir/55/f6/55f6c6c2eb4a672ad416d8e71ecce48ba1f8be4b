@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2. Contabilización Del IVA Soportado </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">2. Contabilización Del IVA Soportado</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id1">
+<div class="iDevice emphasis0">
+<div id="ta1_85" class="block iDevice_content">
+<p>En este apartado desarrollaremos aquellos supuestos de contabilización más comunes en la práctica empresarial para operaciones interiores gravadas por el impuesto<span class="ee_palabra_diccionario"> </span>que otorgan el derecho a deducción total de las cuotas de IVA soportado.</p>
+<p><strong>IVA SOPORTADO EN BIENES DE CIRCULANTE</strong></p>
+<p><strong>Compras y gastos</strong></p>
+<p>A. Operaciones al contado o con pago aplazado</p>
+<p>Ejemplo: Compramos mercaderías con el siguiente detalle:</p>
+<p>Precio: 100.000 euros</p>
+<p>Transporte: 5.000 euros</p>
+<p>Seguro: 3.000 euros</p>
+<p><span class="ee_palabra_diccionario"></span>Descuento: 2.000 euros</p>
+<p>IVA: 21%</p>
+<p>Suponemos que se paga por caja.</p>
+<p>El asiento de contabilización de la siguiente operación sería:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Compras de mercaderías (600)</p>
+</td>
+<td valign="middle">
+<p>106.000*</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle">
+<p>22.260</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Caja (570)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>128.260</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>* Comprende: 100.000 + 5.000 + 3.000 – 2000</p>
+<p>Los gatos de las compras, incluidos los transportes, seguros, etc y los impuestos que recaigan sobre las adquisiciones, excluido el propio IVA soportable deducible, se cargarán en la respectiva cuenta del subgrupo 60.</p>
+<p>En el caso que no se pagara al contado, sino que se dejara con pago aplazado, utilizaríamos la cuenta (400) Proveedores.</p>
+<p>B. Anticipo a proveedores</p>
+<p>En el caso de anticipos a proveedores se utilizará la cuenta 407.</p>
+<p>Supongamos que entregamos en efectivo a un proveedor 600 euros (IVA incluido al 21%) en concepto de suministros futuros. El proveedor tendrá, de acuerdo con la normativa del IVA, que facturar el anticipo recibido:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Anticipo a proveedores (407)</p>
+</td>
+<td valign="middle">
+<p>496</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle">
+<p>104*</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Caja (570)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>600</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>* Cuando se le entrega al proveedor un anticipo debe de devengar<span class="ee_palabra_diccionario"> </span>también la parte correspondiente de IVA.</p>
+<p>La empresa días más tarde recibe materiales de dicho proveedor con su correspondiente factura, con el siguiente detalle:</p>
+<p>Importe de la compra: 5.000 euros</p>
+<p>Aplicación de anticipo: 496 euros</p>
+<p>Base imponible: 4.504 euros</p>
+<p>IVA al 21%: 945,84 euros</p>
+<p>Deuda con el proveedor: 5.300 euros.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Compras de mercaderías (600)</p>
+</td>
+<td valign="middle">
+<p>5.000</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle">
+<p>945,84</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Proveedores (400)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>5.449</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Anticipo a proveedores (407)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>496</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>C. Devolución de compras</p>
+<p>Para contabilizar las devoluciones de compras, se empleará la cuenta 608.</p>
+<p>Supongamos una remesa devuelta a nuestro proveedor por incumplimiento de las condiciones del pedido. El montante devuelto se eleva a 100.000 euros más 21.000 euros de IVA.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Proveedores (400)</p>
+</td>
+<td valign="middle">
+<p>121.000</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Devolución de compras y operaciones similares (608)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>100.000</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>21.000</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>D. Descuentos sobre compras por pronto pago</p>
+<p>En este caso, normalmente este tipo de descuentos se otorgan fuera de la factura. Contablemente se refleja en la cuenta 606.</p>
+<p>Compramos mercaderías por importe de 1.000 euros, con su IVA al 21%.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Compra de mercaderías (600)</p>
+</td>
+<td valign="middle">
+<p>1.000</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle">
+<p>210</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Proveedores (400)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>1.210</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Pasados dos días pagamos el importe pendiente con el proveedor y decide otorgarnos un descuento por pronto pago de 50 euros.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Proveedores (400)</p>
+</td>
+<td valign="middle">
+<p>60,5</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Descuento por pronto pago (606)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>50</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">10,5</td>
+</tr>
+</tbody>
+</table>
+<p>E. Rappel por compras (posterior a la factura de compra)</p>
+<p>Como este descuento se produce fuera de factura, se contabiliza en la cuenta 609.</p>
+<p>Suponemos que un proveedor suministrador de mercaderías, dado que hemos alcanzado un volumen de compras, decide concedernos un rappel de 50 euros.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Proveedores (400)</p>
+</td>
+<td valign="middle">
+<p>60,5</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Rappels sobre compras (609)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>50</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>10,5*</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>* Cuando nos conceden un rappel también se le aplica a la base imponible su correspondiente IVA.</p>
+<p>F. Envases y embalajes a devolver a proveedores</p>
+<p>El IVA se devenga en el momento en el que el proveedor ponga a nuestra disposición los envases, independientemente de que los compremos o no.</p>
+<p>En el momento de la compra: como se tratan de bienes con facultad de devolución, se considera que la operación no es en firme con lo no se contabiliza en el grupo 6, sino en el 4 hasta el momento que decidamos qué hacer con ellos, exactamente en la cuenta 406.</p>
+<p>El asiento tipo sería:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Compra de mercaderías (600)</p>
+</td>
+<td valign="middle">
+<p>-</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Envases y embalajes a devolver a proveedores (406)</p>
+</td>
+<td valign="middle">
+<p>-</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)*</p>
+</td>
+<td valign="middle">
+<p>-</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Proveedores (400)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>En la cuenta 472 irá el IVA correspondiente a la suma de la (600) y la (406).</p>
+<p>En caso de devolución:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Proveedores (400)</p>
+</td>
+<td valign="middle">
+<p>-</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Envases y embalajes a devolver a proveedores (406)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>-</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Si no se devuelven, se extravían o rompen: se contabiliza su compra en la cuenta 602.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Compras de otros aprovisionamientos (602)</p>
+</td>
+<td valign="middle">
+<p>-</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Envases y embalajes a devolver a proveedores (406)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>IVA SOPORTADO EN BIENES DE INMOVILIZADO</strong></p>
+<p>Cuando se compre un elemento del inmovilizado, se deberá reflejar contablemente el IVA soportado en la compra.</p>
+<p>Supongamos que compramos un elemento de inmovilizado material, por ejemplo una maquina, cuyo precio<span class="ee_palabra_diccionario"> </span>de adquisición es de 10.000 euros. La contabilización sería la siguiente:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Maquinaria (213)</p>
+</td>
+<td valign="middle">
+<p>10.000</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle">2.100</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Caja (570)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>12.100</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Si la compra se hubiera realizado con pago aplazado:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Maquinaria (213)</p>
+</td>
+<td valign="middle">
+<p>10.000</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle">
+<p>2.100</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Proveedores inmovilizado a L/P (173)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">6.050</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Proveedores inmovilizado a C/P (523)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>6.050</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Siguiendo con este mismo ejemplo, si suponemos que la empresa al realizar el pedido de la maquinaria hubiese anticipado 2.000 euros al proveedor del inmovilizado, el asiente hubiese sido:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>CONCEPTO</strong></p>
+</td>
+<td valign="middle">
+<p><strong>DEBE</strong></p>
+</td>
+<td valign="middle">
+<p><strong>HABER</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Anticipos para inmovilizado material (229)</p>
+</td>
+<td valign="middle">
+<p>1.652,89</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>H.P., IVA Soportado (472)</p>
+</td>
+<td valign="middle">
+<p>347,11</p>
+</td>
+<td valign="middle"></td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Caja (570)</p>
+</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>2.000</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | Elaboración de Informes y Certificados de Tasación </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id331">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 3;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var key0 = 0;
+var key1 = 0;
+var key2 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b331");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm331").key0b331[i].checked)
+               {
+                  question0 = document.getElementById("quizForm331").key0b331[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b331");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm331").key1b331[i].checked)
+               {
+                  question1 = document.getElementById("quizForm331").key1b331[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b331");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm331").key2b331[i].checked)
+               {
+                  question2 = document.getElementById("quizForm331").key2b331[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm331").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm331" id="quizForm331" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-331" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b331" class="block iDevice_content">
+<div class="ee_enunciado"><b>La elaboración de los certificados e informes de tasación deberá estar guiada por los principios de:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b3311" class="sr-av"><a href="#answer-key0b3311">Opción 1</a></label><input type="radio" name="key0b331" id="key0b3311" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b3311"><a name="answer-key0b3311"></a>
+<div id="taoptionAnswer0q0b331" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Veracidad y transparencia.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b3312" class="sr-av"><a href="#answer-key0b3312">Opción 2</a></label><input type="radio" name="key0b331" id="key0b3312" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b3312"><a name="answer-key0b3312"></a>
+<div id="taoptionAnswer1q0b331" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Legalidad y mayor y mejor uso.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b3313" class="sr-av"><a href="#answer-key0b3313">Opción 3</a></label><input type="radio" name="key0b331" id="key0b3313" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b3313"><a name="answer-key0b3313"></a>
+<div id="taoptionAnswer2q0b331" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Veracidad y concisión.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b3314" class="sr-av"><a href="#answer-key0b3314">Opción 4</a></label><input type="radio" name="key0b331" id="key0b3314" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b3314"><a name="answer-key0b3314"></a>
+<div id="taoptionAnswer3q0b331" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Legalidad, veracidad y exhaustividad.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b331" class="block iDevice_content">
+<div class="ee_enunciado"><b>Determine si la siguiente afirmación es verdadera o falsa:</b>“En caso de que se realice una actualización del informe y certificado de una tasación deberán cumplirse las mismas exigencias que las de cualquier otra tasación”.</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b3311" class="sr-av"><a href="#answer-key1b3311">Opción 1</a></label><input type="radio" name="key1b331" id="key1b3311" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b3311"><a name="answer-key1b3311"></a>
+<div id="taoptionAnswer0q1b331" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b3312" class="sr-av"><a href="#answer-key1b3312">Opción 2</a></label><input type="radio" name="key1b331" id="key1b3312" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b3312"><a name="answer-key1b3312"></a>
+<div id="taoptionAnswer1q1b331" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b331" class="block iDevice_content">
+<div class="ee_enunciado"><b>El plazo de emisión de los informes y certificados de tasación es:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b3311" class="sr-av"><a href="#answer-key2b3311">Opción 1</a></label><input type="radio" name="key2b331" id="key2b3311" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b3311"><a name="answer-key2b3311"></a>
+<div id="taoptionAnswer0q2b331" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Como regla general, la fecha de emisión de un informe o certificado de tasación no podrá ser superior a dos meses desde la inspección ocular.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b3312" class="sr-av"><a href="#answer-key2b3312">Opción 2</a></label><input type="radio" name="key2b331" id="key2b3312" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b3312"><a name="answer-key2b3312"></a>
+<div id="taoptionAnswer1q2b331" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La fecha de emisión de un informe o certificado de tasación no podrá ser superior a tres meses desde la fecha en que se solicitara la tasación.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b3313" class="sr-av"><a href="#answer-key2b3313">Opción 3</a></label><input type="radio" name="key2b331" id="key2b3313" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b3313"><a name="answer-key2b3313"></a>
+<div id="taoptionAnswer2q2b331" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Como regla general, la fecha de emisión de un informe o certificado de tasación podrá emitirse hasta seis mese después de la inspección ocular.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b3314" class="sr-av"><a href="#answer-key2b3314">Opción 4</a></label><input type="radio" name="key2b331" id="key2b3314" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b3314"><a name="answer-key2b3314"></a>
+<div id="taoptionAnswer3q2b331" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El plazo de emisión de los informes y certificados de tasación, nunca podrá ser superior a siete meses a contar desde la fecha en que se realizó la inspección ocular.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id332">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-332_108">
+<form name="multi-select-form-332_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion332_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Señale alguna de las cuestiones mínimas que deben aparecer en los certificados de tasación (Respuesta múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op332_1080" class="sr-av"><a href="#answer-332_111">Opción 1</a></label><input type="checkbox" id="op332_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-332_111"><a name="answer-332_111"></a>
+<div id="taans332_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Finalidad de la tasación.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-332_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op332_1081" class="sr-av"><a href="#answer-332_725">Opción 2</a></label><input type="checkbox" id="op332_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-332_725"><a name="answer-332_725"></a>
+<div id="taans332_725" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Valor de tasación.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-332_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op332_1082" class="sr-av"><a href="#answer-332_727">Opción 3</a></label><input type="checkbox" id="op332_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-332_727"><a name="answer-332_727"></a>
+<div id="taans332_727" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Condicionantes y advertencias.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-332_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op332_1083" class="sr-av"><a href="#answer-332_729">Opción 4</a></label><input type="checkbox" id="op332_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-332_729"><a name="answer-332_729"></a>
+<div id="taans332_729" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Cálculo realizado para obtener el valor de mercado.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-332_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'332_108')"/> 
+</p>
+</div>
+<div id="f332_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-332_111" class="right">Correcto</a></li>
+<li><a href="#answer-332_725" class="right">Correcto</a></li>
+<li><a href="#answer-332_727" class="right">Correcto</a></li>
+<li><a href="#answer-332_729" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

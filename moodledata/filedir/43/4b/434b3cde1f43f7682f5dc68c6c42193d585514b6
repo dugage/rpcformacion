@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.1. Uso de decisiones para evitar errores ﻿ </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.1. Uso de decisiones para evitar errores ﻿</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id4">
+<div class="iDevice emphasis0">
+<div id="ta4_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>La función SI puede tener multitud de aplicaciones distintas, entre ellas evitar la obtención de errores al efectuar ciertas operaciones. Con este fin la usaremos en nuestra hoja de cálculo con datos de población, a fin de impedir la aparición de divisiones por cero.</p>
+<p>Para calcular el porcentaje de mujeres sobre el total de población utilizábamos una fórmula que, tal como se aprecia en la barra de fórmulas de la imagen que aparece en la figura 7.3, consiste en dividir la población femenina entre la suma de población femenina y masculina, es decir, entre la población total. El problema consiste en que no tenemos datos de población separada por sexos de todos los países. En estos casos, como se ve en la parte central de la misma figura, lo que se obtiene en la celdilla es un mensaje de error.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_M2VFVjBTUldDMmw0UmVlcmVHT283eThvbjJscGdSU3M0S0pxdCUyRmRqOXJZJTNE" id="IMG_M2VFVjBTUldDMmw0UmVlcmVHT283eThvbjJscGdSU3M0S0pxdCUyRmRqOXJZJTNE" alt="Funciones lógicas" title="Funciones lógicas" width="475" /></p>
+<p><b>Figura 7.3.</b> Error obtenido al evaluar una fórmula con operando inválidos.</p>
+<p>Con el fin de evitar este problema, modificaríamos la fórmula usada hasta ahora por otra algo más compleja. En ella utilizaríamos la función SI para comprobar si alguno de los operandos es cero. En caso afirmativo no podemos calcular el porcentaje de población, por lo que directamente introducimos el valor 50%. En caso contrario el cálculo se efectúa como veníamos haciendo hasta ahora.</p>
+<p>La nueva fórmula, tomando como base la que se ve en la figura 7.3, sería la siguiente:</p>
+<p>=SI (O (C56=0 ; D56=0) ; 50%; D56 / C56+D56))</p>
+<p>Tras copiar la nueva fórmula a todas las celdillas de la columna % P. femenina, en la hoja de cálculo no quedaría ninguna división por cero.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

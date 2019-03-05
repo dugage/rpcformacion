@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.5. Conversiones y otras operaciones </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.5. Conversiones y otras operaciones</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Una misma secuencia de caracteres, concretamente de dígitos numéricos, puede interpretarse como un número o como un texto, dependiendo del formato que se haya asignado. Si introduce en una celdilla el valor ’98, por ejemplo, lo que se obtiene en la celdilla es el valor 98 pero en formato de texto. Como ya sabe, basta con abrir la ventana Formato de celdas (véase figura 9.5) para efectuar la conversión de tipo seleccionando el que interese.</p>
+<p>Conversiones similares, estableciendo un determinado formato, pueden efectuarse mediante las funciones VALOR, TEXTO, MONEDA y DECIMAL.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NU01eUp1ZkRCWlRSWlQwZGxCeTkyR2dQOWc0dmxLU2FBNmpQZGVxTENyMCUzRA==" id="IMG_NU01eUp1ZkRCWlRSWlQwZGxCeTkyR2dQOWc0dmxLU2FBNmpQZGVxTENyMCUzRA==" alt="Otras funciones de interés" title="Otras funciones de interés" width="444" /></p>
+<p><b>Figura 9.5.</b> Ventana Formato de celdas.</p>
+<p>Veamos cuál es la finalidad de cada una de ellas y los parámetros que necesitan:</p>
+<ul>
+<li>VALOR: toma como único parámetro un texto y retorna el correspondiente valor en formato de número.</li>
+<li>TEXTO: inversa a la anterior, tomando un número y convirtiéndolo en un texto. El primer parámetro será el número a convertir, mientras el segundo sería una cadena con el formato a aplicar. Las cadenas de formato son las mismas que aparecen en la ventana Formato de celda mencionadas antes.</li>
+<li>MONEDA: como la anterior, pero aplicando directamente el formato de moneda.</li>
+<li>DECIMAL: como las dos anteriores, si bien en este caso se aplica un formato numérico con tantos decimales como se indiquen en el segundo parámetro.</li>
+</ul>
+<p>Otro tipo de conversiones son las que llevan a cabo las funciones MINUSC, MAYUSC y NOMPROPIO. Las tres actúan sobre un texto, que toman como único parámetro y devuelven otro texto con la conversión realizada.</p>
+<p>MINUSC convierte todos los caracteres a minúsculas, MAYUS a mayúsculas y NOMPROPIO inicia cada palabra con mayúscula.</p>
+<p>Puede comprobar las distintas funciones comentadas hasta ahora como se ha hecho en la figura 9.6, simplemente introduciéndolas con unos parámetros de prueba para poder ver el resultado.</p>
+<p>Por último, mencionar tres funciones más que pueden resultarnos útiles en alguna ocasión. La función LARGO nos facilita, entregándole como parámetro un texto, su longitud en número de caracteres. Mediante la función ESPACIOS, entregando también como parámetro un texto, obtendremos el mismo texto pero sin espacios en blanco redundantes, por ejemplo al inicio o final de la cadena. Por último, tenemos la función REPETIR que, como puede suponer, repite un cierto carácter o cadena de caracteres un determinado número de veces, generando una nueva cadena.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_eWFqQ3VBQ3BEUVp3SjN3VGNpbkl6JTJGdGxZQWhKWGZVeHI1ZUFkNkhmUWJNJTNE" id="IMG_eWFqQ3VBQ3BEUVp3SjN3VGNpbkl6JTJGdGxZQWhKWGZVeHI1ZUFkNkhmUWJNJTNE" alt="Otras funciones de interés" title="Otras funciones de interés" width="472" /></p>
+<p><b>Figura 9.6.</b> Hoja con las nuevas conversiones de cadenas de texto.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,444 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | TEMA 8. RÉGIMEN JURÍDICO DE LAS OBRAS EN ELEMENTOS COMUNES Y PRIVATIVOS EN LAS COMUNIDADES DE VECINOS. </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id156">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 0;
+var key1 = 1;
+var key2 = 1;
+var key3 = 0;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b156");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm156").key0b156[i].checked)
+               {
+                  question0 = document.getElementById("quizForm156").key0b156[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b156");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm156").key1b156[i].checked)
+               {
+                  question1 = document.getElementById("quizForm156").key1b156[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b156");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm156").key2b156[i].checked)
+               {
+                  question2 = document.getElementById("quizForm156").key2b156[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b156");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm156").key3b156[i].checked)
+               {
+                  question3 = document.getElementById("quizForm156").key3b156[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b156");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm156").key4b156[i].checked)
+               {
+                  question4 = document.getElementById("quizForm156").key4b156[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm156").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm156" id="quizForm156" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-156" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b156" class="block iDevice_content">
+<p><strong>Las obras necesarias para reparar los desperfectos causados por el uso habitual del inmueble se conocen como:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1561" class="sr-av"><a href="#answer-key0b1561">Opción 1</a></label><input type="radio" name="key0b156" id="key0b1561" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1561"><a name="answer-key0b1561"></a>
+<div id="taoptionAnswer0q0b156" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Obras de reparación ordinarias.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1562" class="sr-av"><a href="#answer-key0b1562">Opción 2</a></label><input type="radio" name="key0b156" id="key0b1562" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1562"><a name="answer-key0b1562"></a>
+<div id="taoptionAnswer1q0b156" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Obras de reparación extraordinarias.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1563" class="sr-av"><a href="#answer-key0b1563">Opción 3</a></label><input type="radio" name="key0b156" id="key0b1563" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1563"><a name="answer-key0b1563"></a>
+<div id="taoptionAnswer2q0b156" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Obras de reparación urgentes.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1564" class="sr-av"><a href="#answer-key0b1564">Opción 4</a></label><input type="radio" name="key0b156" id="key0b1564" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1564"><a name="answer-key0b1564"></a>
+<div id="taoptionAnswer3q0b156" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Obras de innovación.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b156" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Una obra destinada a reparar desperfectos causados por una inundación es una obra de tipo:</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1561" class="sr-av"><a href="#answer-key1b1561">Opción 1</a></label><input type="radio" name="key1b156" id="key1b1561" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1561"><a name="answer-key1b1561"></a>
+<div id="taoptionAnswer0q1b156" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De reparación ordinaria.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1562" class="sr-av"><a href="#answer-key1b1562">Opción 2</a></label><input type="radio" name="key1b156" id="key1b1562" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1562"><a name="answer-key1b1562"></a>
+<div id="taoptionAnswer1q1b156" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De reparación extraordinaria.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1563" class="sr-av"><a href="#answer-key1b1563">Opción 3</a></label><input type="radio" name="key1b156" id="key1b1563" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1563"><a name="answer-key1b1563"></a>
+<div id="taoptionAnswer2q1b156" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De reparación urgente.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1564" class="sr-av"><a href="#answer-key1b1564">Opción 4</a></label><input type="radio" name="key1b156" id="key1b1564" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1564"><a name="answer-key1b1564"></a>
+<div id="taoptionAnswer3q1b156" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">De innovación.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b156" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica si la siguiente afirmación es verdadera o falsa: "La no utilización de un elemento común exime al propietario de contribuir al mantenimiento del mismo". </strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1561" class="sr-av"><a href="#answer-key2b1561">Opción 1</a></label><input type="radio" name="key2b156" id="key2b1561" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1561"><a name="answer-key2b1561"></a>
+<div id="taoptionAnswer0q2b156" class="block iDevice_content">
+<p><span>Verdadera.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1562" class="sr-av"><a href="#answer-key2b1562">Opción 2</a></label><input type="radio" name="key2b156" id="key2b1562" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1562"><a name="answer-key2b1562"></a>
+<div id="taoptionAnswer1q2b156" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b156" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica si la siguiente afirmación es verdadera o falsa: "Existe alguna posibilidad de que la Junta de Propietarios se niegue a realizar determinadas obras en elementos privativos”.</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1561" class="sr-av"><a href="#answer-key3b1561">Opción 1</a></label><input type="radio" name="key3b156" id="key3b1561" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1561"><a name="answer-key3b1561"></a>
+<div id="taoptionAnswer0q3b156" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1562" class="sr-av"><a href="#answer-key3b1562">Opción 2</a></label><input type="radio" name="key3b156" id="key3b1562" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1562"><a name="answer-key3b1562"></a>
+<div id="taoptionAnswer1q3b156" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b156" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Señala la respuesta incorrecta respecto a las obras de innovación en elementos comunes:</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1561" class="sr-av"><a href="#answer-key4b1561">Opción 1</a></label><input type="radio" name="key4b156" id="key4b1561" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1561"><a name="answer-key4b1561"></a>
+<div id="taoptionAnswer0q4b156" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Son necesarias para la adecuada conservación, habitabilidad y seguridad del inmueble.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1562" class="sr-av"><a href="#answer-key4b1562">Opción 2</a></label><input type="radio" name="key4b156" id="key4b1562" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1562"><a name="answer-key4b1562"></a>
+<div id="taoptionAnswer1q4b156" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En caso de que un propietario no esté de acuerdo, puede negarse a pagar su parte proporcional.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1563" class="sr-av"><a href="#answer-key4b1563">Opción 3</a></label><input type="radio" name="key4b156" id="key4b1563" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1563"><a name="answer-key4b1563"></a>
+<div id="taoptionAnswer2q4b156" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En edificios antiguos, no todas las obras son consideradas de innovación.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1564" class="sr-av"><a href="#answer-key4b1564">Opción 4</a></label><input type="radio" name="key4b156" id="key4b1564" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1564"><a name="answer-key4b1564"></a>
+<div id="taoptionAnswer3q4b156" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Un ejemplo podría ser la instalación de un sistema de aire acondicionado común.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

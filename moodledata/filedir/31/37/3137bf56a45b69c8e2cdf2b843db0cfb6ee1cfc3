@@ -1,0 +1,428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Gráficos </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Gráficos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NGZIMHhMNmZYRXVxYmRFdFUwWFhwQkJzMHZyRlRPUzE1bld3Yk11TGMzUSUzRA==" id="IMG_NGZIMHhMNmZYRXVxYmRFdFUwWFhwQkJzMHZyRlRPUzE1bld3Yk11TGMzUSUzRA==" alt="Informes" title="Informes" width="461" /></p>
+<p>Gráficos</p>
+<p>Al entrar en esta opción aparece una pantalla de detalle de los informes y estadísticas que disponen de representación gráfica de los datos o traspaso de la información a una hoja de cálculo de Excel de Microsoft. Situándonos sobre el informe o estadística deseado y pulsando el botón <b>Ejecutar</b> accederemos a una pantalla donde se establecerán las condiciones para la selección de los datos que aparecerán en el Gráfico u Hoja de Cálculo.</p>
+<p>En muchas de las estadísticas explicadas en este capítulo se encontrará con que además de permitirle la salida del informe por pantalla, impresora o fichero.</p>
+<p>En esta ventana el usuario podrá cambiar el tipo de gráfico que desea visualizar, elegir diferentes estilos dentro de cada tipo y cambiar otros atributos generales del gráfico como tamaño, colores, títulos, etc. También podrá imprimir y salvar la imagen del gráfico.</p>
+<p>Solamente puede haber un gráfico visualizado en la aplicación. Si el usuario desea generar un nuevo gráfico debe cerrar previamente la ventana del gráfico actual.</p>
+<h4><b>Conceptos Generales del Gráfico</b></h4>
+<p>El gráfico de la aplicación permite agrupar los valores a representar según series de datos, es decir, grupos de valores cuya sucesión de valores en el eje X es la misma en todas las series.</p>
+<p>Estas series quedan determinadas según la selección de valores a representar que el usuario haya hecho en la pantalla de definición del gráfico.</p>
+<p>A continuación se definen los términos que se emplearán durante la documentación de los gráficos.</p>
+<p><b>Etiquetas</b></p>
+<p>Valores representados en el eje X para gráficos de barras, lineales y de área o junto a los sectores de un círculo para los gráficos de tarta. Corresponden al número de orden de los valores que se representan y llevan asociadas un texto al que nos referiremos también como etiqueta y que se muestra en el eje X o sector asociado.</p>
+<p><b>Leyendas</b></p>
+<p>Series de datos. Si por ejemplo el usuario representa tres series de datos, cada una con 12 valores, el gráfico tendría 3 leyendas y 12 etiquetas. Las series de valores asociadas a cada leyenda se distinguen en la representación del gráfico de forma específica para cada tipo. Cada leyenda lleva asociado un texto al que nos referiremos también como leyenda y que se muestra en la parte derecha del gráfico.</p>
+<p><b>Tipos</b></p>
+<p>Cada una de las formas diferentes con que se pueden visualizar los valores.</p>
+<p><b>Estilos</b></p>
+<p>Opciones dentro de cada tipo. Modifican ligeramente la forma en que se visualizarán los datos.</p>
+<p><b>Atributos</b></p>
+<p>Cada una de las opciones generales de presentación del gráfico. En general serán aplicables a más de un tipo, estilo o al gráfico en su conjunto.</p>
+<h4><b>Opciones de Presentación del Gráfico</b></h4>
+<h4><b>Cambio de Tamaño del Gráfico</b></h4>
+<p>El cambio de tamaño del gráfico se consigue cambiando el tamaño de la ventana donde está dibujado. Es la única opción de presentación a la que no se accede por medio de la barra de botones. Todos los elementos del gráfico se reescalan al cambiar el tamaño de la ventana.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RkFIOHV1eVJDbmthVDBCR0N6OUVoemxUeUFxTWlPNEw0RkZJaEE0OTVFYyUzRA==" id="IMG_RkFIOHV1eVJDbmthVDBCR0N6OUVoemxUeUFxTWlPNEw0RkZJaEE0OTVFYyUzRA==" alt="Informes" title="Informes" height="99" width="566" /></p>
+<h4><b>Barra de Botones de la Ventana de Gráficos</b></h4>
+<p>A través de esta barra de botones el usuario accede a todas las posibilidades de presentación del gráfico.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dm53cXQ3MXQwWFIxZ215ajZXdEoxRTR6R0JLWFV0cDRFbVdRU2FNMmVMOCUzRA==" id="IMG_dm53cXQ3MXQwWFIxZ215ajZXdEoxRTR6R0JLWFV0cDRFbVdRU2FNMmVMOCUzRA==" alt="Informes" title="Informes" height="35" width="509" /></p>
+<p>Barra de botones</p>
+<p>Si en un momento determinado algún botón está inhibido (al pulsarlo no responde hundiéndose), esto quiere decir que la opción correspondiente no se aplica en la condición actual del gráfico o bien que la opción ya está activa.</p>
+<p>A continuación se describen los botones de la ventana de gráficos de izquierda a derecha y según los cuatro grupos de botones existentes.</p>
+<p><b>Grupo de Tipos</b></p>
+<p>Todos los botones de este grupo cambian directamente el tipo de gráfico sin pedir confirmación ni datos adicionales.</p>
+<p>Los comentarios acerca de la presentación de datos en cada uno de los tipos se refieren al estilo por defecto.</p>
+<p><b>Tarta 2D</b></p>
+<p>Los datos se representan como sectores de un círculo de área proporcional al valor. Solamente se pueden representar los valores asociados a una leyenda y en caso de que haya más de una, se representan por defecto los valores asociados a la primera, aunque el usuario puede elegir posteriormente otra a través de las opciones de estilo.</p>
+<p>El texto de la leyenda se añade automáticamente al título del gráfico.</p>
+<p><b>Tarta 3D</b></p>
+<p>Igual que tarta 2D pero el círculo se representa como un disco con grosor y en perspectiva.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Z1ZYMzRaUW54aDJ2OVp6ckZyRGZCUTFnayUyRnc5czd6emFUJTJGUjQ5OWRHZjAlM0Q=" id="IMG_Z1ZYMzRaUW54aDJ2OVp6ckZyRGZCUTFnayUyRnc5czd6emFUJTJGUjQ5OWRHZjAlM0Q=" alt="Informes" title="Informes" width="525" /></p>
+<p>Tarta 3D</p>
+<p><b>Barras 2D</b></p>
+<p>Es el tipo por defecto con el que se presenta el gráfico. Los datos se representan como rectángulos de longitud proporcional al valor. Cada leyenda está asociada a un número de barra dentro de cada etiqueta, de forma que el valor de la primera leyenda siempre será el de la primera barra en todas las etiquetas, el de la segunda leyenda será el de la segunda barra y así sucesivamente.</p>
+<p><b>Barras 3D</b></p>
+<p>Igual que Barras 2D pero hay un eje adicional (eje Z) en perspectiva. En este caso se puede elegir que las barras dentro de cada etiqueta estén agrupadas según el eje X o el eje Z.</p>
+<p><b>Lineal</b></p>
+<p>Cada leyenda viene representada por una línea que une todos los datos asociados y cuya altura en cada etiqueta es proporcional al valor.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dmtMelVNWWF4eGRlREgyYjdXNldMUTVneWR4aThUS2RrZHFpNXZET0JTOCUzRA==" id="IMG_dmtMelVNWWF4eGRlREgyYjdXNldMUTVneWR4aThUS2RrZHFpNXZET0JTOCUzRA==" alt="Informes" title="Informes" width="508" /></p>
+<p>Gráfico lineal</p>
+<p><b>Lineal Logarítmico</b></p>
+<p>Igual que el lineal pero la escala de valores es logarítmica, es decir, el valor representado en el eje Y es la potencia en base 10 del valor correspondiente (aunque el texto indique el valor real). De esta forma se consiguen visualizar simultáneamente valores muy dispares.</p>
+<p><b>Polar</b></p>
+<p>Cada leyenda viene representada por una línea que une todos los datos asociados y cuya distancia al centro de una circunferencia es proporcional al valor. Las etiquetas se distribuyen uniformemente a lo largo de los 360º de la circunferencia, es decir, si hay dos estarán separadas 180º, si hay tres 120º, y así sucesivamente. La primera siempre se coloca en el eje horizontal y los ángulos se incrementan en sentido antihorario.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OU13SWpNR3h6SkdVdXE1VkJHcGY1eUdkWXhabzd3b1B4ZEwxRk5tcnRPRSUzRA==" id="IMG_OU13SWpNR3h6SkdVdXE1VkJHcGY1eUdkWXhabzd3b1B4ZEwxRk5tcnRPRSUzRA==" alt="Informes" title="Informes" width="526" /></p>
+<p>Gráfico polar</p>
+<p><b>Área</b></p>
+<p>Cada leyenda viene representada por una zona del plano de color uniforme comprendida entre dos líneas y cuya altura en cada etiqueta es proporcional al valor.</p>
+<p><b>Grupo de Estilos, Textos y Atributos</b></p>
+<p>Cada uno de los botones de este grupo abre una caja de diálogo de opciones.</p>
+<p><b>Estilo</b></p>
+<p>Este botón presenta una caja de diálogo con las opciones de estilos asociadas al tipo de gráfico que se esté representando. Hay cuatro tipos distintos en relación con las opciones de estilo: tartas, barras, líneas y área.</p>
+<p>Más adelante, en el apartado Estilos, se detallarán todas las opciones disponibles para cada uno de los tipos.</p>
+<p><b>Textos</b></p>
+<p>Este botón presenta una caja de diálogo con cuatro opciones que permiten definir la presentación de todos los textos que aparecen en el gráfico:</p>
+<ul>
+<li>Fuentes.</li>
+<li>Títulos.</li>
+<li>Etiquetas.</li>
+<li>Leyendas.</li>
+</ul>
+<p>El usuario debe seleccionar una de las cuatro opciones y pulsar el botón de continuar para abrir la caja de diálogo de opciones de la elegida. Más adelante, en el apartado Textos, se describen con detalle todas las opciones disponibles.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bzV2Tk1zT1pjV2RQSmZCbDlWNXZIa1ppM1c5dFdSZWhvYUxKbGRZUnNvMCUzRA==" id="IMG_bzV2Tk1zT1pjV2RQSmZCbDlWNXZIa1ppM1c5dFdSZWhvYUxKbGRZUnNvMCUzRA==" alt="Informes" title="Informes" width="445" /></p>
+<p>Textos</p>
+<p><b>Atributos</b></p>
+<p>Este botón presenta una caja de diálogo con seis opciones que permiten definir atributos comunes a todos o varios tipos de gráfico:</p>
+<ul>
+<li>Colores.</li>
+<li>Malla.</li>
+<li>Marcas.</li>
+<li>Símbolos.</li>
+<li>Estadísticas.</li>
+<li>Eje Y.</li>
+</ul>
+<p>El usuario debe seleccionar una de las seis opciones y pulsar el botón de continuar para abrir la caja de diálogo de opciones de la elegida.</p>
+<p>Más adelante, en el apartado Atributos, se describen con detalle todas las opciones disponibles.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_V2lleDIlMkZWZ0RxOHlhTUhFbUJkTFRkVTNueW5rQnklMkY1emtTbG04RTN4VHMlM0Q=" id="IMG_V2lleDIlMkZWZ0RxOHlhTUhFbUJkTFRkVTNueW5rQnklMkY1emtTbG04RTN4VHMlM0Q=" alt="Informes" title="Informes" width="564" /></p>
+<p>Atributos</p>
+<p><b>Grupo de Impresión y Salvado del Gráfico</b></p>
+<p><b>Imprimir</b></p>
+<p>Este botón abre una caja de diálogo con cuatro opciones de impresión del gráfico:</p>
+<ul>
+<li>Monocromo.</li>
+<li>Color.</li>
+<li>Monocromo con borde.</li>
+<li>Color con borde.</li>
+</ul>
+<p>El usuario debe elegir una de las cuatro opciones y pulsar el botón de aceptar para imprimir directamente la imagen del gráfico con su tamaño actual por la impresora predeterminada de <i>Windows</i>.</p>
+<p>Lógicamente las opciones de color sólo las deberá seleccionar el usuario si su impresora soporta impresión de color.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UlNtN1cxSUNSSWRFM0tJbjlUaVY5T0pHN1ptZ21tVTBUdks3SERmZDU4cyUzRA==" id="IMG_UlNtN1cxSUNSSWRFM0tJbjlUaVY5T0pHN1ptZ21tVTBUdks3SERmZDU4cyUzRA==" alt="Informes" title="Informes" width="328" /></p>
+<p>Imprimir gráfico</p>
+<p><b>Salvar Imagen en Fichero</b></p>
+<p>Este botón abre la caja de diálogo estándar de <i>Windows</i> de selección de fichero. Si en esta caja el usuario pulsa el botón de aceptar, la imagen del gráfico con su tamaño actual se salvará en formato BMP en el fichero seleccionado.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZVBZUzR3Wk02Yzl0dzhNRXZ4czdBUTVvJTJGZjFZJTJCUDNZTG5jWVNrOUFNZDglM0Q=" id="IMG_ZVBZUzR3Wk02Yzl0dzhNRXZ4czdBUTVvJTJGZjFZJTJCUDNZTG5jWVNrOUFNZDglM0Q=" alt="Informes" title="Informes" width="561" /></p>
+<p><b>Salvar en el Portapapeles</b></p>
+<p>Este botón salva directamente la imagen del gráfico con su tamaño actual en el portapapeles de Windows para un posterior tratamiento.</p>
+<p><b>Botón derecho del ratón</b></p>
+<p>Si se posiciona en el gráfico y pulsa el botón derecho del ratón se despliega una serie de funcionalidades para realizar un tratamiento del propio gráfico en pantalla,</p>
+<ul>
+<li>Ver</li>
+<li>Tipo de gráfico</li>
+<li>Imagen de fondo</li>
+<li>Copiar</li>
+<li>Mostrar/Ocultar y series</li>
+<li>Editar valores</li>
+</ul>
+<p><i>Ver,</i> podrá cambiar los distintos modos de visualizar el gráfico en pantalla.</p>
+<p><i>Tipo de gráfico</i>, le permite mostrar los datos con distintos tipos de gráficos.</p>
+<p><i>Imagen de fondo</i>, permite poner un fondo a la visualización de datos.</p>
+<p><i>Copiar</i>, realiza la acción de copiar para trasladar la imagen a un editor de texto o imagen, aplicaciones disponibles por el usuario.</p>
+<p><i>Mostrar/Ocultar y series</i>, muestra las distintas series que compone el gráfico, puede marcar y desmarcar para personalizar la visualización.</p>
+<p><i>Editar valores</i>, el gráfico muestra los valores que tiene la aplicación pero dichos valores los puede modificar o alimentar manualmente.</p>
+<h4><b>Estilos</b></h4>
+<p>En este apartado se describen todas las opciones de estilo para cada uno de los cuatro grupos de tipos: tartas, barras, líneas y área.</p>
+<h4><b>Tartas</b></h4>
+<p>Común para Tartas 2D y Tartas 3D</p>
+<p>El usuario puede definir el color, tipo y valor de las etiquetas de la tarta, qué sectores quiere desplazar hacia afuera del círculo para distinguirlos del resto, qué leyenda quiere visualizar y si quiere que la etiqueta represente el valor asociado al sector o el texto predefinido.</p>
+<p>En los gráficos de tipo tarta las etiquetas se representan junto a cada sector del círculo.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_QUlLTmZYWFElMkJDTXphSTN3NjdUTEZJT2xwRjdMWk9pZyUyQnNpMnlPNmt4NFklM0Q=" id="IMG_QUlLTmZYWFElMkJDTXphSTN3NjdUTEZJT2xwRjdMWk9pZyUyQnNpMnlPNmt4NFklM0Q=" alt="Informes" title="Informes" width="434" /></p>
+<p>Gráficos de tartas 2D y 3D</p>
+<p><b>Color, Tipo y Valor</b></p>
+<ul>
+<li>Normal: el texto se representa junto al sector asociado y va unido por una línea al sector correspondiente.</li>
+<li>Sin Líneas de Etiqueta: no hay línea de unión entre el texto y el sector.</li>
+<li>Etiquetas de Color: igual que Normal pero el color del texto es el mismo que el del sector.</li>
+<li>Etiquetas de Color sin Líneas: igual que el anterior pero sin línea de unión entre el texto y el sector correspondiente. Las cuatro opciones siguientes son semejantes a las anteriores salvo que el valor representado como etiqueta es el tanto por ciento del valor asociado al sector respecto al acumulado de todos los valores. Estarán inhibidas si se ha elegido representar el texto predefinido en las etiquetas en vez del valor asociado al sector.</li>
+</ul>
+<ul>
+<li>Etiquetas %.</li>
+<li>Etiquetas % sin líneas.</li>
+<li>Etiquetas % de color.</li>
+<li>Etiquetas % de color sin líneas.</li>
+</ul>
+<p><b>Sectores a Separar</b></p>
+<p>Mediante una lista desplegable y una caja lógica el usuario puede elegir qué sectores desea desplazar para distinguirlos rápidamente del resto. La lista desplegable contiene el número de orden de las etiquetas existentes.</p>
+<p>El usuario elige el número de etiqueta que desee en la lista desplegable y a continuación hace clic en la caja lógica para marcar/desmarcar la opción de separar. Cuando el usuario selecciona un número de etiqueta, la caja lógica indica el estado actual de la opción para esa etiqueta.</p>
+<p>Hay un botón etiquetado como "Borrar Todo" que deja todos los sectores juntos, previa confirmación del usuario.</p>
+<p><b>Leyenda a Visualizar</b></p>
+<p>Mediante una lista desplegable el usuario puede elegir la leyenda que desea visualizar en el gráfico de tarta. La lista desplegable contiene el número de orden de las leyendas existentes.</p>
+<p><b>Valores a Representar</b></p>
+<p>El usuario dispone de un menú de botones de selección con dos opciones.</p>
+<ul>
+<li>Visualizar Valores: las etiquetas muestran el valor del sector asociado.</li>
+<li>Visualizar Etiquetas: las etiquetas muestran el texto que tengan asignado.</li>
+</ul>
+<h4><b>Barras</b></h4>
+<p>Común para Barras 2D y Barras 3D.</p>
+<p>El usuario dispone de un menú de botones de selección con ocho opciones.</p>
+<p>Las dos últimas opciones estarán inhibidas para las barras 2D.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Mms3N09zbFFhczc5eHZ5eGRkSnhoU1V1WnUxRGUyRHVJJTJCWDk5RVNYUm84JTNE" id="IMG_Mms3N09zbFFhczc5eHZ5eGRkSnhoU1V1WnUxRGUyRHVJJTJCWDk5RVNYUm84JTNE" alt="Informes" title="Informes" width="417" /></p>
+<p>Barras 2D y 3D</p>
+<ul>
+<li><b>Vertical, Agrupado: </b> los valores de las distintas leyendas se presentan como barras agrupadas dentro de la misma etiqueta.</li>
+<li><b>Horizontal, Agrupado: </b> igual que el anterior pero el gráfico aparece girado (etiquetas en eje Y, valores en el eje X).</li>
+<li><b>Vertical, Apilado: </b> los valores de las distintas leyendas se presentan como barras apiladas dentro de la misma etiqueta. El valor de cada dato es proporcional a la longitud de cada barra, no la altura total en el eje Y.</li>
+<li><b>Horizontal, Apilado: </b> igual que el anterior pero el gráfico aparece girado (etiquetas en eje Y, valores en el eje X).</li>
+<li><b>Vertical, Apilado %: </b> igual que el vertical apilado pero el valor representado para cada dato es el % respecto al total acumulado para cada etiqueta.</li>
+<li><b>Horizontal, Apilado %: </b> igual que el anterior pero el gráfico aparece girado (etiquetas en eje Y, valores en el eje X).</li>
+<li><b>Vertical, Agrupado en Eje Z: </b> los valores de las distintas leyendas se presentan como barras agrupadas dentro de la misma etiqueta. El gráfico se muestra con perspectiva y las barras de una misma etiqueta se agrupan en el eje Z (eje en perspectiva). Puede ocurrir que las barras de algunas leyendas queden ocultas por las de otras leyendas anteriores con mayor valor.</li>
+<li><b>Horizontal, Agrupado en Eje Z:</b> igual que el anterior pero el gráfico aparece girado (etiquetas en eje Y, valores en el eje X).</li>
+</ul>
+<h4><b>Líneas</b></h4>
+<p>Común para Lineal, Lineal logarítmico y Polar.</p>
+<p>El usuario dispone de dos menús de botones de selección para elegir la forma de visualización de las líneas: en el primero puede elegir cualquiera de las posibles combinaciones de líneas, símbolos y marcas y el segundo permite elegir el grosor de línea.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZiUyRjhHU2tyUkNKYVBUTDhBMWklMkYxJTJCejRYaXRRVnU5R3Y3bUJQaVlJNkE1TSUzRA==" id="IMG_ZiUyRjhHU2tyUkNKYVBUTDhBMWklMkYxJTJCejRYaXRRVnU5R3Y3bUJQaVlJNkE1TSUzRA==" alt="Informes" title="Informes" width="368" /></p>
+<p>Líneas</p>
+<p><b>Menú de Líneas, Símbolos y Marcas</b></p>
+<ul>
+<li><b>Líneas:</b> los puntos asociados a cada leyenda se unen por medio de trazos continuos.</li>
+<li><b>Símbolos:</b> los puntos asociados a cada leyenda se marcan con un símbolo predeterminado o definido por el usuario (cruz, rombo, etc.).</li>
+<li><b>Marcas:</b> los puntos asociados a cada leyenda se señalan con una línea vertical que parte del eje X.</li>
+<li><b>Marcas y Símbolos:</b> combinación de las opciones segunda y tercera.</li>
+<li><b>Líneas y Símbolos:</b> combinación de las opciones primera y segunda.</li>
+<li><b>Líneas y Marcas:</b> combinación de las opciones primera y tercera.</li>
+<li><b>Líneas, Marcas y Símbolos:</b> combinación de las opciones primera, segunda y tercera.</li>
+</ul>
+<p><b>Menú de Grosor</b></p>
+<ul>
+<li><b>Normal:</b> el trazo de las líneas que unen los puntos es de un píxel de grosor.</li>
+<li><b>Grueso:</b> el trazo de las líneas que unen los puntos es de tres píxeles de grosor.</li>
+</ul>
+<h4><b>Área</b></h4>
+<p>El usuario dispone de un menú de botones de selección para elegir la forma de presentación de los datos:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_M3JJJTJCcGNyeWpvR09WRjVmczYwbGJEbjJHS0RXOXExREFPanpGMTJTMmNRJTNE" id="IMG_M3JJJTJCcGNyeWpvR09WRjVmczYwbGJEbjJHS0RXOXExREFPanpGMTJTMmNRJTNE" alt="Informes" title="Informes" width="218" /></p>
+<p>Área</p>
+<ul>
+<li><b>Apilar Grupos:</b> cada leyenda se coloca encima de la anterior, de forma que el valor de cada dato es proporcional a la altura de la zona asociada, no a la altura total.</li>
+<li><b>Valor Absoluto:</b> la zona asociada a cada leyenda se coloca delante de la anterior. Por tanto algunas zonas pueden quedar ocultas.</li>
+<li><b>Valor %:</b> igual que la primera opción pero el valor representado para cada dato es el % respecto al acumulado de cada etiqueta.</li>
+</ul>
+<h4><b>Textos</b></h4>
+<p>En este apartado se describen todas y cada una de las opciones de presentación que el usuario tiene disponibles en la caja de diálogo de textos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_d2ElMkJJJTJCWFUxS01zbVlHd2RJellKbzdwRnVOamFlVE14d0FUdDlGQ25PTmMlM0Q=" id="IMG_d2ElMkJJJTJCWFUxS01zbVlHd2RJellKbzdwRnVOamFlVE14d0FUdDlGQ25PTmMlM0Q=" alt="Informes" title="Informes" width="328" /></p>
+<p>Textos</p>
+<h4><b>Fuentes</b></h4>
+<p>La selección de la opción Fuentes en la caja de diálogo de Textos abre a su vez una nueva caja de diálogo con tres menús de botones de selección que permiten cambiar la familia y estilo de la fuente utilizado para cada uno de los cuatro grupos de textos definidos en el gráfico (título general, otros títulos, etiquetas y leyendas). El tamaño de la fuente está asociado al tamaño del gráfico y no es modificable por el usuario.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZGglMkZJVTVONDVVSjRTOFJKMHQ4S1U3c2pmZ3IlMkJDcDhGWG5kVTAlMkJvV1JKYyUzRA==" id="IMG_ZGglMkZJVTVONDVVSjRTOFJKMHQ4S1U3c2pmZ3IlMkJDcDhGWG5kVTAlMkJvV1JKYyUzRA==" alt="Informes" title="Informes" width="562" /></p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TzZqQXpFUXVpMzR4R28lMkZYOXFxdyUyRnJOb09iNnVqTm52WnolMkJsanRSaW1XbyUzRA==" id="IMG_TzZqQXpFUXVpMzR4R28lMkZYOXFxdyUyRnJOb09iNnVqTm52WnolMkJsanRSaW1XbyUzRA==" alt="Informes" title="Informes" width="486" /></p>
+<p>Fuentes</p>
+<p><b>Menú Aplicar A</b></p>
+<ul>
+<li>En este menú el usuario selecciona el grupo de textos a modificar:</li>
+<li>Título del Gráfico: título situado en la parte superior del gráfico.</li>
+<li>Otros Títulos: títulos inferior e izquierdo del gráfico.</li>
+<li>Etiquetas: textos de las etiquetas (situadas en el eje X o sectores de la tarta).</li>
+<li>Leyendas: textos de las leyendas (situadas en la parte derecha del gráfico).</li>
+<li>Todos: engloba los cuatro grupos descritos anteriormente.</li>
+</ul>
+<p><b>Menú Estilo</b></p>
+<p>En este menú el usuario puede elegir varias combinaciones de negrita, subrayado e itálica para la fuente:</p>
+<ul>
+<li>Normal.</li>
+<li>Itálica.</li>
+<li>Negrita.</li>
+<li>Negrita itálica.</li>
+<li>Subrayado.</li>
+<li>Subrayado itálica.</li>
+<li>Subrayado negrita.</li>
+<li>Subrayado, negrita itálica.</li>
+</ul>
+<p><b>Menú Familia</b></p>
+<p>En este menú el usuario elige la familia (características tipográficas) de la fuente:</p>
+<ul>
+<li>Normal.</li>
+<li>Swiss.</li>
+<li>Modern.</li>
+</ul>
+<h4><b>Títulos</b></h4>
+<p>La selección de la opción Títulos en la caja de diálogo de Textos abre a su vez una nueva caja de diálogo con tres campos de edición para que el usuario pueda modificar el título general y los títulos inferior e izquierdo del gráfico.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MXlVRVAlMkIlMkZVZmZRTWp2WmJFRlJsMm5KQ09UVTJFcW9PMDdScGlCWkpTNUklM0Q=" id="IMG_MXlVRVAlMkIlMkZVZmZRTWp2WmJFRlJsMm5KQ09UVTJFcW9PMDdScGlCWkpTNUklM0Q=" alt="Informes" title="Informes" width="552" /></p>
+<p>Títulos</p>
+<p>Cada uno de estos títulos puede tener un máximo de 80 caracteres. El gráfico ajusta automáticamente el tamaño de la fuente para cada título en función de la longitud de los textos y del tamaño del gráfico.</p>
+<ul>
+<li>Título general.</li>
+<li>Título izquierdo.</li>
+<li>Título derecho.</li>
+</ul>
+<h4><b>Etiquetas</b></h4>
+<p>La selección de la opción Etiquetas en la caja de diálogo de Textos abre a su vez una nueva caja de diálogo que permite al usuario elegir dónde se presentarán las etiquetas y el texto asociado a cada una de ellas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cGNZZWJzOSUyRnV3TUNIR01UTGUxVEFaSlRxVjU4UnpoWjlWRjJSeURBaVdnJTNE" id="IMG_cGNZZWJzOSUyRnV3TUNIR01UTGUxVEFaSlRxVjU4UnpoWjlWRjJSeURBaVdnJTNE" alt="Informes" title="Informes" width="423" /></p>
+<p>Etiquetas</p>
+<p><b>Menú Mostrar</b></p>
+<p>En este menú el usuario puede elegir en qué ejes se van a mostrar las etiquetas. En este menú es en el único en que el usuario puede modificar los textos asociados al eje Y.</p>
+<ul>
+<li>Ninguno: no se mostrará el texto asociado al valor en ningún eje.</li>
+<li>Ambos: se mostrarán los textos asociados a los valores en ambos ejes.</li>
+<li>Eje X: sólo se mostrarán los textos asociados a los valores en el eje Y.</li>
+<li>Eje Y: sólo se mostrarán los textos asociados a los valores en el eje X.</li>
+</ul>
+<p><b>Textos de las Etiquetas</b></p>
+<p>El usuario dispone de una lista desplegable y de un campo de edición para poder definir el texto asociado a cualquier etiqueta. La lista desplegable muestra el número de orden de todas las etiquetas disponibles y el campo de edición muestra el texto actual de la etiqueta seleccionada en la lista desplegable. El usuario puede modificar el texto en el campo de edición.</p>
+<p>El usuario dispone de un Botón etiquetado como "<i>Borrar Todas</i>" que deja todas las etiquetas sin texto, previa confirmación del usuario. El gráfico asigna en este caso un texto por defecto a las etiquetas, el correspondiente a su nº de orden.</p>
+<h4><b>Leyendas</b></h4>
+<p>La selección de la opción Leyendas en la caja de diálogo de Textos abre a su vez una nueva caja de diálogo que permite al usuario elegir cómo se presentarán las leyendas y el texto asociado a cada una de ellas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_c3hRODQ2aHNEcGlSVnhSVHVVN1JkeDN6M0hyam9ZeU4lMkZyJTJGSyUyQlM0cUVXQSUzRA==" id="IMG_c3hRODQ2aHNEcGlSVnhSVHVVN1JkeDN6M0hyam9ZeU4lMkZyJTJGSyUyQlM0cUVXQSUzRA==" alt="Informes" title="Informes" width="471" /></p>
+<p>Leyendas</p>
+<p><b>Opciones Colores</b></p>
+<p>En este menú el usuario puede elegir si el texto de las leyendas se mostrará en el color general de textos del gráfico o en el color asociado a cada leyenda.</p>
+<ul>
+<li>Monocromo: el texto es del color general de texto del gráfico.</li>
+<li>Color: el color del texto de cada leyenda corresponde al asignado por el gráfico a la leyenda.</li>
+</ul>
+<p><b>Textos de las Leyendas</b></p>
+<p>El usuario dispone de una lista desplegable y de un campo de edición para poder definir el texto asociado a cualquier leyenda. La lista desplegable muestra el número de orden de todas las leyendas disponibles y el campo de edición muestra el texto actual de la leyenda seleccionada en la lista desplegable. El usuario puede modificar el texto en el campo de edición.</p>
+<p>El usuario dispone de un Botón etiquetado como "Borrar Todas" que deja todas las leyendas sin texto, previa confirmación del usuario. En este caso, el gráfico no mostrará las leyendas en la parte derecha del gráfico.</p>
+<h4><b>Atributos</b></h4>
+<p>Los atributos son opciones de presentación generales del gráfico. Dentro de este apartado se describen todas y cada una de las opciones disponibles dentro de la caja de diálogo de atributos (descrita ya en el apartado de barra de botones).</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WVdpT1NmU2JwNDJGdm9CWWJFNFk5QyUyQmV6JTJGYVFqNFlHWjJsTjVXajNaZWMlM0Q=" id="IMG_WVdpT1NmU2JwNDJGdm9CWWJFNFk5QyUyQmV6JTJGYVFqNFlHWjJsTjVXajNaZWMlM0Q=" alt="Informes" title="Informes" width="329" /></p>
+<p>Atributos</p>
+<h4><b>Colores</b></h4>
+<p>La selección de la opción colores en la caja de diálogo de atributos abre a su vez una nueva caja de diálogo que permite al usuario definir si el gráfico va a presentarse en color o monocromo, el tipo de paleta a emplear y los colores de fondo, texto, lateral de barras 3D y leyendas (o etiquetas).</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_QU0lMkY1UllXcTkySlVyVUJyNjEyeHRqcVhpVzhBbUNJc1NyTTM0MWJSWmtJJTNE" id="IMG_QU0lMkY1UllXcTkySlVyVUJyNjEyeHRqcVhpVzhBbUNJc1NyTTM0MWJSWmtJJTNE" alt="Informes" title="Informes" width="566" /></p>
+<p>Una vez que el usuario ha seleccionado el elemento del gráfico al que desea aplicar la selección de color, deberá elegir en el menú de "Paleta de colores" el color deseado.</p>
+<p>Si el elemento elegido es "Lateral barras 3D" el usuario dispone de una lista desplegable con el nº de orden de las leyendas o etiquetas para poder ir asignando colores a cada una de ellas (el nº será el de leyendas si hay más de una o el de etiquetas si sólo hay una leyenda). El rectángulo de color adyacente a la lista mostrará el color del elemento seleccionado en ésta.</p>
+<p>Si el elemento elegido es "Leyendas" el usuario dispone de una lista desplegable con el nº de orden de las leyendas o etiquetas para poder ir asignando colores a cada una de ellas (el nº será el de leyendas si hay más de una o el de etiquetas si sólo hay una leyenda o el tipo de gráfico es de tarta). El rectángulo de color adyacente a la lista mostrará el color del elemento seleccionado en ésta.</p>
+<p><b>Aplicar</b></p>
+<p>El usuario elige en este menú de botones de selección el grupo de elementos al que va a aplicar la selección de color.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MiUyRlp5VVZwdzhvYmFiWVN5OG5JMHVDNk5KUkFSaEZJTmJ5ZGExY0IxV05RJTNE" id="IMG_MiUyRlp5VVZwdzhvYmFiWVN5OG5JMHVDNk5KUkFSaEZJTmJ5ZGExY0IxV05RJTNE" alt="Informes" title="Informes" width="476" /></p>
+<p>Colores</p>
+<ul>
+<li>Tapiz: el color seleccionado se aplicará al fondo de la ventana de gráficos.</li>
+<li>Texto: el color seleccionado se aplicará a todos los textos del gráfico.</li>
+<li>Laterales 3D: los colores seleccionados se aplicarán al lateral y parte superior de las barras 3D.</li>
+<li>Leyendas: los colores seleccionados se aplicarán a las leyendas o a las etiquetas en los gráficos de tipo tarta.</li>
+</ul>
+<p><b>Menú Color Gráfico</b></p>
+<p>El usuario elige en este menú si el gráfico se presentará en dos colores o con todos los colores que el gráfico asigna a los distintos elementos.</p>
+<ul>
+<li>Monocromo: dos colores.</li>
+<li>Color: todos los colores del gráfico.</li>
+</ul>
+<p><b>Menú Paleta de Colores</b></p>
+<ul>
+<li>Sólida: los colores se presentan con la paleta de colores de Windows.</li>
+<li>Grises: los colores se muestran como tramas de grises (puede ser útil a la hora de imprimir).</li>
+</ul>
+<h4><b>Malla</b></h4>
+<p>La selección de la opción Malla en la caja de diálogo de atributos abre a su vez una nueva caja de diálogo que permite al usuario definir si el gráfico dibujará líneas paralelas a los ejes, trazadas desde las etiquetas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bmVlenlZeSUyQnd2ellCTW5Ka1hWb3VSdSUyQjlKZW5kSW04TlBBSFBaYnp5ZTQlM0Q=" id="IMG_bmVlenlZeSUyQnd2ellCTW5Ka1hWb3VSdSUyQjlKZW5kSW04TlBBSFBaYnp5ZTQlM0Q=" alt="Informes" title="Informes" width="327" /></p>
+<p>Malla</p>
+<ul>
+<li>Sin Malla: no hay líneas de malla desde ningún eje.</li>
+<li>Horizontal: hay líneas de malla paralelas al eje X (salen de las etiquetas del eje Y).</li>
+<li>Vertical: hay líneas de malla paralelas al eje Y (salen de las etiquetas del eje X).</li>
+<li>Ambos Ejes: hay líneas de malla paralelas a ambos ejes.</li>
+</ul>
+<h4><b>Marcas</b></h4>
+<p>La selección de la opción Marcas en la caja de diálogo de atributos abre a su vez una nueva caja de diálogo que permite al usuario definir si el gráfico dibujará pequeños trazos rectos en los ejes para cada etiqueta.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZVZHRU1JJTJGUTBRZk9lTGxMUG5QWCUyRjVjN0glMkJwWk1rQXhaMWQ0UE40R3B3SSUzRA==" id="IMG_ZVZHRU1JJTJGUTBRZk9lTGxMUG5QWCUyRjVjN0glMkJwWk1rQXhaMWQ0UE40R3B3SSUzRA==" alt="Informes" title="Informes" width="327" /></p>
+<p>Marcas</p>
+<ul>
+<li>Ninguno: no hay marcas en ningún eje.</li>
+<li>Ambos: hay marcas en los dos ejes.</li>
+<li>Sólo eje X: hay marcas sólo en el eje X.</li>
+<li>Sólo eje Y: hay marcas sólo en el eje Y.</li>
+</ul>
+<h4><b>Símbolos</b></h4>
+<p>La selección de la opción Símbolos en la caja de diálogo de atributos abre a su vez una nueva caja de diálogo que permite al usuario definir el tipo de símbolo que se asociará a cada dato para cada leyenda en los gráficos lineales.</p>
+<p>Los símbolos correspondientes sólo se activan si elegimos que se visualicen los estilos asociados a los tipos lineal, lineal logarítmico y polar.</p>
+<p>El usuario dispone de una lista desplegable con los números de orden de todas las leyendas disponibles para poder ir asignando símbolos a cada una de ellas desde el menú de botones de selección de símbolos.</p>
+<p>Hay un botón etiquetado "Borrar Todos" que deja todas las leyendas sin símbolos, previa confirmación del usuario.</p>
+<p><b>Menú Símbolos</b></p>
+<ul>
+<li>Cruz (+)</li>
+<li>Triángulo: triángulo hueco, vértice hacia arriba.</li>
+<li>Triángulo (abajo): triángulo hueco, vértice hacia abajo.</li>
+<li>Cuadrado: cuadrado hueco.</li>
+<li>Rombo: rombo hueco.</li>
+<li>Cruz (X).</li>
+<li>Triángulo Relleno (arriba). Triángulo relleno, vértice hacia arriba.</li>
+<li>Triángulo Relleno (abajo). Triángulo relleno, vértice hacia abajo.</li>
+<li>Cuadrado Relleno.</li>
+<li>Rombo Relleno.</li>
+</ul>
+<h4><b>Estadísticas</b></h4>
+<p>La selección de la opción Estadísticas en la caja de diálogo de atributos abre a su vez una nueva caja de diálogo que permite al usuario definir qué valores estadísticos desea superponer en los gráficos lineales.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WDhtVzg0dGlzWUhYYnZwMjYxazYxWXowJTJCRVIlMkJIZyUyRmdFOTgxdjE5YUMxRSUzRA==" id="IMG_WDhtVzg0dGlzWUhYYnZwMjYxazYxWXowJTJCRVIlMkJIZyUyRmdFOTgxdjE5YUMxRSUzRA==" alt="Informes" title="Informes" width="492" /></p>
+<p>Estadísticas</p>
+<p><b>Menú de Estadísticas</b></p>
+<p>Este menú de botones de selección permite al usuario elegir cualquier combinación de los siguientes valores estadísticos: media, máximo y mínimo, desviación estándar y recta de mejor ajuste por mínimos cuadrados.</p>
+<h4><b>Eje Y</b></h4>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UmFLcjJrMG1ROTJjZEp2YjZEM1Y2TU4lMkJXRzlXUE5wR0s4UFFvTyUyRjAwcVklM0Q=" id="IMG_UmFLcjJrMG1ROTJjZEp2YjZEM1Y2TU4lMkJXRzlXUE5wR0s4UFFvTyUyRjAwcVklM0Q=" alt="Informes" title="Informes" width="327" /></p>
+<p>Eje Y</p>
+<p>La selección de la opción Eje Y en la caja de diálogo de atributos abre a su vez una nueva caja de diálogo que permite al usuario modificar la posición del eje Y y el valor en el origen.</p>
+<p><b>Posición</b></p>
+<ul>
+<li>Izquierda: a la izquierda o arriba (para gráficos de barras horizontales).</li>
+<li>Derecha: a la derecha o abajo (para gráficos de barras horizontales).</li>
+</ul>
+<p><b>Origen</b></p>
+<ul>
+<li>Defecto: el origen corresponde siempre al cero.</li>
+<li>Variable: el origen es un valor algo inferior al mínimo de los valores representados. Esta opción permite mayor resolución en la representación de los valores.</li>
+</ul>
+<h4><b>Mapas en Estadísticas</b></h4>
+<p>La opción de mapas estadísticos es una de las principales novedades de esta nueva versión.</p>
+<p>Los nuevos mapas de FacturaPlus permiten la representación gráfica sobre un mapa de España de las Ventas/Compras realizadas a los correspondientes Clientes/Proveedores por Provincias o Comunidades Autónomas. Permiten acotar meses e indicar el tipo de valor: Nº de Clientes/Proveedores o total de Ventas/Compras.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_R2Q1U2tMb0w4MFFmWFRTQlFtZVElMkIlMkJjZ2p0YWpKSlVXWjdoMHh3VU1DazglM0Q=" id="IMG_R2Q1U2tMb0w4MFFmWFRTQlFtZVElMkIlMkJjZ2p0YWpKSlVXWjdoMHh3VU1DazglM0Q=" alt="Informes" title="Informes" width="566" /></p>
+<p>Mapas</p>
+<p><b>Utilización de la Ventana del Gráfico</b></p>
+<p>La representación inicial del mapa representa el número de Clientes/Proveedores distribuidos por las distintas Provincias o Comunidades Autónomas.</p>
+<p>Estos valores se expresan por una codificación de colores que son modificables por los distintos botones de la ventana. Se distinguen cuatro acciones para parametrizar el mapa.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MXFJejd1b1ZuSGU2QUVqeXEzanBKZkdPZ2J6MXZGTmx2REZRZnlTekJtbyUzRA==" id="IMG_MXFJejd1b1ZuSGU2QUVqeXEzanBKZkdPZ2J6MXZGTmx2REZRZnlTekJtbyUzRA==" alt="Informes" title="Informes" width="429" /></p>
+<p>Datos estadísticos</p>
+<p>Si se hace clic de ratón sobre cada Provincia o Comunidad, se observan los datos estadísticos generales de toda la Provincia o Comunidad.</p>
+<p>Si desde esta información se hace clic de ratón sobre un Cliente/Proveedor, se podrán ver los datos particulares del mismo acompañado de un gráfico.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_a2s3N2pMcW9zTnFpWkpFa1JzWUJnd3AwYkQ3VTQ0MXNLcGhRYkpZTUwyWSUzRA==" id="IMG_a2s3N2pMcW9zTnFpWkpFa1JzWUJnd3AwYkQ3VTQ0MXNLcGhRYkpZTUwyWSUzRA==" alt="Informes" title="Informes" width="566" /></p>
+<p>Datos estadísticos cliente/proveedor</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NUF3MG9VZHhjeWhMNTdtS2FGTWRWQW05RlolMkZEJTJGMlhRRkRJVFdLOEc5cGclM0Q=" id="IMG_NUF3MG9VZHhjeWhMNTdtS2FGTWRWQW05RlolMkZEJTJGMlhRRkRJVFdLOEc5cGclM0Q=" alt="Informes" title="Informes" height="43" width="262" /></p>
+<p>Dispone la trama de colores por el número de Clientes/Proveedores que hay en cada provincia o Comunidad.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cFpNZlA5UUxieXZjN3BXODllVDc4TDRmZDNaSyUyQmoxSllIWmgzVEl2U2d3JTNE" id="IMG_cFpNZlA5UUxieXZjN3BXODllVDc4TDRmZDNaSyUyQmoxSllIWmgzVEl2U2d3JTNE" alt="Informes" title="Informes" height="34" width="221" /></p>
+<p>Dispone la trama de colores por el total de Ventas/Compras realizadas en cada provincia o Comunidad.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bU50JTJGdnZqRkZZWXZFZzB2TnJZcVJEUTJEdmRLcHpDY0kxeTJiOGx4VDVZJTNE" id="IMG_bU50JTJGdnZqRkZZWXZFZzB2TnJZcVJEUTJEdmRLcHpDY0kxeTJiOGx4VDVZJTNE" alt="Informes" title="Informes" height="32" width="147" /></p>
+<p>La tabla asociada indica el rango de valores a través de sus colores que tiene asociados cada Provincia o Comunidad. Dichos valores son modificables en dos aspectos:</p>
+<ul>
+<li>Cambio de tramo al cual asignamos un nuevo rango de valores a representar y por el color que queremos que lo represente.</li>
+<li>Cambio de escala por la que introducimos el número de colores que representaremos en el mapa, colocando los valores máximos y mínimos a asignar en los mismos.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NGF5b0xDSjRjZ010b3pkWjBOWFVUNzlUZHRJMHRRcnptZ1FjNTJ0bldkZyUzRA==" id="IMG_NGF5b0xDSjRjZ010b3pkWjBOWFVUNzlUZHRJMHRRcnptZ1FjNTJ0bldkZyUzRA==" alt="Informes" title="Informes" height="36" width="140" /></p>
+<p>Con esta opción se guarda, elimina o lee los datos de representación del mapa.</p>
+<p>En esta nueva versión del programa se pueden visualizar mapas desde las siguientes estadísticas:</p>
+<ul>
+<li>Resumen de Facturación a Clientes.</li>
+<li>Resumen de Compras a Proveedores.</li>
+<li>Resumen de facturación por Provincias.</li>
+<li>Resumen de facturación por Zonas.</li>
+</ul>
+<p><b>Hoja de Cálculo </b></p>
+<p>En muchas de nuestras estadísticas encontraremos el botón H. Cálculo.</p>
+<p>Aprovechando la posibilidad que nos ofrece Windows, podremos enlazar la aplicación de Gestión con la H. Cálculo. Esto nos permitirá utilizar nuestros datos estadísticos en operaciones de cálculo.</p>
+<p>El modo de operación es sencillo y rápido. Para depositar los datos estadísticos a nuestra hoja de cálculo son necesarios dos pasos.</p>
+<p>1. El primer paso que debemos realizar es ejecutar H. Cálculo y abrir una hoja de cálculo, dejando el cursor situado en la casilla a partir de la cual se volcará toda la información estadística de Gestión.</p>
+<p>2. En segundo lugar minimizaremos la H. Cálculo, nunca lo cierre ya que sino SAGE SP no enlazaría correctamente la información, y activaremos nuestro programa de Gestión para enviar la información estadística que deseemos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | UNIDAD DIDÁCTICA 11. VISTA E IMPRESIÓN DE UN DOCUMENTO </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id182">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 3;
+var key1 = 3;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b182");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm182").key0b182[i].checked)
+               {
+                  question0 = document.getElementById("quizForm182").key0b182[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b182");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm182").key1b182[i].checked)
+               {
+                  question1 = document.getElementById("quizForm182").key1b182[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm182").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario </h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm182" id="quizForm182" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-182" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b182" class="block iDevice_content">
+<p><b>¿A qué tipo de vista de un documento se asemeja más la vista preliminar?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1821" class="sr-av"><a href="#answer-key0b1821">Opción 1</a></label><input type="radio" name="key0b182" id="key0b1821" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1821"><a name="answer-key0b1821"></a>
+<div id="taoptionAnswer0q0b182" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Vista esquema.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1822" class="sr-av"><a href="#answer-key0b1822">Opción 2</a></label><input type="radio" name="key0b182" id="key0b1822" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1822"><a name="answer-key0b1822"></a>
+<div id="taoptionAnswer1q0b182" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Vista diseño Web.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1823" class="sr-av"><a href="#answer-key0b1823">Opción 3</a></label><input type="radio" name="key0b182" id="key0b1823" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1823"><a name="answer-key0b1823"></a>
+<div id="taoptionAnswer2q0b182" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Vista miniatura.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1824" class="sr-av"><a href="#answer-key0b1824">Opción 4</a></label><input type="radio" name="key0b182" id="key0b1824" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1824"><a name="answer-key0b1824"></a>
+<div id="taoptionAnswer3q0b182" class="block iDevice_content">
+<p>Vista Diseño de impresión.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b182" class="block iDevice_content">
+<p><b>Para cancelar una impresión cuando está desactivado el modo de impresión en segundo plano tenemos que:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1821" class="sr-av"><a href="#answer-key1b1821">Opción 1</a></label><input type="radio" name="key1b182" id="key1b1821" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1821"><a name="answer-key1b1821"></a>
+<div id="taoptionAnswer0q1b182" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Hacer clic en el icono de la impresora de la barra de estado.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1822" class="sr-av"><a href="#answer-key1b1822">Opción 2</a></label><input type="radio" name="key1b182" id="key1b1822" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1822"><a name="answer-key1b1822"></a>
+<div id="taoptionAnswer1q1b182" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Pulsar la tecla “Esc”.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1823" class="sr-av"><a href="#answer-key1b1823">Opción 3</a></label><input type="radio" name="key1b182" id="key1b1823" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1823"><a name="answer-key1b1823"></a>
+<div id="taoptionAnswer2q1b182" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Hacer clic en Cancelar.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1824" class="sr-av"><a href="#answer-key1b1824">Opción 4</a></label><input type="radio" name="key1b182" id="key1b1824" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1824"><a name="answer-key1b1824"></a>
+<div id="taoptionAnswer3q1b182" class="block iDevice_content">
+<p>Las respuestas b y c son correctas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id183">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario </h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-183_108">
+<form name="multi-select-form-183_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion183_108" class="block question iDevice_content">
+<p><b>Señale los enunciados verdaderos.</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op183_1080" class="sr-av"><a href="#answer-183_111">Opción 1</a></label><input type="checkbox" id="op183_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-183_111"><a name="answer-183_111"></a>
+<div id="taans183_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Con la impresión a doble cara el documento reducirá el tamaño y aparecerán dos páginas en una cara.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-183_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op183_1081" class="sr-av"><a href="#answer-183_570">Opción 2</a></label><input type="checkbox" id="op183_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-183_570"><a name="answer-183_570"></a>
+<div id="taans183_570" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Podemos elegir cuántas páginas imprimir en una misma hoja.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-183_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op183_1082" class="sr-av"><a href="#answer-183_572">Opción 3</a></label><input type="checkbox" id="op183_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-183_572"><a name="answer-183_572"></a>
+<div id="taans183_572" class="block iDevice_content">
+<p>Para imprimir un documento en blanco y negro (y éste contiene color) tenemos que quitar el color y ponerlo todo igual que lo queremos imprimir ya que la impresora no nos permite esta opción directamente.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-183_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op183_1083" class="sr-av"><a href="#answer-183_574">Opción 4</a></label><input type="checkbox" id="op183_1083" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-183_574"><a name="answer-183_574"></a>
+<div id="taans183_574" class="block iDevice_content">
+<p>Con la opción orientación, podemos elegir la orientación (en horizontal o vertical) del documento.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-183_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'183_108')"/> 
+</p>
+</div>
+<div id="f183_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-183_111" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-183_570" class="right">Correcto</a></li>
+<li><a href="#answer-183_572" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-183_574" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.4 Cómo cambiar la disponibilidad de recursos sin usar el calendario con Project 2016 </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3.4 Cómo cambiar la disponibilidad de recursos sin usar el calendario con Project 2016</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_85" class="block iDevice_content">
+<p>La<b> disponibilidad</b> indica cuándo y cuánto tiempo se puede programar un recurso para el trabajo asignado. Si está trabajando con tareas programadas automáticamente, puede cambiar la disponibilidad de un recurso sin cambiar el recurso en el calendario. Aparte de los efectos del calendario de proyecto, la disponibilidad también se refleja en el período laborable de un recurso, en las fechas iniciales y finales de disponibilidad y en cualquier disponibilidad de <b>unidades</b> variable en diferentes períodos. Project usa esta información para determinar si un recurso está sobreasignado.</p>
+<p>Esto es útil si sabe que un recurso estará disponible para trabajar por cierta cantidad de tiempo en una tarea específica, pero no quiere cambiar la disponibilidad del recurso para otras tareas del proyecto.</p>
+<ol>
+<li>Haga clic en la pestaña Vista y, en el grupo Vistas de recursos, haga clic en Hoja de recursos.</li>
+</ol>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TGNhbDZUVW9WRXJQNHZGJTJCcU5qN3IyMUJyRVJ6QU9QTEVLV3FIU1B2QmVrJTNE" id="IMG_TGNhbDZUVW9WRXJQNHZGJTJCcU5qN3IyMUJyRVJ6QU9QTEVLV3FIU1B2QmVrJTNE" alt="Programación de Calendarios con Project 2016" title="Programación de Calendarios con Project 2016" height="89" width="210" /></p>
+<ol>
+<li>Haga clic con el botón secundario del ratón en el nombre del recurso y, a continuación, haga clic en Información del recurso.</li>
+</ol>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_d0djbEluWTNoblMlMkJ1OSUyRkN1YXk0cGtYc0k5V0o1S0t6ZkpUd25ZcHJlTTglM0Q=" id="IMG_d0djbEluWTNoblMlMkJ1OSUyRkN1YXk0cGtYc0k5V0o1S0t6ZkpUd25ZcHJlTTglM0Q=" alt="Programación de Calendarios con Project 2016" title="Programación de Calendarios con Project 2016" width="559" />ç</p>
+<p></p>
+<ol>
+<li>En el cuadro de diálogo Información del recurso, haga clic en la pestaña General.</li>
+<li>En el campo Disponible desde, escriba la fecha de comienzo del recurso en el proyecto.</li>
+<li>En el campo Disponible hasta, escriba la fecha de finalización del recurso en el proyecto.</li>
+<li>En el campo Unidades, escriba el número de capacidad máxima, que consiste en un porcentaje máximo o número de unidades que tiene un recurso para ser programado en cualquier tarea, y determina la cantidad de recurso disponible durante este período.</li>
+</ol>
+<p>Puede establecer la capacidad máxima como porcentaje (50%, 100% o 300%, por ejemplo) o como decimal (0.5, 1 ó 3, por ejemplo).</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_c3lkUmdZWWpaemdBMWQlMkZseThwaGVxZkM3eSUyQmhyeXBIYVRnNzVJUDF0ZnMlM0Q=" id="IMG_c3lkUmdZWWpaemdBMWQlMkZseThwaGVxZkM3eSUyQmhyeXBIYVRnNzVJUDF0ZnMlM0Q=" alt="Programación de Calendarios con Project 2016" title="Programación de Calendarios con Project 2016" width="564" /></p>
+<p>Tenga en cuenta que:</p>
+<ul>
+<li>Para ajustar la asignación de un solo recurso a esfuerzo a tiempo completo, en el campo Unidades del recurso que desee, escriba o seleccione 100%.</li>
+<li>Para ajustar la asignación de un recurso único a esfuerzo a tiempo parcial, escriba o seleccione un porcentaje inferior a 100 para reflejar el nivel de esfuerzo a tiempo parcial con que trabajará este recurso. Por ejemplo, si el recurso estará trabajando en esta tarea la mitad del tiempo, escriba 50%.</li>
+<li>Para ajustar la asignación unitaria de un grupo de varios recursos, escriba un porcentaje que represente el nivel de esfuerzo de este grupo de recursos. Por ejemplo, si el grupo de recursos es Operario, hay tres recursos en este grupo y desea asignarlos a todos a tiempo completo, escriba 300%.</li>
+</ul>
+<p>Notas:</p>
+<ul>
+<li>Aunque la tabla Disponibilidad de recursos del cuatro de diálogo Información de recursos cambia la capacidad máxima de un recurso en la vida del proyecto, no cambia las tasas de recursos con el tiempo. Puede escribir distintas tasas para un recurso en una tabla de tasas de costo.</li>
+<li>La tabla Disponibilidad de recursos ajusta la disponibilidad de capacidad máxima a lo largo de un proyecto y perfiles de trabajo ajusta los niveles de trabajo variables durante una asignación específica.</li>
+<li>Puede escribir una fecha en el campo Disponible “hasta” sin escribir una fecha en el campo Disponible desde.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

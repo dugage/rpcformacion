@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.2. El tipo por defecto </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.2. El tipo por defecto</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Cuando al declarar una variable no se especifica un tipo, o bien la variable se utiliza directamente sin ser declarada, se usa el tipo por defecto: Variant. Una variable de este tipo puede contener cualquier valor: un texto, un número entero o con parte decimal, una fecha, etc.</p>
+<p>Visual Basic es capaz de efectuar automáticamente, cuando se precisan, las conversiones oportunas entre variables Variant que contienen datos de distintos tipos.</p>
+<p>El tipo Variant es muy flexible, dado que es posible asignar cualquier valor modificado cuando interese, pero también tiene sus inconvenientes. Las variables de este tipo tienden a necesitar más espacio que las de otros tipos. La recuperación y asignación de los valores que contienen, además, es más lenta puesto que es necesario determinar el tipo del dato antes de operar sobre él.</p>
+<p>Una variable Variant puede contener algunos valores especiales, no datos propiamente dichos, como Empty, Nothig y Null. Estos determinan algunos estados de la variable, como la ausencia de un contenido o la presencia de un contenido nulo. Puede comprobar el tipo de dato contenido en una variable Variant mediante la función TypeName.</p>
+<p>Abra el editor Visual Basic y después utilice la opción Insertar&gt;Módulo para añadir un módulo de código al proyecto. Introduzca en él el código siguiente:</p>
+<p>Function PruebaVariant ()</p>
+<p>Dim Entero As Integer, Cadena As String, Valor</p>
+<p>Debug.Print TypeName (Valor)</p>
+<p>Entero = 120</p>
+<p>Valor = Entero</p>
+<p>Debug.Print TypeName (Valor)</p>
+<p>Cadena = Valor</p>
+<p>Valor = Cadena</p>
+<p>Debug.Print TypeName (Valor)</p>
+<p>End Function</p>
+<p>En el inicio de la función declaramos tres variables, una de tipo numérico entero, otra de tipo cadena y una tercera sin tipo, lo cual equivale a usar Variant. A continuación, utilizando el método Print de la ventana Inmediato, que es accesible como el objeto Debug, mostramos el tipo actual de la variable Variant, que debe estar vacía.</p>
+<p>Acto seguido asignamos un valor a la variable numérica, pasamos dicho valor a la variable Variant y mostramos de nuevo su tipo. Finalmente, asignamos el contenido de Valor, que es un número, a la variable String.</p>
+<p>En ese momento Visual Basic efectuará automáticamente la conversión de número a cadena. En la sentencia siguiente invertimos el orden de los operandos, asignando la cadena a Valor. Al mostrar de nuevo su tipo verá, como en la figura 13.1, que ahora es String.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_eE5td1NvS1hrd285aUl2Sjh3UFE0UkpsenlwS0hIOTlPdW82JTJGbGVvQXRnJTNE" id="IMG_eE5td1NvS1hrd285aUl2Sjh3UFE0UkpsenlwS0hIOTlPdW82JTJGbGVvQXRnJTNE" alt="Variables y expresiones" title="Variables y expresiones" width="481" /></p>
+<p><b>Figura 13.1.</b> El código de la función y su resultado en la ventana Inmediato.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,2857 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Examen | Examen </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Examen</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id184">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 32;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var question5;
+var question6;
+var question7;
+var question8;
+var question9;
+var question10;
+var question11;
+var question12;
+var question13;
+var question14;
+var question15;
+var question16;
+var question17;
+var question18;
+var question19;
+var question20;
+var question21;
+var question22;
+var question23;
+var question24;
+var question25;
+var question26;
+var question27;
+var question28;
+var question29;
+var question30;
+var question31;
+var key0 = 2;
+var key1 = 3;
+var key2 = 0;
+var key3 = 0;
+var key4 = 1;
+var key5 = 0;
+var key6 = 2;
+var key7 = 1;
+var key8 = 0;
+var key9 = 0;
+var key10 = 2;
+var key11 = 1;
+var key12 = 1;
+var key13 = 0;
+var key14 = 3;
+var key15 = 0;
+var key16 = 0;
+var key17 = 3;
+var key18 = 1;
+var key19 = 2;
+var key20 = 1;
+var key21 = 2;
+var key22 = 3;
+var key23 = 0;
+var key24 = 3;
+var key25 = 0;
+var key26 = 0;
+var key27 = 0;
+var key28 = 1;
+var key29 = 0;
+var key30 = 0;
+var key31 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b184");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key0b184[i].checked)
+               {
+                  question0 = document.getElementById("quizForm184").key0b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b184");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key1b184[i].checked)
+               {
+                  question1 = document.getElementById("quizForm184").key1b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b184");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key2b184[i].checked)
+               {
+                  question2 = document.getElementById("quizForm184").key2b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b184");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key3b184[i].checked)
+               {
+                  question3 = document.getElementById("quizForm184").key3b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b184");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key4b184[i].checked)
+               {
+                  question4 = document.getElementById("quizForm184").key4b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.5.id","key5b184");
+            scorm.SetInteractionValue("cmi.interactions.5.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.5.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm184").key5b184[i].checked)
+               {
+                  question5 = document.getElementById("quizForm184").key5b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.5.student_response",question5);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.6.id","key6b184");
+            scorm.SetInteractionValue("cmi.interactions.6.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.6.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key6b184[i].checked)
+               {
+                  question6 = document.getElementById("quizForm184").key6b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.6.student_response",question6);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.7.id","key7b184");
+            scorm.SetInteractionValue("cmi.interactions.7.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.7.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm184").key7b184[i].checked)
+               {
+                  question7 = document.getElementById("quizForm184").key7b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.7.student_response",question7);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.8.id","key8b184");
+            scorm.SetInteractionValue("cmi.interactions.8.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.8.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key8b184[i].checked)
+               {
+                  question8 = document.getElementById("quizForm184").key8b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.8.student_response",question8);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.9.id","key9b184");
+            scorm.SetInteractionValue("cmi.interactions.9.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.9.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key9b184[i].checked)
+               {
+                  question9 = document.getElementById("quizForm184").key9b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.9.student_response",question9);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.10.id","key10b184");
+            scorm.SetInteractionValue("cmi.interactions.10.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.10.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key10b184[i].checked)
+               {
+                  question10 = document.getElementById("quizForm184").key10b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.10.student_response",question10);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.11.id","key11b184");
+            scorm.SetInteractionValue("cmi.interactions.11.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.11.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm184").key11b184[i].checked)
+               {
+                  question11 = document.getElementById("quizForm184").key11b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.11.student_response",question11);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.12.id","key12b184");
+            scorm.SetInteractionValue("cmi.interactions.12.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.12.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key12b184[i].checked)
+               {
+                  question12 = document.getElementById("quizForm184").key12b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.12.student_response",question12);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.13.id","key13b184");
+            scorm.SetInteractionValue("cmi.interactions.13.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.13.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key13b184[i].checked)
+               {
+                  question13 = document.getElementById("quizForm184").key13b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.13.student_response",question13);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.14.id","key14b184");
+            scorm.SetInteractionValue("cmi.interactions.14.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.14.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key14b184[i].checked)
+               {
+                  question14 = document.getElementById("quizForm184").key14b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.14.student_response",question14);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.15.id","key15b184");
+            scorm.SetInteractionValue("cmi.interactions.15.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.15.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm184").key15b184[i].checked)
+               {
+                  question15 = document.getElementById("quizForm184").key15b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.15.student_response",question15);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.16.id","key16b184");
+            scorm.SetInteractionValue("cmi.interactions.16.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.16.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key16b184[i].checked)
+               {
+                  question16 = document.getElementById("quizForm184").key16b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.16.student_response",question16);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.17.id","key17b184");
+            scorm.SetInteractionValue("cmi.interactions.17.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.17.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key17b184[i].checked)
+               {
+                  question17 = document.getElementById("quizForm184").key17b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.17.student_response",question17);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.18.id","key18b184");
+            scorm.SetInteractionValue("cmi.interactions.18.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.18.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key18b184[i].checked)
+               {
+                  question18 = document.getElementById("quizForm184").key18b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.18.student_response",question18);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.19.id","key19b184");
+            scorm.SetInteractionValue("cmi.interactions.19.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.19.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm184").key19b184[i].checked)
+               {
+                  question19 = document.getElementById("quizForm184").key19b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.19.student_response",question19);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.20.id","key20b184");
+            scorm.SetInteractionValue("cmi.interactions.20.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.20.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key20b184[i].checked)
+               {
+                  question20 = document.getElementById("quizForm184").key20b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.20.student_response",question20);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.21.id","key21b184");
+            scorm.SetInteractionValue("cmi.interactions.21.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.21.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key21b184[i].checked)
+               {
+                  question21 = document.getElementById("quizForm184").key21b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.21.student_response",question21);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.22.id","key22b184");
+            scorm.SetInteractionValue("cmi.interactions.22.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.22.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key22b184[i].checked)
+               {
+                  question22 = document.getElementById("quizForm184").key22b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.22.student_response",question22);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.23.id","key23b184");
+            scorm.SetInteractionValue("cmi.interactions.23.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.23.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key23b184[i].checked)
+               {
+                  question23 = document.getElementById("quizForm184").key23b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.23.student_response",question23);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.24.id","key24b184");
+            scorm.SetInteractionValue("cmi.interactions.24.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.24.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key24b184[i].checked)
+               {
+                  question24 = document.getElementById("quizForm184").key24b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.24.student_response",question24);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.25.id","key25b184");
+            scorm.SetInteractionValue("cmi.interactions.25.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.25.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key25b184[i].checked)
+               {
+                  question25 = document.getElementById("quizForm184").key25b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.25.student_response",question25);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.26.id","key26b184");
+            scorm.SetInteractionValue("cmi.interactions.26.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.26.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm184").key26b184[i].checked)
+               {
+                  question26 = document.getElementById("quizForm184").key26b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.26.student_response",question26);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.27.id","key27b184");
+            scorm.SetInteractionValue("cmi.interactions.27.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.27.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key27b184[i].checked)
+               {
+                  question27 = document.getElementById("quizForm184").key27b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.27.student_response",question27);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.28.id","key28b184");
+            scorm.SetInteractionValue("cmi.interactions.28.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.28.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key28b184[i].checked)
+               {
+                  question28 = document.getElementById("quizForm184").key28b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.28.student_response",question28);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.29.id","key29b184");
+            scorm.SetInteractionValue("cmi.interactions.29.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.29.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm184").key29b184[i].checked)
+               {
+                  question29 = document.getElementById("quizForm184").key29b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.29.student_response",question29);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.30.id","key30b184");
+            scorm.SetInteractionValue("cmi.interactions.30.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.30.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm184").key30b184[i].checked)
+               {
+                  question30 = document.getElementById("quizForm184").key30b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.30.student_response",question30);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.31.id","key31b184");
+            scorm.SetInteractionValue("cmi.interactions.31.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.31.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm184").key31b184[i].checked)
+               {
+                  question31 = document.getElementById("quizForm184").key31b184[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.31.student_response",question31);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+            if (question5 == key5)
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","wrong");
+            }
+            if (question6 == key6)
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","wrong");
+            }
+            if (question7 == key7)
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","wrong");
+            }
+            if (question8 == key8)
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","wrong");
+            }
+            if (question9 == key9)
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","wrong");
+            }
+            if (question10 == key10)
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","wrong");
+            }
+            if (question11 == key11)
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","wrong");
+            }
+            if (question12 == key12)
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","wrong");
+            }
+            if (question13 == key13)
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","wrong");
+            }
+            if (question14 == key14)
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","wrong");
+            }
+            if (question15 == key15)
+            {
+               scorm.SetInteractionValue("cmi.interactions.15.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.15.result","wrong");
+            }
+            if (question16 == key16)
+            {
+               scorm.SetInteractionValue("cmi.interactions.16.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.16.result","wrong");
+            }
+            if (question17 == key17)
+            {
+               scorm.SetInteractionValue("cmi.interactions.17.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.17.result","wrong");
+            }
+            if (question18 == key18)
+            {
+               scorm.SetInteractionValue("cmi.interactions.18.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.18.result","wrong");
+            }
+            if (question19 == key19)
+            {
+               scorm.SetInteractionValue("cmi.interactions.19.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.19.result","wrong");
+            }
+            if (question20 == key20)
+            {
+               scorm.SetInteractionValue("cmi.interactions.20.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.20.result","wrong");
+            }
+            if (question21 == key21)
+            {
+               scorm.SetInteractionValue("cmi.interactions.21.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.21.result","wrong");
+            }
+            if (question22 == key22)
+            {
+               scorm.SetInteractionValue("cmi.interactions.22.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.22.result","wrong");
+            }
+            if (question23 == key23)
+            {
+               scorm.SetInteractionValue("cmi.interactions.23.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.23.result","wrong");
+            }
+            if (question24 == key24)
+            {
+               scorm.SetInteractionValue("cmi.interactions.24.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.24.result","wrong");
+            }
+            if (question25 == key25)
+            {
+               scorm.SetInteractionValue("cmi.interactions.25.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.25.result","wrong");
+            }
+            if (question26 == key26)
+            {
+               scorm.SetInteractionValue("cmi.interactions.26.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.26.result","wrong");
+            }
+            if (question27 == key27)
+            {
+               scorm.SetInteractionValue("cmi.interactions.27.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.27.result","wrong");
+            }
+            if (question28 == key28)
+            {
+               scorm.SetInteractionValue("cmi.interactions.28.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.28.result","wrong");
+            }
+            if (question29 == key29)
+            {
+               scorm.SetInteractionValue("cmi.interactions.29.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.29.result","wrong");
+            }
+            if (question30 == key30)
+            {
+               scorm.SetInteractionValue("cmi.interactions.30.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.30.result","wrong");
+            }
+            if (question31 == key31)
+            {
+               scorm.SetInteractionValue("cmi.interactions.31.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.31.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm184").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm184" id="quizForm184" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-184" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b184" class="block iDevice_content">
+<p><strong>¿Qué versión de Word utilizada en el sistema operativo Windows0, se convirtió en la líder indiscutible del mercado en los primeros años de la década de los 90?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1841" class="sr-av"><a href="#answer-key0b1841">Opción 1</a></label><input type="radio" name="key0b184" id="key0b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1841"><a name="answer-key0b1841"></a>
+<div id="taoptionAnswer0q0b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Versión 0 .2</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1842" class="sr-av"><a href="#answer-key0b1842">Opción 2</a></label><input type="radio" name="key0b184" id="key0b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1842"><a name="answer-key0b1842"></a>
+<div id="taoptionAnswer1q0b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Versión 1 .0</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1843" class="sr-av"><a href="#answer-key0b1843">Opción 3</a></label><input type="radio" name="key0b184" id="key0b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1843"><a name="answer-key0b1843"></a>
+<div id="taoptionAnswer2q0b184" class="block iDevice_content">
+<p>Versión 2 .0</p>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1844" class="sr-av"><a href="#answer-key0b1844">Opción 4</a></label><input type="radio" name="key0b184" id="key0b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1844"><a name="answer-key0b1844"></a>
+<div id="taoptionAnswer3q0b184" class="block iDevice_content">
+<p>Versión 3 .0</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b184" class="block iDevice_content">
+<p><strong>La primera versión de Word que data del año 1983 ¿Para que sistema operativo fue?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1841" class="sr-av"><a href="#answer-key1b1841">Opción 1</a></label><input type="radio" name="key1b184" id="key1b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1841"><a name="answer-key1b1841"></a>
+<div id="taoptionAnswer0q1b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Windows.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1842" class="sr-av"><a href="#answer-key1b1842">Opción 2</a></label><input type="radio" name="key1b184" id="key1b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1842"><a name="answer-key1b1842"></a>
+<div id="taoptionAnswer1q1b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Linux.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1843" class="sr-av"><a href="#answer-key1b1843">Opción 3</a></label><input type="radio" name="key1b184" id="key1b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1843"><a name="answer-key1b1843"></a>
+<div id="taoptionAnswer2q1b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Macintosh.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1844" class="sr-av"><a href="#answer-key1b1844">Opción 4</a></label><input type="radio" name="key1b184" id="key1b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1844"><a name="answer-key1b1844"></a>
+<div id="taoptionAnswer3q1b184" class="block iDevice_content">
+<p>MS-DOS.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b184" class="block iDevice_content">
+<p><strong>¿Qué alternativa a Word, se trata de un procesador de textos online?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1841" class="sr-av"><a href="#answer-key2b1841">Opción 1</a></label><input type="radio" name="key2b184" id="key2b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1841"><a name="answer-key2b1841"></a>
+<div id="taoptionAnswer0q2b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Google Docs.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1842" class="sr-av"><a href="#answer-key2b1842">Opción 2</a></label><input type="radio" name="key2b184" id="key2b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1842"><a name="answer-key2b1842"></a>
+<div id="taoptionAnswer1q2b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">AbiWord.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1843" class="sr-av"><a href="#answer-key2b1843">Opción 3</a></label><input type="radio" name="key2b184" id="key2b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1843"><a name="answer-key2b1843"></a>
+<div id="taoptionAnswer2q2b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Open Office Write.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1844" class="sr-av"><a href="#answer-key2b1844">Opción 4</a></label><input type="radio" name="key2b184" id="key2b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1844"><a name="answer-key2b1844"></a>
+<div id="taoptionAnswer3q2b184" class="block iDevice_content">
+<p>IBM Lotus Symphony.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b184" class="block iDevice_content">
+<p><strong>¿Dónde podemos encontrar la opción de “Modo de compatibilidad” dentro de la vista Backstage?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1841" class="sr-av"><a href="#answer-key3b1841">Opción 1</a></label><input type="radio" name="key3b184" id="key3b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1841"><a name="answer-key3b1841"></a>
+<div id="taoptionAnswer0q3b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En la pestaña Información.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1842" class="sr-av"><a href="#answer-key3b1842">Opción 2</a></label><input type="radio" name="key3b184" id="key3b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1842"><a name="answer-key3b1842"></a>
+<div id="taoptionAnswer1q3b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En la pestaña Reciente.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1843" class="sr-av"><a href="#answer-key3b1843">Opción 3</a></label><input type="radio" name="key3b184" id="key3b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1843"><a name="answer-key3b1843"></a>
+<div id="taoptionAnswer2q3b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En la pestaña Ayuda.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1844" class="sr-av"><a href="#answer-key3b1844">Opción 4</a></label><input type="radio" name="key3b184" id="key3b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1844"><a name="answer-key3b1844"></a>
+<div id="taoptionAnswer3q3b184" class="block iDevice_content">
+<p>En la pestaña Opciones</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b184" class="block iDevice_content">
+<p><strong>¿Qué disco duro se necesita como requisito para instalar Word 2013?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1841" class="sr-av"><a href="#answer-key4b1841">Opción 1</a></label><input type="radio" name="key4b184" id="key4b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1841"><a name="answer-key4b1841"></a>
+<div id="taoptionAnswer0q4b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Se necesitan al menos 2 gigabytes (GB) para la instalación.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1842" class="sr-av"><a href="#answer-key4b1842">Opción 2</a></label><input type="radio" name="key4b184" id="key4b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1842"><a name="answer-key4b1842"></a>
+<div id="taoptionAnswer1q4b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Se necesitan al menos 3 gigabytes (GB) para la instalación.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1843" class="sr-av"><a href="#answer-key4b1843">Opción 3</a></label><input type="radio" name="key4b184" id="key4b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1843"><a name="answer-key4b1843"></a>
+<div id="taoptionAnswer2q4b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Se necesitan al menos5 gigabytes (GB) para la instalación.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1844" class="sr-av"><a href="#answer-key4b1844">Opción 4</a></label><input type="radio" name="key4b184" id="key4b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1844"><a name="answer-key4b1844"></a>
+<div id="taoptionAnswer3q4b184" class="block iDevice_content">
+<p>Se necesitan al menos 4 gigabytes (GB) para la instalación.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion5b184" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Confirma si la siguiente afirmación es verdadera o falsa: </strong> <em><strong>“Los procesadores de texto online nos permiten el acceso y la edición de documentos propios sin la necesidad de estar delante de nuestro ordenador y para ellos solamente se necesita un equipo con una conexión a Internet”.</strong> </em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b1841" class="sr-av"><a href="#answer-key5b1841">Opción 1</a></label><input type="radio" name="key5b184" id="key5b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b1841"><a name="answer-key5b1841"></a>
+<div id="taoptionAnswer0q5b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleSeleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b1842" class="sr-av"><a href="#answer-key5b1842">Opción 2</a></label><input type="radio" name="key5b184" id="key5b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b1842"><a name="answer-key5b1842"></a>
+<div id="taoptionAnswer1q5b184" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion6b184" class="block iDevice_content">
+<p><strong>¿Dónde se encuentran situadas las fichas Inicio, Insertar, Diseño de página, Referencias, Correspondencia, Revisar, Vista y Complementos?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b1841" class="sr-av"><a href="#answer-key6b1841">Opción 1</a></label><input type="radio" name="key6b184" id="key6b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b1841"><a name="answer-key6b1841"></a>
+<div id="taoptionAnswer0q6b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Archivo.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b1842" class="sr-av"><a href="#answer-key6b1842">Opción 2</a></label><input type="radio" name="key6b184" id="key6b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b1842"><a name="answer-key6b1842"></a>
+<div id="taoptionAnswer1q6b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Barra de herramientas de acceso rápido.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b1843" class="sr-av"><a href="#answer-key6b1843">Opción 3</a></label><input type="radio" name="key6b184" id="key6b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b1843"><a name="answer-key6b1843"></a>
+<div id="taoptionAnswer2q6b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Cinta de opciones.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b1844" class="sr-av"><a href="#answer-key6b1844">Opción 4</a></label><input type="radio" name="key6b184" id="key6b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b1844"><a name="answer-key6b1844"></a>
+<div id="taoptionAnswer3q6b184" class="block iDevice_content">
+<p>Menú Inicio.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion7b184" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Confirma si la siguiente afirmación es verdadera o falsa: </strong> <em><strong>“Los cambios que haga en Opciones de Word están relacionados con un documento en particular y no con su entorno”.</strong> </em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b1841" class="sr-av"><a href="#answer-key7b1841">Opción 1</a></label><input type="radio" name="key7b184" id="key7b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b1841"><a name="answer-key7b1841"></a>
+<div id="taoptionAnswer0q7b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b1842" class="sr-av"><a href="#answer-key7b1842">Opción 2</a></label><input type="radio" name="key7b184" id="key7b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b1842"><a name="answer-key7b1842"></a>
+<div id="taoptionAnswer1q7b184" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion8b184" class="block iDevice_content">
+<p><strong>¿Qué tecla has de pulsar para obtener ayuda en Word 2013?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b1841" class="sr-av"><a href="#answer-key8b1841">Opción 1</a></label><input type="radio" name="key8b184" id="key8b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b1841"><a name="answer-key8b1841"></a>
+<div id="taoptionAnswer0q8b184" class="block iDevice_content">
+<p><strong></strong>F1</p>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b1842" class="sr-av"><a href="#answer-key8b1842">Opción 2</a></label><input type="radio" name="key8b184" id="key8b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b1842"><a name="answer-key8b1842"></a>
+<div id="taoptionAnswer1q8b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">F4</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b1843" class="sr-av"><a href="#answer-key8b1843">Opción 3</a></label><input type="radio" name="key8b184" id="key8b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b1843"><a name="answer-key8b1843"></a>
+<div id="taoptionAnswer2q8b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">F7</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b1844" class="sr-av"><a href="#answer-key8b1844">Opción 4</a></label><input type="radio" name="key8b184" id="key8b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b1844"><a name="answer-key8b1844"></a>
+<div id="taoptionAnswer3q8b184" class="block iDevice_content">
+<p>F9</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion9b184" class="block iDevice_content">
+<p><strong>Para combinar el texto con imágenes, tablas, gráficos, y otros elementos ¿Qué ficha utilizaremos de la cinta de opciones?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b1841" class="sr-av"><a href="#answer-key9b1841">Opción 1</a></label><input type="radio" name="key9b184" id="key9b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b1841"><a name="answer-key9b1841"></a>
+<div id="taoptionAnswer0q9b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Insertar.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b1842" class="sr-av"><a href="#answer-key9b1842">Opción 2</a></label><input type="radio" name="key9b184" id="key9b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b1842"><a name="answer-key9b1842"></a>
+<div id="taoptionAnswer1q9b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Diseño de página.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b1843" class="sr-av"><a href="#answer-key9b1843">Opción 3</a></label><input type="radio" name="key9b184" id="key9b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b1843"><a name="answer-key9b1843"></a>
+<div id="taoptionAnswer2q9b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Inicio.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b1844" class="sr-av"><a href="#answer-key9b1844">Opción 4</a></label><input type="radio" name="key9b184" id="key9b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b1844"><a name="answer-key9b1844"></a>
+<div id="taoptionAnswer3q9b184" class="block iDevice_content">
+<p>Ficha Complementos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion10b184" class="block iDevice_content">
+<p><strong>¿En que ficha nos podemos encontrar agrupadas las siguientes opciones: Revisión, Idioma, Comentarios, Seguimiento, Cambios, Comparar y Proteger?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b1841" class="sr-av"><a href="#answer-key10b1841">Opción 1</a></label><input type="radio" name="key10b184" id="key10b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b1841"><a name="answer-key10b1841"></a>
+<div id="taoptionAnswer0q10b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Inicio.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b1842" class="sr-av"><a href="#answer-key10b1842">Opción 2</a></label><input type="radio" name="key10b184" id="key10b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b1842"><a name="answer-key10b1842"></a>
+<div id="taoptionAnswer1q10b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Vista.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b1843" class="sr-av"><a href="#answer-key10b1843">Opción 3</a></label><input type="radio" name="key10b184" id="key10b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b1843"><a name="answer-key10b1843"></a>
+<div id="taoptionAnswer2q10b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Revisar.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b1844" class="sr-av"><a href="#answer-key10b1844">Opción 4</a></label><input type="radio" name="key10b184" id="key10b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b1844"><a name="answer-key10b1844"></a>
+<div id="taoptionAnswer3q10b184" class="block iDevice_content">
+<p>Ficha Referencias.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion11b184" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Confirma si la siguiente afirmación es verdadera o falsa: </strong> <em><strong>“Los comandos Se encuentran en la parte superior de la cinta y representan las tareas principales que se llevan a cabo”.</strong> </em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b1841" class="sr-av"><a href="#answer-key11b1841">Opción 1</a></label><input type="radio" name="key11b184" id="key11b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b1841"><a name="answer-key11b1841"></a>
+<div id="taoptionAnswer0q11b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b1842" class="sr-av"><a href="#answer-key11b1842">Opción 2</a></label><input type="radio" name="key11b184" id="key11b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b1842"><a name="answer-key11b1842"></a>
+<div id="taoptionAnswer1q11b184" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion12b184" class="block iDevice_content">
+<p><strong>¿En que ficha encontrará una serie de elementos para completar la presentación de un documento?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b1841" class="sr-av"><a href="#answer-key12b1841">Opción 1</a></label><input type="radio" name="key12b184" id="key12b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b1841"><a name="answer-key12b1841"></a>
+<div id="taoptionAnswer0q12b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Insertar.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b1842" class="sr-av"><a href="#answer-key12b1842">Opción 2</a></label><input type="radio" name="key12b184" id="key12b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b1842"><a name="answer-key12b1842"></a>
+<div id="taoptionAnswer1q12b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Referencias.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b1843" class="sr-av"><a href="#answer-key12b1843">Opción 3</a></label><input type="radio" name="key12b184" id="key12b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b1843"><a name="answer-key12b1843"></a>
+<div id="taoptionAnswer2q12b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Revisar.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b1844" class="sr-av"><a href="#answer-key12b1844">Opción 4</a></label><input type="radio" name="key12b184" id="key12b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b1844"><a name="answer-key12b1844"></a>
+<div id="taoptionAnswer3q12b184" class="block iDevice_content">
+<p>Ficha Complementos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion13b184" class="block iDevice_content">
+<p><strong>Para ocultar o mostrar marcas de formato haga clic en el grupo:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b1841" class="sr-av"><a href="#answer-key13b1841">Opción 1</a></label><input type="radio" name="key13b184" id="key13b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b1841"><a name="answer-key13b1841"></a>
+<div id="taoptionAnswer0q13b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Párrafo.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b1842" class="sr-av"><a href="#answer-key13b1842">Opción 2</a></label><input type="radio" name="key13b184" id="key13b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b1842"><a name="answer-key13b1842"></a>
+<div id="taoptionAnswer1q13b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Estilos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b1843" class="sr-av"><a href="#answer-key13b1843">Opción 3</a></label><input type="radio" name="key13b184" id="key13b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b1843"><a name="answer-key13b1843"></a>
+<div id="taoptionAnswer2q13b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Edición.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b1844" class="sr-av"><a href="#answer-key13b1844">Opción 4</a></label><input type="radio" name="key13b184" id="key13b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b1844"><a name="answer-key13b1844"></a>
+<div id="taoptionAnswer3q13b184" class="block iDevice_content">
+<p>Portapapeles.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion14b184" class="block iDevice_content">
+<p><strong>¿Qué combinación de teclas deberá pulsar si quiere moverse rápidamente por el documento e ir a una página en concreto o a una nota?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b1841" class="sr-av"><a href="#answer-key14b1841">Opción 1</a></label><input type="radio" name="key14b184" id="key14b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b1841"><a name="answer-key14b1841"></a>
+<div id="taoptionAnswer0q14b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Control-A.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b1842" class="sr-av"><a href="#answer-key14b1842">Opción 2</a></label><input type="radio" name="key14b184" id="key14b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b1842"><a name="answer-key14b1842"></a>
+<div id="taoptionAnswer1q14b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Control-G.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b1843" class="sr-av"><a href="#answer-key14b1843">Opción 3</a></label><input type="radio" name="key14b184" id="key14b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b1843"><a name="answer-key14b1843"></a>
+<div id="taoptionAnswer2q14b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Control-R.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b1844" class="sr-av"><a href="#answer-key14b1844">Opción 4</a></label><input type="radio" name="key14b184" id="key14b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b1844"><a name="answer-key14b1844"></a>
+<div id="taoptionAnswer3q14b184" class="block iDevice_content">
+<p>Control-I.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion15b184" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Confirma si la siguiente afirmación es verdadera o falsa: </strong> <em><strong>“Si desea ofrecer mayor flexibilidad a otros usuarios que utilicen su plantilla, agregue y configure controles de contenido en ésta, como controles de texto enriquecido, imágenes, listas desplegables o selectores de fecha”.</strong> </em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b1841" class="sr-av"><a href="#answer-key15b1841">Opción 1</a></label><input type="radio" name="key15b184" id="key15b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b1841"><a name="answer-key15b1841"></a>
+<div id="taoptionAnswer0q15b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b1842" class="sr-av"><a href="#answer-key15b1842">Opción 2</a></label><input type="radio" name="key15b184" id="key15b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b1842"><a name="answer-key15b1842"></a>
+<div id="taoptionAnswer1q15b184" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion16b184" class="block iDevice_content">
+<p><strong>¿Qué opciones podremos encontrarnos en la pestaña Información, dentro de la vista Backstage?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b1841" class="sr-av"><a href="#answer-key16b1841">Opción 1</a></label><input type="radio" name="key16b184" id="key16b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b1841"><a name="answer-key16b1841"></a>
+<div id="taoptionAnswer0q16b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Modo de compatibilidad, proteger documento, inspeccionar documento y versiones.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b1842" class="sr-av"><a href="#answer-key16b1842">Opción 2</a></label><input type="radio" name="key16b184" id="key16b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b1842"><a name="answer-key16b1842"></a>
+<div id="taoptionAnswer1q16b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Modo de compatibilidad, opciones, preparar para compartir y versiones.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b1843" class="sr-av"><a href="#answer-key16b1843">Opción 3</a></label><input type="radio" name="key16b184" id="key16b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b1843"><a name="answer-key16b1843"></a>
+<div id="taoptionAnswer2q16b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Imprimir, opciones, preparar para compartir y versiones.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b1844" class="sr-av"><a href="#answer-key16b1844">Opción 4</a></label><input type="radio" name="key16b184" id="key16b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b1844"><a name="answer-key16b1844"></a>
+<div id="taoptionAnswer3q16b184" class="block iDevice_content">
+<p>Guardar y enviar, nuevo, versiones y modo de compatibilidad</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion17b184" class="block iDevice_content">
+<p><strong>Para seleccionar una cantidad determinada del texto de un documento Word es posible hacerlo:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b1841" class="sr-av"><a href="#answer-key17b1841">Opción 1</a></label><input type="radio" name="key17b184" id="key17b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b1841"><a name="answer-key17b1841"></a>
+<div id="taoptionAnswer0q17b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Utilizando el ratón, únicamente.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b1842" class="sr-av"><a href="#answer-key17b1842">Opción 2</a></label><input type="radio" name="key17b184" id="key17b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b1842"><a name="answer-key17b1842"></a>
+<div id="taoptionAnswer1q17b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Utilizando el teclado, en todo caso.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b1843" class="sr-av"><a href="#answer-key17b1843">Opción 3</a></label><input type="radio" name="key17b184" id="key17b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b1843"><a name="answer-key17b1843"></a>
+<div id="taoptionAnswer2q17b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Utilizando la tecla “Intro” y así quedará resaltado el texto seleccionado.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b1844" class="sr-av"><a href="#answer-key17b1844">Opción 4</a></label><input type="radio" name="key17b184" id="key17b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b1844"><a name="answer-key17b1844"></a>
+<div id="taoptionAnswer3q17b184" class="block iDevice_content">
+<p>Utilizando el ratón o el teclado.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion18b184" class="block iDevice_content">
+<p><strong>¿Qué tecla deberá pulsar para eliminar la sangría?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b1841" class="sr-av"><a href="#answer-key18b1841">Opción 1</a></label><input type="radio" name="key18b184" id="key18b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b1841"><a name="answer-key18b1841"></a>
+<div id="taoptionAnswer0q18b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Control.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b1842" class="sr-av"><a href="#answer-key18b1842">Opción 2</a></label><input type="radio" name="key18b184" id="key18b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b1842"><a name="answer-key18b1842"></a>
+<div id="taoptionAnswer1q18b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Retroceso.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b1843" class="sr-av"><a href="#answer-key18b1843">Opción 3</a></label><input type="radio" name="key18b184" id="key18b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b1843"><a name="answer-key18b1843"></a>
+<div id="taoptionAnswer2q18b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Esc.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b1844" class="sr-av"><a href="#answer-key18b1844">Opción 4</a></label><input type="radio" name="key18b184" id="key18b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b1844"><a name="answer-key18b1844"></a>
+<div id="taoptionAnswer3q18b184" class="block iDevice_content">
+<p>Control-Mayús.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion19b184" class="block iDevice_content">
+<p><strong>¿Cuáles son los elementos que componen una tabla? Enuméralos.</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b1841" class="sr-av"><a href="#answer-key19b1841">Opción 1</a></label><input type="radio" name="key19b184" id="key19b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b1841"><a name="answer-key19b1841"></a>
+<div id="taoptionAnswer0q19b184" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Columnas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b1842" class="sr-av"><a href="#answer-key19b1842">Opción 2</a></label><input type="radio" name="key19b184" id="key19b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b1842"><a name="answer-key19b1842"></a>
+<div id="taoptionAnswer1q19b184" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Filas.</div>
+<div class="ee_respuesta ee_multipleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b1843" class="sr-av"><a href="#answer-key19b1843">Opción 3</a></label><input type="radio" name="key19b184" id="key19b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b1843"><a name="answer-key19b1843"></a>
+<div id="taoptionAnswer2q19b184" class="block iDevice_content">
+<p>Celdas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion20b184" class="block iDevice_content">
+<p><strong>Microsoft Word 2013 revisa automáticamente la ortografía y la gramática mientras escribes. ¿De qué color es el subrayado ondulado que nos aparece para alertarnos de los posibles errores gramaticales producidos?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key20b1841" class="sr-av"><a href="#answer-key20b1841">Opción 1</a></label><input type="radio" name="key20b184" id="key20b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key20b1841"><a name="answer-key20b1841"></a>
+<div id="taoptionAnswer0q20b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Naranja.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key20b1842" class="sr-av"><a href="#answer-key20b1842">Opción 2</a></label><input type="radio" name="key20b184" id="key20b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key20b1842"><a name="answer-key20b1842"></a>
+<div id="taoptionAnswer1q20b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verde.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key20b1843" class="sr-av"><a href="#answer-key20b1843">Opción 3</a></label><input type="radio" name="key20b184" id="key20b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key20b1843"><a name="answer-key20b1843"></a>
+<div id="taoptionAnswer2q20b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Rojo.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key20b1844" class="sr-av"><a href="#answer-key20b1844">Opción 4</a></label><input type="radio" name="key20b184" id="key20b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key20b1844"><a name="answer-key20b1844"></a>
+<div id="taoptionAnswer3q20b184" class="block iDevice_content">
+<p>Negro.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion21b184" class="block iDevice_content">
+<p><strong>Si en el grupo Insertar formas de la ficha “Formato”, hacemos clic en una forma y, a continuación, hacemos clic en cualquier parte del documento; ¿qué estamos haciendo?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key21b1841" class="sr-av"><a href="#answer-key21b1841">Opción 1</a></label><input type="radio" name="key21b184" id="key21b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key21b1841"><a name="answer-key21b1841"></a>
+<div id="taoptionAnswer0q21b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Cambiando una forma.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key21b1842" class="sr-av"><a href="#answer-key21b1842">Opción 2</a></label><input type="radio" name="key21b184" id="key21b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key21b1842"><a name="answer-key21b1842"></a>
+<div id="taoptionAnswer1q21b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Agrupando formas seleccionadas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key21b1843" class="sr-av"><a href="#answer-key21b1843">Opción 3</a></label><input type="radio" name="key21b184" id="key21b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key21b1843"><a name="answer-key21b1843"></a>
+<div id="taoptionAnswer2q21b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Insertando una forma.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key21b1844" class="sr-av"><a href="#answer-key21b1844">Opción 4</a></label><input type="radio" name="key21b184" id="key21b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key21b1844"><a name="answer-key21b1844"></a>
+<div id="taoptionAnswer3q21b184" class="block iDevice_content">
+<p>Agregando un texto a una forma.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion22b184" class="block iDevice_content">
+<p><strong>¿Qué tipo de Tabulación alinea los números en torno a una coma decimal?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key22b1841" class="sr-av"><a href="#answer-key22b1841">Opción 1</a></label><input type="radio" name="key22b184" id="key22b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key22b1841"><a name="answer-key22b1841"></a>
+<div id="taoptionAnswer0q22b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Tabulación Izquierda.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key22b1842" class="sr-av"><a href="#answer-key22b1842">Opción 2</a></label><input type="radio" name="key22b184" id="key22b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key22b1842"><a name="answer-key22b1842"></a>
+<div id="taoptionAnswer1q22b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Tabulación Central.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key22b1843" class="sr-av"><a href="#answer-key22b1843">Opción 3</a></label><input type="radio" name="key22b184" id="key22b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key22b1843"><a name="answer-key22b1843"></a>
+<div id="taoptionAnswer2q22b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Tabulación derecha.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key22b1844" class="sr-av"><a href="#answer-key22b1844">Opción 4</a></label><input type="radio" name="key22b184" id="key22b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key22b1844"><a name="answer-key22b1844"></a>
+<div id="taoptionAnswer3q22b184" class="block iDevice_content">
+<p>Tabulación Decimal.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion23b184" class="block iDevice_content">
+<p><strong>Sabemos que hay cinco tipos de vista de un documento. Cuando vemos previamente la colocación del texto, gráficos y otros elementos en la página impresa; podemos modificar encabezados y pies de página, ajustar los márgenes y trabajar con columnas y objetos de dibujo; ¿de qué tipo de va se trata?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key23b1841" class="sr-av"><a href="#answer-key23b1841">Opción 1</a></label><input type="radio" name="key23b184" id="key23b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key23b1841"><a name="answer-key23b1841"></a>
+<div id="taoptionAnswer0q23b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Vista Diseño de impresión.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key23b1842" class="sr-av"><a href="#answer-key23b1842">Opción 2</a></label><input type="radio" name="key23b184" id="key23b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key23b1842"><a name="answer-key23b1842"></a>
+<div id="taoptionAnswer1q23b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Vista Esquema.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key23b1843" class="sr-av"><a href="#answer-key23b1843">Opción 3</a></label><input type="radio" name="key23b184" id="key23b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key23b1843"><a name="answer-key23b1843"></a>
+<div id="taoptionAnswer2q23b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Vista normal.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key23b1844" class="sr-av"><a href="#answer-key23b1844">Opción 4</a></label><input type="radio" name="key23b184" id="key23b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key23b1844"><a name="answer-key23b1844"></a>
+<div id="taoptionAnswer3q23b184" class="block iDevice_content">
+<p>Vista en miniatura.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion24b184" class="block iDevice_content">
+<p><strong>Para cancelar una impresión cuando está desactivado el modo de impresión en segundo plano tenemos que:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key24b1841" class="sr-av"><a href="#answer-key24b1841">Opción 1</a></label><input type="radio" name="key24b184" id="key24b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key24b1841"><a name="answer-key24b1841"></a>
+<div id="taoptionAnswer0q24b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Hacer clic en el icono de la impresora de la barra de estado.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key24b1842" class="sr-av"><a href="#answer-key24b1842">Opción 2</a></label><input type="radio" name="key24b184" id="key24b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key24b1842"><a name="answer-key24b1842"></a>
+<div id="taoptionAnswer1q24b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Pulsar la tecla “esc”.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key24b1843" class="sr-av"><a href="#answer-key24b1843">Opción 3</a></label><input type="radio" name="key24b184" id="key24b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key24b1843"><a name="answer-key24b1843"></a>
+<div id="taoptionAnswer2q24b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Hacer clic en Cancelar.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key24b1844" class="sr-av"><a href="#answer-key24b1844">Opción 4</a></label><input type="radio" name="key24b184" id="key24b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key24b1844"><a name="answer-key24b1844"></a>
+<div id="taoptionAnswer3q24b184" class="block iDevice_content">
+<p>Las respuestas b y c son correctas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion25b184" class="block iDevice_content">
+<p><strong>¿Qué características va a presentar nuestro documento si elegimos un interlineado múltiple?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key25b1841" class="sr-av"><a href="#answer-key25b1841">Opción 1</a></label><input type="radio" name="key25b184" id="key25b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key25b1841"><a name="answer-key25b1841"></a>
+<div id="taoptionAnswer0q25b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Con esta opción se establece un interlineado que aumenta o reduce el interlineado sencillo en un porcentaje que especifique.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key25b1842" class="sr-av"><a href="#answer-key25b1842">Opción 2</a></label><input type="radio" name="key25b184" id="key25b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key25b1842"><a name="answer-key25b1842"></a>
+<div id="taoptionAnswer1q25b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Con esta opción se establece un interlineado fijo que no ajusta Microsoft Office Word.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key25b1843" class="sr-av"><a href="#answer-key25b1843">Opción 3</a></label><input type="radio" name="key25b184" id="key25b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key25b1843"><a name="answer-key25b1843"></a>
+<div id="taoptionAnswer2q25b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Con esta opción se ajusta a la fuente de mayor tamaño de esa línea, mas una pequeña cantidad de espacio adicional.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key25b1844" class="sr-av"><a href="#answer-key25b1844">Opción 4</a></label><input type="radio" name="key25b184" id="key25b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key25b1844"><a name="answer-key25b1844"></a>
+<div id="taoptionAnswer3q25b184" class="block iDevice_content">
+<p>Con esta opción se define el interlineado mínimo necesario para ajustarse a la fuente o el grafico de mayor tamaño de la línea.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion26b184" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Confirma si la siguiente afirmación es verdadera o falsa: “</strong> <em><strong>De manera predeterminada, si empieza un párrafo con un asterisco o un numero, Word reconoce que esta intentado iniciar una lista numerada o con viñetas”.</strong> </em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key26b1841" class="sr-av"><a href="#answer-key26b1841">Opción 1</a></label><input type="radio" name="key26b184" id="key26b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key26b1841"><a name="answer-key26b1841"></a>
+<div id="taoptionAnswer0q26b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleSeleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key26b1842" class="sr-av"><a href="#answer-key26b1842">Opción 2</a></label><input type="radio" name="key26b184" id="key26b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key26b1842"><a name="answer-key26b1842"></a>
+<div id="taoptionAnswer1q26b184" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion27b184" class="block iDevice_content">
+<p><strong>¿A que grupo de la ficha Insertar deberá ir si desea insertar una portada?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key27b1841" class="sr-av"><a href="#answer-key27b1841">Opción 1</a></label><input type="radio" name="key27b184" id="key27b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key27b1841"><a name="answer-key27b1841"></a>
+<div id="taoptionAnswer0q27b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Páginas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key27b1842" class="sr-av"><a href="#answer-key27b1842">Opción 2</a></label><input type="radio" name="key27b184" id="key27b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key27b1842"><a name="answer-key27b1842"></a>
+<div id="taoptionAnswer1q27b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Texto.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key27b1843" class="sr-av"><a href="#answer-key27b1843">Opción 3</a></label><input type="radio" name="key27b184" id="key27b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key27b1843"><a name="answer-key27b1843"></a>
+<div id="taoptionAnswer2q27b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ilustraciones.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key27b1844" class="sr-av"><a href="#answer-key27b1844">Opción 4</a></label><input type="radio" name="key27b184" id="key27b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key27b1844"><a name="answer-key27b1844"></a>
+<div id="taoptionAnswer3q27b184" class="block iDevice_content">
+<p>Configurar página.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion28b184" class="block iDevice_content">
+<p><strong>¿Dentro de que ficha de la cinta de opciones, se le permitirá crear sobre y etiquetas?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key28b1841" class="sr-av"><a href="#answer-key28b1841">Opción 1</a></label><input type="radio" name="key28b184" id="key28b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key28b1841"><a name="answer-key28b1841"></a>
+<div id="taoptionAnswer0q28b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Insertar.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key28b1842" class="sr-av"><a href="#answer-key28b1842">Opción 2</a></label><input type="radio" name="key28b184" id="key28b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key28b1842"><a name="answer-key28b1842"></a>
+<div id="taoptionAnswer1q28b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Correspondencia.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key28b1843" class="sr-av"><a href="#answer-key28b1843">Opción 3</a></label><input type="radio" name="key28b184" id="key28b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key28b1843"><a name="answer-key28b1843"></a>
+<div id="taoptionAnswer2q28b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Referencias.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key28b1844" class="sr-av"><a href="#answer-key28b1844">Opción 4</a></label><input type="radio" name="key28b184" id="key28b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key28b1844"><a name="answer-key28b1844"></a>
+<div id="taoptionAnswer3q28b184" class="block iDevice_content">
+<p>Ficha Complementos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion29b184" class="block iDevice_content">
+<p><strong>¿En que grupo encontrara todas las funciones necesarias para crear índices de contenido, de menor o mayor tamaño, que le dejaran organizar con facilidad un documento?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key29b1841" class="sr-av"><a href="#answer-key29b1841">Opción 1</a></label><input type="radio" name="key29b184" id="key29b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key29b1841"><a name="answer-key29b1841"></a>
+<div id="taoptionAnswer0q29b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Tabla de contenido.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key29b1842" class="sr-av"><a href="#answer-key29b1842">Opción 2</a></label><input type="radio" name="key29b184" id="key29b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key29b1842"><a name="answer-key29b1842"></a>
+<div id="taoptionAnswer1q29b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Índice.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key29b1843" class="sr-av"><a href="#answer-key29b1843">Opción 3</a></label><input type="radio" name="key29b184" id="key29b1843" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key29b1843"><a name="answer-key29b1843"></a>
+<div id="taoptionAnswer2q29b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Notas al pie.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key29b1844" class="sr-av"><a href="#answer-key29b1844">Opción 4</a></label><input type="radio" name="key29b184" id="key29b1844" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key29b1844"><a name="answer-key29b1844"></a>
+<div id="taoptionAnswer3q29b184" class="block iDevice_content">
+<p>Citas y Bibliografía.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion30b184" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Confirma si la siguiente afirmación es verdadera o falsa: </strong> <em><strong>“Las plantillas de las tablas de contenido editan el texto con todo el texto incluido en los estilos Titulo 1, Titulo 2 y Titulo 3, conformando así una clasificación de tres niveles”</strong> </em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key30b1841" class="sr-av"><a href="#answer-key30b1841">Opción 1</a></label><input type="radio" name="key30b184" id="key30b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key30b1841"><a name="answer-key30b1841"></a>
+<div id="taoptionAnswer0q30b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key30b1842" class="sr-av"><a href="#answer-key30b1842">Opción 2</a></label><input type="radio" name="key30b184" id="key30b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key30b1842"><a name="answer-key30b1842"></a>
+<div id="taoptionAnswer1q30b184" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion31b184" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Confirma si la siguiente afirmación es verdadera o falsa: </strong> <em><strong>“Si va a imprimir un documento corto y esta activado el modo de impresión en segundo plano, puede que el icono de impresora no aparezca en la barra de estado el tiempo suficiente para que pueda hacer clic en él y cancela la impresión”. </strong> </em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key31b1841" class="sr-av"><a href="#answer-key31b1841">Opción 1</a></label><input type="radio" name="key31b184" id="key31b1841" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key31b1841"><a name="answer-key31b1841"></a>
+<div id="taoptionAnswer0q31b184" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key31b1842" class="sr-av"><a href="#answer-key31b1842">Opción 2</a></label><input type="radio" name="key31b184" id="key31b1842" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key31b1842"><a name="answer-key31b1842"></a>
+<div id="taoptionAnswer1q31b184" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id185">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario </h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-185_108">
+<form name="multi-select-form-185_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion185_108" class="block question iDevice_content">
+<div id="taquestion28b123" class="block iDevice_content">
+<p><strong>¿Cuáles de estos enunciados es verdadero?</strong></p>
+</div>
+<div class="iDevice_answers"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_1080" class="sr-av"><a href="#answer-185_111">Opción 1</a></label><input type="checkbox" id="op185_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_111"><a name="answer-185_111"></a>
+<div id="taans185_111" class="block iDevice_content">
+<div class="iDevice_answers">
+<div id="taoptionAnswer0q28b123" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">La vista preliminar da más importancia a la colocación de los elementos del archivo que a la presentación en papel de los mismos.</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required"></p>
+<div class="iDevice_answer-content" id="answer-key28b1232"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_1081" class="sr-av"><a href="#answer-185_576">Opción 2</a></label><input type="checkbox" id="op185_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_576"><a name="answer-185_576"></a>
+<div id="taans185_576" class="block iDevice_content">
+<div id="taoptionAnswer1q28b123" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">La vista preliminar da más importancia a la presentación de los elementos del archivo que a la colocación de los mismos.</div>
+</div>
+<div class="iDevice_answer">
+<div class="iDevice_answer-content" id="answer-key28b1233"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_1082" class="sr-av"><a href="#answer-185_578">Opción 3</a></label><input type="checkbox" id="op185_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_578"><a name="answer-185_578"></a>
+<div id="taans185_578" class="block iDevice_content">
+<div id="taoptionAnswer2q28b123" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">En la vista final será capaz de apreciar los detalles finales antes del inicio del proceso de impresión.</div>
+</div>
+<div class="iDevice_answer">
+<div class="iDevice_answer-content" id="answer-key28b1234">
+<div id="taoptionAnswer3q28b123" class="block iDevice_content"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_1083" class="sr-av"><a href="#answer-185_580">Opción 4</a></label><input type="checkbox" id="op185_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_580"><a name="answer-185_580"></a>
+<div id="taans185_580" class="block iDevice_content">
+<p>Para avanzar por las páginas únicamente puede utilizar el puntero del ratón o, en su caso, la rueda del mismo.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'185_108')"/> 
+</p>
+</div>
+<div id="f185_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-185_111" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-185_576" class="right">Correcto</a></li>
+<li><a href="#answer-185_578" class="right">Correcto</a></li>
+<li><a href="#answer-185_580" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-185_582">
+<form name="multi-select-form-185_582" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion185_582" class="block question iDevice_content">
+<div id="taquestion26b123" class="block iDevice_content">
+<p><strong>Señala las opciones correctas. Para modificar un dibujo podemos realizar las siguientes acciones:</strong></p>
+</div>
+<div class="iDevice_answers"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_5820" class="sr-av"><a href="#answer-185_585">Opción 1</a></label><input type="checkbox" id="op185_5820" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_585"><a name="answer-185_585"></a>
+<div id="taans185_585" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Podemos colorearlo simplemente pinchando en él una sola vez.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_5820" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_5821" class="sr-av"><a href="#answer-185_587">Opción 2</a></label><input type="checkbox" id="op185_5821" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_587"><a name="answer-185_587"></a>
+<div id="taans185_587" class="block iDevice_content">
+<p>Aplicar un estilo a una forma.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_5821" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_5822" class="sr-av"><a href="#answer-185_589">Opción 3</a></label><input type="checkbox" id="op185_5822" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_589"><a name="answer-185_589"></a>
+<div id="taans185_589" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Usar formas y efectos tridimensionales.</div>
+<div class="ee_respuesta ee_multipleNo_seleccionada"></div>
+<div class="iDevice_answer">
+<div class="iDevice_answer-content" id="answer-key26b1234">
+<div id="taoptionAnswer3q26b123" class="block iDevice_content">
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_5822" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_5823" class="sr-av"><a href="#answer-185_591">Opción 4</a></label><input type="checkbox" id="op185_5823" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_591"><a name="answer-185_591"></a>
+<div id="taans185_591" class="block iDevice_content">
+<p>Alinear los objetos en lienzo.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_5823" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'185_582')"/> 
+</p>
+</div>
+<div id="f185_582" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-185_585" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-185_587" class="right">Correcto</a></li>
+<li><a href="#answer-185_589" class="right">Correcto</a></li>
+<li><a href="#answer-185_591" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-185_593">
+<form name="multi-select-form-185_593" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion185_593" class="block question iDevice_content">
+<div id="taquestion23b123" class="block iDevice_content">
+<p><strong>Señala los enunciados verdaderos.</strong></p>
+</div>
+<div class="iDevice_answers"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_5930" class="sr-av"><a href="#answer-185_596">Opción 1</a></label><input type="checkbox" id="op185_5930" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_596"><a name="answer-185_596"></a>
+<div id="taans185_596" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">En una tabla podemos insertar una fila o una columna completa.</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_5930" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_5931" class="sr-av"><a href="#answer-185_598">Opción 2</a></label><input type="checkbox" id="op185_5931" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_598"><a name="answer-185_598"></a>
+<div id="taans185_598" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Podemos elegir el grosor de los bordes de la tabla pero no podemos suprimirlos.</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_5931" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_5932" class="sr-av"><a href="#answer-185_600">Opción 3</a></label><input type="checkbox" id="op185_5932" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_600"><a name="answer-185_600"></a>
+<div id="taans185_600" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">En una celda podemos insertar texto, imágenes, objetos, otras matrices, etc.</div>
+<div class="ee_respuesta ee_multipleNo_seleccionada"></div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_5932" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_5933" class="sr-av"><a href="#answer-185_606">Opción 4</a></label><input type="checkbox" id="op185_5933" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_606"><a name="answer-185_606"></a>
+<div id="taans185_606" class="block iDevice_content">
+<p>Podemos dividir una tabla en dos.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_5933" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'185_593')"/> 
+</p>
+</div>
+<div id="f185_593" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-185_596" class="right">Correcto</a></li>
+<li><a href="#answer-185_598" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-185_600" class="right">Correcto</a></li>
+<li><a href="#answer-185_606" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-185_608">
+<form name="multi-select-form-185_608" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion185_608" class="block question iDevice_content">
+<div id="taquestion22b123" class="block iDevice_content">
+<p><strong>¿Qué nos permite hacer el corrector ortográfico automático? Señale las respuestas correctas.</strong></p>
+</div>
+<div class="iDevice_answers"></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_6080" class="sr-av"><a href="#answer-185_611">Opción 1</a></label><input type="checkbox" id="op185_6080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_611"><a name="answer-185_611"></a>
+<div id="taans185_611" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Elegir las palabras adecuadas en las sugerencias que nos da.</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_6080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_6081" class="sr-av"><a href="#answer-185_613">Opción 2</a></label><input type="checkbox" id="op185_6081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_613"><a name="answer-185_613"></a>
+<div id="taans185_613" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Agregar al diccionario palabras que éste en un principio no reconoce como correctas y sí lo son.</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_6081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_6082" class="sr-av"><a href="#answer-185_615">Opción 3</a></label><input type="checkbox" id="op185_6082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_615"><a name="answer-185_615"></a>
+<div id="taans185_615" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Olvidar las palabras que aparecen como mal escritas en las siguientes revisiones ortográficas.</div>
+<div class="ee_respuesta ee_multipleNo_seleccionada"></div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_6082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_6083" class="sr-av"><a href="#answer-185_617">Opción 4</a></label><input type="checkbox" id="op185_6083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_617"><a name="answer-185_617"></a>
+<div id="taans185_617" class="block iDevice_content">
+<p>Suprimir directa y definitivamente la palabra o frase subrayada en verde en esta y otras ocasiones que aparezca.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_6083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'185_608')"/> 
+</p>
+</div>
+<div id="f185_608" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-185_611" class="right">Correcto</a></li>
+<li><a href="#answer-185_613" class="right">Correcto</a></li>
+<li><a href="#answer-185_615" class="right">Correcto</a></li>
+<li><a href="#answer-185_617" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-185_629">
+<form name="multi-select-form-185_629" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion185_629" class="block question iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><strong>En una tabla, podemos seleccionar varios elementos. Señala las opciones correctas.</strong></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_6290" class="sr-av"><a href="#answer-185_632">Opción 1</a></label><input type="checkbox" id="op185_6290" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_632"><a name="answer-185_632"></a>
+<div id="taans185_632" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">El contenido de una columna.</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_6290" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_6291" class="sr-av"><a href="#answer-185_634">Opción 2</a></label><input type="checkbox" id="op185_6291" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_634"><a name="answer-185_634"></a>
+<div id="taans185_634" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">El contenido de toda la tabla.</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_6291" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_6292" class="sr-av"><a href="#answer-185_636">Opción 3</a></label><input type="checkbox" id="op185_6292" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_636"><a name="answer-185_636"></a>
+<div id="taans185_636" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Para seleccionar contenido de una tabla tendremos que utilizar un Software especial.</div>
+<div class="ee_respuesta ee_multipleNo_seleccionada"></div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_6292" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op185_6293" class="sr-av"><a href="#answer-185_643">Opción 4</a></label><input type="checkbox" id="op185_6293" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-185_643"><a name="answer-185_643"></a>
+<div id="taans185_643" class="block iDevice_content">
+<p>El contenido de una fila.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-185_6293" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'185_629')"/> 
+</p>
+</div>
+<div id="f185_629" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-185_632" class="right">Correcto</a></li>
+<li><a href="#answer-185_634" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-185_636" class="right">Correcto</a></li>
+<li><a href="#answer-185_643" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

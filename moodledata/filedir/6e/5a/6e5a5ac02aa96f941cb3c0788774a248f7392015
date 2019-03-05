@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación | UNIDAD DIDÁCTICA 2. CONCEPTOS BÁSICOS </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id124">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 1;
+var key2 = 0;
+var key3 = 0;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b124");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm124").key0b124[i].checked)
+               {
+                  question0 = document.getElementById("quizForm124").key0b124[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b124");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm124").key1b124[i].checked)
+               {
+                  question1 = document.getElementById("quizForm124").key1b124[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b124");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm124").key2b124[i].checked)
+               {
+                  question2 = document.getElementById("quizForm124").key2b124[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b124");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm124").key3b124[i].checked)
+               {
+                  question3 = document.getElementById("quizForm124").key3b124[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b124");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm124").key4b124[i].checked)
+               {
+                  question4 = document.getElementById("quizForm124").key4b124[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm124").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm124" id="quizForm124" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-124" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b124" class="block iDevice_content">
+<div class="ee_enunciado"><strong>¿Cuando observamos una imagen en la pantalla del ordenador, ésta siempre se nos representa en?</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1241" class="sr-av"><a href="#answer-key0b1241">Opción 1</a></label><input type="radio" name="key0b124" id="key0b1241" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1241"><a name="answer-key0b1241"></a>
+<div id="taoptionAnswer0q0b124" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Líneas</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1242" class="sr-av"><a href="#answer-key0b1242">Opción 2</a></label><input type="radio" name="key0b124" id="key0b1242" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1242"><a name="answer-key0b1242"></a>
+<div id="taoptionAnswer1q0b124" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En mapa de bits</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1243" class="sr-av"><a href="#answer-key0b1243">Opción 3</a></label><input type="radio" name="key0b124" id="key0b1243" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1243"><a name="answer-key0b1243"></a>
+<div id="taoptionAnswer2q0b124" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">En vectores</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b124" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Las imágenes vectoriales están definidas:</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1241" class="sr-av"><a href="#answer-key1b1241">Opción 1</a></label><input type="radio" name="key1b124" id="key1b1241" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1241"><a name="answer-key1b1241"></a>
+<div id="taoptionAnswer0q1b124" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">vectorialmente</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1242" class="sr-av"><a href="#answer-key1b1242">Opción 2</a></label><input type="radio" name="key1b124" id="key1b1242" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1242"><a name="answer-key1b1242"></a>
+<div id="taoptionAnswer1q1b124" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Matemáticamente</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1243" class="sr-av"><a href="#answer-key1b1243">Opción 3</a></label><input type="radio" name="key1b124" id="key1b1243" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1243"><a name="answer-key1b1243"></a>
+<div id="taoptionAnswer2q1b124" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Por píxel</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b124" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="ee_enunciado"><strong>¿Las imágenes de mapa de bits están descritas por?</strong></div>
+<p><strong> </strong></p>
+</div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1241" class="sr-av"><a href="#answer-key2b1241">Opción 1</a></label><input type="radio" name="key2b124" id="key2b1241" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1241"><a name="answer-key2b1241"></a>
+<div id="taoptionAnswer0q2b124" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Píxel</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1242" class="sr-av"><a href="#answer-key2b1242">Opción 2</a></label><input type="radio" name="key2b124" id="key2b1242" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1242"><a name="answer-key2b1242"></a>
+<div id="taoptionAnswer1q2b124" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Vectores</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1243" class="sr-av"><a href="#answer-key2b1243">Opción 3</a></label><input type="radio" name="key2b124" id="key2b1243" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1243"><a name="answer-key2b1243"></a>
+<div id="taoptionAnswer2q2b124" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Fórmulas matemáticas</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b124" class="block iDevice_content">
+<div class="ee_enunciado"><strong> En monitores de color, ¿Cada píxel se compone de?</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1241" class="sr-av"><a href="#answer-key3b1241">Opción 1</a></label><input type="radio" name="key3b124" id="key3b1241" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1241"><a name="answer-key3b1241"></a>
+<div id="taoptionAnswer0q3b124" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Tres puntos -- uno rojo, uno azul, y uno verde</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1242" class="sr-av"><a href="#answer-key3b1242">Opción 2</a></label><input type="radio" name="key3b124" id="key3b1242" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1242"><a name="answer-key3b1242"></a>
+<div id="taoptionAnswer1q3b124" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">
+<div class="ee_respuesta ee_simpleSeleccionada">Dos puntos—uno rojo, uno azul</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1243" class="sr-av"><a href="#answer-key3b1243">Opción 3</a></label><input type="radio" name="key3b124" id="key3b1243" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1243"><a name="answer-key3b1243"></a>
+<div id="taoptionAnswer2q3b124" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Un puntos—rojo</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b124" class="block iDevice_content">
+<div class="ee_enunciado"><strong>¿Qué nos indica La resolución de imagen?</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1241" class="sr-av"><a href="#answer-key4b1241">Opción 1</a></label><input type="radio" name="key4b124" id="key4b1241" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1241"><a name="answer-key4b1241"></a>
+<div id="taoptionAnswer0q4b124" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Cuánto detalle o calidad puede observarse en una imagen</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1242" class="sr-av"><a href="#answer-key4b1242">Opción 2</a></label><input type="radio" name="key4b124" id="key4b1242" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1242"><a name="answer-key4b1242"></a>
+<div id="taoptionAnswer1q4b124" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La cantidad de color</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1243" class="sr-av"><a href="#answer-key4b1243">Opción 3</a></label><input type="radio" name="key4b124" id="key4b1243" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1243"><a name="answer-key4b1243"></a>
+<div id="taoptionAnswer2q4b124" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Nivel de intensidad</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

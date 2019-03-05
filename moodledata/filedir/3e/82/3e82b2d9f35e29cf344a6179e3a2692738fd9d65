@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.1.Creación de la referencia </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">3.1.Creación de la referencia</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id179">
+<div class="iDevice emphasis0">
+<div id="ta179_85" class="block iDevice_content">
+<p>Para seleccionar el artículo correspondiente a la primera línea de factura, obteniendo los datos correspondientes, haga los siguientes pasos:</p>
+<ul>
+<li>Situé el foco de entrada en la celdilla correspondiente al código de la primera línea de factura.</li>
+<li>Introduzca el símbolo =, de tal forma que Excel sepa que quiere iniciar una formula.</li>
+<li>Haga clic en la pestaña Hoja2, para acceder a la página de artículos.</li>
+<li>Selecciones el código del producto deseado, por ejemplo, el 4 .</li>
+<li>Pulse <b>Intro</b>.</li>
+</ul>
+<p>Al dar el último paso, verá que Excel vuelve automáticamente a la hoja de factura, mostrando en la celdilla el código del producto elegido. El contenido de la celdilla, finalmente no es una formula, sino una referencia a un dato de la otra hoja, como se destaca en la figura 9 .6 . De esta forma, hemos creado un vínculo a otro dato que, en este caso, se aloja en una hoja del mismo libro.</p>
+<p>Lógicamente, podríamos haber introducido de manera manual la formula =Hoja2! A6 pero, para ello, deberíamos conocer de memoria cual es la posición en Hoja2 del producto que buscamos.</p>
+<p><img src="excel_9.6.png" alt="FIGURA 9.6" width="429" height="310" /></p>
+<p><strong>FIGURA 9.6</strong></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

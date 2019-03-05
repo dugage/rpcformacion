@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.2. Confirmaciones y petición de datos </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.2. Confirmaciones y petición de datos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<p>Si tan sólo necesitamos preguntar al usuario sobre una cuestión que puede responderse con un simple sí o no, aceptar o cancelar, en lugar de un cuadro de diálogo podemos usar la función MsgBox. Ésta hace aparecer una pequeña ventana con un texto, opcionalmente un icono y uno o más botones en su interior. Dependiendo del botón pulsado, el valor devuelto por la función será uno u otro.</p>
+<p>El primer parámetro que necesita MsgBox es una cadena de caracteres con el mensaje que debe mostrar en el interior de la ventana. En la tabla 16.1 se resumen los valores que usaríamos como segundo parámetro. Tenga en cuenta que es posible combinar varios de esos valores, por ejemplo para mostrar el icono de advertencia y un botón <b>Aceptar</b>. Para efectuar dicha combinación se utiliza el operador Or, aunque también puede sumarlos.</p>
+<table style="border-width: 0px; border-collapse: collapse;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Valor</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Significado</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>VbOKOnly</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Sólo se incluirá el botón <b>Aceptar</b>.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>VbOKCancel</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Aparecerán los botones <b>Aceptar</b> y <b>Cancelar</b>.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>VbYesNO</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Aparecerán los botones <b>Sí</b> y <b>No</b>.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>VbYesNoCancel</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Aparecerán los botones <b>Sí</b>, <b>No</b> y <b>Cancelar</b>.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>VbCritical</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Se mostrará un icono de advertencia crítica.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>VbQuestion</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Se muestra una interrogación</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>VbExclamation</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Se muestra una exclamación.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>VbInformation</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Se muestra el icono de información.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>VbApplicationModal</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>Hace que la ventana quede en primer plano impidiendo el acceso de Excel hasta que no sea cerrada.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 16.1.</b> Valores para el segundo parámetro de MsgBox.</p>
+<p>Los valores devueltos por esta función son VboK, VbCancel, VbYes o VbNo, según el botón sobre el que se haya hecho el clic.</p>
+<table style="border-width: 0px; border-collapse: collapse;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top" width="40">
+<p><b>Valor</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Significado</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>0</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>El usuario debe introducir una fórmula.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>1</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Debe facilitarse un número</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>2</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>El dato solicitado es una cadena de caracteres.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>4</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Se solicita un valor lógico, sólo puede ser VERDADER o FALSO.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>8</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>El usuario debe facilitar una referencia a una celdilla o un rango.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>16</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>El valor a introducir es un código de error.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>64</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>Debe introducirse una matriz de valores.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 16.2.</b> Posibles valores para el último parámetro del método InpuBox.</p>
+<p>Al igual que los valores de la tabla 17.1, éstos que acaban de enumerarse también pueden ser combinados, bien sumándolos o con el operador Or. Esto permitiría mostrar una ventana que, por ejemplo, permitiese tanto introducir una fórmula como una referencia a una celdilla que la contuviese.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

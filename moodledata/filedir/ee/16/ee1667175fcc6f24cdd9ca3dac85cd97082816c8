@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Ejercicio Repaso </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-34" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Ejercicio Repaso</h1></div></header>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id45">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 2;
+var key1 = 3;
+var key2 = 1;
+var key3 = 3;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b45");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm45").key0b45[i].checked)
+               {
+                  question0 = document.getElementById("quizForm45").key0b45[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b45");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm45").key1b45[i].checked)
+               {
+                  question1 = document.getElementById("quizForm45").key1b45[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b45");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm45").key2b45[i].checked)
+               {
+                  question2 = document.getElementById("quizForm45").key2b45[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b45");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm45").key3b45[i].checked)
+               {
+                  question3 = document.getElementById("quizForm45").key3b45[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm45").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm45" id="quizForm45" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-45" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b45" class="block iDevice_content">
+<p><strong>Valor de mercado o valor venal de un inmueble</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b451" class="sr-av"><a href="#answer-key0b451">Opción 1</a></label><input type="radio" name="key0b45" id="key0b451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b451">
+<div id="taoptionAnswer0q0b45" class="block iDevice_content">
+<div class="texto">Son cualquiera de las valoraciones que son emitidas con posterioridad de la tasación inicial y mientras que se construye o rehabilita.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b452" class="sr-av"><a href="#answer-key0b452">Opción 2</a></label><input type="radio" name="key0b45" id="key0b452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b452">
+<div id="taoptionAnswer1q0b45" class="block iDevice_content">
+<div class="texto">Es el valor que le correspondería al inmueble y que está determinado por una posibilidad futura de comerciar con él.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b453" class="sr-av"><a href="#answer-key0b453">Opción 3</a></label><input type="radio" name="key0b45" id="key0b453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b453">
+<div id="taoptionAnswer2q0b45" class="block iDevice_content">
+<div class="texto">Es el precio o valor al que podría venderse el inmueble, a través de un contrato privado entre un comprador y un vendedor voluntario.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b454" class="sr-av"><a href="#answer-key0b454">Opción 4</a></label><input type="radio" name="key0b45" id="key0b454" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b454">
+<div id="taoptionAnswer3q0b45" class="block iDevice_content">
+<div class="texto">Es el valor obtenido mediante la aplicación del método de comparación, método de actualización de rentas y método residual respectivamente.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b45" class="block iDevice_content">
+<div class="texto"><strong>Valor por comparación o por actualización o valor residual</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b451" class="sr-av"><a href="#answer-key1b451">Opción 1</a></label><input type="radio" name="key1b45" id="key1b451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b451">
+<div id="taoptionAnswer0q1b45" class="block iDevice_content">
+<div class="texto">Son cualquiera de las valoraciones que son emitidas con posterioridad de la tasación inicial y mientras que se construye o rehabilita.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b452" class="sr-av"><a href="#answer-key1b452">Opción 2</a></label><input type="radio" name="key1b45" id="key1b452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b452">
+<div id="taoptionAnswer1q1b45" class="block iDevice_content">
+<div class="texto">Es el valor que le correspondería al inmueble y que está determinado por una posibilidad futura de comerciar con él.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b453" class="sr-av"><a href="#answer-key1b453">Opción 3</a></label><input type="radio" name="key1b45" id="key1b453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b453">
+<div id="taoptionAnswer2q1b45" class="block iDevice_content">
+<div class="texto">Es el precio o valor al que podría venderse el inmueble, a través de un contrato privado entre un comprador y un vendedor voluntario.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b454" class="sr-av"><a href="#answer-key1b454">Opción 4</a></label><input type="radio" name="key1b45" id="key1b454" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b454">
+<div id="taoptionAnswer3q1b45" class="block iDevice_content">
+<div class="texto">Es el valor obtenido mediante la aplicación del método de comparación, método de actualización de rentas y método residual respectivamente.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b45" class="block iDevice_content">
+<div class="texto"><strong>Valor del inmueble</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b451" class="sr-av"><a href="#answer-key2b451">Opción 1</a></label><input type="radio" name="key2b45" id="key2b451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b451">
+<div id="taoptionAnswer0q2b45" class="block iDevice_content">
+<div class="texto">Son cualquiera de las valoraciones que son emitidas con posterioridad de la tasación inicial y mientras que se construye o rehabilita.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b452" class="sr-av"><a href="#answer-key2b452">Opción 2</a></label><input type="radio" name="key2b45" id="key2b452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b452">
+<div id="taoptionAnswer1q2b45" class="block iDevice_content">
+<div class="texto">Es el valor que le correspondería al inmueble y que está determinado por una posibilidad futura de comerciar con él.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b453" class="sr-av"><a href="#answer-key2b453">Opción 3</a></label><input type="radio" name="key2b45" id="key2b453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b453">
+<div id="taoptionAnswer2q2b45" class="block iDevice_content">
+<div class="texto">Es el precio o valor al que podría venderse el inmueble, a través de un contrato privado entre un comprador y un vendedor voluntario.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b454" class="sr-av"><a href="#answer-key2b454">Opción 4</a></label><input type="radio" name="key2b45" id="key2b454" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b454">
+<div id="taoptionAnswer3q2b45" class="block iDevice_content">
+<div class="texto">Es el valor obtenido mediante la aplicación del método de comparación, método de actualización de rentas y método residual respectivamente.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b45" class="block iDevice_content">
+<div class="texto"><strong>Valor intermedio de obra</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b451" class="sr-av"><a href="#answer-key3b451">Opción 1</a></label><input type="radio" name="key3b45" id="key3b451" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b451">
+<div id="taoptionAnswer0q3b45" class="block iDevice_content">
+<div class="texto">Son cualquiera de las valoraciones que son emitidas con posterioridad de la tasación inicial y mientras que se construye o rehabilita.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b452" class="sr-av"><a href="#answer-key3b452">Opción 2</a></label><input type="radio" name="key3b45" id="key3b452" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b452">
+<div id="taoptionAnswer1q3b45" class="block iDevice_content">
+<div class="texto">Es el valor que le correspondería al inmueble y que está determinado por una posibilidad futura de comerciar con él.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b453" class="sr-av"><a href="#answer-key3b453">Opción 3</a></label><input type="radio" name="key3b45" id="key3b453" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b453">
+<div id="taoptionAnswer2q3b45" class="block iDevice_content">
+<div class="texto">Es el precio o valor al que podría venderse el inmueble, a través de un contrato privado entre un comprador y un vendedor voluntario.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b454" class="sr-av"><a href="#answer-key3b454">Opción 4</a></label><input type="radio" name="key3b45" id="key3b454" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b454">
+<div id="taoptionAnswer3q3b45" class="block iDevice_content">
+<div class="texto">Es el valor obtenido mediante la aplicación del método de comparación, método de actualización de rentas y método residual respectivamente.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore45"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

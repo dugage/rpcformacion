@@ -1,0 +1,2422 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="XHTML"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Topic"></unicode>
+   <unicode value="Section"></unicode>
+   <unicode value="Unit"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="tema18"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="3"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="4"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="5">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Métodos abreviados de teclado"></unicode>
+     <string role="key" value="idevices"></string>
+     <list></list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="1"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:M%C3%A9todos%20abreviados%20de%20teclado"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="4">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="1. Métodos abreviados básicos de Microsoft Office"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="3">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;Los métodos abreviados de teclado descritos en este tema hacen referencia a la distribución de teclado de EE.UU. Las teclas de otras distribuciones pueden no corresponder exactamente con las teclas de un teclado de EE.UU..&lt;/p&gt;
+&lt;p&gt;Para aquellos métodos abreviados de teclado en los que se presionan dos o más teclas de forma simultánea, las teclas que hay que presionar se separan con un signo más (+) en la Ayuda de Microsoft Project. Para aquellos métodos abreviados de teclado en los que se presiona una tecla y otra inmediatamente después, las teclas que hay que presionar se separan con una coma (,).&lt;/p&gt;
+&lt;p&gt;Puede usar el teclado para tener acceso a los comandos de la cinta de opciones, así como navegar y desplazarse en la ventana Ayuda. Presione ALT para mostrar KeyTips en cada una de las características disponibles en la vista del programa en la que se encuentre.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Acceso mediante el teclado a la cinta de opciones&lt;/b&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Presione ALT. En cada característica disponible en la vista actual se muestra información sobre las teclas.&lt;/li&gt;
+&lt;li&gt;Presione la letra que aparece en la KeyTip de la característica que desea usar.&lt;/li&gt;
+&lt;li&gt;Según la letra que presione, pueden aparecer KeyTips adicionales. Por ejemplo, si la pestaña Inicio está activa y presiona V, se muestra la ficha Vista junto con las KeyTips de los grupos de esa ficha.&lt;/li&gt;
+&lt;li&gt;Siga presionando letras hasta que presione la letra del comando o del control que desea usar. En algunos casos, debe presionar primero la letra del grupo que contiene el comando.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Nota: Para cancelar la acción que está realizando y ocultar la información sobre las teclas, presione ALT.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Mostrar y usar las ventanas&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Cambiar a la siguiente ventana.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;ALT+TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Cambiar a la ventana anterior.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;ALT+MAYÚS+TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Cerrar la ventana activa.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;CTRL+W o CTRL+F4&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Restaurar el tamaño de la ventana activa después de maximizarla.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;CTRL+F5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Desplazarse a un panel de tareas desde otro panel en la ventana del programa (dirección en el sentido del reloj). Puede que tenga que presionar F6 más de una vez.&lt;/p&gt;
+&lt;p&gt;Si al presionar F6 no se muestra el panel de tareas que desee, inténtelo presionando ALT para colocar el foco en la barra de menús o en la cinta de opciones, que forma parte de Office Fluent Ribbon y, a continuación, presione CTRL+TAB para desplazarse al panel de tareas.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;F6&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Desplazarse a un panel desde otro panel en la ventana del programa (sentido contrario al de las agujas del reloj).&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;MAYÚS+F6&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Cambiar a la ventana siguiente, cuando hay abierta más de una ventana.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;CTRL+F6&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Cambiar a la ventana anterior.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+F6&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Cuando una ventana de documento no está maximizada, ejecutar el comando &lt;b&gt;Mover&lt;/b&gt;, del menú &lt;b&gt;Control&lt;/b&gt; de la ventana. Presione las teclas de dirección para mover la ventana. Cuando termine, presione ESC.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;CTRL+F7&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Cuando una ventana de documento no está maximizada, ejecutar el comando &lt;b&gt;Tamaño&lt;/b&gt; del menú &lt;b&gt;Control&lt;/b&gt; de la ventana. Presione las teclas de dirección para ajustar el tamaño de la ventana. Cuando termine, presione ESC.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;CTRL+F8&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Minimizar una ventana y dejarla como icono, sólo funciona con algunos programas de Microsoft Office.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;CTRL+F9&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Maximizar o restaurar una ventana seleccionada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;CTRL+F10&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Copiar una imagen de la pantalla en el Portapapeles.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;Impr Pant&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;76%&quot;&gt;
+&lt;p&gt;Copiar una imagen de la ventana seleccionada en el Portapapeles.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;23%&quot;&gt;
+&lt;p&gt;ALT+Impr Pant&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Cambiar la fuente o su tamaño&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;75%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;24%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;75%&quot;&gt;
+&lt;p&gt;Cambiar la fuente.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;24%&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+F&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;75%&quot;&gt;
+&lt;p&gt;Cambiar el tamaño de la fuente.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;24%&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+P&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;75%&quot;&gt;
+&lt;p&gt;Aumentar el tamaño de la fuente del texto seleccionado.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;24%&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+&amp;gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;75%&quot;&gt;
+&lt;p&gt;Disminuir el tamaño de la fuente del texto seleccionado.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;24%&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+&amp;lt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Desplazarse en el texto o las celdas&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Desplazarse un carácter a la izquierda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;FLECHA IZQUIERDA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Desplazarse un carácter a la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;FLECHA DERECHA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Desplazarse una línea hacia arriba.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;FLECHA ARRIBA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Desplazarse una línea hacia abajo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;FLECHA ABAJO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Desplazarse una palabra a la izquierda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;CTRL+FLECHA IZQUIERDA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Desplazarse una palabra a la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;CTRL+FLECHA DERECHA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Ir al final de la línea.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Ir al principio de la línea.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Desplazarse un párrafo hacia arriba.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;CTRL+FLECHA ARRIBA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Desplazarse un párrafo hacia abajo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;CTRL+FLECHA ABAJO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Ir al final del cuadro de texto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;CTRL+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Ir al principio del cuadro de texto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;CTRL+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;57%&quot;&gt;
+&lt;p&gt;Repetir la última acción de &lt;b&gt;Buscar&lt;/b&gt;.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;42%&quot;&gt;
+&lt;p&gt;MAYÚS+F4&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Desplazarse y trabajar con tablas&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;64%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;35%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;64%&quot;&gt;
+&lt;p&gt;Desplazarse a la siguiente celda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;35%&quot;&gt;
+&lt;p&gt;TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;64%&quot;&gt;
+&lt;p&gt;Desplazarse a la celda anterior.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;35%&quot;&gt;
+&lt;p&gt;MAYÚS+TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;64%&quot;&gt;
+&lt;p&gt;Desplazarse a la siguiente fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;35%&quot;&gt;
+&lt;p&gt;FLECHA ABAJO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;64%&quot;&gt;
+&lt;p&gt;Desplazarse a la fila anterior.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;35%&quot;&gt;
+&lt;p&gt;FLECHA ARRIBA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;64%&quot;&gt;
+&lt;p&gt;Insertar una tabulación en una celda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;35%&quot;&gt;
+&lt;p&gt;CTRL+TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;64%&quot;&gt;
+&lt;p&gt;Empezar un nuevo párrafo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;35%&quot;&gt;
+&lt;p&gt;ENTRAR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;64%&quot;&gt;
+&lt;p&gt;Agregar una nueva fila a la parte inferior de la tabla.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;35%&quot;&gt;
+&lt;p&gt;TAB al final de la última fila&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Obtener acceso a acciones y usarlas&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;77%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;22%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;77%&quot;&gt;
+&lt;p&gt;Mostrar el menú o el mensaje de una acción. Si existe más de una acción, pasar a la siguiente acción y mostrar su menú o mensaje.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;22%&quot;&gt;
+&lt;p&gt;ALT+MAYÚS+F10&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;77%&quot;&gt;
+&lt;p&gt;Seleccionar el siguiente elemento en el menú de acciones.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;22%&quot;&gt;
+&lt;p&gt;FLECHA ABAJO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;77%&quot;&gt;
+&lt;p&gt;Seleccionar el elemento anterior en el menú de acciones.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;22%&quot;&gt;
+&lt;p&gt;FLECHA ARRIBA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;77%&quot;&gt;
+&lt;p&gt;Realizar la acción del elemento seleccionado del menú de acciones.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;22%&quot;&gt;
+&lt;p&gt;ENTRAR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;77%&quot;&gt;
+&lt;p&gt;Cerrar el menú o el mensaje de una acción.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;22%&quot;&gt;
+&lt;p&gt;ESC&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Usar cuadros de diálogo&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Ir a la opción o al grupo de opciones siguiente.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Ir a la opción o al grupo de opciones anterior.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;MAYÚS+TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Pasar a la siguiente pestaña en un cuadro de diálogo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;CTRL+TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Pasar a la pestaña anterior del cuadro de diálogo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Desplazarse entre las opciones de una lista desplegable abierta o entre las opciones de un grupo de opciones.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;Teclas de dirección&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Realizar la acción asignada al botón seleccionado; activar o desactivar la casilla de verificación seleccionada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;BARRA ESPACIADORA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Abrir la lista, si está cerrada, y tener acceso a la opción.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;La primera letra de una opción de una lista desplegable&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Seleccionar una opción, activar o desactivar una casilla de verificación.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;ALT+ la letra subrayada de una opción&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Abrir la lista desplegable seleccionada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;ALT+FLECHA ABAJO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Cerrar la lista desplegable seleccionada, cancelar un comando y cerrar un cuadro de diálogo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;ESC&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;63%&quot;&gt;
+&lt;p&gt;Realizar la acción asignada a un botón predeterminado de un cuadro de diálogo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;36%&quot;&gt;
+&lt;p&gt;ENTRAR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Usar cuadros de edición dentro de los cuadros de diálogo&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Un cuadro de edición es un espacio en blanco en el que puede escribir o pegar una entrada, por ejemplo, su nombre de usuario o la ruta de acceso a una carpeta.&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Desplazarse al principio de la entrada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Desplazarse al final de la entrada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Desplazarse un carácter a la izquierda o la derecha, respectivamente.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;FLECHA IZQUIERDA o FLECHA DERECHA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Desplazarse una palabra a la izquierda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;CTRL+FLECHA IZQUIERDA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Desplazarse una palabra a la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;CTRL+FLECHA DERECHA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Seleccionar un carácter a la izquierda o cancelar la selección.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;MAYÚS+FLECHA IZQUIERDA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Seleccionar un carácter a la derecha o cancelar la selección.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;MAYÚS+FLECHA DERECHA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Seleccionar una palabra a la izquierda o cancelar la selección.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+FLECHA IZQUIERDA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Seleccionar una palabra a la derecha o cancelar la selección.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+FLECHA DERECHA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Seleccionar desde el punto de inserción hasta el principio de la entrada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;MAYÚS+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;59%&quot;&gt;
+&lt;p&gt;Seleccionar desde el punto de inserción hasta el final de la entrada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;40%&quot;&gt;
+&lt;p&gt;MAYÚS+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Usar los cuadros de diálogo Abrir y Guardar como&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Ir a la carpeta anterior.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;ALT+1&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Abrir la carpeta del nivel inmediatamente superior al de la carpeta abierta.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;ALT+2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Cerrar el cuadro de diálogo y abrir la página de búsqueda Web.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;ALT+3&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Eliminar la carpeta o el archivo seleccionado.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;ALT+3&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Crear una carpeta nueva.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;ALT+4&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Alternar entre las vistas de las carpetas disponibles.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;ALT+5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Mostrar el menú &lt;b&gt;Herramientas&lt;/b&gt;.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;ALT+L&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Mostrar un menú contextual de un elemento seleccionado, por ejemplo, una carpeta o un archivo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;MAYÚS+F10&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Desplazarse por las opciones o áreas del cuadro de diálogo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Abrir la lista.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;F4 o ALT+I&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;83%&quot;&gt;
+&lt;p&gt;Actualizar la lista de archivos.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;16%&quot;&gt;
+&lt;p&gt;F5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="3"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:M%C3%A9todos%20abreviados%20de%20teclado:1.%20M%C3%A9todos%20abreviados%20b%C3%A1sicos%20de%20Microsoft%20Office"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="8">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="2. Métodos abreviados de Microsoft Project 2016"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="6">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="7">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="6"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;&lt;b&gt; Usar la vista Diagrama de red&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Desplazarse a un cuadro del diagrama de red distinto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;Teclas de dirección&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Agregar cuadros del diagrama de red a la selección.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;MAYÚS+Teclas de dirección&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Mover un cuadro del diagrama de red.&lt;/p&gt;
+&lt;p&gt;Primero debe configurar el posicionamiento manual. Seleccione el cuadro que desea mover. En la ficha &lt;b&gt;Formato&lt;/b&gt;, haga clic en la opción &lt;b&gt;Diseño&lt;/b&gt; del grupo &lt;b&gt;Formato&lt;/b&gt; y a continuación haga clic en &lt;b&gt;Permitir posicionamiento manual de los cuadros&lt;/b&gt;.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;CTRL+Teclas de dirección&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Desplazarse hasta el cuadro del diagrama de red más alto de la vista o del proyecto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;CTRL+INICIO o MAYÚS+CTRL+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Desplazarse hasta el cuadro del diagrama de red más bajo del proyecto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;CTRL+FIN o MAYÚS+CTRL+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Desplazarse hasta el cuadro del diagrama de red del extremo izquierdo del proyecto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;INICIO o MAYÚS+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Desplazarse hasta el cuadro del diagrama de red del extremo derecho del proyecto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;FIN o MAYÚS+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Subir el alto de una ventana.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;RE PÁG o MAYÚS+RE PÁG&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Bajar el alto de una ventana.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;AV PÁG o MAYÚS+AV PÁG&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Desplazarse el ancho de una ventana a la izquierda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;CTRL+RE PÁG o MAYÚS+CTRL+RE PÁG&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Desplazarse el ancho de una ventana a la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;CTRL+AV PÁG o MAYÚS+CTRL+AV PÁG&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Seleccionar el siguiente campo del cuadro del diagrama de red.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;ENTRAR o TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;68%&quot;&gt;
+&lt;p&gt;Seleccionar el campo anterior del cuadro del diagrama de red.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;31%&quot;&gt;
+&lt;p&gt;MAYÚS+ENTRAR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Desplazarse por vistas&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Activar el menú &lt;b&gt;Control&lt;/b&gt;.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+BARRA ESPACIADORA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Activar la barra de entrada para editar texto en un campo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;F2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Activar la barra de menús.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;F10 o ALT&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Activar el menú de control del proyecto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+GUIÓN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Activar la barra de división.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+F6&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Cerrar la ventana del programa.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+F4&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mostrar todas las tareas filtradas o recursos filtrados.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;F3&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mostrar el cuadro de diálogo &lt;b&gt;Configuración de campo&lt;/b&gt;.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+F3&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Abrir una nueva ventana.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+F11&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Reducir una selección a un único campo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+RETROCESO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Restablecer el criterio de ordenación al orden de Id. y desactivar la agrupación.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+F3&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Seleccionar un objeto de dibujo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;F6&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mostrar información de la tarea.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+F2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mostrar la información del recurso.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+F2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mostrar la información de la asignación.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+F2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Activar o desactivar el modo Agregar a la selección.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+F8&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Activar o desactivar Calcular automáticamente.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+F9&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Activar o desactivar el modo Extender selección.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;F8&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse a la izquierda, a la derecha, hacia arriba o hacia abajo para ver las distintas páginas de la ventana Vista preliminar.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+Teclas de dirección&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Esquema de un proyecto&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Ocultar las subtareas.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+MAYÚS+GUIÓN o ALT+MAYÚS+SIGNO MENOS (signo menos del teclado numérico)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Aplicar sangría a la tarea seleccionada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+MAYÚS+FLECHA DERECHA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mostrar las subtareas.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+MAYÚS+= o ALT+MAYÚS+SIGNO MÁS (signo más del teclado numérico)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mostrar todas las tareas.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+MAYÚS+* (asterisco del teclado numérico)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Anular sangría de la tarea seleccionada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+MAYÚS+FLECHA IZQUIERDA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Seleccionar y editar un cuadro de diálogo&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse por los campos de la parte inferior de una pantalla.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Teclas de dirección&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse por las tablas de la parte inferior de una pantalla.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+1 (izquierda) o ALT+2 (derecha)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse a la siguiente tarea o recurso.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ENTRAR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse a la tarea o recurso anteriores.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+ENTRAR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Seleccionar y editar en una vista de hoja&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Editar en una vista&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Cancelar una entrada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ESC&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Borrar o restablecer el campo seleccionado.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+SUPR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Copiar los datos seleccionados.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+C&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Cortar los datos seleccionados.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+X&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Eliminar los datos seleccionados.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;SUPRIMIR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Eliminar la fila que tenga una celda seleccionada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+SIGNO MENOS (del teclado numérico)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Rellenar hacia abajo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+M&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mostrar el cuadro de diálogo &lt;b&gt;Buscar&lt;/b&gt;.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+F o MAYÚS+F5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;En el cuadro de diálogo &lt;b&gt;Buscar&lt;/b&gt;, continúe hasta la siguiente instancia de los resultados de la búsqueda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+F4&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Usar el comando &lt;b&gt;Ir a&lt;/b&gt; (menú &lt;b&gt;Edición&lt;/b&gt; ).&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;F5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Vincular tareas.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+F2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Pegar los datos copiados o cortados.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+V&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Reducir la selección a un campo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+RETROCESO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Deshacer la última acción.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+Z&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desvincular tareas.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+F2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Establecer la tarea en programación manual&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+R&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Establecer la tarea en programación automática&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+U&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Desplazarse por una vista&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse al inicio de un proyecto (escala temporal).&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse al final de un proyecto (escala temporal).&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mover la escala temporal a la izquierda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+FLECHA IZQUIERDA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mover la escala temporal a la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+FLECHA DERECHA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse al primer campo de una fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;INICIO o CTRL+FLECHA IZQUIERDA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse a la primera fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+FLECHA ARRIBA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse al primer campo de la primera fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse al último campo de una fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;FIN o CTRL+FLECHA DERECHA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse al último campo de la última fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazarse a la última fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+FLECHA ABAJO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Desplazarse por el panel lateral&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mover el foco entre el panel lateral y la vista de la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+TAB o CTRL+MAYÚS+TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Seleccionar distintos controles en el panel lateral si éste tiene el foco.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Activar o desactivar las casillas de verificación y los botones de opción si el foco está en el panel lateral.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;BARRA ESPACIADORA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Seleccionar en una vista&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección una página hacia abajo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+AV PÁG&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección una página hacia arriba.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+RE PÁG&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección una fila hacia abajo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+FLECHA ABAJO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección una fila hacia arriba.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+FLECHA ARRIBA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección al primer campo de una fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección al último campo de una fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección al inicio de la información.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección al final de la información.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección a la primera fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+FLECHA ARRIBA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección a la última fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+FLECHA ABAJO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección al primer campo de la primera fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Extender la selección al último campo de la última fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Seleccionar todas las filas y las columnas.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+MAYÚS+BARRA ESPACIADORA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Seleccionar una columna.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+BARRA ESPACIADORA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Seleccionar una fila.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+BARRA ESPACIADORA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;En una selección, mover un campo hacia abajo.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ENTRAR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;En una selección, mover un campo hacia arriba.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+ENTRAR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;En una selección, mover un campo a la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;En una selección, mover un campo a la izquierda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;MAYÚS+TAB&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Seleccionar y editar en la barra de entrada&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse; width: 100%;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;73%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;26%&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;73%&quot;&gt;
+&lt;p&gt;Aceptar una entrada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;26%&quot;&gt;
+&lt;p&gt;ENTRAR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;73%&quot;&gt;
+&lt;p&gt;Cancelar una entrada.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;26%&quot;&gt;
+&lt;p&gt;ESC&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;73%&quot;&gt;
+&lt;p&gt;Eliminar un carácter hacia la izquierda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;26%&quot;&gt;
+&lt;p&gt;RETROCESO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;73%&quot;&gt;
+&lt;p&gt;Eliminar un carácter hacia la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;26%&quot;&gt;
+&lt;p&gt;SUPRIMIR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;73%&quot;&gt;
+&lt;p&gt;Eliminar una palabra hacia la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;26%&quot;&gt;
+&lt;p&gt;CTRL+SUPR&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;73%&quot;&gt;
+&lt;p&gt;Extender la selección al final del texto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;26%&quot;&gt;
+&lt;p&gt;MAYÚS+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;73%&quot;&gt;
+&lt;p&gt;Extender la selección al inicio del texto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;26%&quot;&gt;
+&lt;p&gt;MAYÚS+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;73%&quot;&gt;
+&lt;p&gt;Activar o desactivar el modo de sobreescritura.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot; width=&quot;26%&quot;&gt;
+&lt;p&gt;INSERT&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;Usar una escala temporal&lt;/b&gt;&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Para&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;b&gt;Presione&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mover la escala temporal una página a la izquierda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+RE PÁG&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mover la escala temporal una página a la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+AV PÁG&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mover la escala temporal al inicio del proyecto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+INICIO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mover la escala temporal al final del proyecto.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+FIN&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazar la escala temporal a la izquierda.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+FLECHA IZQUIERDA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Desplazar la escala temporal a la derecha.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;ALT+FLECHA DERECHA&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mostrar unidades de tiempo más pequeñas.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+/ (barra del teclado numérico)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;Mostrar unidades de tiempo mayores.&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style=&quot;border-width: 1px; border-color: #000000; border-style: solid;&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;CTRL+* (asterisco del teclado numérico)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="7"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="8"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:M%C3%A9todos%20abreviados%20de%20teclado:2.%20M%C3%A9todos%20abreviados%20de%20Microsoft%20Project%202016"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="4"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="8"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="8"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="1c3b1686-5e57-42ad-a372-07f8d3d0f39b"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="13"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="license"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="1c3b1686-5e57-42ad-a372-07f8d3d0f39b"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="1c3b1686-5e57-42ad-a372-07f8d3d0f39b"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Preestablecido"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="5"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="FPD-MEDU"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

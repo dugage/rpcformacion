@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Examen </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-0" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Examen</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id0">
+<div class="iDevice emphasis0">
+<div id="ta0_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id1">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta1_100" class="block iDevice_content">
+<div class="numeracion">1. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b1" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b1" class="block iDevice_content">
+<p>"El precio, hace referencia al valor pecuniario en que se estima algo".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b1"><input type="radio" name="option0b1" id="true0b1" class="exe-radio-option exe-radio-option-0-2-0b1-truefalse" /> Verdadero</label> 
+<label for="false0b1"><input type="radio" name="option0b1" id="false0b1" class="exe-radio-option exe-radio-option-1-2-0b1-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b1" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b1-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">El precio hace referencia al valor pecuniario en que se estima algo.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id2">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b2");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key0b2[i].checked)
+               {
+                  question0 = document.getElementById("quizForm2").key0b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm2").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm2" id="quizForm2" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-2" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b2" class="block iDevice_content">
+<div class="numeracion">2. Informe en el que un experto contesta a una o más preguntas o da su opinión profesional sobre las cuestiones que le puedan plantear un juez:</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b21" class="sr-av"><a href="#answer-key0b21">Opción 1</a></label><input type="radio" name="key0b2" id="key0b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b21">
+<div id="taoptionAnswer0q0b2" class="block iDevice_content">
+<p>Peritaje.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b22" class="sr-av"><a href="#answer-key0b22">Opción 2</a></label><input type="radio" name="key0b2" id="key0b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b22">
+<div id="taoptionAnswer1q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Tasación.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b23" class="sr-av"><a href="#answer-key0b23">Opción 3</a></label><input type="radio" name="key0b2" id="key0b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b23">
+<div id="taoptionAnswer2q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Documento aclaratorio.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore2"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id3">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta3_100" class="block iDevice_content">
+<div class="numeracion">3. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b3" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b3" class="block iDevice_content">
+<p>"El método de comparación, es el método más utilizado y consiste en valorar el bien objeto de la tasación mediante su comparación con otros bienes de similares características cuyo valor sea conocido".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b3"><input type="radio" name="option0b3" id="true0b3" class="exe-radio-option exe-radio-option-0-2-0b3-truefalse" /> Verdadero</label> 
+<label for="false0b3"><input type="radio" name="option0b3" id="false0b3" class="exe-radio-option exe-radio-option-1-2-0b3-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b3" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b3-result" class="right">Verdadero</strong></p>
+<div class="ee_feedback" style="display: block;">El método de comparación es el método mas utilizado y consiste en valorar el bien objeto de la tasación mediante su comparación con otros bienes de similares características cuyo valor sea conocido.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id4">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b4");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm4").key0b4[i].checked)
+               {
+                  question0 = document.getElementById("quizForm4").key0b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm4").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm4" id="quizForm4" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-4" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b4" class="block iDevice_content">
+<div class="numeracion">4. Jurisdicción que conoce de los conflictos entre particulares y la Administración pública:</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b41" class="sr-av"><a href="#answer-key0b41">Opción 1</a></label><input type="radio" name="key0b4" id="key0b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b41">
+<div id="taoptionAnswer0q0b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Jurisdicción penal.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b42" class="sr-av"><a href="#answer-key0b42">Opción 2</a></label><input type="radio" name="key0b4" id="key0b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b42">
+<div id="taoptionAnswer1q0b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Jurisdicción contencioso-administrativa</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b43" class="sr-av"><a href="#answer-key0b43">Opción 3</a></label><input type="radio" name="key0b4" id="key0b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b43">
+<div id="taoptionAnswer2q0b4" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Jurisdicción civil.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore4"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id5">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta5_100" class="block iDevice_content">
+<div class="numeracion">5. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b5" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b5" class="block iDevice_content">
+<p>"El catastro es un instrumento de carácter público, cuya función principal es la de describir la propiedad inmobiliaria en sus diferentes usos y aplicaciones".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b5"><input type="radio" name="option0b5" id="true0b5" class="exe-radio-option exe-radio-option-0-2-0b5-truefalse" /> Verdadero</label> 
+<label for="false0b5"><input type="radio" name="option0b5" id="false0b5" class="exe-radio-option exe-radio-option-1-2-0b5-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b5" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b5-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">El Catastro es un instrumento de carácter público, cuya función principal es la de describir la propiedad inmobiliaria en sus diferentes usos y aplicaciones.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id6">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta6_100" class="block iDevice_content">
+<div class="numeracion">7. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b6" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b6" class="block iDevice_content">
+<p>"La hipoteca es un derecho real de garantía de carácter inmobiliario, que no implica traslado de la posesión a persona distinta del dueño titular de la finca o derecho hipotecado".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b6"><input type="radio" name="option0b6" id="true0b6" class="exe-radio-option exe-radio-option-0-2-0b6-truefalse" /> Verdadero</label> 
+<label for="false0b6"><input type="radio" name="option0b6" id="false0b6" class="exe-radio-option exe-radio-option-1-2-0b6-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b6" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b6-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">La hipoteca es un derecho real de garantía de carácter inmobiliario, que no implica traslado de la posesión a persona distinta del dueño o titular de la finca o derecho hipotecado.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id7">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta7_100" class="block iDevice_content">
+<div class="numeracion">8. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b7" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b7" class="block iDevice_content">
+<p>"Anticresis, es un derecho real de garantía por el que una persona, acreedor, adquiere el derecho a percibir los frutos de un bien inmueble de su deudor, sobre el que recae la anticresis, con la obligación de aplicarlos al pago de los intereses, si se debieren por el crédito garantizado, y después de la amortización del capital del crédito".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b7"><input type="radio" name="option0b7" id="true0b7" class="exe-radio-option exe-radio-option-0-2-0b7-truefalse" /> Verdadero</label> 
+<label for="false0b7"><input type="radio" name="option0b7" id="false0b7" class="exe-radio-option exe-radio-option-1-2-0b7-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b7" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b7-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">Anticresis: es un derecho real de garantía por el que una persona, acreedor, adquiere el derecho a percibir los frutos de un bien inmueble de su deudor, sobre el que recae la anticresis, con la obligación de aplicarlos al pago de los intereses, si se debieren por el crédito garantizado, y después de la amortización del capital del crédito.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id8">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta8_100" class="block iDevice_content">
+<div class="numeracion">9. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b8" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b8" class="block iDevice_content">
+<p>"Los principios de valoración son los criterios en los que se basa el tasador inmobiliario para realizar su trabajo".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b8"><input type="radio" name="option0b8" id="true0b8" class="exe-radio-option exe-radio-option-0-2-0b8-truefalse" /> Verdadero</label> 
+<label for="false0b8"><input type="radio" name="option0b8" id="false0b8" class="exe-radio-option exe-radio-option-1-2-0b8-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b8" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b8-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">Los principios de valoración son los criterios en los que se basa el tasador inmobiliario para realizar su trabajo.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id9">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta9_100" class="block iDevice_content">
+<div class="numeracion">10. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b9" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b9" class="block iDevice_content">
+<p>"Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el Texto Refundido de la Ley del Suelo".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b9"><input type="radio" name="option0b9" id="true0b9" class="exe-radio-option exe-radio-option-0-2-0b9-truefalse" /> Verdadero</label> 
+<label for="false0b9"><input type="radio" name="option0b9" id="false0b9" class="exe-radio-option exe-radio-option-1-2-0b9-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b9" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b9-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el Texto Refundido de la Ley del Suelo.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id10">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta10_100" class="block iDevice_content">
+<div class="numeracion">11. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b10" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b10" class="block iDevice_content">
+<p>"El informe se define como la descripción, oral o escrita, de las características y circunstancias de un suceso o asunto.</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b10"><input type="radio" name="option0b10" id="true0b10" class="exe-radio-option exe-radio-option-0-2-0b10-truefalse" /> Verdadero</label> 
+<label for="false0b10"><input type="radio" name="option0b10" id="false0b10" class="exe-radio-option exe-radio-option-1-2-0b10-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b10" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b10-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">Según la Real Academia Española, el informe se define como la descripción, oral o escrita, de las características y circunstancias de un suceso o asunto.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id11">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta11_100" class="block iDevice_content">
+<div class="numeracion">12. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b11" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b11" class="block iDevice_content">
+<p>"Los informes técnicos son elaborados y redactados por los ingenieros técnicos que se encargan de la investigación y de realizar el trabajo por el cual se solicita su intervención".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b11"><input type="radio" name="option0b11" id="true0b11" class="exe-radio-option exe-radio-option-0-2-0b11-truefalse" /> Verdadero</label> 
+<label for="false0b11"><input type="radio" name="option0b11" id="false0b11" class="exe-radio-option exe-radio-option-1-2-0b11-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b11" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b11-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">Los informes técnicos son elaborados y redactados por los ingenieros técnicos que se encargan de la investigación y de realizar el trabajo por el cual se solicita su intervención.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id12">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta12_100" class="block iDevice_content">
+<div class="numeracion">13. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b12" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b12" class="block iDevice_content">
+<p>"Se utiliza el concepto de advertencia de tasación cuando se presenta alguna duda sobre un dato o datos empleados en la valoración del inmueble".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b12"><input type="radio" name="option0b12" id="true0b12" class="exe-radio-option exe-radio-option-0-2-0b12-truefalse" /> Verdadero</label> 
+<label for="false0b12"><input type="radio" name="option0b12" id="false0b12" class="exe-radio-option exe-radio-option-1-2-0b12-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b12" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b12-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">Se utiliza el concepto de advertencia de tasación cuando se presenta alguna duda sobre un dato o datos empleados en la valoración del inmueble.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id13">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta13_100" class="block iDevice_content">
+<div class="numeracion">14. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b13" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b13" class="block iDevice_content">
+<p>"Ponencias especiales, cuando afecten exclusivamente a uno o varios grupos de inmuebles de características especiales".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b13"><input type="radio" name="option0b13" id="true0b13" class="exe-radio-option exe-radio-option-0-2-0b13-truefalse" /> Verdadero</label> 
+<label for="false0b13"><input type="radio" name="option0b13" id="false0b13" class="exe-radio-option exe-radio-option-1-2-0b13-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b13" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b13-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">Ponencias Especiales, cuando afecten exclusivamente a uno o varios grupos de inmuebles de características especiales.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id14">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b14");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm14").key0b14[i].checked)
+               {
+                  question0 = document.getElementById("quizForm14").key0b14[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm14").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm14" id="quizForm14" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-14" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b14" class="block iDevice_content">
+<div class="numeracion">15. ¿Qué Real Decreto aprueba las normas técnicas de valoración y el cuadro marco de valores del suelo y de las construcciones para determinar el valor catastral de los bienes inmuebles de naturaleza urbana?</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b141" class="sr-av"><a href="#answer-key0b141">Opción 1</a></label><input type="radio" name="key0b14" id="key0b141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b141">
+<div id="taoptionAnswer0q0b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Real Decreto 55/2001.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b142" class="sr-av"><a href="#answer-key0b142">Opción 2</a></label><input type="radio" name="key0b14" id="key0b142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b142">
+<div id="taoptionAnswer1q0b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Real Decreto 1020/1993.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b143" class="sr-av"><a href="#answer-key0b143">Opción 3</a></label><input type="radio" name="key0b14" id="key0b143" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b143">
+<div id="taoptionAnswer2q0b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Real Decreto 55/2000.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore14"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

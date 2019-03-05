@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-15" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id16">
+<div class="iDevice emphasis0">
+<div id="ta16_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id17">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b17");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm17").key0b17[i].checked)
+               {
+                  question0 = document.getElementById("quizForm17").key0b17[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm17").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm17" id="quizForm17" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-17" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b17" class="block iDevice_content">
+<div class="ee_enunciado"><b>1. ¿Cuál de las siguientes etapas no conforma la cadena alimentaria?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b171" class="sr-av"><a href="#answer-key0b171">Opción 1</a></label><input type="radio" name="key0b17" id="key0b171" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b171">
+<div id="taoptionAnswer0q0b17" class="block iDevice_content">
+<p>Producción.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b172" class="sr-av"><a href="#answer-key0b172">Opción 2</a></label><input type="radio" name="key0b17" id="key0b172" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b172">
+<div id="taoptionAnswer1q0b17" class="block iDevice_content">
+<p>Transformación.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b173" class="sr-av"><a href="#answer-key0b173">Opción 3</a></label><input type="radio" name="key0b17" id="key0b173" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b173">
+<div id="taoptionAnswer2q0b17" class="block iDevice_content">
+<p>Eliminación de residuos.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore17"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id18">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-18_108">
+<form name="multi-select-form-18_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion18_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>2. Cuando hablamos de calidad alimentaria, ¿qué aspectos incluye? Respuesta múltiple.</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1080" class="sr-av"><a href="#answer-18_111">Opción 1</a></label><input type="checkbox" id="op18_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_111"><div id="taans18_111" class="block iDevice_content">
+<p>Calidad higiénica.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-18_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1081" class="sr-av"><a href="#answer-18_294">Opción 2</a></label><input type="checkbox" id="op18_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_294"><div id="taans18_294" class="block iDevice_content">
+<p>Calidad nutritiva.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-18_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1082" class="sr-av"><a href="#answer-18_296">Opción 3</a></label><input type="checkbox" id="op18_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_296"><div id="taans18_296" class="block iDevice_content">
+<p>Calidad informática.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-18_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-18_108" /> 
+</p>
+</div>
+<section id="f18_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-18_111" class="right">Correcto</a></li>
+<li><a href="#answer-18_294" class="right">Correcto</a></li>
+<li><a href="#answer-18_296" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id19">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta19_100" class="block iDevice_content">
+<p><b>3. Indica si es verdadero o falso el siguiente enunciado:</b></p>
+</div>
+<section class="question">
+<form name="true-false-form-0b19" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b19" class="block iDevice_content">
+<p><i>“La trazabilidad descendente asocia los productos que se elaboran en una empresa con el origen de las materias primas con las que fueron fabricados”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b19"><input type="radio" name="option0b19" id="true0b19" class="exe-radio-option exe-radio-option-0-2-0b19-truefalse" /> Verdadero</label> 
+<label for="false0b19"><input type="radio" name="option0b19" id="false0b19" class="exe-radio-option exe-radio-option-1-2-0b19-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b19" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b19-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id20">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 2;
+var key1 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b20");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm20").key0b20[i].checked)
+               {
+                  question0 = document.getElementById("quizForm20").key0b20[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b20");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm20").key1b20[i].checked)
+               {
+                  question1 = document.getElementById("quizForm20").key1b20[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm20").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm20" id="quizForm20" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-20" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b20" class="block iDevice_content">
+<div class="ee_enunciado"><b>4. ¿Qué factores influyen en el crecimiento bacteriano y por tanto en el deterior de los alimentos?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b201" class="sr-av"><a href="#answer-key0b201">Opción 1</a></label><input type="radio" name="key0b20" id="key0b201" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b201">
+<div id="taoptionAnswer0q0b20" class="block iDevice_content">
+<div class="ee_pregunta">Temperatura menor a 0ºC.</div>
+<div class="botonera" id="botonera"></div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b202" class="sr-av"><a href="#answer-key0b202">Opción 2</a></label><input type="radio" name="key0b20" id="key0b202" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b202">
+<div id="taoptionAnswer1q0b20" class="block iDevice_content">
+<p>Actividad de agua cercana a 0.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b203" class="sr-av"><a href="#answer-key0b203">Opción 3</a></label><input type="radio" name="key0b20" id="key0b203" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b203">
+<div id="taoptionAnswer2q0b20" class="block iDevice_content">
+<p>Temperatura entre 20 y 40ºC.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b20" class="block iDevice_content">
+<p><b>5. ¿Cuál de las siguientes bacterias no producen intoxicaciones alimentarias?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b201" class="sr-av"><a href="#answer-key1b201">Opción 1</a></label><input type="radio" name="key1b20" id="key1b201" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b201">
+<div id="taoptionAnswer0q1b20" class="block iDevice_content">
+<p><i>Salmonella.</i></p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b202" class="sr-av"><a href="#answer-key1b202">Opción 2</a></label><input type="radio" name="key1b20" id="key1b202" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b202">
+<div id="taoptionAnswer1q1b20" class="block iDevice_content">
+<p><i>Clostridium botulinum.</i></p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b203" class="sr-av"><a href="#answer-key1b203">Opción 3</a></label><input type="radio" name="key1b20" id="key1b203" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b203">
+<div id="taoptionAnswer2q1b20" class="block iDevice_content">
+<p><i>Bacillus cereus.</i></p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore20"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3. Personalización de máximos y mínimos. </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3. Personalización de máximos y mínimos.</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Excel utiliza para cada minigráfico unos calores extremo, mínimo y máximo, tomando como referencia exclusivamente la serie de datos propia, sin tener en cuenta las demás series del grupo de minigráficos. Esto puede ser apropiado en unos casos y no tanto en otros. En el minigráfico de barras que muestra la distribución de la población por sexo parece lógica esa independencia, ya que cada país cuenta con un número diferente de votantes.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Q2daeFBzOFlMZ0cxNDh4ZFJoOGFkNGJMQjIlMkZhNzZhaFAydXpReXZ0QzBBJTNE" id="IMG_Q2daeFBzOFlMZ0cxNDh4ZFJoOGFkNGJMQjIlMkZhNzZhaFAydXpReXZ0QzBBJTNE" alt="Gráficos y diagramas" title="Gráficos y diagramas" width="412" /></p>
+<p><b>Figura 5.10.</b> Aspecto de los minigráficos en la hoja de cálculo.</p>
+<p>Insertemos una nueva fila detrás del último país de uno de los continentes y, reproducción los pasos del punto previo, introduzcamos un grupo de minigráficos de líneas con la idea de ver cómo se han distribuido los habitantes de cada sexo y ubicación (rural o urbana) entre los distintos países. Podemos dar mayor altura a la celdilla para conseguir un minigráfico de líneas más legible, como se ha hecho en la figura 5.11.</p>
+<p>Al examinar estos minigráficos se obseva rápidamente que el máximo para la población femenina se representa con la misma altura que el máximo de la población rural, que tiene un valor muy inferior en cada país. Esto se debe a que, como se ha apuntado anteriormente, cada minigráfico toma sus valores extremos de manera independiente. En este caso, sin embargo, parecería lógico que compartiesen esa información.</p>
+<p>Para ajustar los extremos seleccione los minigráficos y abra el menú Eje de la ficha Diseño, como se muestra en la figura 5.12, seleccionando la opción Igual para todos los minigráficos de los apartados Opciones de valor mínimo del eje vertical y Opciones de valor máximo del eje vertical.</p>
+<p>En la misma figura puede verse cómo los minigráficos de líneas ahora sí que representan fielmente que el número de habitantes en zona urbana (tercero contando de izquierda a derecha) es muy superior al de habitantes en zona rural (situado a su derecha).</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_SG5NWmhyZVZweVliSkNCdG9NRkxBWlNXNWdvTGJEREh0RkdwVWV4YVBRMCUzRA==" id="IMG_SG5NWmhyZVZweVliSkNCdG9NRkxBWlNXNWdvTGJEREh0RkdwVWV4YVBRMCUzRA==" alt="Gráficos y diagramas" title="Gráficos y diagramas" width="362" /></p>
+<p><b>Figura 5.11.</b> Aspecto de los minigráficos de líneas debajo de la tabla de datos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RUJrMEtuSVIyYjNuR1RUc0tzTkgyYzN2YkNQelJudXV6cDRyZ01JdTclMkZVJTNE" id="IMG_RUJrMEtuSVIyYjNuR1RUc0tzTkgyYzN2YkNQelJudXV6cDRyZ01JdTclMkZVJTNE" alt="Gráficos y diagramas" title="Gráficos y diagramas" width="442" /></p>
+<p><b>Figura 5.12.</b> Ajuste de la escala de los minigráficos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

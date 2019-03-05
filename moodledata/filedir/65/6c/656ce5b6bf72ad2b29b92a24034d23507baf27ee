@@ -1,0 +1,418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | UNIDAD DIDÁCTICA 4. TÉCNICAS Y MANIOBRAS DE LA PRIMERA ASISTENCIA AL ACCIDENTADO </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id254">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 3;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var key0 = 0;
+var key1 = 1;
+var key2 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b254");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm254").key0b254[i].checked)
+               {
+                  question0 = document.getElementById("quizForm254").key0b254[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b254");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm254").key1b254[i].checked)
+               {
+                  question1 = document.getElementById("quizForm254").key1b254[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b254");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm254").key2b254[i].checked)
+               {
+                  question2 = document.getElementById("quizForm254").key2b254[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm254").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm254" id="quizForm254" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-254" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b254" class="block iDevice_content">
+<p><b>Indica si es verdadero o falso el siguiente enunciado:</b><span> </span><i>“La asistencia de un paciente politraumatizado se basa en una metodología de actuación cuyo objetivo es básicamente el de identificar rápidamente y manejar las condiciones que ponen en peligro la vida del paciente”.</i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2541" class="sr-av"><a href="#answer-key0b2541">Opción 1</a></label><input type="radio" name="key0b254" id="key0b2541" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2541"><a name="answer-key0b2541"></a>
+<div id="taoptionAnswer0q0b254" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2542" class="sr-av"><a href="#answer-key0b2542">Opción 2</a></label><input type="radio" name="key0b254" id="key0b2542" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2542"><a name="answer-key0b2542"></a>
+<div id="taoptionAnswer1q0b254" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b254" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si es verdadero o falso el siguiente enunciado:</b> <i>“Los esguinces más comunes se producen en zonas como la columna vertebral, aunque también afectan a otras regiones corporales con menor frecuencia”.</i></div>
+<p><i> </i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2541" class="sr-av"><a href="#answer-key1b2541">Opción 1</a></label><input type="radio" name="key1b254" id="key1b2541" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2541"><a name="answer-key1b2541"></a>
+<div id="taoptionAnswer0q1b254" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2542" class="sr-av"><a href="#answer-key1b2542">Opción 2</a></label><input type="radio" name="key1b254" id="key1b2542" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2542"><a name="answer-key1b2542"></a>
+<div id="taoptionAnswer1q1b254" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b254" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿A qué grado pertenece un esguince de distensión parcial del ligamento?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2541" class="sr-av"><a href="#answer-key2b2541">Opción 1</a></label><input type="radio" name="key2b254" id="key2b2541" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2541"><a name="answer-key2b2541"></a>
+<div id="taoptionAnswer0q2b254" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Grado I.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2542" class="sr-av"><a href="#answer-key2b2542">Opción 2</a></label><input type="radio" name="key2b254" id="key2b2542" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2542"><a name="answer-key2b2542"></a>
+<div id="taoptionAnswer1q2b254" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Grado II.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2543" class="sr-av"><a href="#answer-key2b2543">Opción 3</a></label><input type="radio" name="key2b254" id="key2b2543" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2543"><a name="answer-key2b2543"></a>
+<div id="taoptionAnswer2q2b254" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Grado III.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id255">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-255_108">
+<form name="multi-select-form-255_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion255_108" class="block question iDevice_content">
+<p><b>Durante la aproximación; ¿qué evaluación mínima de las víctimas se han de hacer? Seleccione las respuestas correctas.</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op255_1080" class="sr-av"><a href="#answer-255_111">Opción 1</a></label><input type="checkbox" id="op255_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-255_111"><a name="answer-255_111"></a>
+<div id="taans255_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Tipo y características del tono de piel.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-255_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op255_1081" class="sr-av"><a href="#answer-255_218">Opción 2</a></label><input type="checkbox" id="op255_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-255_218"><a name="answer-255_218"></a>
+<div id="taans255_218" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Compresión de los puntos de sangrado. Palpar pulso central.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-255_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op255_1082" class="sr-av"><a href="#answer-255_220">Opción 3</a></label><input type="checkbox" id="op255_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-255_220"><a name="answer-255_220"></a>
+<div id="taans255_220" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Comprobación del nivel de conciencia.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-255_1082" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'255_108')"/> 
+</p>
+</div>
+<div id="f255_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-255_111" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-255_218" class="right">Correcto</a></li>
+<li><a href="#answer-255_220" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-255_222">
+<form name="multi-select-form-255_222" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion255_222" class="block question iDevice_content">
+<div class="ee_enunciado"><b>¿Qué requisitos debe cumplir un collarín ideal?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op255_2220" class="sr-av"><a href="#answer-255_225">Opción 1</a></label><input type="checkbox" id="op255_2220" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-255_225"><a name="answer-255_225"></a>
+<div id="taans255_225" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Ser rígido.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-255_2220" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op255_2221" class="sr-av"><a href="#answer-255_227">Opción 2</a></label><input type="checkbox" id="op255_2221" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-255_227"><a name="answer-255_227"></a>
+<div id="taans255_227" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Tener un apoyo mentoniano.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-255_2221" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op255_2222" class="sr-av"><a href="#answer-255_229">Opción 3</a></label><input type="checkbox" id="op255_2222" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-255_229"><a name="answer-255_229"></a>
+<div id="taans255_229" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada">No tener un orificio anterior.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-255_2222" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'255_222')"/> 
+</p>
+</div>
+<div id="f255_222" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-255_225" class="right">Correcto</a></li>
+<li><a href="#answer-255_227" class="right">Correcto</a></li>
+<li><a href="#answer-255_229" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

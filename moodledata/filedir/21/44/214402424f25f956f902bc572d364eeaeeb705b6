@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-28" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id34">
+<div class="iDevice emphasis0">
+<div id="ta34_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id35">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-35_108">
+<form name="multi-select-form-35_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion35_108" class="block question iDevice_content">
+<div class="ee_enunciado"><strong>1. ¿Qué características son imprescindibles para considerar a una molécula como lípido? Respuesta múltiple.</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op35_1080" class="sr-av"><a href="#answer-35_111">Opción 1</a></label><input type="checkbox" id="op35_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-35_111"><div id="taans35_111" class="block iDevice_content">
+<p>Solubles en agua.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-35_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op35_1081" class="sr-av"><a href="#answer-35_159">Opción 2</a></label><input type="checkbox" id="op35_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-35_159"><div id="taans35_159" class="block iDevice_content">
+<p>Insolubles en agua.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-35_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op35_1082" class="sr-av"><a href="#answer-35_161">Opción 3</a></label><input type="checkbox" id="op35_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-35_161"><div id="taans35_161" class="block iDevice_content">
+<p>Solubles en disolventes orgánicos.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-35_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-35_108" /> 
+</p>
+</div>
+<section id="f35_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-35_111" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-35_159" class="right">Correcto</a></li>
+<li><a href="#answer-35_161" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id36">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 0;
+var key1 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b36");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm36").key0b36[i].checked)
+               {
+                  question0 = document.getElementById("quizForm36").key0b36[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b36");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm36").key1b36[i].checked)
+               {
+                  question1 = document.getElementById("quizForm36").key1b36[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm36").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm36" id="quizForm36" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-36" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b36" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><strong>2. ¿Cuál de las siguientes no es una función de los lípidos?</strong></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+<div class="botonera" id="botonera"></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b361" class="sr-av"><a href="#answer-key0b361">Opción 1</a></label><input type="radio" name="key0b36" id="key0b361" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b361">
+<div id="taoptionAnswer0q0b36" class="block iDevice_content">
+<p>Función desintoxicante.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b362" class="sr-av"><a href="#answer-key0b362">Opción 2</a></label><input type="radio" name="key0b36" id="key0b362" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b362">
+<div id="taoptionAnswer1q0b36" class="block iDevice_content">
+<p>Función de reserva energética.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b363" class="sr-av"><a href="#answer-key0b363">Opción 3</a></label><input type="radio" name="key0b36" id="key0b363" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b363">
+<div id="taoptionAnswer2q0b36" class="block iDevice_content">
+<p>Función estructural.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b36" class="block iDevice_content">
+<div class="ee_enunciado"><strong>3. El ácido oleico es:</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b361" class="sr-av"><a href="#answer-key1b361">Opción 1</a></label><input type="radio" name="key1b36" id="key1b361" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b361">
+<div id="taoptionAnswer0q1b36" class="block iDevice_content">
+<p>Un ácido graso insaturado y corresponde a C 18:3 n-3.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b362" class="sr-av"><a href="#answer-key1b362">Opción 2</a></label><input type="radio" name="key1b36" id="key1b362" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b362">
+<div id="taoptionAnswer1q1b36" class="block iDevice_content">
+<p>Un ácido graso monoinsaturado y corresponde a C 18:1.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b363" class="sr-av"><a href="#answer-key1b363">Opción 3</a></label><input type="radio" name="key1b36" id="key1b363" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b363">
+<div id="taoptionAnswer2q1b36" class="block iDevice_content">
+<p>Un ácido graso monoinsaturado y corresponde a la fórmula química molecular de C20H34O2.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore36"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id37">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-37_108">
+<form name="multi-select-form-37_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion37_108" class="block question iDevice_content">
+<div class="ee_enunciado"><strong>4. ¿Cuál o cuáles de estos son ácidos grasos esenciales? Respuesta múltiple.</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op37_1080" class="sr-av"><a href="#answer-37_111">Opción 1</a></label><input type="checkbox" id="op37_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-37_111"><div id="taans37_111" class="block iDevice_content">
+<p>Ácido linoleico.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-37_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op37_1081" class="sr-av"><a href="#answer-37_174">Opción 2</a></label><input type="checkbox" id="op37_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-37_174"><div id="taans37_174" class="block iDevice_content">
+<p>C 18:3 n-3.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-37_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op37_1082" class="sr-av"><a href="#answer-37_176">Opción 3</a></label><input type="checkbox" id="op37_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-37_176"><div id="taans37_176" class="block iDevice_content">
+<p>Ácido esteárico.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-37_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-37_108" /> 
+</p>
+</div>
+<section id="f37_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-37_111" class="right">Correcto</a></li>
+<li><a href="#answer-37_174" class="right">Correcto</a></li>
+<li><a href="#answer-37_176" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id38">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta38_100" class="block iDevice_content">
+
+</div>
+<section class="question">
+<form name="true-false-form-0b38" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b38" class="block iDevice_content">
+
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b38"><input type="radio" name="option0b38" id="true0b38" class="exe-radio-option exe-radio-option-0-2-0b38-truefalse" /> Verdadero</label> 
+<label for="false0b38"><input type="radio" name="option0b38" id="false0b38" class="exe-radio-option exe-radio-option-1-2-0b38-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b38" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b38-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id8">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 0;
+var key1 = 0;
+var key2 = 2;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b8");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm8").key0b8[i].checked)
+               {
+                  question0 = document.getElementById("quizForm8").key0b8[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b8");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm8").key1b8[i].checked)
+               {
+                  question1 = document.getElementById("quizForm8").key1b8[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b8");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm8").key2b8[i].checked)
+               {
+                  question2 = document.getElementById("quizForm8").key2b8[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b8");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm8").key3b8[i].checked)
+               {
+                  question3 = document.getElementById("quizForm8").key3b8[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm8").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica.</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm8" id="quizForm8" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-8" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b8" class="block iDevice_content">
+<p><b>1. El DEA es totalmente ineficaz en: </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b81" class="sr-av"><a href="#answer-key0b81">Opción 1</a></label><input type="radio" name="key0b8" id="key0b81" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b81"><a name="answer-key0b81"></a>
+<div id="taoptionAnswer0q0b8" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Parada cardíaca con asistolia.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b82" class="sr-av"><a href="#answer-key0b82">Opción 2</a></label><input type="radio" name="key0b8" id="key0b82" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b82"><a name="answer-key0b82"></a>
+<div id="taoptionAnswer1q0b8" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Fibrilación ventricular.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b83" class="sr-av"><a href="#answer-key0b83">Opción 3</a></label><input type="radio" name="key0b8" id="key0b83" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b83"><a name="answer-key0b83"></a>
+<div id="taoptionAnswer2q0b8" class="block iDevice_content">
+<p>Taquicardia ventricular.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b8" class="block iDevice_content">
+<p><b>2. Completa los espacios en blanco del siguiente enunciado:</b> “Tras la descarga se continuará con la _____________. Pasados 2 minutos el DEA volverá a analizar el _________de la víctima. La Asociación Americana del Corazón (AHA) en su guía del 2010 insisten en la importancia de minimizar la duración de las pausas antes y después de las descargas, continuando las______________ torácicas durante la carga del desfibrilador si hubiera dos _____________ presentes.”</p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b81" class="sr-av"><a href="#answer-key1b81">Opción 1</a></label><input type="radio" name="key1b8" id="key1b81" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b81"><a name="answer-key1b81"></a>
+<div id="taoptionAnswer0q1b8" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">RCP básica - ritmo – comprensiones – reanimadores.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b82" class="sr-av"><a href="#answer-key1b82">Opción 2</a></label><input type="radio" name="key1b8" id="key1b82" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b82"><a name="answer-key1b82"></a>
+<div id="taoptionAnswer1q1b8" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">RCP básica - ritmo - flexiones – reanimadores.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b83" class="sr-av"><a href="#answer-key1b83">Opción 3</a></label><input type="radio" name="key1b8" id="key1b83" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b83"><a name="answer-key1b83"></a>
+<div id="taoptionAnswer2q1b8" class="block iDevice_content">
+<p>RCP básica – tacto – comprensiones - reanimadores.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b8" class="block iDevice_content">
+<p><b>3. ¿Cuál de las pautas se debe seguir a la hora de atender a la víctima, hasta que ésta pueda recibir los cuidados pertinentes por parte del personal sanitario?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b81" class="sr-av"><a href="#answer-key2b81">Opción 1</a></label><input type="radio" name="key2b8" id="key2b81" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b81"><a name="answer-key2b81"></a>
+<div id="taoptionAnswer0q2b8" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Sobrecalentar la zona del afectado.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b82" class="sr-av"><a href="#answer-key2b82">Opción 2</a></label><input type="radio" name="key2b8" id="key2b82" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b82"><a name="answer-key2b82"></a>
+<div id="taoptionAnswer1q2b8" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Dar líquidos y sólidos al afectado.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b83" class="sr-av"><a href="#answer-key2b83">Opción 3</a></label><input type="radio" name="key2b8" id="key2b83" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b83"><a name="answer-key2b83"></a>
+<div id="taoptionAnswer2q2b8" class="block iDevice_content">
+<p>Evitar situaciones de hipoxia.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b8" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>4. Indicar si la afirmación siguiente es verdadera o falsa:</b> <i>“Los DEA estándar pueden usarse en niños a partir de los 8 años sin ningún tipo de adaptación.”</i></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b81" class="sr-av"><a href="#answer-key3b81">Opción 1</a></label><input type="radio" name="key3b8" id="key3b81" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b81"><a name="answer-key3b81"></a>
+<div id="taoptionAnswer0q3b8" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b82" class="sr-av"><a href="#answer-key3b82">Opción 2</a></label><input type="radio" name="key3b8" id="key3b82" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b82"><a name="answer-key3b82"></a>
+<div id="taoptionAnswer1q3b8" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

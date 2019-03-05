@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-0" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id0">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 0;
+var key1 = 2;
+var key2 = 2;
+var key3 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b0");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key0b0[i].checked)
+               {
+                  question0 = document.getElementById("quizForm0").key0b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b0");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key1b0[i].checked)
+               {
+                  question1 = document.getElementById("quizForm0").key1b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b0");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key2b0[i].checked)
+               {
+                  question2 = document.getElementById("quizForm0").key2b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b0");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm0").key3b0[i].checked)
+               {
+                  question3 = document.getElementById("quizForm0").key3b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm0").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm0" id="quizForm0" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-0" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b0" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">1. <strong>La teoría del estrés de Seyle se divide en tres fases. A qué fase corresponde la siguiente descripción:</strong> </div>
+<em>“Si la acción de los estímulos persiste o se repite en el tiempo, el organismo lucha por volver al equilibrio original, superando, adaptándose y adquiriendo un estado de resistencia”.</em></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b01" class="sr-av"><a href="#answer-key0b01">Opción 1</a></label><input type="radio" name="key0b0" id="key0b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b01">
+<div id="taoptionAnswer0q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Resistencia.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b02" class="sr-av"><a href="#answer-key0b02">Opción 2</a></label><input type="radio" name="key0b0" id="key0b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b02">
+<div id="taoptionAnswer1q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Agotamiento o readaptación.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b03" class="sr-av"><a href="#answer-key0b03">Opción 3</a></label><input type="radio" name="key0b0" id="key0b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b03">
+<div id="taoptionAnswer2q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Reacción de alarma.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b0" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">2. <strong>Relacione cada factor del entrenamiento específico con sus características correspondientes:</strong> </div>
+<img id="IMG_SkpNV3h1dVNZTW9mNWZNZ0ZzY3pjcG9NazdpWTZxMnVNaEZHOVlpZExXcyUzRA==" alt="factor del entrenamiento" title="factor del entrenamiento" src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_SkpNV3h1dVNZTW9mNWZNZ0ZzY3pjcG9NazdpWTZxMnVNaEZHOVlpZExXcyUzRA==" /></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b01" class="sr-av"><a href="#answer-key1b01">Opción 1</a></label><input type="radio" name="key1b0" id="key1b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b01">
+<div id="taoptionAnswer0q1b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">1B, 2C, 3D, 4A</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b02" class="sr-av"><a href="#answer-key1b02">Opción 2</a></label><input type="radio" name="key1b0" id="key1b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b02">
+<div id="taoptionAnswer1q1b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">1B, 2A, 3D, 4C</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b03" class="sr-av"><a href="#answer-key1b03">Opción 3</a></label><input type="radio" name="key1b0" id="key1b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b03">
+<div id="taoptionAnswer2q1b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">1B, 2D, 3C, 4A</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b0" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">3. <strong>¿Por qué se debe realizar un calentamiento general antes de entrenar? </strong></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b01" class="sr-av"><a href="#answer-key2b01">Opción 1</a></label><input type="radio" name="key2b0" id="key2b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b01">
+<div id="taoptionAnswer0q2b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Para preparar los grupos musculares principales que van a ser trabajados en el entrenamiento.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b02" class="sr-av"><a href="#answer-key2b02">Opción 2</a></label><input type="radio" name="key2b0" id="key2b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b02">
+<div id="taoptionAnswer1q2b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Para evitar la fatiga, el endurecimiento y dolor muscular, mareos, y los espasmos o calambres musculares</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b03" class="sr-av"><a href="#answer-key2b03">Opción 3</a></label><input type="radio" name="key2b0" id="key2b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b03">
+<div id="taoptionAnswer2q2b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Para ir aumentando la temperatura corporal y la lubricación articular.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b0" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">4. <strong>Una persona que pesa 60 kg. Recorre con una intensidad elevada, durante 12 minutos, 2500 metros. ¿Cuál será su volumen máximo de oxígeno?</strong></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b01" class="sr-av"><a href="#answer-key3b01">Opción 1</a></label><input type="radio" name="key3b0" id="key3b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b01">
+<div id="taoptionAnswer0q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">2,5523 litros.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b02" class="sr-av"><a href="#answer-key3b02">Opción 2</a></label><input type="radio" name="key3b0" id="key3b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b02">
+<div id="taoptionAnswer1q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">1,9556 litros.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b03" class="sr-av"><a href="#answer-key3b03">Opción 3</a></label><input type="radio" name="key3b0" id="key3b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b03">
+<div id="taoptionAnswer2q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">2,6613 litros.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore0"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id1">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta1_100" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">5. <strong>Señale si la siguiente afirmación es verdadera o falsa: </strong> </div>
+</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b1" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b1" class="block iDevice_content">
+<p>“La magnitud y el tiempo de las adaptaciones neuromusculares durante el desentrenamiento están influenciados por la cantidad de intensidad del entrenamiento de sobrecarga precedente, la cantidad y tipos de actividades físicas utilizadas durante el desentrenamiento, y la longitud del período de desentrenamiento”.</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b1"><input type="radio" name="option0b1" id="true0b1" class="exe-radio-option exe-radio-option-0-2-0b1-truefalse" /> Verdadero</label> 
+<label for="false0b1"><input type="radio" name="option0b1" id="false0b1" class="exe-radio-option exe-radio-option-1-2-0b1-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b1" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b1-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

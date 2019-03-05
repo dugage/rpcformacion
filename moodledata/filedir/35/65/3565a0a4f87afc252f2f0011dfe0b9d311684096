@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.3. Efectos Impagados </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">3.3. Efectos Impagados</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<p>Si llega el vencimiento de la letra y el comprador (librado) no hace efectivo su importe, ésta resulta impagada. Pueden resultar impagadas las letras que cobra directamente la <span class="ee_palabra_diccionario">empresa </span>, las descontadas o las que envía en gestión de cobro.</p>
+<p>Ante esta situación, se puede proceder de la siguiente forma:</p>
+<ul>
+<li>Caso 1. Convenir el cobro de la letra con el librado.</li>
+<li>Caso 2. Renovar la letra.</li>
+<li>Caso 3. Considerar al cliente de dudoso cobro.</li>
+<li>Caso 4. El efecto resulta totalmente incobrable.</li>
+<li>Caso 1. Si se acuerda que el librado pague la letra devuelta, cuando se cobre su registro será:</li>
+</ul>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><b>Concepto</b></p>
+</td>
+<td width="56" valign="top">
+<p><b>Debe</b></p>
+</td>
+<td width="55" valign="top">
+<p><i><b>Haber</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>57. Tesorería</p>
+</td>
+<td width="56" valign="top">
+<p>-</p>
+</td>
+<td width="55" valign="top">
+<p></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>4315. Efectos comerciales impagados</p>
+</td>
+<td width="56" valign="top">
+<p></p>
+</td>
+<td width="55" valign="top">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>style="margin-left: 0"&gt;Caso 2. Renovar la letra.</li>
+</ul>
+<p>Si se emite una nueva letra, el nominal de ésta incluirá el importe de la letra inicial más los intereses por aplazamiento de pago, los gastos de protesto, etc. De tal forma que su registro será:</p>
+<table width="493" border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><b>Concepto</b></p>
+</td>
+<td width="99" valign="top">
+<p><b>Debe</b></p>
+</td>
+<td valign="top">
+<p><i><b>Haber</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="59" valign="top">
+<p>431. Clientes, efectos comerciales a cobrar</p>
+</td>
+<td width="99" height="59" valign="top">
+<p>Nominal del nuevo efecto</p>
+</td>
+<td height="59" valign="top">
+<p></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="36" valign="top">
+<p>4315. Efectos comerciales impagados</p>
+</td>
+<td width="99" height="36" valign="top">
+<p></p>
+</td>
+<td height="36" valign="top">
+<p>Nominal antiguo efecto</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>769. Otros ingresos financieros</p>
+</td>
+<td width="99" valign="top"></td>
+<td valign="top">
+<p>Intereses por el aplazamiento</p>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>style="margin-left: 0"&gt;Caso 3. Considerar al cliente de dudoso cobro.</li>
+</ul>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><b>Concepto</b></p>
+</td>
+<td width="56" valign="top">
+<p><b>Debe</b></p>
+</td>
+<td width="55" valign="top">
+<p><i><b>Haber</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>436. Cliente dudoso cobro</p>
+</td>
+<td width="56" valign="top">
+<p>-</p>
+</td>
+<td width="55" valign="top">
+<p></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>4315. Efectos comerciales impagados</p>
+</td>
+<td width="56" valign="top">
+<p></p>
+</td>
+<td width="55" valign="top">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><b>Concepto</b></p>
+</td>
+<td width="56" valign="top">
+<p><b>Debe</b></p>
+</td>
+<td width="55" valign="top">
+<p><i><b>Haber</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>694. Pérdidas por deterioro de créditos comerciales</p>
+</td>
+<td width="56" valign="top">
+<p>-</p>
+</td>
+<td width="55" valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>490. Deterioro de <span class="ee_palabra_diccionario">valor </span>de créditos comerciales</p>
+</td>
+<td width="56" valign="top"></td>
+<td width="55" valign="top">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Caso 4. El efecto resulta totalmente incobrable.</li>
+</ul>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><b>Concepto</b></p>
+</td>
+<td width="56" valign="top">
+<p><b>Debe</b></p>
+</td>
+<td width="55" valign="top">
+<p><i><b>Haber</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>650. Pérdidas de créditos comerciales incobrables</p>
+</td>
+<td width="56" valign="top">
+<p>-</p>
+</td>
+<td width="55" valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>4315. Efectos comerciales impagados</p>
+<p></p>
+</td>
+<td width="56" valign="top"></td>
+<td width="55" valign="top">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>style="text-indent: 0px"&gt;<b>EJEMPLO</b></li>
+</ol>
+<p>En el balance de una entidad figuran, entre otros, los siguientes saldos:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p>Efectos comerciales descontados</p>
+</td>
+<td valign="top">
+<p>10.000 €</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>Clientes, efectos comerciales a cobrar</p>
+</td>
+<td valign="top">
+<p>30.000 €</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>Deudas por efectos descontados</p>
+</td>
+<td valign="top">
+<p>10.000 €</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Durante este mes, la empresa ha realizado las siguientes operaciones:</p>
+<p>1. Emite letras por 1.000 € a un cliente al que posteriormente considera de dudoso cobro, al hallarse éste en suspensión de pagos.</p>
+<p>2. Han vencido los efectos descontados, pero sólo han pagado al banco clientes que debían 3.000 €. El banco protesta los restantes, lo que supone unos gastos de 30 €</p>
+<p>3. Descuenta en el banco una letra cuyo nominal asciende a 10.000 € Adelanta su cobro 30 días; el tipo de <span class="ee_palabra_diccionario">descuento </span>aplicado es del 0,5% y la comisión de 10 €</p>
+<p>Se pide, efectuar las anotaciones contables que procedan.</p>
+<p>Por la calificación de cliente de dudoso cobro:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="33" valign="top">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="56" height="33" valign="top">
+<p><b>DEBE</b></p>
+</td>
+<td width="67" height="33" valign="top">
+<p><i><b>HABER</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="33" valign="top">
+<p>436. Clientes de dudoso cobro</p>
+</td>
+<td width="56" height="33" valign="top">
+<p>1.000</p>
+</td>
+<td width="67" height="33" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="33" valign="top">
+<p>431. Clientes, efectos comerciales a cobrar</p>
+</td>
+<td width="56" height="33" valign="top"></td>
+<td width="67" height="33" valign="top">
+<p>1.000</p>
+</td>
+</tr>
+<tr valign="top">
+<td height="33" valign="top">
+<p>694. Pérdidas por deterioro de créditos comerciales</p>
+</td>
+<td width="56" height="33" valign="top">
+<p>1.000</p>
+</td>
+<td width="67" height="33" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="33" valign="top">
+<p>490. Deterioro de valor de créditos por operaciones comerciales</p>
+</td>
+<td width="56" height="33" valign="top"></td>
+<td width="67" height="33" valign="top">
+<p>1.000</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>2. Al vencimiento de los efectos descontados.</p>
+<p>Por los efectos que han sido atendidos por el librado:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="38" valign="top">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="60" height="38" valign="top">
+<p><b>DEBE</b></p>
+</td>
+<td width="60" height="38" valign="top">
+<p><i><b>HABER</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="34" valign="top">
+<p>5208. Deudas por efectos descontados</p>
+</td>
+<td width="60" height="34" valign="top">
+<p>3.000</p>
+</td>
+<td width="60" height="34" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="41" valign="top">
+<p>4311. Efectos comerciales descontados</p>
+</td>
+<td width="60" height="41" valign="top"></td>
+<td width="60" height="41" valign="top">
+<p>3.000</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Por los efectos impagados:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="36" valign="top">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="59" height="36" valign="top">
+<p><b>DEBE</b></p>
+</td>
+<td width="59" height="36" valign="top">
+<p><i><b>HABER</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="36" valign="top">
+<p>5208. Deudas por efectos descontados</p>
+</td>
+<td width="59" height="36" valign="top">
+<p>7.000</p>
+</td>
+<td width="59" height="36" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="36" valign="top">
+<p>626. Servicios bancarios y similares</p>
+</td>
+<td width="59" height="36" valign="top">
+<p>30</p>
+</td>
+<td width="59" height="36" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="36" valign="top">
+<p>572. Bancos, c/c a la vista</p>
+</td>
+<td width="59" height="36" valign="top"></td>
+<td width="59" height="36" valign="top">
+<p>7.030</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="40" valign="top">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="59" height="40" valign="top">
+<p><b>DEBE</b></p>
+</td>
+<td width="59" height="40" valign="top">
+<p><i><b>HABER</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="44" valign="top">
+<p>4315. Efectos comerciales impagados</p>
+</td>
+<td width="59" height="44" valign="top">
+<p>7.000</p>
+</td>
+<td width="59" height="44" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="48" valign="top">
+<p>4311. Efectos comerciales descontados</p>
+</td>
+<td width="59" height="48" valign="top"></td>
+<td width="59" height="48" valign="top">
+<p>7.000</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>3. Por los efectos que son negociados:</p>
+<p><img width="275" height="41" id="IMG_NjFuOE5adldCZjJUeG1jZEE4RFY2Sm1SQVJYVWRDMWJZQ0lhMjQ5WUczQSUzRA==" alt="Activos Financieros" title="Activos Financieros" src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NjFuOE5adldCZjJUeG1jZEE4RFY2Sm1SQVJYVWRDMWJZQ0lhMjQ5WUczQSUzRA==" /></p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="39" valign="top">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="66" height="39" valign="top">
+<p><b>DEBE</b></p>
+</td>
+<td width="66" height="39" valign="top">
+<p><i><b>HABER</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="39" valign="top">
+<p>572. Bancos, c/c a la vista</p>
+</td>
+<td width="66" height="39" valign="top">
+<p>9.948,33</p>
+</td>
+<td width="66" height="39" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="39" valign="top">
+<p>665. Intereses por descuento de efectos</p>
+</td>
+<td width="66" height="39" valign="top">
+<p>41,67</p>
+</td>
+<td width="66" height="39" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="39" valign="top">
+<p>626. Servicios bancarios y similares</p>
+</td>
+<td width="66" height="39" valign="top">
+<p>10</p>
+</td>
+<td width="66" height="39" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="45" valign="top">
+<p>5208. Deuda por efectos descontados</p>
+</td>
+<td width="66" height="45" valign="top"></td>
+<td width="66" height="45" valign="top">
+<p>10.000</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="42" valign="top">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="67" height="42" valign="top">
+<p><b>DEBE</b></p>
+</td>
+<td width="67" height="42" valign="top">
+<p><i><b>HABER</b></i></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="42" valign="top">
+<p>4311. Efectos comerciales descontados</p>
+</td>
+<td width="67" height="42" valign="top">
+<p>10.000</p>
+</td>
+<td width="67" height="42" valign="top"></td>
+</tr>
+<tr valign="top">
+<td height="46" valign="top">
+<p>431. Clientes, efectos comerciales a cobrar</p>
+</td>
+<td width="67" height="46" valign="top"></td>
+<td width="67" height="46" valign="top">
+<p>10.000</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

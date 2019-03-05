@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | UNIDAD DIDÁCTICA 5. SEGURIDAD ALIMENTARIA </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id122">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 1;
+var key1 = 1;
+var key2 = 1;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b122");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm122").key0b122[i].checked)
+               {
+                  question0 = document.getElementById("quizForm122").key0b122[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b122");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm122").key1b122[i].checked)
+               {
+                  question1 = document.getElementById("quizForm122").key1b122[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b122");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm122").key2b122[i].checked)
+               {
+                  question2 = document.getElementById("quizForm122").key2b122[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b122");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm122").key3b122[i].checked)
+               {
+                  question3 = document.getElementById("quizForm122").key3b122[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm122").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm122" id="quizForm122" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-122" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b122" class="block iDevice_content">
+<p><b>La práctica certeza de que no se derivará ningún daño o lesión del uso de una sustancia en una forma o cantidad propuesta, hace referencia a la definición de:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1221" class="sr-av"><a href="#answer-key0b1221">Opción 1</a></label><input type="radio" name="key0b122" id="key0b1221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1221"><a name="answer-key0b1221"></a>
+<div id="taoptionAnswer0q0b122" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Trazabilidad.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1222" class="sr-av"><a href="#answer-key0b1222">Opción 2</a></label><input type="radio" name="key0b122" id="key0b1222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1222"><a name="answer-key0b1222"></a>
+<div id="taoptionAnswer1q0b122" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Seguridad alimentaria.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1223" class="sr-av"><a href="#answer-key0b1223">Opción 3</a></label><input type="radio" name="key0b122" id="key0b1223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1223"><a name="answer-key0b1223"></a>
+<div id="taoptionAnswer2q0b122" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Gestión de la salud pública.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b122" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si es verdadero o falso el siguiente enunciado: </b><i>“Las medidas de control de la inocuidad y la calidad, son las mismas en cualquier etapa en la que se encuentra el alimento, es decir, no varían durante el proceso”.</i></div>
+<p><i> </i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1221" class="sr-av"><a href="#answer-key1b1221">Opción 1</a></label><input type="radio" name="key1b122" id="key1b1221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1221"><a name="answer-key1b1221"></a>
+<div id="taoptionAnswer0q1b122" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1222" class="sr-av"><a href="#answer-key1b1222">Opción 2</a></label><input type="radio" name="key1b122" id="key1b1222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1222"><a name="answer-key1b1222"></a>
+<div id="taoptionAnswer1q1b122" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b122" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Cómo se denomina el documento que recoge las nociones internacionales sobre la higiene de los alimentos?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1221" class="sr-av"><a href="#answer-key2b1221">Opción 1</a></label><input type="radio" name="key2b122" id="key2b1221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1221"><a name="answer-key2b1221"></a>
+<div id="taoptionAnswer0q2b122" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Codex nutrición.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1222" class="sr-av"><a href="#answer-key2b1222">Opción 2</a></label><input type="radio" name="key2b122" id="key2b1222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1222"><a name="answer-key2b1222"></a>
+<div id="taoptionAnswer1q2b122" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Codex alimentarius.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1223" class="sr-av"><a href="#answer-key2b1223">Opción 3</a></label><input type="radio" name="key2b122" id="key2b1223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1223"><a name="answer-key2b1223"></a>
+<div id="taoptionAnswer2q2b122" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Codex trazabilidad alimentaria.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b122" class="block iDevice_content">
+<p><b>Completa el espacio en blanco del siguiente enunciado: </b><span>“La _______________________ es un instrumento que proporciona información dentro de la empresa con el fin de facilitar la gestión y el control de las distintas actividades”.</span></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1221" class="sr-av"><a href="#answer-key3b1221">Opción 1</a></label><input type="radio" name="key3b122" id="key3b1221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1221"><a name="answer-key3b1221"></a>
+<div id="taoptionAnswer0q3b122" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Trazabilidad.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1222" class="sr-av"><a href="#answer-key3b1222">Opción 2</a></label><input type="radio" name="key3b122" id="key3b1222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1222"><a name="answer-key3b1222"></a>
+<div id="taoptionAnswer1q3b122" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Calidad.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1223" class="sr-av"><a href="#answer-key3b1223">Opción 3</a></label><input type="radio" name="key3b122" id="key3b1223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1223"><a name="answer-key3b1223"></a>
+<div id="taoptionAnswer2q3b122" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Identificación alimentaria.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id123">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-123_108">
+<form name="multi-select-form-123_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion123_108" class="block question iDevice_content">
+<p><b>En el caso de empresas de venta al por menor o distribución, aunque no afecte al envasado, etiquetado, inocuidad o a la integridad del alimento, será responsable, dentro de los límites de las actividades que lleve a cabo, de (respuesta múltiple):</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op123_1080" class="sr-av"><a href="#answer-123_111">Opción 1</a></label><input type="checkbox" id="op123_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-123_111"><a name="answer-123_111"></a>
+<div id="taans123_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Retirar los productos que no se ajusten a los requisitos de seguridad.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-123_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op123_1081" class="sr-av"><a href="#answer-123_237">Opción 2</a></label><input type="checkbox" id="op123_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-123_237"><a name="answer-123_237"></a>
+<div id="taans123_237" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Proceder inmediatamente a su retirada dentro de los límites físicos de su organización.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-123_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op123_1082" class="sr-av"><a href="#answer-123_239">Opción 3</a></label><input type="checkbox" id="op123_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-123_239"><a name="answer-123_239"></a>
+<div id="taans123_239" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Facilitar la información pertinente para su trazabilidad.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-123_1082" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'123_108')"/> 
+</p>
+</div>
+<div id="f123_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-123_111" class="right">Correcto</a></li>
+<li><a href="#answer-123_237" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-123_239" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

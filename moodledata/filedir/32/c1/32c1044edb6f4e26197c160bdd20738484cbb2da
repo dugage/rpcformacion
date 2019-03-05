@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id22">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 2;
+var key1 = 1;
+var key2 = 1;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b22");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm22").key0b22[i].checked)
+               {
+                  question0 = document.getElementById("quizForm22").key0b22[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b22");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm22").key1b22[i].checked)
+               {
+                  question1 = document.getElementById("quizForm22").key1b22[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b22");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm22").key2b22[i].checked)
+               {
+                  question2 = document.getElementById("quizForm22").key2b22[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b22");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm22").key3b22[i].checked)
+               {
+                  question3 = document.getElementById("quizForm22").key3b22[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm22").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona la Opción Correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm22" id="quizForm22" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-22" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b22" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b> ¿En qué dos grandes secretarías se apoya el comité organizador?</b></div>
+<br class="ee_respuesta ee_simpleNo_seleccionada" />
+<div class="ee_pregunta"></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b221" class="sr-av"><a href="#answer-key0b221">Opción 1</a></label><input type="radio" name="key0b22" id="key0b221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b221"><a name="answer-key0b221"></a>
+<div id="taoptionAnswer0q0b22" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Secretaría técnica y secretaría turística.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b222" class="sr-av"><a href="#answer-key0b222">Opción 2</a></label><input type="radio" name="key0b22" id="key0b222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b222"><a name="answer-key0b222"></a>
+<div id="taoptionAnswer1q0b22" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Secretaría científica y secretaría turística.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b223" class="sr-av"><a href="#answer-key0b223">Opción 3</a></label><input type="radio" name="key0b22" id="key0b223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b223"><a name="answer-key0b223"></a>
+<div id="taoptionAnswer2q0b22" class="block iDevice_content">
+<p>Secretaría técnica y secretaría científica.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b22" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b> Es el canal de comunicación entre el Comité Organizador y los asistentes al congreso, y el equipo encargado de coordinar los aspectos técnicos del congreso:</b></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b221" class="sr-av"><a href="#answer-key1b221">Opción 1</a></label><input type="radio" name="key1b22" id="key1b221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b221"><a name="answer-key1b221"></a>
+<div id="taoptionAnswer0q1b22" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Secretaría científica.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b222" class="sr-av"><a href="#answer-key1b222">Opción 2</a></label><input type="radio" name="key1b22" id="key1b222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b222"><a name="answer-key1b222"></a>
+<div id="taoptionAnswer1q1b22" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Secretaría técnica.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b223" class="sr-av"><a href="#answer-key1b223">Opción 3</a></label><input type="radio" name="key1b22" id="key1b223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b223"><a name="answer-key1b223"></a>
+<div id="taoptionAnswer2q1b22" class="block iDevice_content">
+<p>Secretaría de comunicación y prensa.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b22" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b> Completa la siguiente afirmación con la opción correcta:</b> <br /> “Las _____________ son la parte visible de un evento, ya que representan la imagen de la empresa para la que trabajan, por lo que forman una parte muy importante en la valoración positiva o negativa de un evento”.</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b221" class="sr-av"><a href="#answer-key2b221">Opción 1</a></label><input type="radio" name="key2b22" id="key2b221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b221"><a name="answer-key2b221"></a>
+<div id="taoptionAnswer0q2b22" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Secretarías.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b222" class="sr-av"><a href="#answer-key2b222">Opción 2</a></label><input type="radio" name="key2b22" id="key2b222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b222"><a name="answer-key2b222"></a>
+<div id="taoptionAnswer1q2b22" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Azafatas.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b223" class="sr-av"><a href="#answer-key2b223">Opción 3</a></label><input type="radio" name="key2b22" id="key2b223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b223"><a name="answer-key2b223"></a>
+<div id="taoptionAnswer2q2b22" class="block iDevice_content">
+<p>Agencias de viajes.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b22" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b> Confirma si la siguiente afirmación es verdadera o falsa:</b> <br /> “Las líneas chárter, no forman parte de IATA, aunque hay que decir que las líneas regulares realizan vuelos chárter”.</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b221" class="sr-av"><a href="#answer-key3b221">Opción 1</a></label><input type="radio" name="key3b22" id="key3b221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b221"><a name="answer-key3b221"></a>
+<div id="taoptionAnswer0q3b22" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b222" class="sr-av"><a href="#answer-key3b222">Opción 2</a></label><input type="radio" name="key3b22" id="key3b222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b222"><a name="answer-key3b222"></a>
+<div id="taoptionAnswer1q3b22" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

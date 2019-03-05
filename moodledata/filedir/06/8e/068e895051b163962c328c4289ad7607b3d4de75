@@ -1,0 +1,449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | Tema 23: Valoración de Bienes Inmuebles y Derechos </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.1 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id609">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 3;
+var key1 = 0;
+var key2 = 2;
+var key3 = 0;
+var key4 = 3;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b609");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm609").key0b609[i].checked)
+               {
+                  question0 = document.getElementById("quizForm609").key0b609[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b609");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm609").key1b609[i].checked)
+               {
+                  question1 = document.getElementById("quizForm609").key1b609[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b609");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm609").key2b609[i].checked)
+               {
+                  question2 = document.getElementById("quizForm609").key2b609[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b609");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm609").key3b609[i].checked)
+               {
+                  question3 = document.getElementById("quizForm609").key3b609[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b609");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm609").key4b609[i].checked)
+               {
+                  question4 = document.getElementById("quizForm609").key4b609[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm609").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm609" id="quizForm609" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-609" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b609" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿En qué principios se basan las previsiones relativas a la valoración de inmuebles y derechos de la Orden ECO/805/2003, de 27 de marzo?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b6091" class="sr-av"><a href="#answer-key0b6091">Opción 1</a></label><input type="radio" name="key0b609" id="key0b6091" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b6091"><a name="answer-key0b6091"></a>
+<div id="taoptionAnswer0q0b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se basa en los principios de valor real y valor de mercado.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b6092" class="sr-av"><a href="#answer-key0b6092">Opción 2</a></label><input type="radio" name="key0b609" id="key0b6092" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b6092"><a name="answer-key0b6092"></a>
+<div id="taoptionAnswer1q0b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se basa en los principios de efectividad y valor real.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b6093" class="sr-av"><a href="#answer-key0b6093">Opción 3</a></label><input type="radio" name="key0b609" id="key0b6093" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b6093"><a name="answer-key0b6093"></a>
+<div id="taoptionAnswer2q0b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se basa en los principios de prudencia y efectividad.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b6094" class="sr-av"><a href="#answer-key0b6094">Opción 4</a></label><input type="radio" name="key0b609" id="key0b6094" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b6094"><a name="answer-key0b6094"></a>
+<div id="taoptionAnswer3q0b609" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Se basa en los principios de prudencia y de sostenibilidad.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b609" class="block iDevice_content">
+<div class="ee_enunciado"><b>Determine si la siguiente afirmación es verdadera o falsa:</b><i>“En términos generales puede considerarse la valoración de inmuebles, como la suma del valor de suelo y la construcción que el mismo soporte”.</i></div>
+<p><i> </i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b6091" class="sr-av"><a href="#answer-key1b6091">Opción 1</a></label><input type="radio" name="key1b609" id="key1b6091" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b6091"><a name="answer-key1b6091"></a>
+<div id="taoptionAnswer0q1b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b6092" class="sr-av"><a href="#answer-key1b6092">Opción 2</a></label><input type="radio" name="key1b609" id="key1b6092" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b6092"><a name="answer-key1b6092"></a>
+<div id="taoptionAnswer1q1b609" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b609" class="block iDevice_content">
+<div class="ee_enunciado"><b>En el caso de que el inmueble a valorar se encuentre en estado de demolición o haya sido declarado legalmente en ruina, se valorará:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b6091" class="sr-av"><a href="#answer-key2b6091">Opción 1</a></label><input type="radio" name="key2b609" id="key2b6091" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b6091"><a name="answer-key2b6091"></a>
+<div id="taoptionAnswer0q2b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De la misma forma que se valore un edificio o elemento del mismo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b6092" class="sr-av"><a href="#answer-key2b6092">Opción 2</a></label><input type="radio" name="key2b609" id="key2b6092" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b6092"><a name="answer-key2b6092"></a>
+<div id="taoptionAnswer1q2b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De acuerdo con lo que se establezca para la valoración de edificios en proyecto, en construcción o en rehabilitación.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b6093" class="sr-av"><a href="#answer-key2b6093">Opción 3</a></label><input type="radio" name="key2b609" id="key2b6093" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b6093"><a name="answer-key2b6093"></a>
+<div id="taoptionAnswer2q2b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Como si de un solar o terreno se tratase, salvo que se califiquen como finca rústica.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b6094" class="sr-av"><a href="#answer-key2b6094">Opción 4</a></label><input type="radio" name="key2b609" id="key2b6094" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b6094"><a name="answer-key2b6094"></a>
+<div id="taoptionAnswer3q2b609" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Como si de una finca rústica se tratase, independientemente de la calificación que reciba.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b609" class="block iDevice_content">
+<div class="ee_enunciado"><b>Determine si la siguiente afirmación es verdadera o falsa:</b><i>“El valor de tasación de edificios y elementos de edificios que sirvan de garantía hipotecaria de créditos o préstamos que formen o vayan a formar parte de la cartera de cobertura de títulos hipotecarios emitidos por las entidades, promotores y constructores, será el valor hipotecario”.</i></div>
+<p><i> </i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b6091" class="sr-av"><a href="#answer-key3b6091">Opción 1</a></label><input type="radio" name="key3b609" id="key3b6091" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b6091"><a name="answer-key3b6091"></a>
+<div id="taoptionAnswer0q3b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b6092" class="sr-av"><a href="#answer-key3b6092">Opción 2</a></label><input type="radio" name="key3b609" id="key3b6092" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b6092"><a name="answer-key3b6092"></a>
+<div id="taoptionAnswer1q3b609" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b609" class="block iDevice_content">
+<div class="ee_enunciado"><b>El valor de tasación de los inmuebles en construcción o en rehabilitación para el mercado hipotecario, será:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b6091" class="sr-av"><a href="#answer-key4b6091">Opción 1</a></label><input type="radio" name="key4b609" id="key4b6091" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b6091"><a name="answer-key4b6091"></a>
+<div id="taoptionAnswer0q4b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El valor de mercado.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b6092" class="sr-av"><a href="#answer-key4b6092">Opción 2</a></label><input type="radio" name="key4b609" id="key4b6092" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b6092"><a name="answer-key4b6092"></a>
+<div id="taoptionAnswer1q4b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">
+<div class="ee_respuesta ee_simpleSeleccionada">El valor residual del inmueble.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b6093" class="sr-av"><a href="#answer-key4b6093">Opción 3</a></label><input type="radio" name="key4b609" id="key4b6093" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b6093"><a name="answer-key4b6093"></a>
+<div id="taoptionAnswer2q4b609" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El valor de reemplazamiento bruto.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b6094" class="sr-av"><a href="#answer-key4b6094">Opción 4</a></label><input type="radio" name="key4b609" id="key4b6094" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b6094"><a name="answer-key4b6094"></a>
+<div id="taoptionAnswer3q4b609" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">El valor de reemplazamiento neto.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_max_js.js"></script></body></html>

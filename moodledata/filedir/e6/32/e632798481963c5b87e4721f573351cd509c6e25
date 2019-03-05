@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-0" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id0">
+<div class="iDevice emphasis0">
+<div id="ta0_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id1">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta1_100" class="block iDevice_content">
+<div class="numeracion">1. <b> Señale si la siguiente afirmación es verdadera o falsa: </b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b1" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b1" class="block iDevice_content">
+<p><i>“De acuerdo con los datos aportados por Macera y Wooton (1994) las lesiones por accidente constituyen la causa mayoritaria de la mortalidad entre los adolescentes”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b1"><input type="radio" name="option0b1" id="true0b1" class="exe-radio-option exe-radio-option-0-2-0b1-truefalse" /> Verdadero</label> 
+<label for="false0b1"><input type="radio" name="option0b1" id="false0b1" class="exe-radio-option exe-radio-option-1-2-0b1-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b1" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b1-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id2">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b2");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key0b2[i].checked)
+               {
+                  question0 = document.getElementById("quizForm2").key0b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm2").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm2" id="quizForm2" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-2" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b2" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">2. <b>¿Cuál es el índice de producción de glucosa hepática en reposo?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b21" class="sr-av"><a href="#answer-key0b21">Opción 1</a></label><input type="radio" name="key0b2" id="key0b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b21">
+<div id="taoptionAnswer0q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">100 mg/min: 75% glucogenólisis y 25 % gluconeogénesis.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b22" class="sr-av"><a href="#answer-key0b22">Opción 2</a></label><input type="radio" name="key0b2" id="key0b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b22">
+<div id="taoptionAnswer1q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">175 mg/min: 70% glucogenólisis y 30 % gluconeogénesis.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b23" class="sr-av"><a href="#answer-key0b23">Opción 3</a></label><input type="radio" name="key0b2" id="key0b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b23">
+<div id="taoptionAnswer2q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">150 mg/min: 75% glucogenólisis y 25 % gluconeogénesis.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore2"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id3">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b3");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm3").key0b3[i].checked)
+               {
+                  question0 = document.getElementById("quizForm3").key0b3[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm3").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm3" id="quizForm3" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-3" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b3" class="block iDevice_content">
+<div class="numeracion">3. <b> Complete los espacios en blanco de la siguiente afirmación:</b> <br /> “En el ejercicio dinámico existe un gran aumento del ________ y la FC, con elevación moderada de la ________y una reducción neta de la ________. Esto se debe al aumento del consumo de O2 por el músculo”.</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b31" class="sr-av"><a href="#answer-key0b31">Opción 1</a></label><input type="radio" name="key0b3" id="key0b31" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b31">
+<div id="taoptionAnswer0q0b3" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">VM / PA / RP</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b32" class="sr-av"><a href="#answer-key0b32">Opción 2</a></label><input type="radio" name="key0b3" id="key0b32" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b32">
+<div id="taoptionAnswer1q0b3" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">PR / VM / PA</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b33" class="sr-av"><a href="#answer-key0b33">Opción 3</a></label><input type="radio" name="key0b3" id="key0b33" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b33">
+<div id="taoptionAnswer2q0b3" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">PA / VM/ RP</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore3"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id4">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta4_100" class="block iDevice_content">
+<div class="numeracion">4. <b> Señale si la siguiente afirmación es verdadera o falsa: </b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b4" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b4" class="block iDevice_content">
+<p><i>“La capacidad respiratoria máxima es cerca del 50% menor que la ventilación pulmonar real durante el ejercicio máximo”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b4"><input type="radio" name="option0b4" id="true0b4" class="exe-radio-option exe-radio-option-0-2-0b4-truefalse" /> Verdadero</label> 
+<label for="false0b4"><input type="radio" name="option0b4" id="false0b4" class="exe-radio-option exe-radio-option-1-2-0b4-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b4" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b4-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id5">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-5_108">
+<form name="multi-select-form-5_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion5_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">5. <b>¿A qué concepto pertenece la siguiente definición? (Respuesta múltiple)</b> </div>
+<i>“Se presenta tras la acumulación de fatiga durante semanas o meses, es decir, aparece a largo plazo”.</i></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op5_1080" class="sr-av"><a href="#answer-5_111">Opción 1</a></label><input type="checkbox" id="op5_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-5_111"><div id="taans5_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Sobreentrenamiento.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-5_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op5_1081" class="sr-av"><a href="#answer-5_235">Opción 2</a></label><input type="checkbox" id="op5_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-5_235"><div id="taans5_235" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Fatiga general.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-5_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op5_1082" class="sr-av"><a href="#answer-5_237">Opción 3</a></label><input type="checkbox" id="op5_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-5_237"><div id="taans5_237" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Fatiga crónica.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-5_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-5_108" /> 
+</p>
+</div>
+<section id="f5_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-5_111" class="right">Correcto</a></li>
+<li><a href="#answer-5_235" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-5_237" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

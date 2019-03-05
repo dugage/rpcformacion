@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.3.Evaluación de fórmulas paso a paso </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">4.3.Evaluación de fórmulas paso a paso</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id115">
+<div class="iDevice emphasis0">
+<div id="ta115_85" class="block iDevice_content">
+<p>Esta claro que nuestro cálculo inicial, al introducir la fórmula G4*100/G14, es correcto. Igualmente está claro que, al copiar dicha fórmula al resto de las celdillas, esa corrección se ha perdido el camino. Podríamos analizar qué ha sucedido y encontrar la solución directamente pero, antes de hacerlo, veamos cómo Excel puede ayudarnos también en este caso.</p>
+<p>Seleccione la opción Mostrar pasos de cálculo que aparece marcada en la figura 5 .6, correspondiente al menú de la ficha inteligente asociada a la celdilla H5 que es la primera errónea. Aparecerá un cuadro de diálogo como el de la figura 5 .7, en el que se indica claramente que al evaluar la expresión 382500/0, correspondiente a la celdilla H5 de la Hojal, se producirá un error. No tenemos más que hacer clic sobre el botón <b>Evaluar</b> para comprobar el resultado: #DIV/0!, es decir, división por cero.</p>
+<p><img src="excel_5.7.png" alt="FIGURA 5.7" width="529" height="281" /></p>
+<p><strong>FIGURA 5,7</strong></p>
+<p>Sabemos que el error viene provocado por una división por cero, pero ¿de dónde proviene ese cero? Para conocer su procedencia damos los pasos siguientes en el cuadro de diálogo de la figura 5 .7 , asumiendo que ya hemos hecho clic en <b>Evaluar</b> y hemos obtenido el error:</p>
+<ul>
+<li>Hacemos clic en el botón <b>Reiniciar</b> para iniciar la evaluación de la celdilla desde un principio. En el recuadro Evaluación aparece la expresión G5*100/G15.</li>
+<li>Hacemos clic en botón <b>Paso a paso para entrar</b>, que inciará la evaluación de la expresión mostrando los pasos que se dan para ello. Aparecerá entonces un segundo recuadro en el que se indica que el valor de la celdilla G5 proviene de la expresión SUMA (B5:F5). Esto es correcto.</li>
+<li>Un nuevo clic en el botón <b>Evaluar </b>nos permite ver el resultado de la expresión anterior, el valor 3 .825 que se almacenará en <b>G5</b>. Hacemos clic en <b>Paso a paso para salir</b> para devolver ese resultado a la celdilla H5 y continuar con su evaluación.</li>
+<li>Ahora en el recuadro Evaluación aparece la expresión 3825*100/G15 Un clic sobre el botón <b>Evaluar</b> resolverá la primera parte del cálculo, quedando la fórmula 382500/G15</li>
+<li>Hacemos clic de nuevo en <b>Paso a paso para entrar</b> a fin de iniciar la evaluación de la celdilla G15, cuyo valor actuará como divisor. En el recuadro que aparece para dicha celdilla (véase la figura 5 .8).</li>
+</ul>
+<p><img src="excel_5.8.png" alt="FIGURA 5.8" width="528" height="281" /></p>
+<p><strong>FIGURA 5.8</strong></p>
+<p></p>
+<div class="mCSB_container">
+<div class="ee_content_htm" id="ee_content_htm">
+<div id="container_htm">
+<div id="pagina_1" class="dentro_contenidos">
+<p>El problema, por tanto, se debe a que en la fórmula está haciéndose referencia a una celdilla vacía. De hecho el divisor se encuentra en G14, no en G15, pero al copiar la fórmula Excel ha ido actualizando las referencias según se explicó anteriormente.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

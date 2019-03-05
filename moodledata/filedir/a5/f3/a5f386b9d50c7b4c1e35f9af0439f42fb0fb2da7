@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Tickets de Venta </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Tickets de Venta</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<p>En esta opción, se recogen todas las operaciones necesarias para producir y controlar tickets de venta que emitiremos a nuestros clientes.</p>
+<p>Hay que hacer notar que esta pantalla es configurable en cuanto a los campos accesibles que aparecen, sus literales, sus teclas rápidas, su posible introducción manual o modificación, etc., desde el apartado <b>Configuración Captura de Tickets</b> de la opción <i>Entorno del Sistema</i> del menú <i>Útil</i>.</p>
+<p>Esta pantalla será la utilizada con más asiduidad puesto que con ella realizaremos todos los tickets de venta diaria.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Tk9EOExub1YzdDhRQ0ZHJTJGdXZoOGlJNlhid2g4QXY2dDVmS1Iwd0olMkZlb1klM0Q=" id="IMG_Tk9EOExub1YzdDhRQ0ZHJTJGdXZoOGlJNlhid2g4QXY2dDVmS1Iwd0olMkZlb1klM0Q=" alt="Facturación I" title="Facturación I" /></p>
+<p>Tickets de venta</p>
+<p>Como puede observar se diferencian cuatro partes importantes.</p>
+<p>Una de ellas es la pantalla que aparece en la esquina superior derecha en la que aparecerá el mismo texto que en nuestro visor y que, por tanto, tiene la misma configuración que éste.</p>
+<p>Si no tenemos visor su configuración es de 2 líneas y 20 caracteres. El texto que aparece en ella es configurable desde la opción Cajas del menú Global.</p>
+<p>La <b>Cabecera</b>, situada en la parte superior, será la encargada de contener la información referente al ticket. Los campos de la cabecera pueden ser configurados en la carpeta <b>Cabecera</b> del apartado <b>Captura de tickets </b> del menú <b>Entorno del sistema.</b></p>
+<p>Para ello el programa pone a nuestra disposición los siguientes campos.</p>
+<ul>
+<li><b>Fecha Ticket:</b> una vez situados en la pantalla de captura de datos el cursor se posiciona en este campo, permitiéndonos así introducir la fecha con la que se procederá a dar de alta el ticket. Este campo es configurable desde el apartado Configuración Captura de Tickets.</li>
+</ul>
+<p>Debe saber que por defecto esta fecha es extraída del reloj interno de su ordenador. Podrá aceptar esta fecha o modificarla a su gusto si al configurarla seleccionó la opción Captura.</p>
+<ul>
+<li><b>Empleado:</b> al introducir la fecha y pulsar la tecla Intro, el cursor salta a este campo, para introducir el código del empleado que realiza el ticket. Debe estar previamente definido en la opción Agentes/ Empleados del menú Sistema.</li>
+<li><b>N.º Ticket:</b> este campo no es accesible al usuario, ya que el programa se encarga mediante un contador interno de llevar una numeración correlativa. Por lo tanto, su introducción es automática.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TW5RTUhWNHRKYXdQTGwycVg2VzF3ZnJPaXpwcFpaek9DUmc3aiUyQjdXMW9zJTNE" id="IMG_TW5RTUhWNHRKYXdQTGwycVg2VzF3ZnJPaXpwcFpaek9DUmc3aiUyQjdXMW9zJTNE" alt="Facturación I" title="Facturación I" width="565" /></p>
+<ul>
+<li><b>Estado:</b> nos indica si el ticket con el que trabajamos está abierto, apartado o cerrado. No es un campo accesible al usuario.</li>
+</ul>
+<ul>
+<li><i><b>Tickets Abiertos:</b> </i> son tickets en proceso, o sea que todavía pensamos añadir alguna línea más. Estos permanecerán en este estado mientras no cobremos una parte o la totalidad del ticket, además no serán tenidos en cuenta en el cierre mientras no los cerremos.</li>
+<li><i><b>Tickets Apartados:</b> </i> estos tickets los usaremos para hacer reservas de nuestros productos. Podremos cobrar un depósito sin que pasen a cerrados. Al igual que los tickets abiertos permanecerán en este estado hasta que no lo facturemos, o sea mientras no lo cobremos. Tampoco serán tenidos en cuenta en el cierre.</li>
+<li><i><b>Tickets Cerrados:</b> </i> son tickets en los cuales habremos cobrado una parte o la totalidad del ticket (a excepción del depósito en apartados). Solamente éstos serán tenidos en cuenta en el cierre. Estos tickets son modificables por el usuario, si previamente tiene activado el campo Prioridad para modificar tickets cerrados, en el apartado Gestión de usuarios, de la opción Perfiles de usuario y dispositivos del menú Útil.</li>
+</ul>
+<p>En la ventana que visualizará tendrán una serie de botones con los que podrá pegar, buscar el ticket, seleccionar de uno en uno o de forma masiva tickets para su eliminación, además de dichos botones, visualizará el campo:</p>
+<ul>
+<li><b>Almacén de:</b> corresponderá al código del almacén retorno de artículos que conforman los tickets eliminados.</li>
+</ul>
+<p>En la tabla de esta ventana encontrará las siguientes columnas:</p>
+<ul>
+<li><b>S </b> que indicará si está o no seleccionado el ticket cerrado para su eliminación marcado con una X.</li>
+<li><b>B</b> que mostrará de forma gráfica la moneda origen del registro, solo visualizará esta columna si en la opción Caja menú Global tiene marcada la opción "Dualidad de moneda en tickets".</li>
+</ul>
+<p>Si pretende eliminar un ticket con documentos asociados o que haya creado un vale no se podrá eliminar, el programa le mostrará un mensaje "Imposible eliminar. El ticket que pretende eliminar tiene documentos relacionados o entregas en cierres".</p>
+<p>Si confirma el proceso se eliminarán los <b>tickets cerrados</b>, los registros de <b>Entrega</b>, los <b>Tickets pendientes de cobro</b>, y se realizará un proceso de actualización en la opción Caja y arqueo.</p>
+<ul>
+<li><b>Dto. Espc.:</b> campo para introducir el descuento que aplicaremos al ticket. A continuación de este campo aparecen otros que se rellenan automáticamente al introducir las líneas de artículos. Son los correspondientes a:</li>
+</ul>
+<ul>
+<li>Base imponible del IVA</li>
+<li>Importe del IVA</li>
+<li>Total del ticket</li>
+</ul>
+<p>Llegados a este punto tendremos concluida la primera parte del ticket.</p>
+<p>Realizado esta parte y pulsando <b>Intro</b> desde el campo <b>Empleado</b>, el cursor se sitúa en la zona <b>Detalle</b> donde se introducirán las líneas de artículos. Todos los campos de esta zona son configurables en la carpeta Detalle del apartado <b>Captura de tickets</b> del menú <b>Entorno del sistema</b>, en donde podemos decidir cuales campos queremos que aparezcan.</p>
+<ul>
+<li><b>Cantidad:</b> el número de unidades solicitadas de cada artículo. Por defecto el programa le introducirá el número 1. Este campo siempre es visible y siempre puede modificarse.</li>
+<li><b>Envases: </b> si el artículo lleva asociados envases nos calculará los envases a partir de las unidades introducidas en el campo Cantidad.</li>
+<li><b>Empleado:</b> código del empleado que realiza el ticket. Para ello debió previamente definirlo en la tabla de Agentes del menú Sistema. Podemos elegir que aparezca o no este campo.</li>
+<li><b>Referencia: </b> bajo este rótulo irán apareciendo los códigos de referencia de los artículos que contendrá el ticket. Este campo siempre es visible.</li>
+</ul>
+<p>Pulsando la tecla de función Referencia/Cód. Barras que se encuentra en el pie de la pantalla, podemos cambiar la entrada de este campo que pasará a ser el Código de Barras del artículo. En este caso, en lugar de pedirnos la referencia del artículo, nos pedirá su código de Barras y al introducirlo rellenará el campo Referencia.</p>
+<p>Este botón se usa para alternar entre estos dos campos. Tanto la referencia como el código de Barras tienen acceso a la tabla.</p>
+<p>Si utiliza Códigos de Barras para realizar sus tickets es muy importante tener configurado de forma adecuada su lector de Códigos de Barras. Nosotros recomendamos lo siguiente: Configurar su lector de Códigos de Barras para que, primero introduzca un Intro en el teclado y no lea el campo cantidad, que por defecto siempre será 1, y sea el código de Barras el primer campo que lea. A partir de aquí los siguientes campos se rellenan automáticamente según los datos de la ficha del artículo.</p>
+<ul>
+<li><b>Propiedad 1 y Propiedad 2: </b> aparecerán los literales de las propiedades que hemos determinado en caso de que este artículo lleve asociado propiedades. Se introducirán las propiedades correspondientes al artículo del que hacemos el ticket.</li>
+<li><b>Descripción: </b> literal descriptivo del artículo.</li>
+<li><b>Precio:</b> precio por unidad del artículo. Este campo aparecerá automáticamente al introducir la Referencia o el Código de Barras. Este precio será siempre con IVA incluido pues los tickets siempre trabajan en este modo.</li>
+<li><b>Descuento: </b> descuento que se aplica al artículo, en caso que lo hubiere. El descuento aparece automáticamente si el artículo tiene una promoción del tipo Descuento sobre Productos y ésta está activa.</li>
+<li><b>Importe:</b> importe correspondiente a la cantidad introducida incluido el IVA y el descuento. Este no es accesible al usuario.</li>
+<li><b>%IVA:</b> nos indica el porcentaje de IVA que se le aplica al artículo. Podemos elegir que sea visible y que pueda modificarse manualmente.</li>
+<li><b>%Comisión: </b> porcentaje de comisión que tiene asignado el empleado para ese artículo.</li>
+<li><b>Promoción: </b> en este campo aparecerá la promoción de tipo X*Y (X es la cantidad e Y es la cantidad a cobrar) que está sujeta la familia del artículo.</li>
+<li><b>Descuento Lineal: </b> descuento numérico que aplicaremos por línea de pedido. Restará al importe total con IVA, de la línea.</li>
+</ul>
+<p>En ese momento aparecerá en el visor el texto que hayamos configurado en el campo Artículo de la carpeta Mensaje Visor de la opción Cajas del menú Global.</p>
+<p>En la zona de Pie aparece una barra de botones que nos permitirán realizar diversas operaciones con los tickets. Estos botones también son configurables desde la carpeta Pie de la opción que se accede por la ruta Útil/ Entorno del sistema/ Captura de Tickets del menú principal.</p>
+<p>Por medio de estos botones podemos realizar las operaciones que explicamos a continuación:</p>
+<ul>
+<li><b>Añadir Ticket Nuevo:</b></li>
+</ul>
+<p>Esta opción nos permitirá añadir un nuevo ticket. El cursor se situará en la línea de detalle para ir añadiendo los datos del ticket.</p>
+<p>Cuando hayamos terminado el ticket pulsaremos la tecla Esc del teclado para aceptarlo y seguiremos en la misma pantalla para operar con el ticket que acabamos de crear o para introducir un nuevo ticket.</p>
+<p>Cuando tengamos un ticket abierto y pulsemos alguno de los botones del pie, aparecerá una pantalla que nos pedirá que le asignemos una referencia al ticket y nos preguntará sobre lo que queremos hacer con él: dejarlo abierto, apartado o cobrarlo. Si cobramos un ticket abierto pasa a estar cerrado.</p>
+<p>Si elegimos cancelar perderemos el ticket que acabamos de añadir.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_anVUWTIxUHkyaktmQXM3b3JldjhMYnRGZTg3OXp5TFZJY1QlMkJXU0pDJTJGV28lM0Q=" id="IMG_anVUWTIxUHkyaktmQXM3b3JldjhMYnRGZTg3OXp5TFZJY1QlMkJXU0pDJTJGV28lM0Q=" alt="Facturación I" title="Facturación I" width="403" /></p>
+<p>Opciones a realizar con el ticket actual</p>
+<ul>
+<li><b>Anular Ticket</b></li>
+</ul>
+<p>Con esta opción anularemos el ticket que tengamos en pantalla. Aparecerá una ventana de confirmación del proceso de eliminación, o bien de información y configuración de la anulación del ticket.</p>
+<p>Solo podrá anular un ticket cerrado si tiene marcada la opción <b>Prioridad para modificar tickets</b> cerrados en el apartado <b>Gestión de usuarios</b> de la opción <b>Perfiles de usuario</b> y dispositivos del menú <b>Útil</b>. Además podrá eliminar dicho ticket, siempre que sus entregas no tengan documentos relacionados. Si los tiene mostraremos el siguiente mensaje "Imposible eliminar. El ticket que pretende eliminar tiene documentos relacionados o entregas en cierres."</p>
+<p>Si no tiene documentos relacionados o entregas en cierres y acepta el proceso, las unidades de los artículos eliminados que componen las líneas de los tickets pasarán a formar parte del stock del almacén asignado para la eliminación de tickets, existente en la caja activa. Si dicho almacén no existiese en la caja activa estas unidades se perderán; pero si existe en la caja activa y no para el artículo en cuestión, automáticamente, el programa generará una línea con este almacén para dicho artículo.</p>
+<p>Si el ticket que queremos anular es un ticket <b>Apartado</b> aparecerá una pantalla como la mostrada a continuación.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_YklsNEhlNjI2em8lMkZFVVNBMDREWThaaGlYNjZYd3ptbGtlNjM3WmxMY3l3JTNE" id="IMG_YklsNEhlNjI2em8lMkZFVVNBMDREWThaaGlYNjZYd3ptbGtlNjM3WmxMY3l3JTNE" alt="Facturación I" title="Facturación I" /></p>
+<p>Anulación del ticket apartado</p>
+<p>Nos informa del nº del ticket apartado que queremos anular, de la forma de pago con que se realizó y de la cantidad entregada en depósito.</p>
+<p>Con los botones de la parte inferior podemos elegir qué hacer con el dinero que nos entregó el cliente por el ticket apartado.</p>
+<p>Con el botón Efectivo devolvemos al cliente en efectivo el dinero que entregó en depósito.</p>
+<p>Si seleccionamos el botón Vale generamos un vale con el importe de la cantidad entregada en depósito.</p>
+<p>Con el botón Sanción no devolvemos el dinero entregado como depósito, ni en efectivo, ni en forma de vale.</p>
+<ul>
+<li><b>Añadir Línea:</b> esta opción nos permitirá añadir una línea a un ticket abierto o apartado.</li>
+<li><b>Eliminar Línea:</b> nos permite eliminar una línea de un ticket. No podremos eliminar nunca una línea de un ticket cerrado.</li>
+<li><b>Referencia/Código de Barras:</b> se utiliza para el cambio en la entrada de datos del artículo, bien por Referencia o bien por Código de Barras.</li>
+<li><b>Cobrar Ticket:</b> utilizamos este botón para realizar el cobro del ticket e imprimirlo. El programa abre una nueva ventana para configurar los datos del cobro.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Z2I0c0RmSk9kaDBMM1pqblN1dkEzbHIwWiUyQnhDVmxqVXhiJTJCSkFiYVU0S1ElM0Q=" id="IMG_Z2I0c0RmSk9kaDBMM1pqblN1dkEzbHIwWiUyQnhDVmxqVXhiJTJCSkFiYVU0S1ElM0Q=" alt="Facturación I" title="Facturación I" /></p>
+<p>Cobro de ticket</p>
+<p>Si deseamos realizar un cobro con tarjeta, debemos introducir el código en el campo que se encuentra en la ventana. Debe estar previamente dado de alta en la opción Formas de pago del menú <b>Tablas generales</b>.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dlNRdUxPU2FPa084Z0pEY3l5U2hvZVFSaU13WXhPaXFJS3Z5UkJhWHFBVSUzRA==" id="IMG_dlNRdUxPU2FPa084Z0pEY3l5U2hvZVFSaU13WXhPaXFJS3Z5UkJhWHFBVSUzRA==" alt="Facturación I" title="Facturación I" width="435" /></p>
+<ul>
+<li><b>Pago electrónico: </b> cuando se pulsa el botón Aceptar, aparece un mensaje informativo, el cual se validará y se pasará la tarjeta para su reconocimiento. Si el terminal aprueba el pago, se actualizará el ticket. De lo contrario, aparecerá una pantalla de aviso. Si fuese necesario realizar una devolución con tarjeta, el usuario tendrá que introducir la fecha de la operación, y luego introducir el código de la operación (número que tienen todos los tickets de unterminal de cobro, obligatorio para realizar devoluciones con tarjeta). Posteriormente, se deberá pasar la tarjeta por el terminal.</li>
+<li><b>Total Ticket: </b> campo automático que refleja el importe total del ticket.</li>
+<li><b>Serie: </b> serie A o B que tiene asignada el ticket. Esto nos permite tener una doble numeración. En esta pantalla disponemos del botón Cambiar Serie que nos permite cambiar la serie del ticket, pero siempre, antes de cobrarle parcial o totalmente.</li>
+<li><b>Total vales: </b> importe de los vales del cliente, en caso de existir.</li>
+<li><b>Entregado a cuenta:</b> importe de la cantidad entregada a cuenta por el cliente, en caso de existir.</li>
+<li><b>Total entrega: </b> en este campo aparecerá, por defecto, la cantidad que debe entregar el cliente; es decir, el total ticket menos la cantidad entregada a cuenta y menos el total de vales. Podemos modificarla introduciendo la cantidad real que entrega el cliente. Si se introduce algún registro con el botón Entega, se dehabilita este campo y contendrá la cantidad introducida.</li>
+<li><b>A Devolver: </b> en este campo aparecerá de forma automática la diferencia entre el total ticket menos las cantidades correspondientes a la entrega a cuenta y al vale, y menos la cantidad entregada por el cliente. Es el cambio que debemos devolver al cliente, o que queda pendiente por pagar por el cliente. Este campo no es accesible al usuario. En ese momento se abre automáticamente el cajón. Si queremos abrir el cajón en otro momento, disponemos del botón Abrir Cajón. Podemos aceptar el cobro y cerrar el ticket mediante el botón Aceptar. Al cobrar el ticket se guarda la hora en la que se realizó. Si hemos marcado la opción Imprimir tickets al cobrar en la opción Cajas del menú Global, al aceptar el cobro se imprimirá el ticket. Si no la tenemos marcada disponemos de un botón en la barra para imprimir tickets cuando deseemos.</li>
+<li><b>Botón Cambiar Serie: </b> esta opción de la ventana, nos permite cambiar la serie del ticket, pero siempre, antes de cobrarle parcial o totalmente.</li>
+<li><b>Vales: </b> mediante este botón podremos seleccionar los vales pendientes para ser descontados en el cobro del ticket.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_R3RudGc5NlpHbFFLSDA4czhuc0d4YlNnOG5iejVQWXNvMDMlMkJmMkNObUtrJTNE" id="IMG_R3RudGc5NlpHbFFLSDA4czhuc0d4YlNnOG5iejVQWXNvMDMlMkJmMkNObUtrJTNE" alt="Facturación I" title="Facturación I" width="514" /></p>
+<p>Borrador de vales</p>
+<p>Para elegir el vale que desee, se situará encima del ticket y lo seleccionará con el botón <i>Selección</i> y luego presiona el botón <i>Continuar</i>.</p>
+<p>En el campo <b>Total Vales</b> de la pantalla de cobro de ticket, aparecerá el importe de los vales que se hayan seleccionados.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZjdZbnlpbTllTjZ1d2FQTzhKJTJGQW5iWiUyRnV5Tlc2YmZ1JTJGUG16Z3FqTDZ2cyUzRA==" id="IMG_ZjdZbnlpbTllTjZ1d2FQTzhKJTJGQW5iWiUyRnV5Tlc2YmZ1JTJGUG16Z3FqTDZ2cyUzRA==" alt="Facturación I" title="Facturación I" height="48" width="212" /></p>
+<p>La aplicación posibilita un nuevo botón en la barra de herramientas denominado <b>Gestión documental</b> desde la que podrá asociar imágenes/ documentos a los vales obtenidas desde un escáner.</p>
+<p>Al pulsar sobre esta opción visualizará la siguiente ventana:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZDJMNjBxWVlNNmZDY2w3U1R0Z0slMkZkaXo3Q29KRk8wdUdhaXRsMWVxVmVzJTNE" id="IMG_ZDJMNjBxWVlNNmZDY2w3U1R0Z0slMkZkaXo3Q29KRk8wdUdhaXRsMWVxVmVzJTNE" alt="Facturación I" title="Facturación I" width="561" /></p>
+<p>Gestión documental</p>
+<p>Con esta acción se podrá escanear documentos o imágenes, las cuales se podrán guardar o adjuntar a una opción determinada de la aplicación</p>
+<p>Para ello deberá realizar los siguientes pasos:</p>
+<p>1.- Seleccionar un registro y pulsar el botón <b>Gestión documental</b>.</p>
+<p>2.- A continuación, pulsará el botón <img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bWFVVEx0UDIzVCUyRmFZMXZCWVQzNXpBbE5mVFBrQTZncGx0Nm44NkJ0ZklBJTNE" id="IMG_bWFVVEx0UDIzVCUyRmFZMXZCWVQzNXpBbE5mVFBrQTZncGx0Nm44NkJ0ZklBJTNE" alt="Facturación I" title="Facturación I" height="28" width="107" />, visualizará una nueva ventana dónde podrá seleccionar el modo de obtener la imagen:</p>
+<p>En primer lugar deberá introducir una descripción, que la aplicación asociará al registro (esta descripción es obligatoria rellenarla).</p>
+<ul>
+<li><b>Obtener imagen desde el escáner:</b> Seleccionará el formato de la imagen (.bmp o .jpg), una vez seleccionado el formato, pulsará el botón Continuar, visualizará una ventana en la que debe indicar una carpeta donde guardarlo, seguidamente visualizará una ventana con la lista de los escáner conectados a su ordenador, seleccionará el escáner e inmediatamente visualizará la imagen.</li>
+</ul>
+<p>Finalizado el proceso, la aplicación volverá a la ventana "Asociar nuevo documento", figurando en ella la línea del nuevo registro.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TzZxYm5Ca2lhQllvZmo0MmF5ZTFMN1ZKOHNhZWx4Ymg1Q2EwRllJb3lpSSUzRA==" id="IMG_TzZxYm5Ca2lhQllvZmo0MmF5ZTFMN1ZKOHNhZWx4Ymg1Q2EwRllJb3lpSSUzRA==" alt="Facturación I" title="Facturación I" width="562" /></p>
+<ul>
+<li><b>Obtener documento desde fichero:</b> si selecciona esta opción, visualizará una nueva ventana, en la que seleccionará los documentos e imágenes que desee asociar, para ello filtrará por tipos de archivos: Imágenes, Documentos Office, Archivos PDF, Todos.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OW9pTlRKVkhuM3pzeWRqMDF1V0JDeElwdm1TRlZ1VnBrYTBXc3ZTSEZJMCUzRA==" id="IMG_OW9pTlRKVkhuM3pzeWRqMDF1V0JDeElwdm1TRlZ1VnBrYTBXc3ZTSEZJMCUzRA==" alt="Facturación I" title="Facturación I" width="566" /></p>
+<p>3.- El botón <img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_a3FJUktyTyUyQlFhS2FVR2wxT1Y2ek5QbE9aTWU1TFhtVlExZUslMkZXb1VOSFUlM0Q=" id="IMG_a3FJUktyTyUyQlFhS2FVR2wxT1Y2ek5QbE9aTWU1TFhtVlExZUslMkZXb1VOSFUlM0Q=" alt="Facturación I" title="Facturación I" height="26" width="105" />, le permitirá modificar la descripción asociada al registro.</p>
+<p>4.- Los botones <img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dlNIc2R5elZnZ3gyOUFtTEpEcXJRcyUyRlVoVXAzZ0U2WGtuajdHQ0VmQWk0JTNE" id="IMG_dlNIc2R5elZnZ3gyOUFtTEpEcXJRcyUyRlVoVXAzZ0U2WGtuajdHQ0VmQWk0JTNE" alt="Facturación I" title="Facturación I" height="30" width="111" /> , eliminará las imágenes y documentos asociados. Se eliminarán de la carpeta que automáticamente crea la aplicación, pero no se eliminarán de la ruta indicada en su ordenador.</p>
+<p>5.- Los botones <img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJCVTJCbEJORyUyRlFacHFSVHVoUkRRJTJGQiUyQnlyRUltRXNRM1JHYjBNd1I0OHFzJTNE" id="IMG_JTJCVTJCbEJORyUyRlFacHFSVHVoUkRRJTJGQiUyQnlyRUltRXNRM1JHYjBNd1I0OHFzJTNE" alt="Facturación I" title="Facturación I" height="28" width="107" /> , visualizará el fichero o ficheros que tuviera asociadas a la opción. Si selecciona Ver todas, visualizará todos los ficheros en miniatura, haciendo clic con el puntero del ratón sobre cada uno de ellos, las visualizará en el tamaño real. Además los visualizará con el programa que tenga asociado.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJGUmV0TThiWUlCaU4waCUyQlA1SUZwU2R2Y3FlcWVwMEFuZU5JRnBUeGFROFUlM0Q=" id="IMG_JTJGUmV0TThiWUlCaU4waCUyQlA1SUZwU2R2Y3FlcWVwMEFuZU5JRnBUeGFROFUlM0Q=" alt="Facturación I" title="Facturación I" /></p>
+<p><b>Entregas</b></p>
+<p>Mediante el botón Entrega podremos consultar todos los Movimientos de los Tickets realizados desde el último Cierre. Se mostrará la forma de pago utiliza, el número de ticket al que pertenece el movimiento o el tipo de movimiento de ticket.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OWxuQ2JaT25zb1BOWGFiVThGY0c5N1lkczBvcjlDR1ZjaVhoc2dEMzhxYyUzRA==" id="IMG_OWxuQ2JaT25zb1BOWGFiVThGY0c5N1lkczBvcjlDR1ZjaVhoc2dEMzhxYyUzRA==" alt="Facturación I" title="Facturación I" /></p>
+<p>Mantenimiento de movimientos de tickets</p>
+<p>Cuando tengamos un ticket en pantalla el botón Entregas devolverá las entregas pertenecientes sólo al ticket en pantalla, y nos mostrará el Total Entregado y el Total Pendiente del ese ticket.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_b3ozZ0hndjdvUFh5VWo1JTJCeEpHJTJGWDV2VlJYRUdUTWFkemhMVmJrVmNQS1UlM0Q=" id="IMG_b3ozZ0hndjdvUFh5VWo1JTJCeEpHJTJGWDV2VlJYRUdUTWFkemhMVmJrVmNQS1UlM0Q=" alt="Facturación I" title="Facturación I" width="461" /></p>
+<p>Movimientos de un ticket</p>
+<p><b>Imp. Tickets</b></p>
+<p>Con esta opción imprimiremos los tickets que hayamos seleccionado.</p>
+<p><b>Imp. Factura</b></p>
+<p>Esta opción es idéntica a la de ticket, pero la utilizaremos para generar e imprimir un ticket en forma de factura. Para generar una factura deberemos introducir los datos del cliente.</p>
+<p><b>Datos Cliente</b></p>
+<p>Aparecerá una pantalla para introducir todos los datos necesarios del Cliente para generar una factura de la venta, en el caso de que fuera necesario. Este cliente puede estar definido en la opción Clientes del menú Sistema o bien crearlo en el momento de hacer el ticket.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RmE1RWVpYU9mb2xQSVBsS0pQR0dvN09MQlR1eERRTDliVkh1Z1NvMGU5ZyUzRA==" id="IMG_RmE1RWVpYU9mb2xQSVBsS0pQR0dvN09MQlR1eERRTDliVkh1Z1NvMGU5ZyUzRA==" alt="Facturación I" title="Facturación I" width="418" /></p>
+<p>Datos de cabecera para clientes de contado</p>
+<p><b>Comentarios</b></p>
+<p>Con este botón se accede a una pantalla de edición donde se podrá escribir todo el texto que sea necesario y quedará grabado en el ticket. No tiene limitación en cuanto al número de caracteres a introducir. Desde la pantalla de impresión de tickets podremos configurar si queremos imprimir el comentario al imprimir el ticket.</p>
+<p><b>Tickets Abiertos</b></p>
+<p>Si pulsamos esta opción sin introducir un ticket aparece una pantalla con todos los tickets que tenemos abiertos. Nos sirve para pegar en la pantalla principal el ticket abierto que deseemos y así poder modificarlo, cobrarlo, imprimirlo, o realizar sobre él cualquier otra operación.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Um81enpKMWQyVWF2eDUlMkJOR0ljTWFOV1gxOGhEbXB1NkN5NTVYT3d3clZ3JTNE" id="IMG_Um81enpKMWQyVWF2eDUlMkJOR0ljTWFOV1gxOGhEbXB1NkN5NTVYT3d3clZ3JTNE" alt="Facturación I" title="Facturación I" width="508" /></p>
+<p>Tickets abiertos</p>
+<p><b>Tickets Apartados</b></p>
+<p>Si pulsamos esta opción sin introducir un ticket aparece una pantalla con todos los tickets que tenemos apartados. Nos sirve para pegar en la pantalla principal el ticket que deseemos y así poder modificarlo, cobrarlo, imprimirlo, o realizar sobre él cualquier otra operación.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZWJxazVsdFF5QWhmNUhCQVFzM0RHNVZ6YyUyRjFsWmlUNmczUExKYmhsNjlZJTNE" id="IMG_ZWJxazVsdFF5QWhmNUhCQVFzM0RHNVZ6YyUyRjFsWmlUNmczUExKYmhsNjlZJTNE" alt="Facturación I" title="Facturación I" width="507" /></p>
+<p>Tickets apartados</p>
+<p><b>Tickets Pendientes</b></p>
+<p>Si pulsamos esta opción se mostrarán todos los tickets Pendientes de Cobro. Se mostrarán tanto los tickets pendientes de cobro del día, como los que estén pendientes ya incluidos en otros Cierres.</p>
+<p>Además podrá consultar el Total Pendiente de Cobrar en la parte inferior de la pantalla de esta misma opción.</p>
+<p>Para cobrar un ticket pendiente, pulse Pegar y llevará el ticket a la gestión, y ya desde ahí podrá dar a Cobrar y añadir las entregas correspondientes.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZHBib09sd1VwckRWVEVlMk9LV2tjeThuSmFIelJ6YWc3cXVGSmQ0cFBzVSUzRA==" id="IMG_ZHBib09sd1VwckRWVEVlMk9LV2tjeThuSmFIelJ6YWc3cXVGSmQ0cFBzVSUzRA==" alt="Facturación I" title="Facturación I" width="469" /></p>
+<p>Tickets pendientes</p>
+<p><b>Tickets Cerrados</b></p>
+<p>Si pulsamos esta opción aparece una pantalla con todos los tickets que tenemos cerrados desde el último cierre de caja. Nos sirve para pegar en la pantalla principal el ticket que deseemos para realizar sobre él alguna operación. Hay que hacer notar que los tickets cerrados se pueden modificar.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZlhVYjdKTlA4WHZ3YXJJaDFGRkRQUyUyRm5samZJZE10bDhvJTJCQmVlalBwRG8lM0Q=" id="IMG_ZlhVYjdKTlA4WHZ3YXJJaDFGRkRQUyUyRm5samZJZE10bDhvJTJCQmVlalBwRG8lM0Q=" alt="Facturación I" title="Facturación I" width="484" /></p>
+<p>Tickets cerrados</p>
+<p><b>Vales</b></p>
+<p>Mediante este botón accedemos a una pantalla en la que aparecen los vales pendientes.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RlBmaG5BT0Fqa3ZtJTJCSEJ4NXZKRURwaWpJNnBVTTFnZm8lMkZvWk95c1o0UEUlM0Q=" id="IMG_RlBmaG5BT0Fqa3ZtJTJCSEJ4NXZKRURwaWpJNnBVTTFnZm8lMkZvWk95c1o0UEUlM0Q=" alt="Facturación I" title="Facturación I" width="516" /></p>
+<p>Listado de vales</p>
+<p><b>Movimientos de Caja</b></p>
+<p>La opción Movimientos de Caja nos permitirá definir todos los movimientos que se realizarán en la caja durante el día (hasta que se realice el cierre). Para definirlos utilizará los códigos de caja definidos en la opción Códigos de Caja del apartado Tablas Generales del menú Sistema.</p>
+<p>En esta opción deberán reflejarse todas las entradas y salidas que se realicen sobre la caja, ya sean pagos a proveedores, cobros de mercancía, etc., esto nos permitirá tener un exhaustivo control sobre el estado de la caja. Es la misma opción y funcionalidad que el apartado Movimientos de Caja del menú Caja, por tanto, para una información más profunda remítase a ese capítulo del manual.</p>
+<p><b>Cierres</b></p>
+<p>Utilizaremos esta opción cuando deseemos realizar el cierre y arqueo de la caja, cuando lo realicemos el programa registrará el cierre en el histórico de cierres. Podemos realizar hasta un máximo de 9 cierres al día. Es la misma opción y la misma funcionalidad que la opción que existe en el apartado Cierre y Arqueo del menú Caja, por tanto, para una información más profunda remítase a ese capítulo del manual.</p>
+<p><b>Arqueo</b></p>
+<p>Mediante este botón podemos realizar un arqueo de Caja. Nos informa del estado actual de la caja, parecido a la información dada en Cierre. Además nos permite dejar un remanente en la caja realizando automáticamente un movimiento de caja.</p>
+<p><b>Históricos</b></p>
+<p>Como su nombre indica, encontraremos en este menú todos los datos necesarios de anteriores jornadas, los cuales nos permitirán seguir la trayectoria de nuestro negocio. Es la misma opción y la misma funcionalidad que el apartado Históricos de Cierres del menú Caja, por tanto, para una información más profunda remítase a ese capítulo del manual.</p>
+<p>Debemos tener en cuenta que estos Históricos se borrarán del programa cuando realicemos una Depuración de ficheros del menú Útil.</p>
+<p>En este menú dispondrá de las siguientes opciones:</p>
+<ul>
+<li>Cierres de Caja</li>
+<li>Tickets de Venta</li>
+<li>Movimientos de Caja</li>
+<li>Entregas</li>
+<li>Recibos</li>
+</ul>
+<p>Los Históricos de Tickets de Venta nos permitirán controlar todos los aspectos de los tickets emitidos en anteriores jornadas. A medida que termina la gestión de los tickets, estos desaparecen del menú Tickets cerrados y cuando realizamos el cierre se incorporan a esta nueva tabla cada uno de ellos.</p>
+<p>En un ticket histórico se podrá modificar y añadir los datos del cliente para dicho ticket mediante el botón cliente, siempre que tenga marcada la opción Prioridad para modificar tickets cerrados en el apartado Gestión de usuarios botón Configurar de la opción Perfiles de usuarios y dispositivos del menú Útil.</p>
+<p>Los Históricos de Movimientos de Caja nos permitirán controlar todos los aspectos de los Movimientos de Caja y los campos que en ellos aparecen. Cada vez que se realiza un cierre se reflejan en este apartado todos los campos involucrados con la caja. Cuando se selecciona esta opción el programa muestra una pantalla en la que aparece una lista ordenada de todos los movimientos de caja, ya sean de entrada o de salida, éstos se encuentran ordenados por el campo Fecha.</p>
+<p>La carpeta de recibos nos mostrará en una doble ventana todos los recibos y abonos de clientes, y los recibos de proveedores con sus fechas de expedición, fecha de vencimiento más importes.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_elllN0dkNENQJTJGJTJCM1h0V3RubGlPcWMwUHUycE5GVUR0MDN1MTBlUlhUMzQlM0Q=" id="IMG_elllN0dkNENQJTJGJTJCM1h0V3RubGlPcWMwUHUycE5GVUR0MDN1MTBlUlhUMzQlM0Q=" alt="Facturación I" title="Facturación I" /></p>
+<p><b>Albarán</b></p>
+<p>Este botón es configurable igual que los anteriores, para la correcta funcionalidad de esta acción, no debemos tener ninguna línea de tickets en la pantalla. Pulsando este botón se abrirá la ventana de albaranes de clientes, podemos generar y grabar un albarán desde la propia ventana de tickets. Finalizado el albarán, la aplicación nos dejará en la ventana de tickets de venta.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_QTRzTlB2T3cxRk9nYmY2eGttMVRFdXNablglMkZDNjZSOE9CR3U0S3dCWEdFJTNE" id="IMG_QTRzTlB2T3cxRk9nYmY2eGttMVRFdXNablglMkZDNjZSOE9CR3U0S3dCWEdFJTNE" alt="Facturación I" title="Facturación I" /></p>
+<p><b>Calculadora</b></p>
+<p>Aparecerá una calculadora para su posible utilización.</p>
+<p><b>Salir</b></p>
+<p>Pulsando esta opción se aceptará el ticket introducido pudiéndolo dejar abierto, apartado o cobrarlo desde la pantalla Opciones a realizar con el ticket actual, se actualizarán datos en el programa y se saldrá de la pantalla.</p>
+<p><b>Fuentes</b></p>
+<p>Mediante este botón podemos configurar el tipo y formato de la letra del ticket.</p>
+<p><b>Esc</b></p>
+<p>Pulsando una vez esta tecla se aceptará el ticket de caja y seguiremos en esta misma pantalla para operar con él y para introducir los datos de un nuevo ticket. Si pulsamos dos veces esta tecla saldremos de la pantalla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NGlqTlZNMEVrTkZpa2ZvNWFwcGlQUjUlMkZpZkgwb080RGx4JTJCaEpOY0Q1UlElM0Q=" id="IMG_NGlqTlZNMEVrTkZpa2ZvNWFwcGlQUjUlMkZpZkgwb080RGx4JTJCaEpOY0Q1UlElM0Q=" alt="Facturación I" title="Facturación I" width="563" /></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

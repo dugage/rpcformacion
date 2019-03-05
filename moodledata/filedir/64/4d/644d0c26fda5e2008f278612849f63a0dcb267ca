@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Examen </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-0" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Examen</h1></div></header>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id2">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 7;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var question5;
+var question6;
+var key0 = 0;
+var key1 = 2;
+var key2 = 1;
+var key3 = 2;
+var key4 = 0;
+var key5 = 2;
+var key6 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b2");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key0b2[i].checked)
+               {
+                  question0 = document.getElementById("quizForm2").key0b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b2");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key1b2[i].checked)
+               {
+                  question1 = document.getElementById("quizForm2").key1b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b2");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key2b2[i].checked)
+               {
+                  question2 = document.getElementById("quizForm2").key2b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b2");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key3b2[i].checked)
+               {
+                  question3 = document.getElementById("quizForm2").key3b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b2");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key4b2[i].checked)
+               {
+                  question4 = document.getElementById("quizForm2").key4b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.5.id","key5b2");
+            scorm.SetInteractionValue("cmi.interactions.5.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.5.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key5b2[i].checked)
+               {
+                  question5 = document.getElementById("quizForm2").key5b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.5.student_response",question5);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.6.id","key6b2");
+            scorm.SetInteractionValue("cmi.interactions.6.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.6.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key6b2[i].checked)
+               {
+                  question6 = document.getElementById("quizForm2").key6b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.6.student_response",question6);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+            if (question5 == key5)
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","wrong");
+            }
+            if (question6 == key6)
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm2").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Preguntas</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm2" id="quizForm2" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-2" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b2" class="block iDevice_content">
+<p><strong>El procedimiento sancionador en materia de protección de datos, se inicia: <br /></strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b21" class="sr-av"><a href="#answer-key0b21">Opción 1</a></label><input type="radio" name="key0b2" id="key0b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b21">
+<div id="taoptionAnswer0q0b2" class="block iDevice_content">
+<p>Por iniciativa del Ministerio Fiscal al tener conocimiento directo o indirecto de las conductas o hechos constitutivos de infracción.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b22" class="sr-av"><a href="#answer-key0b22">Opción 2</a></label><input type="radio" name="key0b2" id="key0b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b22">
+<div id="taoptionAnswer1q0b2" class="block iDevice_content">
+<p>Como consecuencia de la existencia de una denuncia.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b23" class="sr-av"><a href="#answer-key0b23">Opción 3</a></label><input type="radio" name="key0b2" id="key0b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b23">
+<div id="taoptionAnswer2q0b2" class="block iDevice_content">
+<p>Siempre de oficio por la Agencia Española de Protección de Datos al tener conocimiento directo o indirecto de las conductas o hechos constitutivos de infracción.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b2" class="block iDevice_content">
+<p><strong>La Constitución Española impone los siguientes límites ante la imposición de sanciones: <br /></strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b21" class="sr-av"><a href="#answer-key1b21">Opción 1</a></label><input type="radio" name="key1b2" id="key1b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b21">
+<div id="taoptionAnswer0q1b2" class="block iDevice_content">
+<p>Sujeción de la potestad sancionadora al principio de legalidad.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b22" class="sr-av"><a href="#answer-key1b22">Opción 2</a></label><input type="radio" name="key1b2" id="key1b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b22">
+<div id="taoptionAnswer1q1b2" class="block iDevice_content">
+<p>Interdicción de las penas privativas de libertad.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b23" class="sr-av"><a href="#answer-key1b23">Opción 3</a></label><input type="radio" name="key1b2" id="key1b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b23">
+<div id="taoptionAnswer2q1b2" class="block iDevice_content">
+<p>Respeto de los derechos de defensa reconocidos en el artículo 27 CE.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b2" class="block iDevice_content">
+<p><strong>Señala la respuesta correcta: <br /></strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b21" class="sr-av"><a href="#answer-key2b21">Opción 1</a></label><input type="radio" name="key2b2" id="key2b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b21">
+<div id="taoptionAnswer0q2b2" class="block iDevice_content">
+<p>El objetivo de la auditoría es emitir una opinión que puede ser favorable, desfavorable y denegada sobre si las cuentas expresan la imagen fiel de la situación de la empresa, así como, de su patrimonio.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b22" class="sr-av"><a href="#answer-key2b22">Opción 2</a></label><input type="radio" name="key2b2" id="key2b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b22">
+<div id="taoptionAnswer1q2b2" class="block iDevice_content">
+<p>El objetivo de la auditoría es emitir una opinión que puede ser favorable y desfavorable, pero nunca denegada.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b23" class="sr-av"><a href="#answer-key2b23">Opción 3</a></label><input type="radio" name="key2b2" id="key2b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b23">
+<div id="taoptionAnswer2q2b2" class="block iDevice_content">
+<p>El responsable de seguridad es quién debe analizar los informes y elevará las conclusiones al responsable del tratamiento para que así se adopten las medidas correctoras necesarias para su mejor tratamiento.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b2" class="block iDevice_content">
+<p><strong>¿Qué condiciones son necesarias para que los datos de carácter personal objeto de tratamiento puedan ser cedidos o comunicados a un tercero?</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b21" class="sr-av"><a href="#answer-key3b21">Opción 1</a></label><input type="radio" name="key3b2" id="key3b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b21">
+<div id="taoptionAnswer0q3b2" class="block iDevice_content">
+<p>Que la cesión o comunicación sea para el cumplimiento de fines directamente relacionados con las funciones legítimas del cedente y del cesionario.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b22" class="sr-av"><a href="#answer-key3b22">Opción 2</a></label><input type="radio" name="key3b2" id="key3b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b22">
+<div id="taoptionAnswer1q3b2" class="block iDevice_content">
+<div class="iDevice_answer-content" id="answer-1_313">
+<div id="taans1_313" class="block iDevice_content">
+<p>Que la cesión o comunicación cuente con el previo consentimiento del interesado</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b23" class="sr-av"><a href="#answer-key3b23">Opción 3</a></label><input type="radio" name="key3b2" id="key3b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b23">
+<div id="taoptionAnswer2q3b2" class="block iDevice_content">
+<p>Que la cesión o comunicación no sea de carácter internacional.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion4b2" class="block iDevice_content">
+<p><strong>Sobre todo dato personal facilitado, sea de la naturaleza que sea, y de forma general e independiente a los fines que tenga su obtención, se deberán observar una serie de medidas</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b21" class="sr-av"><a href="#answer-key4b21">Opción 1</a></label><input type="radio" name="key4b2" id="key4b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b21">
+<div id="taoptionAnswer0q4b2" class="block iDevice_content">
+<p>De persecución de todo aquel, persona física o jurídica, que vulnere las normas sobre protección de datos de carácter personal.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b22" class="sr-av"><a href="#answer-key4b22">Opción 2</a></label><input type="radio" name="key4b2" id="key4b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b22">
+<div id="taoptionAnswer1q4b2" class="block iDevice_content">
+<p>De mantenimiento del deber de secreto y confidencialidad.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b23" class="sr-av"><a href="#answer-key4b23">Opción 3</a></label><input type="radio" name="key4b2" id="key4b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b23">
+<div id="taoptionAnswer2q4b2" class="block iDevice_content">
+<p>De seguridad y destinadas a evitar su pérdida, extravío, alteración, sustracción o acceso no autorizado</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion5b2" class="block iDevice_content">
+<p><strong>Entre las funciones más destacadas de la Secretaría General de la Agencia Española de Protección de Datos podemos señalar</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b21" class="sr-av"><a href="#answer-key5b21">Opción 1</a></label><input type="radio" name="key5b2" id="key5b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b21">
+<div id="taoptionAnswer0q5b2" class="block iDevice_content">
+<p>Editar los repertorios oficiales de inscripción de ficheros y la memoria de la Agencia. </p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b22" class="sr-av"><a href="#answer-key5b22">Opción 2</a></label><input type="radio" name="key5b2" id="key5b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b22">
+<div id="taoptionAnswer1q5b2" class="block iDevice_content">
+<p>Prestación del servicio de atención al ciudadano.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b23" class="sr-av"><a href="#answer-key5b23">Opción 3</a></label><input type="radio" name="key5b2" id="key5b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b23">
+<div id="taoptionAnswer2q5b2" class="block iDevice_content">
+<p>Comunicar a las Administraciones Públicas sus posibles incumplimientos de la normativa de protección de datos.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion6b2" class="block iDevice_content">
+<p><strong>Determina la respuesta correcta:<br /></strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b21" class="sr-av"><a href="#answer-key6b21">Opción 1</a></label><input type="radio" name="key6b2" id="key6b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b21">
+<div id="taoptionAnswer0q6b2" class="block iDevice_content">
+<p>Los países deben proporcionar un nivel adecuado en la protección de datos, según lo establecido por la Ley Orgánica de Protección de Datos.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b22" class="sr-av"><a href="#answer-key6b22">Opción 2</a></label><input type="radio" name="key6b2" id="key6b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b22">
+<div id="taoptionAnswer1q6b2" class="block iDevice_content">
+<p>La transferencia Internacional de datos, cumple con los mismos principios de protección de datos establecidos en la LOPD, no vulnerando su tratamiento por el simple hecho de ser internacionales.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b23" class="sr-av"><a href="#answer-key6b23">Opción 3</a></label><input type="radio" name="key6b2" id="key6b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b23">
+<div id="taoptionAnswer2q6b2" class="block iDevice_content">
+<p>El exportador de datos debe ser obligatoriamente la persona jurídica, en caso de transferencia internacional de los datos a un tercer país.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore2"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

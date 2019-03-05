@@ -1,0 +1,481 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | Normativa Aplicable a las Peritaciones y Tasaciones Inmobiliarias </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id297">
+<div class="iDevice emphasis0">
+<div id="ta297_85" class="block iDevice_content">
+
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id298">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b298");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm298").key0b298[i].checked)
+               {
+                  question0 = document.getElementById("quizForm298").key0b298[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm298").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm298" id="quizForm298" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-298" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b298" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si la siguiente enunciación es verdadera o falsa:</b> <i>“Se denominan normas técnicas para determinar el valor catastral de los bienes de naturaleza urbana al conjunto de conceptos, reglas y criterios que han de regir para la valoración de dichos bienes”.</i></div>
+<p><i> </i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2981" class="sr-av"><a href="#answer-key0b2981">Opción 1</a></label><input type="radio" name="key0b298" id="key0b2981" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2981"><a name="answer-key0b2981"></a>
+<div id="taoptionAnswer0q0b298" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2982" class="sr-av"><a href="#answer-key0b2982">Opción 2</a></label><input type="radio" name="key0b298" id="key0b2982" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2982"><a name="answer-key0b2982"></a>
+<div id="taoptionAnswer1q0b298" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id299">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-299_108">
+<form name="multi-select-form-299_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion299_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>La Orden ECO/805/2003, ha sido modificada por (Respuesta múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_1080" class="sr-av"><a href="#answer-299_111">Opción 1</a></label><input type="checkbox" id="op299_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_111"><a name="answer-299_111"></a>
+<div id="taans299_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Orden EHA/564/2008</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_1081" class="sr-av"><a href="#answer-299_632">Opción 2</a></label><input type="checkbox" id="op299_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_632"><a name="answer-299_632"></a>
+<div id="taans299_632" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Orden EHA/3011/2007</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_1082" class="sr-av"><a href="#answer-299_634">Opción 3</a></label><input type="checkbox" id="op299_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_634"><a name="answer-299_634"></a>
+<div id="taans299_634" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Orden ECO/809/2005</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_1083" class="sr-av"><a href="#answer-299_636">Opción 4</a></label><input type="checkbox" id="op299_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_636"><a name="answer-299_636"></a>
+<div id="taans299_636" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Orden EHA/564/2006</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'299_108')"/> 
+</p>
+</div>
+<div id="f299_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-299_111" class="right">Correcto</a></li>
+<li><a href="#answer-299_632" class="right">Correcto</a></li>
+<li><a href="#answer-299_634" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-299_636" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-299_638">
+<form name="multi-select-form-299_638" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion299_638" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Se aplicará la Orden ECO/805/2003 de acuerdo con las provisiones del artículo 2 de la misma, cuando se realice una tasación que tenga por objeto (Respuesta múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6380" class="sr-av"><a href="#answer-299_641">Opción 1</a></label><input type="checkbox" id="op299_6380" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_641"><a name="answer-299_641"></a>
+<div id="taans299_641" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La garantía hipotecaria de créditos o préstamos.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6380" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6381" class="sr-av"><a href="#answer-299_643">Opción 2</a></label><input type="checkbox" id="op299_6381" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_643"><a name="answer-299_643"></a>
+<div id="taans299_643" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La cobertura de las provisiones técnicas de las entidades aseguradoras.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6381" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6382" class="sr-av"><a href="#answer-299_645">Opción 3</a></label><input type="checkbox" id="op299_6382" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_645"><a name="answer-299_645"></a>
+<div id="taans299_645" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La determinación del patrimonio de las Corporaciones Locales.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6382" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6383" class="sr-av"><a href="#answer-299_647">Opción 4</a></label><input type="checkbox" id="op299_6383" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_647"><a name="answer-299_647"></a>
+<div id="taans299_647" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">La determinación del patrimonio de las instituciones de inversión colectiva.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6383" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'299_638')"/> 
+</p>
+</div>
+<div id="f299_638" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-299_641" class="right">Correcto</a></li>
+<li><a href="#answer-299_643" class="right">Correcto</a></li>
+<li><a href="#answer-299_645" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-299_647" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-299_649">
+<form name="multi-select-form-299_649" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion299_649" class="block question iDevice_content">
+<div class="ee_enunciado"><b>En el Título I del</b> <b>Real Decreto Legislativo 2/2008, de 20 de junio, por el que se aprueba el Texto Refundido de la Ley del Suelo se definen tres estatutos subjetivos básicos, estos son (Respuesta múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6490" class="sr-av"><a href="#answer-299_652">Opción 1</a></label><input type="checkbox" id="op299_6490" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_652"><a name="answer-299_652"></a>
+<div id="taans299_652" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">El de las Corporaciones Locales como entes de derecho público.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6490" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6491" class="sr-av"><a href="#answer-299_654">Opción 2</a></label><input type="checkbox" id="op299_6491" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_654"><a name="answer-299_654"></a>
+<div id="taans299_654" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">El de la ciudadanía en general en relación con el suelo y la vivienda.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6491" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6492" class="sr-av"><a href="#answer-299_656">Opción 3</a></label><input type="checkbox" id="op299_6492" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_656"><a name="answer-299_656"></a>
+<div id="taans299_656" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">El régimen de la iniciativa privada para la actividad urbanística.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6492" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6493" class="sr-av"><a href="#answer-299_658">Opción 4</a></label><input type="checkbox" id="op299_6493" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_658"><a name="answer-299_658"></a>
+<div id="taans299_658" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">El estatuto de la propiedad del suelo.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6493" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'299_649')"/> 
+</p>
+</div>
+<div id="f299_649" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-299_652" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-299_654" class="right">Correcto</a></li>
+<li><a href="#answer-299_656" class="right">Correcto</a></li>
+<li><a href="#answer-299_658" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-299_660">
+<form name="multi-select-form-299_660" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion299_660" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Entre los objetivos que persigue el Real Decreto 775/1997, de 30 de mayo,</b> <b>se encuentra el de lograr una adecuada calidad de las valoraciones efectuadas para las finalidades que se contemplan en el régimen jurídico de homologación administrativa de los servicios y sociedades de tasación, para el cumplimiento de este objetivo se establecen las siguientes medidas (Respuesta múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6600" class="sr-av"><a href="#answer-299_663">Opción 1</a></label><input type="checkbox" id="op299_6600" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_663"><a name="answer-299_663"></a>
+<div id="taans299_663" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Necesidad de obtener una autorización administrativa.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6600" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6601" class="sr-av"><a href="#answer-299_665">Opción 2</a></label><input type="checkbox" id="op299_6601" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_665"><a name="answer-299_665"></a>
+<div id="taans299_665" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Obligación de llevanza de un registro en el que se incluyan todas las incidencias acaecidas durante el proceso de valoración.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6601" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6602" class="sr-av"><a href="#answer-299_667">Opción 3</a></label><input type="checkbox" id="op299_6602" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_667"><a name="answer-299_667"></a>
+<div id="taans299_667" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Sometimiento de las sociedades de tasación y servicios de tasación, así como sus profesionales, a un régimen de incompatibilidades y obligaciones de secreto.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6602" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op299_6603" class="sr-av"><a href="#answer-299_669">Opción 4</a></label><input type="checkbox" id="op299_6603" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-299_669"><a name="answer-299_669"></a>
+<div id="taans299_669" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Todo proceso de valoración no podrá tener una duración inferior a 20 horas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-299_6603" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'299_660')"/> 
+</p>
+</div>
+<div id="f299_660" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-299_663" class="right">Correcto</a></li>
+<li><a href="#answer-299_665" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-299_667" class="right">Correcto</a></li>
+<li><a href="#answer-299_669" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

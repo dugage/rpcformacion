@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3. Inserción de nuevos datos </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3. Inserción de nuevos datos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Usando las propiedades Value y Formula podemos introducir datos en cualquier hoja de cálculo, por lo que, en principio, no necesitaríamos ningún elemento adicional. Obviamente, a la hora de añadir nuevos datos a una hoja siempre tendremos dos opciones: solicitar al usuario que nos indique dónde desea esos resultados, quizá la más correcta, o bien directamente añadir hojas o filas y columnas, según las necesidades.</p>
+<p>Para preguntar al usuario dónde quiere colocar los datos que vamos a añadir, permitiéndole marcar una celdilla de destino, podemos utilizar el método InputBox del objeto Application.</p>
+<p>En realidad este método puede utilizarse para solicitar multitud de datos distintos. Para el caso que nos ocupa, solicitar un destino, lo usaríamos con el formato siguiente:</p>
+<p>Application.InputBox (“Mensaje”, “Destino”, Type:=8)</p>
+<p>El resultado de ejecutar este métodos es un objeto Range que, lógicamente, podemos usar para activar la celdilla seleccionada, acceder a su contenido para modificarlos, etc.</p>
+<p>Si optamos directamente por añadir los nuevos datos también tenemos varias posibilidades. Una buena opción es añadir una nueva hoja al libro y utilizarla para resultados. Es una técnica que se usa, por ejemplo, al crear una tabla dinámica o un escenario.</p>
+<p>Para añadir una nueva página, insertando un título en una celdilla concreta, podríamos usar las sentencias siguientes.</p>
+<p>Dim Hoja As Worksheet</p>
+<p>Set Hoja = ActiveWorkbook.Worksheets.Add</p>
+<p>Hoja.Range (“A1”).Value = “Resultados”</p>
+<p>Si optamos por incluir los datos en la misma hoja, incluso entre los datos existentes ya en la tabla, siempre podemos insertar nuevas celdillas, nuevas filas y columnas. El método a usar es Insert, aunque dependiendo de lo que deseemos insertar tomará un parámetro u otro.</p>
+<p>Para insertar una celdilla deberemos indicar cómo queremos que se desplacen las adyacentes. Los parámetros posibles son xlShiftToRight y lsShiftDown. En el primer caso las celdillas se desplazarán a la derecha, mientras que en el segundo lo harán hacia abajo.</p>
+<p>En caso de que deseemos insertar una fila o columna, lo primero que hay que hacer es seleccionar el punto donde va a efectuarse la inserción. Con este fin utilizaremos las propiedades Columns y Rowx, como se ve a continuación:</p>
+<p>Rows (“3:3”).Select</p>
+<p>Columns (“A:B”).Select</p>
+<p>La primera sentencia selecciona una sola fila, la número 3, mientras que la segunda selecciona las dos columnas indicadas. En el primer caso, el método Insert insertaría una fila mientras que el segundo se insertaría dos columnas. El parámetro nos indicaría la dirección en la cual se desplazarían las otras filas o columnas. Las posibilidades son xlUp, xlDown, xlLeft y xlRight, para desplazar arriba, abajo, a la izquierda y a la derecha, respectivamente.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

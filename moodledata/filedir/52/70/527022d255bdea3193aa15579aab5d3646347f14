@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.3. Desplazamientos </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.3. Desplazamientos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<p>Con algunos de los métodos que ya conocemos podemos seleccionar una celdilla o un rango concretos, facilitando una referencia. En ocasiones, sin embargo, podemos necesitar la selección de una celdilla sin conocer exactamente cuál es, efectuando un desplazamiento relativo a partir de otra, habitualmente la que está activa actualmente.</p>
+<p>Los métodos Next y Previous devuelven una referencia a la celdilla anterior o siguiente de una dada. Las dos sentencias siguientes serían un ejemplo de uso:</p>
+<p>Range (“D5”).Next.Activate</p>
+<p>ActiveCell.Previous.Activate</p>
+<p>La primera selecciona la celdilla siguiente a la D5, mientras que la segunda devuelve a la celdilla previa a la actual. Si el movimiento no se limita a una sola celdilla atrás o adelante, en lugar de los anteriores puede recurrir al método Offset. Éste es similar a la función DESREF de Excel que conocimos en un capítulo previo, precisando dos parámetros que indiquen el desplazamiento vertical y horizontal.</p>
+<p>Por último tenemos la propiedad End que, en el caso concreto que nos ocupa, será el más útil. Esta propiedad se utiliza entregando entre paréntesis una de las constantes enumeradas en la tabla 15. Con ella se indica la dirección.</p>
+<table style="border-width: 0px; border-collapse: collapse;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top" width="97">
+<p><b>Indicador</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Dirección</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="97">
+<p>xlDown</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Hacia abajo.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="97">
+<p>xlUp</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Hacia arriba.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="97">
+<p>xlToRight</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Hacia la derecha.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top" width="97">
+<p>xlToLeft</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>Hacia la izquierda.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 15.</b> Indicadores de dirección para la propiedad End.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

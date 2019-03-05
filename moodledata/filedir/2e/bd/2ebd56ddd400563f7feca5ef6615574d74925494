@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.1. Encuentro de coincidencias </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.1. Encuentro de coincidencias</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_85" class="block iDevice_content">
+<p>Solicitar un dato como el número de fila o bien el número de columna no simplifica la tarea de la persona que tenga que utilizar la hoja de cálculo, especialmente si ésta no es la misma que la diseñó inicialmente.</p>
+<p>Simplificaríamos considerablemente esta tarea si fuese posible seleccionar el continente y el dato a obtener de sendas listas desplegables, encargándose la propia hoja de cálculo de determinar qué fila y columna son las correctas.</p>
+<p>Para ello usaríamos la función COINCIDIR, que precisa tres parámetros aunque el tercero es opcional:</p>
+<ul>
+<li>valor: el primer parámetro es el valor buscado o, en su defecto, una referencia a una celdilla que lo contenga.</li>
+<li>rango: donde se encuentran los valores entre los que hay que buscar. Debe ser una fila o una columna, ya que esta función lo que devuelve es un índice único.</li>
+<li>tipo: como se ha indicado antes, este tercer parámetro es opcional. De no entregarse tomará el valor por defecto 1. Los valores posibles son los enumerados en la tabla 8.2.</li>
+</ul>
+<p>El valor obtenido a partir de esta función será un índice: el número de fila o columna donde se ha encontrado el dato buscado dentro del rango entregado como segundo parámetro.</p>
+<table style="border-width: 0px; border-collapse: collapse;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top" width="40">
+<p><b>Valor</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Significado</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="40">
+<p>0</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Buscar la primera coincidencia del valor exacto entregado como primer parámetro.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="40">
+<p>1</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Encontrar el mayor valor siempre que sea inferior o igual al buscado.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top" width="40">
+<p>-1</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>Encontrar el menor valor siempre que sea superior o igual al buscado.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NFRSTlclMkJVVXBaJTJCUXF5M0pXMWRIWFlpV2t1SHQ2VTdoNUg1elU2MnI5ZjAlM0Q=" id="IMG_NFRSTlclMkJVVXBaJTJCUXF5M0pXMWRIWFlpV2t1SHQ2VTdoNUg1elU2MnI5ZjAlM0Q=" alt="Búsqueda de datos" title="Búsqueda de datos" width="304" /></p>
+<p><b>Figura 8.4.</b> Definimos las listas de datos a seleccionar.</p>
+<p>El siguiente paso será introducir en otras dos celdillas, a la derecha de las que contienen las listas desplegables, las fórmulas necesarias para determinar el número de fila correspondiente al continente elegido y el número de columna del elemento. Será entonces cuando usemos la función COINCIDIR, como se ve en la figura 8.5. El primer parámetro apunta a la celdilla donde se ha seleccionado el continente, mientras que el segundo define el rango completo donde se encuentran los nombres de éstos. De esta forma, obtenemos en la celdilla el número de fila del continente elegido.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dWJYdzhONFklMkJ4JTJCdUNIeWppd2pWWTdvZ0trVyUyRmpZSG5kV0hpZTlHN3kwayUzRA==" id="IMG_dWJYdzhONFklMkJ4JTJCdUNIeWppd2pWWTdvZ0trVyUyRmpZSG5kV0hpZTlHN3kwayUzRA==" alt="Búsqueda de datos" title="Búsqueda de datos" width="420" /></p>
+<p><b>Figura 8.5.</b> Introducimos las fórmulas para obtener los índices de los elementos elegidos.</p>
+<p>Repita la misma operación con la celdilla de debajo, utilizando la función COINCIDIR para determinar el número de columna del elemento que se haya seleccionado en la segunda lista.</p>
+<p>En este momento tendríamos los índices de la fila correspondiente al continente y la columna del elemento en sendas celdillas. Dichos valores los usamos para componer una referencia a una celdilla y, posteriormente, recuperamos el valor de esa celdilla. Podríamos efectuar todos esos pasos de una sola vez introduciendo la siguiente fórmula:</p>
+<p>=INDIRECTO (DIRECCION (COINCIDIR (A9;A1;A6;0); COINCIDIR (B9;A1;F1)))</p>
+<p>De esta manera podríamos reestructurar la hoja dejándola como aparece en la figura 8.6. Basta con seleccionar el continente y elemento para obtener el dato directamente, sin ver índices ni referencias a celdillas. Todo queda bastante más claro y cómodo.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aEw5TURtUjhOOXdiMjNLcFl3VW5Bb2NwUiUyRmglMkIlMkJ3YnlVS3dJb1lqcG8lMkJRJTNE" id="IMG_aEw5TURtUjhOOXdiMjNLcFl3VW5Bb2NwUiUyRmglMkIlMkJ3YnlVS3dJb1lqcG8lMkJRJTNE" alt="Búsqueda de datos" title="Búsqueda de datos" width="414" /></p>
+<p><b>Figura 8.6.</b> Aspecto de la hoja de cálculo tras la reestructuración.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

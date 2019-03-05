@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.3. Recorriendo colecciones </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3.3. Recorriendo colecciones</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>La instrucción For Each se usa, en general, cuando es necesario recorrer todos los elementos de una colección o una matriz, sin necesidad de saber cuántos elementos contiene.</p>
+<p>Introduzca el código siguiente en el módulo de código que estamos usando como ejemplo. A continuación acceda a la hoja de cálculo y seleccione un rango de celdillas con valores.</p>
+<p>Vuelva de nuevo al entrono de Visual Basic y ejecute el procedimiento, verá cómo se recorre tan sólo el rango de celdillas seleccionado.</p>
+<p>Sub COntenidoCeldas ()</p>
+<p>Dim Celda As Range</p>
+<p>For Each Celda In Selection.Cells</p>
+<p>Debug.Print Celda.Value</p>
+<p>Next</p>
+<p>End Sub</p>
+<p>De manera análoga podríamos usar esta construcción recorriendo los elementos de cualquier colección.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

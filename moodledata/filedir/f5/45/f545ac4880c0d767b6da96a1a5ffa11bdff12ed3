@@ -1,0 +1,2362 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="XHTML"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Topic"></unicode>
+   <unicode value="Section"></unicode>
+   <unicode value="Unit"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="UNIDAD_DIDCTICA_20._PERSONALIZACIN_DE_EXCEL"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="9"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="10"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="5">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="UNIDAD DIDÁCTICA 20. PERSONALIZACIÓN DE EXCEL"></unicode>
+     <string role="key" value="idevices"></string>
+     <list></list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="1"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:UNIDAD%20DID%C3%81CTICA%2020.%20PERSONALIZACI%C3%93N%20DE%20EXCEL"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="4">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="1. Parámetros aplicables a libros y hojas"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="2">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="3">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="2"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Cada vez que abrimos Excel, o que creamos un nuevo libro mediante la opción Nuevo del &lt;b&gt;Menú Archivo&lt;/b&gt;, obtenemos un libro con tres hojas, se activa la vista normal y se utiliza una fuente de letra determinada. Además, a la hora de guardar este libro por defecto se utiliza el formato Libro de Excel (*.xlsx), que no permite el almacenamiento de macros. Las hojas muestran por defecto las líneas de división de celdas, en color negro y al introducir fórmulas se muestran los resultados en lugar de las fórmulas.&lt;/p&gt;
+&lt;p&gt;Éstas son sólo algunos parámetros que afectan a todas las hojas y libros, son los atributos con los que se inicializan los nuevos documentos. Existen otras propiedades que pueden aplicarse a un libro concreto o incluso a una determinada hoja de un libro.&lt;/p&gt;
+&lt;p&gt;Las opciones que controlan todos estos parámetros, tanto los usados por defecto como los aplicables al actual libro u hoja, los encontraremos en las distintas páginas de la ventana Opciones de Excel.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="3"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="0"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="4"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%2020.%20PERSONALIZACI%C3%93N%20DE%20EXCEL:1.%20Par%C3%A1metros%20aplicables%20a%20libros%20y%20hojas"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="8">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="1.1. Atributos por defecto de nuevos libros"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="6">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="7">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="6"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Comencemos por las opciones relativas a los tributos que se asignan por defecto a los nuevos libros, que encontraremos casi en su totalidad en el apartado Al crear nuevos libros de la página Más frecuentes de la ventana Opciones de Excel. Es el grupo resultado de la figura 19.1.&lt;/p&gt;
+&lt;p&gt;En la lista Usar esta fuente podremos elegir la fuente de letra que se utilizará en los nuevos libros, mientras que con Tamaño de fuente estableceremos su tamaño. La opción Vista predeterminada para hojas nuevas determina cuál será la vista en al que se abran las nuevas hojas, pudiendo optar entre la vista normal, la de diseño de página y la de vista previa de salto de página. Finalmente, el apartado Incluir este número de hojas nos permite modificar el número de hojas que, por defecto, tienen los nuevos libros. Si normalmente trabajamos con libros de una única hoja, podemos cambiar este parámetro dándole el valor 1, en lugar del 3 que tiene por defecto.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_YjhGVGQ2UEMwN00lMkZxS2RZend2cHo4TTlQU3FOJTJCQTlCUE9SWEhrYyUyRnJ1ZyUzRA==&quot; id=&quot;IMG_YjhGVGQ2UEMwN00lMkZxS2RZend2cHo4TTlQU3FOJTJCQTlCUE9SWEhrYyUyRnJ1ZyUzRA==&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; width=&quot;427&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.1.&lt;/b&gt; Opciones para establecer los parámetros por defecto de los nuevos libros.&lt;/p&gt;
+&lt;p&gt;Las opciones relativas al formato en que se guardan por defecto los libros, así como las que establecen los parámetros de autorecuperación, se encuentran en la página Guardar, concretamente en el apartado Guardar libros (véase figura 19.2).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_a2JSJTJGZGpCWkZqU0VaaXF3OGs5NHlYTU4ybUhZQVMzbDdVQUxhSWc1MmhVJTNE&quot; id=&quot;IMG_a2JSJTJGZGpCWkZqU0VaaXF3OGs5NHlYTU4ybUhZQVMzbDdVQUxhSWc1MmhVJTNE&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; width=&quot;446&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.2.&lt;/b&gt; Opciones que controlan los parámetros para guardar los libros.&lt;/p&gt;
+&lt;p&gt;En la lista Guardas archivos en formato pueden elegir cualquiera de los formatos de archivo que contempla Excel 2013. Si tiene que colaborar con personas que trabajan con versiones previas de este programa, por ejemplo Excel 2000 o Excel 2003, puede elegir la opción Libro de Excel 97-2003 (*.xls) en dicha lista y no preocuparse más por la compatibilidad de los libros que va creando y los problemas que podrían tener sus colaboradores para leerlos.&lt;/p&gt;
+&lt;p&gt;Mientras tiene abierto un libro, Excel guarda información que permita recuperar su contenido entre un fallo del sistema. Dicha información se actualiza cada 10 minutos y se conserva en un directorio dedicado a este fin. Todos ellos son parámetros que pueden personalizarse según nuestras necesidades.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="7"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="1"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="8"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:UNIDAD%20DID%C3%81CTICA%2020.%20PERSONALIZACI%C3%93N%20DE%20EXCEL:1.%20Par%C3%A1metros%20aplicables%20a%20libros%20y%20hojas:1.1.%20Atributos%20por%20defecto%20de%20nuevos%20libros"></string>
+           <string role="key" value="parent"></string>
+           <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="11">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="1.2. Opciones para libros y hojas individuales"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="9">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="10">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="9"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Las opciones que se encuentran en los apartados Mostrar opciones para este libro y Mostrar opciones para esta hoja de la página Avanzadas se aplican, como su propio título indica, al libro o la hoja que elijamos en la lista adjunta.&lt;/p&gt;
+&lt;p&gt;Como puede verse en la figura 19.3, existe una lista para elegir el libro y otra para elegir una hoja de un libro. Las opciones marcadas afectarán únicamente a ese elemento.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Qm1XTmp0T2xLTmh2WWZ0SyUyRlBBWFFCZ2VYM3l4YmpodTZraUNMdmRnWDR3JTNE&quot; id=&quot;IMG_Qm1XTmp0T2xLTmh2WWZ0SyUyRlBBWFFCZ2VYM3l4YmpodTZraUNMdmRnWDR3JTNE&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; width=&quot;492&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.3.&lt;/b&gt; Opciones para un libro y una hoja individual.&lt;/p&gt;
+&lt;p&gt;En Mostrar opciones para este libro hay varias opciones que podemos marcar y desmarcar, según deseemos que estén visibles o no las barras de desplazamiento horizontal y vertical y las pestañas que aparecen en la parte inferior para seleccionar la hoja activa.&lt;/p&gt;
+&lt;p&gt;Las opciones del apartado Para objetos determinan si los objetos contenidos en el libro, tales como gráficos, recuadros de texto o SmartArt, serán o no visibles. Si elegimos Nada (ocultar objetos) los objetos no serán visibles, ni tampoco se imprimirán, pero seguirán estando ahí, es decir, no se eliminan del libro.&lt;/p&gt;
+&lt;p&gt;La mayoría de las opciones del apartado Mostrar opciones para esta hoja son autoexplicativas y bastará con marcar o bien desmarcar aquellas que nos interesen.&lt;/p&gt;
+&lt;p&gt;Si, por ejemplo, vamos a trabajar intensivamente con fórmulas en una determinada hoja sin que importen en ella los resultados, porque van a ser referenciados desde otras hojas del libro, podríamos marcar la opción Mostrar fórmulas en celdas en lugar de los resultados calculados. De esta forma nos sería más fácil revisar el contenido de esa hoja en particular, detectar posibles problemas y efectuar las correcciones adecuadas.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="10"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="2"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="11"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:UNIDAD%20DID%C3%81CTICA%2020.%20PERSONALIZACI%C3%93N%20DE%20EXCEL:1.%20Par%C3%A1metros%20aplicables%20a%20libros%20y%20hojas:1.2.%20Opciones%20para%20libros%20y%20hojas%20individuales"></string>
+           <string role="key" value="parent"></string>
+           <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="14">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="2. Opciones de entorno"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="12">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="13">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="12"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Las opciones que afectan al entorno de Excel son numerosas y se encuentran repartidas prácticamente por todas las páginas de la ventana Opciones de Excel.&lt;/p&gt;
+&lt;p&gt;En la página Más frecuentes, por ejemplo, podemos indicar si queremos que se haga visible o no la minibarra de formato al seleccionar el contenido de una celdilla, o si la ficha Desarrollador de la Cinta de opciones ha de estar visible. También podemos alterar la combinación de colores utilizada en el entorno, así como el estilo de la ayuda en pantalla.&lt;/p&gt;
+&lt;p&gt;Una gran parte de los parámetros que afectan a las tareas de edición, impresión y cálculo los encontraremos en la página Avanzadas. En la figura 19.4 pueden verse parte de ellas, concretamente los grupos Opciones de edición, Cortar, copiar y pegar e Imprimir.&lt;/p&gt;
+&lt;p&gt;Mediante estas opciones determinaremos el movimiento del foco de celdilla al pulsar la tecla &lt;b&gt;Intro&lt;/b&gt; para finalizar la introducción de un dato, la posibilidad de utilizar la técnica de arrastrar y soltar para mover celdillas, cuáles deben ser los separadores de miles y decimales, etc.&lt;/p&gt;
+&lt;p&gt;En el apartado Mostrar de esta misma página se establece el número de documentos recientes que aparecerán en el menú del &lt;b&gt;Menú Archivo &lt;/b&gt; y las unidades de medida para la regla. También puede optarse por mostrar u ocultar elementos como la barra de fórmulas, los comentarios y sus indicadores, la información en pantalla sobre funciones, etc.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WSUyQjFhR0dLT3dRcUxOc0ZVZkd0Nll4Ymp5RnI4aEJ6VW5Sb2ppJTJGSmplY3MlM0Q=&quot; id=&quot;IMG_WSUyQjFhR0dLT3dRcUxOc0ZVZkd0Nll4Ymp5RnI4aEJ6VW5Sb2ppJTJGSmplY3MlM0Q=&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; width=&quot;464&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.4.&lt;/b&gt; Opciones que afectan globalmente al entorno de Excel.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="13"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="14"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%2020.%20PERSONALIZACI%C3%93N%20DE%20EXCEL:2.%20Opciones%20de%20entorno"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="17">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="2.1. La barra de herramientas de acceso rápido"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="15">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="16">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="15"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Dispone de un menú desplegable que facilita su rápida personalización, pudiendo agregarse comandos de uso habitual, como Ortografía, Vista preliminar o Abrir, con un simple clic de ratón. También puede cambiarse la disposición de la propia barra, disponiéndola debajo de la Cinta de opciones en lugar de encima.&lt;/p&gt;
+&lt;p&gt;Mediante la opción Más comandos de ese menú se llega a la página Personalizar de la ventana Opciones de Excel que puede observarse en la figura 19.5.&lt;/p&gt;
+&lt;p&gt;Desde ella pude agregar cualquier comando de Excel a la Barra de herramientas de acceso rápido, incluso aquellos que no aparecen en la Cinta de opciones.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_SXRaYlQwSEN3ZTlYdU5LN21sdG5WUm51c0dmSVhxeURLOUlqZ0hobXl0VSUzRA==&quot; id=&quot;IMG_SXRaYlQwSEN3ZTlYdU5LN21sdG5WUm51c0dmSVhxeURLOUlqZ0hobXl0VSUzRA==&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; width=&quot;389&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.5.&lt;/b&gt; Añadimos nuevos comandos a la barra de herramientas de acceso rápido.&lt;/p&gt;
+&lt;p&gt;En la lista Comandos disponibles en puede elegir el grupo de comando que quiere ver en la lista de debajo.&lt;/p&gt;
+&lt;p&gt;En la figura 19.5, por ejemplo, se ha optado por ver las macros disponibles, entre ellas dos propias que se han agregado a la lista de la derecha mediante el botón &lt;b&gt;Agregar&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;De esta forma podemos facilitar el acceso a nuestras macros, que pueden tener asociado un atajo de teclado y también aparecer como un botón más en esta barra de herramientas.&lt;/p&gt;
+&lt;p&gt;Cuando se añaden macros a la Barra de herramientas de acceso rápido, siempre se utiliza un mismo icono y el nombre es un compuesto de la palabra ThisWorkbook y el propio nombre de la macro. Mediante el botón &lt;b&gt;Modificar&lt;/b&gt;, que se encuentra en la parte inferior derecha de la ventana, puede cambiar tanto el icono como el título asociado (véase figura 19.6) a la macro.&lt;/p&gt;
+&lt;p&gt;En la figura 19.7 puede ver esta barra de herramientas debajo de la Cinta de opciones y con un botón adicional. Al hacer clic sobre él se ejecuta una de las macros que habíamos creado en capítulos previos.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RkhtRXY4bmF1MHdENlV5JTJCWFh6MG1oT01xb1VNSnFLTVJYWHBKUWFWbDc0JTNE&quot; id=&quot;IMG_RkhtRXY4bmF1MHdENlV5JTJCWFh6MG1oT01xb1VNSnFLTVJYWHBKUWFWbDc0JTNE&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; width=&quot;262&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.6.&lt;/b&gt; Modificamos el icono y título asociado a la macro.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bENEOW00RXhsWW55alRDdUNTQXBtRzVCNyUyQkIyaTd2TlJrQXE1RFU4c2FNJTNE&quot; id=&quot;IMG_bENEOW00RXhsWW55alRDdUNTQXBtRzVCNyUyQkIyaTd2TlJrQXE1RFU4c2FNJTNE&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; width=&quot;326&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.7.&lt;/b&gt; Aspecto del botón que permite ejecutar la macro.&lt;/p&gt;
+&lt;p&gt;Si va a agregar múltiples botones relacionados a la Barra de herramientas de acceso rápido, puede seleccionar de la lista de la izquierda el elemento &amp;lt;Separador&amp;gt; para incluir los separadores adecuados, facilitando así la búsqueda de los comandos.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="16"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="4"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="17"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:UNIDAD%20DID%C3%81CTICA%2020.%20PERSONALIZACI%C3%93N%20DE%20EXCEL:2.%20Opciones%20de%20entorno:2.1.%20La%20barra%20de%20herramientas%20de%20acceso%20r%C3%A1pido"></string>
+           <string role="key" value="parent"></string>
+           <reference key="14"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="20">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="3. La cinta de opciones"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="18">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="19">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="18"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;A diferencia de los que ocurría en las versiones previas, en las que la Cinta de opciones admitía como única personalización mostrar u ocultar la ficha Desarrollador, en Excel 2013 este elemento de la interfaz se puede adecuar a las preferencias de cada uno de una forma mucho más flexible. Existe la posibilidad de ocultar cualquiera de las fichas, agregar a éstas nuevos grupos con opciones adicionales e incluso definir fichas propias.&lt;/p&gt;
+&lt;p&gt;En el menú contextual de la Cinta de Opciones encontramos la opción Personalizar cinta de opciones para llegar al mismo lugar. Su apariencia es similar a la ventana desde la que se personaliza la Barra de herramientas de acceso rápido, si bien en este caso el panel de la derecha no es una simple lista de comandos sino que tiene estructura jerárquica.&lt;/p&gt;
+&lt;p&gt;Cada elemento de primer nivel del panel derecho representa una ficha de la Cinta de opciones. Basta con marcar/desmarcar el botón que hay a su izquierda para mostrar/ocultar, respectivamente, la ficha correspondiente. También es posible modificar el nombre de las fichas, si es que otra denominación nos resulta más significativa que la que tienen por defecto.&lt;/p&gt;
+&lt;p&gt;Al desplegar el nodo que representa a una ficha encontramos los subnodos que corresponden a los grupos que hay en ella y, de igual manera, cada grupo aloja una serie de comandos. El nombre de los grupos también puede cambiarse, pero no el de los comandos.&lt;/p&gt;
+&lt;p&gt;Teniendo seleccionada una ficha o un grupo, los botones que hay en el margen derecho, con sendas flechas hacia arriba y abajo, permiten alterar el orden en que aparecen en la interfaz.&lt;/p&gt;
+&lt;p&gt;También es posible emplear la técnica de arrastrar y soltar, tomando el título de una ficha y llevándolo hasta donde se desee.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MVVKdDNzZFMzejZXRnREb3hxWmJtWTVKczNmc21uVlhGQWEwbXJ0WW9WSSUzRA==&quot; id=&quot;IMG_MVVKdDNzZFMzejZXRnREb3hxWmJtWTVKczNmc21uVlhGQWEwbXJ0WW9WSSUzRA==&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; width=&quot;463&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.8.&lt;/b&gt; Personalización de la Cinta de opciones.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="19"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="20"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="6"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%2020.%20PERSONALIZACI%C3%93N%20DE%20EXCEL:3.%20La%20cinta%20de%20opciones"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="23">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="4. Crear fichas y grupos propios"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="21">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="22">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="21"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div class=&quot;dentro_contenidos&quot; style=&quot;display: block;&quot; id=&quot;pagina_1&quot;&gt;
+&lt;p&gt;Mediante los botones que hay en la parte inferior del panel derecho, o bien recurriendo al menú contextual de los propios nodos del árbol (véase la figura 19.9), podemos agregar tanto nuevas fichas a la Cinta de opciones como nuevos grupos a la fichas ya existentes.&lt;/p&gt;
+&lt;p&gt;Si queremos tener todas las opciones que utilizamos habitualmente a un solo clic de ratón, seguramente la mejor manera de conseguirlo sea creando una ficha propia y distribuyendo esos comandos en grupos lógicos.&lt;/p&gt;
+&lt;p&gt;En caso de que solamente deseemos tener al alcance algunos comandos que, por defecto, no están en la Cinta de opciones, es posible que agregar un nuevo grupo a una ficha ya existente sea más que suficiente. En la figura 19.10, por ejemplo, puede ver cómo se ha añadido un grupo con el título Archivo a la ficha Inicio, tras lo cual se han introducido aquellas funciones que empleamos con mayor frecuencia.&lt;/p&gt;
+&lt;p&gt;La figura 19.11 muestra el nuevo grupo de la Cinta de opciones, en el margen izquierdo.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cENFOHlPTHA2ZzBGNTZkJTJCNDJXaTZOJTJGR0xzenJrR1RGVndNQ0c4anhUalUlM0Q=&quot; id=&quot;IMG_cENFOHlPTHA2ZzBGNTZkJTJCNDJXaTZOJTJGR0xzenJrR1RGVndNQ0c4anhUalUlM0Q=&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; width=&quot;472&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.9.&lt;/b&gt; Opciones del menú contextual asociado a una ficha.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_d2xOczZSNmMlMkI5MVAzQ0pBYVM3TWkzT1BQRUN4M2J1MldwcTY5VlpnWlhrJTNE&quot; id=&quot;IMG_d2xOczZSNmMlMkI5MVAzQ0pBYVM3TWkzT1BQRUN4M2J1MldwcTY5VlpnWlhrJTNE&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; width=&quot;464&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.10. &lt;/b&gt; Creamos un nuevo grupo de comandos.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RWIyalJvZ0tFV1FXclZQOGtjRTRxY3UlMkZvdEV5UVdoV0hVJTJGd3J1SzdYc2clM0Q=&quot; id=&quot;IMG_RWIyalJvZ0tFV1FXclZQOGtjRTRxY3UlMkZvdEV5UVdoV0hVJTJGd3J1SzdYc2clM0Q=&quot; alt=&quot;Personalización de Excel&quot; title=&quot;Personalización de Excel&quot; height=&quot;68&quot; width=&quot;564&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Figura 19.11.&lt;/b&gt; Aspecto del grupo personalizado en la cinta de opciones.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="22"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="23"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="7"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%2020.%20PERSONALIZACI%C3%93N%20DE%20EXCEL:4.%20Crear%20fichas%20y%20grupos%20propios"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="26">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Recuerda"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="24">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="25">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="24"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;ul style=&quot;padding: 10px; list-style-position: inside; background-color: #dadada;&quot;&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Las opciones que controlan los &lt;b&gt;parámetros&lt;/b&gt;, tanto los usados por defecto como los aplicables al actual libro u hoja, los encontraremos en las distintas páginas de la ventana &lt;i&gt;Opciones de Excel.&lt;/i&gt;&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Las &lt;b&gt;opciones&lt;/b&gt; relativas al formato en que se guardan por defecto los libros, así como las que establecen los parámetros de autorecuperación, se encuentran en la &lt;i&gt;&lt;b&gt;página Guardar&lt;/b&gt; &lt;/i&gt;, concretamente en el apartado Guardar libros.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;En la lista &lt;i&gt;Guardar archivos&lt;/i&gt; en formato pueden elegir cualquiera de los &lt;b&gt;formatos de archivo&lt;/b&gt; que contempla Excel 2013.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;Las &lt;b&gt;opciones&lt;/b&gt; que se encuentran en los apartados &lt;i&gt;Mostrar opciones para este libro y Mostrar opciones para esta hoja de la página Avanzadas&lt;/i&gt; se aplican, como su propio título indica, al &lt;b&gt;libro o la hoja&lt;/b&gt; que elijamos en la lista adjunta.&lt;/li&gt;
+&lt;li style=&quot;margin-bottom: 20px; background-color: #eeeeee; border-radius: 5px; padding: 15px;&quot;&gt;La &lt;b&gt;barra de herramientas de uso rápido&lt;/b&gt;, dispone de un menú desplegable que facilita su rápida personalización, pudiendo agregarse comandos de uso habitual.&lt;/li&gt;
+&lt;/ul&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="25"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="26"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="8"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%2020.%20PERSONALIZACI%C3%93N%20DE%20EXCEL:Recuerda"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="27">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Autoevaluación"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.quiztestidevice.QuizTestIdevice" reference="28">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Cuestionario: Selección Unica"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="Unlike the MCQ the SCORM quiz is used to test 
+the learners knowledge on a topic without providing the learner with feedback 
+to the correct answer. The quiz will often be given once the learner has had 
+time to learn and practice using the information or skill.
+ "></unicode>
+           <string role="key" value="_tip"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.quiztestidevice.QuizTestIdevice.persistenceVersion"></string>
+           <int value="10"></int>
+           <string role="key" value="icon"></string>
+           <string value="question"></string>
+           <string role="key" value="id"></string>
+           <unicode value="8"></unicode>
+           <string role="key" value="isAnswered"></string>
+           <bool value="1"></bool>
+           <string role="key" value="isQuiz"></string>
+           <bool value="1"></bool>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value="question"></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="27"></reference>
+           <string role="key" value="passRate"></string>
+           <unicode value="50"></unicode>
+           <string role="key" value="questions"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="31">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="29">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="113"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;strong&gt;Las opciones que controlan todos los parámetros tanto los usados por defecto como los aplicables al actual libro u hoja, los encontraremos en las distintas páginas de la ventana Opciones de Excel.&lt;/strong&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="29"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="30">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="114"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Verdadero&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="30"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="31"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="32">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="427"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Falso&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="32"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="31"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="35">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="33">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="428"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;strong&gt;Las opciones relativas al formato en que se guardan por defecto los libros, así como las que establecen los parámetros de autorecuperación, se encuentran en:&lt;/strong&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="33"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="34">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="429"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Guardar libro&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="34"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="35"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="36">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="430"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Guardar como&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="36"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="35"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="37">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="431"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Guardar en&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="37"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="35"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="38">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="432"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Guardar hoja&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="38"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="35"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="41">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="39">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="433"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;strong&gt;¿A la barra de herramientas de uso rápido se le puede añadir los comandos que más usamos?&lt;/strong&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="39"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="40">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="434"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;Verdadero&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="40"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="41"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="42">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="435"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Falso&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="42"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="41"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="45">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="43">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="436"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="28"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;&lt;strong&gt;En las listas Guardar archivos de formato, viene varios de los formatos de archivo que tiene Excel, de los cuales no podemos elegir ninguno.&lt;/strong&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="43"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="28"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="44">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="437"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;div class=&quot;ee_respuesta ee_simpleNo_seleccionada&quot;&gt;Verdadero&lt;/div&gt;
+&lt;div class=&quot;ee_respuesta ee_correct&quot;&gt;&lt;/div&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="44"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="45"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="46">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="438"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="28"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;Falso&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="46"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="28"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="45"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="score"></string>
+           <int value="-1"></int>
+           <string role="key" value="systemResources"></string>
+           <list>
+            <string value="common.js"></string>
+           </list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="9"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:UNIDAD%20DID%C3%81CTICA%2020.%20PERSONALIZACI%C3%93N%20DE%20EXCEL:Autoevaluaci%C3%B3n"></string>
+        <string role="key" value="parent"></string>
+        <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="4"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="8"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="11"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="14"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="17"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="20"></reference>
+   <unicode role="key" value="7"></unicode>
+   <reference key="23"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="26"></reference>
+   <unicode role="key" value="9"></unicode>
+   <reference key="27"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="5"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="e95eb24f-b2ea-4f9e-9461-443adf33b217"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="13"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="license"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="e95eb24f-b2ea-4f9e-9461-443adf33b217"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="e95eb24f-b2ea-4f9e-9461-443adf33b217"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Preestablecido"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="5"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="FPD-MEDU"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

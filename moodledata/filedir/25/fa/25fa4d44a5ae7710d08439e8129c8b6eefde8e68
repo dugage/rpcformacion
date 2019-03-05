@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.2. Operación registro </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.2. Operación registro</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Para registrar una función externa en Excel tenemos varias posibilidades, siendo la más usada la función REGISTRAR. Ésta necesita, al menos tres parámetros:</p>
+<ul>
+<li>Nombre de la biblioteca de enlace dinámico donde se encuentra la función externa.</li>
+<li>Nombre de la función que se desea registrar.</li>
+<li>Una cadena con uno o más caracteres indicando el tipo de retorno y los tipos de los parámetros.</li>
+</ul>
+<p>El nombre de la biblioteca incluirá normalmente la extensión DLL, mientras que al escribir el nombre de la función habrá de respetarse el orden de mayúsculas y minúsculas.</p>
+<p>En tercer lugar es necesario facilitar una cadena de caracteres compuesta, al menos, de un carácter. Éste indicará el tipo de dato que devuelve la función.</p>
+<p>Por cada parámetro que necesite dicha función existirá un parámetro adicional, mediante el cual comunicaremos su tipo. En la tabla 10.1 se enumeran algunos de los caracteres posibles como tercer parámetro y el tipo al que representan.</p>
+<table style="border-width: 0px; border-collapse: collapse;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top" width="64">
+<p><b>Carácter</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Tipo de parámetro</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="64">
+<p>A</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Lógico.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="64">
+<p>B</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Número con parte decimal.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="64">
+<p>C</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Cadena de caracteres con fin marcado por nulo.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="64">
+<p>D</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Cadena de caracteres con indicador de longitud al inicio.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="64">
+<p>U</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Número entero de dos bytes.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top" width="64">
+<p>J</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>Número entero de cuatro bytes.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 10.1.</b> Caracteres usados para indicar el tipo de retorno y parámetros.</p>
+<p>Suponiendo que la función a registrar devuelva un valor lógico y tome como único parámetro un número entero, por poner un caso, la cadena a usar como tercer parámetro de REGISTRAR sería “AJ”.</p>
+<p>La operación de registro, al ser ejecutada, devuelve un número. Éste lo utilizaremos, posteriormente, para invocar a la función tantas veces como necesitemos. Cuando no volvamos a necesitarlo más podemos desregistrar la función usando DESREGISTRAR. El único parámetro necesario es el índice devuelto por REGISTRAR.</p>
+<p>Puede introducir las dos operaciones de registro siguientes en dos celdillas de una hoja de macros. La primera devuelve el manejador de la ventana que esté activa en un momento dado, mientras que la segunda facilita el número de milisegundos transcurridos desde que se puso en marcha Windows.</p>
+<p>=REGISTRAR (“user32.dll”; “GetActiveWindow”; “J”)</p>
+<p>=REGISTRAR (“kerne132.dll”; “GetTickCount”; “J”)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

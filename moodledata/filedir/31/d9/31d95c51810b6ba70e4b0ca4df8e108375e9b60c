@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.2. Dibujando recuadros </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4.2. Dibujando recuadros</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id8">
+<div class="iDevice emphasis0">
+<div id="ta8_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Abra el editor de Visual Basic y haga doble clic sobre el libro, accediendo así al editor de código. Introduzca en él las tres sentencias siguientes:</p>
+<p>Sub Recuadro ()</p>
+<p>Selection.BorderAeround xlContinuous</p>
+<p>End Sub</p>
+<p>La macro se compone de una sola sentencia, puesto que Sub Recuadro y End Sub marcan el inicio y el fin, simplemente. Utilizamos uno de los elementos globales que habíamos conocido. La propiedad Selection. Con ella accedemos a la selección actual que haya en la hoja de cálculo, ya sea una celdilla aislada, un rango o bien múltiples rangos. Esa selección cuenta con múltiples propiedades y métodos, entre ellos un método llamado BorderAround que controla el borde que habrá alrededor de la selección.</p>
+<p>Ese método puede tomar múltiples parámetros para ajustar el tipo de línea, su grosor, color, etc. En nuestro caso, con la constante xlContinuous, indicamos que el borde debe ser continuo, sin especificar nada más.</p>
+<p>En este momento tenemos un procedimiento que, aunque puede actuar como si fuera una macro, en la práctica no puede ser ejecutado con una combinación de teclas. Conseguir esto, sin embargo, es muy sencillo. Cambia a Excel y pulse la combinación de teclas <b>Alt-F8</b>, para acceder a la ventana Macros mostrada en la figura 12.10. En ella aparece en la lista de macros el nombre del procedimiento que acabamos de crear. Haga clic en el botón <b>Opciones</b> y asigne la combinación de teclas que desee a la macro.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJGR2JSMkNxajBtV3RLTzVSTGJhbElqJTJCTmVHeiUyRnYySDZOUmNRTW80QSUyQk0wJTNE" id="IMG_JTJGR2JSMkNxajBtV3RLTzVSTGJhbElqJTJCTmVHeiUyRnYySDZOUmNRTW80QSUyQk0wJTNE" alt="Introducción a VBA" title="Introducción a VBA" width="328" /></p>
+<p><b>Figura 12.10.</b> La lista de macros con el procedimiento recién creado.</p>
+<p>Acceda a cualquier hoja de las que tiene el libro actual, seleccione uno o múltiples rangos y pulse la combinación de teclas que haya asignado para ver la macro en funcionamiento.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

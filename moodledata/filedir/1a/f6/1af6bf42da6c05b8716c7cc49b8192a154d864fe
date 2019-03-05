@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.3. La hoja </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4.3. La hoja</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id11">
+<div class="iDevice emphasis0">
+<div id="ta11_85" class="block iDevice_content">
+<p>Si la aplicación alberga uno o varios libros cada libro contiene una o más hojas de cálculo, cada una de las cuales tiene correspondencia directa con un objeto Worksheet. A través de este objeto, con sus propiedades y métodos, podemos acceder a todo el contenido que exista en la hoja: celdillas, gráficos, elementos visuales como los diagramas, tablas dinámicas, etc. Asimismo, podemos recuperar y modificar propiedades que afectan a toda la hoja.</p>
+<p>El número de colecciones es muy grande. En la tabla 14.2 se comentan varias de las existentes. Algunas de ellas, como es el caso de PivotTables, cuenta con elementos que, a su vez, disponen de múltiples colecciones más.</p>
+<table style="border-width: 0px; border-collapse: collapse;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Nombre</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Contenido</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Names</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Nombres definidos en la hoja.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Comments</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Un objeto Comment por cada comentario que haya en la hoja.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Scenarios</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Cada escenario definido en la hoja tiene una correspondencia con un objeto Scenario.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>PivotTables</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Contiene un objeto PivotTable por cada tabla dinámica existente.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>ChartObjects</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>Un objeto ChartObject por cada gráfico de la hoja.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 14.2.</b> Colecciones de un objeto Worksheet.</p>
+<p>Al igual que ocurre con los libros, utilizando las propiedades y métodos de la colección Worksheets y cada objeto Worksheet es posible añadir nuevas hojas, activar la que nos interese, modificar sus nombres, cerrarlas, etc.</p>
+<p>Uno de los aspectos que más nos interesará, a la hora de utilizar un objeto Worksheet, será el acceso a los datos contenidos en las celdillas, ya sea para examinarlos o modificarlos. Tenemos varias posibilidades y ya conocemos una de ellas: la propiedad de Cells. Ésta toma como parámetro el número de fila y columna de la celdilla a la que deseamos hacer referencia. Es el mecanismo adecuado cuando se necesita acceder a celdillas individuales usando índices en lugar de referencias del tipo A1.</p>
+<p>La alternativa la encontramos en la propiedad Range. Ésta actúa como si fuese una matriz, cuyo índice será una cadena conteniendo una referencia. Ésta puede ser de una sola celdilla, como B3, o bien un rango, como B3:H5. En cualquier caso, lo que obtenemos es una referencia a ese rango para poder explorarlo o modificarlo.</p>
+<p>Inserte en el módulo Visual Basic que está utilizando como ejemplo el código siguiente:</p>
+<p>Sub Potencias ()</p>
+<p>Dim CeldillaOrigen As Range</p>
+<p>Dim CeldillaDestino As Range</p>
+<p>Dim Hoja As Worksheet</p>
+<p>Set Hoja = ActiveWorkbook.ActiveSheet</p>
+<p>Set CeldillaOrigen = Hoja.Range (“A1”)</p>
+<p>CeldillaOrigen.Value = 1</p>
+<p>For Each CeldillaDestino In Hoja.Range (“A2:E5”)</p>
+<p>CeldillaDestino.Value = CeldillaOrigen.Value * 2</p>
+<p>Set CeldillaOrigen = CeldillaDestino</p>
+<p>Next</p>
+<p>End Sub</p>
+<p>Tras declarar tres variables, lo primero que hacemos es obtener una referencia a la hoja de cálculo actual, guardándola en la variable Hoja. A continuación, fijamos una celdilla como punto de origen, asignándole un valor inicial. Por último, recorremos todas las celdillas del rango A2:E5 multiplicando el valor de cada una de ellas por 2 y almacenándolo en la siguiente. El resultado de ejecutar este procedimiento es el mostrado en la figura 14.4.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_eU4lMkYlMkJ5OVhkU2dSQWdKMUt6NHI1WjM2YXRhM1phR0g0SW15R1lOR24lMkJsTSUzRA==" id="IMG_eU4lMkYlMkJ5OVhkU2dSQWdKMUt6NHI1WjM2YXRhM1phR0g0SW15R1lOR24lMkJsTSUzRA==" alt="Estructuras de control. El modelo de objetos de Excel" title="Estructuras de control. El modelo de objetos de Excel" width="424" /></p>
+<p><b>Figura 14.4.</b> Resultado que obtiene cuando ejecuta el procedimiento Potencias.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

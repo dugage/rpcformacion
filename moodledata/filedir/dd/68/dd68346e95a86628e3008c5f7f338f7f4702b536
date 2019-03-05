@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Ajustes Previos A La Determinación Del Resultado </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Ajustes Previos A La Determinación Del Resultado</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id4">
+<div class="iDevice emphasis0">
+<div id="ta4_85" class="block iDevice_content">
+<p>Antes de realizar el cálculo del resultado tenemos que realizar una serie de ajustes. En principio, el resultado del período será la diferencia entre los ingresos y los gastos necesarios para obtener esos ingresos.</p>
+<p>Para determinar contablemente el resultado tenemos registrar la variación de existencias experimentada en el ejercicio. Para ello, al cierre del período se dan de baja las existencias que inicialmente había en almacén. Su registro será:</p>
+<table border="1" cellpadding="4" cellspacing="-1" style="width: 584px;">
+<tbody>
+<tr valign="top">
+<td height="37" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td height="37" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td height="37" valign="middle">
+<p><b>HABER</b></p>
+</td>
+<td width="1"></td>
+</tr>
+<tr valign="top">
+<td height="37" valign="middle">
+<p>Variación de existencias</p>
+</td>
+<td height="37" valign="middle">
+<p>-</p>
+</td>
+<td colspan="2" width="182" height="37" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="40" valign="middle">
+<p>Existencias</p>
+</td>
+<td height="40" valign="middle"></td>
+<td height="40" valign="middle">
+<p>-</p>
+</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Al mismo tiempo, daremos de alta las existencias que la empresa tenga en el almacén al final del período:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="38" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td height="38" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td height="38" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="47" valign="middle">
+<p>Existencias</p>
+</td>
+<td height="47" valign="middle">
+<p>-</p>
+</td>
+<td height="47" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="47" valign="middle">
+<p>Variación de existencias</p>
+</td>
+<td height="47" valign="middle"></td>
+<td height="47" valign="middle">
+<p>-</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Aplicándolo a nuestro ejemplo:</p>
+<p>Por las existencias iniciales:</p>
+<table border="1" cellpadding="4" cellspacing="-1" style="width: 473px;">
+<tbody>
+<tr valign="top">
+<td height="43" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="95" height="43" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="95" height="43" valign="middle">
+<p><b>HABER</b></p>
+</td>
+<td width="1"></td>
+</tr>
+<tr valign="top">
+<td height="43" valign="middle">
+<p>Variación de mercaderías</p>
+</td>
+<td width="95" height="43" valign="middle">
+<p>500</p>
+</td>
+<td colspan="2" width="95" height="43" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="43" valign="middle">
+<p>Mercaderías</p>
+</td>
+<td width="95" height="43" valign="middle"></td>
+<td width="95" height="43" valign="middle">
+<p>500</p>
+</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Para las existencias finales, supongamos que el inventario del almacén nos dice que el valor de nuestro <i>stock</i> es de 450 €.</p>
+<table border="1" cellpadding="4" cellspacing="-1" style="width: 474px;">
+<tbody>
+<tr valign="top">
+<td height="38" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="99" height="38" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="99" height="38" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="47" valign="middle">
+<p>Mercaderías</p>
+</td>
+<td width="99" height="47" valign="middle">
+<p>450</p>
+</td>
+<td width="99" height="47" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="47" valign="middle">
+<p>Variación de mercaderías</p>
+</td>
+<td width="99" height="47" valign="middle"></td>
+<td width="99" height="47" valign="middle">
+<p>450</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

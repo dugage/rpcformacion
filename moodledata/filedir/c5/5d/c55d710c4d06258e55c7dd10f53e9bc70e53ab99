@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | EL COMMUNITY MANAGER PROFESIONAL </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id86">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 1;
+var key1 = 0;
+var key2 = 2;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b86");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm86").key0b86[i].checked)
+               {
+                  question0 = document.getElementById("quizForm86").key0b86[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b86");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm86").key1b86[i].checked)
+               {
+                  question1 = document.getElementById("quizForm86").key1b86[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b86");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm86").key2b86[i].checked)
+               {
+                  question2 = document.getElementById("quizForm86").key2b86[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b86");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm86").key3b86[i].checked)
+               {
+                  question3 = document.getElementById("quizForm86").key3b86[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm86").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm86" id="quizForm86" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-86" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b86" class="block iDevice_content">
+<div class="ee_enunciado"><b>Según José Antonio Gallego, presidente de AERCO, el Community Manager es:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b861" class="sr-av"><a href="#answer-key0b861">Opción 1</a></label><input type="radio" name="key0b86" id="key0b861" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b861"><a name="answer-key0b861"></a>
+<div id="taoptionAnswer0q0b86" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La persona encargada de gestionar, construir y moderar comunidades en torno a una marca en Internet.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b862" class="sr-av"><a href="#answer-key0b862">Opción 2</a></label><input type="radio" name="key0b86" id="key0b862" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b862"><a name="answer-key0b862"></a>
+<div id="taoptionAnswer1q0b86" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Quien se encarga de cuidar y mantener la comunidad de fieles seguidores que la marca o empresa atraiga, siendo el nexo de unión entre las necesidades de los mismos y las posibilidades de la empresa. Para ello debe ser un verdadero experto en el uso de las herramientas de Social Media.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b863" class="sr-av"><a href="#answer-key0b863">Opción 3</a></label><input type="radio" name="key0b86" id="key0b863" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b863"><a name="answer-key0b863"></a>
+<div id="taoptionAnswer2q0b86" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">El profesional que gestiona, dinamiza la identidad de la marca planificando las acciones en la red, con el objetivo de conseguir que estos participen e interactúen, manteniendo con ellos una comunicación transparente, para poder obtener información importante para reportar a la marca, que les permitirá detectar tendencias, posibles mejoras para el producto o servicio.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b86" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Qué implica el ser un Community Manager?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b861" class="sr-av"><a href="#answer-key1b861">Opción 1</a></label><input type="radio" name="key1b86" id="key1b861" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b861"><a name="answer-key1b861"></a>
+<div id="taoptionAnswer0q1b86" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Entender qué estrategia se debe seguir para construir relaciones alrededor de la marca y mantener interacciones personales con los miembros de la comunidad de la marca a la que se representa.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b862" class="sr-av"><a href="#answer-key1b862">Opción 2</a></label><input type="radio" name="key1b86" id="key1b862" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b862"><a name="answer-key1b862"></a>
+<div id="taoptionAnswer1q1b86" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Saber diseñar Web y controlar gestores de contenido.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b863" class="sr-av"><a href="#answer-key1b863">Opción 3</a></label><input type="radio" name="key1b86" id="key1b863" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b863"><a name="answer-key1b863"></a>
+<div id="taoptionAnswer2q1b86" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Estar conectado todo el día a las distintas redes sociales que nos ofrece Internet como Tuenti, Facebook, Twitter, etc.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b86" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Qué tipo de Community Manager está considerado como el estratega?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b861" class="sr-av"><a href="#answer-key2b861">Opción 1</a></label><input type="radio" name="key2b86" id="key2b861" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b861"><a name="answer-key2b861"></a>
+<div id="taoptionAnswer0q2b86" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Community Manager</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b862" class="sr-av"><a href="#answer-key2b862">Opción 2</a></label><input type="radio" name="key2b86" id="key2b862" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b862"><a name="answer-key2b862"></a>
+<div id="taoptionAnswer1q2b86" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Community Manager 2.0.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b863" class="sr-av"><a href="#answer-key2b863">Opción 3</a></label><input type="radio" name="key2b86" id="key2b863" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b863"><a name="answer-key2b863"></a>
+<div id="taoptionAnswer2q2b86" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Social Media Manager.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b86" class="block iDevice_content">
+<div class="ee_enunciado"><b>Confirma si la siguiente afirmación es verdadera o falsa:</b> <i>“Una posible meta del Community manager sería el marketing online, las estrategias de difusión y construcción de la visibilidad de la marca”.</i></div>
+<p><i> </i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b861" class="sr-av"><a href="#answer-key3b861">Opción 1</a></label><input type="radio" name="key3b86" id="key3b861" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b861"><a name="answer-key3b861"></a>
+<div id="taoptionAnswer0q3b86" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b862" class="sr-av"><a href="#answer-key3b862">Opción 2</a></label><input type="radio" name="key3b86" id="key3b862" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b862"><a name="answer-key3b862"></a>
+<div id="taoptionAnswer1q3b86" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id87">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-87_108">
+<form name="multi-select-form-87_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion87_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Cuál de las siguientes habilidades sería conveniente destacar de un buen Community Manager. (Respuesta Múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op87_1080" class="sr-av"><a href="#answer-87_111">Opción 1</a></label><input type="checkbox" id="op87_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-87_111"><a name="answer-87_111"></a>
+<div id="taans87_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Buen Conversador.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-87_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op87_1081" class="sr-av"><a href="#answer-87_299">Opción 2</a></label><input type="checkbox" id="op87_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-87_299"><a name="answer-87_299"></a>
+<div id="taans87_299" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Egoísta.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-87_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op87_1082" class="sr-av"><a href="#answer-87_301">Opción 3</a></label><input type="checkbox" id="op87_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-87_301"><a name="answer-87_301"></a>
+<div id="taans87_301" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Asertivo.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-87_1082" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'87_108')"/> 
+</p>
+</div>
+<div id="f87_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-87_111" class="right">Correcto</a></li>
+<li><a href="#answer-87_299" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-87_301" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

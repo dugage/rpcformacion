@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-9" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id13">
+<div class="iDevice emphasis0">
+<div id="ta13_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id12">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 1;
+var key2 = 2;
+var key3 = 1;
+var key4 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b12");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm12").key0b12[i].checked)
+               {
+                  question0 = document.getElementById("quizForm12").key0b12[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b12");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm12").key1b12[i].checked)
+               {
+                  question1 = document.getElementById("quizForm12").key1b12[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b12");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm12").key2b12[i].checked)
+               {
+                  question2 = document.getElementById("quizForm12").key2b12[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b12");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm12").key3b12[i].checked)
+               {
+                  question3 = document.getElementById("quizForm12").key3b12[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b12");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm12").key4b12[i].checked)
+               {
+                  question4 = document.getElementById("quizForm12").key4b12[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm12").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm12" id="quizForm12" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-12" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b12" class="block iDevice_content">
+<p><b>1. ¿A partir de qué edad comienza a cambiar el cuerpo en las mujeres?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b121" class="sr-av"><a href="#answer-key0b121">Opción 1</a></label><input type="radio" name="key0b12" id="key0b121" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b121">
+<div id="taoptionAnswer0q0b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A partir de los 14 años.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b122" class="sr-av"><a href="#answer-key0b122">Opción 2</a></label><input type="radio" name="key0b12" id="key0b122" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b122">
+<div id="taoptionAnswer1q0b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Algo antes de los 14 años.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b123" class="sr-av"><a href="#answer-key0b123">Opción 3</a></label><input type="radio" name="key0b12" id="key0b123" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b123">
+<div id="taoptionAnswer2q0b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A partir de los 8 años.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b12" class="block iDevice_content">
+<p><b>2. ¿Qué objetivos debe conseguir un programa equilibrado de ejercicio físico?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b121" class="sr-av"><a href="#answer-key1b121">Opción 1</a></label><input type="radio" name="key1b12" id="key1b121" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b121">
+<div id="taoptionAnswer0q1b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Elevar la resistencia corporal, la flexibilidad y la confianza en uno mismo.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b122" class="sr-av"><a href="#answer-key1b122">Opción 2</a></label><input type="radio" name="key1b12" id="key1b122" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b122">
+<div id="taoptionAnswer1q1b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Aumentar la fuerza, la flexibilidad y la resistencia.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b123" class="sr-av"><a href="#answer-key1b123">Opción 3</a></label><input type="radio" name="key1b12" id="key1b123" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b123">
+<div id="taoptionAnswer2q1b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Aumentar la fuerza, la resistencia y la coordinación.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b12" class="block iDevice_content">
+<div class="ee_enunciado"><b>3. Indica la opción correcta sobre los beneficios que produce el ejercicio físico sobre el metabolismo:</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b121" class="sr-av"><a href="#answer-key2b121">Opción 1</a></label><input type="radio" name="key2b12" id="key2b121" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b121">
+<div id="taoptionAnswer0q2b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Estimula la circulación dentro del músculo cardiaco favoreciendo la vascularización del corazón.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b122" class="sr-av"><a href="#answer-key2b122">Opción 2</a></label><input type="radio" name="key2b12" id="key2b122" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b122">
+<div id="taoptionAnswer1q2b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Disminuye la sensación de fatiga. Le da más energía y capacidad de trabajo.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b123" class="sr-av"><a href="#answer-key2b123">Opción 3</a></label><input type="radio" name="key2b12" id="key2b123" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b123">
+<div id="taoptionAnswer2q2b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Mejora la respuesta inmunológica ante infecciones o agresiones de distinto tipo.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b12" class="block iDevice_content">
+<p><b>4. Si decimos que la práctica de ejercicio disminuye la formación de coágulos y actúa de forma positiva sobre el endotelio, nos estamos refiriendo a beneficios en el sistema…</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b121" class="sr-av"><a href="#answer-key3b121">Opción 1</a></label><input type="radio" name="key3b12" id="key3b121" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b121">
+<div id="taoptionAnswer0q3b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Metabólico.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b122" class="sr-av"><a href="#answer-key3b122">Opción 2</a></label><input type="radio" name="key3b12" id="key3b122" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b122">
+<div id="taoptionAnswer1q3b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Circulatorio.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b123" class="sr-av"><a href="#answer-key3b123">Opción 3</a></label><input type="radio" name="key3b12" id="key3b123" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b123">
+<div id="taoptionAnswer2q3b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Locomotor.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion4b12" class="block iDevice_content">
+<p><b>5. La disminución de la resistencia, velocidad y fuerza muscular en el envejecimiento. ¿A qué es debido?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b121" class="sr-av"><a href="#answer-key4b121">Opción 1</a></label><input type="radio" name="key4b12" id="key4b121" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b121">
+<div id="taoptionAnswer0q4b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A una reducción en el tamaño de las fibras musculares y un aumento de la actividad enzimática muscular.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b122" class="sr-av"><a href="#answer-key4b122">Opción 2</a></label><input type="radio" name="key4b12" id="key4b122" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b122">
+<div id="taoptionAnswer1q4b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A un aumento de colesterol en las venas y arterias junto con trastornos neuromusculares y del aparato locomotor.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b123" class="sr-av"><a href="#answer-key4b123">Opción 3</a></label><input type="radio" name="key4b12" id="key4b123" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b123">
+<div id="taoptionAnswer2q4b12" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A una reducción en el tamaño de las fibras musculares, a la disminución de la actividad enzimática muscular y a trastornos neuromusculares.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore12"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

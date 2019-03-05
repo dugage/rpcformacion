@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.4.Auditoría de los cálculos </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">4.4.Auditoría de los cálculos</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id116">
+<div class="iDevice emphasis0">
+<div id="ta116_85" class="block iDevice_content">
+
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper FreeTextIdevice" id="id117">
+<div class="iDevice emphasis0">
+<div id="ta117_85" class="block iDevice_content">
+<p>Otra forma de detectar los fallos en las fórmulas que introduzcamos en Excel, incluso cuando éstas no generan un error claro como el que nos ocupa sino que sencillamente producen resultados incorrectos, consiste en recurrir a las herramientas de auditoría de Excel.</p>
+<p>Abra la ficha Fórmulas de la Cinta de opciones y, estando el foco de entrada situado en la celdilla H5, haga clic en el botón <strong>Rastrear precedentes </strong>del grupo Auditoría de fórmulas.</p>
+<p>Podrá ver que Excel muestra dos flechas que, partiendo de dos celdillas, van a parar a la que contiene el error, tal como se aprecia en la figura 5 .9</p>
+<p>Fíjese en que una de las celdillas de partida es la que contiene el total de nº de personas del colegio, dato que debe dividirse entre el total. No obstante, la segunda flecha no parte de la celdilla que contiene el total, como cabría esperar, sino de otra que está más abajo, vacía.</p>
+<p><img src="excel_5.9.png" alt="FIGURA 5.9" width="599" height="321" /></p>
+<p><strong>FIGURA 5.9</strong></p>
+<p>Excel ya nos está diciendo dónde está el problema que como adivinábamos en el punto previo, se debe a que uno de los operadores, concretamente una de las referencias, se dirige a una celdilla equivocada. Observe la fórmula que contiene esa celdilla, podrá ver que G5*100/G15 no es correcto, puesto que el total global se encuentra en G14 . Para eliminar las flechas haga clic en el botón <strong>Quitar flechas</strong> del mismo grupo: Auditoría de fórmulas.</p>
+<p>Los botones que hay en el grupo Auditoría de fórmulas, se utilizan para rastrear los precedentes y descendientes de una fórmula. Se llama precedentes a las celdillas que intervienen en el resultado mostrado en una dada, mientras que los descendientes son los afectados por esa celdilla.</p>
+<p>Fíjese en la figura 5 .10. Se ha situado el puntero de selección en la celdilla C8 y se hecho clic en <strong>Rastrear dependientes </strong>lo que ha hecho aparecer dos flechas: la primera indica que C8 interviene en la fórmula de la celdilla G8, mientras que la segunda comunica que el mismo color también se utiliza en el cálculo de la celdilla C14</p>
+<p>Haciendo clic de nuevo en ese mismo botón, sin mover el foco de entrada, aparecen dos nuevas flechas, indicando la implicación de la celdilla G8 en otras dos. Una tercera pulsación continuaría con el proceso, de tal forma que podríamos analizar todas las relaciones entre los datos.</p>
+<p><img src="excel_5.10.png" alt="FIGURA 5.10" width="599" height="301" /></p>
+<p><strong>FIGURA 5.10</strong></p>
+<p></p>
+<p>Para eliminar todas las líneas puede hacer clic en el botón <strong>Quitar flechas</strong> indicado antes. Si tan sólo desea eliminar un nivel, haga clic en la flecha asociada a este botón para desplegar el correspondiente menú, eligiendo la opción Quitar un nivel de precedentes o Quitar un nivel de dependientes, según el caso.</p>
+<p>En cualquier momento podemos detectar todos los fallos que existan en la hoja de cálculo, sin necesidad de buscarlos manualmente, haciendo clic sobre el botón</p>
+<p style="text-align: center;"><img width="26" height="20" id="IMG_VFQ4aUdzY3k4NSUyQk5PTEcyZ044RVZXJTJGWUo4UWN0ek1LRTUlMkZBUWNKNmdUayUzRA==" alt="Trabajar con Fórmulas I" title="Trabajar con Fórmulas I" src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VFQ4aUdzY3k4NSUyQk5PTEcyZ044RVZXJTJGWUo4UWN0ek1LRTUlMkZBUWNKNmdUayUzRA==" /></p>
+<p>del mismo grupo Auditoría de fórmulas. Esto abrirá el cuadro de diálogo Comprobación de errores que aparece en figura 5 .11 , donde se irá mostrando información sobre cada error encontrado y ofreciendo opciones para resolverlo, modificar la fórmula y, en cualquier caso, continuar buscando otros errores hasta corregirlos todos.</p>
+<p><img src="excel_5.11.png" alt="FIGURA 5.11" width="480" height="208" /></p>
+<p><strong>FIGURA 5.11</strong></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

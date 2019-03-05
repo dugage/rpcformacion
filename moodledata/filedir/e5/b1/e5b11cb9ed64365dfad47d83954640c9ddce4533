@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3. Una macro más atractiva y cómoda </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3. Una macro más atractiva y cómoda</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Use la opción Insertar&gt;UserForm para insertar en el proyecto un formulario, si es que no lo tenía ya. Modifique la propiedad Name asignándole el nombre Parámetros.</p>
+<p>Incluya en ese formulario los siguientes componentes en orden descendente, de arriba abajo verticalmente en el formulario:</p>
+<ul>
+<li>Label: asígnele el texto Tabla a la propiedad Caption.</li>
+<li>RefEdit: colóquelo justo debajo del título anterior y ajuste sus dimensiones. Dé el valor Tabla a la propiedad Name, de tal manera que a partir de ahora, en el código, podamos utilizar Tabla como nombre de objeto.</li>
+<li>Label: algo más debajo de los dos anteriores. Dé el valor Celdilla que contiene el total a la propiedad Caption.</li>
+<li>RefEdit: justo debajo del anterior. El nombre de este componente será Celdilla.</li>
+<li>Label: más abajo y con el texto Título nueva hoja en la propiedad Caption.</li>
+<li>TextBox: este recuadro de texto se llamará TituloHoja y servirá para solicitar el título a asignar a la hoja de datos que se añada.</li>
+<li>CheckBox: modifique dos de sus propiedades: Name tendrá el valor Titulosnegrita y Caption el texto Títulos en negrita.</li>
+<li>CommnadButton: será el último elemento del formulario y lo situaremos en la esquina inferior derecha. Asignaremos el valor Aceptar tanto a la propiedad Name como a Caption.</li>
+</ul>
+<p>El aspecto final del formulario deberá ser similar al que se muestra en la figura 16.4. Edite la propiedad Caption del propio formulario para establecer el título que puede verse en la parte superior.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UEl2S3hsOTVrb2d3SG9EV2J0S3k3TFZzUTFOZEVOR0thOEl1cHRmdjRVZyUzRA==" id="IMG_UEl2S3hsOTVrb2d3SG9EV2J0S3k3TFZzUTFOZEVOR0thOEl1cHRmdjRVZyUzRA==" alt="Cuadros de diálogo " title="Cuadros de diálogo " width="455" /></p>
+<p><b>Figura 16.4.</b> Aspecto del formulario a medida para nuestra macro.</p>
+<p>El código de la macro que teníamos originalmente ahora debe cambiar para utilizar el cuadro de diálogo, adaptando alguno de sus pasos para tomar los parámetros que se hubiesen introducido en él. El procedimiento correspondiente a la macro ahora tendrá tan sólo una sentencia:</p>
+<p>Parámetros.Show.</p>
+<p>Con ella mostraremos el cuadro de diálogo, siendo en él donde se desarrolle todo el proceso de selección de la tabla de datos, solicitud de parámetros y generación de los resultados.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

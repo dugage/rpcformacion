@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-6" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id65">
+<div class="iDevice emphasis0">
+<div id="ta65_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id66">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta66_100" class="block iDevice_content">
+<div class="numeracion">1. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b66" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b66" class="block iDevice_content">
+<p>"El condicionante de tasación, como concepto, existe para los valores calculados en relación a la Orden ECO/805/2003 y sus actualizaciones EHA 3011/2007 y EHA 564/2008".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b66"><input type="radio" name="option0b66" id="true0b66" class="exe-radio-option exe-radio-option-0-2-0b66-truefalse" /> Verdadero</label> 
+<label for="false0b66"><input type="radio" name="option0b66" id="false0b66" class="exe-radio-option exe-radio-option-1-2-0b66-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b66" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b66-result" class="right">Verdadero</strong></p>
+<div class="feedbackSolucionario">
+<div class="feedbackSolucionario">El condicionante de tasación, como concepto, existe para los valores calculados en relación a la Orden ECO/805/2003 y sus actualizaciones EHA 3011/2007 y EHA 564/2008.</div>
+</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id67">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b67");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm67").key0b67[i].checked)
+               {
+                  question0 = document.getElementById("quizForm67").key0b67[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm67").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm67" id="quizForm67" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-67" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b67" class="block iDevice_content">
+<div class="numeracion">2. Cuando no se haya podido comprobar el estado de ocupación del inmueble y estado de uso o estado de explotación al que se destine:</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b671" class="sr-av"><a href="#answer-key0b671">Opción 1</a></label><input type="radio" name="key0b67" id="key0b671" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b671">
+<div id="taoptionAnswer0q0b67" class="block iDevice_content">
+<p>Condicionante por estado de ocupación.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b672" class="sr-av"><a href="#answer-key0b672">Opción 2</a></label><input type="radio" name="key0b67" id="key0b672" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b672">
+<div id="taoptionAnswer1q0b67" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Condicionante por comprobación de protección pública.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b673" class="sr-av"><a href="#answer-key0b673">Opción 3</a></label><input type="radio" name="key0b67" id="key0b673" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b673">
+<div id="taoptionAnswer2q0b67" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Condicionante por comprobación del patrimonio arquitectónico.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore67"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id68">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta68_100" class="block iDevice_content">
+<div class="numeracion">3. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b68" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b68" class="block iDevice_content">
+<p>"El condicionante por comprobación de protección pública se empleará cuando no se haya podido comprobar, en el caso de viviendas, si está sometido a algún régimen de protección pública"</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b68"><input type="radio" name="option0b68" id="true0b68" class="exe-radio-option exe-radio-option-0-2-0b68-truefalse" /> Verdadero</label> 
+<label for="false0b68"><input type="radio" name="option0b68" id="false0b68" class="exe-radio-option exe-radio-option-1-2-0b68-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b68" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b68-result" class="right">Verdadero</strong></p>
+<div class="ee_feedback" style="display: block;">Condicionante por comprobación de protección pública: cuando no se haya podido comprobar, en el caso de viviendas, si está sometido a algún régimen de protección pública.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id69">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b69");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm69").key0b69[i].checked)
+               {
+                  question0 = document.getElementById("quizForm69").key0b69[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm69").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm69" id="quizForm69" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-69" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b69" class="block iDevice_content">
+<p>"Para un levantamiento __________________ podrá hacerse con carácter general cuando haya desaparecido el supuesto que dio origen y mediante la declaración expresa y razonada del tasador que suscribió el informe de tasación".</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b691" class="sr-av"><a href="#answer-key0b691">Opción 1</a></label><input type="radio" name="key0b69" id="key0b691" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b691">
+<div id="taoptionAnswer0q0b69" class="block iDevice_content">
+<p>Levantamiento.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b692" class="sr-av"><a href="#answer-key0b692">Opción 2</a></label><input type="radio" name="key0b69" id="key0b692" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b692">
+<div id="taoptionAnswer1q0b69" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Documentación.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b693" class="sr-av"><a href="#answer-key0b693">Opción 3</a></label><input type="radio" name="key0b69" id="key0b693" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b693">
+<div id="taoptionAnswer2q0b69" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Planeamiento</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore69"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id70">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta70_100" class="block iDevice_content">
+<div class="numeracion">5. Indica si es verdadero o falso el siguiente enunciado:</div>
+</div>
+<section class="question">
+<form name="true-false-form-0b70" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b70" class="block iDevice_content">
+<p>"Se utiliza el concepto de advertencia de tasación cuando existe alguna duda sobre algún dato de los utilizados en la valoración del inmueble".</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b70"><input type="radio" name="option0b70" id="true0b70" class="exe-radio-option exe-radio-option-0-2-0b70-truefalse" /> Verdadero</label> 
+<label for="false0b70"><input type="radio" name="option0b70" id="false0b70" class="exe-radio-option exe-radio-option-1-2-0b70-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b70" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b70-result" class="right">Verdadero</strong></p>
+<div class="ee_feedback" style="display: block;">Se emplea el concepto de advertencia de tasación cuando se presenta alguna duda sobre un dato o datos empleados en la valoración del inmueble.</div>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

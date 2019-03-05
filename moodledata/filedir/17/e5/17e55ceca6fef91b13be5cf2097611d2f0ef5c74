@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.4. Búsqueda y sustituciones </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.4. Búsqueda y sustituciones</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id4">
+<div class="iDevice emphasis0">
+<div id="ta4_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Ahora nos centraremos en buscar textos o caracteres dentro de otros textos. La sustitución consiste en cambiar un texto por otro que nosotros indiquemos.</p>
+<p>Para encontrar un texto en una cadena de caracteres podemos usar dos funciones distintas, según nos interese distinguir o no entre mayúsculas y minúsculas.</p>
+<p>Las funciones en cuestión son ENCONTRAR y HALLAR. La primera distingue entre mayúsculas y minúsculas, mientras que la segunda no. Ambas toman tres parámetros, de los que el tercero es opcional:</p>
+<ul>
+<li>Carácter o cadena de caracteres a buscar.</li>
+<li>Texto donde desea efectuarse la búsqueda.</li>
+<li>Número de carácter a partir del cual iniciar la búsqueda.</li>
+</ul>
+<p>Una característica específica de la función HALLAR es que permite el uso de caracteres comodín en el primer parámetro. Podemos usar el carácter ? para representar a cualquier carácter, así como el * para una secuencia de caracteres.</p>
+<p>Ambas funciones devuelven como resultado un índice: la posición del primer carácter en el que se ha encontrado la coincidencia buscada.</p>
+<p>Las funciones de sustitución disponibles son también dos: SUSTITUIR y REEMPLAZAR. La primera tiene la particularidad de que busca el texto a sustituir, mientras que con al segunda seremos nosotros los que indiquemos la posición a partir de la que hay que cambiar y el número de caracteres a modificar. Los parámetros de la primera son tres:</p>
+<ul>
+<li>Texto en el que se va a sustituir.</li>
+<li>Texto buscado.</li>
+<li>Texto a poner en su lugar.</li>
+</ul>
+<p>La segunda, REEMPLAZAR, necesita cuatro parámetros:</p>
+<ul>
+<li>Texto en el que se va a sustituir.</li>
+<li>Posición a partir de la cual se sustituirá.</li>
+<li>Número de caracteres a cambiar.</li>
+<li>Nuevo texto.</li>
+</ul>
+<p>Una vez más, puede partir de la hoja usada en puntos anteriores para efectuar algunas pruebas, como determinar la posición en que se encuentra una cierta cadena o efectuar una sustitución. Las dos fórmulas siguientes harían precisamente esto:</p>
+<p>=HALLAR (“as*; C3)</p>
+<p>=SUSTITUIR (C2;”tiene asociado el”;”corresponde al”)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | TEMA 7. REACCIÓN DEL CUERPO ANTE EL EJERCICIO FÍSICO. </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id173">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 0;
+var key1 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b173");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm173").key0b173[i].checked)
+               {
+                  question0 = document.getElementById("quizForm173").key0b173[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b173");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm173").key1b173[i].checked)
+               {
+                  question1 = document.getElementById("quizForm173").key1b173[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm173").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm173" id="quizForm173" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-173" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b173" class="block iDevice_content">
+<div class="ee_enunciado"><b>Señala la razón por la que se recomienda realizar un adecuado calentamiento antes de la ejecución de un entrenamiento:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1731" class="sr-av"><a href="#answer-key0b1731">Opción 1</a></label><input type="radio" name="key0b173" id="key0b1731" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1731"><a name="answer-key0b1731"></a>
+<div id="taoptionAnswer0q0b173" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Para evitar la contracción muscular durante el ejercicio físico, ya que puede dar lugar gracias a un proceso de transformación de energía.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1732" class="sr-av"><a href="#answer-key0b1732">Opción 2</a></label><input type="radio" name="key0b173" id="key0b1732" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1732"><a name="answer-key0b1732"></a>
+<div id="taoptionAnswer1q0b173" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Para evitar la pérdida de la energía química.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1733" class="sr-av"><a href="#answer-key0b1733">Opción 3</a></label><input type="radio" name="key0b173" id="key0b1733" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1733"><a name="answer-key0b1733"></a>
+<div id="taoptionAnswer2q0b173" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Para evitar la pérdida de los enlaces de las moléculas.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b173" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="ee_enunciado"><b>En las fases de reposo la glucosa se almacena:</b></div>
+<p><b> </b></p>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1731" class="sr-av"><a href="#answer-key1b1731">Opción 1</a></label><input type="radio" name="key1b173" id="key1b1731" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1731"><a name="answer-key1b1731"></a>
+<div id="taoptionAnswer0q1b173" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En el organismo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1732" class="sr-av"><a href="#answer-key1b1732">Opción 2</a></label><input type="radio" name="key1b173" id="key1b1732" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1732"><a name="answer-key1b1732"></a>
+<div id="taoptionAnswer1q1b173" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En las células.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1733" class="sr-av"><a href="#answer-key1b1733">Opción 3</a></label><input type="radio" name="key1b173" id="key1b1733" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1733"><a name="answer-key1b1733"></a>
+<div id="taoptionAnswer2q1b173" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">En los músculos.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id174">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-174_108">
+<form name="multi-select-form-174_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion174_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Parece que el aumento de ácidos grasos libres (AGL) limita (respuesta múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op174_1080" class="sr-av"><a href="#answer-174_111">Opción 1</a></label><input type="checkbox" id="op174_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-174_111"><a name="answer-174_111"></a>
+<div id="taans174_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La captación de glucosa en las últimas etapas de un ejercicio prolongado.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-174_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op174_1081" class="sr-av"><a href="#answer-174_351">Opción 2</a></label><input type="checkbox" id="op174_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-174_351"><a name="answer-174_351"></a>
+<div id="taans174_351" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">El consumo de glucosa en las últimas etapas de un ejercicio prolongado.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-174_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op174_1082" class="sr-av"><a href="#answer-174_353">Opción 3</a></label><input type="checkbox" id="op174_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-174_353"><a name="answer-174_353"></a>
+<div id="taans174_353" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">El consumo de triglicéridos en las últimas etapas de un ejercicio prolongado.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-174_1082" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'174_108')"/> 
+</p>
+</div>
+<div id="f174_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-174_111" class="right">Correcto</a></li>
+<li><a href="#answer-174_351" class="right">Correcto</a></li>
+<li><a href="#answer-174_353" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-174_355">
+<form name="multi-select-form-174_355" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion174_355" class="block question iDevice_content">
+<div class="ee_enunciado"><b>El aumento del volumen plasmático (en personas entrenadas) está causado por (respuesta múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op174_3550" class="sr-av"><a href="#answer-174_358">Opción 1</a></label><input type="checkbox" id="op174_3550" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-174_358"><a name="answer-174_358"></a>
+<div id="taans174_358" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Aumento de aldosterona.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-174_3550" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op174_3551" class="sr-av"><a href="#answer-174_360">Opción 2</a></label><input type="checkbox" id="op174_3551" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-174_360"><a name="answer-174_360"></a>
+<div id="taans174_360" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Aumento de renina-angiotensina-aldosterona.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-174_3551" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op174_3552" class="sr-av"><a href="#answer-174_362">Opción 3</a></label><input type="checkbox" id="op174_3552" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-174_362"><a name="answer-174_362"></a>
+<div id="taans174_362" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Aumento del flujo sanguíneo.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-174_3552" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'174_355')"/> 
+</p>
+</div>
+<div id="f174_355" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-174_358" class="right">Correcto</a></li>
+<li><a href="#answer-174_360" class="right">Correcto</a></li>
+<li><a href="#answer-174_362" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-174_364">
+<form name="multi-select-form-174_364" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion174_364" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Los triglicéridos de los adipocitos se rompen por la acción de (respuesta múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op174_3640" class="sr-av"><a href="#answer-174_367">Opción 1</a></label><input type="checkbox" id="op174_3640" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-174_367"><a name="answer-174_367"></a>
+<div id="taans174_367" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La lipasa (lipólisis) en glicerol.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-174_3640" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op174_3641" class="sr-av"><a href="#answer-174_369">Opción 2</a></label><input type="checkbox" id="op174_3641" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-174_369"><a name="answer-174_369"></a>
+<div id="taans174_369" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Ácidos grasos (AG).</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-174_3641" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op174_3642" class="sr-av"><a href="#answer-174_371">Opción 3</a></label><input type="checkbox" id="op174_3642" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-174_371"><a name="answer-174_371"></a>
+<div id="taans174_371" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">La célula muscular.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-174_3642" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'174_364')"/> 
+</p>
+</div>
+<div id="f174_364" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-174_367" class="right">Correcto</a></li>
+<li><a href="#answer-174_369" class="right">Correcto</a></li>
+<li><a href="#answer-174_371" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

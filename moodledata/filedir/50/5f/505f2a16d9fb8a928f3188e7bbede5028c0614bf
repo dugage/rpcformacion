@@ -1,0 +1,475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | TEMA 5. ÓRGANOS DE GOBIERNO EN LAS COMUNIDADES DE PROPIETARIOS. </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id139">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b139");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm139").key0b139[i].checked)
+               {
+                  question0 = document.getElementById("quizForm139").key0b139[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm139").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm139" id="quizForm139" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-139" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b139" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica si la siguiente afirmación es verdadera o falsa: “Una Junta a la que no haya asistido el Presidente puede ser válida”.</strong></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1391" class="sr-av"><a href="#answer-key0b1391">Opción 1</a></label><input type="radio" name="key0b139" id="key0b1391" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1391"><a name="answer-key0b1391"></a>
+<div id="taoptionAnswer0q0b139" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1392" class="sr-av"><a href="#answer-key0b1392">Opción 2</a></label><input type="radio" name="key0b139" id="key0b1392" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1392"><a name="answer-key0b1392"></a>
+<div id="taoptionAnswer1q0b139" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id140">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-140_108">
+<form name="multi-select-form-140_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion140_108" class="block question iDevice_content">
+<p><strong>¿Cuáles de las siguientes opciones son órganos de gobierno de la comunidad?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_1080" class="sr-av"><a href="#answer-140_111">Opción 1</a></label><input type="checkbox" id="op140_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_111"><a name="answer-140_111"></a>
+<div id="taans140_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Junta de propietarios.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_1081" class="sr-av"><a href="#answer-140_236">Opción 2</a></label><input type="checkbox" id="op140_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_236"><a name="answer-140_236"></a>
+<div id="taans140_236" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Presidente.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_1082" class="sr-av"><a href="#answer-140_238">Opción 3</a></label><input type="checkbox" id="op140_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_238"><a name="answer-140_238"></a>
+<div id="taans140_238" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Secretario.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_1083" class="sr-av"><a href="#answer-140_240">Opción 4</a></label><input type="checkbox" id="op140_1083" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_240"><a name="answer-140_240"></a>
+<div id="taans140_240" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Administrador.</div>
+</div>
+<div class="botonera" id="botonera"></div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'140_108')"/> 
+</p>
+</div>
+<div id="f140_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+<div id="tafeedback140_108" class="feedback iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada"></div>
+</div>
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-140_111" class="right">Correcto</a></li>
+<li><a href="#answer-140_236" class="right">Correcto</a></li>
+<li><a href="#answer-140_238" class="right">Correcto</a></li>
+<li><a href="#answer-140_240" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-140_242">
+<form name="multi-select-form-140_242" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion140_242" class="block question iDevice_content">
+<p><strong>¿Cuáles de estas competencias son propias de la Junta de propietarios? (Respuesta múltiple)</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2420" class="sr-av"><a href="#answer-140_245">Opción 1</a></label><input type="checkbox" id="op140_2420" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_245"><a name="answer-140_245"></a>
+<div id="taans140_245" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Nombrar y remover a las personas que ejercen los cargos de Presidente Administrador y Secretario y resolver las reclamaciones que los titulares de los pisos o locales formulen contra la actuación de aquellos.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2420" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2421" class="sr-av"><a href="#answer-140_247">Opción 2</a></label><input type="checkbox" id="op140_2421" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_247"><a name="answer-140_247"></a>
+<div id="taans140_247" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Aprobar los presupuestos y la ejecución de todas las obras de reparación de la finca, sean ordinarias o extraordinarias, y ser informada inmediatamente de las medidas urgentes adoptadas por el Administrador.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2421" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2422" class="sr-av"><a href="#answer-140_249">Opción 3</a></label><input type="checkbox" id="op140_2422" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_249"><a name="answer-140_249"></a>
+<div id="taans140_249" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Conocer y decidir en los demás asuntos de interés general para la comunidad, acordando las medidas necesarias o convenientes para el mejor servicio común.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2422" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2423" class="sr-av"><a href="#answer-140_251">Opción 4</a></label><input type="checkbox" id="op140_2423" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_251"><a name="answer-140_251"></a>
+<div id="taans140_251" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Acordar la creación de servicios privados de interés propio.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2423" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'140_242')"/> 
+</p>
+</div>
+<div id="f140_242" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-140_245" class="right">Correcto</a></li>
+<li><a href="#answer-140_247" class="right">Correcto</a></li>
+<li><a href="#answer-140_249" class="right">Correcto</a></li>
+<li><a href="#answer-140_251" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-140_253">
+<form name="multi-select-form-140_253" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion140_253" class="block question iDevice_content">
+<div class="ee_enunciado"><strong>¿Cuáles de las siguientes afirmaciones son correctas? (Respuesta múltiple)</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2530" class="sr-av"><a href="#answer-140_256">Opción 1</a></label><input type="checkbox" id="op140_2530" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_256"><a name="answer-140_256"></a>
+<div id="taans140_256" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La junta ordinaria se realizará con carácter preceptivo, para aprobar presupuestos y cuentas.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2530" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2531" class="sr-av"><a href="#answer-140_258">Opción 2</a></label><input type="checkbox" id="op140_2531" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_258"><a name="answer-140_258"></a>
+<div id="taans140_258" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La junta Extraordinaria se realizará cuando el presidente lo estime conveniente o cuando lo soliciten la cuarta parte de los propietarios.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2531" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2532" class="sr-av"><a href="#answer-140_260">Opción 3</a></label><input type="checkbox" id="op140_2532" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_260"><a name="answer-140_260"></a>
+<div id="taans140_260" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La junta ordinaria se realizará al menos una vez cada seis meses.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2532" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2533" class="sr-av"><a href="#answer-140_262">Opción 4</a></label><input type="checkbox" id="op140_2533" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_262"><a name="answer-140_262"></a>
+<div id="taans140_262" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada">La junta Extraordinaria se realizará únicamente cuando lo soliciten la tercera parte de los propietarios.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2533" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'140_253')"/> 
+</p>
+</div>
+<div id="f140_253" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-140_256" class="right">Correcto</a></li>
+<li><a href="#answer-140_258" class="right">Correcto</a></li>
+<li><a href="#answer-140_260" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-140_262" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-140_264">
+<form name="multi-select-form-140_264" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion140_264" class="block question iDevice_content">
+<div class="ee_enunciado"><strong>¿Qué aspectos se deben incluir en la convocatoria de una junta? (Respuesta múltiple)</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2640" class="sr-av"><a href="#answer-140_267">Opción 1</a></label><input type="checkbox" id="op140_2640" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_267"><a name="answer-140_267"></a>
+<div id="taans140_267" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Si es ordinaria o extraordinaria.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2640" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2641" class="sr-av"><a href="#answer-140_269">Opción 2</a></label><input type="checkbox" id="op140_2641" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_269"><a name="answer-140_269"></a>
+<div id="taans140_269" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La orden del día.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2641" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2642" class="sr-av"><a href="#answer-140_271">Opción 3</a></label><input type="checkbox" id="op140_2642" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_271"><a name="answer-140_271"></a>
+<div id="taans140_271" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Los propietarios que van a asistir y los que no.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2642" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op140_2643" class="sr-av"><a href="#answer-140_273">Opción 4</a></label><input type="checkbox" id="op140_2643" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-140_273"><a name="answer-140_273"></a>
+<div id="taans140_273" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Los propietarios que deben dinero a la comunidad.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-140_2643" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'140_264')"/> 
+</p>
+</div>
+<div id="f140_264" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-140_267" class="right">Correcto</a></li>
+<li><a href="#answer-140_269" class="right">Correcto</a></li>
+<li><a href="#answer-140_271" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-140_273" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

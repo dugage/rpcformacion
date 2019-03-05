@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.1. Número de filas y columnas </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.1. Número de filas y columnas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id1">
+<div class="iDevice emphasis0">
+<div id="ta1_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Partiendo de una referencia, ya sea a una celdilla o a un rango, podemos determinar el número de fila y columna de la primera celdilla mediante las funciones FILA y COLUMNA. Estas funciones toman como único parámetro la citada referencia, devolviendo como resultado un número que se alojará en la celdilla donde hayamos introducido la fórmula. Si, por ejemplo introduce en la celdilla A27 la fórmula =COLUMNA (K27) obtendrá el valor 11, ya que esa es la posición de la columna K contando de izquierda a derecha.</p>
+<p>Si sustituye las funciones FILA y COLUMNA por sus plurales, FILAS y COLUMNAS, cambiando también la referencia a la celdilla por un rango, lo que obtendrá será el número de filas y columnas que conforman dicho rango. En la figura 8.1, por ejemplo, puede ver cómo se obtienen el número de filas y columnas de los datos correspondientes a Oceanía, utilizando para ello un nombre que, previamente, habíamos dado a dicho rango de datos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_S09CQUg4MyUyQmdkcmRBNFluV2kzS0VVdGQya3RTcmsyYzNXUnRWN01teDBnJTNE" id="IMG_S09CQUg4MyUyQmdkcmRBNFluV2kzS0VVdGQya3RTcmsyYzNXUnRWN01teDBnJTNE" alt="Búsqueda de datos" title="Búsqueda de datos" width="411" /></p>
+<p><b>Figura 8.1.</b> Determinamos las filas y columnas de un rango de celdillas.</p>
+<p>También puede contar el número de áreas distintas que componen un rango, usando para ello la función AREAS. Ésta toma como parámetro el rango a examinar.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

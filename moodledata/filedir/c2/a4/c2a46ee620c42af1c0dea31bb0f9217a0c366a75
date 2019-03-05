@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.2. Expresiones complejas </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.2. Expresiones complejas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Volvamos a partir de nuestra hoja de cálculo con datos sobre población, concretamente la versión en la que teníamos una serie de cálculos que determinaban el porcentaje de población femenina y población rural. Imagine que desea introducir una nueva columna, a la derecha de todas las existentes hasta ahora, que contenga el valor VERDADERO en caso de que tanto la población femenina como la rural superen el 50%. Tiene que usar dos expresiones relacionales, una para comprobar cada celdilla y combinarlas de tal manera que obtenga el valor VERDADERO sólo en caso de que ambas expresiones sean VERDADERAS.</p>
+<p>En este caso concreto, lo que necesitamos es la función Y. Ésta toma dos o más parámetros, cada uno de los cuales será una expresión relacional. El resultado devuelto será VERDADERO si todas las expresiones son ciertas o FALSO en caso contrario.</p>
+<p>En la figura 7.2 puede ver la hoja de datos antes mencionada con la fórmula introducida y copiada en una nueva columna.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Qm9vMFIlMkJqcWglMkJWcFZYZUpyVWJJYnR0dTFnR05ObWdWUUZidnNjMWQ3eFklM0Q=" id="IMG_Qm9vMFIlMkJqcWglMkJWcFZYZUpyVWJJYnR0dTFnR05ObWdWUUZidnNjMWQ3eFklM0Q=" alt="Funciones lógicas" title="Funciones lógicas" width="430" /></p>
+<p><b>Figura 7.2.</b> Usamos la función Y para crear una expresión lógica compleja.</p>
+<p>Si lo que le interesa es comprobar que una o más de las expresiones sean ciertas, y no todas a la vez, puede usar la función O en lugar de Y. La sintaxis es la misma, la diferencia es que el valor obtenido será VERDADERO siempre que alguna, o varias, de las posibilidades sean ciertas.</p>
+<p>Dicho de otra forma, la única posibilidad de obtener el valor FALSO es que todas las expresiones entregadas como parámetros sean falsas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

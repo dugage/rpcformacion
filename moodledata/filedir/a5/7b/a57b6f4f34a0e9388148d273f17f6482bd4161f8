@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2. Expresiones </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2. Expresiones</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_85" class="block iDevice_content">
+<p>Los datos que se manipulan en el interior de una función o macro, generalmente almacenados en variables o propiedades de objetos, tienen como finalidad producir algún resultado. Por ello, esos datos son en muchas ocasiones utilizados como operandos de expresiones aritméticas, relacionales y lógicas. Es algo que conoce bien, puesto que cada vez que introduce una fórmula en una celdilla está creando una expresión de alguno de esos tipos.</p>
+<p>En Visual Basic, como en otros lenguajes, existen una serie de operadores que permiten componer ese tipo de expresiones. El resultado se almacena, generalmente, en alguna variable. Ésta haría las funciones de celdilla receptora. Tomando como base la expresión siguiente, por ejemplo, la variable Numero sería la receptora del resultado de la expresión que está a la derecha del operador =.</p>
+<p>Numero = Valor * 5 / 100</p>
+<p>Los operadores que podemos usar en las expresiones Visual Basic están resumidos en la tabla 13.2. Aparte de los que ya conocíamos, existen algunos específicos como ∧, para operaciones de potenciación, o Not, para negar un valor. Observe que hay tres grupos: operadores aritméticos, relacionales y lógicos. Casi todos ellos le resultarán familiares puesto que también los usamos habitualmente en Excel.</p>
+<p>A excepción del operador Not, que toma un solo operando, todos los demás son binarios. Esto significa que siempre actúan sobre dos operandos, uno que está dispuesto a la izquierda del operador y otro a la derecha. Dichos operandos pueden ser variables, datos constantes o incluso otras expresiones.</p>
+<p>Siempre que lo precise, puede utilizar paréntesis para agrupar operandos y operadores creando subexpresiones y modificando el orden habitual de las operaciones.</p>
+<p>Mientras que los operadores aritméticos suelen utilizarse para actuar sobre datos y obtener resultados, que se alojarán en una variable o una propiedad de un objeto, los relacionales y lógicos se utilizan más con ciertas estructuras condicionales que va a conocer de inmediato.</p>
+<table style="border-width: 0px; border-collapse: collapse; width: 572px;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top" width="78">
+<p><b>Operador</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Operación que efectúa</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>+</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Suma los dos operandos.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>-</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Resta el segundo operando al primero.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>\</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>División entera del primer operando entre el segundo.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>Mod</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Resto de la división entera.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>*</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Multiplica los dos operandos.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>/</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>División del primer operando entre el segundo.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>∧</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Potencia del primer operando al segundo, que actúa como exponente.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>=</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Comprueba si los dos operandos son iguales.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>&lt;&gt;</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Comprueba si los dos operandos son distintos.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>&lt;</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Comprueba si el primer operando es menos que el segundo.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>&lt;=</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Comprueba si el primer operando es menor o igual que el segundo.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>&gt;</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Comprueba si el primer operando es mayor que el segundo.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>&gt;=</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Comprueba si el primer operando es mayor o igual al segundo.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>And</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Devuelve True si los dos operandos son True.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>Or</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Devuelve True si uno de los dos operandos, o ambos, son True.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="78">
+<p>Xor</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Devuelve True sólo si uno de los dos operandos es True y el otro False.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top" width="78">
+<p>Not</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>Devuelve True si el operando es False y viceversa.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 13.2.</b> Resumen de operadores de Visual Basic.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

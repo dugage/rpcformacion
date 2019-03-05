@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>E-Factura </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">E-Factura</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<p>La facturación electrónica es un equivalente funcional de la factura en papel y consiste en la transmisión de las facturas o documentos análogos entre emisor y receptor por medios electrónicos (ficheros informáticos) y telemáticos (de un ordenador a otro), firmados digitalmente con certificados reconocidos.</p>
+<p>No se podrá generar una factura electrónica si no se localizan los datos obligatorios.</p>
+<p>En esta opción, la aplicación guardará las distintas configuraciones que existen o puedan existir para el envío de las facturas electrónicas. De esta forma se automatiza, en la medida de lo posible, la generación de formatos. Cada uno de las configuraciones que tengamos, serán exclusivas de la empresa donde las tengamos, no son generales para cada una que abramos.</p>
+<p><b>Formatos de envío electrónico</b></p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cTElMkZJSDNMeUp1S1FUWnhWYmFNWTBaMzhrTDBIUWEzUEUlMkZiVnNPTEdmVFUlM0Q=" id="IMG_cTElMkZJSDNMeUp1S1FUWnhWYmFNWTBaMzhrTDBIUWEzUEUlMkZiVnNPTEdmVFUlM0Q=" alt="Útil" title="Útil" width="469" /></p>
+<p>Al añadir un formato nuevo, aparecerá la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_YzlCQVpidVo3cWFYWjhueTNoOFoyYm1ZVEVxOVNBZU5vdWhjQ1hHJTJGdG9NJTNE" id="IMG_YzlCQVpidVo3cWFYWjhueTNoOFoyYm1ZVEVxOVNBZU5vdWhjQ1hHJTJGdG9NJTNE" alt="Útil" title="Útil" width="566" /></p>
+<p>Los campos que presenta esta ventana son los siguientes:</p>
+<ul>
+<li><b>Código del Formato</b>: es un campo obligatorio para continuar. Es alfanumérico.</li>
+<li><b>Descripción del Formato</b>: no es un campo obligatorio y es alfanumérico.</li>
+<li><b>Activo</b>. La aplicación lo marca por defecto, si dejamos el check estará disponible para su utilización.</li>
+<li><b>Sistema de envío</b>: podemos elegir entre envío Manual, por email (correo electrónico) o por CECA (Confederación Española Cajas Ahorro).</li>
+<li><b>Envío Plataforma</b>: los campos este apartado, me mostrarán dependiendo del sistema de envío:</li>
+</ul>
+<ul>
+<li>Web: aparecerá activo si el "Sistema de Envío" está seleccionado es Manual. Debe indicar la dirección de envío</li>
+<li>Email de la plataforma: aparecerá activo si en "Sistema de Envío" está seleccionado Email. Debe indicar en este campo la dirección de correo electrónico.</li>
+<li>CECA: esta opción aparecerá activa si hemos marcado como "Sistema de Envío" CECA. Debemos indicar el Usuario y Clave.</li>
+<li>Empaquetar: si marcamos este check se enviarán todos los documentos electrónicos en un fichero comprimido.</li>
+<li>Único fichero: se marcará de forma automática al utilizar como "Sistema de Envío" CECA.</li>
+</ul>
+<ul>
+<li><b>Formato</b>: en este apartado decidiremos qué tipo de formato queremos.</li>
+<li>XML / UBL: dentro de este formato podemos elegir entre XML-UBL 1.0 o bien Facturae 3.1</li>
+</ul>
+<ul>
+<li>PDF.</li>
+<li>CECA.</li>
+</ul>
+<ul>
+<li><b>Opciones</b>: marcaremos las opciones que deseemos:</li>
+</ul>
+<ul>
+<li>Firmar: marcar si necesitamos una firma electrónica.</li>
+<li>Guardar copia para envío: si marca esta opción, guardará el archivo.</li>
+<li>Carpeta envíos: aquí debe indicar la ruta donde se guardarán los ficheros.</li>
+</ul>
+<p><b>Envío / Consulta Plataforma manual</b></p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OTRScWVRUzNYdlMweU9vV2NITGY3U1Z1cUF3bThLMGphRmgzNkRTZFhnWSUzRA==" id="IMG_OTRScWVRUzNYdlMweU9vV2NITGY3U1Z1cUF3bThLMGphRmgzNkRTZFhnWSUzRA==" alt="Útil" title="Útil" width="447" /></p>
+<p>Mediante esta opción podemos enviar de forma manual los datos de los clientes en formato xml, que luego se pueden importar en el portal de La Caixa, o bien Consultar a la Plataforma CECA.</p>
+<p>En el caso de la exportación, lo hará para todos los clientes que tengan activado la opción "permite envío factura electrónica" independientemente de que hayan sido ya exportados</p>
+<p>Si elegimos la opción <b>Abrir Web</b>, abrirá la Web asociada al Tipo de envío electrónico.</p>
+<p>Si la opción elegida es <b>Generar XML</b> - Clientes en la ruta, debemos especificar una ruta donde generará un fichero XML con los datos del cliente.</p>
+<p><b>Plataforma CECA</b></p>
+<ul>
+<li>Recuperar facturas: una vez que hayamos enviado facturas a través de la Plataforma CECA, podemos recuperarlas mediante esta opción. Para ello, el usuario debe tener acceso total a esta opción, configurado desde el menú Útil \ Perfiles de usuario.</li>
+</ul>
+<p>Al acceder a esta opción se mostrará la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cVJONDZ2bGNkYlIlMkI3U2x1T1BESzgwZzg3VFRPTk1RQ1JyVk51YUEybldBJTNE" id="IMG_cVJONDZ2bGNkYlIlMkI3U2x1T1BESzgwZzg3VFRPTk1RQ1JyVk51YUEybldBJTNE" alt="Útil" title="Útil" width="486" /></p>
+<ul>
+<li><b>Tipo de factura</b>: en esta opción podemos elegir qué documento queremos recuperar, si es factura o factura rectificativa. Esta opción estará habilitada si no elegimos buscarla directamente por serie y número.</li>
+<li><b>Desde / Hasta fecha</b>: en esta opción podremos filtrar por Serie + número de documento (factura o factura rectificativa). Con la lupa podemos acceder a la tabla y elegir.</li>
+<li><b>Desde / hasta Código Cliente</b>: en esta opción podemos filtrar también por Cliente, indicando el Código que le da la aplicación. Podemos elegirlo mediante la lupa.</li>
+<li><b>Desde / Hasta fecha</b>: en este caso podremos filtrar por fecha el tipo de documento que queremos recuperar.</li>
+<li><b>Estado</b>: en este apartado, disponemos de una enumeración de posibles estados de los documentos a recuperar.</li>
+<li><b>Directorio descarga ficheros</b>: elige desde aquí en directorio donde quiere se ubique el documento descargado.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_a0txZDFMdVk2MHBxbTRQbDVpcGgyUVkzY21zSlQxakF1ZnBETyUyRndEdXpzJTNE" id="IMG_a0txZDFMdVk2MHBxbTRQbDVpcGgyUVkzY21zSlQxakF1ZnBETyUyRndEdXpzJTNE" alt="Útil" title="Útil" width="562" /></p>
+<ul>
+<li>Verificar facturas: desde esta opción, podemos verificar las facturas. Debemos de igual forma que en el apartado anterior tener acceso total como usuario, configurado desde el menú Útil \ Perfiles de usuario. Utiliza una pantalla similar a la de Recuperar facturas, y los filtros se utilizan de la misma forma.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZUEwbjRPTkx4S2FNaXIwRFZ6U3pla2NKTXRwNmZHb28lMkI4anZoY1lEMU1RJTNE" id="IMG_ZUEwbjRPTkx4S2FNaXIwRFZ6U3pla2NKTXRwNmZHb28lMkI4anZoY1lEMU1RJTNE" alt="Útil" title="Útil" width="487" /></p>
+<ul>
+<li><b>Tipo de factura</b>: en esta opción podemos elegir qué documento queremos verificar, si es factura o factura rectificativa. Esta opción estará habilitada si no elegimos buscarla directamente por serie y número.</li>
+<li><b>Desde / Hasta fecha</b>: en esta opción podremos filtrar por Serie + número de documento (factura o factura rectificativa). Con la lupa podemos acceder a la tabla y elegir.</li>
+<li><b>Desde / hasta Código Cliente</b>: en esta opción podemos filtrar también por Cliente, indicando el Código que le da la aplicación. Podemos elegirlo mediante la lupa.</li>
+<li><b>Desde / Hasta fecha</b>: en este caso podremos filtrar por fecha el tipo de documento que queremos verificar.</li>
+<li><b>Estado</b>: en este apartado, disponemos de una enumeración de posibles estados de los documentos a verificar.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VnJzckhTZjRORXRTSDVweHJGZmM2NzFKVk9HRUdpTUVkNE00SjFkbXJmdyUzRA==" id="IMG_VnJzckhTZjRORXRTSDVweHJGZmM2NzFKVk9HRUdpTUVkNE00SjFkbXJmdyUzRA==" alt="Útil" title="Útil" width="565" /></p>
+<p>Al finalizar el proceso se mostrará una ventana con una tabla que incluirá las columnas <b>Factura</b> / <b>Estado</b>. Esta tabla puede imprimirla directamente.</p>
+<p>Si no ha realizado la opción, la aplicación le mostrará un mensaje de error indicándole el motivo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

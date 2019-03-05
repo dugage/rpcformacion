@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.2. El libro </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4.2. El libro</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id10">
+<div class="iDevice emphasis0">
+<div id="ta10_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Cada libro de Excel, que hasta ahora hemos utilizado en calidad de usuarios, es la representación de un objeto Workbook.</p>
+<p>Utilizando la colección Workbooks de Application podemos tanto abrir libros existentes como crear otros nuevos. Para ello contamos con los métodos Open y Add, respectivamente. El primero necesita como parámetro el nombre del libro a abrir, en caso necesario con el camino completo.</p>
+<p>Al igual que ocurre con Application, el objeto Workbook cuenta con infinidad de propiedades, colecciones y métodos. Algunas de las colecciones más interesantes son:</p>
+<ul>
+<li>Worksheets: colección con un objeto Worksheet por cada hoja de cálculo que exista en el libro.</li>
+<li>Charts: contiene un objeto Chart por cada gráfico.</li>
+<li>Names: colección con los objetos Name que equivalen a todos los nombres definidos en el libro.</li>
+</ul>
+<p>Usando las propiedades de Workbook puede obtener y modificar su nombre, determinar si se aceptan nombres en las fórmulas, saber si tiene asignada una clave de acceso, etc. Los métodos, también numerosos, pueden ser utilizados para activar un cierto libro, Activate; cerrarlo, Close o protegerlo, Protect.</p>
+<p>Introduzca el código siguiente en un módulo de Visual Basic, modificando el parámetro entregado al método Open para abrir una hoja de cálculo que tenga en su sistema.</p>
+<p>A continuación ejecútelo y observe lo que ocurre. El libro se abre un instante, durante el cual se enumeran sus hojas de cálculo y, a continuación, se cierra.</p>
+<p>Los pasos son bastante sencillos: abrimos el libro usando el método Open activándolo a continuación con el método Activate. Observe cómo usamos la colección Workbooks para acceder al libro recién abierto. A continuación enumeramos todas las hojas y, por cada una de ellas imprimimos el nombre en la ventana Inmediato. Finalmente cerramos el libro entregando como único parámetro el valor False. Con ello indicamos que el libro no debe guardarse aunque tenga cambios.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

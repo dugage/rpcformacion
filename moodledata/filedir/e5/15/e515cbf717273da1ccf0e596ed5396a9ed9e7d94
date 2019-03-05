@@ -1,0 +1,4177 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Examen </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-0" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Examen</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id0">
+<div class="iDevice emphasis0">
+<div id="ta0_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id1">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 1;
+var key1 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b1");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key0b1[i].checked)
+               {
+                  question0 = document.getElementById("quizForm1").key0b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b1");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key1b1[i].checked)
+               {
+                  question1 = document.getElementById("quizForm1").key1b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm1").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm1" id="quizForm1" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-1" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b1" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">1. <b>A lo largo de la historia se han tenido varias visiones sobre la infancia, ¿en qué etapa histórica se establecía que el padre no tenía la obligación de reconocer a sus hijos?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b11" class="sr-av"><a href="#answer-key0b11">Opción 1</a></label><input type="radio" name="key0b1" id="key0b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b11">
+<div id="taoptionAnswer0q0b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En la infancia griega.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b12" class="sr-av"><a href="#answer-key0b12">Opción 2</a></label><input type="radio" name="key0b1" id="key0b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b12">
+<div id="taoptionAnswer1q0b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En la infancia romana.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b13" class="sr-av"><a href="#answer-key0b13">Opción 3</a></label><input type="radio" name="key0b1" id="key0b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b13">
+<div id="taoptionAnswer2q0b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En la infancia de la Edad media.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b1" class="block iDevice_content">
+<div class="numeracion">2. <b>Completa el espacio en blanco del siguiente enunciado:</b> “Período _____________: desde la semana 22 al nacimiento semana 37-42”.</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b11" class="sr-av"><a href="#answer-key1b11">Opción 1</a></label><input type="radio" name="key1b1" id="key1b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b11">
+<div id="taoptionAnswer0q1b1" class="block iDevice_content">
+<p>Embrionario.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b12" class="sr-av"><a href="#answer-key1b12">Opción 2</a></label><input type="radio" name="key1b1" id="key1b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b12">
+<div id="taoptionAnswer1q1b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Fetal precoz.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b13" class="sr-av"><a href="#answer-key1b13">Opción 3</a></label><input type="radio" name="key1b1" id="key1b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b13">
+<div id="taoptionAnswer2q1b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Fetal tardío.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore1"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id2">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2_100" class="block iDevice_content">
+<div class="numeracion">3. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b2" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b2" class="block iDevice_content">
+<p><i>“Periodo neonatal tardío: los primeros 7 días de vida extrauterina”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b2"><input type="radio" name="option0b2" id="true0b2" class="exe-radio-option exe-radio-option-0-2-0b2-truefalse" /> Verdadero</label> 
+<label for="false0b2"><input type="radio" name="option0b2" id="false0b2" class="exe-radio-option exe-radio-option-1-2-0b2-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b2" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b2-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id3">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b3");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm3").key0b3[i].checked)
+               {
+                  question0 = document.getElementById("quizForm3").key0b3[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm3").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm3" id="quizForm3" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-3" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b3" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">4. <b>¿Qué periodo abarca la primera infancia?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b31" class="sr-av"><a href="#answer-key0b31">Opción 1</a></label><input type="radio" name="key0b3" id="key0b31" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b31">
+<div id="taoptionAnswer0q0b3" class="block iDevice_content">
+<p>El primer año.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b32" class="sr-av"><a href="#answer-key0b32">Opción 2</a></label><input type="radio" name="key0b3" id="key0b32" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b32">
+<div id="taoptionAnswer1q0b3" class="block iDevice_content">
+<p>Desde el primer año hasta los 3 años.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b33" class="sr-av"><a href="#answer-key0b33">Opción 3</a></label><input type="radio" name="key0b3" id="key0b33" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b33">
+<div id="taoptionAnswer2q0b3" class="block iDevice_content">
+<p>Desde los 3 años a los 6.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore3"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id4">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta4_100" class="block iDevice_content">
+<div class="numeracion">5. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b4" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b4" class="block iDevice_content">
+<p><i>“Es a partir de los dos años cuando comienzan a manifestar interés, no sólo por sus padres y familiares, sino por otros niños y adultos”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b4"><input type="radio" name="option0b4" id="true0b4" class="exe-radio-option exe-radio-option-0-2-0b4-truefalse" /> Verdadero</label> 
+<label for="false0b4"><input type="radio" name="option0b4" id="false0b4" class="exe-radio-option exe-radio-option-1-2-0b4-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b4" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b4-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id5">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b5");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm5").key0b5[i].checked)
+               {
+                  question0 = document.getElementById("quizForm5").key0b5[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm5").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm5" id="quizForm5" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-5" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b5" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">6. <b>¿Cuándo acontece la socialización secundaria?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b51" class="sr-av"><a href="#answer-key0b51">Opción 1</a></label><input type="radio" name="key0b5" id="key0b51" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b51">
+<div id="taoptionAnswer0q0b5" class="block iDevice_content">
+<p>En la familia.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b52" class="sr-av"><a href="#answer-key0b52">Opción 2</a></label><input type="radio" name="key0b5" id="key0b52" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b52">
+<div id="taoptionAnswer1q0b5" class="block iDevice_content">
+<p>En el grupo de iguales.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b53" class="sr-av"><a href="#answer-key0b53">Opción 3</a></label><input type="radio" name="key0b5" id="key0b53" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b53">
+<div id="taoptionAnswer2q0b5" class="block iDevice_content">
+<p>En la escuela.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore5"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id6">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta6_100" class="block iDevice_content">
+<div class="numeracion">7. <b>Indica si es verdadero o falso los siguientes enunciados:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b6" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b6" class="block iDevice_content">
+<p><i>“Familia y escuela son instituciones y estructuras educativas llamadas a entenderse, cooperar y complementarse mutuamente en beneficio de los destinatarios de la educación”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b6"><input type="radio" name="option0b6" id="true0b6" class="exe-radio-option exe-radio-option-0-2-0b6-truefalse" /> Verdadero</label> 
+<label for="false0b6"><input type="radio" name="option0b6" id="false0b6" class="exe-radio-option exe-radio-option-1-2-0b6-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b6" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b6-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+<section class="question">
+<form name="true-false-form-1b6" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 2</h1>
+<div id="taquestion1b6" class="block iDevice_content">
+<p><i>“Se entiende por grupo de iguales los grupos de amigos de niños que comparten la misma edad, ciertos intereses y una adscripción social similar”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true1b6"><input type="radio" name="option1b6" id="true1b6" class="exe-radio-option exe-radio-option-0-2-1b6-truefalse" /> Verdadero</label> 
+<label for="false1b6"><input type="radio" name="option1b6" id="false1b6" class="exe-radio-option exe-radio-option-1-2-1b6-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s1b6" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s1b6-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id7">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 0;
+var key2 = 1;
+var key3 = 1;
+var key4 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b7");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm7").key0b7[i].checked)
+               {
+                  question0 = document.getElementById("quizForm7").key0b7[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b7");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm7").key1b7[i].checked)
+               {
+                  question1 = document.getElementById("quizForm7").key1b7[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b7");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm7").key2b7[i].checked)
+               {
+                  question2 = document.getElementById("quizForm7").key2b7[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b7");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm7").key3b7[i].checked)
+               {
+                  question3 = document.getElementById("quizForm7").key3b7[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b7");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm7").key4b7[i].checked)
+               {
+                  question4 = document.getElementById("quizForm7").key4b7[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm7").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm7" id="quizForm7" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-7" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b7" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">9. <b>¿En qué subestadio del periodo sensoriomotor el objeto de actividad es exterior al cuerpo del niño sobre objetos?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b71" class="sr-av"><a href="#answer-key0b71">Opción 1</a></label><input type="radio" name="key0b7" id="key0b71" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b71">
+<div id="taoptionAnswer0q0b7" class="block iDevice_content">
+<p>Subestadio 2 de reacciones cíclicas primarias.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b72" class="sr-av"><a href="#answer-key0b72">Opción 2</a></label><input type="radio" name="key0b7" id="key0b72" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b72">
+<div id="taoptionAnswer1q0b7" class="block iDevice_content">
+<p>Subestadio 3 de reacciones cíclicas secundarias.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b73" class="sr-av"><a href="#answer-key0b73">Opción 3</a></label><input type="radio" name="key0b7" id="key0b73" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b73">
+<div id="taoptionAnswer2q0b7" class="block iDevice_content">
+<p>Subestadio 4 de coordinación de esquemas secundarios y aplicación a situaciones nuevas.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b7" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">10. <b>¿En qué consiste el periodo preoperacional?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b71" class="sr-av"><a href="#answer-key1b71">Opción 1</a></label><input type="radio" name="key1b7" id="key1b71" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b71">
+<div id="taoptionAnswer0q1b7" class="block iDevice_content">
+<p>En la transición de las estructuras intelectuales al pensamiento simbólico.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b72" class="sr-av"><a href="#answer-key1b72">Opción 2</a></label><input type="radio" name="key1b7" id="key1b72" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b72">
+<div id="taoptionAnswer1q1b7" class="block iDevice_content">
+<p>En reflexiones sobre los hechos y los objetos de su ambiente.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b73" class="sr-av"><a href="#answer-key1b73">Opción 3</a></label><input type="radio" name="key1b7" id="key1b73" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b73">
+<div id="taoptionAnswer2q1b7" class="block iDevice_content">
+<p>En un sistema coherente de lógica formal.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b7" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">11. <b>¿En qué consiste la etapa de operaciones concretas de la teoría del aprendizaje humano de Jean Piaget?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b71" class="sr-av"><a href="#answer-key2b71">Opción 1</a></label><input type="radio" name="key2b7" id="key2b71" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b71">
+<div id="taoptionAnswer0q2b7" class="block iDevice_content">
+<p>En el comienzo de coordinación de esquemas simples.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b72" class="sr-av"><a href="#answer-key2b72">Opción 2</a></label><input type="radio" name="key2b7" id="key2b72" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b72">
+<div id="taoptionAnswer1q2b7" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En las operaciones mentales y la lógica para reflexionar sobre hechos y objetos de su ambiente.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b73" class="sr-av"><a href="#answer-key2b73">Opción 3</a></label><input type="radio" name="key2b7" id="key2b73" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b73">
+<div id="taoptionAnswer2q2b7" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En un sistema coherente de lógica formal.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b7" class="block iDevice_content">
+<div class="numeracion">12. <b>Completa el espacio en blanco del siguiente enunciado:</b> “______________: tendencia a la fragmentación inconexa de un relato”.</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b71" class="sr-av"><a href="#answer-key3b71">Opción 1</a></label><input type="radio" name="key3b7" id="key3b71" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b71">
+<div id="taoptionAnswer0q3b7" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Irreversibilidad.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b72" class="sr-av"><a href="#answer-key3b72">Opción 2</a></label><input type="radio" name="key3b7" id="key3b72" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b72">
+<div id="taoptionAnswer1q3b7" class="block iDevice_content">
+<p>Yuxtaposición.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b73" class="sr-av"><a href="#answer-key3b73">Opción 3</a></label><input type="radio" name="key3b7" id="key3b73" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b73">
+<div id="taoptionAnswer2q3b7" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Sincretismo.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion4b7" class="block iDevice_content">
+<div class="numeracion">13. <b>Completa el espacio en blanco del siguiente enunciado:</b> “________________. Es la capacidad de extraer una inferencia lógica a partir de la relación entre dos afirmaciones premisas”.</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b71" class="sr-av"><a href="#answer-key4b71">Opción 1</a></label><input type="radio" name="key4b7" id="key4b71" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b71">
+<div id="taoptionAnswer0q4b7" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El razonamiento científico.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b72" class="sr-av"><a href="#answer-key4b72">Opción 2</a></label><input type="radio" name="key4b7" id="key4b72" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b72">
+<div id="taoptionAnswer1q4b7" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La lógica proposicional.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b73" class="sr-av"><a href="#answer-key4b73">Opción 3</a></label><input type="radio" name="key4b7" id="key4b73" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b73">
+<div id="taoptionAnswer2q4b7" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El razonamiento combinatorio.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore7"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id8">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta8_100" class="block iDevice_content">
+<div class="numeracion">14. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b8" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b8" class="block iDevice_content">
+<p><i>“SUPERYO. Frena los impulsos del individuo a través de la conciencia y del yo ideal”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b8"><input type="radio" name="option0b8" id="true0b8" class="exe-radio-option exe-radio-option-0-2-0b8-truefalse" /> Verdadero</label> 
+<label for="false0b8"><input type="radio" name="option0b8" id="false0b8" class="exe-radio-option exe-radio-option-1-2-0b8-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b8" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b8-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id9">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 1;
+var key1 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b9");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm9").key0b9[i].checked)
+               {
+                  question0 = document.getElementById("quizForm9").key0b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b9");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm9").key1b9[i].checked)
+               {
+                  question1 = document.getElementById("quizForm9").key1b9[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm9").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm9" id="quizForm9" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-9" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b9" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">15. <b>Según la teoría psicosocial de Erickson, ¿en qué etapa se tiene el sentimiento de autonomía contra vergüenza o duda?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b91" class="sr-av"><a href="#answer-key0b91">Opción 1</a></label><input type="radio" name="key0b9" id="key0b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b91">
+<div id="taoptionAnswer0q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De 0 a 1 años.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b92" class="sr-av"><a href="#answer-key0b92">Opción 2</a></label><input type="radio" name="key0b9" id="key0b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b92">
+<div id="taoptionAnswer1q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De 2 a 3 años.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b93" class="sr-av"><a href="#answer-key0b93">Opción 3</a></label><input type="radio" name="key0b9" id="key0b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b93">
+<div id="taoptionAnswer2q0b9" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De 4 a 5 años.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b9" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">16. <b>En la teoría de Wallon sobre el desarrollo de la personalidad, ¿en qué etapa el niño no distingue su yo de los demás?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b91" class="sr-av"><a href="#answer-key1b91">Opción 1</a></label><input type="radio" name="key1b9" id="key1b91" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b91">
+<div id="taoptionAnswer0q1b9" class="block iDevice_content">
+<p>En el estadio impulsivo-motor (0 a 3 meses).</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b92" class="sr-av"><a href="#answer-key1b92">Opción 2</a></label><input type="radio" name="key1b9" id="key1b92" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b92">
+<div id="taoptionAnswer1q1b9" class="block iDevice_content">
+<p>En el nivel emocional (3 meses a 1 año).</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b93" class="sr-av"><a href="#answer-key1b93">Opción 3</a></label><input type="radio" name="key1b9" id="key1b93" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b93">
+<div id="taoptionAnswer2q1b9" class="block iDevice_content">
+<p>En el periodo sensoriomotor y proyectivo (1 a 3 años).</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore9"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id10">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta10_100" class="block iDevice_content">
+<div class="numeracion">17. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b10" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b10" class="block iDevice_content">
+<p><i>“Fase de identificación, de definición por contraste de rendimientos (2-4 años)”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b10"><input type="radio" name="option0b10" id="true0b10" class="exe-radio-option exe-radio-option-0-2-0b10-truefalse" /> Verdadero</label> 
+<label for="false0b10"><input type="radio" name="option0b10" id="false0b10" class="exe-radio-option exe-radio-option-1-2-0b10-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b10" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b10-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id11">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-11_108">
+<form name="multi-select-form-11_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion11_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">18. <b>¿En qué cosiste la hipotonía? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op11_1080" class="sr-av"><a href="#answer-11_111">Opción 1</a></label><input type="checkbox" id="op11_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-11_111"><div id="taans11_111" class="block iDevice_content">
+<p>Disminución o falta de movimiento.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-11_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op11_1081" class="sr-av"><a href="#answer-11_196">Opción 2</a></label><input type="checkbox" id="op11_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-11_196"><div id="taans11_196" class="block iDevice_content">
+<p>Movimientos descontrolados.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-11_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op11_1082" class="sr-av"><a href="#answer-11_198">Opción 3</a></label><input type="checkbox" id="op11_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-11_198"><div id="taans11_198" class="block iDevice_content">
+<p>Cuello y extremidades muy relajadas.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-11_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-11_108" /> 
+</p>
+</div>
+<section id="f11_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-11_111" class="right">Correcto</a></li>
+<li><a href="#answer-11_196" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-11_198" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id12">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b12");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm12").key0b12[i].checked)
+               {
+                  question0 = document.getElementById("quizForm12").key0b12[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm12").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm12" id="quizForm12" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-12" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b12" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">19. <b>¿Hasta que edad no se alcanza la independencia motriz?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b121" class="sr-av"><a href="#answer-key0b121">Opción 1</a></label><input type="radio" name="key0b12" id="key0b121" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b121">
+<div id="taoptionAnswer0q0b12" class="block iDevice_content">
+<p>Hasta los 5 años.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b122" class="sr-av"><a href="#answer-key0b122">Opción 2</a></label><input type="radio" name="key0b12" id="key0b122" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b122">
+<div id="taoptionAnswer1q0b12" class="block iDevice_content">
+<p>Hasta los 6 años.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b123" class="sr-av"><a href="#answer-key0b123">Opción 3</a></label><input type="radio" name="key0b12" id="key0b123" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b123">
+<div id="taoptionAnswer2q0b12" class="block iDevice_content">
+<p>Hasta los 7 u 8 años.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore12"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id13">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta13_100" class="block iDevice_content">
+<div class="numeracion">20. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b13" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b13" class="block iDevice_content">
+<p><i>“Cuanto más equilibrio se tiene más energía se consume en la ejecución y coordinación de determinada acción”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b13"><input type="radio" name="option0b13" id="true0b13" class="exe-radio-option exe-radio-option-0-2-0b13-truefalse" /> Verdadero</label> 
+<label for="false0b13"><input type="radio" name="option0b13" id="false0b13" class="exe-radio-option exe-radio-option-1-2-0b13-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b13" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b13-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+<section class="question">
+<form name="true-false-form-1b13" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 2</h1>
+<div id="taquestion1b13" class="block iDevice_content">
+<div class="numeracion">21. <i>“Exogamia: se denomina así al matrimonio, unión y reproducción entre individuos de ascendencia común”.</i></div>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true1b13"><input type="radio" name="option1b13" id="true1b13" class="exe-radio-option exe-radio-option-0-2-1b13-truefalse" /> Verdadero</label> 
+<label for="false1b13"><input type="radio" name="option1b13" id="false1b13" class="exe-radio-option exe-radio-option-1-2-1b13-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s1b13" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s1b13-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id14">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 1;
+var key1 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b14");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm14").key0b14[i].checked)
+               {
+                  question0 = document.getElementById("quizForm14").key0b14[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b14");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm14").key1b14[i].checked)
+               {
+                  question1 = document.getElementById("quizForm14").key1b14[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm14").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm14" id="quizForm14" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-14" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b14" class="block iDevice_content">
+<div class="numeracion">
+<div class="numeracion">22. <b>Completa el espacio en blanco del siguiente enunciado:</b> “_____________: define la convivencia de una pareja casada en el hogar de la madre de la esposa”. </div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b141" class="sr-av"><a href="#answer-key0b141">Opción 1</a></label><input type="radio" name="key0b14" id="key0b141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b141">
+<div id="taoptionAnswer0q0b14" class="block iDevice_content">
+<p>Patrilocalidad.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b142" class="sr-av"><a href="#answer-key0b142">Opción 2</a></label><input type="radio" name="key0b14" id="key0b142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b142">
+<div id="taoptionAnswer1q0b14" class="block iDevice_content">
+<p>Matrilocalidad.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b143" class="sr-av"><a href="#answer-key0b143">Opción 3</a></label><input type="radio" name="key0b14" id="key0b143" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b143">
+<div id="taoptionAnswer2q0b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Neolocalidad.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b14" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">23. <b>¿Qué función de las que tiene la familia es la orientada a proveer de alimentos a los hijos?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b141" class="sr-av"><a href="#answer-key1b141">Opción 1</a></label><input type="radio" name="key1b14" id="key1b141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b141">
+<div id="taoptionAnswer0q1b14" class="block iDevice_content">
+<p>Biológica.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b142" class="sr-av"><a href="#answer-key1b142">Opción 2</a></label><input type="radio" name="key1b14" id="key1b142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b142">
+<div id="taoptionAnswer1q1b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Económica.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b143" class="sr-av"><a href="#answer-key1b143">Opción 3</a></label><input type="radio" name="key1b14" id="key1b143" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b143">
+<div id="taoptionAnswer2q1b14" class="block iDevice_content">
+<p>Educativa.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore14"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id15">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta15_100" class="block iDevice_content">
+<div class="numeracion">24. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b15" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b15" class="block iDevice_content">
+<p><i>“La familia y la escuela son los contextos que contribuyen a crear el ambiente adecuado que propicie el desarrollo saludable del niño, es decir, que crezca física, psíquica y emocionalmente sano”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b15"><input type="radio" name="option0b15" id="true0b15" class="exe-radio-option exe-radio-option-0-2-0b15-truefalse" /> Verdadero</label> 
+<label for="false0b15"><input type="radio" name="option0b15" id="false0b15" class="exe-radio-option exe-radio-option-1-2-0b15-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b15" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b15-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id16">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b16");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm16").key0b16[i].checked)
+               {
+                  question0 = document.getElementById("quizForm16").key0b16[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm16").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm16" id="quizForm16" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-16" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b16" class="block iDevice_content">
+<div class="numeracion">25. <b>Completa el espacio en blanco del siguiente enunciado:</b> “Los padres que tienden a un estilo _____________ son aquellos que pretenden evitar toda dificultad o posibles problemas a sus hijos, les brindan ayuda a todo llegando incluso hacer las cosas por ellos”.</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b161" class="sr-av"><a href="#answer-key0b161">Opción 1</a></label><input type="radio" name="key0b16" id="key0b161" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b161">
+<div id="taoptionAnswer0q0b16" class="block iDevice_content">
+<p>Negligente.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b162" class="sr-av"><a href="#answer-key0b162">Opción 2</a></label><input type="radio" name="key0b16" id="key0b162" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b162">
+<div id="taoptionAnswer1q0b16" class="block iDevice_content">
+<p>Sobreprotector.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b163" class="sr-av"><a href="#answer-key0b163">Opción 3</a></label><input type="radio" name="key0b16" id="key0b163" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b163">
+<div id="taoptionAnswer2q0b16" class="block iDevice_content">
+<p>Asertivo.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore16"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id17">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-17_108">
+<form name="multi-select-form-17_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion17_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">26. <b>¿Cómo son los padres autoritarios? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op17_1080" class="sr-av"><a href="#answer-17_111">Opción 1</a></label><input type="checkbox" id="op17_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-17_111"><div id="taans17_111" class="block iDevice_content">
+<p>Exigentes.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-17_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op17_1081" class="sr-av"><a href="#answer-17_213">Opción 2</a></label><input type="checkbox" id="op17_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-17_213"><div id="taans17_213" class="block iDevice_content">
+<p>Dialogantes.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-17_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op17_1082" class="sr-av"><a href="#answer-17_215">Opción 3</a></label><input type="checkbox" id="op17_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-17_215"><div id="taans17_215" class="block iDevice_content">
+<p>Fríos.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-17_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-17_108" /> 
+</p>
+</div>
+<section id="f17_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-17_111" class="right">Correcto</a></li>
+<li><a href="#answer-17_213" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-17_215" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+<section class="question">
+<div id="actitity-17_217">
+<form name="multi-select-form-17_217" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion17_217" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">27. <b>¿Cómo suelen ser los hijos de padres democráticos? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op17_2170" class="sr-av"><a href="#answer-17_220">Opción 1</a></label><input type="checkbox" id="op17_2170" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-17_220"><div id="taans17_220" class="block iDevice_content">
+<p>Responsables.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-17_2170" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op17_2171" class="sr-av"><a href="#answer-17_222">Opción 2</a></label><input type="checkbox" id="op17_2171" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-17_222"><div id="taans17_222" class="block iDevice_content">
+<p>Buen nivel de autoestima.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-17_2171" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op17_2172" class="sr-av"><a href="#answer-17_224">Opción 3</a></label><input type="checkbox" id="op17_2172" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-17_224"><div id="taans17_224" class="block iDevice_content">
+<p>Dependientes.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-17_2172" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-17_217" /> 
+</p>
+</div>
+<section id="f17_217" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-17_220" class="right">Correcto</a></li>
+<li><a href="#answer-17_222" class="right">Correcto</a></li>
+<li><a href="#answer-17_224" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id18">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta18_100" class="block iDevice_content">
+<div class="numeracion">28. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b18" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b18" class="block iDevice_content">
+<p>“La familia y la escuela pueden desempeñar la función educativa de manera aislada y diferenciada la una de la otra”.</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b18"><input type="radio" name="option0b18" id="true0b18" class="exe-radio-option exe-radio-option-0-2-0b18-truefalse" /> Verdadero</label> 
+<label for="false0b18"><input type="radio" name="option0b18" id="false0b18" class="exe-radio-option exe-radio-option-1-2-0b18-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b18" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b18-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+<section class="question">
+<form name="true-false-form-1b18" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 2</h1>
+<div id="taquestion1b18" class="block iDevice_content">
+<p>29. <i>“La psicoeducación tiene por objeto poner solución al trastorno presente en el niño”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true1b18"><input type="radio" name="option1b18" id="true1b18" class="exe-radio-option exe-radio-option-0-2-1b18-truefalse" /> Verdadero</label> 
+<label for="false1b18"><input type="radio" name="option1b18" id="false1b18" class="exe-radio-option exe-radio-option-1-2-1b18-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s1b18" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s1b18-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id19">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-19_108">
+<form name="multi-select-form-19_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion19_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">30. <b>¿En qué puede derivar los trastornos de ansiedad sino se trata con urgencia? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_1080" class="sr-av"><a href="#answer-19_111">Opción 1</a></label><input type="checkbox" id="op19_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_111"><div id="taans19_111" class="block iDevice_content">
+<p>En ausencias o incapacidad para terminar el periodo escolar.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_1081" class="sr-av"><a href="#answer-19_229">Opción 2</a></label><input type="checkbox" id="op19_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_229"><div id="taans19_229" class="block iDevice_content">
+<p>Trastorno de ansiedad en la edad adulta.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_1082" class="sr-av"><a href="#answer-19_231">Opción 3</a></label><input type="checkbox" id="op19_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_231"><div id="taans19_231" class="block iDevice_content">
+<p>En otros trastornos.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-19_108" /> 
+</p>
+</div>
+<section id="f19_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-19_111" class="right">Correcto</a></li>
+<li><a href="#answer-19_229" class="right">Correcto</a></li>
+<li><a href="#answer-19_231" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+<section class="question">
+<div id="actitity-19_233">
+<form name="multi-select-form-19_233" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion19_233" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">31. <b>¿Qué factores personales están implicados en la génesis y en el mantenimiento del trastorno de ansiedad? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_2330" class="sr-av"><a href="#answer-19_236">Opción 1</a></label><input type="checkbox" id="op19_2330" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_236"><div id="taans19_236" class="block iDevice_content">
+<p>La autoestima.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_2330" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_2331" class="sr-av"><a href="#answer-19_238">Opción 2</a></label><input type="checkbox" id="op19_2331" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_238"><div id="taans19_238" class="block iDevice_content">
+<p>El autoconcepto.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_2331" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_2332" class="sr-av"><a href="#answer-19_240">Opción 3</a></label><input type="checkbox" id="op19_2332" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_240"><div id="taans19_240" class="block iDevice_content">
+<p>Los rasgo de personalidad.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_2332" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-19_233" /> 
+</p>
+</div>
+<section id="f19_233" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-19_236" class="right">Correcto</a></li>
+<li><a href="#answer-19_238" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-19_240" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+<section class="question">
+<div id="actitity-19_242">
+<form name="multi-select-form-19_242" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion19_242" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">32. <b>¿Qué aspectos hay que atender para evaluar el problema del niño? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_2420" class="sr-av"><a href="#answer-19_245">Opción 1</a></label><input type="checkbox" id="op19_2420" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_245"><div id="taans19_245" class="block iDevice_content">
+<p>La motivación.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_2420" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_2421" class="sr-av"><a href="#answer-19_247">Opción 2</a></label><input type="checkbox" id="op19_2421" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_247"><div id="taans19_247" class="block iDevice_content">
+<p>La fase evolutiva del niño.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_2421" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_2422" class="sr-av"><a href="#answer-19_249">Opción 3</a></label><input type="checkbox" id="op19_2422" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_249"><div id="taans19_249" class="block iDevice_content">
+<p>Las creencias e ideas que tiene el niño.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_2422" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-19_242" /> 
+</p>
+</div>
+<section id="f19_242" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-19_245" class="right">Correcto</a></li>
+<li><a href="#answer-19_247" class="right">Correcto</a></li>
+<li><a href="#answer-19_249" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+<section class="question">
+<div id="actitity-19_251">
+<form name="multi-select-form-19_251" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion19_251" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">33. <b>¿Qué habrá que tener en cuenta también aunque el niño tenga un desarrollo normal dentro de su fase evolutiva? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_2510" class="sr-av"><a href="#answer-19_254">Opción 1</a></label><input type="checkbox" id="op19_2510" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_254"><div id="taans19_254" class="block iDevice_content">
+<p>La frecuencia.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_2510" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_2511" class="sr-av"><a href="#answer-19_256">Opción 2</a></label><input type="checkbox" id="op19_2511" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_256"><div id="taans19_256" class="block iDevice_content">
+<p>El modo.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_2511" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op19_2512" class="sr-av"><a href="#answer-19_258">Opción 3</a></label><input type="checkbox" id="op19_2512" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-19_258"><div id="taans19_258" class="block iDevice_content">
+<p>La duración.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-19_2512" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-19_251" /> 
+</p>
+</div>
+<section id="f19_251" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-19_254" class="right">Correcto</a></li>
+<li><a href="#answer-19_256" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-19_258" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id20">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta20_100" class="block iDevice_content">
+<div class="numeracion">34. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b20" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b20" class="block iDevice_content">
+<p><i>“Se debe de entrenar a los padres en estrategias para enseñar a su hijo a enfrentarse al problema”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b20"><input type="radio" name="option0b20" id="true0b20" class="exe-radio-option exe-radio-option-0-2-0b20-truefalse" /> Verdadero</label> 
+<label for="false0b20"><input type="radio" name="option0b20" id="false0b20" class="exe-radio-option exe-radio-option-1-2-0b20-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b20" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b20-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id21">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 2;
+var key1 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b21");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm21").key0b21[i].checked)
+               {
+                  question0 = document.getElementById("quizForm21").key0b21[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b21");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm21").key1b21[i].checked)
+               {
+                  question1 = document.getElementById("quizForm21").key1b21[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm21").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm21" id="quizForm21" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-21" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b21" class="block iDevice_content">
+<div class="numeracion">35. <b>Completa el espacio en blanco del siguiente enunciado:</b> “Fase de _______________. El organismo pierde la capacidad de activación y desciende por debajo de los niveles habituales debido a la falta de recursos”.</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b211" class="sr-av"><a href="#answer-key0b211">Opción 1</a></label><input type="radio" name="key0b21" id="key0b211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b211">
+<div id="taoptionAnswer0q0b21" class="block iDevice_content">
+<p>Resistencia.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b212" class="sr-av"><a href="#answer-key0b212">Opción 2</a></label><input type="radio" name="key0b21" id="key0b212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b212">
+<div id="taoptionAnswer1q0b21" class="block iDevice_content">
+<p>Alarma.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b213" class="sr-av"><a href="#answer-key0b213">Opción 3</a></label><input type="radio" name="key0b21" id="key0b213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b213">
+<div id="taoptionAnswer2q0b21" class="block iDevice_content">
+<p>Agotamiento.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b21" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">36. <b>¿Qué tipo de estrés, atendiendo a la clasificación de definiciones, es el que enfatiza que el estrés es una relación particular entre el individuo y el entorno?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b211" class="sr-av"><a href="#answer-key1b211">Opción 1</a></label><input type="radio" name="key1b21" id="key1b211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b211">
+<div id="taoptionAnswer0q1b21" class="block iDevice_content">
+<p>Estrés como respuesta.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b212" class="sr-av"><a href="#answer-key1b212">Opción 2</a></label><input type="radio" name="key1b21" id="key1b212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b212">
+<div id="taoptionAnswer1q1b21" class="block iDevice_content">
+<p>Estrés como estímulo.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b213" class="sr-av"><a href="#answer-key1b213">Opción 3</a></label><input type="radio" name="key1b21" id="key1b213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b213">
+<div id="taoptionAnswer2q1b21" class="block iDevice_content">
+<p>Enfoque interactivo.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore21"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id22">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta22_100" class="block iDevice_content">
+<div class="numeracion">37. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b22" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b22" class="block iDevice_content">
+<p><i>“Estrés negativo o distrés. Es un estímulo estresante de forma que amenaza con trastornar algunos aspectos”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b22"><input type="radio" name="option0b22" id="true0b22" class="exe-radio-option exe-radio-option-0-2-0b22-truefalse" /> Verdadero</label> 
+<label for="false0b22"><input type="radio" name="option0b22" id="false0b22" class="exe-radio-option exe-radio-option-1-2-0b22-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b22" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b22-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id23">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-23_108">
+<form name="multi-select-form-23_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion23_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">38. <b>¿Qué síntomas puede presentar una persona que presenta estrés positivo o eustrés? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op23_1080" class="sr-av"><a href="#answer-23_111">Opción 1</a></label><input type="checkbox" id="op23_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-23_111"><div id="taans23_111" class="block iDevice_content">
+<p>Alto nivel de energía.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-23_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op23_1081" class="sr-av"><a href="#answer-23_266">Opción 2</a></label><input type="checkbox" id="op23_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-23_266"><div id="taans23_266" class="block iDevice_content">
+<p>Ansiedad.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-23_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op23_1082" class="sr-av"><a href="#answer-23_268">Opción 3</a></label><input type="checkbox" id="op23_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-23_268"><div id="taans23_268" class="block iDevice_content">
+<p>Percepción clara.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-23_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-23_108" /> 
+</p>
+</div>
+<section id="f23_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-23_111" class="right">Correcto</a></li>
+<li><a href="#answer-23_266" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-23_268" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id24">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta24_100" class="block iDevice_content">
+<div class="numeracion">39. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b24" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b24" class="block iDevice_content">
+<p><i>“Para que un estímulo psicológico sea estresor son importantes su intensidad, duración, novedad y sorpresa”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b24"><input type="radio" name="option0b24" id="true0b24" class="exe-radio-option exe-radio-option-0-2-0b24-truefalse" /> Verdadero</label> 
+<label for="false0b24"><input type="radio" name="option0b24" id="false0b24" class="exe-radio-option exe-radio-option-1-2-0b24-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b24" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b24-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id25">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 1;
+var key1 = 0;
+var key2 = 1;
+var key3 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b25");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm25").key0b25[i].checked)
+               {
+                  question0 = document.getElementById("quizForm25").key0b25[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b25");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm25").key1b25[i].checked)
+               {
+                  question1 = document.getElementById("quizForm25").key1b25[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b25");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm25").key2b25[i].checked)
+               {
+                  question2 = document.getElementById("quizForm25").key2b25[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b25");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm25").key3b25[i].checked)
+               {
+                  question3 = document.getElementById("quizForm25").key3b25[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm25").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm25" id="quizForm25" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-25" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b25" class="block iDevice_content">
+<div class="numeracion">40. <b>Completa el espacio en blanco del siguiente enunciado:</b> “Estresor_______________: es la amenaza atribuida a la reacción interna de la persona”.</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b251" class="sr-av"><a href="#answer-key0b251">Opción 1</a></label><input type="radio" name="key0b25" id="key0b251" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b251">
+<div id="taoptionAnswer0q0b25" class="block iDevice_content">
+<p>Físico.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b252" class="sr-av"><a href="#answer-key0b252">Opción 2</a></label><input type="radio" name="key0b25" id="key0b252" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b252">
+<div id="taoptionAnswer1q0b25" class="block iDevice_content">
+<p>Psicológico.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b253" class="sr-av"><a href="#answer-key0b253">Opción 3</a></label><input type="radio" name="key0b25" id="key0b253" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b253">
+<div id="taoptionAnswer2q0b25" class="block iDevice_content">
+<p>Psicosocial.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b25" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">41. <b>¿Cuál de los síntomas más comunes del estrés agudo es una combinación de enojo, ansiedad y depresión?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b251" class="sr-av"><a href="#answer-key1b251">Opción 1</a></label><input type="radio" name="key1b25" id="key1b251" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b251">
+<div id="taoptionAnswer0q1b25" class="block iDevice_content">
+<p>Agonía emocional.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b252" class="sr-av"><a href="#answer-key1b252">Opción 2</a></label><input type="radio" name="key1b25" id="key1b252" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b252">
+<div id="taoptionAnswer1q1b25" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Sobreexcitación pasajera.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b253" class="sr-av"><a href="#answer-key1b253">Opción 3</a></label><input type="radio" name="key1b25" id="key1b253" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b253">
+<div id="taoptionAnswer2q1b25" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Dispepsia.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b25" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">42. <b>Según Asterita, ¿qué tipo de estrategias son aquellas que van encaminadas a analizar el problema y a prevenir?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b251" class="sr-av"><a href="#answer-key2b251">Opción 1</a></label><input type="radio" name="key2b25" id="key2b251" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b251">
+<div id="taoptionAnswer0q2b25" class="block iDevice_content">
+<p>Estrategias secundarias.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b252" class="sr-av"><a href="#answer-key2b252">Opción 2</a></label><input type="radio" name="key2b25" id="key2b252" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b252">
+<div id="taoptionAnswer1q2b25" class="block iDevice_content">
+<p>Estrategias primarias.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b253" class="sr-av"><a href="#answer-key2b253">Opción 3</a></label><input type="radio" name="key2b25" id="key2b253" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b253">
+<div id="taoptionAnswer2q2b25" class="block iDevice_content">
+<p>Estrategias terciarias.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b25" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">43. <b>¿Y en qué consisten las estrategias terciarias según Asterita?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b251" class="sr-av"><a href="#answer-key3b251">Opción 1</a></label><input type="radio" name="key3b25" id="key3b251" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b251">
+<div id="taoptionAnswer0q3b25" class="block iDevice_content">
+<p>En reducir o eliminar los elementos estresores.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b252" class="sr-av"><a href="#answer-key3b252">Opción 2</a></label><input type="radio" name="key3b25" id="key3b252" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b252">
+<div id="taoptionAnswer1q3b25" class="block iDevice_content">
+<p>En el manejo del estrés.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b253" class="sr-av"><a href="#answer-key3b253">Opción 3</a></label><input type="radio" name="key3b25" id="key3b253" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b253">
+<div id="taoptionAnswer2q3b25" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En el tratamiento por un profesional del estrés.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore25"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id26">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta26_100" class="block iDevice_content">
+<div class="numeracion">44. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b26" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b26" class="block iDevice_content">
+<p><i>“El afrontamiento basado en evitación se refiere a estrategias cognitivas, emocionales y conductuales dirigidas a no enfrentarse con el problema”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b26"><input type="radio" name="option0b26" id="true0b26" class="exe-radio-option exe-radio-option-0-2-0b26-truefalse" /> Verdadero</label> 
+<label for="false0b26"><input type="radio" name="option0b26" id="false0b26" class="exe-radio-option exe-radio-option-1-2-0b26-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b26" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b26-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+<section class="question">
+<form name="true-false-form-1b26" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 2</h1>
+<div id="taquestion1b26" class="block iDevice_content">
+<div class="numeracion">45.<b> <i>“</i></b><i>A lo largo de la vida, un niño no puede experimentar una serie de circunstancias que le provoquen angustia”.</i><b><br /></b></div>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true1b26"><input type="radio" name="option1b26" id="true1b26" class="exe-radio-option exe-radio-option-0-2-1b26-truefalse" /> Verdadero</label> 
+<label for="false1b26"><input type="radio" name="option1b26" id="false1b26" class="exe-radio-option exe-radio-option-1-2-1b26-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s1b26" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s1b26-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id28">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-28_108">
+<form name="multi-select-form-28_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion28_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">46. <b>¿Qué tipo de miedos suelen surgir en la infancia en la etapa de 5-12 años? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op28_1080" class="sr-av"><a href="#answer-28_111">Opción 1</a></label><input type="checkbox" id="op28_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-28_111"><div id="taans28_111" class="block iDevice_content">
+<p>Miedos a la escuela.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-28_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op28_1081" class="sr-av"><a href="#answer-28_287">Opción 2</a></label><input type="checkbox" id="op28_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-28_287"><div id="taans28_287" class="block iDevice_content">
+<p>Miedos relacionados con el sueño.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-28_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op28_1082" class="sr-av"><a href="#answer-28_289">Opción 3</a></label><input type="checkbox" id="op28_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-28_289"><div id="taans28_289" class="block iDevice_content">
+<p>Miedo a los animales.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-28_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-28_108" /> 
+</p>
+</div>
+<section id="f28_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-28_111" class="right">Correcto</a></li>
+<li><a href="#answer-28_287" class="right">Correcto</a></li>
+<li><a href="#answer-28_289" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id29">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b29");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm29").key0b29[i].checked)
+               {
+                  question0 = document.getElementById("quizForm29").key0b29[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm29").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm29" id="quizForm29" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-29" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b29" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">47. <b>La ansiedad ante situaciones sociales suele ser más frecuente en…</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b291" class="sr-av"><a href="#answer-key0b291">Opción 1</a></label><input type="radio" name="key0b29" id="key0b291" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b291">
+<div id="taoptionAnswer0q0b29" class="block iDevice_content">
+<p>Los primeros años de vida.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b292" class="sr-av"><a href="#answer-key0b292">Opción 2</a></label><input type="radio" name="key0b29" id="key0b292" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b292">
+<div id="taoptionAnswer1q0b29" class="block iDevice_content">
+<p>La etapa de los 5-12 años.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b293" class="sr-av"><a href="#answer-key0b293">Opción 3</a></label><input type="radio" name="key0b29" id="key0b293" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b293">
+<div id="taoptionAnswer2q0b29" class="block iDevice_content">
+<p>La adolescencia.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore29"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id30">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-30_108">
+<form name="multi-select-form-30_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion30_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">48. <b>¿Cuándo se convierten los miedos en fobias? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op30_1080" class="sr-av"><a href="#answer-30_111">Opción 1</a></label><input type="checkbox" id="op30_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-30_111"><div id="taans30_111" class="block iDevice_content">
+<p>Cuando son desproporcionados.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-30_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op30_1081" class="sr-av"><a href="#answer-30_293">Opción 2</a></label><input type="checkbox" id="op30_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-30_293"><div id="taans30_293" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Cuando son específicos de una edad determinada.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-30_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op30_1082" class="sr-av"><a href="#answer-30_295">Opción 3</a></label><input type="checkbox" id="op30_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-30_295"><div id="taans30_295" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Cuando no pueden ser eliminados racionalmente.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-30_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-30_108" /> 
+</p>
+</div>
+<section id="f30_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-30_111" class="right">Correcto</a></li>
+<li><a href="#answer-30_293" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-30_295" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id31">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 2;
+var key1 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b31");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm31").key0b31[i].checked)
+               {
+                  question0 = document.getElementById("quizForm31").key0b31[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b31");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm31").key1b31[i].checked)
+               {
+                  question1 = document.getElementById("quizForm31").key1b31[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm31").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm31" id="quizForm31" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-31" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b31" class="block iDevice_content">
+<div class="numeracion">49. <b>Completa el espacio en blanco del siguiente enunciado:</b> “El trastorno ___________________ no está enfocado en una situación u objeto determinado”.</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b311" class="sr-av"><a href="#answer-key0b311">Opción 1</a></label><input type="radio" name="key0b31" id="key0b311" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b311">
+<div id="taoptionAnswer0q0b31" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De ansiedad por separación.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b312" class="sr-av"><a href="#answer-key0b312">Opción 2</a></label><input type="radio" name="key0b31" id="key0b312" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b312">
+<div id="taoptionAnswer1q0b31" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">De pánico.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b313" class="sr-av"><a href="#answer-key0b313">Opción 3</a></label><input type="radio" name="key0b31" id="key0b313" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b313">
+<div id="taoptionAnswer2q0b31" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">De ansiedad generalizada.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b31" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">50. <b>¿A qué edad suele aparecer el trastorno obsesivo compulsivo?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b311" class="sr-av"><a href="#answer-key1b311">Opción 1</a></label><input type="radio" name="key1b31" id="key1b311" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b311">
+<div id="taoptionAnswer0q1b31" class="block iDevice_content">
+<p>5 años.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b312" class="sr-av"><a href="#answer-key1b312">Opción 2</a></label><input type="radio" name="key1b31" id="key1b312" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b312">
+<div id="taoptionAnswer1q1b31" class="block iDevice_content">
+<p>6 años.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b313" class="sr-av"><a href="#answer-key1b313">Opción 3</a></label><input type="radio" name="key1b31" id="key1b313" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b313">
+<div id="taoptionAnswer2q1b31" class="block iDevice_content">
+<p>8 años.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore31"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id32">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta32_100" class="block iDevice_content">
+<div class="numeracion">51. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b32" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b32" class="block iDevice_content">
+<p><i>“Los niños con fobia social presentan, distintos grados de depresión, así como también poca confianza en sus habilidades”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b32"><input type="radio" name="option0b32" id="true0b32" class="exe-radio-option exe-radio-option-0-2-0b32-truefalse" /> Verdadero</label> 
+<label for="false0b32"><input type="radio" name="option0b32" id="false0b32" class="exe-radio-option exe-radio-option-1-2-0b32-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b32" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b32-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id33">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-33_108">
+<form name="multi-select-form-33_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion33_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">52. <b>¿Qué tres categorías de ansiedad infantil distinguía el DSM-III? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op33_1080" class="sr-av"><a href="#answer-33_111">Opción 1</a></label><input type="checkbox" id="op33_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-33_111"><div id="taans33_111" class="block iDevice_content">
+<p>Trastorno por angustia de separación.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-33_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op33_1081" class="sr-av"><a href="#answer-33_304">Opción 2</a></label><input type="checkbox" id="op33_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-33_304"><div id="taans33_304" class="block iDevice_content">
+<p>Trastorno de evitación.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-33_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op33_1082" class="sr-av"><a href="#answer-33_306">Opción 3</a></label><input type="checkbox" id="op33_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-33_306"><div id="taans33_306" class="block iDevice_content">
+<p>Fobia social.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-33_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-33_108" /> 
+</p>
+</div>
+<section id="f33_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-33_111" class="right">Correcto</a></li>
+<li><a href="#answer-33_304" class="right">Correcto</a></li>
+<li><a href="#answer-33_306" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id34">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta34_100" class="block iDevice_content">
+<div class="numeracion">53. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b34" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b34" class="block iDevice_content">
+<p><i>“Trastorno de evitación. Se caracteriza por la excesiva evitación del contacto con personas desconocidas durante un período superior a 4 meses e interfiere en las relaciones sociales con los compañeros de juego o de colegio”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b34"><input type="radio" name="option0b34" id="true0b34" class="exe-radio-option exe-radio-option-0-2-0b34-truefalse" /> Verdadero</label> 
+<label for="false0b34"><input type="radio" name="option0b34" id="false0b34" class="exe-radio-option exe-radio-option-1-2-0b34-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b34" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b34-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id35">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 0;
+var key1 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b35");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm35").key0b35[i].checked)
+               {
+                  question0 = document.getElementById("quizForm35").key0b35[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b35");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm35").key1b35[i].checked)
+               {
+                  question1 = document.getElementById("quizForm35").key1b35[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm35").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm35" id="quizForm35" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-35" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b35" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">54. <b>¿Qué escala valora la ansiedad estado y la ansiedad rasgo en la versión para niños?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b351" class="sr-av"><a href="#answer-key0b351">Opción 1</a></label><input type="radio" name="key0b35" id="key0b351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b351">
+<div id="taoptionAnswer0q0b35" class="block iDevice_content">
+<p>STAI-C.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b352" class="sr-av"><a href="#answer-key0b352">Opción 2</a></label><input type="radio" name="key0b35" id="key0b352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b352">
+<div id="taoptionAnswer1q0b35" class="block iDevice_content">
+<p>GASC.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b353" class="sr-av"><a href="#answer-key0b353">Opción 3</a></label><input type="radio" name="key0b35" id="key0b353" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b353">
+<div id="taoptionAnswer2q0b35" class="block iDevice_content">
+<p>CMAS.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b35" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">55. <b>¿Cómo se llama la escala multidimensional de ansiedad para niños?</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b351" class="sr-av"><a href="#answer-key1b351">Opción 1</a></label><input type="radio" name="key1b35" id="key1b351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b351">
+<div id="taoptionAnswer0q1b35" class="block iDevice_content">
+<p>CMAS.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b352" class="sr-av"><a href="#answer-key1b352">Opción 2</a></label><input type="radio" name="key1b35" id="key1b352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b352">
+<div id="taoptionAnswer1q1b35" class="block iDevice_content">
+<p>MASC.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b353" class="sr-av"><a href="#answer-key1b353">Opción 3</a></label><input type="radio" name="key1b35" id="key1b353" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b353">
+<div id="taoptionAnswer2q1b35" class="block iDevice_content">
+<p>GUILLIS.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore35"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id36">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-36_108">
+<form name="multi-select-form-36_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion36_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">56. <b>¿Qué cuatro factores mide principalmente la escala multidimensional MASC? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_1080" class="sr-av"><a href="#answer-36_111">Opción 1</a></label><input type="checkbox" id="op36_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_111"><div id="taans36_111" class="block iDevice_content">
+<p>Síntomas psicológicos.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_1081" class="sr-av"><a href="#answer-36_314">Opción 2</a></label><input type="checkbox" id="op36_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_314"><div id="taans36_314" class="block iDevice_content">
+<p>Evitación del daño.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_1082" class="sr-av"><a href="#answer-36_316">Opción 3</a></label><input type="checkbox" id="op36_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_316"><div id="taans36_316" class="block iDevice_content">
+<p>Síntomas físicos.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-36_108" /> 
+</p>
+</div>
+<section id="f36_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-36_111" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-36_314" class="right">Correcto</a></li>
+<li><a href="#answer-36_316" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+<section class="question">
+<div id="actitity-36_318">
+<form name="multi-select-form-36_318" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion36_318" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">57. <b>¿Cuáles son las técnicas más empleadas en el tratamiento de trastornos de ansiedad y estrés en la infancia? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_3180" class="sr-av"><a href="#answer-36_321">Opción 1</a></label><input type="checkbox" id="op36_3180" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_321"><div id="taans36_321" class="block iDevice_content">
+<p>Terapias cognitivas.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_3180" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_3181" class="sr-av"><a href="#answer-36_323">Opción 2</a></label><input type="checkbox" id="op36_3181" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_323"><div id="taans36_323" class="block iDevice_content">
+<p>Terapias psicológicas.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_3181" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_3182" class="sr-av"><a href="#answer-36_325">Opción 3</a></label><input type="checkbox" id="op36_3182" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_325"><div id="taans36_325" class="block iDevice_content">
+<p>Relajación corporal.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_3182" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-36_318" /> 
+</p>
+</div>
+<section id="f36_318" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-36_321" class="right">Correcto</a></li>
+<li><a href="#answer-36_323" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-36_325" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+<section class="question">
+<div id="actitity-36_327">
+<form name="multi-select-form-36_327" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion36_327" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">58. <b>¿Qué etapas componen la terapia cognitiva? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_3270" class="sr-av"><a href="#answer-36_330">Opción 1</a></label><input type="checkbox" id="op36_3270" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_330"><div id="taans36_330" class="block iDevice_content">
+<p>Entrenamiento en relajación muscular profundo.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_3270" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_3271" class="sr-av"><a href="#answer-36_332">Opción 2</a></label><input type="checkbox" id="op36_3271" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_332"><div id="taans36_332" class="block iDevice_content">
+<p>Construcción de jerarquías de ansiedad.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_3271" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_3272" class="sr-av"><a href="#answer-36_334">Opción 3</a></label><input type="checkbox" id="op36_3272" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_334"><div id="taans36_334" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Aplicación de procedimiento de sensibilización.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_3272" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-36_327" /> 
+</p>
+</div>
+<section id="f36_327" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-36_330" class="right">Correcto</a></li>
+<li><a href="#answer-36_332" class="right">Correcto</a></li>
+<li><a href="#answer-36_334" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+<section class="question">
+<div id="actitity-36_336">
+<form name="multi-select-form-36_336" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion36_336" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">59. <b>¿Qué formas de intervención existen en la terapia familiar? (Respuesta múltiple)</b></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_3360" class="sr-av"><a href="#answer-36_339">Opción 1</a></label><input type="checkbox" id="op36_3360" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_339"><div id="taans36_339" class="block iDevice_content">
+<p>Como complemento de la terapia individual.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_3360" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_3361" class="sr-av"><a href="#answer-36_341">Opción 2</a></label><input type="checkbox" id="op36_3361" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_341"><div id="taans36_341" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Terapia solo con los padres.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_3361" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op36_3362" class="sr-av"><a href="#answer-36_343">Opción 3</a></label><input type="checkbox" id="op36_3362" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-36_343"><div id="taans36_343" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Terapia familiar propiamente dicha.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-36_3362" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-36_336" /> 
+</p>
+</div>
+<section id="f36_336" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-36_339" class="right">Correcto</a></li>
+<li><a href="#answer-36_341" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-36_343" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id37">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta37_100" class="block iDevice_content">
+<div class="numeracion">60. <b>Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b37" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b37" class="block iDevice_content">
+<p><i>“En la terapia familiar propiamente dicha, el objetivo se dirige no solo al niño sino a los intercambios entre los miembros de la familia, terapia inspirada en las teorías sistémicas”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b37"><input type="radio" name="option0b37" id="true0b37" class="exe-radio-option exe-radio-option-0-2-0b37-truefalse" /> Verdadero</label> 
+<label for="false0b37"><input type="radio" name="option0b37" id="false0b37" class="exe-radio-option exe-radio-option-1-2-0b37-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b37" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b37-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

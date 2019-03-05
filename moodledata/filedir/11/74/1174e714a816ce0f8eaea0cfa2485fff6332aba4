@@ -1,0 +1,418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | UNIDAD DIDÁCTICA 1. FUNDAMENTOS DE PRIMEROS AUXILIOS </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id180">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 3;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var key0 = 0;
+var key1 = 1;
+var key2 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b180");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm180").key0b180[i].checked)
+               {
+                  question0 = document.getElementById("quizForm180").key0b180[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b180");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm180").key1b180[i].checked)
+               {
+                  question1 = document.getElementById("quizForm180").key1b180[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b180");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm180").key2b180[i].checked)
+               {
+                  question2 = document.getElementById("quizForm180").key2b180[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm180").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm180" id="quizForm180" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-180" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b180" class="block iDevice_content">
+<p><b>Indica si es verdadero o falso el siguiente enunciado:</b><span> </span><i>“Los primeros auxilios son todas aquellas actuaciones o medidas terapéuticas urgentes que se aplican a las víctimas de accidentes o enfermedades hasta disponer de tratamiento especializado”.</i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1801" class="sr-av"><a href="#answer-key0b1801">Opción 1</a></label><input type="radio" name="key0b180" id="key0b1801" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1801"><a name="answer-key0b1801"></a>
+<div id="taoptionAnswer0q0b180" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1802" class="sr-av"><a href="#answer-key0b1802">Opción 2</a></label><input type="radio" name="key0b180" id="key0b1802" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1802"><a name="answer-key0b1802"></a>
+<div id="taoptionAnswer1q0b180" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b180" class="block iDevice_content">
+<p><b>Completa el espacio en blanco del siguiente enunciado:</b><span> “El ______________________________ es una persona mucho más cualificada que las anteriores, que proporciona a la víctima un soporte vital avanzado”.</span></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1801" class="sr-av"><a href="#answer-key1b1801">Opción 1</a></label><input type="radio" name="key1b180" id="key1b1801" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1801"><a name="answer-key1b1801"></a>
+<div id="taoptionAnswer0q1b180" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Socorrista.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1802" class="sr-av"><a href="#answer-key1b1802">Opción 2</a></label><input type="radio" name="key1b180" id="key1b1802" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1802"><a name="answer-key1b1802"></a>
+<div id="taoptionAnswer1q1b180" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Técnico de emergencia sanitaria.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1803" class="sr-av"><a href="#answer-key1b1803">Opción 3</a></label><input type="radio" name="key1b180" id="key1b1803" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1803"><a name="answer-key1b1803"></a>
+<div id="taoptionAnswer2q1b180" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Auxiliar de transporte sanitario urgente.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b180" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si es verdadero o falso el siguiente enunciado:</b> <i>“La distinción entre delito o falta no se mide, en este caso, por la mayor o menor gravedad del resultado producido, sino por la mayor o menor falta de prevención y diligencia del sujeto”.</i></div>
+<p><i> </i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1801" class="sr-av"><a href="#answer-key2b1801">Opción 1</a></label><input type="radio" name="key2b180" id="key2b1801" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1801"><a name="answer-key2b1801"></a>
+<div id="taoptionAnswer0q2b180" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1802" class="sr-av"><a href="#answer-key2b1802">Opción 2</a></label><input type="radio" name="key2b180" id="key2b1802" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1802"><a name="answer-key2b1802"></a>
+<div id="taoptionAnswer1q2b180" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id181">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-181_108">
+<form name="multi-select-form-181_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion181_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>¿Cuáles son los principales objetivos de los primeros auxilios? Selecciona las respuestas correctas.</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op181_1080" class="sr-av"><a href="#answer-181_111">Opción 1</a></label><input type="checkbox" id="op181_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-181_111"><a name="answer-181_111"></a>
+<div id="taans181_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Conservar la calma.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-181_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op181_1081" class="sr-av"><a href="#answer-181_163">Opción 2</a></label><input type="checkbox" id="op181_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-181_163"><a name="answer-181_163"></a>
+<div id="taans181_163" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Evitar complicaciones físicas y secuelas psicológicas.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-181_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op181_1082" class="sr-av"><a href="#answer-181_165">Opción 3</a></label><input type="checkbox" id="op181_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-181_165"><a name="answer-181_165"></a>
+<div id="taans181_165" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Ayudar en al recuperación.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-181_1082" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'181_108')"/> 
+</p>
+</div>
+<div id="f181_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-181_111" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-181_163" class="right">Correcto</a></li>
+<li><a href="#answer-181_165" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-181_167">
+<form name="multi-select-form-181_167" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion181_167" class="block question iDevice_content">
+<div class="ee_enunciado"><b>¿Cuáles son las responsabilidades iniciales del personal de primeros auxilios? Selecciona las respuestas correctas.</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op181_1670" class="sr-av"><a href="#answer-181_170">Opción 1</a></label><input type="checkbox" id="op181_1670" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-181_170"><a name="answer-181_170"></a>
+<div id="taans181_170" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Evaluar la situación con rapidez y seguridad.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-181_1670" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op181_1671" class="sr-av"><a href="#answer-181_172">Opción 2</a></label><input type="checkbox" id="op181_1671" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-181_172"><a name="answer-181_172"></a>
+<div id="taans181_172" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Limitarse a llamar 112.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-181_1671" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op181_1672" class="sr-av"><a href="#answer-181_174">Opción 3</a></label><input type="checkbox" id="op181_1672" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-181_174"><a name="answer-181_174"></a>
+<div id="taans181_174" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Proteger de los posibles peligros a los heridos, a sí mismos, y a otras personas presentes en el lugar de los hechos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-181_1672" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'181_167')"/> 
+</p>
+</div>
+<div id="f181_167" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-181_170" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-181_172" class="right">Correcto</a></li>
+<li><a href="#answer-181_174" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

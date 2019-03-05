@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>5.1. Diseño de una tabla dinámica </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">5.1. Diseño de una tabla dinámica</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id15">
+<div class="iDevice emphasis0">
+<div id="ta15_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Como en todos los demás casos expuestos en este tema, debemos partir de una tabla de datos que, en este caso, será la misma de población por países, con el dato añadido del idioma principal o secundario usado en ellos. Situamos el foco de entrada en cualquier celdilla de esa tabla y nos disponemos a crear la tabla dinámica, eligiendo para ello la opción citada anteriormente.</p>
+<p>Nos encontraremos con una ventana como la de la figura 2.17, en la que podemos seleccionar el rango de datos a partir de los que se generará la tabla, teniendo también opción a recuperarlos de una fuente externa. En la parte inferior seleccionaremos el destino de la tabla dinámica: Nueva hoja de cálculo agregará una nueva hoja al libro actual y colocará en ella la tabla, mientras que Hoja de cálculo existente nos permitirá seleccionar una celdilla de una hoja existente como destino. Dejaremos las opciones que hay seleccionadas por defecto, ya que los datos se encuentran en una hoja de Excel y lo que deseamos crear es una tabla dinámica alojándola en una nueva hoja. En la nueva hoja encontraremos (véase figura 2.18) la tabla dinámica, inicialmente vacía y un panel de tareas a la derecha conteniendo la lista de campos o elementos que es posible añadirle. Mediante la técnica de arrastrar y soltar podremos diseñar la tabla y modificarla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_b0loQ3NvSmNGaHBSZXd6ZjZMSG02b2YwJTJGSlhPY1FPb1E0WFlDak9DUTFFJTNE" id="IMG_b0loQ3NvSmNGaHBSZXd6ZjZMSG02b2YwJTJGSlhPY1FPb1E0WFlDak9DUTFFJTNE" alt="Tablas y listas de datos " title="Tablas y listas de datos " width="350" /></p>
+<p><b>Figura 2.17.</b> Generaremos la nueva tabla dinámica.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OFRPWFlJSjRuRXJvcmFVYlBJT0p2bEx0aWpSQVNPMVlpalppT3NqMkFzbyUzRA==" id="IMG_OFRPWFlJSjRuRXJvcmFVYlBJT0p2bEx0aWpSQVNPMVlpalppT3NqMkFzbyUzRA==" alt="Tablas y listas de datos " title="Tablas y listas de datos " width="563" /></p>
+<p><b>Figura 2.18.</b> La tabla dinámica recién creada.</p>
+<p>En la tabla, según puede verse, existen cuatro áreas bien diferenciadas: página, columna, fila y datos. Estas áreas se corresponden con los apartados Filtro de informe, Rótulos de columna, Rótulos de fila y Valores, respectivamente, que hay en la parte inferior del panel de tareas Lista de campos de tabla dinámica.</p>
+<p>Arrastre el elemento Continente hasta llevarlo al apartado Rótulo de fila, el elemento Idioma póngalo en la lista Rótulos de columna y los elementos País y Total país llévelos a la lista Valores. Así obtendrá una tabla en la que se encuentran resumidos el número de países y habitantes que hablan cada idioma en cada continente como en la figura 2.19.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OE05ZVZpRmMyRTFjYjRZVFZ5TFlRR0tFQllQQjZKa3lncEQwRGF1c1FxZyUzRA==" id="IMG_OE05ZVZpRmMyRTFjYjRZVFZ5TFlRR0tFQllQQjZKa3lncEQwRGF1c1FxZyUzRA==" alt="Tablas y listas de datos " title="Tablas y listas de datos " width="563" /></p>
+<p><b>Figura 2.19.</b> Nuestra primera tabla dinámica.</p>
+<p>Los campos incluidos en la tabla dinámica pueden ser eliminados fácilmente, basta con hacer clic en el elemento que los representa y seleccionar la opción Quitar campo o bien arrastrarlos fuera de la tabla. Igualmente, pueden ir de un área a otra de la tabla. Esta facilidad nos permite reordenar la tabla tantas veces como necesitemos hasta obtener el resultado que buscamos. En la figura 2.20, por ejemplo, puede ver cómo hemos modificado la tabla original para obtener otra en la que, seleccionando un cierto continente como campo de página, obtenemos la lista de países y, por cada uno de ellos, la población urbana y rural clasificada por idioma.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MXJiVlJCbk9vQll0NDF3a01CVGF6MVBINlVZbW84VjI2eW5hRzUwbnhiZyUzRA==" id="IMG_MXJiVlJCbk9vQll0NDF3a01CVGF6MVBINlVZbW84VjI2eW5hRzUwbnhiZyUzRA==" alt="Tablas y listas de datos " title="Tablas y listas de datos " width="563" /></p>
+<p><b>Figura 2.20.</b> Una nueva versión de la tabla con distintos resúmenes y agrupamientos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

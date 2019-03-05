@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-24" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id27">
+<div class="iDevice emphasis0">
+<div id="ta27_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+<p></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id28">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta28_100" class="block iDevice_content">
+<p><b>1. Indica si es verdadero o falso el siguiente enunciado:</b></p>
+</div>
+<section class="question">
+<form name="true-false-form-0b28" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b28" class="block iDevice_content">
+<p><i>“El pensamiento mágico se refiere a un tipo de pensamiento que alivia la ansiedad o impide que algo malo suceda”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b28"><input type="radio" name="option0b28" id="true0b28" class="exe-radio-option exe-radio-option-0-2-0b28-truefalse" /> Verdadero</label> 
+<label for="false0b28"><input type="radio" name="option0b28" id="false0b28" class="exe-radio-option exe-radio-option-1-2-0b28-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b28" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b28-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id30">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 3;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var key0 = 0;
+var key1 = 1;
+var key2 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b30");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm30").key0b30[i].checked)
+               {
+                  question0 = document.getElementById("quizForm30").key0b30[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b30");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm30").key1b30[i].checked)
+               {
+                  question1 = document.getElementById("quizForm30").key1b30[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b30");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm30").key2b30[i].checked)
+               {
+                  question2 = document.getElementById("quizForm30").key2b30[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm30").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm30" id="quizForm30" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-30" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b30" class="block iDevice_content">
+<p><b>2. ¿Qué criterio diagnóstico es cierto en el mutismo selectivo?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b301" class="sr-av"><a href="#answer-key0b301">Opción 1</a></label><input type="radio" name="key0b30" id="key0b301" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b301">
+<div id="taoptionAnswer0q0b30" class="block iDevice_content">
+<p>El fracaso de hablar no se puede atribuir a la falta de conocimiento.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b302" class="sr-av"><a href="#answer-key0b302">Opción 2</a></label><input type="radio" name="key0b30" id="key0b302" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b302">
+<div id="taoptionAnswer1q0b30" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La alteración no interfiere en los logros educativos o en la comunicación social.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b303" class="sr-av"><a href="#answer-key0b303">Opción 3</a></label><input type="radio" name="key0b30" id="key0b303" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b303">
+<div id="taoptionAnswer2q0b30" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La duración de la alteración es menor a un mes.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b30" class="block iDevice_content">
+<p><b>3. ¿Cómo se define la despersonalización en el Trastorno de Pánico?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b301" class="sr-av"><a href="#answer-key1b301">Opción 1</a></label><input type="radio" name="key1b30" id="key1b301" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b301">
+<div id="taoptionAnswer0q1b30" class="block iDevice_content">
+<p>Como un miedo a perder el control o “volverse loco”.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b302" class="sr-av"><a href="#answer-key1b302">Opción 2</a></label><input type="radio" name="key1b30" id="key1b302" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b302">
+<div id="taoptionAnswer1q1b30" class="block iDevice_content">
+<p>Como la separación de uno mismo.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b303" class="sr-av"><a href="#answer-key1b303">Opción 3</a></label><input type="radio" name="key1b30" id="key1b303" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b303">
+<div id="taoptionAnswer2q1b30" class="block iDevice_content">
+<p>Como una sensación de entumecimiento u hormigueo.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b30" class="block iDevice_content">
+<p><b>4. Si una persona siente un miedo intenso cuando va a utilizar el transporte público y cuando está fuera de casa sola, podría presentar un cuadro clínico propio de:</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b301" class="sr-av"><a href="#answer-key2b301">Opción 1</a></label><input type="radio" name="key2b30" id="key2b301" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b301">
+<div id="taoptionAnswer0q2b30" class="block iDevice_content">
+<p>Trastorno de Ansiedad Generalizada.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b302" class="sr-av"><a href="#answer-key2b302">Opción 2</a></label><input type="radio" name="key2b30" id="key2b302" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b302">
+<div id="taoptionAnswer1q2b30" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Fobia específica.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b303" class="sr-av"><a href="#answer-key2b303">Opción 3</a></label><input type="radio" name="key2b30" id="key2b303" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b303">
+<div id="taoptionAnswer2q2b30" class="block iDevice_content">
+<p>Agorafobia.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore30"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id31">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-31_108">
+<form name="multi-select-form-31_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion31_108" class="block question iDevice_content">
+<p><b>5. ¿Cuáles son las características de un Trastorno de Ansiedad Generalizada? (Respuesta múltiple)</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op31_1080" class="sr-av"><a href="#answer-31_111">Opción 1</a></label><input type="checkbox" id="op31_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-31_111"><div id="taans31_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Ataques de pánico imprevistos recurrentes.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-31_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op31_1081" class="sr-av"><a href="#answer-31_203">Opción 2</a></label><input type="checkbox" id="op31_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-31_203"><div id="taans31_203" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Anticipación aprensiva.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-31_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op31_1082" class="sr-av"><a href="#answer-31_205">Opción 3</a></label><input type="checkbox" id="op31_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-31_205"><div id="taans31_205" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">El individuo se encuentra fácilmente fatigado y con problemas de sueño.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-31_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-31_108" /> 
+</p>
+</div>
+<section id="f31_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-31_111" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-31_203" class="right">Correcto</a></li>
+<li><a href="#answer-31_205" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

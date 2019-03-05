@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.4.Validación de datos </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">3.4.Validación de datos</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id69">
+<div class="iDevice emphasis0">
+<div id="ta69_85" class="block iDevice_content">
+<p>Con todos los pasos anteriores ha conseguido un objetivo importante: simplificar la tarea del operador que tendrá que introducir los datos. Otro objetivo, no menos importante, debe ser asegurar la validez de los datos. EL operador no debería poder introducir datos erróneos, escribir encima de los títulos o fuera del área de datos.</p>
+<p>En este momento vamos a centrarnos solamente en un aspecto concreto: la validación de los datos. En el capítulo siguiente, dedicado a la mejora en la presentación y gestión de los datos, verá cómo es posible proteger zonas de la hoja para evitar su edición.</p>
+<p>Puesto que en la hoja de cálculo no hay información acerca de los electores que tiene un cierto colegio, con el fin de impedir la introducción de más nº de personas de los posibles, lo único que podemos controlar ahora mismo es que dicho número no sea negativo. El proceso, no obstante, será útil para establecer cualquier otra regla de validación.</p>
+<p><b>Establecer la regla de validación</b></p>
+<p>Lo primero que debe hacer es seleccionar el rango de celdillas a las que se va a aplicar la misma regla de validación. En este caso, el rango es el que contiene los números de personas, rango que puede marcar simplemente seleccionando el elemento Datos del Cuadro de nombres.</p>
+<p>Acto seguido haga clic sobre el botón <b>Validación de datos </b>que hay en el grupo de Herramientas de datos de la ficha Datos, en la Cinta de opciones, haciendo aparecer una ventana como la mostrada en la figura 3 .14 En ella hay tres páginas, mediante las cuales es posible establecer la regla de validación, el mensaje de entrada y el de error.</p>
+<p>La primera lista desplegable que hay en la página Configuración, titulada Permitir, sirve para indicar el tipo de dato que es posible introducir en la celdilla o rango marcado.</p>
+<p>Seleccionando el elemento Número entero, que es el que nos interesa, evitaremos que el operador introduzca un texto o un número con parte decimal. De forma análoga, sería posible permitir tan sólo la entrada de una fecha, un valor de una lista, etc.</p>
+<p><img src="excel_3.14.png" alt="Figura 3.14" width="400" height="300" /></p>
+<p><strong>FIGURA 3.14</strong></p>
+<p></p>
+<p>En la lista desplegable Datos hay una serie de opciones que permiten limitar aún más los valores que es posible introducir. En el caso de los números enteros podemos establecer unos valores límite, un rango de valores excluyentes, un máximo, etc. Puesto que lo único que tenemos claro es que el número de personas no puede ser negativo, seleccionaremos la regla mayor o igual que, introduciendo el valor 0 en el recuadro Mínimo que aparece debajo.</p>
+<p><b>Mensajes de entrada y error</b></p>
+<p>A partir de este momento, con las opciones elegidas, en el rango de celdillas de datos tan sólo podrían introducirse números enteros y no negativos.</p>
+<p>Para completar esta regla lo mejor es indicar al operador, mediante mensajes, el dato que debe introducir y, en caso necesario, el error en que está incurriendo.</p>
+<p>Abra la página Mensaje de entrada de la ventana de Validación de datos. En esa página hay una opción, activada por defecto que hace posible la visualización de un mensaje en el momento en que el foco se sitúa sobre la celdilla a la que se aplica la regla.</p>
+<p>Lo único que hay que hacer es facilitar un título y un mensaje indicativo, como se ha hecho en la figura 3 .15</p>
+<p><img src="excel_3.15.png" alt="Figura 3.15" width="400" height="296" /></p>
+<p><strong>FIGURA 3.15</strong></p>
+<p><span>Por último, para terminar el establecimiento de las opciones de validación, vamos a asociar un mensaje de error. Éste aparecerá si el dato introducido por el operador, en este caso el número de personas, no cumple la regla de validación previamente preparada. Fíjese en la figura 3 .16 Además del título y mensaje de error, también puede elegir un icono de aviso entre varios posibles. Tan sólo tiene que desplegar la lista Estilo para elegir el icono que desee.</span></p>
+<p><span> </span></p>
+<p><span><img src="excel_3.16.png" alt="Figura 3.16" width="400" height="298" /></span></p>
+<p><strong>FIGURA 3.16</strong></p>
+<p></p>
+<p><b>Introducción de los datos</b></p>
+<p>Tras cerrar la ventana de validación vuelva otra vez a introducir datos de prueba en la hoja de cálculo. Lo primero que advertirá, en el mismo momento en que el foco se encuentre en una celdilla del rango de datos, es que aparece una ventana flotante con el mensaje indicativo. Como se observa en la figura 3 .17, este mensaje fue el introducido por nosotros en la página Mensaje de entrada de la ventana de validación.</p>
+<p>Si el dato que se introduce no cumple con la regla de validación impuesta, como ocurre en la figura 3 .18, aparecerá una ventana con el icono y el mensaje de error. Hay tres opciones posibles: cancelar la introducción del dato, reintentarlo otra vez u obtener ayuda.</p>
+<p><img src="excel_3.17.png" alt="Figura 3.17" width="400" height="209" /></p>
+<p><strong>FIGURA 3.17</strong></p>
+<p><strong><img src="excel_3.18.png" alt="Figura 3.18" width="400" height="173" /></strong></p>
+<p><strong>FIGURA 3.18</strong></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

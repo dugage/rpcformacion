@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>AUTOEVALUACION </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">AUTOEVALUACION</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id15">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 3;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var key0 = 1;
+var key1 = 0;
+var key2 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b15");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm15").key0b15[i].checked)
+               {
+                  question0 = document.getElementById("quizForm15").key0b15[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b15");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm15").key1b15[i].checked)
+               {
+                  question1 = document.getElementById("quizForm15").key1b15[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b15");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm15").key2b15[i].checked)
+               {
+                  question2 = document.getElementById("quizForm15").key2b15[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm15").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Seleccione la Opción Correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm15" id="quizForm15" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-15" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b15" class="block iDevice_content">
+<p align="left"><span><span color="#000000" style="color: #000000;"><span face="Verdana, Arial" style="font-family: Verdana, Arial;"><span><b>¿Qué aspectos, de los siguientes, se dan el intercambio de información que se da en la comunicación? (Respuesta múltiple)</b></span></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b151" class="sr-av"><a href="#answer-key0b151">Opción 1</a></label><input type="radio" name="key0b15" id="key0b151" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b151"><a name="answer-key0b151"></a>
+<div id="taoptionAnswer0q0b15" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial"><span color="#000000">Los datos.</span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b152" class="sr-av"><a href="#answer-key0b152">Opción 2</a></label><input type="radio" name="key0b15" id="key0b152" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b152"><a name="answer-key0b152"></a>
+<div id="taoptionAnswer1q0b15" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">La información.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b153" class="sr-av"><a href="#answer-key0b153">Opción 3</a></label><input type="radio" name="key0b15" id="key0b153" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b153"><a name="answer-key0b153"></a>
+<div id="taoptionAnswer2q0b15" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">La publicidad.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b154" class="sr-av"><a href="#answer-key0b154">Opción 4</a></label><input type="radio" name="key0b15" id="key0b154" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b154"><a name="answer-key0b154"></a>
+<div id="taoptionAnswer3q0b15" class="block iDevice_content">
+<p><span>La comunicación.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b15" class="block iDevice_content">
+<p align="left"><span><span color="#000000" style="color: #000000;"><span face="Verdana, Arial" style="font-family: Verdana, Arial;"><span><b>Indica si la siguiente enunciación es verdadera o falsa: </b></span></span></span><span color="#000000" style="color: #000000;"><span face="Verdana, Arial" style="font-family: Verdana, Arial;"><span><b><br /></b></span></span></span></span><span color="#000000" style="color: #000000;"><span face="Verdana, Arial" style="font-family: Verdana, Arial;"><span><b><em>“Si la comunicación interna no se establece de forma adecuada puede provocar una falta de especificación de funciones, así como la creación de un sistema de comunicación informal provocando la distorsión de la realidad de los hechos”.</em></b></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b151" class="sr-av"><a href="#answer-key1b151">Opción 1</a></label><input type="radio" name="key1b15" id="key1b151" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b151"><a name="answer-key1b151"></a>
+<div id="taoptionAnswer0q1b15" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial"><span color="#000000">Verdadera.</span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b152" class="sr-av"><a href="#answer-key1b152">Opción 2</a></label><input type="radio" name="key1b15" id="key1b152" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b152"><a name="answer-key1b152"></a>
+<div id="taoptionAnswer1q1b15" class="block iDevice_content">
+<p><span>Falsa.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b15" class="block iDevice_content">
+<p align="left"><span><span face="Verdana, Arial" style="font-family: Verdana, Arial;"><span><span color="#000000" style="color: #000000;"><strong><b><span>¿Cuáles de los siguientes tipos de comunicación se produce desde la base de la empresa hacia los niveles jerárquicos superiores?</span></b></strong></span></span></span></span></p>
+<p align="left"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b151" class="sr-av"><a href="#answer-key2b151">Opción 1</a></label><input type="radio" name="key2b15" id="key2b151" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b151"><a name="answer-key2b151"></a>
+<div id="taoptionAnswer0q2b15" class="block iDevice_content">
+<p align="left"><span face="Verdana, Arial">Comunicación interna.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b152" class="sr-av"><a href="#answer-key2b152">Opción 2</a></label><input type="radio" name="key2b15" id="key2b152" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b152"><a name="answer-key2b152"></a>
+<div id="taoptionAnswer1q2b15" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">Comunicación externa.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b153" class="sr-av"><a href="#answer-key2b153">Opción 3</a></label><input type="radio" name="key2b15" id="key2b153" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b153"><a name="answer-key2b153"></a>
+<div id="taoptionAnswer2q2b15" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">Comunicación ascendente.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b154" class="sr-av"><a href="#answer-key2b154">Opción 4</a></label><input type="radio" name="key2b15" id="key2b154" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b154"><a name="answer-key2b154"></a>
+<div id="taoptionAnswer3q2b15" class="block iDevice_content">
+<p><span>Comunicación descendente.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

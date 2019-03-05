@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | UNIDAD DIDÁCTICA 2. IMPACTO AMBIENTAL DE LOS REFRIGERANTES Y NORMATIVA MEDIOAMBIENTAL </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id90">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 0;
+var key1 = 2;
+var key2 = 1;
+var key3 = 2;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b90");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm90").key0b90[i].checked)
+               {
+                  question0 = document.getElementById("quizForm90").key0b90[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b90");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm90").key1b90[i].checked)
+               {
+                  question1 = document.getElementById("quizForm90").key1b90[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b90");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm90").key2b90[i].checked)
+               {
+                  question2 = document.getElementById("quizForm90").key2b90[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b90");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm90").key3b90[i].checked)
+               {
+                  question3 = document.getElementById("quizForm90").key3b90[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b90");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm90").key4b90[i].checked)
+               {
+                  question4 = document.getElementById("quizForm90").key4b90[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm90").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm90" id="quizForm90" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-90" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b90" class="block iDevice_content">
+<p><b>El protocolo relativo a las sustancias que agotan la capa de ozono que fue diseñado para reducir la producción y consumo de sustancias que agotan la capa de ozono, se denomina:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b901" class="sr-av"><a href="#answer-key0b901">Opción 1</a></label><input type="radio" name="key0b90" id="key0b901" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b901"><a name="answer-key0b901"></a>
+<div id="taoptionAnswer0q0b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Protocolo de Montreal.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b902" class="sr-av"><a href="#answer-key0b902">Opción 2</a></label><input type="radio" name="key0b90" id="key0b902" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b902"><a name="answer-key0b902"></a>
+<div id="taoptionAnswer1q0b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Protocolo de Kyoto.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b903" class="sr-av"><a href="#answer-key0b903">Opción 3</a></label><input type="radio" name="key0b90" id="key0b903" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b903"><a name="answer-key0b903"></a>
+<div id="taoptionAnswer2q0b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Protocolo de Londres.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b90" class="block iDevice_content">
+<p><b>Completa el espacio en blanco del siguiente enunciado: </b><span>“El vapor de agua, ________________ y el gas metano, forman una capa natural en la atmósfera terrestre que retiene parte de la energía proveniente del Sol”.</span></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b901" class="sr-av"><a href="#answer-key1b901">Opción 1</a></label><input type="radio" name="key1b90" id="key1b901" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b901"><a name="answer-key1b901"></a>
+<div id="taoptionAnswer0q1b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Oxígeno.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b902" class="sr-av"><a href="#answer-key1b902">Opción 2</a></label><input type="radio" name="key1b90" id="key1b902" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b902"><a name="answer-key1b902"></a>
+<div id="taoptionAnswer1q1b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Nitrógeno.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b903" class="sr-av"><a href="#answer-key1b903">Opción 3</a></label><input type="radio" name="key1b90" id="key1b903" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b903"><a name="answer-key1b903"></a>
+<div id="taoptionAnswer2q1b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Dióxido de carbono.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b90" class="block iDevice_content">
+<div class="ee_enunciado"><b>Elige la opción correcta:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b901" class="sr-av"><a href="#answer-key2b901">Opción 1</a></label><input type="radio" name="key2b90" id="key2b901" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b901"><a name="answer-key2b901"></a>
+<div id="taoptionAnswer0q2b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Los gases del efecto invernadero (GEI) son gases integrantes de la atmósfera, de origen natural y no antropogénico.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b902" class="sr-av"><a href="#answer-key2b902">Opción 2</a></label><input type="radio" name="key2b90" id="key2b902" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b902"><a name="answer-key2b902"></a>
+<div id="taoptionAnswer1q2b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Los gases del efecto invernadero (GEI) son gases integrantes de la atmósfera, de origen natural y antropogénico.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b903" class="sr-av"><a href="#answer-key2b903">Opción 3</a></label><input type="radio" name="key2b90" id="key2b903" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b903"><a name="answer-key2b903"></a>
+<div id="taoptionAnswer2q2b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Los gases del efecto invernadero (GEI) son gases integrantes de la atmósfera, de origen antinatural y no antropogénico.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b90" class="block iDevice_content">
+<p><b>Los gases hidrocarburos tienen un valor de potencial de calentamiento global (PCA):</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b901" class="sr-av"><a href="#answer-key3b901">Opción 1</a></label><input type="radio" name="key3b90" id="key3b901" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b901"><a name="answer-key3b901"></a>
+<div id="taoptionAnswer0q3b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Superior a 1.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b902" class="sr-av"><a href="#answer-key3b902">Opción 2</a></label><input type="radio" name="key3b90" id="key3b902" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b902"><a name="answer-key3b902"></a>
+<div id="taoptionAnswer1q3b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Igual a 1.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b903" class="sr-av"><a href="#answer-key3b903">Opción 3</a></label><input type="radio" name="key3b90" id="key3b903" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b903"><a name="answer-key3b903"></a>
+<div id="taoptionAnswer2q3b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Inferior a 1.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b90" class="block iDevice_content">
+<p><b>Indica si es verdadero o falso el siguiente enunciado: </b><span></span><i>“El control de emisiones se encuentra regulado en el capítulo V del Reglamento (CE) nº 1005/2009 del Parlamento Europeo y concretamente el artículo 22, sobre la recuperación y destrucción de sustancias reguladas usadas”.</i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b901" class="sr-av"><a href="#answer-key4b901">Opción 1</a></label><input type="radio" name="key4b90" id="key4b901" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b901"><a name="answer-key4b901"></a>
+<div id="taoptionAnswer0q4b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b902" class="sr-av"><a href="#answer-key4b902">Opción 2</a></label><input type="radio" name="key4b90" id="key4b902" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b902"><a name="answer-key4b902"></a>
+<div id="taoptionAnswer1q4b90" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Falso.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

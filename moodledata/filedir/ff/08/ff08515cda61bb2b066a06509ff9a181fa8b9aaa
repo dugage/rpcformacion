@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.5.Referencias absolutas </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">4.5.Referencias absolutas</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id118">
+<div class="iDevice emphasis0">
+<div id="ta118_85" class="block iDevice_content">
+<p>Seguramente, después de seguir las indicaciones dadas por Excel, ya habrá comprendido cuál es el problema que ha provocado el error al copiar. Cuando se realiza esta operación, Excel automáticamente actualiza las referencias de forma relativa, teniendo en cuenta la diferencia de filas y columnas de la celdilla en la que estaba la fórmula respecto a aquella donde se copia. Esta diferencia se aplica a dichas referencias, obteniendo unas nuevas.</p>
+<p>La mayoría de las veces el uso de estas referencias relativas es adecuado, por eso Excel las actualiza directamente sin consultar. Si no deseamos que esto ocurra debemos codificar las referencias como absolutas.</p>
+<p>Ya sabe que una referencia a una celdilla se compone de dos partes: una letra de columna y un número de fila.</p>
+<p>Inicialmente una referencia escrita como G4 es relativa tanto para la columna como para la fila. Disponiendo el símbolo $ delante de cualquiera de los elementos, comunicaremos a Excel que se trata de una referencia absoluta. Así, $G4 indicaría que la columna G siempre es fija, mientras que la fila seguiría siendo relativa.</p>
+<p>Para componer una referencia completamente absoluta, por lo tanto, habrá que colocar el símbolo $ delante de ambos elementos: columna y fila. De esta manera, la fórmula G4*100/$G$14 indicaría que la referencia a la celdilla G4 es relativa, por lo que al copiarse a otra celdilla se actualizaría apropiadamente. $G$14, por el contrario, es una regencia absoluta que se mantendría siempre igual.</p>
+<p>Con el fin de corregir nuestra hoja, coloque el foco de entrada en la celdilla H4 que contiene la fórmula original. Haga clic en el botón de edición de fórmula como se ve en la figura 5 .12 . Al hacer clic en el botón <strong>Introducir</strong>, o pulsar la tecla <strong>Intro</strong>, en principio no notará cambio alguno, puesto que el resultado que se obtiene es exactamente el mismo. Al copiar la fórmula a las demás celdillas, sin embargo, podrá ver que ahora no se obtienen errores sino resultados.</p>
+<p>Para finalizar con estos resultados, copie el formato de las celdillas que hay a la izquierda, disponga un título y utilice los botones</p>
+<p style="text-align: center;"><img width="13" height="20" id="IMG_dHFIbEtvTXdhUmltV0hXdkh5M1FwdCUyQkJlcU9iTGdTcUFIWFRFNkpVUjdnJTNE" alt="Trabajar con Fórmulas I" title="Trabajar con Fórmulas I" src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dHFIbEtvTXdhUmltV0hXdkh5M1FwdCUyQkJlcU9iTGdTcUFIWFRFNkpVUjdnJTNE" /></p>
+<p>Y</p>
+<p style="text-align: center;"><img width="26" height="20" id="IMG_SnMxVlNqWTJHNnE0dUZhJTJCJTJCUWNRc0RYNTR4eUNMQm5kNUxYdm5PJTJCJTJCZFNnJTNE" alt="Trabajar con Fórmulas I" title="Trabajar con Fórmulas I" src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_SnMxVlNqWTJHNnE0dUZhJTJCJTJCUWNRc0RYNTR4eUNMQm5kNUxYdm5PJTJCJTJCZFNnJTNE" /></p>
+<p>para establecer el número de decimales que desee. En la figura 5 .13 puede verse el aspecto de la hoja tras dar estos pasos.</p>
+<p style="text-align: center;"><img src="excel_5.12.png" alt="FIGURA 5.12" width="147" height="27" /></p>
+<p style="text-align: center;"><strong>FIGURA 5.12</strong></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

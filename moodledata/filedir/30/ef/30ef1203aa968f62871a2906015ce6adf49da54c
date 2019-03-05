@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3. Anidación de expresiones y decisiones </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3. Anidación de expresiones y decisiones</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Al utilizar funciones como Y, O y SI puede darse el caso de que uno de sus parámetros sea otra función del mismo tipo, es decir, otra decisión o expresión lógica. A este hecho se le conoce como anidación, pudiendo ser útil en muchos casos. Gracias a la anidación de decisiones, por ejemplo, es posible introducir en una celdilla un valor entre muchas posibilidades.</p>
+<p>Suponga que desea clasificar los países según el volumen de su población, en tres grupos diferentes: grandes, medianos y pequeños, según que superen los 50 millones de habitantes, pasen los 20 o no lleguen a ese límite.</p>
+<p>Añadiremos una nueva fórmula en una columna más a la derecha, columna a la que titularemos Tamaño país.</p>
+<p>La fórmula sería la siguiente:</p>
+<p>=SI (H3&gt;50000; “Grande”; SI (H3&gt;20000; “Mediano”; “Pequeño”))</p>
+<p>Tendríamos que copiar la fórmula a todas las demás filas de datos, consiguiendo un resultado como el de la figura 7.4. Ahora podría utilizar esta nueva columna para ordenar los países y tener esos tres grupos que se mencionaban.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Q0glMkZTeUZSdkJ3b3pkSjNQOW9KYkxnWm5XaWRnWmNielRPb0tvdDhUQ1kwJTNE" id="IMG_Q0glMkZTeUZSdkJ3b3pkSjNQOW9KYkxnWm5XaWRnWmNielRPb0tvdDhUQ1kwJTNE" alt="Funciones lógicas" title="Funciones lógicas" width="472" /></p>
+<p><b>Figura 7.4.</b> Clasificamos los países en tres categorías según el tamaño de su población.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

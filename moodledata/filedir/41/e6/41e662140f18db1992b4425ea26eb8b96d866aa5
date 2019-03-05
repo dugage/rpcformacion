@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.3. Búsqueda en filas y columnas </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.3. Búsqueda en filas y columnas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Las funciones BUSCARV y BUCARH están especializadas en la búsqueda de datos en tablas tomando como punto de partida una referencia, un dato, que se encuentra distribuida vertical y horizontalmente, de ahí la V y H finales en sus nombres.</p>
+<p>Seguimos contando con las dos listas desplegables: una que permite elegir un continente y otra para seleccionar una columna de datos.</p>
+<p>Para buscar un dato con la función BUSCARV el dato usado como referencia debe encontrarse en múltiples filas de una misma columna, por ejemplo, como están los continentes en la tabla que aparece en al figura 8.7. Si el dato de referencia está en múltiples columnas de una fila, como los títulos que hay en la parte superior de la misma tabla, entonces tendríamos que usar BUSCARH.</p>
+<p>Los parámetros necesarios en ambos casos son los mismos:</p>
+<ul>
+<li>referencia: el primer parámetro será el valor a buscara o una referencia al valor a buscar de la primera fila o primera columna del rango que delimita la tabla de datos.</li>
+<li>tabla: rango que contienen la tabla de datos donde debe efectuarse la búsqueda.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OFlTU2YlMkYlMkJBY1BSJTJGQzUwTjFnaDl1dW9sUk1vaG9mTFJ3SDhLcEltYmpXVSUzRA==" id="IMG_OFlTU2YlMkYlMkJBY1BSJTJGQzUwTjFnaDl1dW9sUk1vaG9mTFJ3SDhLcEltYmpXVSUzRA==" alt="Búsqueda de datos" title="Búsqueda de datos" width="420" /></p>
+<p><b>Figura 8.7.</b> Usamos las funciones BUSCARV y BUSCARH para localizar los datos.</p>
+<ul>
+<li>índice: número de la columna o fila de donde quiere extraerse el dato que esté en la fila/columna donde se encuentre la referencia entregada como primer parámetro.</li>
+<li>orden: tan solo puede ser VERDADERO o FALSO. En el primer caso se entenderá que la tabla de datos está ordenada y que, si no se encontrase la referencia dada en la primera fila o columna se devolvería el valor más próximo. El valor por defecto es VERDADER. Si entregamos como último parámetro el valor FALSO siempre se devolverá una coincidencia exacta o bien un error si no se encuentra.</li>
+</ul>
+<p>Suponiendo que tenemos el mismo sistema de selección de un continente y un elemento en sendas listas desplegables, podríamos usar cualquiera de las dos fórmulas siguientes para localizar el dato que interesa:</p>
+<p>=BUSCARV(A9;A1:F6;COINCIDIR(B9;A1:F1)</p>
+<p>=BUSCARH(B9;A1:F6;COINCIDIR(A9;A1:A6)</p>
+<p>En el primer caso, con la función BUSCARV, facilitamos como referencia la celdilla que contiene el nombre del continente, mientras que como número de columna entregamos el índice correspondiente al dato seleccionado en la segunda de las listas desplegables.</p>
+<p>Para utilizar BUSCARH los términos se invierten, el primer parámetro pasa a ser el tercero y viceversa ya que el orden en que busca es horizontal y no vertical.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

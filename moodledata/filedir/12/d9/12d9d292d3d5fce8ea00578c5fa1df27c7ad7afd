@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.Primeros pasos </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">2.Primeros pasos</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id62">
+<div class="iDevice emphasis0">
+<div id="ta62_85" class="block iDevice_content">
+<p>Suponga que por un momento, es responsable del control informático de la oficina de estadística y se ha encargado contabilizar el nº de personas que hay en los 10 principales colegios de la Zona Norte de Madrid. Lógicamente, habrá varios operadores, concretamente uno por cada diez colegios.</p>
+<p>Su tarea, como responsable de este proceso, es facilitar a los operadores la herramienta necesaria para poder registrar todos los datos. Si deja que cada operador utilice el método que crea más conveniente, posteriormente, a la hora de totalizar toda esa información para obtener los resultados globales, su trabajo será mucho más difícil.</p>
+<p>Para no encontrarse con ese problema ha decidido preparar una hoja de cálculo en Excel. En principio esta hoja será genérica, es decir, servirá para cualquier operador. Posteriormente creará versiones específicas para cada operador, por ejemplo personalizando los colegios de cada uno. Gracias a esta hoja de cálculo los operadores introducirán los datos siguiendo exactamente el mismo patrón. Cuando usted reciba los resultados de cada operador, correspondientes a diez colegios electorales, su trabajo será mucho más sencillo.</p>
+<ol>
+<li><b>Planificación de la estructura para la hoja de cálculo</b></li>
+</ol>
+<p>Lo primero que tendrá que hacer será crear un nuevo documento de Excel, usando para ello cualquiera de los métodos indicados en el capítulo previo. Antes de iniciar la introducción de datos, no obstante, no está de más planificar mentalmente, o en un papel, cuál será su estructura. Lógicamente, también puede ir planificando a medida que construye la hoja.</p>
+<p>En este caso, necesitamos los siguientes datos: Nº de Alumnas, Nº de Alumnos, Docentes, Personal Administrativo y Otros (personal de limpieza, personal de mantenimiento, jardinería, etc) Cada colegio, por lo tanto, deberá facilitar datos acerca de las personas que trabajan en el Centro.</p>
+<p>La hoja estará estructurada de tal forma que existirán cinco columnas, una por cada categoría Personal. Cada columna tendrá datos en diez filas, una por cada colegio. De esta forma se dispondrá de una cuadrícula de cincuenta celdillas, cada una de las cuales contendrá un número determinado.</p>
+<ol>
+<li><b>Títulos para las columnas</b></li>
+</ol>
+<p>Cree un nuevo libro de Excel y empiece la introducción de los títulos que identificarán a las columnas. Puede empezar a introducir datos desde el punto actual en el que se encuentra el foco, en la celdilla Al</p>
+<p>Para comenzar a introducir un dato, por ejemplo las siglas que actuarán como título de la primera columna, no tiene más que escribir directamente.</p>
+<p>A medida que vaya introduciendo caracteres éstos irán apareciendo, según se ve en la figura 3 .1, tanto en la celdilla que tiene el foco como en la Barra de fórmulas. Observe que el cursor aparece en el interior de la celdilla.</p>
+<p>Finalizada la introducción del dato, puede pulsar la tecla <b>Intro,</b> caso en el cual el foco se moverá a la celdilla que esta más abajo, o bien usar directamente la tecla de desplazamiento a la derecha, de tal forma que el foco pase a la celdilla donde va a introducirse el dato siguiente.</p>
+<p><img src="excel_3.1.png" alt="Figura 3.1" width="346" height="268" /></p>
+<p><strong>FIGURA 3.1</strong></p>
+<p><span>Siguiendo exactamente el mismo método, introduzca los títulos para el resto de las columnas. Al terminar, el aspecto de la hoja de cálculo debe ser como el mostrado en la figura 3 .2 Tenemos cinco columnas, de la A a la E, cada una con un título</span></p>
+<p><img src="excel_3.2.png" alt="Figura 3.2" width="370" height="186" /></p>
+<p><strong>FIGURA 3.2</strong></p>
+<ol>
+<li><b>Títulos para las filas</b></li>
+</ol>
+<p>Cada una de las columnas contendrá, justo debajo de los títulos ya introducidos, los datos correspondientes a los números de personas de cada colegio. Los títulos de las filas, por lo tanto, deberían quedar a la izquierda. El problema es que, como puede apreciarse en la figura 3 .2, la primera columna ya está ocupada. Deberíamos haber iniciado la introducción</p>
+<p>de los títulos de columna a partir de la columna B y no de la A.</p>
+<p>Las filas y columnas de una hoja de cálculo pueden insertarse y eliminarse. En este caso concreto, nos interesaría insertar una columna nueva delante de la primera, de tal forma que pudiésemos introducir los títulos de las filas. Haga clic con el botón secundario del ratón sobre cualquier celdilla de la columna A y seleccione la opción Insertar. En la ventana que aparece, idéntica a la de la figura 3 .3 , elija la opción Insertar toda una columna y haga clic en <b>Aceptar</b>.</p>
+<div class="botonera" id="botonera">
+<p>Ejecutada la opción anterior, podrá ver que la columna que hasta entonces era la A para a ser la B, que la B pasa a ser la C y así sucesivamente. El resultado, como se en la figura 3 .4, es que los datos se han desplazado una columna a la derecha y, por lo tanto, tenemos una nueva columna a la izquierda en la que poder introducir los títulos de las filas.</p>
+<p>Ésta es una operación que afecta a la hoja completa, otra posibilidad habría sido mover el contenido de las celdillas de la posición en que se encontraban a la nueva, una operación que aprenderá a realizar más adelante.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><img src="excel_3.3.png" alt="Figura 3.3" width="245" height="182" />  <strong>FIGURA 3.3</strong></p>
+<p style="text-align: left;"></p>
+<p style="text-align: left;"></p>
+<p style="text-align: left;"><img src="excel_3.4.png" alt="Figura 3.4" width="400" height="185" /></p>
+<p style="text-align: left;"><strong>FIGURA 3.4</strong></p>
+<p style="text-align: left;"></p>
+<p>Ya tenemos el espacio necesario para introducir los títulos de las filas. Puesto que la primera celdilla en la que podrá introducirse un dato será la B2, el primer título lo colocaremos en la fila 2, concretamente en la celdilla A2 . Los títulos, puesto que estamos creando una hoja de uso genérico, no serán los nombres de los colegios, sino la palabra Colegio seguida de un número entre 1 y 10</p>
+<p>Introduzca en la celdilla A2 el primer título: Colegio 1. Pulsando <b>Intro</b> el foco pasará automáticamente a la celdilla de más abajo. El título a introducir es Colegio 2. Al introducir el primer carácter fíjese en lo que ocurre. Excel muestra automáticamente el mismo texto que hay en la celdilla anterior (véase la figura 3 .5), ya que al comenzar por el mismo carácter asume que vamos a introducir el mismo dato.</p>
+<p><img src="excel_3.5.png" alt="Figura 3.5" width="401" height="198" /></p>
+<p><strong>FIGURA 3.5</strong></p>
+<p><strong></strong></p>
+<p></p>
+<p>Esta característica de Excel, conocida como autocompletado, nos permite seguir introduciendo caracteres de este nuevo título. Si van coincidiendo se sigue mostrando el valor propuesto, de tal forma que bastearía con pulsar <b>Intro</b> para aceptarlo e introducirlo directamente. En el momento en que se encuentre la primera diferencia, el autocompletado se desactivará a menos, claro está, que se encuentre una coincidencia con otro dato facilitado con anterioridad.</p>
+<p>Puede aceptar el autocompletado de Excel, introduciendo de nuevo el título Colegio 1, y modificarlo después. En este caso, no obstante, el ahorro de trabajo no resultará muy significativo.</p>
+<ol>
+<li><b>Editar el contenido de una celdilla</b><b></b></li>
+</ol>
+<p>Supóngase que ha aceptado el autocompletado que hace Excel, de tal forma que en la celdilla A3 correspondiente al título de la segunda fila de datos, el texto que hay ahora es Colegio 1. El que debería haber, sin embargo, es Colegio 2. Puede modificar el contenidote esta celdilla básicamente de dos maneras diferentes.</p>
+<p>El primer método consiste en editar el título en la propia celdilla. Para ello no tiene más que seleccionar la celdilla, poniendo el foco de entrada sobre ella, y a continuación hacer doble clic con el botón principal del ratón. Verá que aparece el cursor, siendo posible editar el contenido. Puede conseguir exactamente lo mismo pulsando <b>F2</b> en lugar de hacer doble clic con el ratón. Un método alternativo es editar el contenido de la celdilla en la Barra de fórmulas. Al seleccionar la celdilla verá que su contenido aparece en dicha barra. Tan sólo tiene que hacer clic sobre ella y podrá modificar el título igual que haría en la celdilla.</p>
+<ol>
+<li><b>Autollenado de celdillas</b></li>
+</ol>
+<p>Los títulos de las filas siguientes serán prácticamente idénticos, tan sólo cambiará el número que sigue a la palabra Colegio. Con la característica de autocompletado, que acaba de conocer, podría rápidamente introducir el valor Colegio 1 en todas las celdillas y, posteriormente, editar su contenido para establecer los títulos definitivos. Existen, no obstante, métodos más eficientes para realizar este trabajo.</p>
+<p>Fíjese un momento en el foco de entrada de la celdilla que tenga seleccionada. Si es observador, percibirá que en la esquina inferior derecha del recuadro, existe un pequeño bloque cuadrado. Éste recibe el nombre de <i>controlador de relleno</i>. Sitúe el puntero del ratón sobre él, verá cómo cambia de forma.</p>
+<p>El controlador de relleno se utiliza, como su propio nombre indica, para gestionar una operación de relleno de celdillas. Esta operación puede consistir en copiar el valor de una celdilla, la que está seleccionada en ese momento, a otras celdillas delimitadas mediante una operación de arrastrar y soltar.</p>
+<p>Lo más interesante, sin embargo, es que la operación de relleno es capaz de identificar y repetir secuencias. Este concepto, que va a comprender en un instante, resulta de suma utilidad a la hora de realizar trabajos como el que tenemos pendiente en este momento.</p>
+<p>Teniendo seleccionada la celdilla A3, que contiene el segundo título, sitúe el puntero del ratón sobre el controlador de relleno. Cuando esté en el punto adecuado el puntero cambiará de forma, en ese momento haga clic con el botón principal del ratón y no lo suelte, ya que va a efectuar una operación de arrastrar y soltar.</p>
+<p>Manteniendo el botón pulsado, desplace el puntero hacia abajo tal y como puede verse en la figura 3 .7 Fíjese en cómo se traza un borde alrededor del área delimitada, al tiempo que aparece una etiqueta indicando el texto que se introduciría en la última celdilla seleccionada en ese momento.</p>
+<p><img src="excel_3.7.png" alt="Figura 3.7" width="400" height="294" /></p>
+<p><strong>FIGURA 3.7</strong></p>
+<p><span>Una vez que en la etiqueta flotante aparezca el título Colegio 10 , puede liberar el botón principal del botón. Verá que Excel rellena todas las celdillas seleccionadas con los títulos que, en un principio, nos disponíamos a introducir de forma manual.</span></p>
+<p><img src="excel_3.8.png" alt="Figura 3.8" width="401" height="336" /></p>
+<p><strong>FIGURA 3.8</strong></p>
+<ol>
+<li><b>Etiquetas inteligentes</b></li>
+</ol>
+<p>Al finalizar la operación anterior, obteniendo la secuencia que deseábamos, habrá observado que junto a la parte inferior del recuadro que delimita los datos ha aparecido un pequeño icono. Es lo que se conoce como una <i>etiqueta inteligente</i> o una <i>smarttag.</i>Sitúe el puntero del ratón sobre esa etiqueta y haga clic sobre ella. Verá, como en la figura 3 .9, que se despliega una lista de opciones.</p>
+<p><img src="excel_3.9.png" alt="Figura 3.9" width="348" height="451" /></p>
+<p><strong>FIGURA 3.9</strong></p>
+<p></p>
+<p>En este caso, Excel ha generado, a partir de nuestra acción, una secuencia de valores. Suponga, no obstante, que no era esto lo que deseábamos, sino que tan sólo queríamos copiar el mismo valor en todas las celdillas seleccionadas. Gracias a las opciones de la etiqueta inteligente podríamos corregir ese comportamiento por defecto.</p>
+<p>Las etiquetas inteligentes le asistirán en muchas otras situaciones como tendrá ocasión de comprobar. Es habitual que aparezcan, por ejemplo, al pegar una información desde el portapapeles o introducir una fórmula incorrecta.</p>
+<ol>
+<li><b>Nuestra primera hoja terminada</b></li>
+</ol>
+<p>Puesto que ya tenemos introducidos los títulos de columnas y filas, indicando los datos que han de introducirse y las celdillas en las que deben almacenarse, en principio ya tenemos terminada nuestra hoja de cálculo. Pulse <b>Control-G</b>, seleccione la opción Guardar de la vista Backstage o haga clic en el botón <b>Guardar </b>para almacenarla.</p>
+<p>El aspecto actual de la hoja de cálculo debería ser el mostrado en la figura 3 .10</p>
+<p><img src="excel_3.10.png" alt="Figura 3.10" width="401" height="308" /></p>
+<p><strong>FIGURA 3.10</strong></p>
+</div>
+<p></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

@@ -1,0 +1,457 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id16">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 0;
+var key1 = 0;
+var key2 = 3;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b16");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm16").key0b16[i].checked)
+               {
+                  question0 = document.getElementById("quizForm16").key0b16[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b16");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm16").key1b16[i].checked)
+               {
+                  question1 = document.getElementById("quizForm16").key1b16[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b16");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm16").key2b16[i].checked)
+               {
+                  question2 = document.getElementById("quizForm16").key2b16[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b16");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm16").key3b16[i].checked)
+               {
+                  question3 = document.getElementById("quizForm16").key3b16[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm16").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm16" id="quizForm16" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-16" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b16" class="block iDevice_content">
+<p><strong>¿En qué artículo de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter personal, se recoge el principio de seguridad de datos?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b161" class="sr-av"><a href="#answer-key0b161">Opción 1</a></label><input type="radio" name="key0b16" id="key0b161" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b161"><a name="answer-key0b161"></a>
+<div id="taoptionAnswer0q0b16" class="block iDevice_content">
+<p><span>En el artículo 9</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b162" class="sr-av"><a href="#answer-key0b162">Opción 2</a></label><input type="radio" name="key0b16" id="key0b162" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b162"><a name="answer-key0b162"></a>
+<div id="taoptionAnswer1q0b16" class="block iDevice_content">
+<p><span>En el artículo 12</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b163" class="sr-av"><a href="#answer-key0b163">Opción 3</a></label><input type="radio" name="key0b16" id="key0b163" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b163"><a name="answer-key0b163"></a>
+<div id="taoptionAnswer2q0b16" class="block iDevice_content">
+<p><span>No se recoge en ningún artículo de la Ley 15/1999, de 13 de diciembre, de Protección de Datos de Carácter personal, sino en el artículo 11 del Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b164" class="sr-av"><a href="#answer-key0b164">Opción 4</a></label><input type="radio" name="key0b16" id="key0b164" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b164"><a name="answer-key0b164"></a>
+<div id="taoptionAnswer3q0b16" class="block iDevice_content">
+<p><span>Ninguna de las respuestas anteriores es correcta.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b16" class="block iDevice_content">
+<p><strong>Los niveles de seguridad aplicables a los ficheros y tratamientos de datos de carácter personal podrán ser:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b161" class="sr-av"><a href="#answer-key1b161">Opción 1</a></label><input type="radio" name="key1b16" id="key1b161" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b161"><a name="answer-key1b161"></a>
+<div id="taoptionAnswer0q1b16" class="block iDevice_content">
+<p><span>Alto, medio y básico.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b162" class="sr-av"><a href="#answer-key1b162">Opción 2</a></label><input type="radio" name="key1b16" id="key1b162" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b162"><a name="answer-key1b162"></a>
+<div id="taoptionAnswer1q1b16" class="block iDevice_content">
+<p><span>Esencial, medio y alta protección.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b163" class="sr-av"><a href="#answer-key1b163">Opción 3</a></label><input type="radio" name="key1b16" id="key1b163" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b163"><a name="answer-key1b163"></a>
+<div id="taoptionAnswer2q1b16" class="block iDevice_content">
+<p><span>Alto y básico.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b164" class="sr-av"><a href="#answer-key1b164">Opción 4</a></label><input type="radio" name="key1b16" id="key1b164" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b164"><a name="answer-key1b164"></a>
+<div id="taoptionAnswer3q1b16" class="block iDevice_content">
+<p><span>Medio y alto.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b16" class="block iDevice_content">
+<p><strong>Deberá revisarse el documento de seguridad cuando:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b161" class="sr-av"><a href="#answer-key2b161">Opción 1</a></label><input type="radio" name="key2b16" id="key2b161" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b161"><a name="answer-key2b161"></a>
+<div id="taoptionAnswer0q2b16" class="block iDevice_content">
+<p><span>Se produzcan cambios relevantes.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b162" class="sr-av"><a href="#answer-key2b162">Opción 2</a></label><input type="radio" name="key2b16" id="key2b162" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b162"><a name="answer-key2b162"></a>
+<div id="taoptionAnswer1q2b16" class="block iDevice_content">
+<p><span>Se produzcan cambios en el sistema informático.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b163" class="sr-av"><a href="#answer-key2b163">Opción 3</a></label><input type="radio" name="key2b16" id="key2b163" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b163"><a name="answer-key2b163"></a>
+<div id="taoptionAnswer2q2b16" class="block iDevice_content">
+<p><span>Se produzcan cambios en el contenido de la información incluida en los ficheros o tratamientos.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b164" class="sr-av"><a href="#answer-key2b164">Opción 4</a></label><input type="radio" name="key2b16" id="key2b164" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b164"><a name="answer-key2b164"></a>
+<div id="taoptionAnswer3q2b16" class="block iDevice_content">
+<p><span>Todas las respuestas son correctas.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b16" class="block iDevice_content">
+<p><strong>Determine si la siguiente afirmación es verdadera o falsa:</strong><span> </span><br /><span>"El traslado de la documentación deberá estar presidido por el principio de prudencia y diligencia debida".</span></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b161" class="sr-av"><a href="#answer-key3b161">Opción 1</a></label><input type="radio" name="key3b16" id="key3b161" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b161"><a name="answer-key3b161"></a>
+<div id="taoptionAnswer0q3b16" class="block iDevice_content">
+<p><span>Verdadera.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b162" class="sr-av"><a href="#answer-key3b162">Opción 2</a></label><input type="radio" name="key3b16" id="key3b162" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b162"><a name="answer-key3b162"></a>
+<div id="taoptionAnswer1q3b16" class="block iDevice_content">
+<p><span>Falsa.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id18">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-18_108">
+<form name="multi-select-form-18_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion18_108" class="block question iDevice_content">
+<p><strong>Quién debe elaborar el documento de seguridad? (Respuesta múltiple)</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1080" class="sr-av"><a href="#answer-18_111">Opción 1</a></label><input type="checkbox" id="op18_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_111"><a name="answer-18_111"></a>
+<div id="taans18_111" class="block iDevice_content">
+<p><span>El responsable del fichero.</span></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1081" class="sr-av"><a href="#answer-18_171">Opción 2</a></label><input type="checkbox" id="op18_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_171"><a name="answer-18_171"></a>
+<div id="taans18_171" class="block iDevice_content">
+<p><span>El responsable del tratamiento.</span></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1082" class="sr-av"><a href="#answer-18_173">Opción 3</a></label><input type="checkbox" id="op18_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_173"><a name="answer-18_173"></a>
+<div id="taans18_173" class="block iDevice_content">
+<p><span>Los usuarios.</span></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1083" class="sr-av"><a href="#answer-18_175">Opción 4</a></label><input type="checkbox" id="op18_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_175"><a name="answer-18_175"></a>
+<div id="taans18_175" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada">La Agencia Española de Protección de datos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'18_108')"/> 
+</p>
+</div>
+<div id="f18_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-18_111" class="right">Correcto</a></li>
+<li><a href="#answer-18_171" class="right">Correcto</a></li>
+<li><a href="#answer-18_173" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-18_175" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

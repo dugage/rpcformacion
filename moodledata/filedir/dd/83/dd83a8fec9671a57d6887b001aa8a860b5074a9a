@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id27">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 0;
+var key1 = 1;
+var key2 = 1;
+var key3 = 2;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b27");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm27").key0b27[i].checked)
+               {
+                  question0 = document.getElementById("quizForm27").key0b27[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b27");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm27").key1b27[i].checked)
+               {
+                  question1 = document.getElementById("quizForm27").key1b27[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b27");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm27").key2b27[i].checked)
+               {
+                  question2 = document.getElementById("quizForm27").key2b27[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b27");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm27").key3b27[i].checked)
+               {
+                  question3 = document.getElementById("quizForm27").key3b27[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b27");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm27").key4b27[i].checked)
+               {
+                  question4 = document.getElementById("quizForm27").key4b27[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm27").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona la Opcion Correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm27" id="quizForm27" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-27" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b27" class="block iDevice_content">
+<div class="ee_enunciado"><b>1. Completa el espacio en blanco:</b> “Las salas fitness suelen contar con estaciones cardiovasculares, de musculación y __________”.</div>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b271" class="sr-av"><a href="#answer-key0b271">Opción 1</a></label><input type="radio" name="key0b27" id="key0b271" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b271"><a name="answer-key0b271"></a>
+<div id="taoptionAnswer0q0b27" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Peso libre.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b272" class="sr-av"><a href="#answer-key0b272">Opción 2</a></label><input type="radio" name="key0b27" id="key0b272" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b272"><a name="answer-key0b272"></a>
+<div id="taoptionAnswer1q0b27" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Peso de carga.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b273" class="sr-av"><a href="#answer-key0b273">Opción 3</a></label><input type="radio" name="key0b27" id="key0b273" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b273"><a name="answer-key0b273"></a>
+<div id="taoptionAnswer2q0b27" class="block iDevice_content">
+<p>Peso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b27" class="block iDevice_content">
+<div class="ee_enunciado"><b>2. Las puertas de entrada deben ser accesibles en cuanto a sus dimensiones, garantizando una apertura mínima de:</b></div>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b271" class="sr-av"><a href="#answer-key1b271">Opción 1</a></label><input type="radio" name="key1b27" id="key1b271" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b271"><a name="answer-key1b271"></a>
+<div id="taoptionAnswer0q1b27" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">0,50 m.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b272" class="sr-av"><a href="#answer-key1b272">Opción 2</a></label><input type="radio" name="key1b27" id="key1b272" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b272"><a name="answer-key1b272"></a>
+<div id="taoptionAnswer1q1b27" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">1,20 m.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b273" class="sr-av"><a href="#answer-key1b273">Opción 3</a></label><input type="radio" name="key1b27" id="key1b273" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b273"><a name="answer-key1b273"></a>
+<div id="taoptionAnswer2q1b27" class="block iDevice_content">
+<p>2 m.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b27" class="block iDevice_content">
+<div class="ee_enunciado"><b>3. ¿Dónde se suelen colocar los materiales o útiles de trabajo para Fitness?</b></div>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b271" class="sr-av"><a href="#answer-key2b271">Opción 1</a></label><input type="radio" name="key2b27" id="key2b271" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b271"><a name="answer-key2b271"></a>
+<div id="taoptionAnswer0q2b27" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En el centro de la sala.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b272" class="sr-av"><a href="#answer-key2b272">Opción 2</a></label><input type="radio" name="key2b27" id="key2b272" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b272"><a name="answer-key2b272"></a>
+<div id="taoptionAnswer1q2b27" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">En la periferia de la sala.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b273" class="sr-av"><a href="#answer-key2b273">Opción 3</a></label><input type="radio" name="key2b27" id="key2b273" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b273"><a name="answer-key2b273"></a>
+<div id="taoptionAnswer2q2b27" class="block iDevice_content">
+<p>En otra sala.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b27" class="block iDevice_content">
+<div class="ee_enunciado"><b>4. ¿Cuáles son las barreras que impiden o dificultan expresar o recibir mensajes a través de los sistemas de comunicación sensorial?</b></div>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b271" class="sr-av"><a href="#answer-key3b271">Opción 1</a></label><input type="radio" name="key3b27" id="key3b271" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b271"><a name="answer-key3b271"></a>
+<div id="taoptionAnswer0q3b27" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Barreras físicas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b272" class="sr-av"><a href="#answer-key3b272">Opción 2</a></label><input type="radio" name="key3b27" id="key3b272" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b272"><a name="answer-key3b272"></a>
+<div id="taoptionAnswer1q3b27" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Barreras generales.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b273" class="sr-av"><a href="#answer-key3b273">Opción 3</a></label><input type="radio" name="key3b27" id="key3b273" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b273"><a name="answer-key3b273"></a>
+<div id="taoptionAnswer2q3b27" class="block iDevice_content">
+<p>Barreras sensoriales.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b27" class="block iDevice_content">
+<div class="ee_enunciado"><b>5. ¿Qué es una mancuerna?</b></div>
+<p></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b271" class="sr-av"><a href="#answer-key4b271">Opción 1</a></label><input type="radio" name="key4b27" id="key4b271" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b271"><a name="answer-key4b271"></a>
+<div id="taoptionAnswer0q4b27" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Una pieza de equipamiento utilizada en el entrenamiento con pesas.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b272" class="sr-av"><a href="#answer-key4b272">Opción 2</a></label><input type="radio" name="key4b27" id="key4b272" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b272"><a name="answer-key4b272"></a>
+<div id="taoptionAnswer1q4b27" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Un accesorio fitness muy importante y famoso dentro de este mundo por su facilidad de uso, por el poco espacio que ocupan y por su fácil transporte.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b273" class="sr-av"><a href="#answer-key4b273">Opción 3</a></label><input type="radio" name="key4b27" id="key4b273" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b273"><a name="answer-key4b273"></a>
+<div id="taoptionAnswer2q4b27" class="block iDevice_content">
+<p>Un accesorio que consiste en realizar un trabajo físico completo siguiendo una secuencia de ejercicios que tienen como base principal las subidas y las bajadas de una plataforma.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.1. Una macro para insertar subtotales </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.1. Una macro para insertar subtotales</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id1">
+<div class="iDevice emphasis0">
+<div id="ta1_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>El objetivo es crear manualmente los subtotales para el primer continente, registrando al mismo tiempo la macro. Ésta, al ser reproducida en el punto adecuado, se encargará de crear los subtotales.</p>
+<p>Sitúe el foco de entrada en la primera celdilla del segundo continente de la hoja, América en este caso, e inicie el registro de la macro utilizando la opción anteriormente citada.</p>
+<p>A continuación dé los pasos siguientes:</p>
+<ul>
+<li>Inserte una fila completa bajo los datos del primer continente.</li>
+<li>Sitúe el foco de entrada bajo la primera celdilla de datos, correspondiente a la población masculina.</li>
+<li>Introduzca en esa celdilla la fórmula =SUMAR.SI ($A$1: $A58; $A58; C$1: C58).</li>
+<li>Copie la fórmula a las celdillas adyacentes, totalizando la población femenina, rural, urbana y total.</li>
+<li>Detenga el registro de la macro.</li>
+</ul>
+<p>Observe que las referencias a las celdillas usadas en la fórmula son relativas o absolutas según el caso. Fíjese también en que hemos utilizado la función SUMAR.SI en lugar de SUMAR. Lo que hemos hecho es sumar todas las celdillas desde la actual hasta el inicio de la hoja, pero sólo en caso de que la primera columna aparezca el nombre del continente al que pertenece la fila inmediatamente superior.</p>
+<p>Si nos hubiésemos limitado a seleccionar las celdillas e introducir una suma, ya sea con la función SUMA o con el botón Autosuma, obtendríamos un resultado correcto en el primer continente, pero no en los demás al reproducir la macro ya que siempre se utilizaría un rango con el mismo número de filas. Esto es incorrecto dado que, como sabe, cada continente tiene un número de países distinto al los demás.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

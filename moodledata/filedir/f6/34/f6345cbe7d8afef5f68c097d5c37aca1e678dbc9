@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.5 Problemas en el funcionamiento de los botones de esquema </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3.5 Problemas en el funcionamiento de los botones de esquema</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id15">
+<div class="iDevice emphasis0">
+<div id="ta15_85" class="block iDevice_content">
+<p>Existen diversos motivos por los que los botones de esquema parecen no funcionar correctamente. Se detallan a continuación:</p>
+<ul>
+<li><b>Puede estar intentando anular la sangría de una tarea que ya se anuló tanto como se pudo (o una tarea de primer nivel):</b> En las tareas del primer nivel del esquema no se puede anular la sangría. En su lugar, aplique la sangría a aquellas tareas que desea incluir como subtareas de la tarea de primer nivel.</li>
+<li><b>Puede estar intentando mover una tarea que está contenida dentro de un proyecto consolidado (o un proyecto maestro):</b> Cuando se trabaja con proyectos consolidados o proyectos maestros, no se puede anular la sangría más allá del nivel de la subtarea de una tarea de resumen.</li>
+<li><b>Puede estar intentando aplicar o anular la sangría de asignaciones, no de tareas: </b> Las vistas Uso de recursos y Uso de tareas muestran las asignaciones de tareas y recursos con sangrías similares a las de las subtareas. Aunque las asignaciones se puedan mostrar y ocultar junto con las subtareas, no se les puede aplicar ni anular la sangría.</li>
+<li><b>Puede que esté trabajando en una vista que no usa los botones de esquema:</b> Los botones de esquema solo funcionan cuando la vista activa es Diagrama de Gantt, Hoja de tareas o Uso de tareas. Si está usando una de estas vistas y no funcionan los botones de esquema, asegúrese de que se muestran las tareas de resumen.</li>
+</ul>
+<p>Haga clic en la pestaña Archivo y a continuación, en Opciones. En la página Opciones de proyecto, seleccione Avanzadas. En Mostrar opciones para este proyecto, active la casilla Mostrar tarea de resumen del proyecto.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_R2EyT3ZEYk1wJTJGSjI4T3N0a0s0Um1jcWhOdHpUWVlUcjFudVoxeVpOSTRRJTNE" id="IMG_R2EyT3ZEYk1wJTJGSjI4T3N0a0s0Um1jcWhOdHpUWVlUcjFudVoxeVpOSTRRJTNE" alt="Programación de Tareas con Project 2016" title="Programación de Tareas con Project 2016" width="479" /></p>
+<ul>
+<li><b>Puede que las tareas estén ordenadas sin mantener la estructura del esquema:</b> Si las tareas están actualmente ordenadas sin la estructura del esquema, no están disponibles los botones de esquema.</li>
+</ul>
+<p>Para mantener la estructura de esquema al ordenar las tareas, en la ficha Ver, en el grupo Datos, haga clic en Ordenar y, a continuación, seleccione Ordenar por. En el cuadro de diálogo Ordenar por, asegúrese de activar la casilla Mantener estructura de esquema.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MlJLWWp1JTJCJTJGa0hEcGwlMkJ4N3Z2ZE9iaiUyRmE4TFpsJTJCN0E0Uk9LUjBLdHB5THMlM0Q=" id="IMG_MlJLWWp1JTJCJTJGa0hEcGwlMkJ4N3Z2ZE9iaiUyRmE4TFpsJTJCN0E0Uk9LUjBLdHB5THMlM0Q=" alt="Programación de Tareas con Project 2016" title="Programación de Tareas con Project 2016" height="89" width="210" /></p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RWdmekNhZVNSZWg3VHk4UWlqJTJGdmRlc2Z1MnJmVFElMkJ1OWZNazB5alR3d2slM0Q=" id="IMG_RWdmekNhZVNSZWg3VHk4UWlqJTJGdmRlc2Z1MnJmVFElMkJ1OWZNazB5alR3d2slM0Q=" alt="Programación de Tareas con Project 2016" title="Programación de Tareas con Project 2016" width="462" /></p>
+<ul>
+<li><b>Puede que las tareas estén agrupadas:</b> Para quitar la agrupación, en la ficha Vista, en el grupo Datos, haga clic en Sin grupo, en el cuadro Agrupa por.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NnJPdFVWVkF5QzBBRFclMkZtczlXaCUyQlBoJTJGdmN2MW1FNGpBMEx2UTFOZ2FlMCUzRA==" id="IMG_NnJPdFVWVkF5QzBBRFclMkZtczlXaCUyQlBoJTJGdmN2MW1FNGpBMEx2UTFOZ2FlMCUzRA==" alt="Programación de Tareas con Project 2016" title="Programación de Tareas con Project 2016" width="370" /></p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_elFkNGI5ejZvaWJIWXNSNUxXRmk4MCUyQk5sTFJwZEpxQTJmMmdHJTJCZ2lqRUUlM0Q=" id="IMG_elFkNGI5ejZvaWJIWXNSNUxXRmk4MCUyQk5sTFJwZEpxQTJmMmdHJTJCZ2lqRUUlM0Q=" alt="Programación de Tareas con Project 2016" title="Programación de Tareas con Project 2016" width="337" /></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

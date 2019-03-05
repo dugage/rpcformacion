@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.1. Bucles por contador </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3.1. Bucles por contador</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Seguramente es el tipo de bucle más simple, ya que sabemos con antelación cuántas veces deben repetirse las sentencias. Suponga, por ejemplo, que queire tomar los valores que hay en las primeras diez celdillas de la columna A de la hoja de cálculo. Es un caso apropiado para usar las instrucciones For/Next. El formato de esta estructura es el siguiente:</p>
+<p>For variable=inicio to fin</p>
+<p>sentencias</p>
+<p>Next</p>
+<p>La variable usada para controlar las iteraciones del bucle recibe el nombre de <i>contador</i>, ya que va contando las veces que se repite el bucle. Loso valores inicio y fin son los límites que tomará el contador.</p>
+<p>Con el fin de comprobar el funcionamiento de estas instrucciones, puede codificar una función como la siguiente. En ella tomamos los valores contenidos en las celdillas A1:A10 y los mostramos en la ventana Inmediato. El resultado aparece en la parte inferior de la figura 14.2.</p>
+<p>En segundo plano puede ver la hoja de cálculo con los valores que hemos introducido.</p>
+<p>Función Bucles ()</p>
+<p>Dim Fila As Integer</p>
+<p>For Fila = 1 To 10</p>
+<p>Debug.Print Cells (Fila, 1).Value</p>
+<p>Next</p>
+<p>End Function</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cHhKWGxYQlVmS0MlMkZxayUyQjUxT1BONk5BZjdna0RlOUtEQVJaJTJGUWhLTnFkNCUzRA==" id="IMG_cHhKWGxYQlVmS0MlMkZxayUyQjUxT1BONk5BZjdna0RlOUtEQVJaJTJGUWhLTnFkNCUzRA==" alt="Estructuras de control. El modelo de objetos de Excel" title="Estructuras de control. El modelo de objetos de Excel" width="468" /></p>
+<p><b>Figura 14.2.</b> Resultado de la ejecución del bucle.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

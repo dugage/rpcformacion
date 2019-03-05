@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.2. Unión de cadenas </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.2. Unión de cadenas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Sobre los datos numéricos es posible efectuar operaciones aritméticas, realizando sumas, multiplicaciones, etc. Obviamente, un texto no puede multiplicarse por otro ni sumarse, aunque sí son posibles dichas operaciones con sus respectivos códigos.</p>
+<p>Las cadenas pueden ser unidas para formar nuevas cadenas, efectuando una operación conocida como <i>concatenación</i>. También es posible extraer partes de una cadena, reemplazar unos caracteres por otros, efectuar conversiones como el cambio de mayúsculas a minúsculas o viceversa, etc.</p>
+<p>Para concatenar dos cadenas lo habitual es utilizar el operador &amp; que necesita dos parámetros: los dos textos, uno dispuesto a la izquierda y otro a la derecha del operador. Los textos pueden ser referencias a las celdillas. Si los textos a unir son varios, en lugar del mencionado operador puede utilizar la función CONCATENAR. Ésta puede tomar tantos parámetros como sean necesarios, todos ellos textos, uniéndolos y retornando una sola cadena. Partiendo de la hoja anterior, en la que teníamos una columna con códigos y otra con los respectivos caracteres podríamos utilizar la fórmula siguiente para generar una frase:</p>
+<p>=CONCATENAR (“El código“; A1;</p>
+<p>“tiene asociado el carácter ‘”; B2;“’.”)</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RmRRWSUyQlpiQ2FVQWtDbGRvaHFiJTJCTDNIQlNST2VEQllVcFJmc0k1Y1I2WVUlM0Q=" id="IMG_RmRRWSUyQlpiQ2FVQWtDbGRvaHFiJTJCTDNIQlNST2VEQllVcFJmc0k1Y1I2WVUlM0Q=" alt="Otras funciones de interés" title="Otras funciones de interés" width="493" /></p>
+<p><b>Figura 9.3.</b> Aspecto de la hoja con la descripción creada con la función CONCATENAR.</p>
+<p>Copiando esta fórmula en las demás celdillas, como se ha hecho en la figura 9.3, tendremos una versión más descriptiva de la correspondencia entre caracteres y sus respectivos códigos numéricos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

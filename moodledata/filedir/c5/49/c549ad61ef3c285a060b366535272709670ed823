@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.1.Configurar el documento a imprimir </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">2.1.Configurar el documento a imprimir</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id144">
+<div class="iDevice emphasis0">
+<div id="ta144_85" class="block iDevice_content">
+<p>Por regla general antes de proceder con la impresión de una hoja de cálculo siempre se realiza una configuración previa. Con este fin utilizaremos las opciones de la ficha Diseño de página de la Cinta de opciones.</p>
+<p>Esta ficha tiene cuatro grupos de opciones como se aprecia en la figura 7 .1 , cada uno de las cuales contiene un importante número de opciones o apartados. El botón que hay en la esquina inferior derecha de Configurar página da paso al cuadro de diálogo del mismo nombre, una ventana con cuatro páginas cada una de las cuales facilita la configuración de un aspecto concreto.</p>
+<p><img src="excel_7.1.png" alt="FIGURA 7.1" width="651" height="69" /></p>
+<p><strong>FIGURA 7.1</strong></p>
+<p></p>
+<p>En la parte inferior del cuadro de diálogo Configurar página siempre aparecen tres botones: <b>Imprimir, Vista preliminar </b>y <b>Opciones. </b>El primero cierra la ventana de configuración y abre la de impresión, que se tratará en un punto posterior. El segundo muestra la vista Backstage con visualización previa, que también analizaremos más adelante. El botón <b>Opciones</b>, por último, lo que hace es dar paso a la ventana de opciones de la propia impresora, desde la que, habitualmente, podrá seleccionar el tipo de papel, la bandeja de entrada, resolución, etc.</p>
+<p>La mayoría de las tareas de configuración que se explican a continuación pueden llevarse a cabo tanto desde el cuadro de diálogo Configurar página como mediante las opciones de la ficha Diseño de página de la Cinta de opciones. En unos casos resultará más cómodo acudir a un elemento o a otro; será su uso habitual el que determine dónde recurrir para cada tarea concreta.</p>
+<p><b>Configuración de página</b></p>
+<p>La primera página de la ventana de configuración afecta a la página de impresión. Sus opciones son las que puede ver en la figura 7 .2 . En la parte superior puede seleccionar la orientación de la página a la hora de imprimir. Por defecto, lo habitual es que la orientación sea vertical, pero puede cambiarse apaisada u horizontal tan sólo seleccionando una opción.</p>
+<p><img src="excel_7.2.png" alt="FIGURA 7.2" width="528" height="458" /></p>
+<p><strong>FIGURA 7.2</strong></p>
+<p></p>
+<p>Puede cambiar la orientación del papel sin necesidad de abrir el cuadro de diálogo, sencillamente desplegando las opciones de Orientación del grupo Configurar página y seleccionando la que nos interese (véase la figura 7.3).</p>
+<p>Habitualmente los datos se transfieren al papel respetando su tamaño original. En la pantalla no hay problema si la hoja excede del ancho o alto disponible, puesto que siempre es posible desplazar el contenido. En papel, por el contrario, esto no es posible, por lo que habría que utilizar varias páginas.</p>
+<p><img src="excel_7.3.png" alt="FIGURA 7.3" width="397" height="222" /></p>
+<p><strong>FIGURA 7.3</strong></p>
+<p></p>
+<p>Con las opciones del apartado Ajuste de escala puede tanto cambiar la proporción, haciendo que al imprimir los datos aparezcan reducidos o expandidos; como ajustar todo el contenido a un determinado número de páginas horizontal y verticalmente. Esta última posibilidad es muy interesante, ya que si la hoja excede por poco de un número de páginas, extendiéndose a otra nueva, Excel puede realizar el ajuste necesario para que cuadre en las páginas que se indiquen.</p>
+<p>La parte inferior de la ventana cuenta con tres opciones: seleccionar el tamaño del papel que va a usar para imprimir, indicar la calidad de impresión y, por último, facilitar un número de página inicial para la numeración. Por defecto, las páginas se numerarán a partir del 1 si no se especifica lo contrario.</p>
+<div class="botonera" id="botonera">
+<div id="listabotones">
+<div class="c_1 circulo circulo_pagina_actual"></div>
+<div class="c_2 circulo">
+<p>El tamaño de página puede seleccionarse también de la opción Diseño de página&gt;Configurar página&gt;Tamaño de la Cinta de opciones, como se indica en la figura 7 .4 . Normalmente encontraremos el tamaño adecuado en esta lista.</p>
+<p><b>Márgenes</b></p>
+<p>La segunda página de la ventana (véase la figura 7 .5) se utiliza para definir los márgenes de impresión aunque, como se verá después, dichos márgenes también pueden alterarse desde la ventana de vista previa y con la opción Márgenes de la Cinta de opciones.</p>
+<p>Los apartados Superior, Inferior, Izquierdo y Derecho contienen el espacio que hay, en centímetros, desde el borde del papel indicado hasta el inicio del área de impresión. En caso de que al imprimir vayan a utilizarse cabeceras y pies, los apartados Encabezado y Pie de página especificarán cuánto espacio hay reservado para ellos.</p>
+<p><img src="excel_7.4.png" alt="FIGura 7.4" width="464" height="692" /></p>
+<p><strong>FIGURA 7.4</strong></p>
+<p><strong><img src="excel_7.5.png" alt="FIGURA 7.5" width="529" height="459" /></strong></p>
+<p><strong>FIGURA 7.5</strong></p>
+<p>En la página que aparece en el centro de esta ventana se muestra el espacio que ocuparían los datos. En este caso, como puede ver en la figura 7 . 5, dichos datos no completan una página. Sería apropiado, por lo tanto, ajustar los márgenes para que, al imprimir, la información quedase centrada. No obstante, no es necesario hacer este ajuste manualmente, basta con hacer clic sobre las opciones que hay en la parte inferior para ajustar horizontalmente, verticalmente o ambos.</p>
+<p>Por regla general siempre usaremos los mismos márgenes a la hora de imprimir, razón por la cual la opción Márgenes de Diseño de página&gt;Configurar página nos ofrece (véase la figura 7 .6) una lista de márgenes predefinidos. Las opciones más habituales son Normal, Ancho y Estrecho. La opción Márgenes personalizados nos llevaría al cuadro de diálogo descrito hace un momento.</p>
+<p><img src="excel_7.6.png" alt="FIGURA 7.6" width="367" height="373" /></p>
+<p><strong>FIGURA 7.6</strong></p>
+<p></p>
+<p><b>Encabezados y pies</b></p>
+<p>Llegamos a la tercera de las páginas de configuración, que contiene los elementos que puede ver en la figura 7 .7 Los espacios en blanco que hay en la parte superior e inferior, justo encima y debajo de las listas desplegables, son una vista previa de cómo quedarán la cabecera y el pie, respectivamente.</p>
+<p><img src="excel_7.7.png" alt="FIGURA 7.7" width="528" height="458" /></p>
+<p><strong>FIGURA 7.7</strong></p>
+<p></p>
+<p>Existen una serie de encabezados y pies ya predefinidos, que no hay más que elegir de la lista desplegable para usarlos. Éstos combinan elementos como el número de página actual, el número de páginas totales, el nombre del libro o de la hoja, el nombre del autor, la fecha, etc.</p>
+<p>Si ninguno de los formatos preestablecidos se adapta a nuestras preferencias, siempre podemos optar por personalizar el contenido de la cabecera y el pie. Con este fin hay que hacer clic sobre el botón correspondiente, de los dos que hay en la parte central, accediendo a una ventana como la de la figura 7 .8 .</p>
+<p>El primer botón que hay, comenzando por la izquierda, se usa para establecer los atributos del texto de la sección elegida. En dichas secciones podemos introducir un texto cualquiera, tan sólo hay que situar el cursor en el punto adecuado y escribir.</p>
+<p>Los otros botones se usan para insertar algunos elementos especiales, concretamente el número de página, el número total de páginas, la fecha, la hora, el nombre del libro, un gráfico o el nombre de la hoja.</p>
+<p><img src="excel_7.8.png" alt="FIGURA 7.8" width="594" height="461" /></p>
+<p><strong>FIGURA 7.8</strong></p>
+<p></p>
+<p>La última página de la ventana de configuración, llamada Hoja, contiene una decena de apartados que facilitan la personalización de otros tantos aspectos. Inicialmente, la apariencia de esta página será similar a la que puede ver en la figura 7 .9 , aunque las opciones marcadas podrían ser otras.</p>
+<p>Por defecto Excel siempre imprime la hoja completa que esté seleccionada, dividiéndola, si es preciso, en varias páginas físicas. Puede darse el caso, sin embargo, de que necesite imprimir sólo una porción de la hoja, por ejemplo sólo el recuadro de datos. El apartado Área de impresión de esta ventana permite especificar el rango a imprimir. Puede introducirlo manualmente o, haciendo clic en el botón</p>
+<p><img src="excel_7.9.png" alt="FIGURA 7.9" width="650" height="520" /></p>
+<p><strong></strong><span>que hay a la derecha, acceder a la hoja y marcar el área mediante cualquiera de los métodos que ya conoce.</span></p>
+<p><img src="excel_7.10.png" alt="FIGURA 7.10" width="528" height="457" /></p>
+<p><strong>FIGURA 7.9</strong></p>
+<p>Otra forma de establecer el área que queremos imprimir consiste, sin llegar a abrir el cuadro de diálogo anterior, en seleccionar el rango de celdillas deseado y a continuación elegir la opción Establecer área de impresión del botón <b>Área de impresión</b>, como se hace en la figura 7 .10 . Observe que debajo hay otra opción, llamada Borrar área de impresión, que anularía el efecto de la anterior.</p>
+<p>El contenido de una hoja de cálculo puede ser tan extenso que, en la práctica, sea imposible introducirlo en una sola página. Pueden ser precisas varias páginas en sentido vertical, dependiendo del número de filas de datos; y también en sentido horizontal, si el número de columnas también es grande.</p>
+<p>Cuando los datos de una hoja de cálculo se dividen en varias páginas, inicialmente los títulos de filas y columnas que habíamos puesto aparecen tan sólo en las primeras páginas en sentido vertical y horizontal. Esto, no obstante, puede corregirse de una forma muy simple. En la ventana anterior existen dos apartados: Repetir filas en extremo superior y Repetir columnas a la izquierda, que sirven para indicar las filas y columnas que contienen los títulos. Las filas se repetirán cada vez que haya un avance de página vertical, mientras que las columnas harán lo propio al producirse un salto horizontal.</p>
+<p><img src="excel_7.2.png" alt="FIGURA 7.10" width="528" height="458" /></p>
+<p><strong>FIGURA 7.10</strong></p>
+<p></p>
+<p>En el apartado Imprimir puede ver un conjunto de varias opciones mediante las cuales puede elegir, por ejemplo, imprimir las líneas de división de la hoja en papel, incluir los números de filas y letras de columnas o imprimir en blanco y negro. Esta última opción es interesante cuando, habiendo usado colores en el documento, el destino de impresión tan sólo contempla el blanco y negro. Marcándola se conseguirá que la impresión sea más legible ya que, por defecto, Excel intentará convertir los colores en tramas de puntos y niveles de grises, lo cual no siempre da buen resultado.</p>
+<p>Por último, en esta página de la ventana de configuración, tiene el apartado Orden de las páginas. Su finalidad es simplemente establecer el orden en que se imprimen en sentido vertical, de arriba abajo, y después en horizontal, de izquierda a derecha. Tan sólo hay que cambiar de opción para seleccionar el orden inverso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.5. Parámetros de conexión </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.5. Parámetros de conexión</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>La opción a utilizar para conectar con una base de datos SQL Server es Datos&gt;Obtener datos externos&gt;De otras fuentes&gt;Desde SQL Server. Ésta pondrá en marcha un asistente en varios pasos.</p>
+<p>Supongamos que disponemos de una base de datos en un servidor de nuestra empresa. Éste ejecuta SQL Server 2005 para permitir que cualquier cliente, cualquier ordenador conectado a ese servidor, pueda extraer los datos que interesen.</p>
+<p>Tal y como se aprecia en el panel izquierdo de la herramienta de administración, la base de datos se llama FAO y el servidor donde está SQL Server es SIRIUS.</p>
+<p>Asumiendo que tenemos esta base de datos disponible en un servidor al que estamos conectados, iniciaríamos el proceso de definición de una nueva conexión tal y como acaba de describirse. Lo primero que tendremos que indicar, en el primer paso del asistente mostrado en la figura 4.5, es el nombre del servidor y las credenciales que utilizaremos para establecer la conexión.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bDRKWlpXUVJ3VlJVblZsaTA4dXZrY2ZKR1dZMDcwZHV5bVFsRkZlT3hvVSUzRA==" id="IMG_bDRKWlpXUVJ3VlJVblZsaTA4dXZrY2ZKR1dZMDcwZHV5bVFsRkZlT3hvVSUzRA==" alt="Bases de datos" title="Bases de datos" width="435" /></p>
+<p><b>Figura 4.9.</b> Facilitamos el nombre del servidor y las credenciales.</p>
+<p>El nombre del servidor es el de la máquina donde está ejecutándose SQL Server. Éste puede ser el nombre de nuestra propia máquina, aunque lo habitual es que sea un ordenador dedicado a servir a los demás que estarán conectados a él mediante algún tipo de red. Es necesario indicar, además, qué credenciales se usarán para que el servidor de datos, SQL Server, nos deje acceder a la información que deseamos recuperar.</p>
+<p>Lo habitual consiste en dejar seleccionada la opción Utilizar autentificación de Windows, de tal manera que el propio nombre de usuario y clave con que hemos iniciado sesión en Windows sirvan también para presentarnos ante el servidor de datos. Esto será posible siempre que el administrador de sistema en la configuración de SQL Server nos permita ese acceso. De no ser así, es posible que necesitemos solicitarle un nombre de usuario y contraseña específicos para acceder a la base de datos, en cuyo caso usaríamos la segunda de las opciones.</p>
+<p>Si nuestro ordenador puede conectar con el servidor de datos indicado sin problemas, lo próximo que veremos aparecer será una ventana como la de la figura 4.6. En la lista desplegable que hay en la parte superior se enumeran todas las bases de datos que existen en el servidor.</p>
+<p>Según la base que seleccionemos, debajo podremos ver todas las tablas disponibles. En este ejemplo abrimos la base de datos FAO y conectamos con la tabla Cultivos.</p>
+<p>En el siguiente paso del asistente (véase figura 4.11) guardaremos toda la información facilitada, los parámetros de conexión, en un archivo. Éste tendrá extensión ODC (Office Data Connection) y, opcionalmente, puede contar con una descripción que nos permita identificarlo en el futuro.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_QVdMcXRZWFJ6MGE2T3NxWVBtcUdVT212WjFsVUJ4WUZhbHZ4blRzenM3cyUzRA==" id="IMG_QVdMcXRZWFJ6MGE2T3NxWVBtcUdVT212WjFsVUJ4WUZhbHZ4blRzenM3cyUzRA==" alt="Bases de datos" title="Bases de datos" width="378" /></p>
+<p><b>Figura 4.10.</b> Seleccionamos la base de datos y la tabla a importar.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RmRyOHZzZ2tXbnBUMWZwcEdmQ0tyT1FmU0NBMkloeEV0VjVkU3FTek5MTSUzRA==" id="IMG_RmRyOHZzZ2tXbnBUMWZwcEdmQ0tyT1FmU0NBMkloeEV0VjVkU3FTek5MTSUzRA==" alt="Bases de datos" title="Bases de datos" width="419" /></p>
+<p><b>Figura 4.11.</b> Guardamos todos los parámetros de conexión.</p>
+<p>Al hacer clic en el botón <b>Finalizar</b> de esta ventana llegaremos al último paso del asistente en el que, como se aprecia en la figura 4.12, podremos elegir entre distintas opciones lo que deseamos hacer con la información obtenida: una tabla de datos, una tabla dinámica o un gráfico y una tabla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UVVDb09NVFZab2p2a2xqbmROMm93N2Rwc1p3SE1UZFh0dSUyQmZGZ3J2bmlZJTNE" id="IMG_UVVDb09NVFZab2p2a2xqbmROMm93N2Rwc1p3SE1UZFh0dSUyQmZGZ3J2bmlZJTNE" alt="Bases de datos" title="Bases de datos" width="239" /></p>
+<p><b>Figura 4.12</b>. Optamos por generar una tabla con los datos recuperados.</p>
+<p>También podemos elegir entre colocar ese elemento en una hoja de cálculo nueva o bien en una existente.</p>
+<p>Al aceptar esta última ventana se efectuará el proceso de conexión, solicitud de los datos e introducción en el destino que hayamos seleccionado, tal y como ocurría en los casos anteriores. La figura 4.13 corresponde a los datos obtenidos de SQL Server ya insertados en Excel. Observe la ficha Diseño que aparece en la Cinta de opciones, especialmente el apartado Datos externos de tabla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VXg2WW50aDhGQlZGbzRheVRmMzNGZXpzZmJrQXJxUXdTakx5UTl5c1JxWSUzRA==" id="IMG_VXg2WW50aDhGQlZGbzRheVRmMzNGZXpzZmJrQXJxUXdTakx5UTl5c1JxWSUzRA==" alt="Bases de datos" title="Bases de datos" width="368" /></p>
+<p><b>Figura 4.13.</b> Aspecto de los datos una vez insertados en Excel.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

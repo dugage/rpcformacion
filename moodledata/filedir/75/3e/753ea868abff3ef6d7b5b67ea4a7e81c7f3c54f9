@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.2. Llamadas con registro automático </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.2. Llamadas con registro automático</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Aunque antes de llamar a una función externa la registramos para poder usarla, la función LLAMAR tiene otro formato, aparte del que ya conocemos, que nos permite efectuar el registro en el mismo momento de la llamada.</p>
+<p>Esto nos ahorra un paso intermedio, aparte de no ser necesaria la operación de desregistro.</p>
+<p>Este segundo formato de LLAMAR es una combinación de REGISTRAR y el formato de LLAMAR que ya conocemos, siendo necesarios todos los parámetros de registro y llamada: nombre de la biblioteca, nombre de la función, cadena indicando el tipo de retorno y de los parámetros y, finalmente, todos los parámetros que tome la función externa a invocar.</p>
+<p>Para poder utilizar la función externa GetTickCount, como se ha hecho en los puntos previos, tendríamos suficiente con introducir la siguiente fórmula en una celdilla de la hoja de macros:</p>
+<p>=LLAMAR (“Derne132.dll”; “GetTickCount”; “J”)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

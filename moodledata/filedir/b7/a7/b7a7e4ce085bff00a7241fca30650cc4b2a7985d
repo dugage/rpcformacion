@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Enlace ContaPlus </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Enlace ContaPlus</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id4">
+<div class="iDevice emphasis0">
+<div id="ta4_85" class="block iDevice_content">
+<h4><b>Consejos Previos</b></h4>
+<p>Antes de la introducción de cualquier dato en el programa, hay que tener en cuenta una serie de consideraciones.</p>
+<p>Debemos dirigirnos al menú <b>Útil</b>, opción <b>Entorno del Sistema</b>, apartado <b>Personalización</b>. En esta opción encontrará distintas carpetas para configurar su Entorno de Trabajo.</p>
+<p><b>Contadores</b></p>
+<p>Con esta opción podrán modificar todos y cada uno de los contadores de los documentos, pudiendo introducir cualquier valor a partir del cual retomará el programa la numeración automática.</p>
+<p><b>Enlace con ContaPlus </b></p>
+<p>Una vez efectuado este enlace, cada Cliente o Proveedor que dé de alta en el programa generará su subcuenta contable correspondiente en ContaPlus. Si se introduce algún Cliente o Proveedor previo a este enlace, dichos datos no quedarán reflejados en ContaPlus y, en el posterior paso a contabilidad, mostrará un mensaje de error, ya que la subcuenta contable no estará indicada en el fichero del cliente. En este caso, debe modificar la ficha del Cliente e indicar la subcuenta contable. Esto no supone que dicha subcuenta se cree en ContaPlus con los datos de ese Cliente, sino que permite el paso de la factura a ContaPlus, aunque la subcuenta contable creada aparecerá con el código indicado en la ficha del Cliente o Proveedor y en la descripción de la subcuenta pondrá "<i>Facturación</i>", debido a que no estaba creada antes de efectuar el enlace.</p>
+<p>Una vez creado el enlace, cualquier modificación en los datos de clientes ó proveedores en la aplicación y que también se encuentren en <b>ContaPlus</b>, se modificarán automáticamente en las subcuentas correspondientes, si previamente han sido seleccionados los campos "Act. datos cliente en modificaciones" y "Act. datos proveedor en modificaciones", en la opción de Útil/ Entorno del Sistema/ Personalización/ ContaPlus y Compras, respectivamente.</p>
+<p>Además, en cualquier momento se podrán importar y exportar los clientes y proveedores de la aplicación a ContaPlus y viceversa, mediante la nueva funcionalidad de <b>Importación</b> / <b>Exportación</b>, ubicada en las fichas de los clientes y proveedores.</p>
+<p>Igualmente, cada vez que introduce un artículo es necesario indicar un Grupo de Ventas asociado, que debe estar creado previamente en el apartado <b>Grupos de Ventas</b> en el menú <b>Sistema</b>. Si no existe el enlace en el momento de introducir el artículo, no pedirá el Grupo de Ventas. Posteriormente, tras efectuar el enlace con ContaPlus, en el paso de la factura que contenga dicho artículo, mostrará un mensaje de error. Debe dirigirse a la ficha del artículo y modificarlo, donde se obliga a la introducción, en ese momento, de un Grupo de Ventas para el artículo. Una vez introducido, la factura debería pasar correctamente a ContaPlus.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aW1vZHkycnR0RWt4SmdNRENSVHlpQ1FUZW5wazZyTmtUMXkxYU1YM0dmNCUzRA==" id="IMG_aW1vZHkycnR0RWt4SmdNRENSVHlpQ1FUZW5wazZyTmtUMXkxYU1YM0dmNCUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p><b>Recibos </b></p>
+<p>Los valores que introduzca serán los que adoptará por defecto al efectuar una remesa de recibos o en la impresión de recibos.</p>
+<p><b>Modo de Trabajo </b></p>
+<p>En esta carpeta configurará todos los Valores de Control del programa para un perfecto funcionamiento del mismo.</p>
+<p><b>Documentos </b></p>
+<p>Esta opción permite seleccionar la numeración automática en pedidos y albaranes, la captura matricial de las líneas de artículos y el vuelco de comentarios entre documentos.</p>
+<p><b>Cálculo </b></p>
+<p>Elegirá la fórmula para el Cálculo de Costes Promedio, de la base comisionable de los agentes, el control de ubicaciones y el número y literales genéricos de las propiedades que desee que lleven sus artículos.</p>
+<p>Estas opciones sólo se deberán modificar en dos ocasiones:</p>
+<ul>
+<li>Al instalar por primera vez el programa.</li>
+<li>Justo después de crear una nueva empresa (sólo en las versiones Élite) para personalizar la forma de trabajar con ella.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VVhWVllobmRQWHFFejlWQmtpV09QOGJ6QUh6VFVGTFhKaEpnRzQwQThydyUzRA==" id="IMG_VVhWVllobmRQWHFFejlWQmtpV09QOGJ6QUh6VFVGTFhKaEpnRzQwQThydyUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p><b>Máscaras </b></p>
+<p>Con esta opción podrá configurar todos y cada uno de los formatos de presentación de los campos numéricos.</p>
+<p>A partir de este momento usted estará en disposición de alimentar las <b>Tablas Generales</b> del menú <b>Sistema</b>. A continuación procederá a añadir todos los datos de sus tablas maestras (<b>clientes, agentes, proveedores, artículos</b> ).</p>
+<h4><b>Características del Enlace</b></h4>
+<p>La opción de paso contable de documentos, ofrece una herramienta para enlazar FacturaPlus con ContaPlus. El primer paso para un correcto enlace es la configuración de subcuentas en <b>Útil/ Personalización/ carpeta ContaPlus</b>, donde figurarán las subcuentas que deseamos utilizar para los diferentes conceptos.</p>
+<p>Además deberemos asignar subcuentas a los clientes y proveedores, tanto en euros como en moneda extranjera, grupos de venta y compra o subcuentas de venta y compra a los artículos y subcuentas de cobro y pago en las formas de pago.</p>
+<p>El cuadro de diálogo de esta opción presenta los siguientes campos:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_N2klMkJpWTVCM2MyR1lsUTJiMWFVaUpSZlozeWFScjM0a1R5ZmRtRTd1a0NvJTNE" id="IMG_N2klMkJpWTVCM2MyR1lsUTJiMWFVaUpSZlozeWFScjM0a1R5ZmRtRTd1a0NvJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Enlace ContaPlus</p>
+<p><b>ContaPlus</b></p>
+<p>En este campo aparecerá la unidad y directorio donde se encuentre el programa ContaPlus. Asimismo, informará de la versión de dicho programa y la fecha de su fichero ejecutable. No serán accesibles al usuario.</p>
+<p><b>Empresas</b></p>
+<p>En este campo aparecerán la empresa o empresas de ContaPlus con las que se haya enlazado. No será accesible al usuario.</p>
+<p><b>Serie A y B, Abonos, F. Rect</b></p>
+<p>Aparecerán marcadas las series de facturas y los abonos que se hayan elegido para cada empresa en la carpeta Enlace ContaPlus del apartado <i>Personalización</i> de la opción <i>Entorno</i> <i>del</i> <i>Sistema</i> del menú <i>Útil</i>. No serán accesibles al usuario.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VGZ2b01UcFVkdFU0SnllNG5sWHp5V3UyYlJYeFVyQ3dUSkVlelMzbiUyQkhrJTNE" id="IMG_VGZ2b01UcFVkdFU0SnllNG5sWHp5V3UyYlJYeFVyQ3dUSkVlelMzbiUyQkhrJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p><b>Paso de Facturas</b></p>
+<p>Primer campo accesible al usuario. Si se marca realizará el traspaso de las facturas anteriores a la fecha tope de paso y que no estén ya contabilizadas.</p>
+<p><b>Paso de Remesas</b></p>
+<p>Siguiente campo accesible al usuario. Si se marca realizará el traspaso de las remesas anteriores a la fecha tope de paso y que no estén ya contabilizadas.</p>
+<p><b>Paso de Pagos/Cobros y Devoluciones</b></p>
+<p>A continuación aparecerá el siguiente campo accesible al usuario. Si se marca realizará el traspaso de los movimientos de recibos que se encuentren en la opción de pagos/cobros y devoluciones de este programa.</p>
+<p><b>Fecha Tope de Paso</b></p>
+<p>Fecha hasta la cual se realizará el traspaso de facturas, remesas, pagos/devoluciones y cierres de caja.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_R1J3dHhDZEltY3ZJQ2hqVXd2NkolMkYyNUNMNzdNenIyQ2F3cW93YTZXWTNzJTNE" id="IMG_R1J3dHhDZEltY3ZJQ2hqVXd2NkolMkYyNUNMNzdNenIyQ2F3cW93YTZXWTNzJTNE" alt="Facturación II" title="Facturación II" /></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

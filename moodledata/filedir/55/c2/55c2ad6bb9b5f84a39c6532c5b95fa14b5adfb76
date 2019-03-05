@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Cierre y arqueo </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Cierre y arqueo</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<p>Utilizaremos esta opción cuando deseemos realizar el cierre y arqueo de la caja. Al hacerlo, el programa registrará el cierre en el histórico de cierres. Podemos realizar hasta un máximo de 9 cierres al día.</p>
+<p>Cuando se selecciona esta opción el programa muestra una pantalla en la que se nos pide una serie de datos para realizar el cierre.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OXRubUw4WDJUSmNqQkJmWlF3bDYlMkZvJTJGUEV4QUlScXNjT1FZV2w4RHAwTjAlM0Q=" id="IMG_OXRubUw4WDJUSmNqQkJmWlF3bDYlMkZvJTJGUEV4QUlScXNjT1FZV2w4RHAwTjAlM0Q=" alt="Caja" title="Caja" width="461" /></p>
+<p>Cierre diario de caja</p>
+<p>Como ve en el cuadro anterior el programa nos pide que rellenemos los siguientes campos:</p>
+<ul>
+<li><b>Empleado: </b> deberemos introducir el código del empleado que realiza el cierre. Como en otras ocasiones sólo podrá realizar el cierre un empleado que se haya definido en la tabla de Empleados del menú Sistema.</li>
+<li><b>Fecha Cierre: </b> es la fecha que vamos a asignar al cierre. Por defecto contendrá la fecha del sistema, que usted podrá variar a su gusto.</li>
+<li><b>Hasta Fecha: </b> fecha hasta la que se quieren incluir tickets en el cierre. Por defecto también contendrá la fecha del sistema, que podrá ser modificada. Realizará el cierre de todos los tickets comprendidos entre el último cierre y la fecha que introduzcamos aquí.</li>
+<li><b>Serie del Cierre: </b> se elige entre los dos tipos de numeración de los que disponemos, A o B.</li>
+</ul>
+<p><b>Incluir Abonos de Facturas</b></p>
+<p>Sólo aparecerá esta opción si en el apartado de <b>Útil\entornó de Sistema\Personalización\V.Defecto</b>, tenemos marcado la opción de información de facturas en cierre.</p>
+<p>Nos permitirá tener una información de los recibos de abonos, realizados hasta el día del cierre, en sus distintas modalidades de pago.</p>
+<p>Al aceptar el cuadro de cierre el programa realizara el siguiente proceso:</p>
+<ul>
+<li>Los Tickets de Venta pasan al histórico de tickets.</li>
+<li>Los Movimientos de Caja pasan al histórico de movimientos.</li>
+<li>Se genera el cierre.</li>
+<li>Se generará el asiento del cierre de caja, que podremos visualizar en la tabla de asientos de cierres de caja que se verá en la siguiente opción del programa. Si en la carpeta Modo de Trabajo del apartado Personalización de la opción Entorno del Sistema del menú Útil hemos marcado Asiento único por cierre, dará un solo número de asiento. Si no la marcamos, generará todos los asientos correspondientes al cierre.</li>
+</ul>
+<p>Tras la confirmación, el programa nos mostrará la siguiente ventana informativa.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_clcxMDd0SXk5WUxVeVNSVWhyVENpQ2hOYnYlMkZ5b0tPN2xsVFFIblRXSERBJTNE" id="IMG_clcxMDd0SXk5WUxVeVNSVWhyVENpQ2hOYnYlMkZ5b0tPN2xsVFFIblRXSERBJTNE" alt="Caja" title="Caja" width="563" /></p>
+<p>Ventana de cierre</p>
+<p>El cierre se realizará en la divisa de la caja de cierre.</p>
+<p>La información mostrada en la carpeta "Det.F.Pago Departamento", se mostrará totalizada en la moneda de la caja de cierre.</p>
+<p>En cada una de las carpetas se mostrará la moneda en la cual se está realizando el cierre. Este campo no podrá ser modificado.</p>
+<p>Esta ventana informativa muestra un estudio exhaustivo del cierre realizado. En ella distinguimos tres carpetas.</p>
+<h4><b>Datos Generales</b></h4>
+<p>En esta carpeta distinguimos cinco zonas:</p>
+<ul>
+<li><b>Totales de Formas de Pago</b></li>
+</ul>
+<p>Como puede observar en esta zona se engloban todos los datos sobre las diferentes formas de pago, agrupadas por su modalidad, junto con la cantidad que con ellas se ha facturado: en efectivo, en crédito, en efecto bancario y el total del día.</p>
+<ul>
+<li><b>Datos Adicionales: </b> engloba los datos referentes a los vales y tickets apartados facturados.</li>
+<li><b>Movimientos de Caja: </b> en ella encontraremos los campos referentes a la cantidad de los movimientos de salida y entrada según las distintas formas de pago.</li>
+<li><b>Efectivo Caja:</b> los campos N.º primer ticket y N.º último ticket nos mantendrán informados de la numeración de tickets utilizados para el cierre. Además tenemos información del saldo anterior al cierre y del actual.</li>
+<li><b>Totales de las Bases Imponibles: </b> nos desglosará el total de la jornada según los 6 posibles tipos de IVA. Contendrá los campos de las bases imponibles correspondientes a cada tipo de IVA, cada porcentaje de tipo de IVA y el total que ha generado ese IVA. Al final aparecerá el campo Total con la suma de los seis totales por tipo de IVA. Según esto, el programa sólo permitirá realizar el cierre de tickets siempre y cuando no haya entre todos ellos más de seis tipos de IVA diferentes, en caso contrario, no realizará el cierre.</li>
+</ul>
+<h4><b>Cajas y Remanentes</b></h4>
+<p>En esta carpeta aparece una tabla con la caja, su remanente, su saldo, saldo más recibos, esta última columna habilitada si se trabaja con información de facturación en cierres, marcada en la carpeta de V. defecto en personalización. Desde aquí, con el botón Modificar, podremos cambiar la cantidad de remanente que queremos que quede en la caja y que habíamos asignado previamente en la opción Cajas del menú Global. También aparecen unos campos informativos similares a los que tenemos en la carpeta anterior de Datos Generales, más la de Información Facturación.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TiUyQjBoQ2lpUEhLTjJCNnVEU1kydXg5enFJdGNrTEJ5NTE1SmJTRTNQb3ZNJTNE" id="IMG_TiUyQjBoQ2lpUEhLTjJCNnVEU1kydXg5enFJdGNrTEJ5NTE1SmJTRTNQb3ZNJTNE" alt="Caja" title="Caja" width="561" /></p>
+<p>Detalle de cajas y remanentes</p>
+<h4><b>Detalle de Formas de Pago</b></h4>
+<p>Esta carpeta nos presenta una pequeña estadística que nos muestra el detalle de las diferentes formas de pago utilizadas junto a su importe detallado. Igualmente tenemos una estadística según departamentos con el importe correspondiente a cada uno de ellos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bjBDJTJGV25obFNhd2s2QWVLZ0dwMlpZNGlvQ1JKdkNNMkZSMEpCUXZXNUxnJTNE" id="IMG_bjBDJTJGV25obFNhd2s2QWVLZ0dwMlpZNGlvQ1JKdkNNMkZSMEpCUXZXNUxnJTNE" alt="Caja" title="Caja" width="566" /></p>
+<p>Detalle de formas de pago y departamentos</p>
+<h4><b>Información Facturación</b></h4>
+<p>Esta carpeta sólo estará visible si en el apartado de Útil\Entorno de Sistema\Personalización\V.Defecto, tenemos marcado la opción de información de facturas en cierre.</p>
+<p>Distinguimos las siguientes cuatro zonas:</p>
+<ul>
+<li><b>Total formas de pago de clientes:</b> recoge las diferentes formas de pago agrupadas por su modalidad, junto con la cantidad que con ellas se ha facturado: en efectivo, en crédito, en efecto bancario y el total del día, de clientes.</li>
+<li><b>Total Formas de Pago Abonos Clientes:</b> recoge las diferentes formas de pago agrupadas por su modalidad, junto con la cantidad que con ellas se ha abonado, en efectivo, en crédito, en efecto bancario y el total del día a los clientes.</li>
+<li><b>Total Formas de Pago Facturas de Proveedores:</b> recoge las diferentes formas de pago agrupadas por su modalidad, junto con la cantidad que con ellas se ha pagado, en efectivo, en crédito, en efecto bancario y el total del día a los proveedores.</li>
+<li><b>Efectivo Caja:</b> en este apartado se recoge el Saldo en efectivo de la facturación (Cobros menos pagos), más el Saldo General, es decir facturación más tickets.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RW5zYkFtUGt4UTRiMnhNb3B5TlRqbTlpbWhvaGtLd3ZrMDE0SUxsWW5YUSUzRA==" id="IMG_RW5zYkFtUGt4UTRiMnhNb3B5TlRqbTlpbWhvaGtLd3ZrMDE0SUxsWW5YUSUzRA==" alt="Caja" title="Caja" width="562" /></p>
+<p>Detalle de información facturación</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

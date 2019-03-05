@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-27" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id29">
+<div class="iDevice emphasis0">
+<div id="ta29_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id30">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta30_100" class="block iDevice_content">
+<div class="numeracion"><b>1. Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b30" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b30" class="block iDevice_content">
+<p><i>“Las características del tejido muscular son: excitación, contractilidad, extensibilidad, elasticidad, plasticidad y regeneración”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b30"><input type="radio" name="option0b30" id="true0b30" class="exe-radio-option exe-radio-option-0-2-0b30-truefalse" /> Verdadero</label> 
+<label for="false0b30"><input type="radio" name="option0b30" id="false0b30" class="exe-radio-option exe-radio-option-1-2-0b30-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b30" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b30-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id33">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 1;
+var key1 = 2;
+var key2 = 2;
+var key3 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b33");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm33").key0b33[i].checked)
+               {
+                  question0 = document.getElementById("quizForm33").key0b33[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b33");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm33").key1b33[i].checked)
+               {
+                  question1 = document.getElementById("quizForm33").key1b33[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b33");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm33").key2b33[i].checked)
+               {
+                  question2 = document.getElementById("quizForm33").key2b33[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b33");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm33").key3b33[i].checked)
+               {
+                  question3 = document.getElementById("quizForm33").key3b33[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm33").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm33" id="quizForm33" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-33" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b33" class="block iDevice_content">
+<p><b>2. ¿Cuál de las siguientes afirmaciones es correcta?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b331" class="sr-av"><a href="#answer-key0b331">Opción 1</a></label><input type="radio" name="key0b33" id="key0b331" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b331">
+<div id="taoptionAnswer0q0b33" class="block iDevice_content">
+<p>El músculo liso lo encontramos en la musculatura de las paredes de las vísceras y del corazón.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b332" class="sr-av"><a href="#answer-key0b332">Opción 2</a></label><input type="radio" name="key0b33" id="key0b332" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b332">
+<div id="taoptionAnswer1q0b33" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El tejido muscular cardiaco presenta estriaciones.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b333" class="sr-av"><a href="#answer-key0b333">Opción 3</a></label><input type="radio" name="key0b33" id="key0b333" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b333">
+<div id="taoptionAnswer2q0b33" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La contracción del tejido muscular estriado no está sujeta a control voluntario.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b33" class="block iDevice_content">
+<div class="ee_enunciado"><b>3. ¿Cuál de las siguientes afirmaciones es falsa?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b331" class="sr-av"><a href="#answer-key1b331">Opción 1</a></label><input type="radio" name="key1b33" id="key1b331" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b331">
+<div id="taoptionAnswer0q1b33" class="block iDevice_content">
+
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b332" class="sr-av"><a href="#answer-key1b332">Opción 2</a></label><input type="radio" name="key1b33" id="key1b332" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b332">
+<div id="taoptionAnswer1q1b33" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Los tendones están formados por la condensación del tejido conectivo que rodea a las fibras musculares.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b333" class="sr-av"><a href="#answer-key1b333">Opción 3</a></label><input type="radio" name="key1b33" id="key1b333" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b333">
+<div id="taoptionAnswer2q1b33" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El sarcómero es la unidad contráctil de las miofibrillas y está comprendido entre dos líneas H consecutivas.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b334" class="sr-av"><a href="#answer-key1b334">Opción 4</a></label><input type="radio" name="key1b33" id="key1b334" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b334">
+<div id="taoptionAnswer3q1b33" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">
+<div class="ee_respuesta ee_simpleSeleccionada">Los miofilamentos están constituidos básicamente por miosina, actina, tropomiosina y troponina.</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b33" class="block iDevice_content">
+<div class="ee_enunciado"><b>4. ¿Qué es un músculo digástrico?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b331" class="sr-av"><a href="#answer-key2b331">Opción 1</a></label><input type="radio" name="key2b33" id="key2b331" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b331">
+<div id="taoptionAnswer0q2b33" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Un tipo de músculo en el que todos sus diámetros son del mismo tamaño aproximadamente.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b332" class="sr-av"><a href="#answer-key2b332">Opción 2</a></label><input type="radio" name="key2b33" id="key2b332" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b332">
+<div id="taoptionAnswer1q2b33" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Son músculos que mediante su contracción producen la fuerza necesaria para realizar un movimiento.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b333" class="sr-av"><a href="#answer-key2b333">Opción 3</a></label><input type="radio" name="key2b33" id="key2b333" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b333">
+<div id="taoptionAnswer2q2b33" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Son músculos formados por dos vientres musculares unidos mediante un tendón.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b33" class="block iDevice_content">
+<p><b>5. ¿Qué neurotransmisor es clave en la contracción muscular?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b331" class="sr-av"><a href="#answer-key3b331">Opción 1</a></label><input type="radio" name="key3b33" id="key3b331" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b331">
+<div id="taoptionAnswer0q3b33" class="block iDevice_content">
+<p>Dopamina.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b332" class="sr-av"><a href="#answer-key3b332">Opción 2</a></label><input type="radio" name="key3b33" id="key3b332" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b332">
+<div id="taoptionAnswer1q3b33" class="block iDevice_content">
+<p>Serotonina.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b333" class="sr-av"><a href="#answer-key3b333">Opción 3</a></label><input type="radio" name="key3b33" id="key3b333" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b333">
+<div id="taoptionAnswer2q3b33" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Acetilcolina.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore33"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

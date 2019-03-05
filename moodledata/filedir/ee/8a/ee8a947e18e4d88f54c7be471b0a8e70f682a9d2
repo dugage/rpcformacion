@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-11" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id14">
+<div class="iDevice emphasis0">
+<div id="ta14_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyendaç" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+<p></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id15">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta15_100" class="block iDevice_content">
+<p><b>1</b>. <b>Indica si es verdadero o falso el siguiente enunciado:</b></p>
+</div>
+<section class="question">
+<form name="true-false-form-0b15" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b15" class="block iDevice_content">
+<p>“<i>Los logros que los niños en desarrollo consiguen suceden en todos a la misma edad”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b15"><input type="radio" name="option0b15" id="true0b15" class="exe-radio-option exe-radio-option-0-2-0b15-truefalse" /> Verdadero</label> 
+<label for="false0b15"><input type="radio" name="option0b15" id="false0b15" class="exe-radio-option exe-radio-option-1-2-0b15-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b15" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b15-result" class="wrong">Falso</strong></p>
+<p>Respuesta: Los logros que los niños en desarrollo consiguen no suceden en todos a la misma edad, puesto que cada niño tiene sus propias características, intereses, necesidades y ritmo de aprendizaje, por lo que se suele decir que el desarrollo no es un proceso uniforme.</p>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id16">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b16");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm16").key0b16[i].checked)
+               {
+                  question0 = document.getElementById("quizForm16").key0b16[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm16").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm16" id="quizForm16" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-16" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b16" class="block iDevice_content">
+<p><b>2. En la dimensión física:</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b161" class="sr-av"><a href="#answer-key0b161">Opción 1</a></label><input type="radio" name="key0b16" id="key0b161" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b161">
+<div id="taoptionAnswer0q0b16" class="block iDevice_content">
+<p>El desarrollo físico se refiere exclusivamente al cambio físico en sí mismo.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b162" class="sr-av"><a href="#answer-key0b162">Opción 2</a></label><input type="radio" name="key0b16" id="key0b162" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b162">
+<div id="taoptionAnswer1q0b16" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se relaciona con los procesos y necesidades puramente biológicas vinculadas con el mundo físico.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b163" class="sr-av"><a href="#answer-key0b163">Opción 3</a></label><input type="radio" name="key0b16" id="key0b163" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b163">
+<div id="taoptionAnswer2q0b16" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">En el desarrollo de la dimensión física, el ambiente no ejerce un rol relevante.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore16"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id19">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b19");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm19").key0b19[i].checked)
+               {
+                  question0 = document.getElementById("quizForm19").key0b19[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm19").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm19" id="quizForm19" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-19" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b19" class="block iDevice_content">
+<p><b>3. Completa el espacio en blanco del siguiente enunciado:</b> “La ______________ es el proceso de interiorización de los elementos que provienen del exterior a uno mismo”.</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b191" class="sr-av"><a href="#answer-key0b191">Opción 1</a></label><input type="radio" name="key0b19" id="key0b191" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b191">
+<div id="taoptionAnswer0q0b19" class="block iDevice_content">
+<p>Acomodación.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b192" class="sr-av"><a href="#answer-key0b192">Opción 2</a></label><input type="radio" name="key0b19" id="key0b192" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b192">
+<div id="taoptionAnswer1q0b19" class="block iDevice_content">
+<p>Atención.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b193" class="sr-av"><a href="#answer-key0b193">Opción 3</a></label><input type="radio" name="key0b19" id="key0b193" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b193">
+<div id="taoptionAnswer2q0b19" class="block iDevice_content">
+<p>Asimilación.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore19"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id22">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b22");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm22").key0b22[i].checked)
+               {
+                  question0 = document.getElementById("quizForm22").key0b22[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm22").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm22" id="quizForm22" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-22" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b22" class="block iDevice_content">
+<p><b>4. ¿Cuál de las siguientes afirmaciones sobre los componentes estructurales de la memoria es verdadera? </b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b221" class="sr-av"><a href="#answer-key0b221">Opción 1</a></label><input type="radio" name="key0b22" id="key0b221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b221">
+<div id="taoptionAnswer0q0b22" class="block iDevice_content">
+<p>El almacenamiento es un proceso constructivo.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b222" class="sr-av"><a href="#answer-key0b222">Opción 2</a></label><input type="radio" name="key0b22" id="key0b222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b222">
+<div id="taoptionAnswer1q0b22" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">La recuperación se realiza a través de funciones de almacenamiento y recuerdo.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b223" class="sr-av"><a href="#answer-key0b223">Opción 3</a></label><input type="radio" name="key0b22" id="key0b223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b223">
+<div id="taoptionAnswer2q0b22" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El reconocimiento permite recuperar algo de la memoria y trasladarlo a la conciencia.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore22"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id26">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b26");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm26").key0b26[i].checked)
+               {
+                  question0 = document.getElementById("quizForm26").key0b26[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm26").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm26" id="quizForm26" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-26" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b26" class="block iDevice_content">
+<p><b>5. En el apego ansioso-ambivalente:</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b261" class="sr-av"><a href="#answer-key0b261">Opción 1</a></label><input type="radio" name="key0b26" id="key0b261" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b261">
+<div id="taoptionAnswer0q0b26" class="block iDevice_content">
+<p>Los niños no tienen demasiado contacto con su madre.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b262" class="sr-av"><a href="#answer-key0b262">Opción 2</a></label><input type="radio" name="key0b26" id="key0b262" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b262">
+<div id="taoptionAnswer1q0b26" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Los niños juegan y exploran sin miedo cuando la madre está presente,</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b263" class="sr-av"><a href="#answer-key0b263">Opción 3</a></label><input type="radio" name="key0b26" id="key0b263" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b263">
+<div id="taoptionAnswer2q0b26" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Los niños muestran angustia en presencia de su madre.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore26"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

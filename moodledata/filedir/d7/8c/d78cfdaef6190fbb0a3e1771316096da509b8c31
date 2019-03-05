@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.1. Creación del gráfico </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.1. Creación del gráfico</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id1">
+<div class="iDevice emphasis0">
+<div id="ta1_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Para crear un gráfico necesitaremos previamente disponer de unos datos. Éstos serán los usados en los relativos a la evolución de la población mundial en el último milenio. Teniendo abierta la hoja correspondiente a estos datos, que puede ver en la figura 5.1, desplegamos el menú Insertar&gt;Gráficos&gt;Línea y elegimos el primero de los tipos que aparece. Las opciones Columna, Circular, Barra, Área, Dispersión y Otros gráficos dan paso a listas similares a la que se ve en la figura 5.1, pero con diferentes tipos de gráficos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_M3JEU0hFVXI2dGNwY2FMblBvSU4lMkJDbmhvdDNXUlV0SURpNHpCYWhadFhrJTNE" id="IMG_M3JEU0hFVXI2dGNwY2FMblBvSU4lMkJDbmhvdDNXUlV0SURpNHpCYWhadFhrJTNE" alt="Gráficos y diagramas" title="Gráficos y diagramas" width="436" /></p>
+<p><b>Figura 5.1.</b> Inicio del asistente para creación de un gráfico.</p>
+<p>Elegimos crear un gráfico de línea porque éste resulta especialmente indicado cuando lo que se quiere representar es una tendencia a lo largo del tiempo.</p>
+<p>En cuanto hagamos clic en el tipo de gráfico escogido, veremos aparecer en la hoja de cálculo el gráfico y en la Cinta de opciones las fichas adicionales que permiten trabajar sobre él, según se aprecia en la figura 5.2. La ficha que aparece abierta por defecto es Diseño.</p>
+<p>Fíjese en que Excel ha marcado también como rango de datos todas las filas de las dos columnas de población: el año y el número de personas. Sin embargo ha interpretado erróneamente el año como una serie de datos a representar, en lugar de cómo título de la serie que contiene la población. Por eso aparecen dos líneas en el gráfico, en vez de solamente una y además la escala del eje X del gráfico (horizontal) no tiene nada que ver con la realidad.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WlZFWWFabDdqJTJGRjhvMWdTQjJmRnU0dHZUaiUyRnRPNkp3U0plcDF5WTZUdlklM0Q=" id="IMG_WlZFWWFabDdqJTJGRjhvMWdTQjJmRnU0dHZUaiUyRnRPNkp3U0plcDF5WTZUdlklM0Q=" alt="Gráficos y diagramas" title="Gráficos y diagramas" width="441" /></p>
+<p><b>Figura 5.2.</b> Aspecto inicial del gráfico obtenido.</p>
+<p>Dado que la primera columna lo que contiene son títulos, concretamente los años a que pertenecen los datos, modificaremos ese rango seleccionando tan sólo la columna en la que están los datos de población incluyendo el título.</p>
+<p>Para ello haga clic en el botón <b>Seleccionar datos</b> del apartado Diseño&gt;Datos, abriendo el cuadro de diálogo de la figura 5.3.</p>
+<p>Inicialmente en la lista Entradas de leyenda (Series) podrá ver la columna Población mundial y la columna Año, mientras que en la lista Etiquetas del eje horizontal (categoría) aparece una secuencia de números. Seleccionamos en la de la izquierda la columna Año y hacemos clic en <b>Quitar</b>. Acto seguido hacemos clic en el botón <b>Editar</b> de la lista derecha y seleccionamos el rango que contiene los años.</p>
+<p>En ese momento llegaremos a la configuración de la figura 5.3 y el gráfico tendrá un asola serie de datos: Población mundial, apareciendo los años como títulos en el eje X.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dHdteXIxaU52RnpITmtkQUdVWmNMJTJGVG5lbHN6N0lQSGklMkZENmJZd0NHJTJCdyUzRA==" id="IMG_dHdteXIxaU52RnpITmtkQUdVWmNMJTJGVG5lbHN6N0lQSGklMkZENmJZd0NHJTJCdyUzRA==" alt="Gráficos y diagramas" title="Gráficos y diagramas" width="406" /></p>
+<p><b>Figura 5.3.</b> Configuramos las series de datos.</p>
+<p>En este momento el gráfico contiene la escala para el eje Y, los rótulos del eje X y el gráfico propiamente dicho, en forma de línea ascendente y que muestra nítidamente el crecimiento de la población a lo largo de los años. Faltan, sin embargo, algunos títulos que nos indiquen qué es cada parte. En la galería Diseño&gt;&gt;Diseños rápido (véase figura 5.4), indicando qué representan los números que hay en la escala. También pueden cambiar el tamaño del gráfico completo, para dar cabida a los títulos y la tabla de datos si ha elegido incluirla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OFF4OUlPMEhwekliZVhUbHFLQmdqQW1mOEVQU3dnVDhnUnEweXNKb0QzSSUzRA==" id="IMG_OFF4OUlPMEhwekliZVhUbHFLQmdqQW1mOEVQU3dnVDhnUnEweXNKb0QzSSUzRA==" alt="Gráficos y diagramas" title="Gráficos y diagramas" width="471" /></p>
+<p><b>Figura 5.4.</b> Seleccionamos un diseño de gráfico predefinido.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

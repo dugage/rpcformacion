@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id19">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 0;
+var key2 = 1;
+var key3 = 2;
+var key4 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b19");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm19").key0b19[i].checked)
+               {
+                  question0 = document.getElementById("quizForm19").key0b19[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b19");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm19").key1b19[i].checked)
+               {
+                  question1 = document.getElementById("quizForm19").key1b19[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b19");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm19").key2b19[i].checked)
+               {
+                  question2 = document.getElementById("quizForm19").key2b19[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b19");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm19").key3b19[i].checked)
+               {
+                  question3 = document.getElementById("quizForm19").key3b19[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b19");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm19").key4b19[i].checked)
+               {
+                  question4 = document.getElementById("quizForm19").key4b19[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm19").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Seleccione la opción Correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm19" id="quizForm19" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-19" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b19" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>1. ¿Cuál es la duración estimada para el desarrollo del alpertivo?</b></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b191" class="sr-av"><a href="#answer-key0b191">Opción 1</a></label><input type="radio" name="key0b19" id="key0b191" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b191"><a name="answer-key0b191"></a>
+<div id="taoptionAnswer0q0b19" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">15 minutos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b192" class="sr-av"><a href="#answer-key0b192">Opción 2</a></label><input type="radio" name="key0b19" id="key0b192" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b192"><a name="answer-key0b192"></a>
+<div id="taoptionAnswer1q0b19" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">30 minutos.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b193" class="sr-av"><a href="#answer-key0b193">Opción 3</a></label><input type="radio" name="key0b19" id="key0b193" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b193"><a name="answer-key0b193"></a>
+<div id="taoptionAnswer2q0b19" class="block iDevice_content">
+<p>1 hora.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b19" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>2. Completa el espacio en blanco del siguiente enunciado:</b> <b>“</b> Un____________es un escrito no demasiado largo, en el que se discurre sobre una materia para manifestar lo que se siente o piensa, para exponer algún tema, doctrina o ideología en público.”</div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b191" class="sr-av"><a href="#answer-key1b191">Opción 1</a></label><input type="radio" name="key1b19" id="key1b191" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b191"><a name="answer-key1b191"></a>
+<div id="taoptionAnswer0q1b19" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Discurso.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b192" class="sr-av"><a href="#answer-key1b192">Opción 2</a></label><input type="radio" name="key1b19" id="key1b192" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b192"><a name="answer-key1b192"></a>
+<div id="taoptionAnswer1q1b19" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Brindis.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b193" class="sr-av"><a href="#answer-key1b193">Opción 3</a></label><input type="radio" name="key1b19" id="key1b193" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b193"><a name="answer-key1b193"></a>
+<div id="taoptionAnswer2q1b19" class="block iDevice_content">
+<p>Presentación.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b19" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>3. Indica si es verdadero o falso el siguiente enunciado:</b> <i>“Conocemos como comunicado de prensa, el acto en que una persona convoca a los periodistas de los diferentes medios de comunicación para dar a conocer un hecho y someterse a las preguntas de los informadores.”</i></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b191" class="sr-av"><a href="#answer-key2b191">Opción 1</a></label><input type="radio" name="key2b19" id="key2b191" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b191"><a name="answer-key2b191"></a>
+<div id="taoptionAnswer0q2b19" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b192" class="sr-av"><a href="#answer-key2b192">Opción 2</a></label><input type="radio" name="key2b19" id="key2b192" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b192"><a name="answer-key2b192"></a>
+<div id="taoptionAnswer1q2b19" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b19" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>4. ¿Dónde ha de situarse la prensa en el caso de ser invitada a una firma de acuerdos?</b></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b191" class="sr-av"><a href="#answer-key3b191">Opción 1</a></label><input type="radio" name="key3b19" id="key3b191" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b191"><a name="answer-key3b191"></a>
+<div id="taoptionAnswer0q3b19" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">La prensa no estará presente en la firma de acuerdos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b192" class="sr-av"><a href="#answer-key3b192">Opción 2</a></label><input type="radio" name="key3b19" id="key3b192" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b192"><a name="answer-key3b192"></a>
+<div id="taoptionAnswer1q3b19" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Se ubicará en un lado de los formantes.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b193" class="sr-av"><a href="#answer-key3b193">Opción 3</a></label><input type="radio" name="key3b19" id="key3b193" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b193"><a name="answer-key3b193"></a>
+<div id="taoptionAnswer2q3b19" class="block iDevice_content">
+<p>Se ubicará frente a los firmantes.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b19" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>5. Durante la conducción es aconsejable:</b></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b191" class="sr-av"><a href="#answer-key4b191">Opción 1</a></label><input type="radio" name="key4b19" id="key4b191" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b191"><a name="answer-key4b191"></a>
+<div id="taoptionAnswer0q4b19" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Acelerar cuando el disco esté en naranja, evitando colapsar la carretera.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b192" class="sr-av"><a href="#answer-key4b192">Opción 2</a></label><input type="radio" name="key4b19" id="key4b192" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b192"><a name="answer-key4b192"></a>
+<div id="taoptionAnswer1q4b19" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En caso de atasco o tráfico denso, tocar el claxon cuanto sea necesario para despejar la vía.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b193" class="sr-av"><a href="#answer-key4b193">Opción 3</a></label><input type="radio" name="key4b19" id="key4b193" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b193"><a name="answer-key4b193"></a>
+<div id="taoptionAnswer2q4b19" class="block iDevice_content">
+<p>Procurar en todo momento ocupar correctamente un carril, evitando pisar dos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

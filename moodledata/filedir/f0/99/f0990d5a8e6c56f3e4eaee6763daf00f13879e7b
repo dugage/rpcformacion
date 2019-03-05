@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | Tema 10: El derecho inmobiliario registral </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.1 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id450">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 3;
+var key1 = 0;
+var key2 = 3;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b450");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm450").key0b450[i].checked)
+               {
+                  question0 = document.getElementById("quizForm450").key0b450[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b450");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm450").key1b450[i].checked)
+               {
+                  question1 = document.getElementById("quizForm450").key1b450[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b450");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm450").key2b450[i].checked)
+               {
+                  question2 = document.getElementById("quizForm450").key2b450[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b450");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm450").key3b450[i].checked)
+               {
+                  question3 = document.getElementById("quizForm450").key3b450[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm450").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm450" id="quizForm450" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-450" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b450" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Cuál de las siguientes opciones no pertenece a las características del derecho inmobiliario?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b4501" class="sr-av"><a href="#answer-key0b4501">Opción 1</a></label><input type="radio" name="key0b450" id="key0b4501" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b4501"><a name="answer-key0b4501"></a>
+<div id="taoptionAnswer0q0b450" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Es imperativo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b4502" class="sr-av"><a href="#answer-key0b4502">Opción 2</a></label><input type="radio" name="key0b450" id="key0b4502" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b4502"><a name="answer-key0b4502"></a>
+<div id="taoptionAnswer1q0b450" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Delimita el valor jurídico de la inscripción.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b4503" class="sr-av"><a href="#answer-key0b4503">Opción 3</a></label><input type="radio" name="key0b450" id="key0b4503" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b4503"><a name="answer-key0b4503"></a>
+<div id="taoptionAnswer2q0b450" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Es un derecho general.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b4504" class="sr-av"><a href="#answer-key0b4504">Opción 4</a></label><input type="radio" name="key0b450" id="key0b4504" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b4504"><a name="answer-key0b4504"></a>
+<div id="taoptionAnswer3q0b450" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Ninguna de las respuestas es correcta.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b450" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Qué significado tiene “erga omnes”?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b4501" class="sr-av"><a href="#answer-key1b4501">Opción 1</a></label><input type="radio" name="key1b450" id="key1b4501" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b4501"><a name="answer-key1b4501"></a>
+<div id="taoptionAnswer0q1b450" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Frente a todos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b4502" class="sr-av"><a href="#answer-key1b4502">Opción 2</a></label><input type="radio" name="key1b450" id="key1b4502" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b4502"><a name="answer-key1b4502"></a>
+<div id="taoptionAnswer1q1b450" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Situación inscrita.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b4503" class="sr-av"><a href="#answer-key1b4503">Opción 3</a></label><input type="radio" name="key1b450" id="key1b4503" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b4503"><a name="answer-key1b4503"></a>
+<div id="taoptionAnswer2q1b450" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Situación jurídica.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b4504" class="sr-av"><a href="#answer-key1b4504">Opción 4</a></label><input type="radio" name="key1b450" id="key1b4504" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b4504"><a name="answer-key1b4504"></a>
+<div id="taoptionAnswer3q1b450" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Con todos.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b450" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">
+<div class="ee_enunciado"><b>¿Cuál de las siguientes es una clase de registros?</b></div>
+<p><b> </b></p>
+</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b4501" class="sr-av"><a href="#answer-key2b4501">Opción 1</a></label><input type="radio" name="key2b450" id="key2b4501" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b4501"><a name="answer-key2b4501"></a>
+<div id="taoptionAnswer0q2b450" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Registros civiles o sustantivos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b4502" class="sr-av"><a href="#answer-key2b4502">Opción 2</a></label><input type="radio" name="key2b450" id="key2b4502" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b4502"><a name="answer-key2b4502"></a>
+<div id="taoptionAnswer1q2b450" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Registros jurídicos o de la propiedad.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b4503" class="sr-av"><a href="#answer-key2b4503">Opción 3</a></label><input type="radio" name="key2b450" id="key2b4503" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b4503"><a name="answer-key2b4503"></a>
+<div id="taoptionAnswer2q2b450" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Registros administrativos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b4504" class="sr-av"><a href="#answer-key2b4504">Opción 4</a></label><input type="radio" name="key2b450" id="key2b4504" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b4504"><a name="answer-key2b4504"></a>
+<div id="taoptionAnswer3q2b450" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Todas las respuestas anteriores son correctas.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b450" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si la siguiente afirmación es verdadera o falsa: </b><i>“El Registro de la Propiedad tiene por objeto la inscripción o anotación de los actos y contratos relativos al dominio y demás derechos reales sobre bienes inmuebles”.</i></div>
+<p><i> </i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b4501" class="sr-av"><a href="#answer-key3b4501">Opción 1</a></label><input type="radio" name="key3b450" id="key3b4501" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b4501"><a name="answer-key3b4501"></a>
+<div id="taoptionAnswer0q3b450" class="block iDevice_content">
+<p><span>Verdadero.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b4502" class="sr-av"><a href="#answer-key3b4502">Opción 2</a></label><input type="radio" name="key3b450" id="key3b4502" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b4502"><a name="answer-key3b4502"></a>
+<div id="taoptionAnswer1q3b450" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id451">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-451_108">
+<form name="multi-select-form-451_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion451_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="ee_enunciado"><b>¿Qué es el derecho inmobiliario? (Respuesta múltiple)</b></div>
+<p><b> </b></p>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op451_1080" class="sr-av"><a href="#answer-451_111">Opción 1</a></label><input type="checkbox" id="op451_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-451_111"><a name="answer-451_111"></a>
+<div id="taans451_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">
+<div class="ee_respuesta ee_multipleSeleccionada">Una de las ramas más modernas del derecho privado.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-451_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op451_1081" class="sr-av"><a href="#answer-451_369">Opción 2</a></label><input type="checkbox" id="op451_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-451_369"><a name="answer-451_369"></a>
+<div id="taans451_369" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">
+<div class="ee_respuesta ee_multipleSeleccionada">Es el producto de la distinción entre bienes muebles e inmuebles.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-451_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op451_1082" class="sr-av"><a href="#answer-451_371">Opción 3</a></label><input type="checkbox" id="op451_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-451_371"><a name="answer-451_371"></a>
+<div id="taans451_371" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">
+<div class="ee_respuesta ee_multipleSeleccionada">Es el conjunto de normas jurídicas y principios que tratan de la publicidad de situaciones jurídicas de trascendencia real.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-451_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op451_1083" class="sr-av"><a href="#answer-451_373">Opción 4</a></label><input type="checkbox" id="op451_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-451_373"><a name="answer-451_373"></a>
+<div id="taans451_373" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleNo_seleccionada">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Es la exteriorización continuada y organizada de situaciones jurídicas de trascendencia real.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-451_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="$exe.showFeedback(this,4,'451_108')"/> 
+</p>
+</div>
+<div id="f451_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-451_111" class="right">Correcto</a></li>
+<li><a href="#answer-451_369" class="right">Correcto</a></li>
+<li><a href="#answer-451_371" class="right">Correcto</a></li>
+<li><a href="#answer-451_373" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_max_js.js"></script></body></html>

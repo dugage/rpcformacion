@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-0" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id0">
+<div class="iDevice emphasis0">
+<div id="ta0_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id2">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 1;
+var key2 = 1;
+var key3 = 2;
+var key4 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b2");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key0b2[i].checked)
+               {
+                  question0 = document.getElementById("quizForm2").key0b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b2");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key1b2[i].checked)
+               {
+                  question1 = document.getElementById("quizForm2").key1b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b2");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key2b2[i].checked)
+               {
+                  question2 = document.getElementById("quizForm2").key2b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b2");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key3b2[i].checked)
+               {
+                  question3 = document.getElementById("quizForm2").key3b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b2");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm2").key4b2[i].checked)
+               {
+                  question4 = document.getElementById("quizForm2").key4b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm2").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm2" id="quizForm2" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-2" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b2" class="block iDevice_content">
+<div class="ee_enunciado"><strong>1. Los contratos indefinidos son aquellos:</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b21" class="sr-av"><a href="#answer-key0b21">Opción 1</a></label><input type="radio" name="key0b2" id="key0b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b21">
+<div id="taoptionAnswer0q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Que duran hasta que se jubile el trabajador.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b22" class="sr-av"><a href="#answer-key0b22">Opción 2</a></label><input type="radio" name="key0b2" id="key0b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b22">
+<div id="taoptionAnswer1q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Que no tienen una fecha de finalización determinada.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b23" class="sr-av"><a href="#answer-key0b23">Opción 3</a></label><input type="radio" name="key0b2" id="key0b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b23">
+<div id="taoptionAnswer2q0b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Que no tienen una fecha de comienzo de la relación laboral determinada.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b2" class="block iDevice_content">
+<p><strong>2. El contrato de trabajo indefinido de apoyo a los emprendedores…</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b21" class="sr-av"><a href="#answer-key1b21">Opción 1</a></label><input type="radio" name="key1b2" id="key1b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b21">
+<div id="taoptionAnswer0q1b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Nunca será indefinido.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b22" class="sr-av"><a href="#answer-key1b22">Opción 2</a></label><input type="radio" name="key1b2" id="key1b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b22">
+<div id="taoptionAnswer1q1b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Será indefinido y a jornada completa o parcial.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b23" class="sr-av"><a href="#answer-key1b23">Opción 3</a></label><input type="radio" name="key1b2" id="key1b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b23">
+<div id="taoptionAnswer2q1b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Será indefinido y a jornada parcial.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b2" class="block iDevice_content">
+<p><strong>3. El contrato por obra o servicio determinado:</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b21" class="sr-av"><a href="#answer-key2b21">Opción 1</a></label><input type="radio" name="key2b2" id="key2b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b21">
+<div id="taoptionAnswer0q2b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Es un contrato en el que la prestación de servicios se realiza en una obra.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b22" class="sr-av"><a href="#answer-key2b22">Opción 2</a></label><input type="radio" name="key2b2" id="key2b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b22">
+<div id="taoptionAnswer1q2b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Es un contrato que se caracteriza por tener autonomía y sustantividad propia dentro de la empresa.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b23" class="sr-av"><a href="#answer-key2b23">Opción 3</a></label><input type="radio" name="key2b2" id="key2b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b23">
+<div id="taoptionAnswer2q2b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Son aquellos cuya finalidad es la realización de una actividad que no requiere la prestación de servicios durante todos los días del año, sino solo en épocas determinadas.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b2" class="block iDevice_content">
+<p><strong>4. Los contratos de trabajo fijo-discontinuo:</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b21" class="sr-av"><a href="#answer-key3b21">Opción 1</a></label><input type="radio" name="key3b2" id="key3b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b21">
+<div id="taoptionAnswer0q3b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Tienen como objetivo el incentivar a las empresas para que contraten a determinados colectivos, más desfavorecidos a la hora de insertarse en el mercado laboral, a través de contratos indefinidos.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b22" class="sr-av"><a href="#answer-key3b22">Opción 2</a></label><input type="radio" name="key3b2" id="key3b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b22">
+<div id="taoptionAnswer1q3b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Tienen como finalidad la realización de una obra o la prestación de un servicio determinado, con autonomía y sustantividad propia dentro de la actividad de la empresa.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b23" class="sr-av"><a href="#answer-key3b23">Opción 3</a></label><input type="radio" name="key3b2" id="key3b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b23">
+<div id="taoptionAnswer2q3b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Son aquellos cuya finalidad es la realización de una actividad que no requiere la prestación de servicios durante todos los días del año, sino solo en épocas determinadas.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion4b2" class="block iDevice_content">
+<p><strong>5. Los contratos eventuales por circunstancias de la producción:</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b21" class="sr-av"><a href="#answer-key4b21">Opción 1</a></label><input type="radio" name="key4b2" id="key4b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b21">
+<div id="taoptionAnswer0q4b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Tienen como finalidad la realización de una obra o la prestación de un servicio determinado, con autonomía y sustantividad propia dentro de la actividad de la empresa.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b22" class="sr-av"><a href="#answer-key4b22">Opción 2</a></label><input type="radio" name="key4b2" id="key4b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b22">
+<div id="taoptionAnswer1q4b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Son aquellos en que la prestación de servicios durante todos los días del año, sino solo en épocas determinadas.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b23" class="sr-av"><a href="#answer-key4b23">Opción 3</a></label><input type="radio" name="key4b2" id="key4b23" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b23">
+<div id="taoptionAnswer2q4b2" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Tienen por objeto la realización de actividades propias de la empresa debido a un exceso de pedidos, acumulación de tareas, periodos punta de producción o cualquier otra causa relacionada con las circunstancias de producción de la empresa, aun tratándose de la actividad común de la empresa.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore2"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

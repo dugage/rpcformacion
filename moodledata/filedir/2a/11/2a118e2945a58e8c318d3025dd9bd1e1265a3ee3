@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-19" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id20">
+<div class="iDevice emphasis0">
+<div id="ta20_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id21">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 1;
+var key1 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b21");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm21").key0b21[i].checked)
+               {
+                  question0 = document.getElementById("quizForm21").key0b21[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b21");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm21").key1b21[i].checked)
+               {
+                  question1 = document.getElementById("quizForm21").key1b21[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm21").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm21" id="quizForm21" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-21" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b21" class="block iDevice_content">
+<div class="ee_enunciado"><strong>1. Para el mantenimiento de la vida, ¿qué sustancia es de vital importancia incorporar en nuestro organismo?</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b211" class="sr-av"><a href="#answer-key0b211">Opción 1</a></label><input type="radio" name="key0b21" id="key0b211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b211">
+<div id="taoptionAnswer0q0b21" class="block iDevice_content">
+<p>Incorporando agua podremos sobrevivir incluso años.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b212" class="sr-av"><a href="#answer-key0b212">Opción 2</a></label><input type="radio" name="key0b21" id="key0b212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b212">
+<div id="taoptionAnswer1q0b21" class="block iDevice_content">
+<p>En primer lugar, se hace imprescindible la incorporación de oxígeno, seguido de agua, y tras ésta, los alimentos.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b213" class="sr-av"><a href="#answer-key0b213">Opción 3</a></label><input type="radio" name="key0b21" id="key0b213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b213">
+<div id="taoptionAnswer2q0b21" class="block iDevice_content">
+<p>En primer lugar, se hace imprescindible la incorporación de agua, seguida de los alimentos y del oxígeno.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b21" class="block iDevice_content">
+<div class="ee_enunciado"><strong>2. Señale la respuesta correcta:</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b211" class="sr-av"><a href="#answer-key1b211">Opción 1</a></label><input type="radio" name="key1b21" id="key1b211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b211">
+<div id="taoptionAnswer0q1b21" class="block iDevice_content">
+<p>Los átomos de la molécula de agua están unidos mediante enlaces peptídicos.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b212" class="sr-av"><a href="#answer-key1b212">Opción 2</a></label><input type="radio" name="key1b21" id="key1b212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b212">
+<div id="taoptionAnswer1q1b21" class="block iDevice_content">
+<p>La molécula de agua es apolar.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b213" class="sr-av"><a href="#answer-key1b213">Opción 3</a></label><input type="radio" name="key1b21" id="key1b213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b213">
+<div id="taoptionAnswer2q1b21" class="block iDevice_content">
+<p>Entre moléculas de agua se crean enlaces débiles del tipo Puentes de hidrógeno.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore21"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id22">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-22_108">
+<form name="multi-select-form-22_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion22_108" class="block question iDevice_content">
+<div class="ee_enunciado"><strong>3. Señale la/las respuesta/s correcta/s referentes al contenido de agua en el cuerpo humano: (Respuesta múltiple)</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op22_1080" class="sr-av"><a href="#answer-22_111">Opción 1</a></label><input type="checkbox" id="op22_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-22_111"><div id="taans22_111" class="block iDevice_content">
+<p>La proporción de agua corporal disminuye con la edad.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-22_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op22_1081" class="sr-av"><a href="#answer-22_230">Opción 2</a></label><input type="checkbox" id="op22_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-22_230"><div id="taans22_230" class="block iDevice_content">
+<p>El contenido de agua del cuerpo humano se mantiene prácticamente constante gracias a unos mecanismos de regulación.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-22_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op22_1082" class="sr-av"><a href="#answer-22_232">Opción 3</a></label><input type="checkbox" id="op22_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-22_232"><div id="taans22_232" class="block iDevice_content">
+<p>La sensación de sequedad es un mecanismo básico de la regulación hídrica.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-22_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-22_108" /> 
+</p>
+</div>
+<section id="f22_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-22_111" class="right">Correcto</a></li>
+<li><a href="#answer-22_230" class="right">Correcto</a></li>
+<li><a href="#answer-22_232" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id23">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 0;
+var key1 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b23");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm23").key0b23[i].checked)
+               {
+                  question0 = document.getElementById("quizForm23").key0b23[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b23");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm23").key1b23[i].checked)
+               {
+                  question1 = document.getElementById("quizForm23").key1b23[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm23").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm23" id="quizForm23" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-23" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b23" class="block iDevice_content">
+<div class="ee_enunciado"><strong>4. ¿Cómo calculamos el contenido en agua de los alimentos?</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b231" class="sr-av"><a href="#answer-key0b231">Opción 1</a></label><input type="radio" name="key0b23" id="key0b231" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b231">
+<div id="taoptionAnswer0q0b23" class="block iDevice_content">
+<p>Restándole a los 100 gramos de alimento la suma de los macronutrientes de un alimento</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b232" class="sr-av"><a href="#answer-key0b232">Opción 2</a></label><input type="radio" name="key0b23" id="key0b232" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b232">
+<div id="taoptionAnswer1q0b23" class="block iDevice_content">
+<p>Con la ayuda de las bases de datos nutricionales.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b233" class="sr-av"><a href="#answer-key0b233">Opción 3</a></label><input type="radio" name="key0b23" id="key0b233" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b233">
+<div id="taoptionAnswer2q0b23" class="block iDevice_content">
+<p>Encontramos dicho contenido especificado en las tablas de composición de los alimentos.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b23" class="block iDevice_content">
+<div class="ee_enunciado"><strong>5. ¿Cuál de las siguientes respuestas no forma parte del Decálogo de la Hidratación saludable?</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b231" class="sr-av"><a href="#answer-key1b231">Opción 1</a></label><input type="radio" name="key1b23" id="key1b231" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b231">
+<div id="taoptionAnswer0q1b23" class="block iDevice_content">
+<p>Aumentar la ingesta de líquidos en ambientes calurosos y antes, durante y después del ejercicio.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b232" class="sr-av"><a href="#answer-key1b232">Opción 2</a></label><input type="radio" name="key1b23" id="key1b232" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b232">
+<div id="taoptionAnswer1q1b23" class="block iDevice_content">
+<p>Aumentar el consumo de carnes de ave, pescado y ensaladas.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b233" class="sr-av"><a href="#answer-key1b233">Opción 3</a></label><input type="radio" name="key1b23" id="key1b233" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b233">
+<div id="taoptionAnswer2q1b23" class="block iDevice_content">
+<p>Ingerir líquidos en cada comida y entre las mismas.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore23"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

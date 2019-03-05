@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | TEMA 10. LESIONES Y PREVENCIÓN EN EL CICLO-INDOOR. </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id221">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 2;
+var key1 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b221");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm221").key0b221[i].checked)
+               {
+                  question0 = document.getElementById("quizForm221").key0b221[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b221");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm221").key1b221[i].checked)
+               {
+                  question1 = document.getElementById("quizForm221").key1b221[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm221").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm221" id="quizForm221" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-221" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b221" class="block iDevice_content">
+<div class="ee_enunciado"><b>Señala la opción incorrecta respecto al tratamiento de la lesión:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2211" class="sr-av"><a href="#answer-key0b2211">Opción 1</a></label><input type="radio" name="key0b221" id="key0b2211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2211"><a name="answer-key0b2211"></a>
+<div id="taoptionAnswer0q0b221" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se recomienda el tratamiento agudo de la lesión mediante control del dolor y reposo de la parte lesionada.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2212" class="sr-av"><a href="#answer-key0b2212">Opción 2</a></label><input type="radio" name="key0b221" id="key0b2212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2212"><a name="answer-key0b2212"></a>
+<div id="taoptionAnswer1q0b221" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El tratamiento inicial para la mayoría de las lesiones deportivas es RHCE (reposo, hielo, compresión y elevación).</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2213" class="sr-av"><a href="#answer-key0b2213">Opción 3</a></label><input type="radio" name="key0b221" id="key0b2213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2213"><a name="answer-key0b2213"></a>
+<div id="taoptionAnswer2q0b221" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">El reposo comienza una vez pasada unos días de la lesión.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b221" class="block iDevice_content">
+<div class="ee_enunciado"><b>Si te lesionas, ¿por qué puede ser beneficioso la elevación del miembro afectado?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2211" class="sr-av"><a href="#answer-key1b2211">Opción 1</a></label><input type="radio" name="key1b221" id="key1b2211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2211"><a name="answer-key1b2211"></a>
+<div id="taoptionAnswer0q1b221" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Porque ayuda a disminuir la hemorragia.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2212" class="sr-av"><a href="#answer-key1b2212">Opción 2</a></label><input type="radio" name="key1b221" id="key1b2212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2212"><a name="answer-key1b2212"></a>
+<div id="taoptionAnswer1q1b221" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Porque ayuda a que los fluidos producidos por la hinchazón y las hemorragias puedan drenar bien.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2213" class="sr-av"><a href="#answer-key1b2213">Opción 3</a></label><input type="radio" name="key1b221" id="key1b2213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2213"><a name="answer-key1b2213"></a>
+<div id="taoptionAnswer2q1b221" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Porque ayuda a protegerte de otras posibles lesiones.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id222">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-222_108">
+<form name="multi-select-form-222_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion222_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>La lesión deportiva puede resultar de dos circunstancias (respuesta múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op222_1080" class="sr-av"><a href="#answer-222_111">Opción 1</a></label><input type="checkbox" id="op222_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-222_111"><a name="answer-222_111"></a>
+<div id="taans222_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">De un hecho traumático; lesión aguda.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-222_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op222_1081" class="sr-av"><a href="#answer-222_420">Opción 2</a></label><input type="checkbox" id="op222_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-222_420"><a name="answer-222_420"></a>
+<div id="taans222_420" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">De una colisión o choque; lesión profunda.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-222_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op222_1082" class="sr-av"><a href="#answer-222_422">Opción 3</a></label><input type="checkbox" id="op222_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-222_422"><a name="answer-222_422"></a>
+<div id="taans222_422" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Aparece por la repetición de actividad deportiva y llega a vencer la resistencia del tejido como si fuera el gran impacto del choque de la lesión agua; lesión por sobrecarga.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-222_1082" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'222_108')"/> 
+</p>
+</div>
+<div id="f222_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-222_111" class="right">Correcto</a></li>
+<li><a href="#answer-222_420" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-222_422" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-222_424">
+<form name="multi-select-form-222_424" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion222_424" class="block question iDevice_content">
+<div class="ee_enunciado"><b>¿Qué tendones se ven afectados con más frecuencia por las tendinitis? (Respuesta múltiple)</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op222_4240" class="sr-av"><a href="#answer-222_427">Opción 1</a></label><input type="checkbox" id="op222_4240" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-222_427"><a name="answer-222_427"></a>
+<div id="taans222_427" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">El de Aquiles.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-222_4240" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op222_4241" class="sr-av"><a href="#answer-222_429">Opción 2</a></label><input type="checkbox" id="op222_4241" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-222_429"><a name="answer-222_429"></a>
+<div id="taans222_429" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">El rotuliano.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-222_4241" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op222_4242" class="sr-av"><a href="#answer-222_431">Opción 3</a></label><input type="checkbox" id="op222_4242" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-222_431"><a name="answer-222_431"></a>
+<div id="taans222_431" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">En el canal o túnel carpiano.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-222_4242" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'222_424')"/> 
+</p>
+</div>
+<div id="f222_424" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-222_427" class="right">Correcto</a></li>
+<li><a href="#answer-222_429" class="right">Correcto</a></li>
+<li><a href="#answer-222_431" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-222_433">
+<form name="multi-select-form-222_433" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion222_433" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Cómo se puede prevenir los problemas en la parte genital a la hora de realizar Ciclo - Indoor? (Respuesta múltiple)</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op222_4330" class="sr-av"><a href="#answer-222_436">Opción 1</a></label><input type="checkbox" id="op222_4330" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-222_436"><a name="answer-222_436"></a>
+<div id="taans222_436" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Utilizando una ropa interior de algodón.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-222_4330" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op222_4331" class="sr-av"><a href="#answer-222_438">Opción 2</a></label><input type="checkbox" id="op222_4331" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-222_438"><a name="answer-222_438"></a>
+<div id="taans222_438" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Estando en la posición de pie durante toda la sesión.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-222_4331" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op222_4332" class="sr-av"><a href="#answer-222_440">Opción 3</a></label><input type="checkbox" id="op222_4332" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-222_440"><a name="answer-222_440"></a>
+<div id="taans222_440" class="block iDevice_content">
+<p>Utilizando maillots o culotes acolchados.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-222_4332" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,3,'222_433')"/> 
+</p>
+</div>
+<div id="f222_433" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+<div id="tafeedback222_433" class="feedback iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada"></div>
+<p></p>
+</div>
+</div>
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-222_436" class="right">Correcto</a></li>
+<li><a href="#answer-222_438" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-222_440" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

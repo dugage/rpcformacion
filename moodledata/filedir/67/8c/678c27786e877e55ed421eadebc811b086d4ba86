@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | UNIDAD DIDÁCTICA 2. INTOLERANCIA Y ALERGIA A LOS ALIMENTOS </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id98">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 2;
+var key1 = 0;
+var key2 = 1;
+var key3 = 0;
+var key4 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b98");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm98").key0b98[i].checked)
+               {
+                  question0 = document.getElementById("quizForm98").key0b98[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b98");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm98").key1b98[i].checked)
+               {
+                  question1 = document.getElementById("quizForm98").key1b98[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b98");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm98").key2b98[i].checked)
+               {
+                  question2 = document.getElementById("quizForm98").key2b98[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b98");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm98").key3b98[i].checked)
+               {
+                  question3 = document.getElementById("quizForm98").key3b98[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b98");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm98").key4b98[i].checked)
+               {
+                  question4 = document.getElementById("quizForm98").key4b98[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm98").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm98" id="quizForm98" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-98" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b98" class="block iDevice_content">
+<p><b>Identifica cuál de estas afirmaciones es la correcta:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b981" class="sr-av"><a href="#answer-key0b981">Opción 1</a></label><input type="radio" name="key0b98" id="key0b981" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b981"><a name="answer-key0b981"></a>
+<div id="taoptionAnswer0q0b98" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Los términos, intolerancia a los alimentos y la alergia a los alimentos tienen el mismo significado, pueden utilizarse indistintamente.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b982" class="sr-av"><a href="#answer-key0b982">Opción 2</a></label><input type="radio" name="key0b98" id="key0b982" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b982"><a name="answer-key0b982"></a>
+<div id="taoptionAnswer1q0b98" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La alergia a los alimentos se produce a través del sentido de la vista y el tacto fundamentalmente.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b983" class="sr-av"><a href="#answer-key0b983">Opción 3</a></label><input type="radio" name="key0b98" id="key0b983" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b983"><a name="answer-key0b983"></a>
+<div id="taoptionAnswer2q0b98" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">La intolerancia a los alimentos se distingue de la alergia a alimentos en que esta última provoca una respuesta del sistema inmune, activando la Inmunoglobulina E (IgE); y la intolerancia no.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b98" class="block iDevice_content">
+<div class="ee_enunciado"><b>La intolerancia a los alimentos es:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b981" class="sr-av"><a href="#answer-key1b981">Opción 1</a></label><input type="radio" name="key1b98" id="key1b981" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b981"><a name="answer-key1b981"></a>
+<div id="taoptionAnswer0q1b98" class="block iDevice_content">
+<p><span>La incapacidad de consumir ciertos alimentos o nutrientes sin sufrir efectos adversos sobre la salud. Los efectos pueden producirse de modo más o menos rápido.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b982" class="sr-av"><a href="#answer-key1b982">Opción 2</a></label><input type="radio" name="key1b98" id="key1b982" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b982"><a name="answer-key1b982"></a>
+<div id="taoptionAnswer1q1b98" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Un proceso intermitente, que se da en los primeros años de vida, y que implica que se pueden ingerir determinados alimentos en periodos cortos de tiempo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b983" class="sr-av"><a href="#answer-key1b983">Opción 3</a></label><input type="radio" name="key1b98" id="key1b983" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b983"><a name="answer-key1b983"></a>
+<div id="taoptionAnswer2q1b98" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">La capacidad de consumir ciertos alimentos o nutrientes sin sufrir ningún tipo de efecto adverso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b98" class="block iDevice_content">
+<div class="ee_enunciado"><b>Entre los tipos de intolerancia a los alimentos destacan:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b981" class="sr-av"><a href="#answer-key2b981">Opción 1</a></label><input type="radio" name="key2b98" id="key2b981" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b981"><a name="answer-key2b981"></a>
+<div id="taoptionAnswer0q2b98" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La intolerancia a las bebidas con gas y derivados.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b982" class="sr-av"><a href="#answer-key2b982">Opción 2</a></label><input type="radio" name="key2b98" id="key2b982" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b982"><a name="answer-key2b982"></a>
+<div id="taoptionAnswer1q2b98" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La intolerancia a la lactosa, sacarosa, fructosa y trehalosa.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b983" class="sr-av"><a href="#answer-key2b983">Opción 3</a></label><input type="radio" name="key2b98" id="key2b983" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b983"><a name="answer-key2b983"></a>
+<div id="taoptionAnswer2q2b98" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">La intolerancia a la carne y al pescado cuando se cocinan con aceites.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b98" class="block iDevice_content">
+<div class="ee_enunciado"><b>En torno a las condiciones clínicas que se han podido relacionar con intolerancia alimentaria, destacan:</b></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b981" class="sr-av"><a href="#answer-key3b981">Opción 1</a></label><input type="radio" name="key3b98" id="key3b981" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b981"><a name="answer-key3b981"></a>
+<div id="taoptionAnswer0q3b98" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Los procesos dermatológicos, los trastornos gastrointestinales (en el 50% de los casos), las molestias respiratorias, los trastornos psicológicos,… etc., entre otros.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b982" class="sr-av"><a href="#answer-key3b982">Opción 2</a></label><input type="radio" name="key3b98" id="key3b982" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b982"><a name="answer-key3b982"></a>
+<div id="taoptionAnswer1q3b98" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Las dificultades auditivas fundamentalmente.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b983" class="sr-av"><a href="#answer-key3b983">Opción 3</a></label><input type="radio" name="key3b98" id="key3b983" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b983"><a name="answer-key3b983"></a>
+<div id="taoptionAnswer2q3b98" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">La pérdida de percepción visual, en la mayor parte de los casos.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b98" class="block iDevice_content">
+<div class="ee_enunciado"><b>Respecto a la alergia alimentaria:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b981" class="sr-av"><a href="#answer-key4b981">Opción 1</a></label><input type="radio" name="key4b98" id="key4b981" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b981"><a name="answer-key4b981"></a>
+<div id="taoptionAnswer0q4b98" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se trata de un proceso no relacionado con el sistema inmunitario, su principal causante es de carácter psicológico.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b982" class="sr-av"><a href="#answer-key4b982">Opción 2</a></label><input type="radio" name="key4b98" id="key4b982" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b982"><a name="answer-key4b982"></a>
+<div id="taoptionAnswer1q4b98" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">No se conoce el origen de las alergias alimentarias.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b983" class="sr-av"><a href="#answer-key4b983">Opción 3</a></label><input type="radio" name="key4b98" id="key4b983" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b983"><a name="answer-key4b983"></a>
+<div id="taoptionAnswer2q4b98" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Se trata de una forma específica de reacción adversa a un alimento o a alguno de sus componentes. Es una respuesta exagerada de nuestro sistema inmunológico.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

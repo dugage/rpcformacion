@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-32" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id36">
+<div class="iDevice emphasis0">
+<div id="ta36_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+<p></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id37">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta37_100" class="block iDevice_content">
+<p><strong>1. Indica si es verdadero o falso el siguiente enunciado:</strong></p>
+</div>
+<section class="question">
+<form name="true-false-form-0b37" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b37" class="block iDevice_content">
+<p><em>“El glicerol es una ayuda ergogénica ideal para deportes o ejercicios prolongados”</em></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b37"><input type="radio" name="option0b37" id="true0b37" class="exe-radio-option exe-radio-option-0-2-0b37-truefalse" /> Verdadero</label> 
+<label for="false0b37"><input type="radio" name="option0b37" id="false0b37" class="exe-radio-option exe-radio-option-1-2-0b37-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b37" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b37-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id38">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b38");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm38").key0b38[i].checked)
+               {
+                  question0 = document.getElementById("quizForm38").key0b38[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm38").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm38" id="quizForm38" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-38" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b38" class="block iDevice_content">
+<p><strong>2. De las siguientes ayudas ergogénicas, ¿cuál es la que tiene mayor fundamentación en cuanto a su efecto ergogénico?</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b381" class="sr-av"><a href="#answer-key0b381">Opción 1</a></label><input type="radio" name="key0b38" id="key0b381" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b381">
+<div id="taoptionAnswer0q0b38" class="block iDevice_content">
+<p>Glutamina.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b382" class="sr-av"><a href="#answer-key0b382">Opción 2</a></label><input type="radio" name="key0b38" id="key0b382" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b382">
+<div id="taoptionAnswer1q0b38" class="block iDevice_content">
+<p>Creatina.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b383" class="sr-av"><a href="#answer-key0b383">Opción 3</a></label><input type="radio" name="key0b38" id="key0b383" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b383">
+<div id="taoptionAnswer2q0b38" class="block iDevice_content">
+<p>Carnitina.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore38"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id39">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-39_108">
+<form name="multi-select-form-39_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion39_108" class="block question iDevice_content">
+<p><strong>3. ¿Cuál de las siguientes vitaminas es usada como ayuda ergogénica? (Respuesta múltiple)</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op39_1080" class="sr-av"><a href="#answer-39_111">Opción 1</a></label><input type="checkbox" id="op39_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-39_111"><div id="taans39_111" class="block iDevice_content">
+<p>Vitamina A.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-39_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op39_1081" class="sr-av"><a href="#answer-39_366">Opción 2</a></label><input type="checkbox" id="op39_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-39_366"><div id="taans39_366" class="block iDevice_content">
+<p>Vitamina D.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-39_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op39_1082" class="sr-av"><a href="#answer-39_368">Opción 3</a></label><input type="checkbox" id="op39_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-39_368"><div id="taans39_368" class="block iDevice_content">
+<p>Vitamina E.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-39_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-39_108" /> 
+</p>
+</div>
+<section id="f39_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-39_111" class="right">Correcto</a></li>
+<li><a href="#answer-39_366" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-39_368" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+<section class="question">
+<div id="actitity-39_370">
+<form name="multi-select-form-39_370" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion39_370" class="block question iDevice_content">
+<p><strong>4. ¿Cuál de los siguientes son efectos ergogénicos beneficiosos de la creatina? (Respuesta múltiple)</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op39_3700" class="sr-av"><a href="#answer-39_373">Opción 1</a></label><input type="checkbox" id="op39_3700" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-39_373"><div id="taans39_373" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La fosfocreatina tampona los iones hidrógeno intracelulares.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-39_3700" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op39_3701" class="sr-av"><a href="#answer-39_375">Opción 2</a></label><input type="checkbox" id="op39_3701" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-39_375"><div id="taans39_375" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Contribuye a que se produzca una rápida resíntesis del ATP.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-39_3701" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op39_3702" class="sr-av"><a href="#answer-39_377">Opción 3</a></label><input type="checkbox" id="op39_3702" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-39_377"><div id="taans39_377" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Mejora el metabolismo lipídico.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-39_3702" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-39_370" /> 
+</p>
+</div>
+<section id="f39_370" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-39_373" class="right">Correcto</a></li>
+<li><a href="#answer-39_375" class="right">Correcto</a></li>
+<li><a href="#answer-39_377" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id40">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b40");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm40").key0b40[i].checked)
+               {
+                  question0 = document.getElementById("quizForm40").key0b40[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm40").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm40" id="quizForm40" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-40" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b40" class="block iDevice_content">
+<p><strong>5. ¿Qué cantidad de cafeína se ha observado que producen los mayores efectos ergogénicos?</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b401" class="sr-av"><a href="#answer-key0b401">Opción 1</a></label><input type="radio" name="key0b40" id="key0b401" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b401">
+<div id="taoptionAnswer0q0b40" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">1 g/kg de peso corporal.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b402" class="sr-av"><a href="#answer-key0b402">Opción 2</a></label><input type="radio" name="key0b40" id="key0b402" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b402">
+<div id="taoptionAnswer1q0b40" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">3 g/kg de peso corporal.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b403" class="sr-av"><a href="#answer-key0b403">Opción 3</a></label><input type="radio" name="key0b40" id="key0b403" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b403">
+<div id="taoptionAnswer2q0b40" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">10g/kg de peso corporal.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore40"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

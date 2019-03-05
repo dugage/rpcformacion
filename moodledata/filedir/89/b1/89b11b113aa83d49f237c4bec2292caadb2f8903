@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.4. Filtros avanzados </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4.4. Filtros avanzados</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id12">
+<div class="iDevice emphasis0">
+<div id="ta12_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>El filtro automático de Excel es muy útil y, sobre todo, rápido de utilizar, pero cuenta con ciertas limitaciones.</p>
+<p>Es posible seleccionar distintos valores o aplicar criterios en las distintas columnas pero, aún así, los criterios no pueden ser demasiado complejos. Cuando nuestras necesidades no se vean cubiertas por este tipo de filtro, siempre podemos recurrir a la opción Datos&gt;Ordenar y filtrar&gt;Avanzadas que está a la derecha del botón <b>Filtro</b>.</p>
+<p>Antes de seleccionar dicha opción, no obstante, deberemos introducir en la hoja un área de datos que contendrá los criterios para filtrar la tabla. Dichos criterios pueden ser realmente sencillos, como la simple selección de un valor de una cierta columna, o conformar un conjunto de múltiples condiciones exclusivas o no.</p>
+<p>El área de criterios es también una tabla. En ella habrá una fila de títulos, conteniendo el nombre de las columnas a las que van a aplicarse condiciones. Debajo de cada título introduciremos el valor que deseamos seleccionar o bien una condición.</p>
+<p>Puede comenzar con un ejemplo muy sencillo. Suponga que desea filtrar la tabla para quedarse tan sólo con los datos relativos a Europa. Primero introduciríamos los criterios, por ejemplo al final de la propia tabla de datos, tal como se aprecia en la figura 2.12. Los criterios, en este caso concreto, son simplemente dos celdillas: la primera indica la columna por la que va a filtrarse, mientras que la segunda contiene el valor que buscamos en dicha columna.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dGJSMVJweVZyNVNNJTJGMmdCTG5UZG8lMkJxS0lTWHNxa0pzM250NXNTTEpMU3clM0Q=" id="IMG_dGJSMVJweVZyNVNNJTJGMmdCTG5UZG8lMkJxS0lTWHNxa0pzM250NXNTTEpMU3clM0Q=" alt="Tablas y listas de datos " title="Tablas y listas de datos " width="565" /></p>
+<p><b>Figura 2.12.</b> Definimos el área de la tabla de datos y el rango donde se encuentran los criterios.</p>
+<p>Tras hacer clic en <b>Aceptar</b> verá que la lista contiene únicamente los datos relativos a Europa. Aunque en este caso se ha optado por mantener la lista filtrada sobre la tabla de datos original, ocultando parte de las filas de ésta, podríamos usar la opción Copiar a otro lugar para crear una nueva tabla de datos conteniendo tan sólo el resultado del filtro.</p>
+<p>Si además de buscar países de un cierto continente queremos que aparezcan sólo los que superen los 50 millones de habitantes, la tabla de criterios sería la de la figura 2.13. En este caso tenemos dos condiciones exclusivas, dado que deben cumplirse ambas para que una fila aparezca seleccionada: que sea un país de Europa y, además, que la población sea superior a un cierto número de habitantes. Las opciones son exclusivas porque aparecen en la misma fila del rango de criterios.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_d3Fqdm9na0tvVlRmRyUyRkJuYTJuUGQzRFpqRHEzSDNkY0NBWHRWTHdEVktJJTNE" id="IMG_d3Fqdm9na0tvVlRmRyUyRkJuYTJuUGQzRFpqRHEzSDNkY0NBWHRWTHdEVktJJTNE" alt="Tablas y listas de datos " title="Tablas y listas de datos " width="564" /></p>
+<p><b>Figura 2.13.</b> Nuevo criterio de selección y tabla de datos resultante.</p>
+<p>En caso de que deseásemos aplicar alguna condición no exclusiva, tan sólo tendríamos que disponerla en una fila distinta. Modificado el criterio anterior y dejándolo tal como se ve en la parte inferior de la figura 2.14, obtenemos los países europeos que tienen más de 50 millones de habitantes y todos aquellos países, sin importar continente, que tienen menos de 10.000 habitantes.</p>
+<p>Aunque en estos ejemplos estamos usando como valores de los criterios números introducidos de manera constante, en realidad nada nos impide hacer referencia a otras celdillas o utilizar fórmulas. Intente, por ejemplo, obtener la lista de países que tienen una población un 20% superior a la media.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_R1UxTXp2M0hXUnROZVMxNjdmQkNRcDl1b1ZTSTFzVW1HM3VGbWpLNFZVUSUzRA==" id="IMG_R1UxTXp2M0hXUnROZVMxNjdmQkNRcDl1b1ZTSTFzVW1HM3VGbWpLNFZVUSUzRA==" alt="Tablas y listas de datos " title="Tablas y listas de datos " width="566" /></p>
+<p><b>Figura 2.14.</b> Rango de criterios con condiciones exclusivas y no exclusivas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TGJpYkpHS2tUWmEyUFllZ1ZCY2NYZSUyRm1JRExhQlZHQ0VNWnp1aU9SbXFrJTNE" id="IMG_TGJpYkpHS2tUWmEyUFllZ1ZCY2NYZSUyRm1JRExhQlZHQ0VNWnp1aU9SbXFrJTNE" alt="Tablas y listas de datos " title="Tablas y listas de datos " width="567" /></p>
+<p><b>Figura 2.15. </b> Criterio para buscar los países cuyo nombre termina con los caracteres nia.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

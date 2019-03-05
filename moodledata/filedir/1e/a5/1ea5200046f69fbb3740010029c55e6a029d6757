@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Plantilla </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Plantilla</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id8">
+<div class="iDevice emphasis0">
+<div id="ta8_85" class="block iDevice_content">
+<p>En esta opción aparecerán las plantillas que podrán crearse para generar Documentos tipo Albarán o Factura.</p>
+<p>La utilidad de las plantillas reside en tener definidos unos documentos tipo que tendrán que generar albaranes o facturas periódicamente.</p>
+<p>Las plantillas serán útiles para empresas que deben realizar facturaciones periódicas de unos determinados artículos o servicios a sus clientes.</p>
+<p>Al acceder a esta opción se visualizará una pantalla como la que se muestra a continuación.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RzNXM1d2ZDl6dlNBd1h0c1MlMkJPeCUyRmhCUEVEdUc5Qm8lMkJWMGV6WlRTSlpydyUzRA==" id="IMG_RzNXM1d2ZDl6dlNBd1h0c1MlMkJPeCUyRmhCUEVEdUc5Qm8lMkJWMGV6WlRTSlpydyUzRA==" alt="Facturación I" title="Facturación I" width="561" /></p>
+<p>Ventana de Plantillas para Facturación</p>
+<p>En la ventana de introducción de datos encontraremos 3 carpetas diferentes:</p>
+<ul>
+<li>Plantillas.</li>
+<li>Clientes.</li>
+<li>Atípicas.</li>
+</ul>
+<h4><b>Plantilla</b></h4>
+<p>Es la primera carpeta de esta opción y en ella se van a definir los datos generales de la plantilla y las líneas de productos que luego aparecerán en los documentos cuando sean generados.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RldDWFdzQzJQSU9NcFNqNHgzRjhLb25qZmtVb0tjWmlveWdnV0lrRmxlRSUzRA==" id="IMG_RldDWFdzQzJQSU9NcFNqNHgzRjhLb25qZmtVb0tjWmlveWdnV0lrRmxlRSUzRA==" alt="Facturación I" title="Facturación I" width="481" /></p>
+<p>Introducción de datos para plantillas. Plantilla</p>
+<p>Los campos que aparecen son los siguientes:</p>
+<ul>
+<li><b>Código Plantilla: </b> primer campo de la plantilla donde introducimos un código identificativo de la plantilla que estamos creando.</li>
+<li><b>Descripción:</b> campo alfanumérico que describirá la plantilla.</li>
+<li><b>Almacén:</b> para realizar un documento ya sea albarán o factura se necesita saber de qué almacén van a salir las mercancías. Este almacén aparecerá en los documentos. Este campo es obligatorio.</li>
+<li><b>Forma de Pago:</b> para hacer un documento se necesita también una Forma de Pago. Si se introduce alguna forma de pago en este campo, todos los documentos que se generen llevarán la misma forma de pago. Si se deja en blanco, en el documento aparecerá la forma de pago que tenga cada uno de los clientes definida por defecto.</li>
+<li><b>Divisa:</b> código de la divisa con la que se realiza la plantilla. Debe estar definido previamente en el apartado Divisas de la opción Tablas Generales del menú Sistema.</li>
+</ul>
+<p><b>Comentarios</b></p>
+<p>Se podrán introducir unos comentarios generales en los documentos que se generen.</p>
+<p>Llegados a este punto estará concluida la primera parte de la plantilla.</p>
+<p>Para la introducción de las diferentes líneas de artículos, se debe pulsar el botón añadir y aparecerá la siguiente pantalla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RkJSbjdKQ3hRbjQycDVxWkE1ZHloZHFGUVNnUHZsQmU3cndycDU4cmhOYyUzRA==" id="IMG_RkJSbjdKQ3hRbjQycDVxWkE1ZHloZHFGUVNnUHZsQmU3cndycDU4cmhOYyUzRA==" alt="Facturación I" title="Facturación I" width="555" /></p>
+<p>Líneas de plantilla</p>
+<p>Los campos que contiene esta pantalla se describen a continuación.</p>
+<ul>
+<li><b>Producto: </b> código del producto que se vaya a introducir en la plantilla y que luego aparecerá en cada uno de los documentos generados. Deberá estar definido anteriormente en la opción Artículos del menú Sistema. Esta descripción estará inactiva a no ser que en la carpeta Modo de Trabajo del apartado Personalización de la opción Entorno del Sistema del menú Útil se haya marcado el campo "Modificar descripción en Documentos", lo que nos permitirá modificar o añadir partes a la descripción. Si no se ha introducido ninguna referencia (referencia en blanco) aparecerá una pantalla como la siguiente, y se desactivarán los campos de Calcular Precios, Calcular Descuentos, Calcular Comisiones.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_d1hoUVk2WVljbTNOZUpEd0V5aXUwb0llejdQNHZIY01HcDA3dyUyQlVSb3pjJTNE" id="IMG_d1hoUVk2WVljbTNOZUpEd0V5aXUwb0llejdQNHZIY01HcDA3dyUyQlVSb3pjJTNE" alt="Facturación I" title="Facturación I" width="555" /></p>
+<p>Líneas de plantilla para artículos sin codificar</p>
+<p>Ahora se podrá introducir un artículo sin codificar con una descripción tan larga como se desee. Para salir de este campo se hará pulsando la tecla de tabulador o haciendo clic con el ratón en otro campo, ya que pulsando Intro sobre cambiaríamos de línea dentro del mismo campo.</p>
+<ul>
+<li><b>Gastos Suplidos</b>: si se está facturando un servicio aparecerá una opción que podrá marcarse, se trata de un concepto muy usual en la facturación de profesionales liberales como abogados, notarios, etc. Sólo se tendrá en cuenta en la generación de facturas. Se trata de cobrar en la factura un gasto o diferencia que se le ha hecho al cliente por el cual no se debe cobrar IVA. Por tanto, todos los conceptos que se introduzcan como gastos suplidos no llevarán IVA.</li>
+<li><b>IVA:</b> porcentaje de IVA del artículo. Aparecerá por defecto el porcentaje correspondiente al tipo de IVA que se haya definido en la ficha del artículo. La posibilidad de modificar este campo será configurable desde el menú Personalización.</li>
+<li><b>Cantidad:</b> número de unidades que se servirán del artículo a cada uno de los clientes.</li>
+<li><b>Precio Venta:</b> si se marca la opción "Calcular Precios", en ese caso para cada documento que se genere se calculará el precio de venta que le corresponde a ese artículo, dependiendo del cliente y de las situaciones atípicas existentes, si no existieran situaciones atípicas, el precio de venta sería el que aparece en la ficha del artículo (PVP o mayorista dependiendo del cliente).</li>
+<li><b>% Dto.:</b> si se marca la opción "Calcular Descuentos", en ese caso para cada documento que se genere se calculará el descuento que le corresponde a ese artículo, dependiendo del cliente y de las situaciones atípicas existentes. También se podrá introducir manualmente un porcentaje diferente a cualquiera de ellos, y en el cuadro de Tipo de Descuento estará marcado "Otros".</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_M0JWb3Y1RlNjNDU1SDRZdWozWiUyRmFTQTNZZkM2TUolMkIlMkZQOGNBcVVkeDdkayUzRA==" id="IMG_M0JWb3Y1RlNjNDU1SDRZdWozWiUyRmFTQTNZZkM2TUolMkIlMkZQOGNBcVVkeDdkayUzRA==" alt="Facturación I" title="Facturación I" /></p>
+<p>Tipo descuento</p>
+<ul>
+<li><b>Descuento Lineal:</b> descuento numérico por línea de pedido.</li>
+<li><b>% Comisión:</b> porcentaje de comisión. Si se marca la opción <b>"Calcular comisión"</b>, en ese caso para cada documento que se genere se calculará el porcentaje de comisión que le corresponde a ese artículo, dependiendo del cliente y de las situaciones atípicas existentes. Si no existieran situaciones atípicas, el porcentaje de comisión sería uno de los 6 que aparecen en la ficha del agente, dependiendo del % de descuento aplicado.</li>
+<li><b>Agente por Defecto:</b> si marcamos esta opción el agente del documento será el definido en la ficha del cliente.</li>
+<li><b>Agente:</b> esta opción estará activa si no hemos marcado la opción de Agente por defecto, y nos permitirá introducir el agente que deseemos en el documento.</li>
+<li><b>Trazabilidad:</b> desde la línea de la plantilla se podrán indicar los Datos de Trazabilidad del artículo.</li>
+<li><b>Calcular Precios:</b> si marcamos esta opción se desactivará el campo de Precio Venta.</li>
+<li><b>Calcular Descuentos:</b> si marcamos esta opción se desactivará el campo de Descuento.</li>
+<li><b>Calcular Comisiones:</b> si marcamos esta opción se desactivará el campo de Comisiones.</li>
+</ul>
+<h4><b>Clientes</b></h4>
+<p>Segunda carpeta de esta opción, donde se introducirán los clientes a los que se generarán documentos (albaranes o facturas), también se introducirá el identificador de la dirección comercial del cliente, que será utilizado en el caso de generar albaranes a partir de la plantilla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cXpTellVcTA4djdiU3U4Y2pTYXBlU1NnSm5VV3JuajRYQ0haM3FpSHhyNCUzRA==" id="IMG_cXpTellVcTA4djdiU3U4Y2pTYXBlU1NnSm5VV3JuajRYQ0haM3FpSHhyNCUzRA==" alt="Facturación I" title="Facturación I" width="517" /></p>
+<p>Introducción de datos para plantillas. Clientes</p>
+<p>Para añadir clientes, se pulsará en el botón añadir y aparecerá la siguiente pantalla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UzZFSFd5UlVQS0NnSUglMkJEaFZuSlh0dWp2em9URmJGTzBhcyUyQmlzTnN3Y2clM0Q=" id="IMG_UzZFSFd5UlVQS0NnSUglMkJEaFZuSlh0dWp2em9URmJGTzBhcyUyQmlzTnN3Y2clM0Q=" alt="Facturación I" title="Facturación I" /></p>
+<p>Añadir clientes</p>
+<p>Los campos a introducir serán los siguientes:</p>
+<ul>
+<li><b>Código:</b> código del cliente que debe existir. Incluye búsqueda incremental pulsando el signo +.</li>
+<li><b>Dirección:</b> identificador de la dirección comercial que deseemos utilizar del cliente pulsando el signo +.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Q256RGh6cDllbDZUbUFXWk9MWmJRdmEwYlJkbEJENlpScHglMkY3V254clZrJTNE" id="IMG_Q256RGh6cDllbDZUbUFXWk9MWmJRdmEwYlJkbEJENlpScHglMkY3V254clZrJTNE" alt="Facturación I" title="Facturación I" /></p>
+<p>Si en lugar de añadir los clientes uno a uno prefiere hacerlo en grupo, mediante este botón podrá realizarse permitiéndole seleccionar un grupo de clientes atendiendo a unas condiciones como provincia, código postal, forma de pago, transportista, etc.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MzZZcFJKYnk1amdRcjVBSFc5Nlo5Y0pteUVJREo0THNjV2hmJTJCd0ZSMXd3JTNE" id="IMG_MzZZcFJKYnk1amdRcjVBSFc5Nlo5Y0pteUVJREo0THNjV2hmJTJCd0ZSMXd3JTNE" alt="Facturación I" title="Facturación I" /></p>
+<p>Filtros de selección</p>
+<h4><b>Atípicas</b></h4>
+<p>En esta última carpeta podrán introducirse las cantidades que se desean servir a un determinado cliente de un artículo. Esta cantidad se especificará cuando sea distinta de la que se ha introducido para ese mismo artículo en la línea correspondiente de la primera carpeta de plantillas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_R0olMkJ1MkVWRkZlbGQ1eHQ5bFUxUFQlMkZWMng2VUMlMkIxRlc2VThEdnVIc2IwZyUzRA==" id="IMG_R0olMkJ1MkVWRkZlbGQ1eHQ5bFUxUFQlMkZWMng2VUMlMkIxRlc2VThEdnVIc2IwZyUzRA==" alt="Facturación I" title="Facturación I" /></p>
+<p>Introducción de artículos para plantillas. Atípicas</p>
+<p>Para introducir una nueva situación atípica (cantidades) se pulsará el botón de añadir y aparecerá la siguiente pantalla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_THFaOThGek5DM1FYY1NrR0MlMkJJdHpzcnJ2cWtjUkZLdzdsaDlRQ283bGJBJTNE" id="IMG_THFaOThGek5DM1FYY1NrR0MlMkJJdHpzcnJ2cWtjUkZLdzdsaDlRQ283bGJBJTNE" alt="Facturación I" title="Facturación I" /></p>
+<p>Añadir situaciones atípicas</p>
+<p>Donde aparecerán los siguientes campos:</p>
+<ul>
+<li><b>Cliente:</b> código del cliente que debe estar dado de alta en la pantalla anterior de clientes.</li>
+<li><b>Referencia:</b> referencia del producto que debe estar en las líneas de la primera carpeta de plantillas.</li>
+<li><b>Unidades:</b> nueva cantidad de producto que se desea servir a ese cliente.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_T0N0RE54QmlwS1ljUmolMkZOWUhUd1VzWndyOUVlY09sTWdtV2Iwb2IlMkZoSmclM0Q=" id="IMG_T0N0RE54QmlwS1ljUmolMkZOWUhUd1VzWndyOUVlY09sTWdtV2Iwb2IlMkZoSmclM0Q=" alt="Facturación I" title="Facturación I" /></p>
+<p>Ejecutando la opción de copiar realizaremos un duplicado exacto de la plantilla que se tenga seleccionada.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aGdVZm5MTiUyRjF5eUE3NCUyRmh6cHdoeXVBM20wc1k1cUpSaTRPUHpjOHQlMkJCTSUzRA==" id="IMG_aGdVZm5MTiUyRjF5eUE3NCUyRmh6cHdoeXVBM20wc1k1cUpSaTRPUHpjOHQlMkJCTSUzRA==" alt="Facturación I" title="Facturación I" /></p>
+<p>Desde la pantalla general donde aparecen todas las plantillas de que disponemos, se podrán generar documentos pulsando este botón. A continuación aparecerá esta pantalla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dExZS0hPMXVCUmdLaUhCdHNkWkFvZjdDU3lCMkNQTFhORnhQTFNsN0glMkZBJTNE" id="IMG_dExZS0hPMXVCUmdLaUhCdHNkWkFvZjdDU3lCMkNQTFhORnhQTFNsN0glMkZBJTNE" alt="Facturación I" title="Facturación I" /></p>
+<p>Generación de documentos</p>
+<p>En ella aparecerán los siguientes campos:</p>
+<ul>
+<li><b>Plantillas:</b> podremos generar documentos de distintas plantillas. Elegiremos el código de la plantilla inicial y final que se desea generar, por defecto aparecerá sobre la que se esté posicionado.</li>
+<li><b>Generar:</b></li>
+</ul>
+<ul>
+<li>Albaranes.</li>
+<li>Facturas.</li>
+</ul>
+<p>Con esta opción se indicará qué tipo de documentos se desean generar (albaranes o facturas).</p>
+<ul>
+<li><b>Serie:</b> podremos introducir una determinada serie (A o B) si deseamos que todos los documentos tomen esta serie, en caso contrario la dejaremos en blanco, de este modo tomarán la serie que por defecto tenga cada cliente en su carpeta comercial.</li>
+<li><b>Fecha Documentos:</b> será la fecha que aparecerá en todos los documentos que se generen.</li>
+<li><b>Aplicar Promociones Vigentes:</b> si seleccionamos esta opción aplicaremos las promociones vigentes (tipo volumen de venta) a los documentos que generemos, si la fecha del documento se haya entre las fechas de promoción.</li>
+<li><b>Permitir Ventas sin Stock:</b> si seleccionamos esta opción podremos generar documentos de artículos de los que no se dispone stock. Esta pantalla solicitará confirmación antes de comenzar a generar los documentos.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

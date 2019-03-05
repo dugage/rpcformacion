@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id49">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 0;
+var key2 = 1;
+var key3 = 2;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b49");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm49").key0b49[i].checked)
+               {
+                  question0 = document.getElementById("quizForm49").key0b49[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b49");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm49").key1b49[i].checked)
+               {
+                  question1 = document.getElementById("quizForm49").key1b49[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b49");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm49").key2b49[i].checked)
+               {
+                  question2 = document.getElementById("quizForm49").key2b49[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b49");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm49").key3b49[i].checked)
+               {
+                  question3 = document.getElementById("quizForm49").key3b49[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b49");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm49").key4b49[i].checked)
+               {
+                  question4 = document.getElementById("quizForm49").key4b49[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm49").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm49" id="quizForm49" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-49" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b49" class="block iDevice_content">
+<p>1. El periodo impositivo:</p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b491" class="sr-av"><a href="#answer-key0b491">Opción 1</a></label><input type="radio" name="key0b49" id="key0b491" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b491"><a name="answer-key0b491"></a>
+<div id="taoptionAnswer0q0b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">No coincidirá con el ejercicio económico de la entidad, y superará los 12 meses.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b492" class="sr-av"><a href="#answer-key0b492">Opción 2</a></label><input type="radio" name="key0b49" id="key0b492" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b492"><a name="answer-key0b492"></a>
+<div id="taoptionAnswer1q0b49" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Coincidirá con el ejercicio económico de la entidad, y en ningún caso excederá de 12 meses.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b493" class="sr-av"><a href="#answer-key0b493">Opción 3</a></label><input type="radio" name="key0b49" id="key0b493" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b493"><a name="answer-key0b493"></a>
+<div id="taoptionAnswer2q0b49" class="block iDevice_content">
+<p>Tendrá un tipo de gravamen de 25%.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b49" class="block iDevice_content">
+<p><b>2. Completa la siguiente afirmación con la opción correcta: </b> “La ________________ estará constituida por el importe de la renta obtenida en el período impositivo minorada por la compensación de bases imponibles negativas de períodos impositivos anteriores”.</p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b491" class="sr-av"><a href="#answer-key1b491">Opción 1</a></label><input type="radio" name="key1b49" id="key1b491" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b491"><a name="answer-key1b491"></a>
+<div id="taoptionAnswer0q1b49" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Base imponible.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b492" class="sr-av"><a href="#answer-key1b492">Opción 2</a></label><input type="radio" name="key1b49" id="key1b492" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b492"><a name="answer-key1b492"></a>
+<div id="taoptionAnswer1q1b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Periodo impositivo.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b493" class="sr-av"><a href="#answer-key1b493">Opción 3</a></label><input type="radio" name="key1b49" id="key1b493" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b493"><a name="answer-key1b493"></a>
+<div id="taoptionAnswer2q1b49" class="block iDevice_content">
+<p>Devengo del impuesto.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b49" class="block iDevice_content">
+<div class="ee_enunciado"><b>3. Confirma si la siguiente afirmación es verdadera o falsa: </b> <i>“Se entiende por empresa de reducida dimensión aquella cuyo importe neto de la cifra de negocios en el periodo impositivo inmediato anterior sea inferior a 5 millones de euros”.</i></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b491" class="sr-av"><a href="#answer-key2b491">Opción 1</a></label><input type="radio" name="key2b49" id="key2b491" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b491"><a name="answer-key2b491"></a>
+<div id="taoptionAnswer0q2b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b492" class="sr-av"><a href="#answer-key2b492">Opción 2</a></label><input type="radio" name="key2b49" id="key2b492" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b492"><a name="answer-key2b492"></a>
+<div id="taoptionAnswer1q2b49" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b49" class="block iDevice_content">
+<p><b>4. Se entenderá por cuota íntegra:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b491" class="sr-av"><a href="#answer-key3b491">Opción 1</a></label><input type="radio" name="key3b49" id="key3b491" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b491"><a name="answer-key3b491"></a>
+<div id="taoptionAnswer0q3b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Las bases imponibles negativas que hayan sido objeto de liquidación o autoliquidación</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b492" class="sr-av"><a href="#answer-key3b492">Opción 2</a></label><input type="radio" name="key3b49" id="key3b492" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b492"><a name="answer-key3b492"></a>
+<div id="taoptionAnswer1q3b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Las entidades de nueva creación.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b493" class="sr-av"><a href="#answer-key3b493">Opción 3</a></label><input type="radio" name="key3b49" id="key3b493" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b493"><a name="answer-key3b493"></a>
+<div id="taoptionAnswer2q3b49" class="block iDevice_content">
+<p>La cantidad resultante de aplicar a la base imponible el tipo de gravamen.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b49" class="block iDevice_content">
+<p><b>5. Los modelos oficiales para efectuar la declaración y liquidación del Impuesto de Sociedades son:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b491" class="sr-av"><a href="#answer-key4b491">Opción 1</a></label><input type="radio" name="key4b49" id="key4b491" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b491"><a name="answer-key4b491"></a>
+<div id="taoptionAnswer0q4b49" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">El modelo 200 y 220.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b492" class="sr-av"><a href="#answer-key4b492">Opción 2</a></label><input type="radio" name="key4b49" id="key4b492" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b492"><a name="answer-key4b492"></a>
+<div id="taoptionAnswer1q4b49" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El modelo 200 y 260.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b493" class="sr-av"><a href="#answer-key4b493">Opción 3</a></label><input type="radio" name="key4b49" id="key4b493" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b493"><a name="answer-key4b493"></a>
+<div id="taoptionAnswer2q4b49" class="block iDevice_content">
+<p>El modelo 220 y 260.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.1. Cómo mostrar un cuadro de diálogo </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.1. Cómo mostrar un cuadro de diálogo</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id1">
+<div class="iDevice emphasis0">
+<div id="ta1_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>El objeto Application dispone entre sus propiedades de una llamada Dialogs. Es una colección de objetos Dialog, cada uno de los cuales representa a un cierto cuadro de diálogo. El índice a utilizar con esa colección será una de las constantes del grupo XlBuiltinDialog. Puede utilizar el Examinador de objetos de Visual Basic para ver los elementos que forman este grupo. Como se aprecia en la figura 16.1, son muchos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_c29rNmFBdDZwUCUyRllwd1hSdlJwQnBzbFNTRk9Ya3dBdWVOODNjWjQySGdnJTNE" id="IMG_c29rNmFBdDZwUCUyRllwd1hSdlJwQnBzbFNTRk9Ya3dBdWVOODNjWjQySGdnJTNE" alt="Cuadros de diálogo " title="Cuadros de diálogo " width="453" /></p>
+<p><b>Figura 16.1.</b> Constantes que representan los distintos cuadros de diálogo.</p>
+<p>De los miembros con que cuenta cada objeto Dialog el único interesante para nosotros, es el método Show. Dicho método hará aparecer el cuadro de diálogo y, según éste, devolverá un parámetro indicando la acción del usuario sobre la ventana. Habitualmente True significa que se ha hecho clic en el botón <b>Aceptar</b>, <b>Abrir</b> o equivalente, mientras que False indicaría la cancelación.</p>
+<p>La mayoría de las ocasiones podremos llamar al método Show sin necesidad e ningún parámetro. No obstante, el número de parámetros es variable y, en ocasiones, se necesitarán uno o más de ellos dependiendo del cuadro de diálogo de que se trate.</p>
+<p>Para solicitar un nombre de archivo a abrir, mediante el cuadro de diálogo XlDialogOpen, no es necesario parámetro alguno.</p>
+<p>Inserte en un procedimiento las tres líneas siguientes y ejecútelo. Verá aparecer, uno tras otro, los cuadros de diálogo de alienación de texto, creación de nombres e inserción de hipervínculos. Los valores devueltos indicarían si se ha seleccionado una alineación, se ha creado un nombre o se ha insertado el hipervínculo, siendo True en caso afirmativo.</p>
+<p>Application.Dialogs (xlDialogAlignment).Show</p>
+<p>Application.Dialogs(xlDialogCreateNames).Show</p>
+<p>Application.Dialogs(xlDialogInsertHyperlink).Show</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

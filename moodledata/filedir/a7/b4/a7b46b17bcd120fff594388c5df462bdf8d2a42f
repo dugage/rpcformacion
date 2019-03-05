@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>5. Selección de valores de una lista </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">5. Selección de valores de una lista</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Utilizando el mecanismo de anidación de decisiones, usando múltiples funciones SI unas dentro de otras, sería posible la selección de un valor de una lista a partir de un índice dado. Suponga que dependiendo de que una cierta celdilla contenga el valor 1, 2 o 3 desee obtener en otra celdilla la población de los países grandes, medianos o pequeños, respectivamente. Estos datos los tiene ya en unas celdillas, obtenidas a partir del ejemplo del punto anterior.</p>
+<p>Sirviéndonos sólo de lo que hemos aprendido hasta ahora, la fórmula a utilizar para obtener ese resultado podría ser la siguiente:</p>
+<p>=SI(B237=1;C229;SI(B237=2;C232;SI(B237=3;C235;0)))</p>
+<p>Cada Si tiene su opción FALSO otra función SI, llegando hasta tres niveles de anidación. En casos como éste resulta mucho más sencillo utilizar la función ELEGIR. Los parámetros necesarios serían cuatro: el índice de selección o referencia a la celdilla que lo contiene y los valores a obtener según el valor de ese índice.</p>
+<p>Gracias a la función ELEGIR, el resultado perseguido con la fórmula anterior podría obtenerse de la siguiente forma:</p>
+<p>=ELEGIR/B237;C232;C235)</p>
+<p>Si desea calcular cuánto costaría una vivienda en una determinada ciudad en la que, dependiendo de la zona, tendría un precio u otro por metro cuadrado. En la hoja de cálculo, según puede verse en la figura 7.6, disponemos tres apartados: uno donde introduciremos los metros cuadrados de la vivienda, otro donde indicaremos la zona donde se encuentra y, finalmente, una fórmula:</p>
+<p>=ELEGIR(C242;C241*180000;C241*120000;C241*80000)</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_N01HZWRvZjRFZUVPVWJ1TGpxVERXb2hLYzFtMVZ3dVRHV2dId3lLNG5BYyUzRA==" id="IMG_N01HZWRvZjRFZUVPVWJ1TGpxVERXb2hLYzFtMVZ3dVRHV2dId3lLNG5BYyUzRA==" alt="Funciones lógicas" title="Funciones lógicas" width="415" /></p>
+<p><b>Figura 7.6.</b> Hoja con los datos para calcular el precio de la vivienda.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

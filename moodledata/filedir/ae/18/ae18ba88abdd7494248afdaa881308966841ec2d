@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.2. Trabajo con componentes </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.2. Trabajo con componentes</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_85" class="block iDevice_content">
+<p>Un formulario vacío es una ventana sin mucha utilidad, pues sólo contiene un título y el botón de cierre. Para que sirva para algo deberemos incluir en él componentes, objetos de los que aparecen en la paleta que puede verse a la derecha de la figura 16.2. Estos elementos son etiquetas de texto para poner títulos, cajas de texto para solicitar datos, botones, etc. en la tabla 16.3 se indica el nombre y la finalidad de algunos de estos componentes.</p>
+<p>Cada componente dispone de un buen conjunto de propiedades, muchas de ellas comunes a los demás componentes. Componentes como Label, CommandButton, OptionButton y CheckBox disponen de una propiedad, llamada Caption, que permite establecer el texto que se ve en el interior o al lado del componente. Los botones, al ser pulsados o seleccionados, generan un evento Clic que puede ser usado para responder a esa acción. Además, controles como CheckBOx y OptionButton cuentan con una propiedad, concretamente la propiedad Value, que con su valor, True o False, indica si la opción ha sido elegida o no.</p>
+<table style="border-width: 0px; border-collapse: collapse;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top" width="67">
+<p><b>Icono</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Nombre</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" valign="top">
+<p><b>Descripción.</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="67">
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NEptY21LJTJCZzJLaXAlMkJ0NmtWNjJCOFRtUkk3UlpVSWFZTEVPRWxySWpqUFUlM0Q=" id="IMG_NEptY21LJTJCZzJLaXAlMkJ0NmtWNjJCOFRtUkk3UlpVSWFZTEVPRWxySWpqUFUlM0Q=" alt="Cuadros de diálogo " title="Cuadros de diálogo " height="44" width="43" /></p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Label</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Se utiliza para mostrar textos y títulos en el formulario.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="67">
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NXhrRW43UG5DVjNEVVlCMEtYWWZ1SFI0alJUWEE5SlI0U3FzQ05POU8xMCUzRA==" id="IMG_NXhrRW43UG5DVjNEVVlCMEtYWWZ1SFI0alJUWEE5SlI0U3FzQ05POU8xMCUzRA==" alt="Cuadros de diálogo " title="Cuadros de diálogo " height="29" width="35" /></p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>TextBox</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Recuadro para solicitar un dato, como puede ser un texto o un número.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="67">
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_eWNmVDE5Rk9VcU81NWolMkJoTGVTMWNSNTRySXhDY0QxZmc4VVh2ME1MUVJzJTNE" id="IMG_eWNmVDE5Rk9VcU81NWolMkJoTGVTMWNSNTRySXhDY0QxZmc4VVh2ME1MUVJzJTNE" alt="Cuadros de diálogo " title="Cuadros de diálogo " height="33" width="36" /></p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>OptionButton</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Botón para selección de múltiples opciones exclusivas entre sí.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top" width="67">
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VGdod3JRczhhQ3Nqb3JVbndGbWxkRGJEMVBOT01iSklWdWljQXVFZHdWZyUzRA==" id="IMG_VGdod3JRczhhQ3Nqb3JVbndGbWxkRGJEMVBOT01iSklWdWljQXVFZHdWZyUzRA==" alt="Cuadros de diálogo " title="Cuadros de diálogo " height="42" width="38" /></p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>CheckBox</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" valign="top">
+<p>Casilla de activación/desactivación de opciones.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top" width="67">
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UCUyQkR0eG1hamxEendXbEklMkZpTndPS0l2Nmhwa2hnVGplU0VnNG9oY3ZnQWclM0Q=" id="IMG_UCUyQkR0eG1hamxEendXbEklMkZpTndPS0l2Nmhwa2hnVGplU0VnNG9oY3ZnQWclM0Q=" alt="Cuadros de diálogo " title="Cuadros de diálogo " height="29" width="37" /></p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>CommandButton</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" valign="top">
+<p>Botón tradicional para pulsar ejecutando una acción.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 16.3.</b> Componentes para cuadros de diálogo.</p>
+<p>Cuando no se trata de elegir una opción simple sino de solicitar un dato, como pueda ser un número, un texto o una referencia, los componentes adecuados son TextBox y RefEdit. Son similares: los dos disponen de una propiedad Text donde almacenan el valor introducido. El primero se usa para datos en general, mientras que el segundo es apropiado para solicitar referencias a celdillas o rangos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

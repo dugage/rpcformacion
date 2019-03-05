@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-28" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id32">
+<div class="iDevice emphasis0">
+<div id="ta32_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+<p></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id33">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 1;
+var key1 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b33");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm33").key0b33[i].checked)
+               {
+                  question0 = document.getElementById("quizForm33").key0b33[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b33");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm33").key1b33[i].checked)
+               {
+                  question1 = document.getElementById("quizForm33").key1b33[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm33").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm33" id="quizForm33" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-33" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b33" class="block iDevice_content">
+<div class="ee_enunciado"><b>1. ¿Qué alimento posee el aminograma más completo?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b331" class="sr-av"><a href="#answer-key0b331">Opción 1</a></label><input type="radio" name="key0b33" id="key0b331" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b331">
+<div id="taoptionAnswer0q0b33" class="block iDevice_content">
+<p>Carne.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b332" class="sr-av"><a href="#answer-key0b332">Opción 2</a></label><input type="radio" name="key0b33" id="key0b332" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b332">
+<div id="taoptionAnswer1q0b33" class="block iDevice_content">
+<p>Huevo.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b333" class="sr-av"><a href="#answer-key0b333">Opción 3</a></label><input type="radio" name="key0b33" id="key0b333" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b333">
+<div id="taoptionAnswer2q0b33" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_correct"></div>
+<div class="ee_respuesta ee_simpleNo_seleccionada">Leche.</div>
+</div>
+<div class="botonera" id="botonera"></div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b33" class="block iDevice_content">
+<div class="ee_enunciado"><b>2. En el huevo, ¿Dónde existe un mayor porcentaje de contenido lipídico?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b331" class="sr-av"><a href="#answer-key1b331">Opción 1</a></label><input type="radio" name="key1b33" id="key1b331" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b331">
+<div id="taoptionAnswer0q1b33" class="block iDevice_content">
+<p>Clara.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b332" class="sr-av"><a href="#answer-key1b332">Opción 2</a></label><input type="radio" name="key1b33" id="key1b332" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b332">
+<div id="taoptionAnswer1q1b33" class="block iDevice_content">
+<p>Yema.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b333" class="sr-av"><a href="#answer-key1b333">Opción 3</a></label><input type="radio" name="key1b33" id="key1b333" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b333">
+<div id="taoptionAnswer2q1b33" class="block iDevice_content">
+<p>El contenido graso del huevo en general es escaso, por tanto, ni en la clara ni en la yema existe un contenido graso apreciable.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore33"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id34">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-34_108">
+<form name="multi-select-form-34_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion34_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>3. ¿Cuál es la principal diferencia entre las grasas procedentes de animales terrestres y las procedentes de animales acuáticos? (Respuesta múltiple)</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op34_1080" class="sr-av"><a href="#answer-34_111">Opción 1</a></label><input type="checkbox" id="op34_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-34_111"><div id="taans34_111" class="block iDevice_content">
+<p>Su composición en ácidos grasos.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-34_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op34_1081" class="sr-av"><a href="#answer-34_253">Opción 2</a></label><input type="checkbox" id="op34_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-34_253"><div id="taans34_253" class="block iDevice_content">
+<p>Las procedentes de animales terrestres poseen un alto contenido en ácidos grasos poliinsaturados, mientras que las que proceden de animales acuáticos destacan por su contenido en ácidos grasos saturados.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-34_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op34_1082" class="sr-av"><a href="#answer-34_255">Opción 3</a></label><input type="checkbox" id="op34_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-34_255"><div id="taans34_255" class="block iDevice_content">
+<p>Las procedentes de animales terrestres poseen un alto contenido en ácidos grasos saturados, mientras que las que proceden de animales acuáticos destacan por su contenido en ácidos grasos poliinsaturados.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-34_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-34_108" /> 
+</p>
+</div>
+<section id="f34_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-34_111" class="right">Correcto</a></li>
+<li><a href="#answer-34_253" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-34_255" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id35">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b35");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm35").key0b35[i].checked)
+               {
+                  question0 = document.getElementById("quizForm35").key0b35[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm35").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm35" id="quizForm35" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-35" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b35" class="block iDevice_content">
+<div class="ee_enunciado"><b>4. ¿Qué leche animal es la más parecida a la leche humana?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b351" class="sr-av"><a href="#answer-key0b351">Opción 1</a></label><input type="radio" name="key0b35" id="key0b351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b351">
+<div id="taoptionAnswer0q0b35" class="block iDevice_content">
+<p>Leche de vaca.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b352" class="sr-av"><a href="#answer-key0b352">Opción 2</a></label><input type="radio" name="key0b35" id="key0b352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b352">
+<div id="taoptionAnswer1q0b35" class="block iDevice_content">
+<p>Leche de cabra.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b353" class="sr-av"><a href="#answer-key0b353">Opción 3</a></label><input type="radio" name="key0b35" id="key0b353" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b353">
+<div id="taoptionAnswer2q0b35" class="block iDevice_content">
+<p>Leche de burra.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore35"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id36">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta36_100" class="block iDevice_content">
+<div class="numeracion"><b>5. Indica si es verdadero o falso el siguiente enunciado:</b></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b36" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b36" class="block iDevice_content">
+<p><i>“El yogur se obtiene tratando la leche a partir de la acción de la renina o cuajo (fermento existente en el estómago de las vacas) el cual provocan una transformación parcial de la lactosa en ácido láctico”.</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b36"><input type="radio" name="option0b36" id="true0b36" class="exe-radio-option exe-radio-option-0-2-0b36-truefalse" /> Verdadero</label> 
+<label for="false0b36"><input type="radio" name="option0b36" id="false0b36" class="exe-radio-option exe-radio-option-1-2-0b36-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b36" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b36-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

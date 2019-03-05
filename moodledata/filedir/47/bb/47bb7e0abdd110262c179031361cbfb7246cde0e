@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.3. Desplazamiento de referencias </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.3. Desplazamiento de referencias</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Vamos ahora a tratar una función que nos servirá siempre que, a partir de una referencia, necesitemos generar otra nueva referencia obtenida como un desplazamiento. El objetivo es tomar la primera referencia y sumar o bien restar un determinado número de filas y columnas, obteniendo la nueva referencia.</p>
+<p>La función que efectúa esta operación es DESFER y los parámetros necesarios son tres:</p>
+<ul>
+<li>Referencia a tomar como base.</li>
+<li>Número de filas a añadir.</li>
+<li>Número de columnas a añadir.</li>
+</ul>
+<p>Introduciendo la fórmula =DESREF (B2;2;4), por ejemplo, obtendríamos en la celdilla el valor de F4, que es la resultante de avanzar B2 en dos filas y cuatro columnas.</p>
+<p>De manera opcional puede entregar otros dos parámetros, indicando el número de filas y columnas a utilizar para construir un rango en lugar de una referencia simple. Con la fórmula =SUMA(DESREF(A2;2;1;1;2)) sumaríamos el contenido de las celdillas B4:B5.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

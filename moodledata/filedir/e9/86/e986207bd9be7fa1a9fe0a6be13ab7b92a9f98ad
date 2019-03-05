@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.2. Select Case </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.2. Select Case</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Cuando en un condicional múltiple se utilizan expresiones que comparten siempre un mismo operando, en lugar de usar varios If/Else suele ser más fácil utilizar la construcción Select Case. Partamos del siguiente supuesto:</p>
+<p>If ActiveCell.Value &gt; 100000 Then</p>
+<p>ActiveCell.Font.Bold = True</p>
+<p>Else</p>
+<p>If ActiveCell.Value &gt;50000 Then</p>
+<p>ActiveCell.Font.Italic = True</p>
+<p>Else</p>
+<p>ActiveCell.Font.Underline = True</p>
+<p>End If</p>
+<p>End if</p>
+<p>Como ve, comprobaremos repetidamente el valor de ActiveCell.Value para, en consecuencia, aplicar un atributo u otro a la celdilla. Tenemos un If anidado dentro de otro, con su correspondiente Else y el terminador End If. Conseguiríamos exactamente el mismo resultado con el código siguiente:</p>
+<p>Selecto Case ActiveCell.Value</p>
+<p>Case Is &gt; 10000</p>
+<p>ActiveCell.Font.Bold = True</p>
+<p>Case Is &gt; 50000</p>
+<p>ActiveCell.Font.Italic = True</p>
+<p>Case Else</p>
+<p>ActiveCell.Font.Underline = True</p>
+<p>End Select</p>
+<p>Tras Select Case disponemos el operando común de la expresión relacional, que en este caso es la propiedad Value del objeto ActiveCell. La segunda parte de la expresión, el operador relacional y el segundo operando, van en las líneas siguientes dispuestos detrás de la palabra Case, ya sin necesidad de repetir el primer operando.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>7. Vincular tareas dentro del proyecto </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">7. Vincular tareas dentro del proyecto</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id27">
+<div class="iDevice emphasis0">
+<div id="ta27_85" class="block iDevice_content">
+<p>Después de crear tareas en un proyecto, es necesario vincular estas tareas para mostrar las relaciones entre ellas. Cuando se vinculan tareas, se crean dependencias de tareas.</p>
+<p>En toda vinculación existe una relación entre la tarea predecesora (de la que parte el vínculo) y la tarea sucesora (a la que llega). El vínculo se establece por una dependencia entre sus fechas de comienzo y fin. Existen cuatro tipos de dependencias entre tareas. En el siguiente cuadro comparativo se muestran las diferentes formas de vincular tareas donde la tarea “A” es la predecesora, o de la que depende, y la tarea “B” la sucesora, o dependiente.</p>
+<p><b>Cuadro comparativo de vinculación entre tareas.</b></p>
+<table style="border-width: 0px; border-collapse: collapse; width: 100%;" border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="16%">
+<p><b>Tipo de ví</b> <b>nculo</b></p>
+</td>
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="34%">
+<p><b>Ejemplo</b></p>
+</td>
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="49%">
+<p><b>Descripció</b> <b>n</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="16%">
+<p>Fin a comienzo (FC)</p>
+</td>
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="34%">
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RE1iJTJCaEdLenBEOUJvUTA3JTJGUHlCQ2Rmam1FSWtOUXpPZHQxbngyallheE0lM0Q=" id="IMG_RE1iJTJCaEdLenBEOUJvUTA3JTJGUHlCQ2Rmam1FSWtOUXpPZHQxbngyallheE0lM0Q=" alt="Programación de Tareas con Project 2016" title="Programación de Tareas con Project 2016" width="184" /></p>
+</td>
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="49%">
+<p>La tarea dependiente (B) no puede comenzar hasta que se haya completado la tarea de la que depende (A).</p>
+<p>Por ejemplo, si tiene dos tareas, "Preparar cimientos" y "Verter cemento", la tarea "Verter cemento" no puede comenzar hasta que se haya completado la tarea "Preparar cimientos".</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="16%">
+<p>Comienzo a comienzo (CC)</p>
+</td>
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="34%">
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cmQ0YlNhbmFPRnFEM05XOWV0ME5XaXRQbFFwWVM2MjJVdEhMdSUyRmVNZG1JJTNE" id="IMG_cmQ0YlNhbmFPRnFEM05XOWV0ME5XaXRQbFFwWVM2MjJVdEhMdSUyRmVNZG1JJTNE" alt="Programación de Tareas con Project 2016" title="Programación de Tareas con Project 2016" width="135" /></p>
+</td>
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="49%">
+<p>La tarea dependiente (B) no puede comenzar hasta que comience la tarea de la que depende (A).</p>
+<p>La tarea dependiente puede comenzar en cualquier momento una vez que la tarea de la cual depende haya comenzado. El tipo de vínculo CC no requiere que ambas tareas comiencen al mismo tiempo.</p>
+<p>Por ejemplo, si tiene dos tareas, "Verter cemento" y "Nivelar cemento", la tarea "Nivelar cemento" no puede comenzar hasta que comience la tarea "Verter cemento".</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="16%">
+<p>Fin a fin (FF)</p>
+</td>
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="34%">
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_SlNQcWZSdm13Q2VtWWI3Q2JZWHVxRUtCekhoaGQydm1sZmtxdjRCc01DQSUzRA==" id="IMG_SlNQcWZSdm13Q2VtWWI3Q2JZWHVxRUtCekhoaGQydm1sZmtxdjRCc01DQSUzRA==" alt="Programación de Tareas con Project 2016" title="Programación de Tareas con Project 2016" width="135" /></p>
+</td>
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="49%">
+<p>La tarea dependiente (B) no se puede completar hasta que se haya completado la tarea de la que depende (A).</p>
+<p>La tarea dependiente se puede completar en cualquier momento una vez que se haya completado la tarea de la cual depende. El tipo de vínculo FF no requiere que ambas tareas se completen al mismo tiempo.</p>
+<p>Por ejemplo, si tiene dos tareas, "Agregar cableado" e "Inspeccionar instalación eléctrica", la tarea "Inspeccionar instalación eléctrica" no puede completarse hasta que se complete la tarea "Agregar cableado".</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="16%">
+<p>Comienzo a fin (CF)</p>
+</td>
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="34%">
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_SHlRT3Y1WHFnTjY2eGZNM3ZTJTJCb1NvV2R3QzhRMzNRZSUyRlc1UCUyQktrRmNjSSUzRA==" id="IMG_SHlRT3Y1WHFnTjY2eGZNM3ZTJTJCb1NvV2R3QzhRMzNRZSUyRlc1UCUyQktrRmNjSSUzRA==" alt="Programación de Tareas con Project 2016" title="Programación de Tareas con Project 2016" width="184" /></p>
+</td>
+<td style="border-width: 1px; border-color: #000000; border-style: solid;" valign="top" width="49%">
+<p>La tarea dependiente (B) no se puede completar hasta que comience la tarea de la que depende (A).</p>
+<p>La tarea dependiente se puede completar en cualquier momento una vez que la tarea de la cual depende haya comenzado. El tipo de vínculo CF no requiere que la tarea dependiente se complete de forma simultánea en cuanto comience la tarea de la que depende.</p>
+<p>Por ejemplo, las cimbras del techo para su proyecto de construcción se construyen en otro lugar. Dos de las tareas de su proyecto son "Entrega de cimbras" y "Montar techo". La tarea "Montar techo" no se puede completar hasta que comience la tarea "Entrega de cimbras".</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

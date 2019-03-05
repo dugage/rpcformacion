@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.Calculos automáticos </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">3.Calculos automáticos</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id111">
+<div class="iDevice emphasis0">
+<div id="ta111_85" class="block iDevice_content">
+<p><span>Comenzaremos viendo cómo pueden realizarse algunos cálculos sin necesidad siquiera de escribir una fórmula, con tan sólo un clic de ratón. Partimos de una hoja de cálculo como la mostrada en la figura 5 .1, con una serie de datos ya introducidos. Hay que tratar estos datos para obtener algunos resultados.</span></p>
+<p><span><img src="excel_5.1.png" alt="FIGURA 5.1" width="752" height="553" /></span></p>
+<p><strong>FIGURA 5.1</strong></p>
+<p></p>
+<p>Lo más lógico, en principio, es totalizar los datos. DE esta forma se obtendrá el número total de personas por categoría, sumando columnas; el número total de nº de personas por colegio, al sumar filas, y, por último, el número total global. En lugar de introducir una fórmula manualmente por cada celdilla en la que quiere obtenerse un resultado, podemos utilizar la opción autosuma.</p>
+<p>En principio seleccione las celdillas G4 a G13, en las que deberían mostrarse los totales por colegio. A continuación, con este rango marcado, pulse la tecla Control y, sin soltarla, haga clic con el puntero del ratón sobre la celdilla B14, extendiendo la selección hasta la G14 .</p>
+<p>De esta forma, tendrá marcados dos rangos como se muestra en la figura 5 .2 . Lo único que falta es un clic en el botón Suma</p>
+<p style="text-align: center;"><img width="13" height="20" id="IMG_JTJGJTJGaEtNMGdXZm90MjFsMU9aTmpvNHNYZEsySk5ncFhDUjJ0c2RHNlkxSVElM0Q=" alt="Trabajar con Fórmulas I" title="Trabajar con Fórmulas I" src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJGJTJGaEtNMGdXZm90MjFsMU9aTmpvNHNYZEsySk5ncFhDUjJ0c2RHNlkxSVElM0Q=" /></p>
+<p>que encontrará en el grupo Inicio&gt;Modificar de la Cinta de opciones.</p>
+<p><img src="excel_5.2.png" alt="FIGURA 5.2" width="700" height="548" /></p>
+<p><strong>FIGURA 5.2</strong></p>
+<p><span>Al hacer clic en el citado botón verá que aparecen los totales automáticamente. Puede poner los correspondientes títulos a la columna G y a la fila 14, por ejemplo Totales y aplicar mediante la opción Estilos de celda de Inicio&gt;Estilos, un estilo visual que destaque estos datos. Después, manteniendo seleccionados los dos rangos anteriores, bastará con pulsar Control-N para poner los totales en negrita. El aspecto final de la hoja será similar al de la figura 5 .3</span></p>
+<p><img src="excel_5.3.png" alt="FIGURA 5.3" width="754" height="417" /></p>
+<p><strong>FIGURA 5.3</strong></p>
+<p><span>Si sitúa el foco de entrada en cualquiera de las celdillas de totales, podrá ver en la Barra de fórmulas que, aunque en la celdilla aparece un número, el contenido real es un cálculo. El contenido de la celdilla B14 , por ejemplo, es =SUMA (B4:B13). SUMA es una función, B4:B13 es un rango de celdillas, y el símbolo = indica que el contenido de la celdilla es una fórmula. Consecuentemente, Excel evalúa la fórmula, facilitando a la función SUMA todos los valores del rango indicado.</span></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

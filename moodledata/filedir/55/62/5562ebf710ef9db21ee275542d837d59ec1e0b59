@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Pedidos </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Pedidos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<p>En esta opción se recogen los pedidos solicitados por los clientes. Estos documentos no dan salida de stocks en el almacén. Su utilidad es exclusivamente mostrar información de las Unidades pendientes de servir. Si no se quiere llevar este tipo de control, no es necesario efectuar los pedidos; se podrán realizar directamente los albaranes. Se dispone de un botón de acceso directo a esta opción:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_em0lMkZZanpPSUVEZ1ozSldhTHZiYm9EUjlXZkx3SXdsVEIyTVN0T3ZNZGo4JTNE" id="IMG_em0lMkZZanpPSUVEZ1ozSldhTHZiYm9EUjlXZkx3SXdsVEIyTVN0T3ZNZGo4JTNE" alt="Facturación I" title="Facturación I" height="46" width="251" /></p>
+<p>Al acceder a la opción de pedidos visualizaremos una pantalla como la mostrada a continuación.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_YVclMkJ2ZlVCYXA0c0dLakFzT2dadTNQZVBwREFrUW8lMkY3JTJGTUs4bFNWVno0TSUzRA==" id="IMG_YVclMkJ2ZlVCYXA0c0dLakFzT2dadTNQZVBwREFrUW8lMkY3JTJGTUs4bFNWVno0TSUzRA==" alt="Facturación I" title="Facturación I" /></p>
+<p>Ventana pedidos de clientes</p>
+<p>Disponemos de los siguientes botones:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJGdnQ1emFLNU13SGpRUmZzbkpNeDMlMkJvRmVwNEc4eEFMV3k0M1ZTRzdKWWclM0Q=" id="IMG_JTJGdnQ1emFLNU13SGpRUmZzbkpNeDMlMkJvRmVwNEc4eEFMV3k0M1ZTRzdKWWclM0Q=" alt="Facturación I" title="Facturación I" height="62" width="177" /></p>
+<p>Nos permitirá buscar los registros según las condiciones que introduzcamos en la pantalla de búsqueda.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RUYwOUs5WkxycTdpZ0Fia3NPeWM2SW9aenRhT25KSFFPdUxRR1dWNHFqYyUzRA==" id="IMG_RUYwOUs5WkxycTdpZ0Fia3NPeWM2SW9aenRhT25KSFFPdUxRR1dWNHFqYyUzRA==" alt="Facturación I" title="Facturación I" height="62" width="230" /></p>
+<p>Con este botón podremos generar un pedido a nuestro proveedor con los mismos artículos que hemos incluido en un pedido de clientes. Además, podremos desde aquí generar un pedido de proveedor para igualar nuestro stock al máximo o mínimo, siempre de los artículos que estén incluidos en el pedido de clientes que tomamos como base. Los datos a rellenar serán los siguientes:</p>
+<ul>
+<li><b>Desde Proveedor:</b> código del primer proveedor seleccionado para la generación automática de pedidos.</li>
+<li><b>Hasta Proveedor:</b> código del último proveedor seleccionado para la generación automática de pedidos.</li>
+<li><b>Desde Artículo</b>: código del primer artículo de los que forman el pedido del cliente.</li>
+<li><b>Hasta Artículo:</b> código del último artículo de los que forman el pedido del cliente, siempre según el orden de los artículos.</li>
+<li><b>Almacén de Destino:</b> código del almacén donde entrarán los artículos solicitados.</li>
+<li><b>Proveedor:</b> indicamos al programa que criterio debe seguir para seleccionar el proveedor al cual va a realizar el pedido. Los criterios son proveedor habitual, mejor precio y mejor fecha de reposición.</li>
+<li><b>Stock Disponible:</b> establecemos el filtro sobre que artículos vamos a realizar el pedido según el stock que tenemos en ese momento, seleccionando todos los artículos del pedido, la aplicación generará un pedido por todos los artículos que contenía el pedido del cliente, seleccionando cualquiera de las otras tres opciones el pedido se generará sólo de aquellos artículos que cumplan la condición seleccionada.</li>
+<li><b>Igualar a Stock:</b> indicaremos la cantidad de unidades que vamos a solicitar a nuestro proveedor:</li>
+<li><b>Según Stock Disponible:</b> si tenemos seleccionado menor que cero se solicitará los artículos necesarios para cubrir el pedido, teniendo en cuenta los artículos que tenemos actualmente en el stock, si hubiésemos seleccionado menor o igual que cero, solicitará tantos artículos para cubrir el pedido y dejar un artículo en el almacén.</li>
+<li><b>Stock Mínimo:</b> se solicitarán artículos hasta completar el stock mínimo fijado para cada uno de los artículos.</li>
+<li><b>Stock Máximo:</b> se pedirán los artículos necesarios hasta alcanzar el stock máximo fijado para cada artículo.</li>
+<li><b>Cantidad Pedido Cliente:</b> se pedirán el número de artículos que hubiese en el pedido del cliente.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WjdQT0RMVlNQcWYxeDRQNlFSZThLVENBN2J3NiUyRlZqRTdxUVJXSkc4WlVrJTNE" id="IMG_WjdQT0RMVlNQcWYxeDRQNlFSZThLVENBN2J3NiUyRlZqRTdxUVJXSkc4WlVrJTNE" alt="Facturación I" title="Facturación I" width="442" /></p>
+<p>Ventana de generación automática de pedidos de proveedores</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bDFIbkplVUs5V0ZjUHpVaEZVOTlxRDRBYlRMd3BBc3RpMkw5cGo1JTJCalRzJTNE" id="IMG_bDFIbkplVUs5V0ZjUHpVaEZVOTlxRDRBYlRMd3BBc3RpMkw5cGo1JTJCalRzJTNE" alt="Facturación I" title="Facturación I" height="58" width="120" /></p>
+<p>Hace que aparezcan o desaparezcan los totales para agilizar la visualización de la pantalla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NjhTZm5jcEdybWJ2WmYzQ0swM1paVUQxUGFGanpISUVmZGMxZyUyRjdkYkE4JTNE" id="IMG_NjhTZm5jcEdybWJ2WmYzQ0swM1paVUQxUGFGanpISUVmZGMxZyUyRjdkYkE4JTNE" alt="Facturación I" title="Facturación I" height="53" width="292" /></p>
+<p>Con este botón podremos generar automáticamente un albarán o una factura del pedido seleccionado. Pulsando el botón aparecerá la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dDVHdUpIVVBvSXlGTEx1d3ZmcjJkb01TaEglMkJ3Sk5zN2owOGhya3VhQ1FJJTNE" id="IMG_dDVHdUpIVVBvSXlGTEx1d3ZmcjJkb01TaEglMkJ3Sk5zN2owOGhya3VhQ1FJJTNE" alt="Facturación I" title="Facturación I" width="340" /></p>
+<p>Pantalla generar albarán o factura</p>
+<p>En ella podremos elegir entre generar un albarán o una factura a partir de nuestro pedido. Introduciremos la fecha de expedición del documento y podremos seleccionar si queremos aplicar promociones vigentes o permitir ventas sin <i>stock</i>.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_d0lJbm0lMkJTYkp0WmU1OWxBMmFIRUZSTFM5bUdXNXBFMFQwcjVtQzA4M2VRJTNE" id="IMG_d0lJbm0lMkJTYkp0WmU1OWxBMmFIRUZSTFM5bUdXNXBFMFQwcjVtQzA4M2VRJTNE" alt="Facturación I" title="Facturación I" height="56" width="136" /></p>
+<p>Es un interfaz que nos permite intercambio de ficheros con Edi, para su posterior transmisión a través de medios telemáticos (EDI). Podemos importar pedidos, traspasar albaranes y facturas, (nunca si son IVA incluido, ni si llevan IRPF).</p>
+<p>Aparecerá la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_d3hPQ08xZEdNdCUyQmZRcnlEY1ZGSkp3TkhzOUk4anZXeWh2Yjl2MDVEd0VzJTNE" id="IMG_d3hPQ08xZEdNdCUyQmZRcnlEY1ZGSkp3TkhzOUk4anZXeWh2Yjl2MDVEd0VzJTNE" alt="Facturación I" title="Facturación I" width="404" /></p>
+<p>Importación de EDI</p>
+<ul>
+<li><b>Directorio: </b> introduciremos la ruta donde guardar el fichero generado.</li>
+</ul>
+<p>Pulsamos aceptar y ya se habrá generado un fichero en la ruta asignada.</p>
+<div style="text-align: center; font-size: 12px; line-height: 12px; margin-bottom: 12px;" class="numPaginaHtml"></div>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_THhCYVdzZzFkSjQ0cDhnQ1d0aGgxRThrOUc1YSUyQnlGVU4zd0t6VjZ0THB3JTNE" id="IMG_THhCYVdzZzFkSjQ0cDhnQ1d0aGgxRThrOUc1YSUyQnlGVU4zd0t6VjZ0THB3JTNE" alt="Facturación I" title="Facturación I" height="63" width="191" /></p>
+<p>Desde este botón, además, de visualizar el documento antes de su impresión, también podremos enviar el documento por e-mail. Para ello marcaremos la opción Enviar a e-mail, pulsaremos Aceptar, seguidamente se abrirá una nueva ventana "Selección de impresión de documentos", con los documentos que haya seleccionado en el filtro de impresión, por defecto estos documentos están seleccionados, pudiendo deseleccionar con los botones Selección Todos/ Selección.</p>
+<p>Por defecto, la dirección de e-mail estará rellena con la dirección de e-mail asignada al cliente en la ficha de dicho cliente, si este campo está vacío, podrá añadir una nueva dirección o modificar la existente, situándose sobre el documento del que quiere añadir o modificar la dirección, sobre la columna destinada a la dirección de e-mail, y pulsando clic con el ratón se editará la columna pudiendo introducir la nueva dirección. Además tendrá un apartado donde introducir el asunto y un apartado para añadir un texto en el caso que lo necesitara.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MmEyTlh4Z2hjRlNabHNPcHRGVjFnUjlyNWM0cGN6YTQ5Rm5CcERNQ2JKWSUzRA==" id="IMG_MmEyTlh4Z2hjRlNabHNPcHRGVjFnUjlyNWM0cGN6YTQ5Rm5CcERNQ2JKWSUzRA==" alt="Facturación I" title="Facturación I" width="515" /></p>
+<p>Selección de impresión de documentos</p>
+<p>A través del botón "Enviar", enviará el documento a la dirección de correo indicada, no obstante la aplicación le mostrará un mensaje, preguntándole si desea enviar el mensaje.</p>
+<p>Una vez enviado el e-mail, en la tabla del documento, visualizará seleccionada la columna de impresión con un aspa de color azul del documento que se ha enviado.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OGpzWHB6bDM1ckFwc3BSMU84NXVjV1FzcTZxN1E3eWpndUUzdGxLME94dyUzRA==" id="IMG_OGpzWHB6bDM1ckFwc3BSMU84NXVjV1FzcTZxN1E3eWpndUUzdGxLME94dyUzRA==" alt="Facturación I" title="Facturación I" height="58" width="219" /></p>
+<p>La aplicación posibilita un nuevo botón en la barra de herramientas denominado <b>Gestión documental</b> desde la que podrá asociar imágenes/ documentos al pedido obtenidas desde un escáner o un archivo.</p>
+<p>La ventana de introducción de datos contiene los siguientes campos:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NUxDSUFpUEJsWTZGaUxPakY4STVSQWkxR1NYRWRZVWV6bTJBayUyQkc1JTJCeHclM0Q=" id="IMG_NUxDSUFpUEJsWTZGaUxPakY4STVSQWkxR1NYRWRZVWV6bTJBayUyQkc1JTJCeHclM0Q=" alt="Facturación I" title="Facturación I" width="566" /></p>
+<p>Detalle de pedidos</p>
+<ul>
+<li><b>Nº Pedido:</b> primer campo que se encontrará en el pedido. Estará inactivo ya que el programa irá asignando este número automáticamente. Disponemos de una carpeta Valores de Control en el apartado Personalización, en la opción Entorno del Sistema del menú Útil, donde se podrá decidir si la numeración es manual, con lo que este campo sí estará activo en el momento de la introducción del pedido.</li>
+<li><b>Estado:</b> en este campo se reflejará el estado del pedido. Dispone de varios estados para tener siempre información de la situación en la que se encuentra cada pedido. Un pedido puede tener los siguientes estados:</li>
+</ul>
+<ul>
+<li><i><b>Pedido</b> </i>: efectuado el pedido, no se ha realizado el albarán del mismo.</li>
+<li><i><b>Servido Parcial</b> </i>: efectuado el pedido, se ha realizado uno o varios albaranes sin completar la totalidad de los artículos.</li>
+<li><i><b>Servido</b> </i>: efectuado el pedido, se ha realizado uno o varios albaranes completando la totalidad de los artículos. Este campo será introducido automáticamente por el programa, por lo que no se encontrará activo.</li>
+</ul>
+<ul>
+<li><b>Fecha:</b> día, mes y año con que se dará de alta el pedido. Por defecto esta fecha es extraída del reloj interno de su ordenador.</li>
+<li><b>Cliente:</b> código del cliente al que se le realiza el pedido. Debe estar definido previamente en la opción Clientes del menú Sistema. No podrá generar un documento a un cliente bloqueado.</li>
+<li><b>Dirección:</b> código de la dirección de envío del pedido. Debe estar definido previamente en la carpeta Direcciones de la ficha del cliente. Por defecto aparecerá la dirección 0 que es la dirección fiscal del cliente, pudiendo ser modificada por el usuario.</li>
+<li><b>Almacén:</b> código del almacén del que saldrán los artículos contenidos en el pedido. Debe estar definido previamente en la opción Almacenes del menú Sistema.</li>
+<li><b>F. Pago:</b> código de la forma de pago del cliente. Debe estar previamente definida. Por defecto aparecerá la forma de pago de la ficha del cliente, pudiendo ser modificada por el usuario.</li>
+<li><b>Bultos:</b> este campo es meramente informativo por lo que no influirá en el proceso. En él se introducirá el número de bultos que ocupan los artículos.</li>
+<li><b>Agente:</b> código del agente. Debe estar previamente definido en la opción Agentes del menú Sistema. Por defecto aparecerá el agente de la ficha del cliente, pudiendo ser modificado por el usuario.</li>
+<li><b>% Com.:</b> porcentaje de comisión del agente. En principio estará a 0 e irá variando al introducir los diferentes descuentos por líneas de artículo, tal y como se explicó en la opción Agentes del menú Sistema. Antes de actualizar el pedido, permitirá la modificación manual de este porcentaje, si esto fuera necesario.</li>
+<li><b>Divisa:</b> código de la divisa con la que se realiza la factura. Debe estar definido previamente en el apartado Divisas de la opción Tablas Generales.</li>
+<li><b>Valor en Euros:</b> corresponde al cambio en euros con respecto a la divisa con que se trabaja.</li>
+<li><b>Total:</b> campo que totaliza los precios de venta de los artículos que se introduzcan. Este campo será actualizado automáticamente por el programa, por lo que no se encontrará activo.</li>
+</ul>
+<p>Llegados a este punto tendremos concluida la primera parte del pedido.</p>
+<p>Para la introducción de los diferentes artículos, se debe pulsar el botón <b>Añadir</b> y aparecerán los siguientes campos:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aVdYaDJuWjg2NHRPRDJ3aVprMzklMkYyY3gza3pHYmZuNjcweHlJdmN4bERnJTNE" id="IMG_aVdYaDJuWjg2NHRPRDJ3aVprMzklMkYyY3gza3pHYmZuNjcweHlJdmN4bERnJTNE" alt="Facturación I" title="Facturación I" width="564" /></p>
+<p>Introducción de artículos en pedidos</p>
+<ul>
+<li><b>Producto</b>: código del artículo que se vaya a introducir en el pedido. Deberá estar definido anteriormente en la opción Artículos del menú Sistema. Una vez introducido aparecerá la descripción del mismo en el campo que se encuentra a su derecha. Esta descripción estará inactiva a no ser que en la carpeta Modo de Trabajo del apartado Personalización de la opción Entorno del Sistema del menú Útil se haya marcado el campo "Modificar descripción en Documentos", lo que nos permitirá modificar o añadir partes a la descripción. Cuando la familia a la que pertenece el artículo tiene asociadas propiedades, éstas son los siguientes campos que aparecen automáticamente al introducir el artículo. Si hemos seleccionado Captura matricial en pedidos de clientes en el apartado Personalización de la opción Entorno del sistema del menú Útil, en vez de estos campos, aparecerá una pantalla con cinco carpetas correspondientes a las unidades, precio, descuento, descuento lineal y comisión asociados al artículo con cada propiedad. Aparecerán por defecto los datos que el artículo tiene asignados en su ficha, aunque podemos modificarlos manualmente en ese momento. De esta manera podemos hacer un pedido de varios artículos de un mismo producto con distintas propiedades, y que cada artículo tenga una cantidad, precio, descuento, descuento lineal y comisión distinta según sus propiedades.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_QWQyMSUyQiUyQmhId3VNRUdadlVtQzFTaGhzRUhST1JaY2t2eXg4RDU2WEglMkJWYyUzRA==" id="IMG_QWQyMSUyQiUyQmhId3VNRUdadlVtQzFTaGhzRUhST1JaY2t2eXg4RDU2WEglMkJWYyUzRA==" alt="Facturación I" title="Facturación I" width="566" /></p>
+<p>Captura matricial de líneas de artículos en pedidos</p>
+<p>Disponemos de un botón llamado "<b>Consultar Stocks</b>", con el cual una vez introducida la referencia del artículo, podemos consultar el stock de éste en los distintos almacenes.</p>
+<p>Si se pulsa Intro sobre el campo y no se ha introducido ninguna referencia (referencia en blanco) aparecerá una pantalla como la siguiente.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RTRoSTF6VDBZeHlndDhqJTJCRWJ0QURBNEhZRnNHUFpoWXRGOUtrbFRNcDg4JTNE" id="IMG_RTRoSTF6VDBZeHlndDhqJTJCRWJ0QURBNEhZRnNHUFpoWXRGOUtrbFRNcDg4JTNE" alt="Facturación I" title="Facturación I" width="565" /></p>
+<p>Introducción de artículos sin codificar en pedidos</p>
+<p>Ahora se podrá introducir un artículo sin codificar con una descripción tan larga como se desee. Para salir de este campo se hará pulsando la tecla de tabulador o haciendo clic con el ratón en otro campo, ya que pulsando Intro cambiaríamos de línea dentro del mismo campo.</p>
+<ul>
+<li><b>IVA:</b> porcentaje de IVA del artículo. Aparecerá por defecto el porcentaje correspondiente al tipo de IVA que se haya definido en la ficha del artículo. La posibilidad de modificar este campo será configurable desde el menú Personalización.</li>
+<li><b>Unidades Pedidas:</b> número de unidades solicitadas de cada artículo.</li>
+<li><b>Cantidad Servida:</b> número de unidades servidas de cada artículo. Este campo estará inactivo y se irá actualizando según vayamos realizando los albaranes de estos pedidos.</li>
+<li><b>Precio Venta:</b> precio de venta del artículo. Aparecerá por defecto el precio de venta o precio mayorista, dependiendo del cliente al que se le realice el pedido y de la ficha del artículo. Si existe una situación atípica para ese cliente con el artículo que estamos introduciendo, no aparecería el precio del artículo sino el de la situación atípica. En cualquier caso, permitirá modificarlo en ese mismo momento.</li>
+<li><b>% Dto.:</b> contendrá el porcentaje correspondiente a uno de los tipos del 1 al 6 según se refleje en Tipo de Descuento en la carpeta Comercial en la ficha del cliente. También se podrá introducir manualmente un porcentaje diferente a cualquiera de ellos. Al igual que en Precio de Venta, si existe alguna situación atípica aparecería por defecto el descuento de la situación atípica, y en el cuadro de Tipo de Descuento estará marcado "Otros.</li>
+<li><b>Descuento Lineal:</b> descuento numérico por línea de pedido, contendrá un importe que se descontará del precio de venta del artículo que deberá introducir el usuario.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_czFTc3NxaHM0b1dUbk5lcjRsaDU4VWFvQjByN0lQamRhJTJGQiUyQnY3NWNBRE0lM0Q=" id="IMG_czFTc3NxaHM0b1dUbk5lcjRsaDU4VWFvQjByN0lQamRhJTJGQiUyQnY3NWNBRE0lM0Q=" alt="Facturación I" title="Facturación I" height="81" width="269" /></p>
+<p>Tipo de descuento</p>
+<ul>
+<li><b>% Comisión:</b> en este campo aparecerá por defecto el porcentaje de comisión que le corresponde al agente (si lo hemos introducido en la pantalla anterior) por la venta del producto que estamos introduciendo y dependiendo del descuento que estemos aplicando. Si existiera alguna situación atípica como en Precios y en Descuentos, aparecería el porcentaje de comisión de esa situación atípica. El campo podrá modificarse manualmente en ese momento. De esta forma se podrá introducir distinta comisión por línea de producto.</li>
+<li><b>Importe:</b> este campo contendrá la multiplicación del precio de venta por las unidades introducidas en Unidades pedidas más la aplicación del descuento. Se actualizará automáticamente y no estará activo para el usuario.</li>
+<li><b>Trazabilidad:</b> desde la línea del documento se podrán indicar los Datos de Trazabilidad del artículo.</li>
+<li><b>% Descuento Especial:</b> tenemos en la parte inferior izquierda este campo para poner el porcentaje de descuento especial que le aplicaremos al cliente en el pedido.</li>
+<li><b>% Descuento Pronto Pago:</b> es un descuento adicional que pondremos en concepto de Pronto Pago.</li>
+</ul>
+<p>Así se irán introduciendo tantas líneas como artículos se quieran pedir y para finalizar el pedido se deberá pulsar el botón <b>Actualizar</b>.</p>
+<p>Se dispone también de un botón denominado <b>Comentarios</b>, con el cual se accede a una pantalla de edición donde se podrá escribir todo el texto que sea necesario y quedará grabado en dicho pedido, de manera que en la impresión del mismo, saldrá su comentario correspondiente. No tiene limitación en cuanto al número de caracteres a introducir.</p>
+<p>Asimismo, el programa proporciona otra opción denominada D<b>atos Adicionales</b> a la que se podrá acceder mediante un botón. En ella visualizaremos los siguientes campos:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NU1yUE5KR0RpZzlqc2pvY0xnbWx2RWhCWEFIeEJ1ZGViTTRxNmVMeHVzNCUzRA==" id="IMG_NU1yUE5KR0RpZzlqc2pvY0xnbWx2RWhCWEFIeEJ1ZGViTTRxNmVMeHVzNCUzRA==" alt="Facturación I" title="Facturación I" width="564" /></p>
+<p>Ventana datos adicionales</p>
+<ul>
+<li><b>Su Pedido:</b> número interno de pedido para ese cliente. No confundir con el número de pedido correlativo que irá aportando el programa.</li>
+<li><b>F. Salida:</b> fecha prevista para la emisión del pedido.</li>
+<li><b>Portes:</b> muchos de los pedidos que realizan nuestros clientes incluyen gastos por transporte, llamados gastos de envío. En este campo se incluirán, si los hubiese.</li>
+<li><b>Tipo de Portes:</b> tipo de transporte con el que se servirá el pedido.</li>
+<li><b>Nº de Tracking:</b> número de referencia que asigna el servicio de porte.</li>
+<li>Transportista: código del transportista que realizará la ruta. Este campo debería haberse definido en la opción Transportistas del menú Sistema.</li>
+<li><b>Expedición:</b> forma de expedición del pedido.</li>
+<li><b>Cond. Entrega:</b> condiciones especiales de entrega al cliente.</li>
+<li><b>Observaciones:</b> pequeño comentario del pedido.</li>
+</ul>
+<p>Todos estos campos son meramente informativos, excepto el campo "portes", que sí tendrá relevancia como veremos posteriormente en el apartado de Facturas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WUtnNWFwRElNUGdQZCUyQlROa3pwRWdaYU5HWnl4NXpBSnBCMSUyQnJuJTJCdEgxNCUzRA==" id="IMG_WUtnNWFwRElNUGdQZCUyQlROa3pwRWdaYU5HWnl4NXpBSnBCMSUyQnJuJTJCdEgxNCUzRA==" alt="Facturación I" title="Facturación I" height="50" width="157" /></p>
+<p>Si pulsa este botón visualizaremos el código de barras asignado al producto. Para que por defecto siempre pueda ver el código de barras de nuestro producto debe activar el check <b>Captura por código de barras en documentos</b> en la carpeta <b>Modo de Trabajo</b> de la opción <i>Personalización</i> del apartado <i>Entorno</i> <i>del</i> <i>sistema</i> del menú <i>Útil</i>.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_U3pRZldhemdLbHk4YXdwS1ZUWWFvZmpXSVRKZWdlVUtEMXclMkJGYzFYalE0JTNE" id="IMG_U3pRZldhemdLbHk4YXdwS1ZUWWFvZmpXSVRKZWdlVUtEMXclMkJGYzFYalE0JTNE" alt="Facturación I" title="Facturación I" height="33" width="175" /></p>
+<p>Para tener activado este botón es necesario que en la ficha del proveedor, en la carpeta comentario, tengamos introducido un comentario sobre dicho proveedor. De esta forma el usuario sabe que este proveedor está dotado de comentario, y además puede acceder a su consulta.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aUdpbVJtZWkzNU0wZnc1c2NHbnNTbEVveTdyJTJGS2ZOeUl3dW1NRmY4ZnRnJTNE" id="IMG_aUdpbVJtZWkzNU0wZnc1c2NHbnNTbEVveTdyJTJGS2ZOeUl3dW1NRmY4ZnRnJTNE" alt="Facturación I" title="Facturación I" width="566" /></p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_eEUlMkJsaXhsRWNBSmh0NksxTktKNkJzYVlJTVkxRTU1MUpLeCUyQiUyRk5UYnNvcyUzRA==" id="IMG_eEUlMkJsaXhsRWNBSmh0NksxTktKNkJzYVlJTVkxRTU1MUpLeCUyQiUyRk5UYnNvcyUzRA==" alt="Facturación I" title="Facturación I" height="37" width="152" /></p>
+<p>Pulsando este botón podremos añadir líneas de anticipos, para ellos previamente habremos dado de alta un artículo anticipo en el fichero de artículos. Al pulsar el botón aparecerá la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UWFDUm4lMkZjNlFjWWF6V0lsUVNCR2QwMTZ2WSUyQjlJMk1CMEd3TGhjaHAzcWMlM0Q=" id="IMG_UWFDUm4lMkZjNlFjWWF6V0lsUVNCR2QwMTZ2WSUyQjlJMk1CMEd3TGhjaHAzcWMlM0Q=" alt="Facturación I" title="Facturación I" width="484" /></p>
+<p>Introducción de anticipos</p>
+<p>En producto indicaremos la referencia del producto que hemos creado como artículo para anticipos, modificaremos la descripción y el tipo de IVA, si lo consideramos oportuno, también indicaremos el importe anticipado. Al actualizar el documento se generará una factura por el importe del anticipo y sus correspondientes recibos</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UUJmbEg3ZzJOJTJGJTJCV0R5V3NrWWxzOGxaZGlwNlhyWWtzQUZVRGJhbHFhalElM0Q=" id="IMG_UUJmbEg3ZzJOJTJGJTJCV0R5V3NrWWxzOGxaZGlwNlhyWWtzQUZVRGJhbHFhalElM0Q=" alt="Facturación I" title="Facturación I" height="77" width="563" /></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

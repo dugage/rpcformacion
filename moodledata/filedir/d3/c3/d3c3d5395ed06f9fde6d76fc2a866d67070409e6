@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.2. Valoración </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">4.2. Valoración</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id8">
+<div class="iDevice emphasis0">
+<div id="ta8_85" class="block iDevice_content">
+<p>De acuerdo con la información disponible en cada momento, las provisiones se <span class="ee_palabra_diccionario">valor </span>arán en la fecha de cierre del ejercicio, por el valor actual de la mejor estimación posible del importe necesario para cancelar o transferir a un tercero la obligación, registrándose los ajustes que surjan por la actualización de la provisión como un gasto financiero conforme se vayan devengando.</p>
+<p>Cuando se trate de provisiones con vencimiento inferior o igual a un año, y el efecto financiero no sea significativo, no será necesario llevar a cabo ningún tipo de <span class="ee_palabra_diccionario">descuento </span>.</p>
+<p>La compensación a recibir de un tercero (por ejemplo, una compañía de seguros) en el momento de liquidar la obligación, no supondrá una minoración del importe de la deuda, sin perjuicio del reconocimiento en el activo de la <span class="ee_palabra_diccionario">empresa </span>del correspondiente derecho de cobro, siempre que no existan dudas de que dicho reembolso será percibido. Dejamos contabilizada la provisión pero reconocemos el derecho a cobrar esa compensación como un activo.</p>
+<ol>
+<li><b>EJEMPLO</b></li>
+</ol>
+<p>Siguiendo con el caso anterior, el informe de los abogados, con fecha de 01/01/200n, nos indica que esa indemnización tendremos que pagarla el día de resolución de un recurso judicial que aproximadamente será dentro de 2 años. El importe en ese momento será de 40.000 € (es la mejor estimación) por lo que tenemos que dotar la provisión por su valor actual. Tipo de interés del 5% anual:</p>
+<p>40.000 * (1+0.05)-2= 36.281’17</p>
+<table width="488" border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="39" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="72" height="39" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="72" height="39" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="39" valign="middle">
+<p>Otros servicios (629)</p>
+</td>
+<td width="72" height="39" valign="middle">
+<p>36.281’17</p>
+</td>
+<td width="72" height="39" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="39" valign="middle">
+<p>Provisión para otras responsabilidades (142)</p>
+</td>
+<td width="72" height="39" valign="middle"></td>
+<td width="72" height="39" valign="middle">
+<p>36.281’17</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>El día del pago, imaginemos que la indemnización es al final por 35.000:</p>
+<table width="483" border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="36" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="77" height="36" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="69" height="36" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="36" valign="middle">
+<p>Provisión para otras responsabilidades (142)</p>
+</td>
+<td width="77" height="36" valign="middle">
+<p>36.281’17</p>
+</td>
+<td width="69" height="36" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="36" valign="middle">
+<p>Exceso de provisiones (7952)</p>
+</td>
+<td width="77" height="36" valign="middle"></td>
+<td width="69" height="36" valign="middle">
+<p>1.281,17</p>
+</td>
+</tr>
+<tr valign="top">
+<td height="36" valign="middle">
+<p>Banco (572)</p>
+</td>
+<td width="77" height="36" valign="middle"></td>
+<td width="69" height="36" valign="middle">
+<p>35.000</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Si una aseguradora tiene que darnos cobertura y nos corresponde una compensación por esta contingencia de 25.000 €:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="37" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="77" height="37" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="84" height="37" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="37" valign="middle">
+<p>Deudores (440)</p>
+</td>
+<td width="77" height="37" valign="middle">
+<p>25.000</p>
+</td>
+<td width="84" height="37" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="37" valign="middle">
+<p>Exceso de provisiones (7952)</p>
+</td>
+<td width="77" height="37" valign="middle"></td>
+<td width="84" height="37" valign="middle">
+<p>25.000</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

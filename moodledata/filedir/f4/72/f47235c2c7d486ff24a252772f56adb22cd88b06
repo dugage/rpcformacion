@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-18" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Preguntas de autoevaluación</h1></div></header>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id15">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 3;
+var key2 = 0;
+var key3 = 3;
+var key4 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b15");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm15").key0b15[i].checked)
+               {
+                  question0 = document.getElementById("quizForm15").key0b15[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b15");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm15").key1b15[i].checked)
+               {
+                  question1 = document.getElementById("quizForm15").key1b15[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b15");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm15").key2b15[i].checked)
+               {
+                  question2 = document.getElementById("quizForm15").key2b15[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b15");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm15").key3b15[i].checked)
+               {
+                  question3 = document.getElementById("quizForm15").key3b15[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b15");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm15").key4b15[i].checked)
+               {
+                  question4 = document.getElementById("quizForm15").key4b15[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm15").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm15" id="quizForm15" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-15" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b15" class="block iDevice_content">
+<p><b>1. Durante el embarazo…</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b151" class="sr-av"><a href="#answer-key0b151">Opción 1</a></label><input type="radio" name="key0b15" id="key0b151" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b151">
+<div id="taoptionAnswer0q0b15" class="block iDevice_content">
+<p>La mujer apenas sufre cambios en su cuerpo.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b152" class="sr-av"><a href="#answer-key0b152">Opción 2</a></label><input type="radio" name="key0b15" id="key0b152" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b152">
+<div id="taoptionAnswer1q0b15" class="block iDevice_content">
+<p>La mujer incrementa sus necesidades energéticas.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b153" class="sr-av"><a href="#answer-key0b153">Opción 3</a></label><input type="radio" name="key0b15" id="key0b153" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b153">
+<div id="taoptionAnswer2q0b15" class="block iDevice_content">
+<p>La mujer disminuye sus necesidades proteicas.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b15" class="block iDevice_content">
+<p><b>2. ¿Qué suplementación de fósforo se necesita durante el embarazo?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b151" class="sr-av"><a href="#answer-key1b151">Opción 1</a></label><input type="radio" name="key1b15" id="key1b151" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b151">
+<div id="taoptionAnswer0q1b15" class="block iDevice_content">
+<p>30 mg al día.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b152" class="sr-av"><a href="#answer-key1b152">Opción 2</a></label><input type="radio" name="key1b15" id="key1b152" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b152">
+<div id="taoptionAnswer1q1b15" class="block iDevice_content">
+<p>80 mg al día.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b153" class="sr-av"><a href="#answer-key1b153">Opción 3</a></label><input type="radio" name="key1b15" id="key1b153" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b153">
+<div id="taoptionAnswer2q1b15" class="block iDevice_content">
+<p>50 mg al día.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b154" class="sr-av"><a href="#answer-key1b154">Opción 4</a></label><input type="radio" name="key1b15" id="key1b154" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b154">
+<div id="taoptionAnswer3q1b15" class="block iDevice_content">
+<p>No lo requiere</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b15" class="block iDevice_content">
+<p><b>3. Indica si es verdadero o falso el siguiente enunciado:</b> <i>“En el tercer trimestre el tamaño del útero y el desplazamiento del estómago pueden hacer reaparecer o agravar los síntomas de la pirosis”.</i></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b151" class="sr-av"><a href="#answer-key2b151">Opción 1</a></label><input type="radio" name="key2b15" id="key2b151" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b151">
+<div id="taoptionAnswer0q2b15" class="block iDevice_content">
+<p>Verdadero</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b152" class="sr-av"><a href="#answer-key2b152">Opción 2</a></label><input type="radio" name="key2b15" id="key2b152" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b152">
+<div id="taoptionAnswer1q2b15" class="block iDevice_content">
+<p>Falso</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b15" class="block iDevice_content">
+<p><b>4. ¿Cuáles son las causas más frecuentes de las complicaciones durante el embarazo?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b151" class="sr-av"><a href="#answer-key3b151">Opción 1</a></label><input type="radio" name="key3b15" id="key3b151" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b151">
+<div id="taoptionAnswer0q3b15" class="block iDevice_content">
+<p>Bajo peso de la madre.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b152" class="sr-av"><a href="#answer-key3b152">Opción 2</a></label><input type="radio" name="key3b15" id="key3b152" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b152">
+<div id="taoptionAnswer1q3b15" class="block iDevice_content">
+<p>Obesidad de la madre.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b153" class="sr-av"><a href="#answer-key3b153">Opción 3</a></label><input type="radio" name="key3b15" id="key3b153" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b153">
+<div id="taoptionAnswer2q3b15" class="block iDevice_content">
+<p>Problemas relacionados con la dieta de la madre.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b154" class="sr-av"><a href="#answer-key3b154">Opción 4</a></label><input type="radio" name="key3b15" id="key3b154" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b154">
+<div id="taoptionAnswer3q3b15" class="block iDevice_content">
+<p>Todas son correctas.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion4b15" class="block iDevice_content">
+<p><b>5. Es conocido que las embarazadas suelen sufrir náuseas y vómitos en los primeros meses del embarazo pero, ¿qué consejos dietéticos podemos dar para aliviar estas molestias?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b151" class="sr-av"><a href="#answer-key4b151">Opción 1</a></label><input type="radio" name="key4b15" id="key4b151" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b151">
+<div id="taoptionAnswer0q4b15" class="block iDevice_content">
+<p>Tomar los alimentos muy aliñados, abusando de los picantes.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b152" class="sr-av"><a href="#answer-key4b152">Opción 2</a></label><input type="radio" name="key4b15" id="key4b152" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b152">
+<div id="taoptionAnswer1q4b15" class="block iDevice_content">
+<p>Beber mucha agua en ayunas.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b153" class="sr-av"><a href="#answer-key4b153">Opción 3</a></label><input type="radio" name="key4b15" id="key4b153" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b153">
+<div id="taoptionAnswer2q4b15" class="block iDevice_content">
+<p>Tomar pequeñas raciones de comida, frecuentes y secas, que contengan carbohidratos de fácil digestión y a ser posible, antes de levantarse de la cama por la mañana.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore15"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

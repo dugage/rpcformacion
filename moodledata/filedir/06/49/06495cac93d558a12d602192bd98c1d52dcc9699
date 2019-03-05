@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | UNIDAD DIDÁCTICA 8. OTROS ELEMENTOS ÚTILES </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id147">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 3;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var key0 = 0;
+var key1 = 3;
+var key2 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b147");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm147").key0b147[i].checked)
+               {
+                  question0 = document.getElementById("quizForm147").key0b147[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b147");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm147").key1b147[i].checked)
+               {
+                  question1 = document.getElementById("quizForm147").key1b147[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b147");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm147").key2b147[i].checked)
+               {
+                  question2 = document.getElementById("quizForm147").key2b147[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm147").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario </h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm147" id="quizForm147" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-147" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b147" class="block iDevice_content">
+<div class="ee_enunciado"><b>Confirma si la siguiente afirmación es verdadera o falsa: </b> <i><b>“Cuando decida crear un índice a través de una plantilla automática podrá irlo actualizando a medida que vaya avanzando en su trabajo, puesto que las paginas de</b> </i><b> referencia a cada capitulo progresaran e irán generando nuevas entradas”.</b></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1471" class="sr-av"><a href="#answer-key0b1471">Opción 1</a></label><input type="radio" name="key0b147" id="key0b1471" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1471"><a name="answer-key0b1471"></a>
+<div id="taoptionAnswer0q0b147" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1472" class="sr-av"><a href="#answer-key0b1472">Opción 2</a></label><input type="radio" name="key0b147" id="key0b1472" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1472"><a name="answer-key0b1472"></a>
+<div id="taoptionAnswer1q0b147" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Falso.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b147" class="block iDevice_content">
+<p><b>¿Con que herramienta podrá ir almacenando todas sus fuentes de referencia informativa?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1471" class="sr-av"><a href="#answer-key1b1471">Opción 1</a></label><input type="radio" name="key1b147" id="key1b1471" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1471"><a name="answer-key1b1471"></a>
+<div id="taoptionAnswer0q1b147" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Tabla de contenido.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1472" class="sr-av"><a href="#answer-key1b1472">Opción 2</a></label><input type="radio" name="key1b147" id="key1b1472" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1472"><a name="answer-key1b1472"></a>
+<div id="taoptionAnswer1q1b147" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Pie de página.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1473" class="sr-av"><a href="#answer-key1b1473">Opción 3</a></label><input type="radio" name="key1b147" id="key1b1473" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1473"><a name="answer-key1b1473"></a>
+<div id="taoptionAnswer2q1b147" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Notas al pie.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1474" class="sr-av"><a href="#answer-key1b1474">Opción 4</a></label><input type="radio" name="key1b147" id="key1b1474" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1474"><a name="answer-key1b1474"></a>
+<div id="taoptionAnswer3q1b147" class="block iDevice_content">
+<p>Citas y Bibliografías.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b147" class="block iDevice_content">
+<p><b>Haciendo clic en Insertar titulo, del apartado Títulos dentro de la pestaña Referencias:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1471" class="sr-av"><a href="#answer-key2b1471">Opción 1</a></label><input type="radio" name="key2b147" id="key2b1471" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1471"><a name="answer-key2b1471"></a>
+<div id="taoptionAnswer0q2b147" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Puede crear encabezamientos con diferente estilo, fuente y color, que distingan un apartado de otro y armen una estructura firme.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1472" class="sr-av"><a href="#answer-key2b1472">Opción 2</a></label><input type="radio" name="key2b147" id="key2b1472" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1472"><a name="answer-key2b1472"></a>
+<div id="taoptionAnswer1q2b147" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Puede ir almacenando todas sus fuentes de referencia informativa de manera que cuando escriba una cita sobre un autor determinado, se guarda internamente para que a la hora de publicar la bibliografía de su trabajo lo haga de una forma simple.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1473" class="sr-av"><a href="#answer-key2b1473">Opción 3</a></label><input type="radio" name="key2b147" id="key2b1473" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1473"><a name="answer-key2b1473"></a>
+<div id="taoptionAnswer2q2b147" class="block iDevice_content">
+<p>Puede ir visualizando de forma rápida todas las notas al pie que se hayan ido creando.</p>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1474" class="sr-av"><a href="#answer-key2b1474">Opción 4</a></label><input type="radio" name="key2b147" id="key2b1474" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1474"><a name="answer-key2b1474"></a>
+<div id="taoptionAnswer3q2b147" class="block iDevice_content">
+<p>Podrá redactar un índice alfabético.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id148">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario </h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-148_108">
+<form name="multi-select-form-148_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion148_108" class="block question iDevice_content">
+<p><b>Dentro de la ficha Referencia, ¿Qué grupos podemos encontrarnos? Señales las diferentes respuestas posibles. </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op148_1080" class="sr-av"><a href="#answer-148_111">Opción 1</a></label><input type="checkbox" id="op148_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-148_111"><a name="answer-148_111"></a>
+<div id="taans148_111" class="block iDevice_content">
+<p>Tabla de contenido.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-148_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op148_1081" class="sr-av"><a href="#answer-148_533">Opción 2</a></label><input type="checkbox" id="op148_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-148_533"><a name="answer-148_533"></a>
+<div id="taans148_533" class="block iDevice_content">
+<p>Indice.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-148_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op148_1082" class="sr-av"><a href="#answer-148_535">Opción 3</a></label><input type="checkbox" id="op148_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-148_535"><a name="answer-148_535"></a>
+<div id="taans148_535" class="block iDevice_content">
+<p>Títulos.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-148_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op148_1083" class="sr-av"><a href="#answer-148_537">Opción 4</a></label><input type="checkbox" id="op148_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-148_537"><a name="answer-148_537"></a>
+<div id="taans148_537" class="block iDevice_content">
+<p>Organizar.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-148_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'148_108')"/> 
+</p>
+</div>
+<div id="f148_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-148_111" class="right">Correcto</a></li>
+<li><a href="#answer-148_533" class="right">Correcto</a></li>
+<li><a href="#answer-148_535" class="right">Correcto</a></li>
+<li><a href="#answer-148_537" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

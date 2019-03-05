@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Consulta de Trazabilidad </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Consulta de Trazabilidad</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<p>Podremos acceder a la <b>Consulta de Trazabilidad</b> desde la tabla de <b>Artículos</b> o desde la propia opción dentro del menú <b>Facturación</b>.</p>
+<p>La <b>Consulta de Trazabilidad</b> nos permitirá realizar una búsqueda dentro de todas las tablas de la aplicación, para mostrar información sobre la trazabilidad de un determinado artículo. Podremos realizar filtros por las siguientes características:</p>
+<ul>
+<li>Captura del código del artículo por Referencia o Código de Barras</li>
+<li>1º propiedad, si el artículo tiene una familia con 1 o 2 propiedades, podremos indicar que nos muestre información sobre la trazabilidad de artículo para un valor determinado de la 1º propiedad. Puede servirnos, por ejemplo, para consultar la trazabilidad de un determinado Número de Lote o la Fecha de caducidad.</li>
+<li>2º propiedad, si el artículo tiene una familia con 2 propiedades, podremos indicar que nos muestre información sobre la trazabilidad de artículo para un valor determinado de la 2º propiedad. Podemos filtrar por la 2º propiedad y por la 1º o por una sola de ellas, según el filtro que necesitemos. Puede servirnos, por ejemplo, para consultar la trazabilidad de un determinado Número de Lote o la Fecha de caducidad.</li>
+<li>Lote, si la familia tiene configurada la opción de Capturar información de trazabilidad, habremos tenido la posibilidad de ir indicando en cada registro de movimiento de stock y en los documentos, el número de Lote. Aquí podremos indicar que nos muestre la trazabilidad por el valor de un Lote determinado.</li>
+<li>Fecha, si la familia tiene configurada la opción de Capturar información de trazabilidad, habremos tenido la posibilidad de ir indicando en cada registro de movimiento de stock y en los documentos, la Fecha (de caducidad, por ejemplo). Aquí podremos indicar que nos muestre la trazabilidad para una fecha determinada.</li>
+<li>Desde fecha, hasta fecha, la consulta sólo tendrá en cuenta los documentos o registros realizados con fecha dentro del rango indicado.</li>
+<li>Almacén, la consulta filtrará sólo los movimientos realizados para un almacén.</li>
+<li>Proveedor, la consulta filtrará sólo los documentos de compra realizados con un proveedor.</li>
+<li>Cliente, la consulta filtrará sólo los documentos de venta realizados con un cliente.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NkdkbHpZUXBNJTJGT0R4RnElMkIlMkYydTZTT1ZPWFVsM3NzOEEyQ2NQdXhwJTJCOXNNJTNE" id="IMG_NkdkbHpZUXBNJTJGT0R4RnElMkIlMkYydTZTT1ZPWFVsM3NzOEEyQ2NQdXhwJTJCOXNNJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Filtro de trazabilidad</p>
+<p>Una vez indicados los filtros de la consulta podremos acceder a los datos pulsando en el botón <b>Consultar</b>. Se mostrará información sobre:</p>
+<ul>
+<li>Stock, situación de stock de artículo con las condiciones indicadas en el filtro.</li>
+<li>Trazabilidad de Entrada.</li>
+<li>Trazabilidad Interna.</li>
+<li>Trazabilidad de Salida.</li>
+</ul>
+<h4><b>Trazabilidad de Entrada </b></h4>
+<p>La <b>Trazabilidad de Entrada</b> mostrará todos aquellos documentos o registros que indiquen una entrada en nuestros Almacenes de un determinado Artículo.</p>
+<p>Cada uno de los registros podrá ir además desglosado por los valores de las <b>Propiedades</b> o los propios datos de <b>Captura de trazabilidad</b>, en función de si se ha realizado un filtro por esos campos o no.</p>
+<ul>
+<li><b>1º Propiedad del artículo:</b> podrá ser una propiedad cualquiera o una propiedad configurada para trazabilidad, lote o fecha de caducidad.</li>
+<li><b>2º Propiedad del artículo:</b> podrá ser una propiedad cualquiera o una propiedad configurada para trazabilidad, lote o fecha de caducidad.</li>
+<li><b>Lote (trazabilidad):</b> en el caso de configurar la familia del artículo para capturar la información de trazabilidad en documentos, se mostrará el valor del Lote indicado en el movimiento.</li>
+<li><b>Fecha (trazabilidad):</b> en el caso de configurar la familia del artículo para capturar la información de trazabilidad en documentos, se mostrará el valor de la Fecha indicada en el movimiento.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJGbWQ1YTFLVyUyRm5ZTlhQSXlZR3VUWXN2RSUyRmQwcE1lbWdib2dJQ0ZWQ0VzNCUzRA==" id="IMG_JTJGbWQ1YTFLVyUyRm5ZTlhQSXlZR3VUWXN2RSUyRmQwcE1lbWdib2dJQ0ZWQ0VzNCUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Trazabilidad de entrada</p>
+<p>Mostrará información sobre los siguientes registros del programa:</p>
+<p><b>Compras </b></p>
+<p>Las entradas de mercancía por documentos de compras a proveedores. La información mostrada será la siguiente:</p>
+<ul>
+<li>Serie y número de documento de compra y del documento del proveedor.</li>
+<li>Fecha del documento y Fecha de Entrada.</li>
+<li>Almacén de entrada de la mercancía.</li>
+<li>Cantidad y Envases si el artículo trabaja con captura por envases.</li>
+<li>Proveedor: nombre, CIF, dirección, etc.</li>
+</ul>
+<p><b>Ordenes de Producción </b></p>
+<p>Las unidades fabricadas desde Órdenes de Producción. La información mostrada será la siguiente:</p>
+<ul>
+<li>Número de Orden de producción.</li>
+<li>Fecha de cierre, fecha a la que se produce la entrada en almacén de las unidades de producto final fabricadas.</li>
+<li>Almacén.</li>
+<li>Cantidad y Envases si el artículo trabaja con captura por envases.</li>
+</ul>
+<p><b>Regularización de Entrada </b></p>
+<p>Movimientos de Entrada de stock por regularización de <i>stock</i>, realizados desde la propia opción de <b>Regularización de almacenes</b> o desde la gestión de <b>Stock</b> en artículos. La información mostrada será la siguiente:</p>
+<ul>
+<li>Fecha del movimiento.</li>
+<li>Almacén de entrada.</li>
+<li>Cantidad y Envases si el artículo trabaja con captura por envases.</li>
+<li>Causa de la entrada de stock en almacén.</li>
+</ul>
+<h4><b>Trazabilidad Interna </b></h4>
+<p>La <b>Trazabilidad Interna</b> mostrará todos aquellos documentos o registros que indiquen un movimiento interno dentro de nuestro propio sistema, de un determinado Artículo.</p>
+<p>Cada uno de los registros podrá ir además desglosado por los valores de las <b>Propiedades</b> o los propios datos de <b>Captura de trazabilidad</b>, en función de si se ha realizado un filtro por esos campos o no.</p>
+<ul>
+<li><b>1º Propiedad del artículo:</b> podrá ser una propiedad cualquiera o una propiedad configurada para trazabilidad, lote o fecha de caducidad.</li>
+<li><b>2º Propiedad del artículo:</b> podrá ser una propiedad cualquiera o una propiedad configurada para trazabilidad, lote o fecha de caducidad.</li>
+<li><b>Lote (trazabilidad):</b> en el caso de configurar la familia del artículo para capturar la información de trazabilidad en documentos, se mostrará el valor del Lote indicado en el movimiento.</li>
+<li><b>Fecha (trazabilidad):</b> en el caso de configurar la familia del artículo para capturar la información de trazabilidad en documentos, se mostrará el valor de la Fecha indicada en el movimiento.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TnJhQ2dGT01IeEw5JTJCeWJUdHBvMmgzdFNEdHJzVWNLYnJ4d3hQNVJ5QmJvJTNE" id="IMG_TnJhQ2dGT01IeEw5JTJCeWJUdHBvMmgzdFNEdHJzVWNLYnJ4d3hQNVJ5QmJvJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Trazabilidad interna</p>
+<p>Mostrará información sobre los siguientes registros del programa:</p>
+<p><b>Movimientos entre almacenes </b></p>
+<p>Movimientos de stock entre Almacenes, la información mostrada será la siguiente:</p>
+<ul>
+<li>Fecha del movimiento.</li>
+<li>Almacén de entrada.</li>
+<li>Causa de la entrada de stock en almacén.</li>
+<li>Cantidad y Envases si el artículo trabaja con captura por envases.</li>
+</ul>
+<p><b>Fabricado con </b></p>
+<p>Mostrará los artículos que se hayan utilizado para fabricar el producto sobre el que estamos realizando la consulta de trazabilidad. Serán las Líneas de Componentes de las Órdenes de Producción en las que el <b>producto final es el artículo consultado</b>. La información mostrada será la siguiente:</p>
+<ul>
+<li>Componente, referencia, descripción y combinación de propiedades del componente utilizado.</li>
+<li>Número de Orden de producción.</li>
+<li>Fecha de la Orden, fecha a la que se produce la salida del almacén de las unidades de los componentes.</li>
+<li>Almacén.</li>
+<li>Cantidad y Envases si el artículo trabaja con captura por envases.</li>
+</ul>
+<p><b>Componente de </b></p>
+<p>Mostrará los registros de líneas de órdenes de producción en las que el <b>producto consultado es componente de otros productos finales</b>. Es decir, las salidas internas producidas al transformar el artículo consultado en otro artículo, mediante el uso de órdenes de producción.</p>
+<ul>
+<li>Componente, referencia y descripción del producto final producido con el artículo consultado.</li>
+<li>Número de Orden de producción.</li>
+<li>Fecha de la Orden, fecha a la que produce la salida del almacén de las unidades de los componentes.</li>
+<li>Almacén.</li>
+<li>Cantidad y Envases si el artículo trabaja con captura por envases.</li>
+</ul>
+<h4><b>Trazabilidad de Salida </b></h4>
+<p>La <b>Trazabilidad de Salida</b> mostrará todos aquellos documentos o registros que indiquen una salida de nuestros Almacenes de un determinado Artículo.</p>
+<p>Cada uno de los registros podrá ir además desglosado por los valores de las <b>Propiedades</b> o los propios datos de <b>Captura de trazabilidad</b>, en función de si se ha realizado un filtro por esos campos o no.</p>
+<ul>
+<li><b>1º Propiedad del artículo: </b> podrá ser una propiedad cualquiera o una propiedad configurada para trazabilidad, lote o fecha de caducidad.</li>
+<li><b>2º Propiedad del artículo: </b> podrá ser una propiedad cualquiera o una propiedad configurada para trazabilidad, lote o fecha de caducidad.</li>
+<li><b>Lote (trazabilidad): </b> en el caso de configurar la familia del artículo para capturar la información de trazabilidad en documentos, se mostrará el valor del Lote indicado en el movimiento.</li>
+<li><b>Fecha (trazabilidad): </b> en el caso de configurar la familia del artículo para capturar la información de trazabilidad en documentos, se mostrará el valor de la Fecha indicada en el movimiento.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VEclMkYzMjA1dXVPNWtDZk13ekF4SEFydjFmNGhIM0k0Y1lkeVg4NFc5NkJjJTNE" id="IMG_VEclMkYzMjA1dXVPNWtDZk13ekF4SEFydjFmNGhIM0k0Y1lkeVg4NFc5NkJjJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Trazabilidad de salida</p>
+<p>Mostrará información sobre los siguientes registros del programa:</p>
+<p><b>Ventas </b></p>
+<p>Las salidas de mercancía por documentos de ventas a clientes. La información mostrada será la siguiente:</p>
+<ul>
+<li>Serie y número de documento de venta.</li>
+<li>Fecha del documento y Fecha de Salida.</li>
+<li>Almacén.</li>
+<li>Cantidad y Envases si el artículo trabaja con captura por envases.</li>
+<li>Cliente: nombre, CIF, dirección, etc.</li>
+</ul>
+<p><b>Regularización de Salida </b></p>
+<p>Movimientos de Salida de stock por regularización de stock, realizados desde la propia opción de <b>Regularización de almacenes</b> o desde la gestión de <i><b>Stock</b> </i> en artículos. La información mostrada será la siguiente:</p>
+<ul>
+<li>Fecha del movimiento.</li>
+<li>Almacén de salida.</li>
+<li>Cantidad y Envases si el artículo trabaja con captura por envases.</li>
+<li>Causa de la entrada de stock en almacén.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

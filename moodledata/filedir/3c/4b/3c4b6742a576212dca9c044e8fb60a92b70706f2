@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.2 Cómo modificar la configuración de redistribución con Project 2016 </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4.2 Cómo modificar la configuración de redistribución con Project 2016</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id13">
+<div class="iDevice emphasis0">
+<div id="ta13_85" class="block iDevice_content">
+<p>Es posible modificar la redistribución para especificar de qué forma Project determina qué tareas se redistribuyen y en qué grado.</p>
+<ol>
+<li>Haga clic en la pestaña Recursos. En el grupo Redistribuir, haga clic en Opciones de redistribución.</li>
+</ol>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_SHhIRm5vNlhpRTZXWjlQekx4OXkyQ3FuYThjeTZ1cjQzYzB4QVk0V0QxQSUzRA==" id="IMG_SHhIRm5vNlhpRTZXWjlQekx4OXkyQ3FuYThjeTZ1cjQzYzB4QVk0V0QxQSUzRA==" alt="Programación de Recursos con Project 2016" title="Programación de Recursos con Project 2016" width="477" /></p>
+<ol>
+<li>En el cuadro de diálogo Redistribuir recursos, en Redistribución, seleccione cómo desea realizar la redistribución.</li>
+</ol>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NWdEajRjQjZHMEQzZm9nYkglMkZXeXRaSyUyRmpMUjNYUUMxenNvSFo5OWxCZ2MlM0Q=" id="IMG_NWdEajRjQjZHMEQzZm9nYkglMkZXeXRaSyUyRmpMUjNYUUMxenNvSFo5OWxCZ2MlM0Q=" alt="Programación de Recursos con Project 2016" title="Programación de Recursos con Project 2016" width="453" /></p>
+<ul>
+<li>Automática: Si elige la redistribución automática, desactive la casilla de verificación Borrar valores de redistribución antes de redistribuir. Cuando esta casilla está desactivada, Project redistribuye únicamente las asignaciones nuevas y no redistribuidas. Esta casilla de verificación está activada de forma predeterminada, pero cuando se produce la redistribución automáticamente, dejarla activada puede ralentizar considerablemente el trabajo de la programación, ya que se redistribuyen todas las tareas.</li>
+</ul>
+<p>En el cuadro Buscar sobreasignaciones con el criterio, haga clic en el período de tiempo o base que desee utilizar para detectar sobreasignaciones. Por días es el valor predeterminado. Este valor establece el punto en el que debe intervenir la redistribución: cuando tenga una sobreasignación justo de un minuto, un día, una semana o un mes.</p>
+<ul>
+<li>Manual: La redistribución manual (el valor predeterminado) se produce sólo al hacer clic en Redistribuir todo. La redistribución automática se produce instantáneamente al cambiar una tarea o un recurso. Utilice la redistribución automática si desea volver a programar tareas cuando se asigne más trabajo a los recursos del que se puedan ocupar.</li>
+</ul>
+<ol>
+<li>En Ámbito de la redistribución de, seleccione la redistribución del proyecto completo o solo las tareas de un intervalo de tiempo específico.</li>
+</ol>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_U1o4M0VLdExPc1ZXJTJCdjAlMkJJRU1xZmlaVzRGMlZaVTEyRSUyQkVrM0JIWG5YZyUzRA==" id="IMG_U1o4M0VLdExPc1ZXJTJCdjAlMkJJRU1xZmlaVzRGMlZaVTEyRSUyQkVrM0JIWG5YZyUzRA==" alt="Programación de Recursos con Project 2016" title="Programación de Recursos con Project 2016" height="99" width="505" /></p>
+<ol>
+<li>En el cuadro Orden de redistribución, seleccione el orden de redistribución que desee:</li>
+</ol>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZWlRYm9LeGhKWUhiT3NTUHExcmJoYU1QS09MamFqUDJiUzVBNkM5YWRFNCUzRA==" id="IMG_ZWlRYm9LeGhKWUhiT3NTUHExcmJoYU1QS09MamFqUDJiUzVBNkM5YWRFNCUzRA==" alt="Programación de Recursos con Project 2016" title="Programación de Recursos con Project 2016" width="501" /></p>
+<ul>
+<li>Seleccione Sólo identificador para: redistribuir las tareas en orden ascendente según sus números de identificación antes de tener en cuenta cualquier otro criterio.</li>
+<li>Seleccione Estándar para: examinar primero las dependencias predecesoras, el margen de demora, las fechas, las prioridades y las restricciones para detectar si se deben redistribuir las tareas y cómo llevar a cabo esta acción. (Éste es el valor predeterminado.)</li>
+<li>Seleccione Prioridad, estándar para: comprobar las prioridades de las tareas en primer lugar y solo después examinar los criterios estándar.</li>
+</ul>
+<ol>
+<li>Para evitar que se retrase la fecha de fin del proyecto, active la casilla de verificación Redistribuir sólo conforme al margen de demora disponible.</li>
+</ol>
+<p>Nota: Si activa esta casilla de verificación, puede que reciba mensajes de error que indiquen que Project no puede redistribuir toda la programación. Quizá Project no redistribuya la programación porque no exista el margen de demora necesario en una programación para volver a programar las asignaciones sin agotar el tiempo del margen de demora.</p>
+<ol>
+<li>Para que la redistribución se ajuste cuando un recurso trabaje en una tarea independiente del resto de los recursos que trabajen en la misma tarea, active la casilla de verificación La redistribución puede ajustar asignaciones individuales.</li>
+<li>Si desea redistribuir para interrumpir tareas mediante la creación de divisiones en el trabajo restante de las tareas o las asignaciones, active la casilla de verificación La redistribución puede crear divisiones en el trabajo restante. Si se asigna un recurso a varias tareas a la vez y se sobrepasa lo que puede controlar la programación del recurso, se puede dividir una tarea que aún tenga trabajo pendiente y se puede trabajar en ella cuando lo permita la programación del recurso.</li>
+<li>Para incluir los <b>recursos propuestos</b>, active la casilla de verificación Redistribuir tareas con el tipo de reserva propuesta.</li>
+<li>Para permitir que la redistribución cambie manualmente tareas programadas, active la casilla de verificación Distribuir tareas programadas manualmente.</li>
+<li>Si desea borrar los resultados de la redistribución anterior antes de volver a redistribuir, haga clic en Borrar redistribución.</li>
+</ol>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_R2p5VHpidmpHN3pJemd5ZTlJNVBOdkIxbWRPRnhmdHJhUWdzNjZnWmZVQSUzRA==" id="IMG_R2p5VHpidmpHN3pJemd5ZTlJNVBOdkIxbWRPRnhmdHJhUWdzNjZnWmZVQSUzRA==" alt="Programación de Recursos con Project 2016" title="Programación de Recursos con Project 2016" height="29" width="132" /></p>
+<ol>
+<li>Si realiza la redistribución manualmente, haga clic en Redistribuir todo y si lo hace automáticamente, haga clic en Aceptar.</li>
+</ol>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WkQ0S1ViV0RTJTJCd2N1UjIlMkI0VkRneFhrTjR0JTJGc25pM1dHaDJydGFNbSUyQnFrJTNE" id="IMG_WkQ0S1ViV0RTJTJCd2N1UjIlMkI0VkRneFhrTjR0JTJGc25pM1dHaDJydGFNbSUyQnFrJTNE" alt="Programación de Recursos con Project 2016" title="Programación de Recursos con Project 2016" height="27" width="103" /></p>
+<p>Notas:</p>
+<ul>
+<li>Para borrar la redistribución inmediatamente antes de emprender cualquier otra acción, haga clic en Deshacer Redistribuir. Si no deshace la redistribución, también puede hacer clic en Borrar redistribución para borrar los resultados de la redistribución anterior.</li>
+<li>Si redistribuye tareas de proyectos que se programan a partir de una fecha de finalización, se aplican los valores de retraso negativos desde el final de la tarea o asignación y, por tanto, se adelanta la fecha de finalización de la tarea o de la asignación de recursos.</li>
+<li>Para ver los cambios realizados en las tareas después de la redistribución, en la ficha Vista, en el grupo Vistas de tareas, haga clic en la parte inferior del botón Diagrama de Gantt y, a continuación, en Más vistas. Haga clic en Gantt de redistribución y, a continuación, en Aplicar.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_U2Y1dTRYdEkycXZWWFU4YlNsOFc2QlVkYjA3TFZmczFrM09sOEppSWI0ayUzRA==" id="IMG_U2Y1dTRYdEkycXZWWFU4YlNsOFc2QlVkYjA3TFZmczFrM09sOEppSWI0ayUzRA==" alt="Programación de Recursos con Project 2016" title="Programación de Recursos con Project 2016" width="562" /></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

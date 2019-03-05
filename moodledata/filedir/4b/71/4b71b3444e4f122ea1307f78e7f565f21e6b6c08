@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.2. Funciones operacionales </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.2. Funciones operacionales</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Podremos conocer el número de días transcurridos entre dos fechas, qué fecha corresponde al sumar un determinado número de días a otra, o un número concreto de meses, etc.</p>
+<p>Al trabajar con estas funciones hay que tomar en consideración que algunas trabajan con años de 360 días, que es la duración utilizada habitualmente en los años económicos. También tenemos a nuestra disposición otras que operan sobre días laborables. Vamos a comenzar conociendo estas funciones.</p>
+<p>Partiendo de una fecha dada, podemos saber cuál será el próximo día laborable, tras sumar un determinado número de días usando la función DIA.LAB. Los parámetros necesarios son tres, aunque el tercero es opcional y puede omitirse:</p>
+<ul>
+<li>Fecha inicial desde la que debe empezarse a contar.</li>
+<li>Número de días laborables que quiere añadir a esa fecha inicial.</li>
+<li>Referencia a un rango indicando días festivos aparte de los domingos.</li>
+</ul>
+<p>De no facilitarse el tercer parámetro, se asumirá que los únicos días no laborables que hay son los sábados y domingos.</p>
+<p>Si lo que nos interesa es saber cuántos días laborables existen entre dos fechas dadas, usaremos la función DIAS.LAB entregando también tres parámetros:</p>
+<ul>
+<li>Fecha inicial previa en el tiempo.</li>
+<li>Fecha final o posterior.</li>
+<li>Un rango de fechas que la función debe considerar como festivas para efectuar el cálculo.</li>
+</ul>
+<p>En el caso de que nos interese saber el número de días transcurridos entre dos fechas, no el número de días laborables, utilizaríamos entonces la función DIAS360. Ésta utiliza el año de 360 días, asumiendo que todos los meses tienen 30 días.</p>
+<p>También hay disponible una función para incrementar una fecha en un determinado número de meses, en lugar de días. La función es FECHA.MES y los parámetros necesarios dos:</p>
+<ul>
+<li>Fecha inicial.</li>
+<li>Número indicando los meses a incrementar o disminuir de esa fecha, obteniendo otra nueva.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aUVEWFpVNWlBc1FYQURadDVjSjJhVm1CT25YS3FYaGJHdlQ5NnFwTGNPUSUzRA==" id="IMG_aUVEWFpVNWlBc1FYQURadDVjSjJhVm1CT25YS3FYaGJHdlQ5NnFwTGNPUSUzRA==" alt="Otras funciones de interés" title="Otras funciones de interés" width="481" /></p>
+<p><b>Figura 9.8.</b> Calculamos distintas fechas tomando una como base.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

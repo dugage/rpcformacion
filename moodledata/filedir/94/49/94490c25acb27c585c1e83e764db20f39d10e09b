@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.7. Microsoft Query </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.7. Microsoft Query</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id8">
+<div class="iDevice emphasis0">
+<div id="ta8_85" class="block iDevice_content">
+<p>Excel cuenta con un asistente que, en múltiples pasos, nos permite especificara todos los parámetros. Dicho asistente, así como otras funciones, dependen de Microsoft Query.</p>
+<p>La opción a la que recurriremos, para poner en marcha el citado asistente, será Datos&gt;Obtener datos externos&gt;De otras fuentes&gt;Desde Microsoft Query.</p>
+<h5><b>2.7.1. Definición de un nuevo origen de datos</b></h5>
+<p>De principio nos encontramos con un cuadro de diálogo en el que aparece una lista de conexiones existentes. Podemos seleccionar cualquiera de ellas o, como en nuestro caso (véase figura 4.16), elegir la creación de un nuevo origen de datos. Puesto que, por defecto, está marcada la opción Usar el Asistente para consultas para crear o modificar consultas que aparece en la parte inferior de la ventana, al hacer clic en el botón <b>Aceptar</b> se pondrá en marcha dicho asistente.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJGJTJGWnUwTjM0Q0tDa240VVNySnpNeTFCc001OGJZYmJjODdCaW5xYmtqQkElM0Q=" id="IMG_JTJGJTJGWnUwTjM0Q0tDa240VVNySnpNeTFCc001OGJZYmJjODdCaW5xYmtqQkElM0Q=" alt="Bases de datos" title="Bases de datos" width="430" /></p>
+<p><b>Figura 4.16.</b> Ventana donde podemos elegir un origen de datos ya existente o crear uno nuevo.</p>
+<h5><b>2.7.2. Selección de origen de los datos</b></h5>
+<p>El siguientes paso de asistente (véase figura 4.17) nos servirá para dar un nombre a este nuevo origen de datos, indicando también el tipo de base de datos en la que se encuentra la información. En la lista desplegable encontrará una serie de controladores para trabajar con las bases de datos más habituales. Tras esto, deberá usar el botón Conectar e introducir los parámetros que sean necesarios para, finalmente, indicar en la lista que hay debajo la tabla que nos interesa de esa base de datos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dng3czZOYWFnNG1mZm96STJrUzdOT2JlOTI4cnlqcm9WdFJsRUx5YWhIWSUzRA==" id="IMG_dng3czZOYWFnNG1mZm96STJrUzdOT2JlOTI4cnlqcm9WdFJsRUx5YWhIWSUzRA==" alt="Bases de datos" title="Bases de datos" width="414" /></p>
+<p><b>Figura 4.17.</b> Seleccionamos el tipo de base de datos y la tabla que nos interese.</p>
+<h5><b>2.7.3. Tablas y columnas</b></h5>
+<p>A continuación encontraremos una ventana con dos listas: una a la izquierda, con las tablas que hay disponibles en la base de datos y las columnas de cada una de ellas, y otra en la derecha. Usando los botones que hay en la parte central, según puede verse en la figura 4.18, trasvasaríamos a la lista de la derecha las columnas que nos interesen de cada tabla.</p>
+<p>Hemos elegido las dos columnas de la única tabla y las hemos añadido a la lista Columnas en la consulta, incluyéndolas así en los campos de datos de la consulta. Usando el botón <b>Vista previa ahora</b> aparecerá en la parte inferior de la ventana una lista de datos que contiene la columna seleccionada en ese momento.</p>
+<p>Si tuviéramos disponibles múltiples tablas en la base de datos, aunque no es éste el caso, podríamos seleccionar las columnas que nos interesaran de cada una de ellas. Con posterioridad, sería necesario establecer alguna relación entre las tablas que permitiese efectuar la extracción de información de manera consistente, de tal forma que cada fila de una tabla equivaliese a una o más filas de la otra tabla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dVN6b2M0a2lGTXR0MWFucUFLYXA2Q2N2cU5VT2pxblJTVzlZeU9qTlMwMCUzRA==" id="IMG_dVN6b2M0a2lGTXR0MWFucUFLYXA2Q2N2cU5VT2pxblJTVzlZeU9qTlMwMCUzRA==" alt="Bases de datos" title="Bases de datos" width="413" /></p>
+<p><b>Figura 4.18.</b> Elegimos las columnas que formarán parte de la consulta.</p>
+<h5><b>2.7.4. Condiciones y orden</b></h5>
+<p>La ventana siguiente del asistente, similar a la de la figura 4.19, nos servirá para establecer condiciones que nos permitan filtrar los datos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJCRnBNOHhpdXRIY2lqU05TRmZJRUJNVm9xUlZPJTJCUkd1aSUyQjNuaVhFRTRqcyUzRA==" id="IMG_JTJCRnBNOHhpdXRIY2lqU05TRmZJRUJNVm9xUlZPJTJCUkd1aSUyQjNuaVhFRTRqcyUzRA==" alt="Bases de datos" title="Bases de datos" width="368" /></p>
+<p>Figura 4.19. Ventana para definir condicionales de filtración de datos.</p>
+<p>En la lista de la izquierda aparecen las columnas que habíamos seleccionado en el paso previo. Para establecer una condición comenzaremos por elegir una de dichas columnas. A continuación, seleccionaremos el tipo de condicional e introduciremos un valor de referencia. Como puede verse, en este caso solicitamos los cultivos a cuya superficie se hayan dedicado más de 50.000 hectáreas.</p>
+<p>Podemos establecer varias condicionales y combinarlos con los operadores <b>y</b> u <b>o</b> que hay debajo de cada pareja de listas. Si usamos el operador <b>y</b>, deberán cumplirse las dos condiciones a las que está asociado, mientras que con el operador <b>o</b> basta con que cualquiera de las dos se cumpla.</p>
+<p>Al hacer clic en <b>Siguiente&gt;</b> accederemos al penúltimo paso del asistente. Como se aprecia en la figura 4.20, el proceso es bastante simple. Basta con elegir la columna por la que deseemos ordenar y, a continuación, indicar si deseamos que dicho orden sea de menor a mayor o viceversa. Es posible especificar varias columnas para ordenar.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_a1F5ZTFFeDhlNWJtMldTbFpFdGsxNSUyQmRXUVZuNDF4c0lnd3p3bjVXaWhFJTNE" id="IMG_a1F5ZTFFeDhlNWJtMldTbFpFdGsxNSUyQmRXUVZuNDF4c0lnd3p3bjVXaWhFJTNE" alt="Bases de datos" title="Bases de datos" width="352" /></p>
+<p><b>Figura 4.20.</b> Es posible ordenar los datos por una o más de las columnas de datos.</p>
+<p>Finalmente, tras un nuevo clic en el botón <b>Siguiente&gt;</b>, podrá optar entre ejecutar la consulta y retornar los datos a Excel, guardar la consulta o ver los datos y modificar la consulta utilizando Microsoft Query.</p>
+<h5><b>2.7.5. Modificar la consulta</b></h5>
+<p>Aunque en cualquier momento podemos volver al asistente que acabamos de utilizar para efectuar cambios en la consulta, esta tarea también puede efectuarse directamente desde Microsoft Query. Esta aplicación es una herramienta externa capaz de comunicarse muy estrechamente con el Excel. Aunque podemos ejecutarla por separado, crear una consulta y almacenar ésta en un archivo, es mucho más cómodo utilizarla directamente desde Excel. Desde la última ventana del asistente anterior puede acceder a Microsoft Query para modificar la consulta. Si cerró el asistente, sitúese sobre cualquiera de las celdillas de datos obtenidos tras la consulta, abra el menú contextual y luego seleccione la opción Tabla&gt;Modificar consulta y, cuando aparezca la primera ventana del asistente, pulse la tecla <b>Esc</b>, respondiendo afirmativamente a la pregunta de si desea continuar la modificación en Microsoft Query.</p>
+<p>En cualquier caso se encontrará con una ventana como la de la figura 4.21. En ella podemos ver tres paneles que, de arriba a abajo muestran:</p>
+<ul>
+<li>Las tablas que intervienen en la consulta.</li>
+<li>Los criterios de filtrado.</li>
+<li>El resultado que se obtendría.</li>
+</ul>
+<p>Usando los botones que aparecen en la parte superior es posible añadir nuevas tablas a la consulta, acceder directamente a la sentencia SQL de consulta o modificar el orden en que aparecen los datos resultantes. En el panel de criterios es posible tanto la modificación de la condición existente como la adición de otras nuevas. Tan sólo hay que seleccionar la columna de una lista desplegable y, a continuación, introducir el operador y el valor de referencia.</p>
+<p>Lo más interesante es que, a medida que efectuamos cambios, podremos ir viendo de manera inmediata los datos que obtendríamos en Excel. Un simple clic en un botón cerrará Microsoft Query y devolverá esos resultados a nuestra hoja.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TzdDRGdOSHQwdVhXQWtRWmpkdTlKSEhkUkFSUkt3VGlKRHpqSzFWUHpvQSUzRA==" id="IMG_TzdDRGdOSHQwdVhXQWtRWmpkdTlKSEhkUkFSUkt3VGlKRHpqSzFWUHpvQSUzRA==" alt="Bases de datos" title="Bases de datos" width="424" /></p>
+<p><b>Figura 4.21.</b> Aspecto de la herramienta Microsoft Query modificando una consulta.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

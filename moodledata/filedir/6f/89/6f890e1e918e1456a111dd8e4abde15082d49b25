@@ -1,0 +1,3097 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="XHTML"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Topic"></unicode>
+   <unicode value="Section"></unicode>
+   <unicode value="Unit"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="tema22"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="10"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="13"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="2">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="TEMA 22. ANÁLISIS DE BALANCES"></unicode>
+     <string role="key" value="idevices"></string>
+     <list></list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="1"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="6">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="1.Concepto y Finalidad"></unicode>
+        <string role="key" value="idevices"></string>
+        <list></list>
+        <string role="key" value="_id"></string>
+        <unicode value="3"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:1.Concepto%20y%20Finalidad"></string>
+        <string role="key" value="parent"></string>
+        <reference key="2"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="5">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="1.1. Introducción"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="3">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="4">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="3"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;El &lt;b&gt;análisis de balances&lt;/b&gt; se define como aquel conjunto de técnicas que, mediante el estudio del Balance de una empresa, permite diagnosticar la situación empresarial, poniendo de relieve las relaciones existentes entre elementos técnicos, económicos y financieros de la gestión. En definitiva, se trata de una serie de técnicas empíricas y sofisticadas a la vez, cuyo significado concreto y operativo emergerá claramente del examen de los datos extraídos de las Cuenta de Resultado del ejercicio de cada ejercicio económico. Se trata pues de un instrumento técnico capaz de medir la estabilidad económica y financiera de la empresa.&lt;/p&gt;
+&lt;p&gt;En los mercados modernos, definidos como altamente competitivos e instaurados en una sociedad capitalista, el empresario debe agudizar al máximo su estrategia y extremar sus controles para alcanzar el cumplimiento de sus estrategias y objetivos de mercado.&lt;/p&gt;
+&lt;p&gt;Sin embargo, la empresa moderna se caracteriza por su complejidad creciente. Y es en este entorno económico donde el trabajo del empresario resulta cada vez más complicado y extenso, de cara al control de su empresa. Así, para que el control sea efectivo, es absolutamente necesario que la información de que disponga sea eficaz y eficiente, es decir, que sea tan breve como significativa.&lt;/p&gt;
+&lt;p&gt;En la elección de la información adecuada y su interpretación correcta radicará, la mayoría de las veces el éxito de los buenos gerentes de empresa.&lt;/p&gt;
+&lt;p&gt;El Balance, es uno de los principales elementos de información de que dispone la empresa y constituye la base más completa de información para detectar los puntos débiles de la organización económica y financiera de la empresa, proporcionando el punto de partida para ejercitar la acción correctiva imprescindible en cualquier control adecuado.&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="4"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="0"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="5"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:1.Concepto%20y%20Finalidad:1.1.%20Introducci%C3%B3n"></string>
+           <string role="key" value="parent"></string>
+           <reference key="6"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="9">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value=" 1.2. Necesidad, Tipos Y Objetivos Del Análisis De Balancesa"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="7">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="8">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="7"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;En muchos empresarios o gerentes de Pequeñas y Medianas Empresas (PYMES), existe una debilidad importante, ya que no sólo es necesario saber producir materialmente, sino que igual de importante es saber producir económicamente; es decir, no sólo es necesario tener unas óptimas instalaciones, materias primas y mano de obra cualificada y una estructura organizativa correcta, capaz de dar respuesta a las necesidades de demanda del mercado, sino que es necesario que todas las operaciones estén organizadas previamente de tal forma que, la suma total de los ingresos procedentes de la venta de productos acabados sea superior a la suma total de los costes originados para producirlos. Sólo así es posible realizar una producción económica que origine beneficios y que proporcione así una rentabilidad adecuada. Del estudio de esta rentabilidad es de lo que se ocupa el análisis económico de balances.&lt;/p&gt;
+&lt;p&gt;Así pues, no es suficiente con vender mucho, sino que hay que saber vender bajo control financiero, lo cual significa conducirse responsablemente procurando que todas las operaciones de gestión se desarrollen dando lugar a un flujo de ingresos de dinero suficiente en el tiempo, para hacer frente a las necesidades de desembolsos monetarios. Es evidente que, para conseguir esto, es necesario un atento control de todas las operaciones que crean reducciones de dinero líquido (inversiones en máquinas, materias primas y mercaderías, concesión de créditos a la clientela, pagos…), y de todas las operaciones que determinan ceración de dinero líquido (beneficios procedentes de las ventas, ingresos, préstamos obtenidos de los Bancos y Cajas de Ahorro…)&lt;/p&gt;
+&lt;p&gt;En definitiva, el Análisis de Balances, no debe considerarse un resumen de una situación pasada, sino más bien una forma de profundizar en los hechos acaecidos en la empresa, con el fin de extraer unas previsiones de este análisis con las que desarrollar las relaciones económicas y financieras, que son las bases del proceso de crecimiento.&lt;/p&gt;
+&lt;p&gt;El objeto del estudio del &lt;b&gt;análisis de balances&lt;/b&gt;, serán fundamentalmente, &lt;b&gt;dos documentos&lt;/b&gt;contables integrados en las Cuentas Anuales de cada ejercicio:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;b&gt;El Balance de Situación:&lt;/b&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Este documento describe la situación patrimonial de la empresa en un momento determinado en el tiempo, es decir, recoge el aspecto estático de la realidad empresarial. En definitiva, describe los activos, los pasivos y el consiguiente capital neto de la empresa, en la fecha de cierre de cada ejercicio económico.&lt;/p&gt;
+&lt;p&gt;En otros términos, es un inventario de los activos y pasivos de la empresa en un momento dado, en cuanto describe y registra el valor que en un día determinado (en general, al final de cada ejercicio) tienen los terrenos, las construcciones, las instalaciones, las mercancías, el dinero en bancos, las deudas con proveedores y entidades de crédito, etc.&lt;/p&gt;
+&lt;p&gt;Las cuentas que formarán este estado contable son las del grupo 1 al 5 del cuadro de cuentas.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;b&gt;La Cuenta de Resultado del ejercicio&lt;/b&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Este documento contable describe los gastos producidos y los ingresos obtenidos imputables al ejercicio, poniendo de relieve el resultado económico del mismo.&lt;/p&gt;
+&lt;p&gt;En general, mientras el Balance de Situación fotografía la empresa, en un momento determinado; la Cuenta de Resultado del ejercicio, filma los hechos sucedidos en la empresa, en un período determinado, normalmente desde 1 de enero a 31 de diciembre.&lt;/p&gt;
+&lt;p&gt;Las cuentas que formarán este estado contable son las del grupo 6 al 7 del cuadro de cuentas.&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="8"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="1"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="9"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:1.Concepto%20y%20Finalidad:%201.2.%20Necesidad%2C%20Tipos%20Y%20Objetivos%20Del%20An%C3%A1lisis%20De%20Balancesa"></string>
+           <string role="key" value="parent"></string>
+           <reference key="6"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="13">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="2.Caracteristicas técnicas"></unicode>
+        <string role="key" value="idevices"></string>
+        <list></list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:2.Caracteristicas%20t%C3%A9cnicas"></string>
+        <string role="key" value="parent"></string>
+        <reference key="2"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list>
+         <instance class="exe.engine.node.Node" reference="12">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="2.1. El Balance De Situación Como Síntesis De Los Activos Y Pasivos De La Empresa"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="10">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="11">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="10"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Cualquier empresa que se precie, mantendrá una estructura que la ponga en condiciones de adquirir, producir y vender. Tal estructura representa el &lt;b&gt;activo&lt;/b&gt; de la empresa y está constituida por:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Terrenos e inmuebles industriales en los que se realiza la actividad de la empresa, por las instalaciones generales, y máquinas, por equipos, muebles…&lt;/li&gt;
+&lt;li&gt;Por los créditos concedidos a la clientela.&lt;/li&gt;
+&lt;li&gt;Por las existencias adquiridas por la empresa, destinadas a su venta directa o a su transformación.&lt;/li&gt;
+&lt;li&gt;Por la disponibilidad en caja y bancos, precisa para hacer frente a las necesidades.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para poder disponer de tal estructura, la empresa debe tener los capitales que permitan la adquisición de los terrenos, inmuebles, instalaciones, máquinas, equipos y su tesorería debe poder financiar las necesidades de materia prima, mercancías, etc.; debe disponer del capital suficiente para financiar los productos dados a crédito a la clientela y debe disponer del capital capaz de asegurar una cierta disponibilidad en Caja y Bancos para las necesidades corrientes más inmediatas.&lt;/p&gt;
+&lt;p&gt;Tales capitales se consiguen recurriendo a los medios puestos a disposición de la egresa por los propietarios o accionistas, o recurriendo a préstamos bancarios, créditos de los proveedores…&lt;/p&gt;
+&lt;p&gt;Capital propio y acreedores representan el Pasivo de la empresa y está constituido por:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capital social.&lt;/li&gt;
+&lt;li&gt;Reservas.&lt;/li&gt;
+&lt;li&gt;Deudas Bancarias.&lt;/li&gt;
+&lt;li&gt;Proveedores.&lt;/li&gt;
+&lt;li&gt;Deudas con Hacienda y Seguridad Social.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Podemos comprobar como el Capital Social aportado por los socios, las Reservas constituidas por los beneficiarios no distribuidos a los accionistas y retenidos por la empresa, los Proveedores que han servido mercancías a crédito a la empresa, los Préstamos obtenidos por la empresa de Bancos o Cajas de Ahorro, el dinero que debemos a Hacienda y la Seguridad Social y que aún no tenemos que pagarles y, en caso de beneficios, el Resultado positivo obtenido en el ejercicio anterior y aún no distribuido; todo lo anterior se ha empleado en adquirir Terrenos, Construcciones, Instalaciones, Equipos, Mercancías para su venta, productos entregados a crédito a los Clientes y en mantener en Caja y en Bancos dinero líquido para hacer frente a los gastos corrientes.&lt;/p&gt;
+&lt;p&gt;Las consideraciones descritas permiten ver la situación patrimonial de un modo concreto, a qué nos estamos refiriendo cuando hablamos del Activo y del Pasivo. Se establece que:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;ACTIVO &lt;/b&gt;= Inversiones de capital (formas en que son invertidos los capitales a disposición de la empresa).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;PASIVO&lt;/b&gt; = Fuentes de financiación del capital (fuentes que han financiado las inversiones hechas por la empresa).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;El Beneficio&lt;/b&gt; va en el Pasivo porque es una fuente de financiación. Para financiar las inversiones que figuran en el Activo, la empresa puede recurrir a los beneficios obtenidos.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;La Pérdida&lt;/b&gt; eventual va en el Activo porque es una forma (anormal) de inversión (o en el Pasivo con signo negativo). En el caso de que una empresa opere en pérdida, en efecto, la empresa recurre a las varias fuentes de financiación, no sólo para financiar las inversiones en terrenos, construcciones, etc., sino también para financiar (cubrir) las pérdidas.&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="11"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="2"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="12"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:2.Caracteristicas%20t%C3%A9cnicas:2.1.%20El%20Balance%20De%20Situaci%C3%B3n%20Como%20S%C3%ADntesis%20De%20Los%20Activos%20Y%20Pasivos%20De%20La%20Empresa"></string>
+           <string role="key" value="parent"></string>
+           <reference key="13"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="16">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="2.2. Partidas Que Componen El Activo Y Su Valoración"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="14">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="15">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="14"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;ol&gt;
+&lt;li&gt;&lt;b&gt;Inmovilizado:&lt;/b&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Bajo el concepto de Inmovilizado se incluye el conjunto de bienes y derechos adquiridos por la empresa, destinados a permanecer en ella bajo la misma forma de una manera duradera.&lt;/p&gt;
+&lt;p&gt;Por ejemplo, una empresa dedicada a la impresión de libros: una máquina de impresión no agota su utilidad en la confección de un libro, por el contrario, distribuye su utilidad en la impresión de miles de libros, y tal utilidad se manifiesta en el curso de varios años sucesivos, y lo mismo puede decirse de las demás máquinas, instalaciones... A la valoración en euros del consumo de dicha utilidad a lo largo de cada ejercicio económico, es a lo que denominamos Amortización.&lt;/p&gt;
+&lt;p&gt;Así, si una máquina de impresión es utilizada durante un número determinado de años, y si cada año contribuye a producir libros impresos, el precio de adquisición de la máquina deberá dividirse en tantos años como esté prevista la utilización de la máquina, para obtener así la cuota anual de amortización.&lt;/p&gt;
+&lt;p&gt;En definitiva, la amortización debe ser considerada como una coste de producción, al igual que las nóminas de los trabajadores o cualquier otro gasto, ya que la pérdida de valor o desgate experimentado por los bienes de inmovilizado se debe normalmente, en su mayor parte, al uso productivo.&lt;/p&gt;
+&lt;p&gt;Podemos llegar a hacer tres grupos homogéneos pertenecientes al inmovilizado:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inmovilizado Intangible (cuentas del subgrupo 20 de P.G.C.)&lt;/li&gt;
+&lt;li&gt;Inmovilizado Material (cuentas del subgrupo 21 del P.G.C.)&lt;/li&gt;
+&lt;li&gt;Inmovilizado Financiero (cuentas de los subgrupos 24, 25 y 26 del P.G.C.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Valoración&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;El inmovilizado Material e Intangible se valorará a tenor de lo establecido por el Plan General de Contabilidad, por su precio de adquisición o coste de producción, del cual se deducirán las amortizaciones practicadas, así como cualquier depreciación que se considere reversible (deterioro) y las depreciaciones irreversibles (pérdidas de inmovilizado), y ambas a efectos de atribuir a cada elemento componente del mismo el inferior valor de mercado que le corresponda al cierre de cada ejercicio.&lt;/p&gt;
+&lt;p&gt;El inmovilizado financiero se valorará por su precio de adquisición a la suscripción o compra, incluyendo el precio de adquisición el total satisfecho o que deba satisfacerse, incluidos los gastos inherentes a la operación. De dicho precio de adquisición se deducirán también las deterioros correspondientes.&lt;/p&gt;
+&lt;p&gt;En cuanto al Activo Ficticio, también se valorará por el precio de adquisición o coste de producción de los bienes o servicios que los constituyan.&lt;/p&gt;
+&lt;p&gt;Por otro lado, uno de los factores a tener en cuenta a la hora de valorar el inmovilizado es el de la inflación. El Plan General de Contabilidad obliga a valorarlo por su precio de adquisición o coste de producción, que descontando el valor residual, será la base para practicar las amortizaciones. Pero al existir un proceso inflacionista, el valor de los bienes, medido en unidades monetarias, irá aumentando.&lt;/p&gt;
+&lt;p&gt;Por todo ello, a la hora de examinar un Balance habrá que poner especial atención, en averiguar con que criterios se ha llegado a determinar el valor neto del inmovilizado, es decir, el grado de actualización de los valores iniciales y el sistema de cálculo de las amortizaciones, pues puede suceder que los valores reflejados en el Balance sean totalmente irreales.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;b&gt;Realizable:&lt;/b&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;En contraposición al inmovilizado, podemos entender el realizable como el conjunto de valores en los que la empresa ha invertido fondos por exigencias de la actividad que ha de desarrollar, pero que carecen del carácter de permanencia que poseen las inversiones de inmovilizado.&lt;/p&gt;
+&lt;p&gt;Son valores que generalmente integran el denominado proceso de maduración de la empresa y que están sujetos a un proceso continuo de renovación, ligado al ciclo productivo y comercial de la misma.&lt;/p&gt;
+&lt;p&gt;En el desarrollo de la actividad productiva, la empresa se ve forzada a realizar una serie de desembolsos correspondientes a la adquisición de materias primas y al pago de otros gastos, tales como nóminas, energía, gastos de conservación etc. Desde que la empresa inmoviliza estos fondos, hasta que recupera mediante el cobro a los clientes de los productos vendidos, transcurre un cierto tiempo que se denomina Período de Maduración.&lt;/p&gt;
+&lt;p&gt;Podemos distinguir dos grandes grupos de partidas importantes dentro de lo que hemos llamado realizable:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b. 1) Realizable no de explotación:&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Clientes y Efectos a cobrar&lt;/li&gt;
+&lt;li&gt;Anticipos a proveedores&lt;/li&gt;
+&lt;li&gt;Deudores varios (créditos ostentados por la empresa frente a terceros, no derivados de relaciones con clientes o proveedores con carácter de tales)&lt;/li&gt;
+&lt;li&gt;Otros realizables (tales como fianzas constituidas o inversiones financieras temporales).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;b. 2) Realizable de explotación ó Existencias (grupo 3 del P. G. C)&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Está compuesta por los &lt;i&gt;stocks&lt;/i&gt; que la empresa necesita mantener en almacén para desarrollar su actividad productiva y comercial. En él se distinguen, como mínimo, un almacén de materias primas, &lt;i&gt;stocks&lt;/i&gt; de fabricación en curso y un almacén de productos terminados o de mercaderías.&lt;/p&gt;
+&lt;p&gt;Llegados a este punto debemos hacer una importante puntualización:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No todas las materias primas son inmovilizaciones temporales, ya que una parte de las mismas constituye la provisión mínima por debajo de la cual es imprudente y arriesgado el encontrarse, si no se quiere paralizar el proceso productivo, esto es la parte de materias primas que deben estar presentes en el almacén, que constituye una auténtica inmovilización permanente.&lt;/li&gt;
+&lt;li&gt;En relación a los &lt;i&gt;stocks&lt;/i&gt; de fabricación en curso, también debemos tener en cuenta que, de no ser por circunstancias excepcionales que comportan acumulaciones anormales a pie de máquina o entre secciones, se puede considerar que la existencia de productos en proceso de fabricación es constante y constituyen una auténtica inmovilización permanente, ya que el proceso de transformación no se detiene.&lt;/li&gt;
+&lt;li&gt;En relación a las existencias de productos terminados o mercaderías, la experiencia demuestra que ningún almacén de materias manufacturadas queda completamente vacío, dado que haría imposible una salida y rápido cumplimiento de los pedidos de la clientela.&lt;/li&gt;
+&lt;li&gt;Deriva de este hecho que casi todas las empresas consideren necesario disponer en cualquier momento de una reserva mínima de productos terminados o mercancías para poder hacer frente a pedidos imprevistos. El valor de esta reserva es una inmovilización permanente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Valoración del Realizable no de explotación:&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Clientes&lt;/b&gt;: los saldos que se incluyan en la cuenta de Clientes han de ser totalmente cobrables, ya que si existen saldos que no tengan este carácter, se estará sobrevalorando indebidamente el activo de la empresa, dando lugar a la existencia de una Contrareserva.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si existen saldos de Clientes cuyo cobro sea dudoso, deberán reflejarse en un epígrafe separado del resto de los clientes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Deudores varios y otros activos realizables&lt;/b&gt;: ambos epígrafes deberán ser objeto de un análisis minucioso a la hora de estudiar un Balances, ya que pueden dar lugar a un falseamiento del valor real del Activo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Valoración del Realizable condicionado, de explotación o Existencias&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Al existir productos iguales valorados a precios distintos será necesario determinar en qué forma deben valorarse las salidas de los productos que se vendan, lo cual tendrá incidencia directa en el resultado del ejercicio.&lt;/p&gt;
+&lt;p&gt;Se pueden aplicar los siguientes métodos: FIFO, coste medio (vistos en el Módulo de Contabilidad Básica) y el NIFO (la valoración de las unidades salidas de almacén se hace en función de los costes de las próximas unidades que entrarán el reponer las existencias).&lt;/p&gt;
+&lt;p&gt;El método que se recomienda es el Coste medio o Precio Medio Ponderado. Si se sigue el método FIFO, los resultados se fijarán tomando como base unos costes relativamente anticuados; con el sistema del coste medio, los resultados se basarán en un coste intermedio entre el antiguo y el actual; si se sigue el NIFO, los resultados se basarán en los costes de reposición, con lo que serán los más reales y actualizados.&lt;/p&gt;
+&lt;p&gt;La inexactitud en la valoración de los &lt;i&gt;stocks&lt;/i&gt; puede deberse a una sobrevaloración o infravaloración de los bienes inventariados, o al hecho de no incluir en el inventario bienes que formen parte del activo, o a introducir en el mismo bienes que no deberían tenerse en cuenta, aunque el criterio de valoración hubiera sido correcto. La valoración incorrecta de estas partidas da lugar a la existencia de reservas (infravaloración) o contrareservas (sobrevaloración) ocultas, que deben tenerse en cuenta a la hora de estudiar el balance.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;b&gt;Disponible:&lt;/b&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Toda empresa debe contar con una cantidad de fondos líquidos para hacer frente a las necesidades financieras de tipo corriente, que se originan como consecuencia de su actividad.&lt;/p&gt;
+&lt;p&gt;El Disponible está representado por dos partidas: La Caja y los Bancos.&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="15"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="3"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="16"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:2.Caracteristicas%20t%C3%A9cnicas:2.2.%20Partidas%20Que%20Componen%20El%20Activo%20Y%20Su%20Valoraci%C3%B3n"></string>
+           <string role="key" value="parent"></string>
+           <reference key="13"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="19">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="2.3. Partidas Que Componen El Pasivo Y Su Valoración"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="17">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="18">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="17"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;div class=&quot;mCSB_container&quot;&gt;
+&lt;div class=&quot;ee_content_htm&quot; id=&quot;ee_content_htm&quot;&gt;
+&lt;div id=&quot;container_htm&quot;&gt;
+&lt;div id=&quot;pagina_1&quot; class=&quot;dentro_contenidos&quot;&gt;&lt;ol&gt;
+&lt;li&gt;&lt;b&gt;No exigible o Neto:&lt;/b&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Está compuesto por aquellos recursos que son propios de la empresa y de los que nadie excepto ella tiene derecho a disponer.&lt;/p&gt;
+&lt;p&gt;Como no exigible hay que considerar tres partidas fundamentales: el Capital, las Reservas y los Resultados de cada ejercicio aún sin distribuir.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El &lt;b&gt;Capital&lt;/b&gt; de una Sociedad está constituido por las aportaciones de sus socios. Este Capital se divide en un número determinado de acciones, cada una de las cuales representa una parte alícuota de aquel.&lt;/li&gt;
+&lt;li&gt;Las &lt;b&gt;Reservas&lt;/b&gt; son aquellos beneficios obtenidos por la empresa y que no han sido repartidos entre accionistas en forma de dividendos, permaneciendo por tanto invertidos en ella.&lt;/li&gt;
+&lt;li&gt;Los &lt;b&gt;Resultados&lt;/b&gt;: la empresa se obtiene en cada ejercicio unos ingresos y se le producen unos gatos para obtener dichos ingresos. La diferencia entre unos y otros puede dar lugar a un beneficio o una pérdida.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si los resultados son positivos, esto es, si se han producido beneficios, su importe aparecerá en el Pasivo del Balance, con signo positivo, lo que supondrá un aumento del No exigible o Neto de la empresa.&lt;/p&gt;
+&lt;p&gt;Por el contrario, si son negativos, es decir, si se ha producido pérdidas en el último ejercicio cerrado, su saldo aparecerá también en el Pasivo, pero con signo negativo, y supondrá una disminución del Neto de la Empresa.&lt;/p&gt;
+&lt;p&gt;Las cuentas de Resultados de cada ejercicio permanecerán en Balance hasta que se decida su destino. Este podrá ser, en caso de beneficio, su distribución entre los socios en forma de dividendos, o su permanencia en la empresa en forma de Reservas. Si por el contrario se trata de pérdidas, su permanencia en el Balance durará hasta que se compensen reservas ya constituidas o beneficios futuros.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Valoración&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El Capital Social: el importe de la cuenta de Capital debe coincidir con aquel que figure en la escritura pública de la sociedad.&lt;/li&gt;
+&lt;li&gt;Las Reservas: el valor debe considerarse como un beneficio real que ha sido reservado por distintos motivos en la empresa. Puede estar invertido en bienes de Activo. Su valor vendrá determinado por la suma de dotaciones hechas hasta el momento en que se considere, menos las utilizaciones correspondientes a dichas dotaciones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;b&gt;Exigible:&lt;/b&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Este bloque está constituido por aquellos valores que son deudas para la empresa, es decir, constituyen los medios financieros de procedencia ajena a la empresa. Se puede dividir en dos grandes grupos:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b.1) Exigible a largo plazo&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Se incluyen aquellas deudas contraídas por la empresa, cuyo vencimiento tiene lugar en un plazo superior a un año. Las cuentas que aparecerán en este bloque serán representativas de los fondos líquidos recibidos por préstamo a la empresa.&lt;/p&gt;
+&lt;p&gt;Las partidas que se agrupan en este epígrafe son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Los empréstitos (emisión de obligaciones o deuda por la empresa, que son suscritas por los particulares u otras empresas entregando una determinada cantidad de dinero a cambio, dinero que se compromete a reembolsar la empresa que emite las obligaciones, además de unos intereses pactados, en unos determinados plazos).&lt;/li&gt;
+&lt;li&gt;Los créditos concedidos a la empresa a más de un año por Bancos y Cajas de Ahorros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;b.2) Pasivo corriente&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Aquí se agrupan aquellas deudas en las que ha incurrido la empresa, y a las que tendrá que hacer frente dentro del período de un año. Estas deudas son fundamentalmente de dos tipos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deudas contraídas por la empresa como consecuencia de la recepción de dinero en concepto de préstamo: son deudas a corto plazo que la empresa solicita a entidades financieras: Créditos a corto plazo obtenidos de entidades financieras, descubiertos en cuenta corriente y el descuento comercial de efectos.&lt;/li&gt;
+&lt;li&gt;Deudas que la empresa contrae con Proveedores, Acreedores Diversos, Administraciones Públicas y Anticipos de Clientes, como consecuencia de recibir materiales y utilizar servicios a crédito, o producirse el devengo de algún impuesto o prestación, cuyo momento de pago aún no ha llegado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mCSB_scrollTools&quot;&gt;&lt;a class=&quot;mCSB_buttonUp&quot;&gt;&lt;/a&gt;
+&lt;div class=&quot;mCSB_draggerContainer&quot;&gt;
+&lt;div class=&quot;mCSB_dragger&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="18"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="1"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="4"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="1"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="19"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:2.Caracteristicas%20t%C3%A9cnicas:2.3.%20Partidas%20Que%20Componen%20El%20Pasivo%20Y%20Su%20Valoraci%C3%B3n"></string>
+           <string role="key" value="parent"></string>
+           <reference key="13"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="22">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="2.4. Otra Opción De Presentación Del Balance"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="20">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="21">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="20"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Hasta ahora hemos agrupado las cuentas de Activo de mayor a menor liquidez, y las cuentas de Pasivo de mayor a menos exigibilidad, obteniendo la siguiente estructura del Balance:&lt;/p&gt;
+&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;37&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;ACTIVO&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td height=&quot;37&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;PASIVO&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td valign=&quot;middle&quot;&gt;
+&lt;p&gt;DISPONIBLE&lt;/p&gt;
+&lt;p&gt;REALIZABLE CIERTO&lt;/p&gt;
+&lt;p&gt;REALIZABLE CONDICIONADO&lt;/p&gt;
+&lt;p&gt;INMOVILIZADO&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;middle&quot;&gt;
+&lt;p&gt;EXIGIBLE A CORTO PLAZO&lt;/p&gt;
+&lt;p&gt;EXIGLIBLE A LARGO PLAZO&lt;/p&gt;
+&lt;p&gt;NO EXIGIBLE O NETO&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Otra presentación sintética del Balance resulta de contraponer liquidez y exigibilidad, útil desde el punto de vista del Análisis de Balances:&lt;/p&gt;
+&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;-1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;40&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;ACTIVO&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td height=&quot;40&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;&lt;b&gt;PASIVO&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;79&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CORRIENTE&lt;/p&gt;
+&lt;p&gt;NO CORRIENTE&lt;/p&gt;
+&lt;/td&gt;
+&lt;td height=&quot;79&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;CORRIENTE&lt;/p&gt;
+&lt;p&gt;NO CORRIENTE&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;b&gt;1.&lt;/b&gt; - El Activo corriente: estaría compuesto por el Disponible, el Realizable no de Explotación y el Realizable de Exploración o Existencias.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;2.&lt;/b&gt; - El Activo no corriente: estaría compuesto por el Inmovilizado.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;3.&lt;/b&gt; - El Pasivo no corriente: compuestos por el Capital, las Reservas, los Resultados pendientes de distribución y el exigible a largo plazo.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;4.&lt;/b&gt; - El Pasivo corriente: estaría compuesto por el exigible a corto plazo.&lt;/p&gt;
+&lt;p&gt;Así pues las inversiones en Activo No corriente son las típicas inversiones a largo plazo, ya que se van recuperando lenta y gradualmente, por lo general, después de varios años, por medio del proceso de amortización.&lt;/p&gt;
+&lt;p&gt;Las inversiones en Activo Corrientes, son inversiones a corto plazo.&lt;/p&gt;
+&lt;p&gt;La prudencia junto con la lógica, aconsejan que las inversiones a largo plazo sean financiadas con pasivo no corriente, cuyo grado de exigibilidad es también débil. Nunca las deudas a corto plazo deben financiar las inmovilizaciones, ya que no existiría correspondencia entre la naturaleza de la inversión (a largo plazo), y del crédito (a corto plazo), y la empresa tendría que estar renovando constantemente sus deudas a corto plazo, lo que constituiría una amenaza permanente de suspensión de pagos.&lt;/p&gt;
+&lt;p&gt;Sin embargo, en el activo corriente cabe distinguir dos partes: una que se caracteriza por su estabilidad en el tiempo y otra que varía por cortos períodos de tiempo. Todas las partidas del Activo Corriente están vinculadas al ciclo a corto plazo o ciclo de explotación, también llamado ciclo dinero-mercancías-dinero, y, por lo tanto, se convierten en dinero al final de cada ciclo, pero de estas disponibilidades, parte tienen que volver a ser reinvertidas en el siguiente ciclo de explotación, si no se quiere paralizar la actividad de la empresa, con los consiguientes costes.&lt;/p&gt;
+&lt;p&gt;Así, la parte estable del Activo Corriente, constituye una inmovilización similar al Activo No corriente desde el punto de vista financiero, y es por lo que debe financiarse con pasivo no corriente. En contraposición, la parte fluctuante del Activo Corriente, debe financiarse con deudas a corto plazo.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;D&lt;/b&gt; &lt;b&gt;1&lt;/b&gt; &lt;b&gt;.- El Activo: Evolución de su valor contable con el valor de la empresa.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Analizamos las siguientes situaciones:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a) Crecimiento de la empresa con resultados positivos:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;El valor contable del Activo Corriente tiende a crecer al igual que las ventas.&lt;/p&gt;
+&lt;p&gt;El Activo no corriente material suele crecer a saltos por razones tecnológicas.&lt;/p&gt;
+&lt;p&gt;El Activo No corriente Financiero e Intangible, normalmente, pierden peso relativo, al crecer a un rito inferior al de los otros activos.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b) Estancamiento de la empresa con beneficios:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;El Activo Corriente se estabilizará, y las demás masas patrimoniales irán reduciendo como consecuencia del proceso sistemático de amortización.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;c) Estancamiento de la empresa sin beneficio:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;El Activo Corriente se estabilizará, y la disminución del valor contable de los inmovilizados se ralentizará, pues tenderá a amortizar menos.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;d) Recesión de la empresa:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;El Activo Corriente decrecerá al igual que las demás rúbricas del inmovilizado.&lt;/p&gt;
+&lt;p&gt;En cualquiera de las cuatro situaciones, el Activo Corriente se adaptará al entorno de manera más flexible que los inmovilizados.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;D&lt;/b&gt; &lt;b&gt;2&lt;/b&gt; &lt;b&gt;.- El Pasivo: Evolución de su valor contable con la evolución de la empresa.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Pueden darse las siguientes situaciones:&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a) Crecimiento de la empresa con resultados positivos:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Todas las fuentes tienden a crecer (Proveedores y Acreedores) y las Reservas se incrementarán al existir beneficio.&lt;/p&gt;
+&lt;p&gt;El resto de los pasivos tenderán al aumento. El capital social se elevará, por inyección de nuevos recursos o por conversión de las reservas.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b) Estancamiento de la empresa con resultados positivos:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Casi todo tiene a la estabilización, aunque puede producirse un aumento de las reservas de la empresa.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;c) Estancamiento de la empresa sin beneficio:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Los Fondos propios o Neto decrecerán dependiendo de la intensidad de las pérdidas; La empresa puede pretender un aumento respecto de las cuentas de Proveedores y Acreedores.&lt;/p&gt;
+&lt;p&gt;El resto de los pasivos, puede que presenten problemas de vencimiento, lo que complicará su renovación.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;d) Recesión de la empresa:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Dependerá de la naturaleza y cuantía de las pérdidas.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;D&lt;/b&gt; &lt;b&gt;3&lt;/b&gt; &lt;b&gt;.- Análisis del equilibrio contable&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;a) Situación de máxima estabilidad:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;NO EXIGIBLE O NETO = ACTIVO CORRIENTE + ACTIVO NO CORRIENTE&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;b) Situación normal:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;ACTIVO CORRIENTE &amp;gt; PASIVO CORRIENTE&lt;/p&gt;
+&lt;p&gt;ACTIVO CORRIENTE + ACTIVO NO CORRIENTE &amp;gt; PASIVO CORRIENTE + EXIGIBLE A LARGO PLAZO&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;c) Situación de suspensión de pagos:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;ACTIVO CORRIENTE &amp;lt; PASIVO CORRIENTE&lt;/p&gt;
+&lt;p&gt;ACTIVO CORRIENTE + ACTIVO NO CORRIENTE &amp;gt; PASIVO CORRIENTE +EXIGIBLE A LARGO PLAZO&lt;/p&gt;
+&lt;p&gt;NO EXIGIBLE O NETO &amp;gt; 0&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;d) Situación de quiebra:&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;ACTIVO CORRIENTE + ACTIVO NO CORRIENTE &amp;lt; PASIVO CORRIENTE + EXIGIBLE A LARGO PLAZO&lt;/p&gt;
+&lt;p&gt;NO EXIGIBLE O NETO &amp;lt; 0&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="21"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="5"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="22"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="8"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:2.Caracteristicas%20t%C3%A9cnicas:2.4.%20Otra%20Opci%C3%B3n%20De%20Presentaci%C3%B3n%20Del%20Balance"></string>
+           <string role="key" value="parent"></string>
+           <reference key="13"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+         <instance class="exe.engine.node.Node" reference="25">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="2.5. Valoración Global De La Empresa"></unicode>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="23">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="Free Text"></unicode>
+              <string role="key" value="_author"></string>
+              <unicode value="University of Auckland"></unicode>
+              <string role="key" value="_purpose"></string>
+              <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+              <string role="key" value="_tip"></string>
+              <string value=""></string>
+              <string role="key" value="childs"></string>
+              <list></list>
+              <string role="key" value="content"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="24">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="85"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="23"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Free Text"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;El valor de una empresa, está en función, tanto del valor de los bienes, derechos y obligaciones de que es titular, como de los rendimientos susceptibles de generar. Por lo tanto, éste depende de dos valores:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Del &lt;strong&gt;valor sustancial&lt;/strong&gt;: valor de los bienes y derechos que integran el Activo de una empresa, menos el de las obligaciones que haya contraído.&lt;/li&gt;
+&lt;li&gt;Del &lt;strong&gt;valor intangible&lt;/strong&gt;, determinado por la capacidad de la empresa para generar beneficios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En cualquier caso, cuando los valores reales que integran los balances de dos empresas, con capacidad diferente para generar beneficios, sean similares, no puede asignarse igual valor global a ambas empresas.&lt;/p&gt;
+&lt;p&gt;Por ello, el valor que hemos denominado Intangible, debe corregir el valor sustancial de la empresa, aumentando o disminuyendo éste, según que la capacidad de obtención de beneficios sea superior o inferior a lo normal.&lt;/p&gt;
+&lt;p&gt;Solamente en el caso de dicha capacidad coincida con la que se considera normal, el valor sustancial coincidirán con el valor global de la empresa. De todas formas, en ningún caso podrá establecerse una valoración absolutamente objetiva.&lt;/p&gt;
+&lt;h5&gt;&lt;strong&gt;2.5.1. Valor Sustancial de la empresa&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;La determinación de este valor presupone la confección de un inventario completo y valorado de los bienes, derechos y obligaciones de la empresa. Se puede determinar de dos formas:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Valor teórico, según Balance:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;El valor sustancial de la empresa vendrá dado por la diferencia entre el valor del conjunto de los bienes y derechos de que sea titular y el de sus obligaciones, y el Balance es el que recoge todos estos elementos.&lt;/p&gt;
+&lt;p&gt;El valor teórico vendrá representado por el valor neto de la empresa, es decir, por su pasivo no exigible:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Activo = Pasivo= Pasivo no exigible + Pasivo exigible&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Por lo que:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pasivo no exigible = Activo &lt;/strong&gt;&lt;strong&gt;–&lt;/strong&gt; &lt;strong&gt;Pasivo exigible&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;El valor teórico, por lo tanto, puede determinarse por dos métodos de iguales resultados y diferentes procedimientos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Método directo&lt;/strong&gt;: Valor teórico = Pasivo no exigible&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Método indirecto&lt;/strong&gt;: Valor teórico = Activo Real – Pasivo exigible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Este valor teórico tiene el inconveniente de ser un valor puramente contable, ya que solo tiene en cuenta el valor del precio de adquisición. La existencia de reservas ocultas, así como la variación del poder adquisitivo de la moneda (inflación), influyen negativamente en la coincidencia de este valor teórico con el valor real de la empresa.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Valor intrínseco o material:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Es el valor actual, real y material de la empresa, que deberá incluir todas las plusvalías y minusvalías (valores actualizados y no precio de adquisición) no reflejadas en Balance (precio de adquisición), pero no incluye el “good vill”.&lt;/p&gt;
+&lt;p&gt;Tiene la ventaja de que supera las limitaciones de las valoraciones contables, aún cuando no está exento de dificultad el determinar los valores reales.&lt;/p&gt;
+&lt;p&gt;Se calculará de la siguiente manera:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Valor intrínseco = Valor teórico + Reservas ocultas o plusvalías &lt;/strong&gt;&lt;strong&gt;–&lt;/strong&gt; &lt;strong&gt;Contrareservas o minusvalías&lt;/strong&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;strong&gt;2.5.2. Valor Intangible de la empresa (“good will”)&lt;/strong&gt;&lt;/h5&gt;
+&lt;p&gt;Este valor corrige el valor sustancial de la empresa, incrementando o disminuyendo este último, a efectos de determinar el valor global de la misma, de acuerdo con su aptitud para obtener beneficios superiores a los considerados normales del sector al que pertenece la empresa.&lt;/p&gt;
+&lt;p&gt;Su determinación entraña un juicio subjetivo del valorador.&lt;/p&gt;
+&lt;p&gt;Por lo que respecta al beneficio, será necesario prever las posibilidades de obtenerlo en el futuro y cuantía del mismo, esto último en valores actualizados, apoyándonos en la tendencia del beneficio en años anteriores.&lt;/p&gt;
+&lt;p&gt;Supongamos que la serie de beneficios estimados para los próximos años son B1, B2, B3 y B4.&lt;/p&gt;
+&lt;p&gt;El Valor Actualizado (V.A.) de dichos beneficios futuros sería:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_bDNEV0VGVmJTOGE3Uk8zclNMQlgyYWpZUVlkcWt5SGcxdDRaZmc0dG5FYyUzRA==&quot; alt=&quot;Análisis de balances&quot; title=&quot;Análisis de balances&quot; height=&quot;47&quot; width=&quot;265&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bDNEV0VGVmJTOGE3Uk8zclNMQlgyYWpZUVlkcWt5SGcxdDRaZmc0dG5FYyUzRA==&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;El valor inicial o de partida de “i “, será el de los tipos de remuneración a largo plazo de los activos financieros remunerados al interés no corriente que se ofrecen en el mercado (por ejemplo, Bonos del Tesoro). Este valor inicial de “i” deberá aumentarse en función del mayor riesgo que ofrezcan las operaciones futuras (mercado, entorno, problemática social…)&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="24"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+              <int value="7"></int>
+              <string role="key" value="icon"></string>
+              <string value=""></string>
+              <string role="key" value="id"></string>
+              <unicode value="6"></unicode>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <string value=""></string>
+              <string role="key" value="parent"></string>
+              <none></none>
+              <string role="key" value="parentNode"></string>
+              <reference key="25"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="type"></string>
+              <none></none>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="9"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:2.Caracteristicas%20t%C3%A9cnicas:2.5.%20Valoraci%C3%B3n%20Global%20De%20La%20Empresa"></string>
+           <string role="key" value="parent"></string>
+           <reference key="13"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="28">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="3. Supuesto "></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="26">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="27">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="26"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; style=&quot;width: 352px;&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Capital social&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;16 .000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Clientes&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;2000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Amortización acumulada&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;- 3000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Bancos&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;1500&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Reserva legal&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;4.000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Deterioro de créditos por operaciones comerciales&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;-3 .000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Mercaderías&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;1000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Mobiliario&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;5000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Aplicaciones informáticas&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;3000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Deudas a largo plazo con proveedores&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;3 .000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Resultado del ejercicio&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;2 .000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Maquinaria&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;5 .000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Terrenos&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;12000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Construcciones&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;7000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;Proveedores&lt;/p&gt;
+&lt;/td&gt;
+&lt;td width=&quot;48&quot; height=&quot;33&quot; valign=&quot;middle&quot;&gt;
+&lt;p&gt;5. 500&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 b=&quot;&quot;&gt;Se pide calcular:&lt;/h1&gt;
+&lt;h1 b=&quot;&quot;&gt;&lt;span style=&quot;color: #993300; font-family: 'andale mono', times; font-size: small;&quot;&gt;1.- El activo corriente.&lt;/span&gt;&lt;/h1&gt;
+&lt;h1 b=&quot;&quot;&gt;&lt;span style=&quot;color: #993300; font-size: small; font-weight: normal; line-height: 1.5; font-family: 'andale mono', times;&quot;&gt;2.- El activo no corriente.&lt;/span&gt;&lt;/h1&gt;
+&lt;h1 b=&quot;&quot;&gt;&lt;span style=&quot;color: #993300; font-family: 'andale mono', times; font-size: small;&quot;&gt;3.- Pasivo corriente.&lt;/span&gt;&lt;/h1&gt;
+&lt;h1 b=&quot;&quot;&gt;&lt;span style=&quot;color: #993300; font-size: small; font-weight: normal; line-height: 1.5; font-family: 'andale mono', times;&quot;&gt;4.- Pasivo no corriente.&lt;/span&gt;&lt;/h1&gt;
+&lt;h1 b=&quot;&quot;&gt;&lt;span style=&quot;font-size: small; line-height: 1.5; color: #993300; font-family: 'andale mono', times;&quot;&gt;5.- Neto o no exigible.&lt;/span&gt;&lt;/h1&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="27"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="28"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="10"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:3.%20Supuesto%20"></string>
+        <string role="key" value="parent"></string>
+        <reference key="2"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="31">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Recuerda"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="29">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="30">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="29"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;ul&gt;
+&lt;li&gt;El &lt;b&gt;análisis de balances&lt;/b&gt; se define como aquel conjunto de técnicas que, mediante el estudio del Balance de una empresa, permite diagnosticar la situación empresarial, poniendo de relieve las relaciones existentes entre elementos técnicos, económicos y financieros de la gestión.&lt;/li&gt;
+&lt;li&gt;El &lt;b&gt;Balance&lt;/b&gt; es uno de los principales elementos de información de que dispone la empresa y constituye la base más completa de información para detectar los puntos débiles de la organización económica y financiera de la empresa, proporcionando el punto de partida para ejercitar la acción correctiva imprescindible en cualquier control adecuado.&lt;/li&gt;
+&lt;li&gt;El objeto del estudio del análisis de balances, serán fundamentalmente,&lt;b&gt;dos documentos&lt;/b&gt; contables integrados en las Cuentas Anuales de cada ejercicio:
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;El balance de situación&lt;/b&gt;: describe la situación patrimonial de la empresa en un momento determinado en el tiempo, es decir, recoge el aspecto estático de la realidad empresarial.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;La cuenta de resultado del ejercicio&lt;/b&gt;: describe los gastos producidos y los ingresos obtenidos imputables al ejercicio, poniendo de relieve el resultado económico del mismo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Las partidas que componen el &lt;b&gt;activo&lt;/b&gt; y su valoración son:
+&lt;ul&gt;
+&lt;li&gt;Inmovilizado: se incluye el conjunto de bienes y derechos adquiridos por la empresa, destinados a permanecer en ella bajo la misma forma de una manera duradera.&lt;/li&gt;
+&lt;li&gt;Realizable: conjunto de valores en los que la empresa ha invertido fondos por exigencias de la actividad que ha de desarrollar, pero que carecen del carácter de permanencia que poseen las inversiones de inmovilizado.&lt;/li&gt;
+&lt;li&gt;Disponible: cantidad de fondos líquidos para hacer frente a las necesidades financieras de tipo corriente, que se originan como consecuencia de su actividad.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Las partidas que componen el &lt;b&gt;pasivo&lt;/b&gt; y su valoración son:
+&lt;ul&gt;
+&lt;li&gt;No exigible o Neto: está compuesto por aquellos recursos que son propios de la empresa y de los que nadie excepto ella tiene derecho a disponer.&lt;/li&gt;
+&lt;li&gt;Exigible: está constituido por aquellos valores que son deudas para la empresa, es decir, constituyen los medios financieros de procedencia ajena a la empresa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;El &lt;b&gt;valor de una empresa&lt;/b&gt;, está en función, tanto del valor de los bienes, derechos y obligaciones de que es titular, como de los rendimientos susceptibles de generar. Por lo tanto, éste depende de dos valores:
+&lt;ul&gt;
+&lt;li&gt;Del valor sustancial: valor de los bienes y derechos que integran el Activo de una empresa, menos el de las obligaciones que haya contraído.&lt;/li&gt;
+&lt;li&gt;Del valor intangible, determinado por la capacidad de la empresa para generar beneficios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="30"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <none></none>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="8"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="31"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="11"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:Recuerda"></string>
+        <string role="key" value="parent"></string>
+        <reference key="2"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="32">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Autoevaluación"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.quiztestidevice.QuizTestIdevice" reference="33">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Selecciona la respuesta correcta"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="Unlike the MCQ the SCORM quiz is used to test 
+the learners knowledge on a topic without providing the learner with feedback 
+to the correct answer. The quiz will often be given once the learner has had 
+time to learn and practice using the information or skill.
+ "></unicode>
+           <string role="key" value="_tip"></string>
+           <unicode value=""></unicode>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.quiztestidevice.QuizTestIdevice.persistenceVersion"></string>
+           <int value="10"></int>
+           <string role="key" value="icon"></string>
+           <string value="question"></string>
+           <string role="key" value="id"></string>
+           <unicode value="9"></unicode>
+           <string role="key" value="isAnswered"></string>
+           <bool value="1"></bool>
+           <string role="key" value="isQuiz"></string>
+           <bool value="1"></bool>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value="question"></string>
+           <string role="key" value="parentNode"></string>
+           <reference key="32"></reference>
+           <string role="key" value="passRate"></string>
+           <unicode value="50"></unicode>
+           <string role="key" value="questions"></string>
+           <list>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="36">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="34">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="113"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="33"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;span face=&quot;Verdana, serif&quot;&gt;Entre otras cosas, ¿por qué se caracterizan los mercados modernos?&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;span face=&quot;Verdana, serif&quot;&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="34"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="33"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="35">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="114"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="anchors_linked_from_fields"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;&lt;span face=&quot;Verdana, serif&quot;&gt;Por ser poco estratégicos.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="35"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="36"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="37">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="347"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;Por ser altamente competitivos.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="37"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="36"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="38">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="348"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;Por ser fluctuantes.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="38"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="36"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="39">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="349"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;&lt;span&gt;Por ser poco dinámicos.&lt;/span&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="39"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="36"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="42">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="40">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="350"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="33"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot; style=&quot;color: #000000;&quot;&gt;&lt;b&gt;&lt;span face=&quot;Verdana, serif&quot; style=&quot;font-family: Verdana, serif;&quot;&gt;&lt;span&gt;&lt;span&gt;¿&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span face=&quot;Verdana, serif&quot; style=&quot;font-family: Verdana, serif;&quot;&gt;&lt;span&gt;&lt;span&gt;Qué elemento no forma parte del activo empresarial?&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="40"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="3"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="33"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="41">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="351"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;&lt;span face=&quot;Verdana, serif&quot;&gt;Terrenos e inmuebles industriales.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="41"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="42"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="43">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="352"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;Créditos concedidos a la clientela.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="43"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="42"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="44">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="353"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;Existencias adquiridas por la empresa.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="44"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="42"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="45">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="354"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;&lt;span&gt;Deudas con entidades financieras.&lt;/span&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="45"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="42"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="48">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="46">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="355"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="33"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot; style=&quot;color: #000000;&quot;&gt;&lt;b&gt;&lt;span face=&quot;Verdana, serif&quot; style=&quot;font-family: Verdana, serif;&quot;&gt;&lt;span&gt;&lt;span&gt;¿&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span face=&quot;Verdana, serif&quot; style=&quot;font-family: Verdana, serif;&quot;&gt;&lt;span&gt;&lt;span&gt;En qué dos grandes grupos de partidas puede dividirse el activo realizable?&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="46"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="33"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="47">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="356"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;&lt;span face=&quot;Verdana, serif&quot;&gt;Realizable no de explotación y realizable de explotación o existencias.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="47"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="48"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="49">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="357"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;Realizable divisorio y no divisorio.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="49"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="48"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="50">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="358"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;Realizable activo y no activo.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="50"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="48"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="51">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="359"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;&lt;span&gt;Realizable de balance y realizable de explotación o existencias.&lt;/span&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="51"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="48"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+            <instance class="exe.engine.quiztestidevice.TestQuestion" reference="54">
+             <dictionary>
+              <string role="key" value="questionTextArea"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="52">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="360"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="33"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Question:"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot; style=&quot;color: #000000;&quot;&gt;&lt;b&gt;&lt;span face=&quot;Verdana, serif&quot; style=&quot;font-family: Verdana, serif;&quot;&gt;&lt;span&gt;&lt;span&gt;Responde verdadero o falso: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot; style=&quot;color: #000000;&quot;&gt;&lt;span&gt;“&lt;b&gt;&lt;span face=&quot;Verdana, serif&quot; style=&quot;font-family: Verdana, serif;&quot;&gt;&lt;span&gt;&lt;i&gt;La cuenta de resultado del ejercicio describe los gastos producidos y los ingresos obtenidos imputables al ejercicio, poniendo de relieve el resultado económico del mismo”.&lt;/i&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="div"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="52"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_correctAnswerInstruc"></string>
+              <unicode value="To indicate the correct answer, 
+click the radio button next to the correct option."></unicode>
+              <string role="key" value="_optionInstruc"></string>
+              <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+              <string role="key" value="_questionInstruc"></string>
+              <unicode value="Enter the question stem. 
+The quest should be clear and unambiguous. Avoid negative premises 
+as these can tend to be ambiguous."></unicode>
+              <string role="key" value="correctAns"></string>
+              <int value="0"></int>
+              <string role="key" value="exe.engine.quiztestidevice.TestQuestion.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="idevice"></string>
+              <reference key="33"></reference>
+              <string role="key" value="options"></string>
+              <list>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="53">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="361"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p align=&quot;justify&quot;&gt;&lt;span color=&quot;#000000&quot;&gt;&lt;span face=&quot;Verdana, serif&quot;&gt;Verdadero.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="53"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="1"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="54"></reference>
+                </dictionary>
+               </instance>
+               <instance class="exe.engine.quiztestidevice.AnswerOption">
+                <dictionary>
+                 <string role="key" value="answerTextArea"></string>
+                 <instance class="exe.engine.field.TextAreaField" reference="55">
+                  <dictionary>
+                   <string role="key" value="_id"></string>
+                   <int value="362"></int>
+                   <string role="key" value="_idevice"></string>
+                   <reference key="33"></reference>
+                   <string role="key" value="_instruc"></string>
+                   <unicode value="Enter an answer option. Provide 
+a range of plausible distractors (usually 3-4) as well as the correct answer. 
+Click on the &amp;lt;Add another option&amp;gt; button to add another answer."></unicode>
+                   <string role="key" value="_name"></string>
+                   <unicode value="Option"></unicode>
+                   <string role="key" value="anchor_names"></string>
+                   <list></list>
+                   <string role="key" value="content_w_resourcePaths"></string>
+                   <unicode content="true" value="&lt;p&gt;&lt;span&gt;Falso.&lt;/span&gt;&lt;/p&gt;"></unicode>
+                   <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                   <int value="2"></int>
+                   <string role="key" value="htmlTag"></string>
+                   <string value="div"></string>
+                   <string role="key" value="images"></string>
+                   <instance class="exe.engine.galleryidevice.GalleryImages">
+                    <dictionary>
+                     <string role="key" value=".listitems"></string>
+                     <list></list>
+                     <string role="key" value="idevice"></string>
+                     <reference key="55"></reference>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="intlinks_to_anchors"></string>
+                   <dictionary></dictionary>
+                   <string role="key" value="nextImageId"></string>
+                   <int value="0"></int>
+                   <string role="key" value="parentNode"></string>
+                   <none></none>
+                  </dictionary>
+                 </instance>
+                 <string role="key" value="idevice"></string>
+                 <reference key="33"></reference>
+                 <string role="key" value="isCorrect"></string>
+                 <bool value="0"></bool>
+                 <string role="key" value="question"></string>
+                 <reference key="54"></reference>
+                </dictionary>
+               </instance>
+              </list>
+              <string role="key" value="userAns"></string>
+              <int value="-1"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="score"></string>
+           <int value="-1"></int>
+           <string role="key" value="systemResources"></string>
+           <list>
+            <string value="common.js"></string>
+           </list>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="12"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:TEMA%2022.%20AN%C3%81LISIS%20DE%20BALANCES:Autoevaluaci%C3%B3n"></string>
+        <string role="key" value="parent"></string>
+        <reference key="2"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="5"></reference>
+   <unicode role="key" value="10"></unicode>
+   <reference key="28"></reference>
+   <unicode role="key" value="11"></unicode>
+   <reference key="31"></reference>
+   <unicode role="key" value="12"></unicode>
+   <reference key="32"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="9"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="6"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="13"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="12"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="16"></reference>
+   <unicode role="key" value="7"></unicode>
+   <reference key="19"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="22"></reference>
+   <unicode role="key" value="9"></unicode>
+   <reference key="25"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="32"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="46fa28c9-dc89-405a-a836-64a20120624f"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="13"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="license"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="46fa28c9-dc89-405a-a836-64a20120624f"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list></list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="Mi catálogo"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="46fa28c9-dc89-405a-a836-64a20120624f"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list></list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <none></none>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Preestablecido"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="2"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="INTEF"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

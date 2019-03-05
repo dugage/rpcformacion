@@ -1,0 +1,424 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id42">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 2;
+var key1 = 1;
+var key2 = 0;
+var key3 = 1;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b42");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm42").key0b42[i].checked)
+               {
+                  question0 = document.getElementById("quizForm42").key0b42[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b42");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm42").key1b42[i].checked)
+               {
+                  question1 = document.getElementById("quizForm42").key1b42[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b42");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm42").key2b42[i].checked)
+               {
+                  question2 = document.getElementById("quizForm42").key2b42[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b42");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm42").key3b42[i].checked)
+               {
+                  question3 = document.getElementById("quizForm42").key3b42[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b42");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm42").key4b42[i].checked)
+               {
+                  question4 = document.getElementById("quizForm42").key4b42[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm42").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona la Opcion Correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm42" id="quizForm42" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-42" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b42" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>Para insertar una tarea puede seleccionar el icono situado en el grupo: </b></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b421" class="sr-av"><a href="#answer-key0b421">Opción 1</a></label><input type="radio" name="key0b42" id="key0b421" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b421"><a name="answer-key0b421"></a>
+<div id="taoptionAnswer0q0b42" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Programación.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b422" class="sr-av"><a href="#answer-key0b422">Opción 2</a></label><input type="radio" name="key0b42" id="key0b422" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b422"><a name="answer-key0b422"></a>
+<div id="taoptionAnswer1q0b42" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Tareas.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b423" class="sr-av"><a href="#answer-key0b423">Opción 3</a></label><input type="radio" name="key0b42" id="key0b423" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b423"><a name="answer-key0b423"></a>
+<div id="taoptionAnswer2q0b42" class="block iDevice_content">
+<p>Insertar.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b42" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>¿Qué ocurre con la Escala de tiempo cuando dividimos la vista en dos paneles?</b></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b421" class="sr-av"><a href="#answer-key1b421">Opción 1</a></label><input type="radio" name="key1b42" id="key1b421" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b421"><a name="answer-key1b421"></a>
+<div id="taoptionAnswer0q1b42" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Se mantiene.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b422" class="sr-av"><a href="#answer-key1b422">Opción 2</a></label><input type="radio" name="key1b42" id="key1b422" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b422"><a name="answer-key1b422"></a>
+<div id="taoptionAnswer1q1b42" class="block iDevice_content">
+<p>Desaparece.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b42" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>Para vincular automáticamente las tareas que insertemos podemos dirigirnos a: </b></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b421" class="sr-av"><a href="#answer-key2b421">Opción 1</a></label><input type="radio" name="key2b42" id="key2b421" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b421"><a name="answer-key2b421"></a>
+<div id="taoptionAnswer0q2b42" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Cuadro de diálogo Opciones.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b422" class="sr-av"><a href="#answer-key2b422">Opción 2</a></label><input type="radio" name="key2b42" id="key2b422" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b422"><a name="answer-key2b422"></a>
+<div id="taoptionAnswer1q2b42" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ficha Tareas.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b423" class="sr-av"><a href="#answer-key2b423">Opción 3</a></label><input type="radio" name="key2b42" id="key2b423" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b423"><a name="answer-key2b423"></a>
+<div id="taoptionAnswer2q2b42" class="block iDevice_content">
+<p>Ficha Proyecto.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b42" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>Cuando insertamos un hito con una duración mayor que cero, ¿Dónde muestra Project el símbolo de hito en la vista Diagrama de Gantt?</b></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b421" class="sr-av"><a href="#answer-key3b421">Opción 1</a></label><input type="radio" name="key3b42" id="key3b421" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b421"><a name="answer-key3b421"></a>
+<div id="taoptionAnswer0q3b42" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En el primer día de la tarea.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b422" class="sr-av"><a href="#answer-key3b422">Opción 2</a></label><input type="radio" name="key3b42" id="key3b422" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b422"><a name="answer-key3b422"></a>
+<div id="taoptionAnswer1q3b42" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">En el último día de la tarea.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b423" class="sr-av"><a href="#answer-key3b423">Opción 3</a></label><input type="radio" name="key3b42" id="key3b423" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b423"><a name="answer-key3b423"></a>
+<div id="taoptionAnswer2q3b42" class="block iDevice_content">
+<p>En este caso el hito tiene forma de barra.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b42" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><b>¿De qué color se muestra la tarea resumen?</b></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b421" class="sr-av"><a href="#answer-key4b421">Opción 1</a></label><input type="radio" name="key4b42" id="key4b421" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b421"><a name="answer-key4b421"></a>
+<div id="taoptionAnswer0q4b42" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Negro.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b422" class="sr-av"><a href="#answer-key4b422">Opción 2</a></label><input type="radio" name="key4b42" id="key4b422" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b422"><a name="answer-key4b422"></a>
+<div id="taoptionAnswer1q4b42" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Rojo.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b423" class="sr-av"><a href="#answer-key4b423">Opción 3</a></label><input type="radio" name="key4b42" id="key4b423" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b423"><a name="answer-key4b423"></a>
+<div id="taoptionAnswer2q4b42" class="block iDevice_content">
+<p>Azul.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

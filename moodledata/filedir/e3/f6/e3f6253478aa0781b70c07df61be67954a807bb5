@@ -1,0 +1,1585 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Examen </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Examen</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id0">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 20;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var question5;
+var question6;
+var question7;
+var question8;
+var question9;
+var question10;
+var question11;
+var question12;
+var question13;
+var question14;
+var question15;
+var question16;
+var question17;
+var question18;
+var question19;
+var key0 = 3;
+var key1 = 0;
+var key2 = 1;
+var key3 = 2;
+var key4 = 2;
+var key5 = 1;
+var key6 = 1;
+var key7 = 0;
+var key8 = 2;
+var key9 = 0;
+var key10 = 0;
+var key11 = 0;
+var key12 = 1;
+var key13 = 3;
+var key14 = 0;
+var key15 = 2;
+var key16 = 0;
+var key17 = 1;
+var key18 = 3;
+var key19 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b0");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key0b0[i].checked)
+               {
+                  question0 = document.getElementById("quizForm0").key0b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b0");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key1b0[i].checked)
+               {
+                  question1 = document.getElementById("quizForm0").key1b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b0");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key2b0[i].checked)
+               {
+                  question2 = document.getElementById("quizForm0").key2b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b0");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key3b0[i].checked)
+               {
+                  question3 = document.getElementById("quizForm0").key3b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b0");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key4b0[i].checked)
+               {
+                  question4 = document.getElementById("quizForm0").key4b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.5.id","key5b0");
+            scorm.SetInteractionValue("cmi.interactions.5.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.5.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key5b0[i].checked)
+               {
+                  question5 = document.getElementById("quizForm0").key5b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.5.student_response",question5);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.6.id","key6b0");
+            scorm.SetInteractionValue("cmi.interactions.6.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.6.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key6b0[i].checked)
+               {
+                  question6 = document.getElementById("quizForm0").key6b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.6.student_response",question6);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.7.id","key7b0");
+            scorm.SetInteractionValue("cmi.interactions.7.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.7.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key7b0[i].checked)
+               {
+                  question7 = document.getElementById("quizForm0").key7b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.7.student_response",question7);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.8.id","key8b0");
+            scorm.SetInteractionValue("cmi.interactions.8.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.8.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key8b0[i].checked)
+               {
+                  question8 = document.getElementById("quizForm0").key8b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.8.student_response",question8);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.9.id","key9b0");
+            scorm.SetInteractionValue("cmi.interactions.9.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.9.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key9b0[i].checked)
+               {
+                  question9 = document.getElementById("quizForm0").key9b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.9.student_response",question9);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.10.id","key10b0");
+            scorm.SetInteractionValue("cmi.interactions.10.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.10.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key10b0[i].checked)
+               {
+                  question10 = document.getElementById("quizForm0").key10b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.10.student_response",question10);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.11.id","key11b0");
+            scorm.SetInteractionValue("cmi.interactions.11.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.11.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key11b0[i].checked)
+               {
+                  question11 = document.getElementById("quizForm0").key11b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.11.student_response",question11);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.12.id","key12b0");
+            scorm.SetInteractionValue("cmi.interactions.12.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.12.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key12b0[i].checked)
+               {
+                  question12 = document.getElementById("quizForm0").key12b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.12.student_response",question12);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.13.id","key13b0");
+            scorm.SetInteractionValue("cmi.interactions.13.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.13.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key13b0[i].checked)
+               {
+                  question13 = document.getElementById("quizForm0").key13b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.13.student_response",question13);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.14.id","key14b0");
+            scorm.SetInteractionValue("cmi.interactions.14.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.14.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm0").key14b0[i].checked)
+               {
+                  question14 = document.getElementById("quizForm0").key14b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.14.student_response",question14);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.15.id","key15b0");
+            scorm.SetInteractionValue("cmi.interactions.15.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.15.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key15b0[i].checked)
+               {
+                  question15 = document.getElementById("quizForm0").key15b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.15.student_response",question15);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.16.id","key16b0");
+            scorm.SetInteractionValue("cmi.interactions.16.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.16.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key16b0[i].checked)
+               {
+                  question16 = document.getElementById("quizForm0").key16b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.16.student_response",question16);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.17.id","key17b0");
+            scorm.SetInteractionValue("cmi.interactions.17.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.17.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key17b0[i].checked)
+               {
+                  question17 = document.getElementById("quizForm0").key17b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.17.student_response",question17);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.18.id","key18b0");
+            scorm.SetInteractionValue("cmi.interactions.18.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.18.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key18b0[i].checked)
+               {
+                  question18 = document.getElementById("quizForm0").key18b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.18.student_response",question18);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.19.id","key19b0");
+            scorm.SetInteractionValue("cmi.interactions.19.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.19.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key19b0[i].checked)
+               {
+                  question19 = document.getElementById("quizForm0").key19b0[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.19.student_response",question19);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+            if (question5 == key5)
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.5.result","wrong");
+            }
+            if (question6 == key6)
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.6.result","wrong");
+            }
+            if (question7 == key7)
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.7.result","wrong");
+            }
+            if (question8 == key8)
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.8.result","wrong");
+            }
+            if (question9 == key9)
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.9.result","wrong");
+            }
+            if (question10 == key10)
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.10.result","wrong");
+            }
+            if (question11 == key11)
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.11.result","wrong");
+            }
+            if (question12 == key12)
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.12.result","wrong");
+            }
+            if (question13 == key13)
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.13.result","wrong");
+            }
+            if (question14 == key14)
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.14.result","wrong");
+            }
+            if (question15 == key15)
+            {
+               scorm.SetInteractionValue("cmi.interactions.15.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.15.result","wrong");
+            }
+            if (question16 == key16)
+            {
+               scorm.SetInteractionValue("cmi.interactions.16.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.16.result","wrong");
+            }
+            if (question17 == key17)
+            {
+               scorm.SetInteractionValue("cmi.interactions.17.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.17.result","wrong");
+            }
+            if (question18 == key18)
+            {
+               scorm.SetInteractionValue("cmi.interactions.18.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.18.result","wrong");
+            }
+            if (question19 == key19)
+            {
+               scorm.SetInteractionValue("cmi.interactions.19.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.19.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm0").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm0" id="quizForm0" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-0" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b0" class="block iDevice_content">
+<p><strong>En apenas 10 años el crecimiento experimentado por Internet ha sido de:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b01" class="sr-av"><a href="#answer-key0b01">Opción 1</a></label><input type="radio" name="key0b0" id="key0b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b01"><a name="answer-key0b01"></a>
+<div id="taoptionAnswer0q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">100%.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b02" class="sr-av"><a href="#answer-key0b02">Opción 2</a></label><input type="radio" name="key0b0" id="key0b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b02"><a name="answer-key0b02"></a>
+<div id="taoptionAnswer1q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">200%.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b03" class="sr-av"><a href="#answer-key0b03">Opción 3</a></label><input type="radio" name="key0b0" id="key0b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b03"><a name="answer-key0b03"></a>
+<div id="taoptionAnswer2q0b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">300%.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b04" class="sr-av"><a href="#answer-key0b04">Opción 4</a></label><input type="radio" name="key0b0" id="key0b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b04"><a name="answer-key0b04"></a>
+<div id="taoptionAnswer3q0b0" class="block iDevice_content">
+<p>400%.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b0" class="block iDevice_content">
+<p><strong>¿Qué significa URL?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b01" class="sr-av"><a href="#answer-key1b01">Opción 1</a></label><input type="radio" name="key1b0" id="key1b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b01"><a name="answer-key1b01"></a>
+<div id="taoptionAnswer0q1b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Uniform Resource Locator</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b02" class="sr-av"><a href="#answer-key1b02">Opción 2</a></label><input type="radio" name="key1b0" id="key1b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b02"><a name="answer-key1b02"></a>
+<div id="taoptionAnswer1q1b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Unique Resource Locutor</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b03" class="sr-av"><a href="#answer-key1b03">Opción 3</a></label><input type="radio" name="key1b0" id="key1b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b03"><a name="answer-key1b03"></a>
+<div id="taoptionAnswer2q1b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Uniform Resort Locutor</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b04" class="sr-av"><a href="#answer-key1b04">Opción 4</a></label><input type="radio" name="key1b0" id="key1b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b04"><a name="answer-key1b04"></a>
+<div id="taoptionAnswer3q1b0" class="block iDevice_content">
+<p>Ninguna de las anteriores es correcta</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b0" class="block iDevice_content">
+<p><strong>¿Qué es una Wiki?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b01" class="sr-av"><a href="#answer-key2b01">Opción 1</a></label><input type="radio" name="key2b0" id="key2b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b01"><a name="answer-key2b01"></a>
+<div id="taoptionAnswer0q2b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Una colección de páginas hipertexto que pueden ser visitadas por cualquier persona y editadas por el administrador.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b02" class="sr-av"><a href="#answer-key2b02">Opción 2</a></label><input type="radio" name="key2b0" id="key2b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b02"><a name="answer-key2b02"></a>
+<div id="taoptionAnswer1q2b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Una colección de páginas hipertexto que pueden ser visitadas y editadas por cualquier persona.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b03" class="sr-av"><a href="#answer-key2b03">Opción 3</a></label><input type="radio" name="key2b0" id="key2b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b03"><a name="answer-key2b03"></a>
+<div id="taoptionAnswer2q2b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Un espacio Web donde los visitantes pueden discutir o compartir información relevante a la temática del sitio.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b04" class="sr-av"><a href="#answer-key2b04">Opción 4</a></label><input type="radio" name="key2b0" id="key2b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b04"><a name="answer-key2b04"></a>
+<div id="taoptionAnswer3q2b0" class="block iDevice_content">
+<p>Ninguna de las anteriores es correcta.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b0" class="block iDevice_content">
+<p><strong>¿En qué orden se guardan los contenidos en los blogs?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b01" class="sr-av"><a href="#answer-key3b01">Opción 1</a></label><input type="radio" name="key3b0" id="key3b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b01"><a name="answer-key3b01"></a>
+<div id="taoptionAnswer0q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ascendente.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b02" class="sr-av"><a href="#answer-key3b02">Opción 2</a></label><input type="radio" name="key3b0" id="key3b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b02"><a name="answer-key3b02"></a>
+<div id="taoptionAnswer1q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Descendente.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b03" class="sr-av"><a href="#answer-key3b03">Opción 3</a></label><input type="radio" name="key3b0" id="key3b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b03"><a name="answer-key3b03"></a>
+<div id="taoptionAnswer2q3b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Cronológico.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b04" class="sr-av"><a href="#answer-key3b04">Opción 4</a></label><input type="radio" name="key3b0" id="key3b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b04"><a name="answer-key3b04"></a>
+<div id="taoptionAnswer3q3b0" class="block iDevice_content">
+<p>No siguen ningún orden.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b0" class="block iDevice_content">
+<p><strong>¿Qué clasificación podemos utilizar para agrupar a los usuarios de Internet?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b01" class="sr-av"><a href="#answer-key4b01">Opción 1</a></label><input type="radio" name="key4b0" id="key4b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b01"><a name="answer-key4b01"></a>
+<div id="taoptionAnswer0q4b0" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada"><strong></strong>Adictos, frikis, trabajadores y hackers.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b02" class="sr-av"><a href="#answer-key4b02">Opción 2</a></label><input type="radio" name="key4b0" id="key4b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b02"><a name="answer-key4b02"></a>
+<div id="taoptionAnswer1q4b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Profesionales, adictos y aficionados.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b03" class="sr-av"><a href="#answer-key4b03">Opción 3</a></label><input type="radio" name="key4b0" id="key4b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b03"><a name="answer-key4b03"></a>
+<div id="taoptionAnswer2q4b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Profesionales, adictos, aficionados y perturbadores.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b04" class="sr-av"><a href="#answer-key4b04">Opción 4</a></label><input type="radio" name="key4b0" id="key4b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b04"><a name="answer-key4b04"></a>
+<div id="taoptionAnswer3q4b0" class="block iDevice_content">
+<p>Ninguna de las anteriores es correctas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion5b0" class="block iDevice_content">
+<p><strong>El usuario 2.0 es aquel que:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b01" class="sr-av"><a href="#answer-key5b01">Opción 1</a></label><input type="radio" name="key5b0" id="key5b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b01"><a name="answer-key5b01"></a>
+<div id="taoptionAnswer0q5b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Se pasa el día conectado a Internet.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b02" class="sr-av"><a href="#answer-key5b02">Opción 2</a></label><input type="radio" name="key5b0" id="key5b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b02"><a name="answer-key5b02"></a>
+<div id="taoptionAnswer1q5b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Aporta, comparte, difunde y colabora.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b03" class="sr-av"><a href="#answer-key5b03">Opción 3</a></label><input type="radio" name="key5b0" id="key5b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b03"><a name="answer-key5b03"></a>
+<div id="taoptionAnswer2q5b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Tiene perfiles en todas las redes sociales.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key5b04" class="sr-av"><a href="#answer-key5b04">Opción 4</a></label><input type="radio" name="key5b0" id="key5b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key5b04"><a name="answer-key5b04"></a>
+<div id="taoptionAnswer3q5b0" class="block iDevice_content">
+<p>Solamente sabe manejar el correo electrónico y buscar en Google.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion6b0" class="block iDevice_content">
+<p><strong>Una de las teorías iniciales sobre la constitución de redes sociales en Internet es:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b01" class="sr-av"><a href="#answer-key6b01">Opción 1</a></label><input type="radio" name="key6b0" id="key6b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b01"><a name="answer-key6b01"></a>
+<div id="taoptionAnswer0q6b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Las redes surgen de forma espontánea.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b02" class="sr-av"><a href="#answer-key6b02">Opción 2</a></label><input type="radio" name="key6b0" id="key6b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b02"><a name="answer-key6b02"></a>
+<div id="taoptionAnswer1q6b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">La Teoría de los seis grados de separación.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b03" class="sr-av"><a href="#answer-key6b03">Opción 3</a></label><input type="radio" name="key6b0" id="key6b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b03"><a name="answer-key6b03"></a>
+<div id="taoptionAnswer2q6b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">La Teoría de Redes.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key6b04" class="sr-av"><a href="#answer-key6b04">Opción 4</a></label><input type="radio" name="key6b0" id="key6b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key6b04"><a name="answer-key6b04"></a>
+<div id="taoptionAnswer3q6b0" class="block iDevice_content">
+<p>Todas las anteriores son correctas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion7b0" class="block iDevice_content">
+<p><strong>¿Cuál es la principal ventaja que nos aportan los marcadores sociales relacionados con las redes sociales?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b01" class="sr-av"><a href="#answer-key7b01">Opción 1</a></label><input type="radio" name="key7b0" id="key7b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b01"><a name="answer-key7b01"></a>
+<div id="taoptionAnswer0q7b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">La posibilidad de compartir enlaces que nos resulten interesantes pinchando en el icono del marcador que tenemos en la pantalla.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b02" class="sr-av"><a href="#answer-key7b02">Opción 2</a></label><input type="radio" name="key7b0" id="key7b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b02"><a name="answer-key7b02"></a>
+<div id="taoptionAnswer1q7b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Relacionarnos con los demás a través de nuestros intereses.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b03" class="sr-av"><a href="#answer-key7b03">Opción 3</a></label><input type="radio" name="key7b0" id="key7b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b03"><a name="answer-key7b03"></a>
+<div id="taoptionAnswer2q7b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">La posibilidad de relacionar todas las redes sociales con un solo clic.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key7b04" class="sr-av"><a href="#answer-key7b04">Opción 4</a></label><input type="radio" name="key7b0" id="key7b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key7b04"><a name="answer-key7b04"></a>
+<div id="taoptionAnswer3q7b0" class="block iDevice_content">
+<p>La publicidad que podemos hacer en nuestros perfiles.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion8b0" class="block iDevice_content">
+<p><strong>¿Cuál NO es una ventaja del uso de las redes sociales?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b01" class="sr-av"><a href="#answer-key8b01">Opción 1</a></label><input type="radio" name="key8b0" id="key8b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b01"><a name="answer-key8b01"></a>
+<div id="taoptionAnswer0q8b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Conversar con los usuarios.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b02" class="sr-av"><a href="#answer-key8b02">Opción 2</a></label><input type="radio" name="key8b0" id="key8b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b02"><a name="answer-key8b02"></a>
+<div id="taoptionAnswer1q8b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Capacidad de convocatoria y difusión.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b03" class="sr-av"><a href="#answer-key8b03">Opción 3</a></label><input type="radio" name="key8b0" id="key8b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b03"><a name="answer-key8b03"></a>
+<div id="taoptionAnswer2q8b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">El alto coste que tiene su inscripción.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key8b04" class="sr-av"><a href="#answer-key8b04">Opción 4</a></label><input type="radio" name="key8b0" id="key8b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key8b04"><a name="answer-key8b04"></a>
+<div id="taoptionAnswer3q8b0" class="block iDevice_content">
+<p>Permiten fidelizar alrededor de una marca a las empresas que tienen perfiles en redes sociales.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion9b0" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica Verdadero o Falso: </strong> <em>“El uso continuado de las redes sociales presenta varias desventajas, entre ellas podemos destacar que en ocasiones crea adicción entre los usuarios”.</em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b01" class="sr-av"><a href="#answer-key9b01">Opción 1</a></label><input type="radio" name="key9b0" id="key9b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b01"><a name="answer-key9b01"></a>
+<div id="taoptionAnswer0q9b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key9b02" class="sr-av"><a href="#answer-key9b02">Opción 2</a></label><input type="radio" name="key9b0" id="key9b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key9b02"><a name="answer-key9b02"></a>
+<div id="taoptionAnswer1q9b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion10b0" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica Verdadero o Falso:</strong> <em>“A lo largo del último semestre de 2011, algunas redes sociales han duplicado el número de usuarios gracias a los Smartphone o teléfonos móviles inteligentes”.</em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b01" class="sr-av"><a href="#answer-key10b01">Opción 1</a></label><input type="radio" name="key10b0" id="key10b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b01"><a name="answer-key10b01"></a>
+<div id="taoptionAnswer0q10b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key10b02" class="sr-av"><a href="#answer-key10b02">Opción 2</a></label><input type="radio" name="key10b0" id="key10b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key10b02"><a name="answer-key10b02"></a>
+<div id="taoptionAnswer1q10b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion11b0" class="block iDevice_content">
+<p><strong>¿Cuál de las siguientes no es una red social?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b01" class="sr-av"><a href="#answer-key11b01">Opción 1</a></label><input type="radio" name="key11b0" id="key11b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b01"><a name="answer-key11b01"></a>
+<div id="taoptionAnswer0q11b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Google maps.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b02" class="sr-av"><a href="#answer-key11b02">Opción 2</a></label><input type="radio" name="key11b0" id="key11b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b02"><a name="answer-key11b02"></a>
+<div id="taoptionAnswer1q11b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Facebook.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b03" class="sr-av"><a href="#answer-key11b03">Opción 3</a></label><input type="radio" name="key11b0" id="key11b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b03"><a name="answer-key11b03"></a>
+<div id="taoptionAnswer2q11b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Google+.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key11b04" class="sr-av"><a href="#answer-key11b04">Opción 4</a></label><input type="radio" name="key11b0" id="key11b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key11b04"><a name="answer-key11b04"></a>
+<div id="taoptionAnswer3q11b0" class="block iDevice_content">
+<p>Twitter.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion12b0" class="block iDevice_content">
+<p><strong>¿Cómo podemos acceder a Facebook por primera vez?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b01" class="sr-av"><a href="#answer-key12b01">Opción 1</a></label><input type="radio" name="key12b0" id="key12b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b01"><a name="answer-key12b01"></a>
+<div id="taoptionAnswer0q12b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Asociando nuestra cuenta de correo electrónico a una cuenta de Facebook y estableciendo una contraseña.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b02" class="sr-av"><a href="#answer-key12b02">Opción 2</a></label><input type="radio" name="key12b0" id="key12b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b02"><a name="answer-key12b02"></a>
+<div id="taoptionAnswer1q12b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Rellenando los campos de la página principal en los que pide datos personales básicos como nombre, apellidos, dirección de correo electrónico, etc.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b03" class="sr-av"><a href="#answer-key12b03">Opción 3</a></label><input type="radio" name="key12b0" id="key12b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b03"><a name="answer-key12b03"></a>
+<div id="taoptionAnswer2q12b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Rellenando los campos de inicio y facilitando nuestro número de cuenta bancaria para el cobro de servicios Premium.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key12b04" class="sr-av"><a href="#answer-key12b04">Opción 4</a></label><input type="radio" name="key12b0" id="key12b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key12b04"><a name="answer-key12b04"></a>
+<div id="taoptionAnswer3q12b0" class="block iDevice_content">
+<p>Solamente podemos asociar nuestra cuenta de correo si es de Yahoo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion13b0" class="block iDevice_content">
+<p><strong>Cuando escribimos nuestro estado en Facek podemos compartirlo con:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b01" class="sr-av"><a href="#answer-key13b01">Opción 1</a></label><input type="radio" name="key13b0" id="key13b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b01"><a name="answer-key13b01"></a>
+<div id="taoptionAnswer0q13b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Todo el público.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b02" class="sr-av"><a href="#answer-key13b02">Opción 2</a></label><input type="radio" name="key13b0" id="key13b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b02"><a name="answer-key13b02"></a>
+<div id="taoptionAnswer1q13b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Solo amigos.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b03" class="sr-av"><a href="#answer-key13b03">Opción 3</a></label><input type="radio" name="key13b0" id="key13b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b03"><a name="answer-key13b03"></a>
+<div id="taoptionAnswer2q13b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Solo yo.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key13b04" class="sr-av"><a href="#answer-key13b04">Opción 4</a></label><input type="radio" name="key13b0" id="key13b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key13b04"><a name="answer-key13b04"></a>
+<div id="taoptionAnswer3q13b0" class="block iDevice_content">
+<p>Todas las opciones son correctas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion14b0" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica Verdadero o Falso</strong> <em>“El botón +1</em> <em>pretende plantar las bases para poder dar cobertura a la capa social que la compañía está buscando para sus servicios”</em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b01" class="sr-av"><a href="#answer-key14b01">Opción 1</a></label><input type="radio" name="key14b0" id="key14b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b01"><a name="answer-key14b01"></a>
+<div id="taoptionAnswer0q14b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key14b02" class="sr-av"><a href="#answer-key14b02">Opción 2</a></label><input type="radio" name="key14b0" id="key14b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key14b02"><a name="answer-key14b02"></a>
+<div id="taoptionAnswer1q14b0" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion15b0" class="block iDevice_content">
+<p><strong>¿Qué cuenta de correo necesitamos para acceder a Google+?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b01" class="sr-av"><a href="#answer-key15b01">Opción 1</a></label><input type="radio" name="key15b0" id="key15b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b01"><a name="answer-key15b01"></a>
+<div id="taoptionAnswer0q15b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Yahoo Mail.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b02" class="sr-av"><a href="#answer-key15b02">Opción 2</a></label><input type="radio" name="key15b0" id="key15b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b02"><a name="answer-key15b02"></a>
+<div id="taoptionAnswer1q15b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Msn.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b03" class="sr-av"><a href="#answer-key15b03">Opción 3</a></label><input type="radio" name="key15b0" id="key15b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b03"><a name="answer-key15b03"></a>
+<div id="taoptionAnswer2q15b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Gmail.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key15b04" class="sr-av"><a href="#answer-key15b04">Opción 4</a></label><input type="radio" name="key15b0" id="key15b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key15b04"><a name="answer-key15b04"></a>
+<div id="taoptionAnswer3q15b0" class="block iDevice_content">
+<p>Podemos acceder con cualquier cuenta.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion16b0" class="block iDevice_content">
+<p><strong>¿Quién es el creador de Twitter?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b01" class="sr-av"><a href="#answer-key16b01">Opción 1</a></label><input type="radio" name="key16b0" id="key16b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b01"><a name="answer-key16b01"></a>
+<div id="taoptionAnswer0q16b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Jack Dorsey.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b02" class="sr-av"><a href="#answer-key16b02">Opción 2</a></label><input type="radio" name="key16b0" id="key16b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b02"><a name="answer-key16b02"></a>
+<div id="taoptionAnswer1q16b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Evan Williams.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b03" class="sr-av"><a href="#answer-key16b03">Opción 3</a></label><input type="radio" name="key16b0" id="key16b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b03"><a name="answer-key16b03"></a>
+<div id="taoptionAnswer2q16b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Marck Zuckerberg.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key16b04" class="sr-av"><a href="#answer-key16b04">Opción 4</a></label><input type="radio" name="key16b0" id="key16b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key16b04"><a name="answer-key16b04"></a>
+<div id="taoptionAnswer3q16b0" class="block iDevice_content">
+<p>Jack Odeo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion17b0" class="block iDevice_content">
+<p><strong>¿Qué es un tweet?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b01" class="sr-av"><a href="#answer-key17b01">Opción 1</a></label><input type="radio" name="key17b0" id="key17b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b01"><a name="answer-key17b01"></a>
+<div id="taoptionAnswer0q17b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Es un mensaje directo que se le envía a una persona que nos sigue en Twitter.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b02" class="sr-av"><a href="#answer-key17b02">Opción 2</a></label><input type="radio" name="key17b0" id="key17b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b02"><a name="answer-key17b02"></a>
+<div id="taoptionAnswer1q17b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Es una publicación o actualización de tu estado en un máximo de 140 caracteres en Twitter.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b03" class="sr-av"><a href="#answer-key17b03">Opción 3</a></label><input type="radio" name="key17b0" id="key17b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b03"><a name="answer-key17b03"></a>
+<div id="taoptionAnswer2q17b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Es la respuesta a lo publicado por una persona a la que seguimos en Twitter.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key17b04" class="sr-av"><a href="#answer-key17b04">Opción 4</a></label><input type="radio" name="key17b0" id="key17b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key17b04"><a name="answer-key17b04"></a>
+<div id="taoptionAnswer3q17b0" class="block iDevice_content">
+<p>El tablón en el que van apareciendo las publicaciones de los usuarios que seguimos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion18b0" class="block iDevice_content">
+<p><strong>Las empresas que se dan de alta con una cuenta en Twitter tienen herramientas preparadas para buscar clientes habituales sin caer en Spam, como son:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b01" class="sr-av"><a href="#answer-key18b01">Opción 1</a></label><input type="radio" name="key18b0" id="key18b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b01"><a name="answer-key18b01"></a>
+<div id="taoptionAnswer0q18b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Twitter Search.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b02" class="sr-av"><a href="#answer-key18b02">Opción 2</a></label><input type="radio" name="key18b0" id="key18b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b02"><a name="answer-key18b02"></a>
+<div id="taoptionAnswer1q18b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">LocaFollow.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b03" class="sr-av"><a href="#answer-key18b03">Opción 3</a></label><input type="radio" name="key18b0" id="key18b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b03"><a name="answer-key18b03"></a>
+<div id="taoptionAnswer2q18b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">MyTwitterCloud.</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key18b04" class="sr-av"><a href="#answer-key18b04">Opción 4</a></label><input type="radio" name="key18b0" id="key18b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key18b04"><a name="answer-key18b04"></a>
+<div id="taoptionAnswer3q18b0" class="block iDevice_content">
+<p>Todas las opciones son correctas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion19b0" class="block iDevice_content">
+<p><strong>¿Cuál es el modo de darse de alta en Tuenti?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b01" class="sr-av"><a href="#answer-key19b01">Opción 1</a></label><input type="radio" name="key19b0" id="key19b01" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b01"><a name="answer-key19b01"></a>
+<div id="taoptionAnswer0q19b0" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Registrándose.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b02" class="sr-av"><a href="#answer-key19b02">Opción 2</a></label><input type="radio" name="key19b0" id="key19b02" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b02"><a name="answer-key19b02"></a>
+<div id="taoptionAnswer1q19b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Por invitación de otros usuarios.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b03" class="sr-av"><a href="#answer-key19b03">Opción 3</a></label><input type="radio" name="key19b0" id="key19b03" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b03"><a name="answer-key19b03"></a>
+<div id="taoptionAnswer2q19b0" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Introduciendo cuenta de correo, contraseña, nombre y apellidos.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key19b04" class="sr-av"><a href="#answer-key19b04">Opción 4</a></label><input type="radio" name="key19b0" id="key19b04" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key19b04"><a name="answer-key19b04"></a>
+<div id="taoptionAnswer3q19b0" class="block iDevice_content">
+<p>Mediante pago de servicio.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

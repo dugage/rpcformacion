@@ -1,0 +1,548 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Registro Contable </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Registro Contable</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<p>La empresa registra contablemente las operaciones que día a día realiza en <b>el libro Diario</b>y, al mismo tiempo, anota los movimientos –incrementos y disminuciones- que experimentan las distintas cuentas en el <b>Libro Mayor.</b></p>
+<h4><b>Las cuentas</b></h4>
+<p>La cuenta contable es el elemento con el que se registra, identifica y clasifica cualquier hecho económico de la empresa. Así, en el Cuadro de Cuentas que viene en el Plan Contable se pueden ver las cuentas y los grupos a los que pertenecen, así como su numeración establecida:</p>
+<table border="1" cellpadding="2" cellspacing="-1" style="width: 424px;">
+<tbody>
+<tr valign="top">
+<td width="76" height="22" valign="middle">
+<p><b>GRUPO 1</b></p>
+</td>
+<td height="22" valign="middle">
+<p>FINANCIACIÓN BÁSICA</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="76" height="22" valign="middle">
+<p><b>GRUPO 2</b></p>
+</td>
+<td height="22" valign="middle">
+<p>ACTIVO NO CORRIENTE</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="76" height="22" valign="middle">
+<p><b>GRUPO 3</b></p>
+</td>
+<td height="22" valign="middle">
+<p>EXISTENCIAS</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="76" height="22" valign="middle">
+<p><b>GRUPO 4</b></p>
+</td>
+<td height="22" valign="middle">
+<p>ACREEDORES Y PROVEEDORES COMERCIALES</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="76" height="22" valign="middle">
+<p><b>GRUPO 5</b></p>
+</td>
+<td height="22" valign="middle">
+<p>CUENTAS FINANCIERAS</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="76" height="22" valign="middle">
+<p><b>GRUPO 6</b></p>
+</td>
+<td height="22" valign="middle">
+<p>COMPRAS Y GASTOS</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="76" height="22" valign="middle">
+<p><b>GRUPO 7</b></p>
+</td>
+<td height="22" valign="middle">
+<p>VENTAS E INGRESOS</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>La cuenta es el instrumento del que se vale la contabilidad para aplicar el principio de dualidad y se compone de un código, descripción e importe. Cada elemento que interviene en la realidad económica de la empresa se representa mediante una cuenta, que de manera simplificada se simboliza mediante la forma de una “T”.</p>
+<p>Por ejemplo, si compramos una máquina por 10.000 € que se paga por banco van a intervenir dos cuentas:</p>
+<p>215. Maquinaria 10.000</p>
+<p>572. Banco - 10.000</p>
+<p>Podemos observar que el código de cada cuenta comienza por el número del grupo al que pertenece: la máquina al grupo 2 (Activo no corriente) y el banco al 5 (cuentas financieras). El principio de dualidad hace que la representación contable de este hecho económico resulte así:</p>
+<table border="1" cellpadding="2" cellspacing="-1" style="width: 139px; height: 56px;">
+<tbody>
+<tr valign="top">
+<td colspan="2" width="161" height="17" valign="bottom">
+<p>215. Maquinaria</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="67" height="17" valign="bottom">
+<p>10.000</p>
+</td>
+<td width="84" height="17" valign="bottom">
+<p> </p>
+</td>
+</tr>
+<tr valign="top">
+<td width="67" height="17" valign="bottom"></td>
+<td width="84" height="17" valign="bottom">
+<p></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="67" height="17" valign="bottom">
+<p></p>
+</td>
+<td width="84" height="17" valign="bottom">
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" cellpadding="2" cellspacing="-1" style="width: 171px;">
+<tbody>
+<tr valign="top">
+<td colspan="2" width="161" height="17" valign="bottom">
+<p>572. Bancos</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="67" height="17" valign="bottom"></td>
+<td width="84" height="17" valign="bottom">
+<p>10.000</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="67" height="17" valign="bottom"></td>
+<td width="84" height="17" valign="bottom">
+<p> </p>
+</td>
+</tr>
+<tr valign="top">
+<td width="67" height="17" valign="bottom"></td>
+<td width="84" height="17" valign="bottom">
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>A la diferencia entre los importes incorporados en el Debe y los del Haber se le conoce como saldo. Según las sumas tendremos los siguientes saldos:</p>
+<ul>
+<li><b>Saldo deudor</b>: la suma del Debe es superior que la del Haber. En el ejemplo anterior la cuenta 215. Maquinaria queda con saldo deudor.</li>
+<li><b>Saldo acreedor</b>: la suma del Debe es inferior a la del Haber (el banco nos ha quedado con saldo acreedor).</li>
+</ul>
+<p>Cada cuenta se titula en función del concepto que exprese. Por ejemplo: la cuenta &lt;&lt;211. Construcciones&gt;&gt; aparece en el Plan definida como “Edificaciones en general cualquiera que sea su destino en la empresa”.</p>
+<p>Si buscamos en el Plan contable el número de la cuenta o el nombre nos aparece en la mayor parte de los casos la definición y la manera de su registro contable, en el Debe o en el Haber.</p>
+<table border="1" cellpadding="2" cellspacing="-1" style="width: 562px;">
+<tbody>
+<tr valign="top">
+<td height="34" valign="middle">
+<p><b>EN EL DEBE SE ANOTAN</b></p>
+</td>
+<td height="34" valign="middle">
+<p><b>EN EL HABER SE ANOTAN</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="48" valign="middle">
+<p>Aumentos de activos y disminuciones de pasivos y neto.</p>
+</td>
+<td height="48" valign="middle">
+<p>Disminuciones de activo y aumentos de pasivos y neto.</p>
+</td>
+</tr>
+<tr valign="top">
+<td height="48" valign="middle">
+<p>Gastos del ejercicio o año.</p>
+</td>
+<td height="48" valign="middle">
+<p>Ingresos del ejercicio.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Aclaremos este cuadro:</p>
+<p>Cuando hablamos de Activos nos referimos a elementos en posesión de la empresa, ya sean tangibles o no, tales como edificios, derechos de cobro frente a clientes…</p>
+<p>El Pasivo lo conforman las deudas o recursos que la empresa utiliza para financiarse. Los más comunes pueden ser deudas con entidades de crédito.</p>
+<p>El Neto se refiere principalmente a los recursos de financiación propia que son aportados por los socios (capital) o los que son consecuencia del resultado de la actividad de la empresa (beneficio del año).</p>
+<p>Los gastos se contabilizan con cuentas del grupo 6, y se refiere a gastos que soporta la empresa para poder desarrollar su actividad.</p>
+<p>Por el contrario, para los ingresos utilizamos cuentas del grupo 7 y van al Haber.</p>
+<p>Las cuentas se pueden clasificar en 2 grupos:</p>
+<ul>
+<li>Cuentas de balance: representan elementos del patrimonio de la empresa (tanto del activo como del pasivo).</li>
+<li>Cuentas de gestión: representan gastos o ingresos.</li>
+</ul>
+<h4><b>Libro Diario</b></h4>
+<p>El libro diario registrará todas las operaciones relativas a la actividad de la empresa mediante <b>asientos contables</b> correlativos y numerados. Para realizar un asiento, partimos de algún documento o soporte contable que reflejan el hecho económico (facturas, nóminas, cheques,…).</p>
+<p>Los asientos contables presentan una estructura similar a la siguiente:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="40" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="81" height="40" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="81" height="40" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="40" valign="middle">
+<p>Cuenta cargada</p>
+</td>
+<td width="81" height="40" valign="middle">
+<p>Importe</p>
+</td>
+<td width="81" height="40" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="40" valign="middle">
+<p>Cuenta abonada</p>
+</td>
+<td width="81" height="40" valign="middle"></td>
+<td width="81" height="40" valign="middle">
+<p>Importe</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>Las cuentas cargadas serán las representativas de aquellos elementos que constituyan los empleos de la operación y las cuentas abonadas las que expresen los conceptos correspondientes a los recursos. En cualquier asiento, la suma de los importes de las cuentas cargadas deberá coincidir con la suma de los valores de las cuentas abonadas.</p>
+<p>El libro diario constituye una herramienta fundamental para el desarrollo de la actividad contable y además su uso es obligatorio (Código de Comercio, Art. 28).</p>
+<p><b>EJEMPLO</b></p>
+<p><b>Compra de maquinaria por 100 euros en efectivo</b></p>
+<table border="1" cellpadding="4" cellspacing="-1" style="width: 446px;">
+<tbody>
+<tr valign="top">
+<td height="40" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="82" height="40" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="83" height="40" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="37" valign="middle">
+<p>Maquinaria (EMPLEO)</p>
+</td>
+<td width="82" height="37" valign="middle">
+<p>100</p>
+</td>
+<td width="83" height="37" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="40" valign="middle">
+<p>Caja (ORIGEN)</p>
+</td>
+<td width="82" height="40" valign="middle"></td>
+<td width="83" height="40" valign="middle">
+<p>100</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>El asiento se hace normalmente colocando dos líneas y en medio los elementos e importes. A veces se pone en la parte superior la fecha en que se realiza el asiento:</p>
+<table border="1" cellpadding="2" cellspacing="-1" style="width: 549px;">
+<tbody>
+<tr valign="top">
+<td width="70" height="21" valign="bottom">
+<p> </p>
+</td>
+<td width="70" height="21" valign="bottom">
+<p> </p>
+</td>
+<td width="70" height="21" valign="bottom">
+<p> </p>
+</td>
+<td width="59" height="21" valign="bottom">
+<p>01/12/0X</p>
+</td>
+<td width="70" height="21" valign="bottom"></td>
+<td width="70" height="21" valign="bottom"></td>
+<td width="70" height="21" valign="bottom"></td>
+</tr>
+<tr valign="top">
+<td width="70" height="23" valign="bottom">
+<p>100 euros</p>
+</td>
+<td width="70" height="23" valign="bottom">
+<p>(213)</p>
+</td>
+<td width="70" height="23" valign="bottom">
+<p>Maquinaria</p>
+</td>
+<td width="59" height="23" valign="bottom">
+<p>a</p>
+</td>
+<td width="70" height="23" valign="bottom">
+<p>(570)</p>
+</td>
+<td width="70" height="23" valign="bottom">
+<p>Caja</p>
+</td>
+<td width="70" height="23" valign="bottom">
+<p>100 euros</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Es necesario para que el asiento sea correcto que si hay más de una cuenta en el Debe o Haber sumen los dos lados el mismo importe.</p>
+<p><b>Ejemplo</b></p>
+<p>La maquinaria anterior se paga la mitad en efectivo y la otra mitad se le deja a deber al proveedor:</p>
+<table border="1" cellpadding="2" cellspacing="-1" style="width: 578px;">
+<tbody>
+<tr valign="top">
+<td width="62" height="18" valign="bottom">
+<p> </p>
+</td>
+<td width="62" height="18" valign="bottom">
+<p> </p>
+</td>
+<td width="66" height="18" valign="bottom">
+<p> </p>
+</td>
+<td width="62" height="18" valign="bottom">
+<p>01/12/0X</p>
+</td>
+<td width="62" height="18" valign="bottom"></td>
+<td height="18" valign="bottom"></td>
+<td width="62" height="18" valign="bottom"></td>
+</tr>
+<tr valign="top">
+<td width="62" height="18" valign="bottom">
+<p>100 euros</p>
+</td>
+<td width="62" height="18" valign="bottom">
+<p>(213)</p>
+</td>
+<td width="66" height="18" valign="bottom">
+<p>Maquinaria</p>
+</td>
+<td width="62" height="18" valign="bottom">
+<p>a</p>
+</td>
+<td width="62" height="18" valign="bottom">
+<p>(570)</p>
+</td>
+<td height="18" valign="bottom">
+<p>Caja</p>
+</td>
+<td width="62" height="18" valign="bottom">
+<p>50 euros</p>
+</td>
+</tr>
+<tr valign="top">
+<td width="62" height="18" valign="bottom"></td>
+<td width="62" height="18" valign="bottom"></td>
+<td width="66" height="18" valign="bottom"></td>
+<td width="62" height="18" valign="bottom"></td>
+<td width="62" height="18" valign="bottom">
+<p>(523)</p>
+</td>
+<td height="18" valign="bottom">
+<p>Proveedores de inmovilizado a corto plazo</p>
+</td>
+<td width="62" height="18" valign="bottom">
+<p>50 euros</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h4><b>Libro Mayor</b></h4>
+<p>Dado que cualquier empresa efectúa múltiples operaciones, la valoración de sus elementos será objeto de continuas variaciones. El libro mayor recoge todos los movimientos de una cuenta que se han anotado previamente en el Libro Diario. En el libro Diario se contabilizan todas las operaciones cronológicamente en forma de asientos contables; posteriormente, se crea una ficha por cada cuenta contable, que transcribe todos sus movimientos, formando el Libro Mayor.</p>
+<p>El Libro Mayor es un conjunto de fichas de cada cuenta, y en cada una de ellas aparece la fecha del movimiento, número de registro, contrapartida, valoración en el debe o en el haber y el saldo.</p>
+<p>El Mayor contiene todas las cuentas que se han ido registrando en el Diario hasta cierta fecha, en éstas se habrán ido anotando las alteraciones producidas. A través de estos registros será posible conocer el valor por el que figuran las distintas cuentas a esa fecha, siendo éste el cometido del Mayor.</p>
+<p>Al valor que presenta una cuenta en una fecha dada se le conoce con el nombre de saldo. Éste viene dado por la diferencia entre la suma del Debe y la suma del Haber de la correspondiente cuenta. El saldo puede ser:</p>
+<ul>
+<li>Deudor, si la suma del Debe es mayor que la del Haber.</li>
+<li>Acreedor, si la suma del Debe es inferior a la suma del Haber.</li>
+<li>Nulo, si el valor de ambas sumas coincide.</li>
+</ul>
+<p>En cualquier fecha, en el libro Mayor se cumplirá que la suma de los saldos deudores coincidirá con la suma de los saldos acreedores y, además, el valor total de las sumas del Debe será igual al importe total de las sumas del Haber.</p>
+<p><b>Ejemplo</b></p>
+<p>CENTRO FX, S.L. pide un préstamo de 100 € el día 6 de marzo para comprar un ordenador que cuesta 50 € (lo compra el 10 de marzo). Antes de realizar ninguna anotación en el Mayor, dado que se han apuntado pocas operaciones, se deduce que el dinero se ha incrementado en 50 €, que CENTRO FX, S. L. ha contraído una deuda por el préstamo recibido de 100 € y que a su patrimonio se ha sumado un ordenador nuevo valorado en 50€.</p>
+<p>El Mayor a día 10 de marzo quedaría como sigue:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td colspan="2" width="178" valign="top">
+<p><b>Debe</b></p>
+</td>
+<td colspan="2" width="178" valign="top">
+<p><b>«Dinero»</b></p>
+</td>
+<td colspan="2" width="178" valign="top">
+<p><b>Haber</b></p>
+</td>
+<td width="3"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>Día 6</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>100</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>50</p>
+</td>
+<td colspan="2" width="133" valign="top">
+<p>Día 10</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>Total</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>100</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>50</p>
+</td>
+<td colspan="2" width="133" valign="top">
+<p>Total</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><b>Saldo deudor 50 €</b></p>
+<p></p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td colspan="2" width="178" valign="top">
+<p><b>Debe</b></p>
+</td>
+<td colspan="2" width="178" valign="top">
+<p><b>«Ordenador»</b></p>
+</td>
+<td colspan="2" width="178" valign="top">
+<p><b>Haber</b></p>
+</td>
+<td width="3"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>Día 10</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>50</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>-</p>
+</td>
+<td colspan="2" width="133" valign="top">
+<p></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>Total</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>50</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>-</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>Total</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Saldo deudor 50 €</b></p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td colspan="2" width="178" valign="top">
+<p><b>Debe</b></p>
+</td>
+<td colspan="2" width="178" valign="top">
+<p><b>«Préstamo»</b></p>
+</td>
+<td colspan="2" width="178" valign="top">
+<p><b>Haber</b></p>
+</td>
+<td width="3"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p></p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p></p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>100</p>
+</td>
+<td colspan="2" width="133" valign="top">
+<p>Día 6</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>Total</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>–</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>100</p>
+</td>
+<td colspan="2" width="130" valign="top">
+<p>Total</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Saldo acreedor 100 €</b></p>
+<p>Se puede observar que el total de los saldos deudores asciende a 100 al igual que el único saldo acreedor. Por otro lado, el total de las sumas del Debe se eleva a 150 €, la misma cifra que resulta de agregar todas las sumas del Haber.</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

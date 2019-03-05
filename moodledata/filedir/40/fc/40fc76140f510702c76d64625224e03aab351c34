@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>5. Asignación XML </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">5. Asignación XML</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id13">
+<div class="iDevice emphasis0">
+<div id="ta13_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Mediante la opción Datos&gt;Obtener datos externos&gt;De otras fuentes&gt;Desde importación de datos XML podemos recuperar datos que estén alojados en lenguaje XML, un formato cada vez más habitual de intercambio de información entre aplicaciones. Asimismo, Excel es capaz de guardar las hojas de cálculo en dicho formato, de hecho es la opción por defecto.</p>
+<p>Más allá de la capacidad para importar o exportar datos en XML, Excel 2013 puede asignar un esquema XML, conocido como esquema XSD (<i>XML Schema Definition</i>), a una lista en una hoja de cálculo, facilitando la edición del contenido de archivos que se adhieren a dicho esquema. El esquema puede haber sido generado con herramientas como Microsoft InfoPath o, incluso, haberse escrito manualmente, si bien esto es menos habitual.</p>
+<p>Las asignaciones XML de la hoja de cálculo se establecen desde el Panel de tareas Origen XML, cuyo aspecto puede observar en la figura 4.28. Para abrirlo use la opción Desarrollador&gt;XML&gt;Origen. La lista que hay en la parte superior nos permite elegir una de las asignaciones disponibles y, en principio, estará vacía. El área central enumera los elementos de la asignación que tengamos elegida en la lista anterior.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aEpqeGRZMFpTSUlQcVk2JTJCOGEwR2pzNFlkRTR5WERnV3plSkxKcmVrcmlFJTNE" id="IMG_aEpqeGRZMFpTSUlQcVk2JTJCOGEwR2pzNFlkRTR5WERnV3plSkxKcmVrcmlFJTNE" alt="Bases de datos" title="Bases de datos" width="410" /></p>
+<p><b>Figura 4.28.</b> Panel de tareas con las asignaciones XML del libro.</p>
+<p>Inicialmente no existe asignación XML alguna, por lo que deberemos añadirlas haciendo clic en el botón <b>Asignaciones XML</b> que hay en la parte inferior. Éste abre un cuadro de diálogo (véase figura 4.29) en el que tenemos distintas opciones: agregar una nueva asignación, eliminar alguna de las que existen y cambiar su nombre. En la carpeta de ejemplos correspondiente a este capítulo encontrará un esquema XSD, con el nombre EsquemaCultivos.xsd, que puede añadir mediante el botón <b>Agregar</b>.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OGRCUHRZQURYNWdzS3doZm9tRWNoeUFqZXRwVTZ0SXBNZm53TWR3TVBVNCUzRA==" id="IMG_OGRCUHRZQURYNWdzS3doZm9tRWNoeUFqZXRwVTZ0SXBNZm53TWR3TVBVNCUzRA==" alt="Bases de datos" title="Bases de datos" width="310" /></p>
+<p><b>Figura 4.29.</b> Podemos agregar tantas asignaciones XML como precisemos.</p>
+<p>Una vez tenemos los elementos del esquema en el Panel de tareas podemos arrastrarlos hasta cualquier punto de la hoja de cálculo para generar automáticamente una lista, haciéndose visible la correspondiente barra de herramientas que conocimos ya en un capítulo previo.</p>
+<p>En principio la lista estará vacía, pero podemos importar cualquier archivo XML que se adapte al esquema previamente añadido al libro, sencillamente abriendo el menú contextual de la tabla y eligiendo XML&gt;Importar.</p>
+<p>También podemos introducir datos en la lista, directamente en la hoja o a través del formulario automático y, posteriormente, exportar los datos a un archivo XML.</p>
+<p>Gracias a esta capacidad, Excel puede utilizarse como un editor de archivos XML sin grandes problemas. No hay más que importar el esquema y el archivo de datos, operar sobre la lista y después exportar.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.1. Orígenes de datos </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.1. Orígenes de datos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Para poder recuperar una determinada información lo primero que debemos tener claro es su origen y la naturaleza de los datos. No es lo mismo solicitar ciertos datos de una base de datos, teniendo que efectuar una consulta más o menos compleja, que importar una tabla desde una página Web. Una vez definido el origen de los datos a usar, los parámetros pueden almacenarse para su posterior reutilización en caso de que fuese necesario.</p>
+<p>El origen de los datos puede ser local, por ejemplo un archivo en disco en un formato conocido, o bien remoto, por ejemplo en un servidor de datos o un servidor Web. La tabla 4.1 enumera algunos de los formatos de archivo que es posible importar desde Excel, parte de los cuales van a tratarse con más detalle a continuación.</p>
+<table style="border-width: 0px; border-collapse: collapse; width: 465px;" border="1" cellpadding="4" cellspacing="-2">
+<tbody>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" height="26" valign="top" width="73">
+<p><b>Formato</b></p>
+</td>
+<td style="border-width: 2px; border-color: #008000; border-style: solid; border-right: none; border-left: none; background-color: #339966;" height="26" valign="top">
+<p><b>Comentario</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top" width="73">
+<p>TXT</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Archivos de texto con datos de anchura fija o con separadores.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top" width="73">
+<p>CSV</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top">
+<p>Archivos de texto con datos separados por comas.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top" width="73">
+<p>DB</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Archivos de bases de datos Paradox.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top" width="73">
+<p>DBF</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top">
+<p>Archivos de bases de datos dBase.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top" width="73">
+<p>HTM/HTML</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Archivos con páginas Web.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top" width="73">
+<p>XML</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="25" valign="top">
+<p>Archivos con datos en formato XML.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top" width="73">
+<p>WK?</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border: none;" height="26" valign="top">
+<p>Archivos de Lotus 1-2-3.</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" height="25" valign="top" width="73">
+<p>MDB</p>
+</td>
+<td style="border-width: 2px; border-color: #000000; border-style: solid; border-top: none; border-right: none; border-left: none;" height="25" valign="top">
+<p>Archivos de bases de datos Access.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Tabla 4.1. </b> Formatos de archivo que puede importar Excel.</p>
+<p>Estos formatos de archivo almacenan la información propiamente dicha, es decir, ellos son el origen de los datos a tratar. En otras ocasiones, sin embargo, lo que el archivo contendrá será la información para acceder al origen de los datos y no los datos en sí, por ejemplo el nombre del servidor de datos y una consulta SQL, o bien la referencia a una página Web que contiene una tabla.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

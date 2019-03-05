@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.1. If/Then/Else </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.1. If/Then/Else</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>La instrucción If puede usarse en distintos formatos, dependiendo de la complejidad de la condición a evaluar. En su formato más sencillo, la orden If irá seguida de una expresión condicional, la palabra Then y una o más sentencias a ejecutar en caso de que la expresión condicional sea cierta. El siguiente es un ejemplo simple de estructura condicional.</p>
+<p>If ActiveCell.Value &gt; 100000 Then</p>
+<p>ActiveCel.Font.Bold = True</p>
+<p>End If</p>
+<p>Como puede ver, comprobamos si el valor de la celdilla activa es superior a un cierto número. Si esto es así, el resultado de la expresión es True, ponemos el contenido de la celdilla en negrita. Si la expresión no es cierta la sentencia que hay entre el If y el End If no será ejecutada nunca, por lo que el contenido de la celdilla quedaría tal cual está.</p>
+<p>En el caso de que la expresión condicional sea falsa, la ejecución se transfiere automáticamente a la sentencia que haya detrás del End If. Dicha sentencia, y las siguientes, se ejecutarán siempre, tanto si el condicional se resuelve afirmativamente como si lo hace negativamente. A veces, sin embargo, podemos necesitar que una o más sentencias se ejecuten sólo si el resultado del condicional es False.</p>
+<p>La respuesta a esta necesidad la encontramos en la palabra Else. Ésta se dispondrá siempre detrás de las sentencias que se han de ejecutar en caso que la expresión sea cierta, e irá seguida de las sentencias que queremos ejecutar cuando el condicional devuelva False. El siguiente fragmento sería un ejemplo claro:</p>
+<p>If ActiveCell.Value &gt; 100000 Then</p>
+<p>ActiveCell.Font.Bold = True</p>
+<p>Else</p>
+<p>ActiveCell.Font.Italic = True</p>
+<p>End If</p>
+<p>En este caso, si el valor de la celdilla es mayor que 100000 se pondrá en negrita y en caso negativo, si dicho valor es 100000 o menos, el dato aparecerá en cursiva. La ejecución de una sentencia u otra es exclusiva, es decir, tan sólo puede ejecutarse una de ellas según el resultado de la expresión condicional.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

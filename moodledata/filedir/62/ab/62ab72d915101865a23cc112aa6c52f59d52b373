@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2. Manipulación de los datos </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2. Manipulación de los datos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id5">
+<div class="iDevice emphasis0">
+<div id="ta5_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Utilizando los mecanismos que acaban de describirse ya podemos elegir una celdilla o un rango de celdillas. El paso siguiente será acceder a su contenido, ya sea simplemente para examinarlo o también para modificarlo.</p>
+<p>Otros elementos que podemos manipular de una celdilla, aparte del contenido, es su formato: los bordes que tienen alrededor, tipo de letra, etc.</p>
+<p>Las dos propiedades fundamentales para acceder al contenido de las celdillas son Value (devuelve el valor que contiene la celdilla, incluso si es el resultado de una fórmula) y Formula (devolvería una cadena de texto con la fórmula propiamente dicha).</p>
+<p>A la hora de asignar un contenido a la celdilla puede usar indistintamente cualquiera de las dos propiedades. El resultado sería el mismo.</p>
+<p>Para conocer o modificar el formato de las celdillas tenemos varias propiedades. Todo lo relacionado con el tipo de letra, su tamaño o atributos lo encontraremos en la propiedad Font. La propiedad Borders afecta a los bordes de la celdilla, estableciendo el tipo de línea, grosor y color, entre otras características.</p>
+<p>El formato de representación de los datos numéricos se establece mediante la propiedad NumberFormat. Asignando a esta propiedad el valor “#,##0.00”, por ejemplo, el dato alojado en la celdilla aparecerá con puntos para la separación de miles y dos decimales.</p>
+<p>Cuando sea necesario eliminar el contenido de la celdilla, o incluso los formatos asociados, bastará con llamar a los métodos ClearContents o Clear, respectivamente, de las celdillas sobre las que se desee actuar.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

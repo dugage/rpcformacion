@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>2.3. Orden de acceso a los componentes </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">2.3. Orden de acceso a los componentes</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Con el método Show haríamos aparecer un cuadro de diálogo personalizado, mientras que usando el método Hide del propio cuadro de diálogo lo ocultaríamos. Al mostrarlo, el acceso a los componentes se realizará como en cualquier otra ventana. En principio habrá un control activo y utilizando la tecla <b>Tab</b> iríamos accediendo a los demás.</p>
+<p>Todos los controladores cuentan con las propiedades TabStop y TabIndex. Con la primera indicaremos si debe accederse o no al control usando la tecla <b>Tab</b>. El valor por defecto, True, indica que así debe ser, pero podemos modificarlo. Mediante TabIndex se establece el orden de acceso a los componentes. Su contenido será un número que indicará la posición que ocupa el control en ese orden de acceso, independientemente de su posición física en el formulario.</p>
+<p>En lugar de establecer individualmente la propiedad TabIndex de cada componente, lo cual es un poco tedioso, puede usar la opción Orden de tabulación del menú emergente asociado al formulario. Al elegirla aparecerá una ventana, similar a la de la figura 16.3.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UGhyMjVvSVZxUE43Rm1naWVkZGh2RE5SSjltVUZFZ0I4T0lRRkZJRzFESSUzRA==" id="IMG_UGhyMjVvSVZxUE43Rm1naWVkZGh2RE5SSjltVUZFZ0I4T0lRRkZJRzFESSUzRA==" alt="Cuadros de diálogo " title="Cuadros de diálogo " width="255" /></p>
+<p><b>Figura 16.3.</b> Ventana para establecer el orden de acceso con el tabulador.</p>
+<p>En la lista aparecen todos los controles del formulario. Puede seleccionar cualquiera de ellos y, a continuación, utilizar los botones <b>Mover arriba </b> y <b>Mover abajo</b> para cambiar el orden de acceso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

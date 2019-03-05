@@ -1,0 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | Los derechos reales de garantía, la hipoteca </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id198">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 3;
+var key1 = 3;
+var key2 = 1;
+var key3 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b198");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm198").key0b198[i].checked)
+               {
+                  question0 = document.getElementById("quizForm198").key0b198[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b198");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm198").key1b198[i].checked)
+               {
+                  question1 = document.getElementById("quizForm198").key1b198[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b198");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm198").key2b198[i].checked)
+               {
+                  question2 = document.getElementById("quizForm198").key2b198[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b198");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm198").key3b198[i].checked)
+               {
+                  question3 = document.getElementById("quizForm198").key3b198[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm198").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm198" id="quizForm198" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-198" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b198" class="block iDevice_content">
+<div class="ee_enunciado"><strong>¿Cuál de las siguientes es una clase de derechos reales de garantía en función de la naturaleza de los bienes afectados?</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1981" class="sr-av"><a href="#answer-key0b1981">Opción 1</a></label><input type="radio" name="key0b198" id="key0b1981" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1981"><a name="answer-key0b1981"></a>
+<div id="taoptionAnswer0q0b198" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La prenda.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1982" class="sr-av"><a href="#answer-key0b1982">Opción 2</a></label><input type="radio" name="key0b198" id="key0b1982" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1982"><a name="answer-key0b1982"></a>
+<div id="taoptionAnswer1q0b198" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La hipoteca.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1983" class="sr-av"><a href="#answer-key0b1983">Opción 3</a></label><input type="radio" name="key0b198" id="key0b1983" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1983"><a name="answer-key0b1983"></a>
+<div id="taoptionAnswer2q0b198" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">La anticresis.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1984" class="sr-av"><a href="#answer-key0b1984">Opción 4</a></label><input type="radio" name="key0b198" id="key0b1984" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1984"><a name="answer-key0b1984"></a>
+<div id="taoptionAnswer3q0b198" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Todas las respuestas anteriores son correctas.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b198" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Al hablar del derecho que va a recaer sobre bienes inmuebles y que requiere para su constitución la pérdida de posesión por el deudor, ¿a qué nos referimos?</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1981" class="sr-av"><a href="#answer-key1b1981">Opción 1</a></label><input type="radio" name="key1b198" id="key1b1981" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1981"><a name="answer-key1b1981"></a>
+<div id="taoptionAnswer0q1b198" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A la hipoteca inmobiliaria.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1982" class="sr-av"><a href="#answer-key1b1982">Opción 2</a></label><input type="radio" name="key1b198" id="key1b1982" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1982"><a name="answer-key1b1982"></a>
+<div id="taoptionAnswer1q1b198" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A los derechos reales de garantía en general.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1983" class="sr-av"><a href="#answer-key1b1983">Opción 3</a></label><input type="radio" name="key1b198" id="key1b1983" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1983"><a name="answer-key1b1983"></a>
+<div id="taoptionAnswer2q1b198" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A las obligaciones de la hipoteca.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1984" class="sr-av"><a href="#answer-key1b1984">Opción 4</a></label><input type="radio" name="key1b198" id="key1b1984" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1984"><a name="answer-key1b1984"></a>
+<div id="taoptionAnswer3q1b198" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Ninguna de las respuestas es correcta.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b198" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Completa la siguiente afirmación: </strong><span>“La hipoteca requiere ___________, porque se va a exigir la inscripción en el Registro de la Propiedad”.</span></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1981" class="sr-av"><a href="#answer-key2b1981">Opción 1</a></label><input type="radio" name="key2b198" id="key2b1981" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1981"><a name="answer-key2b1981"></a>
+<div id="taoptionAnswer0q2b198" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Compromiso.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1982" class="sr-av"><a href="#answer-key2b1982">Opción 2</a></label><input type="radio" name="key2b198" id="key2b1982" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1982"><a name="answer-key2b1982"></a>
+<div id="taoptionAnswer1q2b198" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Publicidad.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1983" class="sr-av"><a href="#answer-key2b1983">Opción 3</a></label><input type="radio" name="key2b198" id="key2b1983" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1983"><a name="answer-key2b1983"></a>
+<div id="taoptionAnswer2q2b198" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Autentificación.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1984" class="sr-av"><a href="#answer-key2b1984">Opción 4</a></label><input type="radio" name="key2b198" id="key2b1984" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1984"><a name="answer-key2b1984"></a>
+<div id="taoptionAnswer3q2b198" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Calidad.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b198" class="block iDevice_content">
+<p><strong>Indica si la siguiente afirmación es verdadera o falsa:</strong><span></span><em>“Durante la vigencia de la hipoteca, el bien sigue estando el posesión del deudor”.</em></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1981" class="sr-av"><a href="#answer-key3b1981">Opción 1</a></label><input type="radio" name="key3b198" id="key3b1981" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1981"><a name="answer-key3b1981"></a>
+<div id="taoptionAnswer0q3b198" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1982" class="sr-av"><a href="#answer-key3b1982">Opción 2</a></label><input type="radio" name="key3b198" id="key3b1982" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1982"><a name="answer-key3b1982"></a>
+<div id="taoptionAnswer1q3b198" class="block iDevice_content">
+<p>Falso.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id199">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-199_108">
+<form name="multi-select-form-199_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion199_108" class="block question iDevice_content">
+<div class="ee_enunciado"><strong>¿Cuáles son los sujetos de la relación hipotecaria? (Respuesta múltiple)</strong><strong> </strong></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op199_1080" class="sr-av"><a href="#answer-199_111">Opción 1</a></label><input type="checkbox" id="op199_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-199_111"><a name="answer-199_111"></a>
+<div id="taans199_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Deudor.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-199_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op199_1081" class="sr-av"><a href="#answer-199_453">Opción 2</a></label><input type="checkbox" id="op199_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-199_453"><a name="answer-199_453"></a>
+<div id="taans199_453" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Acreedor.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-199_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op199_1082" class="sr-av"><a href="#answer-199_455">Opción 3</a></label><input type="checkbox" id="op199_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-199_455"><a name="answer-199_455"></a>
+<div id="taans199_455" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Consignatario.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-199_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op199_1083" class="sr-av"><a href="#answer-199_457">Opción 4</a></label><input type="checkbox" id="op199_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-199_457"><a name="answer-199_457"></a>
+<div id="taans199_457" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Poseedor.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-199_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'199_108')"/> 
+</p>
+</div>
+<div id="f199_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-199_111" class="right">Correcto</a></li>
+<li><a href="#answer-199_453" class="right">Correcto</a></li>
+<li><a href="#answer-199_455" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-199_457" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

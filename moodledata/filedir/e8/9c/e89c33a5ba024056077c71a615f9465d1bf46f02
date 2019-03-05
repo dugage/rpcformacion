@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-0" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id0">
+<div class="iDevice emphasis0">
+<div id="ta0_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id1">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b1");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm1").key0b1[i].checked)
+               {
+                  question0 = document.getElementById("quizForm1").key0b1[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm1").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm1" id="quizForm1" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-1" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b1" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">1. <strong>¿Qué otro nombre recibe el ahogamiento seco?</strong></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b11" class="sr-av"><a href="#answer-key0b11">Opción 1</a></label><input type="radio" name="key0b1" id="key0b11" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b11">
+<div id="taoptionAnswer0q0b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Ahogamiento blanco.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b12" class="sr-av"><a href="#answer-key0b12">Opción 2</a></label><input type="radio" name="key0b1" id="key0b12" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b12">
+<div id="taoptionAnswer1q0b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Ahogamiento azul.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b13" class="sr-av"><a href="#answer-key0b13">Opción 3</a></label><input type="radio" name="key0b1" id="key0b13" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b13">
+<div id="taoptionAnswer2q0b1" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Ahogamiento morado.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore1"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id2">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2_100" class="block iDevice_content">
+<div class="numeracion">2. <strong> Confirma si la siguiente afirmación es verdadera o falsa:</strong></div>
+</div>
+<section class="question">
+<form name="true-false-form-0b2" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b2" class="block iDevice_content">
+<p><em>“En el paro cardíaco la circulación cesa y los órganos vitales se encuentran desprovistos de oxígeno”.</em></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b2"><input type="radio" name="option0b2" id="true0b2" class="exe-radio-option exe-radio-option-0-2-0b2-truefalse" /> Verdadero</label> 
+<label for="false0b2"><input type="radio" name="option0b2" id="false0b2" class="exe-radio-option exe-radio-option-1-2-0b2-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b2" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b2-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id3">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b3");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm3").key0b3[i].checked)
+               {
+                  question0 = document.getElementById("quizForm3").key0b3[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm3").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm3" id="quizForm3" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-3" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b3" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">3. <strong>Fractura en la cual el foco comunica con el exterior, produciéndose una herida:</strong></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b31" class="sr-av"><a href="#answer-key0b31">Opción 1</a></label><input type="radio" name="key0b3" id="key0b31" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b31">
+<div id="taoptionAnswer0q0b3" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Fractura cerrada.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b32" class="sr-av"><a href="#answer-key0b32">Opción 2</a></label><input type="radio" name="key0b3" id="key0b32" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b32">
+<div id="taoptionAnswer1q0b3" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Fractura abierta.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b33" class="sr-av"><a href="#answer-key0b33">Opción 3</a></label><input type="radio" name="key0b3" id="key0b33" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b33">
+<div id="taoptionAnswer2q0b3" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Fractura trasversal.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore3"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id4">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-4_108">
+<form name="multi-select-form-4_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion4_108" class="block question iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">4. <strong>¿Cuál será el tratamiento para un esguince grave? (Respuesta múltiple)</strong></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op4_1080" class="sr-av"><a href="#answer-4_111">Opción 1</a></label><input type="checkbox" id="op4_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-4_111"><div id="taans4_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La inmovilización durante varias semanas.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-4_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op4_1081" class="sr-av"><a href="#answer-4_163">Opción 2</a></label><input type="checkbox" id="op4_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-4_163"><div id="taans4_163" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">La inmovilización mediante vendaje compresivo.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-4_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op4_1082" class="sr-av"><a href="#answer-4_165">Opción 3</a></label><input type="checkbox" id="op4_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-4_165"><div id="taans4_165" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Fisioterapia.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-4_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-4_108" /> 
+</p>
+</div>
+<section id="f4_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-4_111" class="right">Correcto</a></li>
+<li><a href="#answer-4_163" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-4_165" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id5">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b5");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm5").key0b5[i].checked)
+               {
+                  question0 = document.getElementById("quizForm5").key0b5[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm5").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm5" id="quizForm5" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-5" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b5" class="block iDevice_content">
+<div class="ee_enunciado">
+<div class="numeracion">5. <strong>¿Cómo se realiza el diagnóstico de una luxación?</strong></div>
+</div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b51" class="sr-av"><a href="#answer-key0b51">Opción 1</a></label><input type="radio" name="key0b5" id="key0b51" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b51">
+<div id="taoptionAnswer0q0b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Mediante la técnica táctil.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b52" class="sr-av"><a href="#answer-key0b52">Opción 2</a></label><input type="radio" name="key0b5" id="key0b52" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b52">
+<div id="taoptionAnswer1q0b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Mediante una sola radiografía.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b53" class="sr-av"><a href="#answer-key0b53">Opción 3</a></label><input type="radio" name="key0b5" id="key0b53" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b53">
+<div id="taoptionAnswer2q0b5" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Mediante una exploración radiológica en los dos planos.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore5"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

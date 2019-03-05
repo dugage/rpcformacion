@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.1. Libros, hojas, celdillas y rangos </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4.1. Libros, hojas, celdillas y rangos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Abra un libro nuevo y después pulse <b>Alt-F11</b> para acceder directamente al editor de Visual Basic. Acto seguido pulse <b>F2</b> para abrir el Examinador de objetos.</p>
+<p>Vamos a comenzar inspeccionando los elementos globales, a los cuales podemos hacer referencia en el código sin necesidad de poner delante nombre de objeto alguno.</p>
+<p>En dicha lista de elementos globales hay decenas de objetos y constantes. Vamos a centrarnos sólo en algunas de ellas. Localice los elementos siguientes:</p>
+<ul>
+<li>ActiveCell: es una propiedad que sólo puede leerse, podemos recuperar su contenido pero no modificarlo. Dicho contenido es una referencia a la celdilla activa. Si la selecciona en el Examinador de objetos verá que su tipo es Range.</li>
+<li>Selection: similar a la anterior, si bien en este caso la referencia es a la selección actual, todo el rango seleccionado, y no sólo a la celdilla que esté activa.</li>
+<li>ActiveWorkbook: libro que está activo. Ésta es una propiedad de tipo Workbook, una clase de objeto que representa a un libro, con todos sus componentes. Seleccione en la lista de la izquierda el elemento Workbook para ver sus eventos, propiedades y métodos.</li>
+<li>Worksheets: es una de las propiedades de Workbook. Se trata de una colección, un objeto que contiene a varios otros. En este caso concreto lo que tenemos es la colección de hojas que existen en el libro. Cada uno de los elementos de esa colección es un objeto de Worksheet, representando una hoja.</li>
+<li>Name: se trata de una propiedad existente en prácticamente todos los objetos. En el caso de la propiedad Name del objeto Worksheet, podemos tanto obtener como modificar el nombre de la hoja.</li>
+</ul>
+<p>Cada uno de los objetos mencionados cuenta con propiedades y métodos, algunos de los cuales conocerá en los puntos siguientes.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

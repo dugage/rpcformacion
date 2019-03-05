@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3. Definición de funciones </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3. Definición de funciones</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>El editor Visual Basic no se usa sólo para editar o crear macros, pudiendo servirnos también para definir funciones propias, funciones que nos servirían, como cualesquiera otras, a la hora de componer fórmulas en nuestras hojas de cálculo.</p>
+<p>Comenzaremos abriendo el editor de Visual Basic, usando para ello la opción Desarrollador&gt;Código&gt;Visual Basic. También puede utilizar la combinación de teclas <b>Alt-F11</b> para conseguir el mismo resultado. Introduzca al inicio o al final del editor, no entre las líneas que componen la macro que ya existe, las sentencias siguientes:</p>
+<p>‘ Función Cubo</p>
+<p>Function Cubo (Operando)</p>
+<p>Cubo = Operando * Operando * Operando</p>
+<p>End Function</p>
+<p>Con la palabra Function indicamos que estamos definiendo una función, en este caso llamada Cubo. Dicha función toma un único parámetro al que nosotros hemos llamado Operando. Tanto el nombre de la función como de los posibles parámetros podría ser cualquier otro, siempre que respetásemos unas ciertas normas.</p>
+<p>El fin de la función viene señalado por la línea End Function, con lo que el cuerpo, las órdenes que componen la función, en este caso está reducido a una sola línea. En ella indicamos que para calcular el Cubo, que es el nombre de la función, hay que multiplicar el Operando por sí mismo tres veces. Sólo con esto ya tenemos escrita nuestra primera función.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TSUyRiUyQmRvWTU3aUNtY0REVWFXRlBIcGpjbVdSTGF4ZTk3SDlDSDIxOG53M0ElM0Q=" id="IMG_TSUyRiUyQmRvWTU3aUNtY0REVWFXRlBIcGpjbVdSTGF4ZTk3SDlDSDIxOG53M0ElM0Q=" alt="Macros y funciones" title="Macros y funciones" width="481" /></p>
+<p><b>Figura 11.7.</b> El editor de Visual Basic con el código de nuestra primera función.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dkIwd1NQcGtuclBYR3IlMkZyMzVQRHJ5bjN1ZzR5SUc5ZVF1TFlvcTFHWEZzJTNE" id="IMG_dkIwd1NQcGtuclBYR3IlMkZyMzVQRHJ5bjN1ZzR5SUc5ZVF1TFlvcTFHWEZzJTNE" alt="Macros y funciones" title="Macros y funciones" width="356" /></p>
+<p><b>Figura 11.8.</b> Lista de funciones definidas por el usuario, con la función Cubo.</p>
+<p>Para usar esta nueva función actuaríamos como con cualquier otra, introduciéndola como una fórmula en una celdilla de la hoja de cálculo. La función aparecerá en el grupo de funciones definidas por el usuario (véase figura 11.8). El resultado será el cubo del dato facilitado como parámetro a la función. Siguiendo el mismo esquema podría definir funciones para, por ejemplo, calcular el área de un cuadrado o rectángulo y efectuar operaciones igualmente simples.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UUdTSDFFMyUyRm1aZHQxcUV3RzNwVnR4UjFhJTJGaktkbkwwWXJ5Zlo0c1lQT1UlM0Q=" id="IMG_UUdTSDFFMyUyRm1aZHQxcUV3RzNwVnR4UjFhJTJGaktkbkwwWXJ5Zlo0c1lQT1UlM0Q=" alt="Macros y funciones" title="Macros y funciones" width="419" /></p>
+<p><b>Figura 11.9.</b> Ventana de introducción de fórmulas con el resultado de la llamada de la función.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Cálculo Del Resultado </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Cálculo Del Resultado</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_85" class="block iDevice_content">
+<p>El resultado de un ejercicio es la diferencia entre los ingresos y gastos imputados al mismo.</p>
+<table border="0" cellpadding="4" cellspacing="0">
+<tbody>
+<tr valign="top">
+<td height="46" valign="middle">
+<p>Resultado = Ingresos – Gastos</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Básicamente, los ingresos expresan el importe de las ventas de los productos fabricados por la empresa o los servicios que presta. Los gastos son factores productivos que la empresa adquiere para la obtención de aquéllos. Estudiaremos estos conceptos con mayor profundidad en el tema correspondiente.</p>
+<p>Para hallar el resultado de la empresa de un período, tenemos que realizar un asiento en el libro diario en el que se abonan (anotar en el haber) las cuentas de gastos y se cargan (anotar en el debe) las cuentas de ingresos, utilizando en ambos casos como contrapartida una cuenta de nombre “resultado del ejercicio”.</p>
+<p>La representación esquemática del asiento del que hablamos sería:</p>
+<table border="1" cellpadding="4" cellspacing="-1" style="width: 507px;">
+<tbody>
+<tr valign="top">
+<td height="34" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="85" height="34" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="85" height="34" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="32" valign="middle">
+<p>Resultado del ejercicio</p>
+</td>
+<td width="85" height="32" valign="middle">
+<p>-</p>
+</td>
+<td width="85" height="32" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="38" valign="middle">
+<p>Gastos</p>
+</td>
+<td width="85" height="38" valign="middle"></td>
+<td width="85" height="38" valign="middle">
+<p>-</p>
+</td>
+</tr>
+<tr valign="top">
+<td height="38" valign="middle">
+<p>Ingresos</p>
+</td>
+<td width="85" height="38" valign="middle">
+<p>-</p>
+</td>
+<td width="85" height="38" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="38" valign="middle">
+<p>Resultado del ejercicio</p>
+</td>
+<td width="85" height="38" valign="middle"></td>
+<td width="85" height="38" valign="middle">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>De esta forma, en el libro mayor todas las cuentas de gastos e ingresos quedan saldadas. El saldo de las mismas queda recogido en el saldo de la cuenta “resultado del ejercicio”.</p>
+<p>Veamos esta operación dentro de nuestro ejemplo:</p>
+<p>La empresa vendió mercaderías por un total de 1.700 €. Por otro lado, se compraron mercaderías por 1.500 €. Además, la cuenta Variación de Mercaderías supone un gasto o ingreso dependiendo de su saldo. En nuestro caso tiene saldo Deudor por lo que consiste en un gasto. El asiento del resultado del ejercicio será:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="36" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="92" height="36" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="92" height="36" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="36" valign="middle">
+<p>Resultado del ejercicio</p>
+</td>
+<td width="92" height="36" valign="middle">
+<p>1550</p>
+</td>
+<td width="92" height="36" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="36" valign="middle">
+<p>Compra de Mercaderías</p>
+</td>
+<td width="92" height="36" valign="middle"></td>
+<td width="92" height="36" valign="middle">
+<p>1500</p>
+</td>
+</tr>
+<tr valign="top">
+<td height="36" valign="middle">
+<p>Variación de Mercaderías</p>
+</td>
+<td width="92" height="36" valign="middle"></td>
+<td width="92" height="36" valign="middle">
+<p>50</p>
+</td>
+</tr>
+<tr valign="top">
+<td height="36" valign="middle">
+<p>Venta de Mercaderías</p>
+</td>
+<td width="92" height="36" valign="middle">
+<p>1700</p>
+</td>
+<td width="92" height="36" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="36" valign="middle">
+<p>Resultado del ejercicio</p>
+</td>
+<td width="92" height="36" valign="middle"></td>
+<td width="92" height="36" valign="middle">
+<p>1700</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>El Libro Mayor de la cuenta Resultado del ejercicio queda de la siguiente forma:</p>
+<table border="1" cellpadding="5" cellspacing="0" style="width: 95%;">
+<tbody>
+<tr valign="top">
+<td width="30%" height="35" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td colspan="2" height="35" valign="middle">
+<p><b>RESULTADO DEL EJERCICIO</b></p>
+</td>
+<td width="30%" height="35" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="30%" valign="middle"></td>
+<td width="20%" valign="middle">
+<p>1550 €</p>
+</td>
+<td width="20%" valign="middle">
+<p>1700 €</p>
+</td>
+<td width="30%" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td width="30%" valign="middle">
+<p>Suma</p>
+</td>
+<td width="20%" valign="middle">
+<p>1550 €</p>
+</td>
+<td width="20%" valign="middle">
+<p>1700 €</p>
+</td>
+<td width="30%" valign="middle">
+<p>Suma</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><b>Saldo acreedor 150 €</b></p>
+<p>El saldo acreedor de 150 € nos informa de que hemos tenido beneficio, lo cual se puede deducir también al observar que las cuentas de ingreso son mayores que las de gasto. Si el saldo de la cuenta Resultado del Ejercicio es deudor implica pérdidas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

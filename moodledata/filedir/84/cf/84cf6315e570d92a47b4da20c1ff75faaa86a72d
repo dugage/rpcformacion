@@ -1,0 +1,779 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | TEMA 6. ELEMENTOS COMUNES Y PRIVATIVOS. </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id146">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 0;
+var key1 = 0;
+var key2 = 2;
+var key3 = 1;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b146");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm146").key0b146[i].checked)
+               {
+                  question0 = document.getElementById("quizForm146").key0b146[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b146");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm146").key1b146[i].checked)
+               {
+                  question1 = document.getElementById("quizForm146").key1b146[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b146");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm146").key2b146[i].checked)
+               {
+                  question2 = document.getElementById("quizForm146").key2b146[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b146");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm146").key3b146[i].checked)
+               {
+                  question3 = document.getElementById("quizForm146").key3b146[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b146");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm146").key4b146[i].checked)
+               {
+                  question4 = document.getElementById("quizForm146").key4b146[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm146").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm146" id="quizForm146" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-146" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b146" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica si la siguiente afirmación es verdadera o falsa: “Los elementos comunes son indivisibles”.</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1461" class="sr-av"><a href="#answer-key0b1461">Opción 1</a></label><input type="radio" name="key0b146" id="key0b1461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1461"><a name="answer-key0b1461"></a>
+<div id="taoptionAnswer0q0b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1462" class="sr-av"><a href="#answer-key0b1462">Opción 2</a></label><input type="radio" name="key0b146" id="key0b1462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1462"><a name="answer-key0b1462"></a>
+<div id="taoptionAnswer1q0b146" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+</div>
+<div class="botonera" id="botonera"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b146" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica si la siguiente afirmación es verdadera o falsa: "El Art. 17 LPH establece que el establecimiento o supresión de los servicios de portería, conserjería, vigilancia u otros servicios comunes de interés general, incluso cuando supongan la modificación del título constitutivo o de los estatutos, requerirá el voto favorable de las tres quintas partes del total de propietarios que, a su vez, representen las tres quintas partes de las cuotas de participación”.</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1461" class="sr-av"><a href="#answer-key1b1461">Opción 1</a></label><input type="radio" name="key1b146" id="key1b1461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1461"><a name="answer-key1b1461"></a>
+<div id="taoptionAnswer0q1b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1462" class="sr-av"><a href="#answer-key1b1462">Opción 2</a></label><input type="radio" name="key1b146" id="key1b1462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1462"><a name="answer-key1b1462"></a>
+<div id="taoptionAnswer1q1b146" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b146" class="block iDevice_content">
+<div class="ee_enunciado"><strong>¿A qué hace referencia el vuelo en la finca?</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1461" class="sr-av"><a href="#answer-key2b1461">Opción 1</a></label><input type="radio" name="key2b146" id="key2b1461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1461"><a name="answer-key2b1461"></a>
+<div id="taoptionAnswer0q2b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Al tejado.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1462" class="sr-av"><a href="#answer-key2b1462">Opción 2</a></label><input type="radio" name="key2b146" id="key2b1462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1462"><a name="answer-key2b1462"></a>
+<div id="taoptionAnswer1q2b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A la terraza común del último piso.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1463" class="sr-av"><a href="#answer-key2b1463">Opción 3</a></label><input type="radio" name="key2b146" id="key2b1463" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1463"><a name="answer-key2b1463"></a>
+<div id="taoptionAnswer2q2b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Al derecho a edificar sobre lo ya construido.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1464" class="sr-av"><a href="#answer-key2b1464">Opción 4</a></label><input type="radio" name="key2b146" id="key2b1464" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1464"><a name="answer-key2b1464"></a>
+<div id="taoptionAnswer3q2b146" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Al patio común.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b146" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica si la siguiente afirmación es verdadera o falsa: “La construcción de nuevas plantas y cualquier otra alteración en la estructura o fábrica del edificio o de las cosas comunes afectarán únicamente a las normas de régimen interno”.</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1461" class="sr-av"><a href="#answer-key3b1461">Opción 1</a></label><input type="radio" name="key3b146" id="key3b1461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1461"><a name="answer-key3b1461"></a>
+<div id="taoptionAnswer0q3b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1462" class="sr-av"><a href="#answer-key3b1462">Opción 2</a></label><input type="radio" name="key3b146" id="key3b1462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1462"><a name="answer-key3b1462"></a>
+<div id="taoptionAnswer1q3b146" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falsa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b146" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica si la siguiente afirmación es verdadera o falsa: “Las cimentaciones son elemento común en cuanto constituyen una parte esencial y básica del edificio, para uso y servicio de todos los condueños, por ello en caso de construcción de nuevas plantas, si es necesario reforzarlas será necesaria la adopción de acuerdos tal como establece el Art. 17 LPH”.</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1461" class="sr-av"><a href="#answer-key4b1461">Opción 1</a></label><input type="radio" name="key4b146" id="key4b1461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1461"><a name="answer-key4b1461"></a>
+<div id="taoptionAnswer0q4b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadera.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1462" class="sr-av"><a href="#answer-key4b1462">Opción 2</a></label><input type="radio" name="key4b146" id="key4b1462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1462"><a name="answer-key4b1462"></a>
+<div id="taoptionAnswer1q4b146" class="block iDevice_content">
+<p>Falsa.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id0">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Pregunta Verdadero-Falso</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta0_100" class="block iDevice_content">
+
+</div>
+<div class="question">
+<form name="true-false-form-0b0" action="#" class="activity-form">
+<h3 class="js-sr-av">Pregunta 1</h3>
+<div id="taquestion0b0" class="block iDevice_content">
+
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b0"><input type="radio" name="option0b0" id="true0b0" onclick="getFeedback(0,2,'0b0','truefalse')" /> Verdadero</label> 
+<label for="false0b0"><input type="radio" name="option0b0" id="false0b0" onclick="getFeedback(1,2,'0b0','truefalse')" /> Falso</label>
+</p>
+</form>
+<div id="s0b0" class="feedback js-feedback js-hidden">
+<h4 class="js-sr-av">Retroalimentación</h4>
+<p><strong id="s0b0-result" class="wrong">Falso</strong></p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id1">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Pregunta de Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-1_108">
+<form name="multi-select-form-1_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1_108" class="block question iDevice_content">
+
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op1_1080" class="sr-av"><a href="#answer-1_111">Opción 1</a></label><input type="checkbox" id="op1_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-1_111"><a name="answer-1_111"></a>
+<div id="taans1_111" class="block iDevice_content">
+
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-1_1080" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,1,'1_108')"/> 
+</p>
+</div>
+<div id="f1_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-1_111" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper ListaIdevice em_iDevice" id="id3">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Actividad desplegable</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta3_115" class="block instructions iDevice_content">
+Lea y complete
+</div>
+
+<div class="activity" id="activity-3_116">
+<form name="cloze-form-3_116" action="#" onsubmit="showClozeScore('3_116',1);return false" class="activity-form">
+<div id="cloze3_116">
+<script type="text/javascript">var YOUR_SCORE_IS="Su puntuación es "</script>
+<div class="block iDevice_buttons">
+<p>
+<input class="button" type="submit" name="getScore3_116" value="Comprobar"  id="getScore3_116" />
+
+<input type="hidden" name="clozeOtras3_116" id="clozeOtras3_116" value=""/>
+
+<input type="hidden" name="clozeFlag3_116.strictMarking" id="clozeFlag3_116.strictMarking" value="false" />
+<input type="hidden" name="clozeFlag3_116.checkCaps" id="clozeFlag3_116.checkCaps" value="false" />
+<input type="hidden" name="clozeFlag3_116.instantMarking" id="clozeFlag3_116.instantMarking" value="false" />
+<span class="js-hidden js-warning">Habilitar JavaScript</span>
+</p>
+</div>
+<div class="score js-feedback" id="clozeScore3_116"></div>
+</div>
+</form>
+</div></div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id4">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Pregunta Verdadero-Falso</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta4_100" class="block iDevice_content">
+
+</div>
+<div class="question">
+<form name="true-false-form-0b4" action="#" class="activity-form">
+<h3 class="js-sr-av">Pregunta 1</h3>
+<div id="taquestion0b4" class="block iDevice_content">
+
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b4"><input type="radio" name="option0b4" id="true0b4" onclick="getFeedback(0,2,'0b4','truefalse')" /> Verdadero</label> 
+<label for="false0b4"><input type="radio" name="option0b4" id="false0b4" onclick="getFeedback(1,2,'0b4','truefalse')" /> Falso</label>
+</p>
+</form>
+<div id="s0b4" class="feedback js-feedback js-hidden">
+<h4 class="js-sr-av">Retroalimentación</h4>
+<p><strong id="s0b4-result" class="wrong">Falso</strong></p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id5">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = -2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b5");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "-2");
+            
+            for (var i=0; i < 1; i++)
+            {
+               if (document.getElementById("quizForm5").key0b5[i].checked)
+               {
+                  question0 = document.getElementById("quizForm5").key0b5[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm5").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm5" id="quizForm5" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-5" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b5" class="block iDevice_content">
+
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b51" class="sr-av"><a href="#answer-key0b51">Opción 1</a></label><input type="radio" name="key0b5" id="key0b51" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b51"><a name="answer-key0b51"></a>
+<div id="taoptionAnswer0q0b5" class="block iDevice_content">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id2">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = -2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b2");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "-2");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm2").key0b2[i].checked)
+               {
+                  question0 = document.getElementById("quizForm2").key0b2[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm2").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario SCORM</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm2" id="quizForm2" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-2" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b2" class="block iDevice_content">
+
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b21" class="sr-av"><a href="#answer-key0b21">Opción 1</a></label><input type="radio" name="key0b2" id="key0b21" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b21"><a name="answer-key0b21"></a>
+<div id="taoptionAnswer0q0b2" class="block iDevice_content">
+
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b22" class="sr-av"><a href="#answer-key0b22">Opción 2</a></label><input type="radio" name="key0b2" id="key0b22" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b22"><a name="answer-key0b22"></a>
+<div id="taoptionAnswer1q0b2" class="block iDevice_content">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

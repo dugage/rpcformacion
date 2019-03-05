@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Gestión de Cobros </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Gestión de Cobros</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id1">
+<div class="iDevice emphasis0">
+<div id="ta1_85" class="block iDevice_content">
+<p>Dentro de esta opción se encuentran otras cuatro subopciones que nos permitirán llevar todo el control sobre los cobros de recibos y remesas, es decir, el control de tesorería.</p>
+<ul>
+<li>Recibos.</li>
+<li>Remesas.</li>
+<li>Cobros y devoluciones.</li>
+<li>Enlace Banca Electrónica.</li>
+</ul>
+<p>Las dos primeras opciones nos permitirán un control total sobre los recibos y las remesas generadas por el programa. La tercera opción se utilizará para gestionar los Cobros y Devoluciones de nuestros recibos así como su contabilización. Con la cuarta opción podremos enviar de modo electrónico a nuestra entidad bancaria las remesas de recibos.</p>
+<h4><b>Recibos</b></h4>
+<p>Con esta opción se podrá llevar el control sobre los recibos, bien sean emitidos, cobrados o devueltos.</p>
+<p>Se dispone de un botón de acceso directo a esta opción en la pantalla de detalle de facturas y abonos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_Y1NWTE5BRjc2ZVdmYldUJTJGd2dsZ2E1VVdSb0ZwJTJCdEdJY2FpbXhUZk5wYXclM0Q=" id="IMG_Y1NWTE5BRjc2ZVdmYldUJTJGd2dsZ2E1VVdSb0ZwJTJCdEdJY2FpbXhUZk5wYXclM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>Al acceder a esta opción el programa mostrará la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_a0JQWWclMkJURVJiViUyQjglMkZtRTlrYmdmbVQ5MXRzJTJCczNnT0VFSWtYUzNxRW5NJTNE" id="IMG_a0JQWWclMkJURVJiViUyQjglMkZtRTlrYmdmbVQ5MXRzJTJCczNnT0VFSWtYUzNxRW5NJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Ventana recibos de clientes</p>
+<p>La explicación a la existencia de recibos en esta tabla sin que usted haya dado la orden de crearlos, es porque el programa los crea automáticamente a partir de las facturas y abonos, dependiendo de la forma de pago del cliente en cada una de ellas.</p>
+<p>La emisión de recibos está vinculada a la forma de pago que efectúe el cliente, es decir, cuando usted define una forma de pago a un cliente el programa efectuará tantos recibos como pagos tenga que efectuar el cliente. Si se trata de un pago al contado emitirá solamente un recibo, ya que el pago del importe se realiza de una vez.</p>
+<p>Si el pago fuese porcentual, el programa emitirá los recibos que sean necesarios hasta que se complete el pago.</p>
+<p>El programa siempre emitirá recibos tanto de facturas como de abonos, pues con ellos se podrá mantener actualizado el riesgo alcanzado de cada uno de nuestros clientes.</p>
+<p>En esta opción visualizará una lista de los recibos, en los cuales podrán modificarse. En la ventana de modificación encontraremos tres carpetas diferentes:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NU5BcGJPdkFtbENQd0V3Sm9IblhaTjcxZlZDNWRFNmZHb3FkZDExc0Z6byUzRA==" id="IMG_NU5BcGJPdkFtbENQd0V3Sm9IblhaTjcxZlZDNWRFNmZHb3FkZDExc0Z6byUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Modificación de recibos. Datos generales</p>
+<h4><b>Datos Generales</b></h4>
+<p>Es la 1ª carpeta de esta opción y en ella se van a poder modificar la cuenta remesa a la que se asigna el recibo y los campos siguientes:</p>
+<p><b>Importe</b></p>
+<p>Bajo este rótulo se reflejarán los totales individuales de cada recibo. Podrá modificarse por una cantidad inferior a su valor, siempre que su estado no sea cobrado, generando en ese momento otro recibo con el mismo número pero diferente importe por el valor restante, hasta completar el importe total del recibo.</p>
+<p><b>Fecha Vencimiento</b></p>
+<p>Este campo representará la fecha en la que vencerá el recibo. Podrá modificarse por una fecha anterior o posterior, siempre que su estado no sea cobrado.</p>
+<p>Estos dos campos vienen determinados por la forma de pago que usted asigna al cliente en la factura/abono.</p>
+<p>El Estado del Recibo va ir sobrepuesto. Estos pueden ser:</p>
+<ul>
+<li>Emitido.</li>
+<li>Cobrado.</li>
+<li>Devuelto.</li>
+</ul>
+<p>Esta opción no podrá ser modificada directamente desde esta pantalla, pudiendo realizarse cualquier modificación desde la siguiente carpeta Cobros y Devoluciones.</p>
+<h4><b>Cobros y Devoluciones</b></h4>
+<p>Es la 2ª carpeta de esta opción. En ella se van a reflejar todos los movimientos que se hayan realizado sobre el recibo en cuestión. Incluso, podemos añadir nuevos movimientos ya sean de cobro o devolución.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZlhsREhJTVJtbHR0TXRKa0d5dzNYWEJ2dGNWeG9DcElvQU5kNmp1QW1RNCUzRA==" id="IMG_ZlhsREhJTVJtbHR0TXRKa0d5dzNYWEJ2dGNWeG9DcElvQU5kNmp1QW1RNCUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Modificación de recibos. Cobros y devoluciones</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_QTUlMkZMQVdVUUF4UmU5Wm1KJTJCY0IybHZFNDlVSiUyQnhKNGVQSVZ1RSUyRjN5JTJGdlUlM0Q=" id="IMG_QTUlMkZMQVdVUUF4UmU5Wm1KJTJCY0IybHZFNDlVSiUyQnhKNGVQSVZ1RSUyRjN5JTJGdlUlM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<h4><b>Documento Asociado</b></h4>
+<p>En esta tercera carpeta podemos vincular un documento de cobro personalizado, que contendrá los datos de tipo de documento, número de documento, Cta. entidad emisora, y fecha de emisión.</p>
+<p>Del mismo modo podemos marcar el campo para el paso del nuevo número y tipo de documento a contabilidad. Pasará al apartado concepto dentro de la gestión de asientos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dWp3MWN0OTRlNm1TZWFHenpSaVpOejlra05aaHlmM1RybEdodDZMTWRvSSUzRA==" id="IMG_dWp3MWN0OTRlNm1TZWFHenpSaVpOejlra05aaHlmM1RybEdodDZMTWRvSSUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Modificación de recibos. Documento asociado</p>
+<p>Se van a poder añadir los siguientes campos:</p>
+<ul>
+<li><b>Tipo: </b> nombre para el documento asociado, por ejemplo, cheque.</li>
+<li><b>Número de Documento: </b> número identificativo del documento asociado.</li>
+<li><b>Cuenta Entidad Emisora: </b> la Cta. Entidad emisora, está formada por dos opciones:</li>
+</ul>
+<ul>
+<li>Cta Rem.: marcada por defecto cuando se trate de un cliente de contado.</li>
+<li>C.C.C.: marcada por defecto cuando se trate de un cliente definido en la tabla de clientes.</li>
+</ul>
+<p>Ambos campos contienen búsqueda a sus respectivas tablas, estos datos corresponderán a la Cta. de remesas y C.C.C. del cliente.</p>
+<ul>
+<li><b>Importe: </b> refleja los totales individuales de cada recibo, podrá modificarse por una cantidad inferior, siempre que el estado del recibo no sea cobrado, en este caso se generaría automáticamente otro recibo por la cantidad restante, hasta completar el importe total.</li>
+<li><b>Fecha de Emisión: </b> este campo representará la fecha en que se genera el documento asociado.</li>
+<li><b>Pasar Número de Documento a Contabilidad: </b> al marcar este check, y pasar el cobro o devolución a contabilidad, nos generará en gestión de asientos, un asiento por el cobro o devolución, en cuyo concepto hará referencia al tipo y número de documento que indiquemos en esta carpeta. En caso contrario, en el concepto hará referencia al recibo que proceda.</li>
+</ul>
+<p>Desde la pantalla General donde aparecen todos los recibos, disponemos de dos nuevos botones:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TVpBRGJtUUw5YVptRnBYNFBuN0tqTjVleXdhZHZnYlJ1aG5BOW9aUWVISSUzRA==" id="IMG_TVpBRGJtUUw5YVptRnBYNFBuN0tqTjVleXdhZHZnYlJ1aG5BOW9aUWVISSUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Con esta opción añadiremos un movimiento de cobro o devolución del recibo sobre el que estemos situados.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WTdLT1FUVVJLSjczcXcwUEgxWGslMkZvUE53cGpUcDkwcVZMcXZ0Um9FeSUyQjQlM0Q=" id="IMG_WTdLT1FUVVJLSjczcXcwUEgxWGslMkZvUE53cGpUcDkwcVZMcXZ0Um9FeSUyQjQlM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>Con esta opción agruparemos varios recibos de un mismo cliente, con igual estado y que no sea cobrado, en un único recibo llamado <b>Matriz</b>.</p>
+<p>Si la empresa trabaja con la divisa euro, al compensar un recibo cuya divisa sea euro o de la zona euro, tendremos visible un nuevo campo de selección: "<b>Compensación en euros</b>", al seleccionar este campo nos permitirá filtrar y añadir recibos para compensar, cuya divisa de origen sea el euro o cualquier divisa de la zona euro. Si la compensación de recibos esta compuesta por recibos de distintas divisas a la vez, el recibo matriz mostrará el importe y la divisa en euros, pudiendo cobrarlo en euros El paso contable del cobro o devolución de un recibo compensado en euros, se llevará con cargo o abono a la subcuenta de proveedor en euros.</p>
+<p>Nos posicionaremos en el recibo que deseemos que sea el Matriz y al pulsar el botón de <b>Compensación</b> visualizaremos a la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TmRqUTBJU2xWb0ZwUVZSRHVOWCUyQnFhYUIlMkJTWll4MnozV3l1JTJCS0M2TUpHNCUzRA==" id="IMG_TmRqUTBJU2xWb0ZwUVZSRHVOWCUyQnFhYUIlMkJTWll4MnozV3l1JTJCS0M2TUpHNCUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Compensación de recibos</p>
+<p>En la pantalla de introducción de datos nos encontraremos con el campo Nº de recibo, en el cual introduciremos el nº de recibo que queramos ligar al recibo matriz.</p>
+<p>De esta manera ligaremos tantos recibos como deseemos.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_N05SYUclMkJuOG15RTZmelJXMVI5NnRORyUyQlptMmZvWFZJbmkxTWwlMkJhdGh0WSUzRA==" id="IMG_N05SYUclMkJuOG15RTZmelJXMVI5NnRORyUyQlptMmZvWFZJbmkxTWwlMkJhdGh0WSUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Disponemos también de un botón denominado <b>Filtrar</b>, con el cual podremos ligar varios recibos y accederemos a la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VmNKSFhLSU13V2h3bWdmMkRDOHN3a1FMUVBjWDFtUDZzNTVwbGQzTCUyRkF3JTNE" id="IMG_VmNKSFhLSU13V2h3bWdmMkRDOHN3a1FMUVBjWDFtUDZzNTVwbGQzTCUyRkF3JTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Condiciones para la compensación</p>
+<ul>
+<li><b>Fecha Vencimiento Inicial: </b> fecha inicial desde la cual se desea realizar el proceso. Por defecto aparece la fecha actual, que podrá variar sin ningún problema.</li>
+<li><b>Fecha Vencimiento Final: </b> fecha en la que se detendrá el proceso de extracción de información.</li>
+<li><b>Recibos a Incluir:</b></li>
+</ul>
+<ul>
+<li>Serie A.</li>
+<li>Serie B.</li>
+<li>Abonos.</li>
+<li>Facturas Rectificativas.</li>
+<li>Todos.</li>
+</ul>
+<p>Estas 5 opciones son excluyentes, no pudiendo seleccionar todas a la vez. Una vez cumplimentados estos campos, se accederá a la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MDdVYks3TnlxOFp2TW9ZYktObFolMkJzTlc3WkNlbzl2SnZwSG0yYWFaRnRJJTNE" id="IMG_MDdVYks3TnlxOFp2TW9ZYktObFolMkJzTlc3WkNlbzl2SnZwSG0yYWFaRnRJJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Borrador de recibos</p>
+<p>Aparecerán los recibos que cumplan los requisitos solicitados y se podrán seleccionar aquellos que se desee mediante el botón Se<b>l</b> ección o doble click, estando posicionados encima de los mismos.</p>
+<p>En los recibos seleccionados aparecerá una equis de color azul en el campo izquierdo. Una vez seleccionados todos los recibos deseados, se pulsará el botón <b>Actualizar</b> y automáticamente quedarán ligados al recibo Matriz.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_YmxsZDlMdTNXJTJCOW1MZVVhWWxZTGIzb0l6NFZnRHBTbmIlMkZxdmZWWDI4c1ElM0Q=" id="IMG_YmxsZDlMdTNXJTJCOW1MZVVhWWxZTGIzb0l6NFZnRHBTbmIlMkZxdmZWWDI4c1ElM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJCSUslMkJuajlXemN6cWlWRFJ0Rjl5JTJCcjhMTXhuSUpjZnA5Zk5uR1hZM1kxRSUzRA==" id="IMG_JTJCSUslMkJuajlXemN6cWlWRFJ0Rjl5JTJCcjhMTXhuSUpjZnA5Zk5uR1hZM1kxRSUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Al pulsar sobre este botón visualizaremos una ventana como la siguiente:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_V1hvdyUyQkZjUE4ycUNBNSUyQnd4T3Ewc09mb1FReEw1c01oM3F4ODhFS3hRd1ElM0Q=" id="IMG_V1hvdyUyQkZjUE4ycUNBNSUyQnd4T3Ewc09mb1FReEw1c01oM3F4ODhFS3hRd1ElM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>Impresión de documentos. Emitir carta Word</p>
+<p>A través del botón imprimir además de obtener la información por papel, la aplicación nos da la posibilidad de enlazar mediante Plantillas formato <i>Word</i> (.DOT) los recibos de todos nuestros clientes.</p>
+<p>Para activar este nuevo proceso debemos pinchar sobre el botón <b>Imprimir</b> de la barra de herramientas, seguidamente en la ventana de <b>Impresión de documentos</b>, disponemos de un nuevo campo <b>Emitir carta Word</b>.</p>
+<p>Si selecciona este campo, el resto de datos que componen esta ventana quedaran deshabilitados, excepto los campos "Sólo documentos no impresos" y "Sólo recibos no remesados".</p>
+<p>Al seleccionar este dato, se activará un proceso en el cuál se lanzará a través de <b>MS Word</b> una carta (predeterminada por la aplicación) con toda la información referente al recibo y con los datos personales del cliente.</p>
+<p>Además si realiza la impresión de varios recibos a la vez, (teniendo marcada este campo), se imprimirá una carta por cada uno de los recibos seleccionados.</p>
+<h4><b>Remesas</b></h4>
+<p>Con esta opción se podrá llevar el control sobre las remesas de recibos. Las remesas de recibos no son más que grupos de recibos que se destinan a una cuenta de un banco para contabilizarse.</p>
+<p>Se dispone de un botón de acceso directo a esta opción en la barra de herramientas del programa.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_eWFvMlQ2Qkl3UHZhViUyQlllSjJPd1lCJTJGS1lDRkNkcjRHaE1XNE9kSksyNTAlM0Q=" id="IMG_eWFvMlQ2Qkl3UHZhViUyQlllSjJPd1lCJTJGS1lDRkNkcjRHaE1XNE9kSksyNTAlM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>Al acceder a esta opción el programa mostrará la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RVI1U3lHSVZUcGJiYlZVREZUNUFSSmlkREFzTkNWSiUyQlI4RHFKaVVmSVU0JTNE" id="IMG_RVI1U3lHSVZUcGJiYlZVREZUNUFSSmlkREFzTkNWSiUyQlI4RHFKaVVmSVU0JTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Remesas de recibos a clientes</p>
+<p>Disponemos de cuatro nuevos botones:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_QVVIMXFabnQyZEZKdkw4aEVpVTBPQyUyQllTUzhUaEpzNWZIN1VHR0VoRTVZJTNE" id="IMG_QVVIMXFabnQyZEZKdkw4aEVpVTBPQyUyQllTUzhUaEpzNWZIN1VHR0VoRTVZJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Nos permitirá buscar los registros según las condiciones que introduzcamos en la pantalla búsqueda.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MFRNdlklMkZqNEl1bU9tTUJIRCUyQmVkVGpJJTJCJTJGUUhZbm9uWUI4NllBOExqdHQ0JTNE" id="IMG_MFRNdlklMkZqNEl1bU9tTUJIRCUyQmVkVGpJJTJCJTJGUUhZbm9uWUI4NllBOExqdHQ0JTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Cambiará el Estado de la remesa.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_U3hXNGkyYSUyQkFpMHppWFdGaWF4SzllWDY5a2tjSFZLemxEbldCaUhqJTJGVE0lM0Q=" id="IMG_U3hXNGkyYSUyQkFpMHppWFdGaWF4SzllWDY5a2tjSFZLemxEbldCaUhqJTJGVE0lM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>Hace que aparezcan o desaparezcan los totales para agilizar la visualización de la pantalla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cmY4S3JCRWlDNEdTZWw3ZzN4ZzZFTkRiJTJCUEtadk92QTNoN1pYOHlqTHQ0JTNE" id="IMG_cmY4S3JCRWlDNEdTZWw3ZzN4ZzZFTkRiJTJCUEtadk92QTNoN1pYOHlqTHQ0JTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>En la pantalla de introducción de datos aparecerán los siguientes campos:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VFVUY2hWY284aWxBYkZ0JTJGTENzUVJPbzVJZnRLczY3UG44SU1tWGhkblJzJTNE" id="IMG_VFVUY2hWY284aWxBYkZ0JTJGTENzUVJPbzVJZnRLczY3UG44SU1tWGhkblJzJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Introducción de remesas</p>
+<p><b>Cta. Remesas</b></p>
+<p>Código de la cuenta de remesas a la que se destinarán los recibos que en ella se contienen. Deberá haber una cuenta remesa por cada banco.</p>
+<p><b>Fecha</b></p>
+<p>Fecha con la que se efectuará la remesa. Debe saber que por defecto esta fecha es extraída del reloj interno de su ordenador. Podrá aceptar esta fecha o modificarla a su gusto.</p>
+<p><b>Divisa</b></p>
+<p>Podremos realizar remesas en Pesetas y en Euros.</p>
+<p><b>Fecha Vcto. Inicial</b></p>
+<p>Fecha inicial desde la cual se desea que se realice la extracción de recibos que pasarán a la remesa.</p>
+<p><b>Fecha Vcto. Final</b></p>
+<p>Fecha en la que se detendrá el proceso de extracción de información.</p>
+<p>Tenga en cuenta que la extracción de los recibos se efectúa dependiendo de la fecha de vencimiento de cada uno.</p>
+<p>En ese momento, aparecerá una pantalla para la selección de las condiciones que serán solicitadas para la remesa.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJGTCUyRmFBVFpuQVpKblZCT3FENkppcGEzamZlQ1lZU0d1UElCamx1YTdVVEklM0Q=" id="IMG_JTJGTCUyRmFBVFpuQVpKblZCT3FENkppcGEzamZlQ1lZU0d1UElCamx1YTdVVEklM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>Condiciones de la remesa</p>
+<p>En ella aparecerán los siguientes campos:</p>
+<p><b>Tipo Remesa</b></p>
+<p>Serie A o B para llevar una diferenciación en las remesas, al igual que en las facturas.</p>
+<p><b>Cuenta Asociada</b></p>
+<p>Código de la cuenta de remesas a la que se destinarán los recibos que en ella se contienen.</p>
+<p><b>Recibos a Incluir</b></p>
+<ul>
+<li>Serie A</li>
+<li>Serie B</li>
+<li>Todos</li>
+</ul>
+<p>Estas tres opciones son excluyentes. Deberá elegir entre una de ellas.</p>
+<p>Realizado esto, el programa mostrará todos los recibos encontrados que cumplan las condiciones requeridas.</p>
+<p><b>Incluir recibos de facturas rectificativas</b></p>
+<p>Si marca la casilla de validación se añadirán los recibos de las facturas rectificativas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_REZvMXFJdWVTRm5VMzlvVSUyRkxvQjR6TFpoaXpYdjViOHJxNExzcEhreU5RJTNE" id="IMG_REZvMXFJdWVTRm5VMzlvVSUyRkxvQjR6TFpoaXpYdjViOHJxNExzcEhreU5RJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Detalle de remesas de recibos</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aTBOWFVDSDB2ZURmV0g5UFEyQ3pUdjYxbFN1VVdnVzY3TkIwbFdpMm1rdyUzRA==" id="IMG_aTBOWFVDSDB2ZURmV0g5UFEyQ3pUdjYxbFN1VVdnVzY3TkIwbFdpMm1rdyUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>En ese momento, podrá visualizarse el contenido de otros dos campos que anteriormente no contenían ningún valor:</p>
+<ul>
+<li><b>Nº Remesa: </b> número que el programa asignará automáticamente. No es accesible al usuario.</li>
+<li><b>Total Remesa: </b> suma de los importes totales de los recibos incluidos en la remesa. Tampoco es accesible.</li>
+</ul>
+<p>Independientemente de que aparezcan o no recibos cumpliendo los requisitos solicitados, podrán añadirse otros, mediante la opción <b>Añadir</b>.</p>
+<p>En la pantalla de introducción de datos aparecerán los siguientes campos:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dkVEQkZyVlJXMDZ5T29NNnowOWlQcFhWTkg5Z1IzV0lVMk55SWxxb2tFRSUzRA==" id="IMG_dkVEQkZyVlJXMDZ5T29NNnowOWlQcFhWTkg5Z1IzV0lVMk55SWxxb2tFRSUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Introducción de recibos en remesas</p>
+<p>En ella sólo se podrá acceder al campo BCNº de Recibo&amp; para introducir el número de un recibo ya existente.</p>
+<p>Se dispone de un botón que define los parámetros necesarios para la creación de un fichero que contenga los datos de la remesa de recibos; este fichero podrá llevarse a soporte magnético para su entrega en la entidad bancaria.</p>
+<h4><b>Botón de Vuelco de Remesas a Soporte Magnético </b></h4>
+<h4><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NzBoNkxOR3p2Mlg3ak05JTJGUExMMTc3eGgySmFLM0gyY2t5Z21kZ09lc0xBJTNE" id="IMG_NzBoNkxOR3p2Mlg3ak05JTJGUExMMTc3eGgySmFLM0gyY2t5Z21kZ09lc0xBJTNE" alt="Facturación II" title="Facturación II" /></h4>
+<p>Esta opción define los parámetros necesarios para la creación de un fichero que contenga los datos de la remesa de recibos; este fichero podrá llevarse a soporte magnético para su entrega en la entidad bancaria.</p>
+<p>En la pantalla a la que accedemos mediante esta opción podremos elegir entre el formato de la normativa <b>Cuaderno 19, Cuaderno 32 o Cuaderno 58 del C.S.B</b>.</p>
+<p>Al acceder a esta opción el programa mostrará la siguiente pantalla:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZGh6aDdpJTJCekxnbU9SelNEZHpQNGM2Y1lMRkxHeVlldVhJdmV2YiUyQnl4am8lM0Q=" id="IMG_ZGh6aDdpJTJCekxnbU9SelNEZHpQNGM2Y1lMRkxHeVlldVhJdmV2YiUyQnl4am8lM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>Remesas de recibos a soporte magnético. Norma 19</p>
+<p>En la anterior pantalla se observan los siguientes campos:</p>
+<p><b>Normativa del CSB</b></p>
+<p>Seleccionamos el formato de la normativa del <b>Cuaderno 19, Cuaderno 32 o Cuaderno 58 del CSB</b>.</p>
+<p><b>Norma 19</b></p>
+<p>En la pantalla anterior se observan los siguientes campos:</p>
+<ul>
+<li><b>Entidad Receptora:</b> código de la entidad a la cual se ingresa la remesa de recibos. Por defecto aparece el código que se introdujo en la carpeta Recibos del apartado Personalización de la opción Entorno del Sistema del menú Útil.</li>
+<li><b>Agencia:</b> código de la agencia a la cual se ingresa la remesa de recibos. Por defecto aparece el código que se introdujo en la carpeta Recibos del apartado Personalización de la opción Entorno del Sistema del menú Útil.</li>
+<li><b>Nº Remesa:</b> como su propio nombre indica aquí se identificará el número de la remesa. Su introducción es automática, apareciendo el número de remesa sobre el que se estuviera situado en el momento de pulsar el botón de esta opción.</li>
+<li><b>Cuenta Remesa:</b> código de la cuenta de esta remesa. No es un campo accesible al usuario y su introducción se efectúa automáticamente por el programa.</li>
+<li><b>Fecha de Cargo: </b> fecha a la que se cargarán los recibos en el banco.</li>
+<li><b>Total Remesa: </b> campo informativo que nos muestra la cuantía total de la remesa. También es extraído por el programa.</li>
+<li><b>Pasar Remesa/s a Banca Electrónica: </b> marcando esta opción aseguramos que se exporte esta remesa al apartado Banca electrónica del menú Facturación.</li>
+<li><b>Fichero: </b> este campo será el encargado de contener el camino y el nombre del fichero generado. El formato es idéntico al utilizado en los listados, cuando deseamos exportar la información del listado a un fichero de texto. (Por ejemplo A:Remesa1.txt).</li>
+<li><b>Concepto Operación: </b> este campo sólo estará activo si se ha marcado previamente la casilla de validación "Pasar remesa/s a Banca Electrónica" en ella se introducirá un literal para poder identificar la remesa.</li>
+<li><b>Incluir Nº de Serie en Recibos: </b> si se marca esta opción, aparecerá la serie además del número del recibo.</li>
+<li><b>Agrupar por Fechas de Vctos. de Recibos:</b> si se marca esta opción, agrupará los recibos dentro de la remesa por sus fechas de vencimientos. Los recibos se cargarán en el banco cada uno en su fecha de vencimiento. En este caso no tendrá ningún efecto la fecha de cargo, puesto que habrá más de una, tantas como vencimientos distintos en los recibos.</li>
+<li><b>Marcar fin de fichero:</b> al transmitir el conjunto de remesas a su banco, éste le debe indicar si debe o no marcar fin de fichero, en el caso que el banco le indique que debe marcarla, la aplicación generará un fichero con las marcas fin y retorno de carro, de este modo el banco leerá correctamente y sin incidencias el fichero.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RVpyNDdoWHdTUzREV1pFZlg4bU8zQWM3cXRlenNnY2ZFVk4lMkI1bUdKS3FnJTNE" id="IMG_RVpyNDdoWHdTUzREV1pFZlg4bU8zQWM3cXRlenNnY2ZFVk4lMkI1bUdKS3FnJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p><b>Norma 32</b></p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_JTJGc29IJTJGSjNFeWk3anJsZzFXcXV5T1ZEWkVEVEVONVRQQ3dRTDVnUDFaWlklM0Q=" id="IMG_JTJGc29IJTJGSjNFeWk3anJsZzFXcXV5T1ZEWkVEVEVONVRQQ3dRTDVnUDFaWlklM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>Remesas de recibos a soporte magnético. Norma 32</p>
+<p>En la pantalla anterior se observan los siguientes campos:</p>
+<ul>
+<li><b>Código INE:</b> número de nueve dígitos de los cuales, los dos primeros pertenecerán al código de provincia de la plaza de libramiento. Los tres siguientes pertenecerán al municipio, los dos posteriores corresponderán a la entidad colectiva y los dos últimos a la entidad singular, suministrándolo la entidad bancaria.</li>
+<li><b>Entidad Receptora:</b> código de la entidad a la cual se ingresa la remesa de recibos. Por defecto aparece el código que se introdujo en la carpeta Recibos del apartado Personalización de la opción Entorno del Sistema del menú Útil.</li>
+<li><b>Agencia:</b> código de la agencia a la cual se ingresa la remesa de recibos. Por defecto aparece el código que se introdujo en la carpeta Recibos del apartado Personalización de la opción Entorno del Sistema del menú Útil.</li>
+<li><b>Desde Remesa:</b> remesa inicial desde la cual se desea realizar el proceso.</li>
+<li><b>Hasta Remesa:</b> remesa final hasta la cual se detendrá el proceso de extracción de información.</li>
+<li><b>Id. Cuenta Cedente:</b> código identificativo bajo el que se recoge la situación de una línea de descuento de efectos o recibos, suministrándolo la entidad bancaria.</li>
+<li><b>Total Remesa:</b> campo informativo que nos muestra la cuantía total de la remesa. Es extraído por el programa.</li>
+<li><b>Pasar Remesa/s a Banca Electrónica:</b> marcando esta opción aseguramos que se exporte esta remesa/s al apartado Banca electrónica del menú Facturación.</li>
+<li><b>Fichero:</b> este campo será el encargado de contener el camino y el nombre del fichero generado. El formato es idéntico al utilizado en los listados, cuando deseamos exportar la información del listado a un fichero de texto. (Por ejemplo A:Remesa 2.txt).</li>
+<li><b>Concepto Operación:</b> este campo sólo estará activo si se ha marcado previamente la casilla de validación "Pasar remesa/s a Banca Electrónica" en ella se introducirá un literal para poder identificar la remesa.</li>
+<li><b>Incluir Nº de Serie en Recibos:</b> si se marca esta opción, aparecerá la serie además del número del recibo.</li>
+<li><b>Marcar fin de fichero:</b> al transmitir el conjunto de remesas a su banco, éste le debe indicar si debe o no marcar fin de fichero, en el caso que el banco le indique que debe marcarla, la aplicación generará un fichero con las marcas fin y retorno de carro, de este modo el banco leerá correctamente y sin incidencias el fichero.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_YjREV2JIS1YlMkJnVld2UkZDdTZ3UUJYdlBOMW1BZDNidVMzRGFUa3UlMkZaSW8lM0Q=" id="IMG_YjREV2JIS1YlMkJnVld2UkZDdTZ3UUJYdlBOMW1BZDNidVMzRGFUa3UlMkZaSW8lM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p><b>Norma 58</b></p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dG1JTnVNdXc5SzdvS2syZ25OZG1sQW5ySGIwT2JnTGQ3clg0TUpIeElhYyUzRA==" id="IMG_dG1JTnVNdXc5SzdvS2syZ25OZG1sQW5ySGIwT2JnTGQ3clg0TUpIeElhYyUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Remesas de recibos a soporte magnético. Norma 58</p>
+<p>En la pantalla anterior se observan los siguientes campos:</p>
+<ul>
+<li><b>Código INE:</b> número de nueve dígitos de los cuales, los dos primeros pertenecerán al código de provincia de la plaza de libramiento. Los tres siguientes pertenecerán al municipio, los dos posteriores corresponderán a la entidad colectiva y los dos últimos a la entidad singular, suministrándolo la entidad bancaria.</li>
+<li><b>Entidad Receptora:</b> código de la entidad a la cual se ingresa la remesa de recibos. Por defecto aparece el código que se introdujo en la carpeta Recibos del apartado Personalización de la opción Entorno del Sistema del menú Útil.</li>
+<li><b>Agencia:</b> Código de la agencia a la cual se ingresa la remesa de recibos. Por defecto aparece el código que se introdujo en la carpeta Recibos del apartado Personalización de la opción Entorno del Sistema del menú Útil.</li>
+<li><b>Nº Remesa:</b> Como su propio nombre indica aquí se identificará el número de la remesa. Su introducción es automática, apareciendo el número de remesa sobre el que se estuviera situado en el momento de pulsar el botón de esta opción.</li>
+<li><b>Cuenta Remesa:</b> Código de la cuenta de esta remesa. No es un campo accesible al usuario y su introducción se efectúa automáticamente por el programa.</li>
+<li><b>Total Remesa:</b> Campo informativo que nos muestra la cuantía total de la remesa. También es extraído por el programa.</li>
+<li><b>Pasar Remesa/s a Banca Electrónica:</b> Marcando esta opción aseguramos que se exporte esta remesa/s al apartado Banca electrónica del menú Facturación.</li>
+<li><b>Fichero:</b> Este campo será el encargado de contener el camino y el nombre del fichero generado. El formato es idéntico al utilizado en los listados, cuando deseamos exportar la información del listado a un fichero de texto. (Por ejemplo A: Remesa 3.txt).</li>
+<li><b>Concepto Operación:</b> Este campo sólo estará activo si se ha marcado previamente la casilla de validación "Pasar remesa/s a Banca Electrónica" en ella se introducirá un literal para poder identificar la remesa.</li>
+<li><b>Incluir Nº de Serie en Recibos:</b> Si se marca esta opción, aparecerá la serie además del número del recibo.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VVY5UWhLSEJLNU1QRSUyRnlsbXd0Vkc2dTc5WEwyRGwlMkZyN1g3NGRVWm9Wd3clM0Q=" id="IMG_VVY5UWhLSEJLNU1QRSUyRnlsbXd0Vkc2dTc5WEwyRGwlMkZyN1g3NGRVWm9Wd3clM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<ul>
+<li><b>Marcar fin de fichero: </b> Al transmitir el conjunto de remesas a su banco, éste le debe indicar si debe o no marcar fin de fichero, en el caso que el banco le indique que debe marcarla, la aplicación generará un fichero con las marcas fin y retorno de carro, de este modo el banco leerá correctamente y sin incidencias el fichero.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_eHZXTXpWY3NNVmRSeEFVYk1za1g2VTU1dUVBR2FoZ1Jwck81UWVpMWtWRSUzRA==" id="IMG_eHZXTXpWY3NNVmRSeEFVYk1za1g2VTU1dUVBR2FoZ1Jwck81UWVpMWtWRSUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<h4><b>Cobros y Devoluciones</b></h4>
+<p>Con esta opción se podrá llevar el control sobre los cobros y devoluciones que se realicen de los recibos y permitirá contabilizarlos.</p>
+<p>Al acceder a esta opción podrá visualizarse la siguiente pantalla.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_eXd4cldQa3J0Y3BnciUyRmJybWtnMW1zREV5Rlg3WXowYzV6VnNGNmVTT25vJTNE" id="IMG_eXd4cldQa3J0Y3BnciUyRmJybWtnMW1zREV5Rlg3WXowYzV6VnNGNmVTT25vJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Cobros y devoluciones de recibos</p>
+<p>Disponemos de dos nuevos botones:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_cm5RT1BkWFBBTHQlMkJaaUNSSXVDVFplVThBMWtmU0RpSlhqS2JaOUNDblVBJTNE" id="IMG_cm5RT1BkWFBBTHQlMkJaaUNSSXVDVFplVThBMWtmU0RpSlhqS2JaOUNDblVBJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Cambiará el Estado del movimiento.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_TmRCWnVmUDEyaVg4RDltbXJQN1V3dTZudFd2JTJGM2gyJTJCUERQVVV5WHpzaGclM0Q=" id="IMG_TmRCWnVmUDEyaVg4RDltbXJQN1V3dTZudFd2JTJGM2gyJTJCUERQVVV5WHpzaGclM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>La pantalla para añadir cobros o devoluciones es la siguiente:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_N0d2JTJCRlVwbnBwenBjR09lQVJwbTF6UFpzbU5wZEV6Z3pSdG1YWHZydkRNJTNE" id="IMG_N0d2JTJCRlVwbnBwenBjR09lQVJwbTF6UFpzbU5wZEV6Z3pSdG1YWHZydkRNJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Cobros y devoluciones</p>
+<p>En la pantalla de introducción de datos aparecerán los siguientes campos a cumplimentar para llevar el correcto control de estos cobros y devoluciones.</p>
+<ul>
+<li><b>Nº de Recibo:</b> contendrá el número del recibo del cual se ha realizado un cobro o una devolución.</li>
+<li><b>Importe en metálico:</b> en esta casilla aparecerá el importe del cobro o devolución, si tenemos asociado como forma de pago Cobro en metálico. Este importe puede ser modificado a un importe igual o inferior al total del cobro o devolución, excepto si es un cobro o devolución de un vencimiento dado de alta en una remesa, en este último caso el importe será cero y no podrá ser modificado.</li>
+<li><b>Fecha de Expedición:</b> fecha en la cual se hizo el recibo del cual se solicita ahora el cobro o devolución. Campo informativo y no accesible.</li>
+<li><b>Fecha de Vencimiento:</b> fecha de vencimiento del recibo. Campo informativo y no accesible.</li>
+<li><b>Cliente:</b> código y nombre del cliente del recibo que estemos tratando. Campo informativo y no accesible.</li>
+<li><b>Moneda:</b> código de la divisa con la que se realiza el recibo. Debe estar definido previamente en el apartado Divisas de la opción Tablas Generales del menú Sistema.</li>
+<li><b>Valor en Euros:</b> si la moneda con la que estamos trabajando es zona euro en este campo aparecerá el valor de un euro con respecto a la moneda, si la moneda no es zona euro saldrá el valor de la moneda con respecto al euro. Este campo se irá actualizando automáticamente y no es accesible al usuario.</li>
+<li><b>Movimiento:</b> este campo es automático y captura el tipo de movimiento contrario al estado en el que se encuentra el recibo. Es decir, si hiciéramos un movimiento de un recibo Cobrado, nos añadirá un movimiento de Devolución y cambiará el estado del recibo.</li>
+<li><b>Fecha Movimiento:</b> fecha en la cual se realizará el cobro o devolución. También será la fecha que aparecerá en el asiento contable si se contabiliza.</li>
+<li><b>Subcuenta Cobro:</b> en este campo se incluirá la subcuenta donde se cargará el cobro o devolución que se realice. Generalmente se tratará de una subcuenta de Bancos.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_T3dpR2xhQTZBMVROMVpMWVhvZlJCbmNFWnl2TW5DMEwyS2daODNvSVBZQSUzRA==" id="IMG_T3dpR2xhQTZBMVROMVpMWVhvZlJCbmNFWnl2TW5DMEwyS2daODNvSVBZQSUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<ul>
+<li><b>Gastos:</b> indique en este apartado a cuenta de quién van a ir imputados los gastos del cobro o devolución (cliente o empresa), así como el importe y la subcuenta a la que hay que cargarlo en la contabilidad.</li>
+</ul>
+<h4><b>Banca Electrónica</b></h4>
+<p>Esta opción es la encargada de enviar información relativa a remesas de Recibos domiciliados (cuaderno 19), remesas de Efectos (cuaderno 32) y remesas de Anticipos de crédito (cuaderno 58), según el formato establecido por la Asociación Española de Banca, que hemos ido generando a través de nuestro módulo de remesas, con la opción "Pasar remesa/s a Banca electrónica". Para poder utilizar esta opción en primer lugar debemos poner la ruta donde deseamos guardar las remesas generadas por FacturaPlus, por ejemplo C:/BUZONSP/. De este modo se creará automáticamente un directorio llamado BUZONSP. El programa creará tantos directorios dentro del BUZONSP como entidades bancarias, siguiendo el formato AEBXXXX, donde XXXX es el código de entidad.</p>
+<p>Para obtener dicha información, una vez enviado el fichero a esta opción, desde vuelco a disco de la opción Remesas, selecciona el registro y seguidamente pulsa el botón <b>Generar</b>.</p>
+<p>Una vez completado el proceso de exportación correctamente y sin incidencias, visualizará en la columna "Estado", el literal <b>Enviado</b>, no obstante, debería entrar en el programa de Banca electrónica, el cuál dispone de las opciones necesarias para enviar electrónicamente al Banco o Caja todas las remesas.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_QUpCZzZLRmc0VFkwNGJTWjBWYU9zUkhSNTN5ciUyRkYlMkJQWlZGemlCTXdCbjglM0Q=" id="IMG_QUpCZzZLRmc0VFkwNGJTWjBWYU9zUkhSNTN5ciUyRkYlMkJQWlZGemlCTXdCbjglM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>Pasar remesas a banca electrónica</p>
+<p>En esta pantalla tenemos los siguientes botones:</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WWZaTTFmYjJhUHIyeVcwUlclMkJiT3B4UiUyQkplJTJGMHhROUN5ZkpscEdXakdnWSUzRA==" id="IMG_WWZaTTFmYjJhUHIyeVcwUlclMkJiT3B4UiUyQkplJTJGMHhROUN5ZkpscEdXakdnWSUzRA==" alt="Facturación II" title="Facturación II" /></p>
+<p>Marcamos una a una las remesas que queremos enviar a Banca electrónica.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_T0F0N2FLaHBSZjA1a0Z3NzRxbzBDVlFZVWhKcm9kOU5yMGxhJTJCQlZSYUxNJTNE" id="IMG_T0F0N2FLaHBSZjA1a0Z3NzRxbzBDVlFZVWhKcm9kOU5yMGxhJTJCQlZSYUxNJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Marcamos a través de un filtro las remesas que queremos enviar a Banca electrónica.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_YiUyRnVnT2clMkZGWmhYNFVWNjczQzg4TTZlTlVkRWlQeHJxJTJGdVloNyUyRmYlMkIweTAlM0Q=" id="IMG_YiUyRnVnT2clMkZGWmhYNFVWNjczQzg4TTZlTlVkRWlQeHJxJTJGdVloNyUyRmYlMkIweTAlM0Q=" alt="Facturación II" title="Facturación II" /></p>
+<p>Pulsando este botón enviamos a Banca electrónica todas las remesas que hayamos marcado.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_czglMkI5SVpXZ2x1OWRwUVh1Y2hsdzgxMlpSSWVYRnBibVhhZWVqSEJpUWxFJTNE" id="IMG_czglMkI5SVpXZ2x1OWRwUVh1Y2hsdzgxMlpSSWVYRnBibVhhZWVqSEJpUWxFJTNE" alt="Facturación II" title="Facturación II" /></p>
+<p>Si hay algún problema en el proceso de exportación de remesas a Banca electrónica, lo registra y podemos visualizar el tipo de incidencia que se ha producido.</p>
+<p>Una vez completado el proceso de exportación sin incidencias, deberíamos entrar en el programa de Banca electrónica, el cual dispone de las opciones necesarias para enviar electrónicamente al Banco o Caja todas las remesas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

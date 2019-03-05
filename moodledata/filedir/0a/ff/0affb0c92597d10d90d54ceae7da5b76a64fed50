@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3. Registro Contable </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">3. Registro Contable</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id2">
+<div class="iDevice emphasis0">
+<div id="ta2_85" class="block iDevice_content">
+<p>El PGC se inclina por contabilizar las existencias por un método especulativo con desglose de cuentas.</p>
+<p>Las características del método especulativo son las siguientes:</p>
+<ul>
+<li>Las entradas o compras se <span class="ee_palabra_diccionario">valor </span>an a <span class="ee_palabra_diccionario">precio </span>de Coste.</li>
+<li>Durante el ejercicio no utilizamos las cuentas del grupo 3, sino cuentas del grupo 6 (Compras y Gastos) y grupo 7 (Ventas e Ingresos). El grupo 3 lo utilizaremos al final del ejercicio para indicar el saldo que hay en el almacén de cada una de estas cuentas.</li>
+<li>Las <span class="ee_palabra_diccionario">salidas </span>o ventas se valoran al precio de venta.</li>
+<li>No es necesario una cuenta para reflejar los resultados en cada venta.</li>
+</ul>
+<p>La ventaja de este método es que no necesitas tener abierta la ficha de almacén o tenerla al día, solo será necesario tenerla completa al final del ejercicio. Sin embargo, como inconveniente señalar que no se refleja en cada momento el saldo real de la cuenta existencias.</p>
+<ul>
+<li><b>Ajuste de las cuentas de existencias:</b></li>
+</ul>
+<p>Durante el ejercicio, los aprovisionamientos de la <span class="ee_palabra_diccionario">empresa</span>de bienes incluidos en los subgrupos 30, 31 y 32 se cargan en las cuentas del subgrupo 60 «Compras». Dado que únicamente pueden ser considerados como gasto del ejercicio los que han sido consumidos en él, y éstos han de ser considerados en su totalidad, al final del ejercicio es necesario regularizar dicha cifra poniéndola en relación con el valor de las existencias no consumidas al inicio y al cierre del período.<br />Los subgrupos 30.Existencias comerciales, 31.Materias primas y 32.Otros aprovisionamientos, están íntimamente ligados al subgrupo 61.Variación de existencias, que consta de las siguientes cuentas:</p>
+<ul>
+<li>610 «Variación de existencias de mercaderías».</li>
+<li>611 «Variación de existencias de materias primas».</li>
+<li>612 «Variación de existencias de otros aprovisionamientos».</li>
+</ul>
+<p>Dichas cuentas recogen el importe de la variación en el valor entre el comienzo y el final del período de aquellas existencias a las que la empresa no ha sometido a transformación.</p>
+<p>Los subgrupos 30.Existencias comerciales, 31.Materias primas y 32.Otros aprovisionamientos, se abonan al cierre del ejercicio por el importe del inventario de existencias iniciales con cargo a las cuentas del subgrupo 61.Variación de existencias.<br /><br /></p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="34" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="59" height="34" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="59" height="34" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Variación de existencias (61)</p>
+</td>
+<td width="59" height="34" valign="middle">
+<p>-</p>
+</td>
+<td width="59" height="34" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Existencias comerciales, materias primas, otros aprovisionamientos (30,31,32)</p>
+</td>
+<td width="59" height="34" valign="middle"></td>
+<td width="59" height="34" valign="middle">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Se cargan, por el importe del inventario de existencias de final del ejercicio que se cierra, con abono a las cuentas del subgrupo 61. Variación de existencias.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="34" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="59" height="34" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="59" height="34" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Existencias comerciales, materias primas, otros aprovisionamientos (30,31,32)</p>
+</td>
+<td width="59" height="34" valign="middle">
+<p>-</p>
+</td>
+<td width="59" height="34" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Variación de existencias (61)</p>
+</td>
+<td width="59" height="34" valign="middle"></td>
+<td width="59" height="34" valign="middle">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Los gastos necesarios para producir los bienes incluidos en los subgrupos 33.Productos en curso, 34.Productos semiterminados, 35.Productos terminados y 36.Subproductos, residuos y materiales recuperados, bienes que son vendidos en una parte, y almacenados temporalmente en otra, sólo pueden ser considerados como gasto del ejercicio los que hayan sido consumidos en él, por lo que debe tenerse en cuenta la variación en el valor del almacén.</p>
+<p>Los subgrupos mencionados están íntimamente ligados al subgrupo 71.Variación de existencias que consta de las siguientes cuentas:</p>
+<ul>
+<li>710 «Variación de existencias de productos en curso».</li>
+<li>711 «Variación de existencias de productos semiterminados».</li>
+<li>712 «Variación de existencias de productos terminados».</li>
+<li>713 «Variación de existencias de subproductos, residuos y materiales recuperados».</li>
+</ul>
+<p>Dichas cuentas recogen el importe de la variación en el valor entre el comienzo y el final del período de aquellas existencias a las que la empresa ha sometido a transformación.</p>
+<p>Los subgrupos 33.Productos en curso, 34.Productos semiterminados, 35.Productos terminados, y 36.Subproductos, residuos y materiales recuperados han de abonarse, al cierre del ejercicio, por el importe del inventario de existencias iniciales con cargo a las cuentas 71. Variación de existencias.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="34" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="59" height="34" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="59" height="34" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Variación de existencias (71)</p>
+</td>
+<td width="59" height="34" valign="middle">
+<p>-</p>
+</td>
+<td width="59" height="34" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Existencias (33,34,35,36)</p>
+</td>
+<td width="59" height="34" valign="middle"></td>
+<td width="59" height="34" valign="middle">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Se cargan, por el importe del inventario de existencias de final del ejercicio que se cierra, con abono a las cuentas del subgrupo 71. Variación de existencias.</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="34" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="59" height="34" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="59" height="34" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Existencias (33,34,35,36)</p>
+</td>
+<td width="59" height="34" valign="middle">
+<p>-</p>
+</td>
+<td width="59" height="34" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Variación de existencias (71)</p>
+</td>
+<td width="59" height="34" valign="middle"></td>
+<td width="59" height="34" valign="middle">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Las cuentas de los subgrupos 61 y 71 (variación de existencias) pueden tener saldo deudor o acreedor, según haya tenido lugar una variación de existencias negativa o positiva. Si las cuentas presentan saldo deudor, la unidad económica ha experimentado una variación negativa de existencias, es decir, ha consumido a lo largo del período más existencias de las que ha comprado, por tanto, ha consumido parte de las existencias que tenía al principio del período.</p>
+<p>Por el contrario, si las cuentas de los subgrupos 61 y 71 (variación de existencias) presentan saldo acreedor, significa que la unidad económica ha experimentado una variación positiva de existencias, es decir, ha consumido, a lo largo del período, menos existencias de las que ha comprado, por tanto, han aumentado las existencias respecto de las que habían al comienzo del período.</p>
+<p>Las cuentas del subgrupo 61.Variación de existencias se presentan en el modelo normal de la cuenta de pérdidas y ganancias de forma conjunta y compensando a las del subgrupo 60.Compras, bajo el epígrafe de Aprovisionamientos, mientras que las cuentas del subgrupo 71.Variación de existencias se presentan bajo el epígrafe de Variación de existencia de producto terminado y en curso de fabricación.</p>
+<ul>
+<li><b>Ejemplo del método especulativo:</b></li>
+</ul>
+<p>Suponemos que una sociedad a principios del año X, refleja en el balance de situación un saldo 2.000€ en la cuenta 300 de Mercaderías.</p>
+<p>Sabemos que con este sistema la cuenta de mercaderías durante el ejercicio no se usa, por tanto durante el año las compras se reflejaran en la cuenta 600 y las ventas en la cuenta 700.</p>
+<p>Cuando lleguemos a final de año, suponemos que las mercaderías arrojan un saldo deudor de 2.000€. Sin embargo, este dato no refleja el saldo que hay realmente en el almacén.</p>
+<p>Suponemos que en la ficha de almacén hay 1.500 unidades. Haríamos los siguientes asientos:</p>
+<p>Por la eliminación de las existencias iniciales:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="34" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="59" height="34" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="59" height="34" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Variación de existencias (610)</p>
+</td>
+<td width="59" height="34" valign="middle">
+<p>2.000</p>
+</td>
+<td width="59" height="34" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Mercaderías (300)</p>
+</td>
+<td width="59" height="34" valign="middle"></td>
+<td width="59" height="34" valign="middle">
+<p>2.000</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Por la introducción de las existencias finales:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td height="34" valign="middle">
+<p><b>CONCEPTO</b></p>
+</td>
+<td width="86" height="34" valign="middle">
+<p><b>DEBE</b></p>
+</td>
+<td width="86" height="34" valign="middle">
+<p><b>HABER</b></p>
+</td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Mercaderías (300)</p>
+</td>
+<td width="86" height="34" valign="middle">
+<p>1.500</p>
+</td>
+<td width="86" height="34" valign="middle"></td>
+</tr>
+<tr valign="top">
+<td height="34" valign="middle">
+<p>Variación de existencias (610)</p>
+</td>
+<td width="86" height="34" valign="middle"></td>
+<td width="86" height="34" valign="middle">
+<p>1.500</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Con esto el saldo de la cuenta 300 será deudor por 1.500.</p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

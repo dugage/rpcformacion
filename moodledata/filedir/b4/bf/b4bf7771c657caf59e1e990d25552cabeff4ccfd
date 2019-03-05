@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Ejercicio Repaso </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-2" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Ejercicio Repaso</h1></div></header>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id4">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 0;
+var key1 = 3;
+var key2 = 2;
+var key3 = 3;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b4");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm4").key0b4[i].checked)
+               {
+                  question0 = document.getElementById("quizForm4").key0b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b4");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm4").key1b4[i].checked)
+               {
+                  question1 = document.getElementById("quizForm4").key1b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b4");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm4").key2b4[i].checked)
+               {
+                  question2 = document.getElementById("quizForm4").key2b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b4");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm4").key3b4[i].checked)
+               {
+                  question3 = document.getElementById("quizForm4").key3b4[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm4").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm4" id="quizForm4" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-4" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b4" class="block iDevice_content">
+<div class="texto"><strong>La persona ha de prestar una voluntad libre.</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b41" class="sr-av"><a href="#answer-key0b41">Opción 1</a></label><input type="radio" name="key0b4" id="key0b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b41">
+<div id="taoptionAnswer0q0b4" class="block iDevice_content">
+<p>Voluntariedad</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b42" class="sr-av"><a href="#answer-key0b42">Opción 2</a></label><input type="radio" name="key0b4" id="key0b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b42">
+<div id="taoptionAnswer1q0b4" class="block iDevice_content">
+<p>Retribución</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b43" class="sr-av"><a href="#answer-key0b43">Opción 3</a></label><input type="radio" name="key0b4" id="key0b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b43">
+<div id="taoptionAnswer2q0b4" class="block iDevice_content">
+<p>Ajeneidad</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b44" class="sr-av"><a href="#answer-key0b44">Opción 4</a></label><input type="radio" name="key0b4" id="key0b44" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b44">
+<div id="taoptionAnswer3q0b4" class="block iDevice_content">
+<p>Dependencia</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b4" class="block iDevice_content">
+<div class="texto"><strong>Recibir una cantidad de dinero a cambio de los servicios.</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b41" class="sr-av"><a href="#answer-key1b41">Opción 1</a></label><input type="radio" name="key1b4" id="key1b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b41">
+<div id="taoptionAnswer0q1b4" class="block iDevice_content">
+<p>Dependencia</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b42" class="sr-av"><a href="#answer-key1b42">Opción 2</a></label><input type="radio" name="key1b4" id="key1b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b42">
+<div id="taoptionAnswer1q1b4" class="block iDevice_content">
+<p>Voluntariedad</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b43" class="sr-av"><a href="#answer-key1b43">Opción 3</a></label><input type="radio" name="key1b4" id="key1b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b43">
+<div id="taoptionAnswer2q1b4" class="block iDevice_content">
+<p>Ajeneidad</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b44" class="sr-av"><a href="#answer-key1b44">Opción 4</a></label><input type="radio" name="key1b4" id="key1b44" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b44">
+<div id="taoptionAnswer3q1b4" class="block iDevice_content">
+<p>Retribución</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b4" class="block iDevice_content">
+<div class="texto"><strong>Por cuenta ajena.</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b41" class="sr-av"><a href="#answer-key2b41">Opción 1</a></label><input type="radio" name="key2b4" id="key2b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b41">
+<div id="taoptionAnswer0q2b4" class="block iDevice_content">
+<p>Voluntariedad</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b42" class="sr-av"><a href="#answer-key2b42">Opción 2</a></label><input type="radio" name="key2b4" id="key2b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b42">
+<div id="taoptionAnswer1q2b4" class="block iDevice_content">
+<p>Retribución</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b43" class="sr-av"><a href="#answer-key2b43">Opción 3</a></label><input type="radio" name="key2b4" id="key2b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b43">
+<div id="taoptionAnswer2q2b4" class="block iDevice_content">
+<p>Ajeneidad</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b44" class="sr-av"><a href="#answer-key2b44">Opción 4</a></label><input type="radio" name="key2b4" id="key2b44" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b44">
+<div id="taoptionAnswer3q2b4" class="block iDevice_content">
+<p>Dependencia</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b4" class="block iDevice_content">
+<div class="texto"><strong>Subordinación del empresario.</strong></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b41" class="sr-av"><a href="#answer-key3b41">Opción 1</a></label><input type="radio" name="key3b4" id="key3b41" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b41">
+<div id="taoptionAnswer0q3b4" class="block iDevice_content">
+<p>Voluntariedad</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b42" class="sr-av"><a href="#answer-key3b42">Opción 2</a></label><input type="radio" name="key3b4" id="key3b42" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b42">
+<div id="taoptionAnswer1q3b4" class="block iDevice_content">
+<p>Retribución</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b43" class="sr-av"><a href="#answer-key3b43">Opción 3</a></label><input type="radio" name="key3b4" id="key3b43" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b43">
+<div id="taoptionAnswer2q3b4" class="block iDevice_content">
+<p>Ajeneidad</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b44" class="sr-av"><a href="#answer-key3b44">Opción 4</a></label><input type="radio" name="key3b4" id="key3b44" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b44">
+<div id="taoptionAnswer3q3b4" class="block iDevice_content">
+<p>Dependencia</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore4"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

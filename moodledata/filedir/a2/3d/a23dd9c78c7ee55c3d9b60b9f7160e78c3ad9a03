@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.1. Códigos y caracteres </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.1. Códigos y caracteres</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id1">
+<div class="iDevice emphasis0">
+<div id="ta1_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Cada uno de los caracteres posibles tiene asociado un código. Podemos tanto conocer el código que le corresponde a un carácter como, complementariamente, recuperar el carácter que equivale a un cierto código. Las funciones que necesitamos son CODIGO y CARÁCTER, respectivamente.</p>
+<p>La primera de ellas toma como parámetro un solo carácter y retorna el código que le corresponda. La segunda tiene la función inversa, tomando un código y facilitando el carácter asociado. Es fácil comprobar el comportamiento de estas funciones:</p>
+<ul>
+<li>Introduzca en una celdilla el valor 64</li>
+<li>Use la capacidad de autorrelleno para crear una secuencia en las celdillas inferiores.</li>
+<li>Introduzca ahora en una celdilla, a la derecha de la primera, la fórmula =CARACTER(D1), suponiendo que en D1 tenemos el número 64.</li>
+<li>Copie la fórmula al resto de celdillas. Obtendrá un resultado similar al de la figura 9.2.</li>
+</ul>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aUJwbUlhZ0dsc2cxcDZaeFRzak1oTHNpYzVLejBEQzlIdGZ4SXdaa3ZUbyUzRA==" id="IMG_aUJwbUlhZ0dsc2cxcDZaeFRzak1oTHNpYzVLejBEQzlIdGZ4SXdaa3ZUbyUzRA==" alt="Otras funciones de interés" title="Otras funciones de interés" width="485" /></p>
+<p><b>Figura 9.2.</b> Secuencia de caracteres generada a partir de sus códigos.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

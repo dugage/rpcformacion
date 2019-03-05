@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>5.2.Uso de nombres en las fórmulas </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.1.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">5.2.Uso de nombres en las fórmulas</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id121">
+<div class="iDevice emphasis0">
+<div id="ta121_85" class="block iDevice_content">
+<p>Dados los pasos descritos en el punto previo, los rótulos o títulos de las filas y columnas identifican en cierta forma a los datos. Es perfectamente válido, por tanto, usar referencias construidas basándonos en esos nombres.</p>
+<p>Para calcular el número total de nº de personas por categoría y por colegio, introducido al principio de este capítulo, nos limitamos a hacer clic sobre un botón. Éste introdujo una fórmula en la que se usaba la función SUMA, a la que se entregaba como valor un rango de celdillas. Puede verlo simplemente colocando el foco de entrada en la celdilla G4, correspondiente a uno de los totales.</p>
+<p>En lugar de utilizar el rango, se podría emplear el rótulo Colegio_1 para hacer referencia a todos los nº de personas de ese colegio. Estando situado en la celdilla que se ha citado, pulse la tecla <b>F2</b> y modifique la fórmula, dejándola como puede ver en la figura 5 .17</p>
+<p><img src="excel_5.17.png" alt="FIGURA 5.17" width="650" height="331" /></p>
+<p><strong>FIGURA 5.17</strong></p>
+<p></p>
+<p>Mientras escribe una fórmula también puede abrir el menú asociado a la opción Fórmulas&gt;Nombres definidos&gt;Utilizar en la fórmula de la Cinta de opciones, en el que aparecen todos los nombres disponibles en la hoja.</p>
+<p>Lo mismo que acaba de hacerse para las filas podríamos hacerlo para las columnas. Seleccione la celdilla B14 y edite la fórmula, dejándola como =SUMA (Nº_Alumnas).</p>
+<p>Además de para hacer referencia a un rango, los rótulos de columnas y filas pueden utilizarse conjuntamente para acceder a celdillas concretas. Si introduce en una celdilla la fórmula =Nº Alumnos Colegio_2, por ejemplo, obtendrá el valor 98, que es el que hay almacenado en la celdilla C5, cruce de la columna titulada Nº Alumnos con la fila Colegio_2</p>
+<p>Imagine que ahora quiere introducir otra serie de fórmulas, debajo del total de personas por categoría, con el fin de calcular el tanto por ciento del total que ha obtenido cada uno de ellos. En lugar de hacer referencia directa a las celdillas, como se ha hecho para el mismo cálculo por colegios, usaremos los rótulos de filas y columnas.</p>
+<p>Sitúese en el punto adecuado para introducir el tanto por ciento de la primera categoría, introduzca el símbolo = para indicar que va a escribir una fórmula e introduzca después la expresión que se muestra en la figura 5 .18 . Sumamos la columna Nº de Alumnas, multiplicamos por cien y dividimos entre la celdilla Totales de la columna Total. Para que esta fórmula obtenga el valor que esperamos también será necesario asignar nombre a la columna Total de la hoja de cálculo, usando la misma opción descrita en el punto anterior a éste.</p>
+<p><img src="excel_5.18.png" alt="FIGURA 5.18" width="650" height="321" /></p>
+<p><strong>FIGURA 5.18</strong></p>
+<p><span>Repitiendo el proceso para las demás columnas, tendríamos los porcentajes de cada uno de los categorías. El aspecto de la hoja ahora será similar al de la figura 5 .19 . Encontrará esta hoja en el archivo Libro05Paso03.</span></p>
+<p><img src="excel_5.19.png" alt="FIGURA 5.19" width="649" height="383" /></p>
+<p><strong>FIGURA 5.19</strong></p>
+</div>
+</div>
+</article>
+</section>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

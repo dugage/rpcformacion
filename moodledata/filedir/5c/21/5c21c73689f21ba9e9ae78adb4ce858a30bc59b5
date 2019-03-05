@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>AUTOEVALUACIÓN </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">AUTOEVALUACIÓN</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id21">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 0;
+var key1 = 2;
+var key2 = 0;
+var key3 = 1;
+var key4 = 3;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b21");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm21").key0b21[i].checked)
+               {
+                  question0 = document.getElementById("quizForm21").key0b21[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b21");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm21").key1b21[i].checked)
+               {
+                  question1 = document.getElementById("quizForm21").key1b21[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b21");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm21").key2b21[i].checked)
+               {
+                  question2 = document.getElementById("quizForm21").key2b21[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b21");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm21").key3b21[i].checked)
+               {
+                  question3 = document.getElementById("quizForm21").key3b21[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b21");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm21").key4b21[i].checked)
+               {
+                  question4 = document.getElementById("quizForm21").key4b21[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm21").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Selecciona la respuesta correcta</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm21" id="quizForm21" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-21" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b21" class="block iDevice_content">
+<p><span><span face="Verdana, Arial" style="font-family: Verdana, Arial;"><span><b>1. ¿Cuáles son los criterios para la clasificación de las Tarjetas de crédito?</b></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b211" class="sr-av"><a href="#answer-key0b211">Opción 1</a></label><input type="radio" name="key0b21" id="key0b211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b211"><a name="answer-key0b211"></a>
+<div id="taoptionAnswer0q0b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">Por la entidad emisora, por su duración, por el crédito concedido y por la modalidad de pago.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b212" class="sr-av"><a href="#answer-key0b212">Opción 2</a></label><input type="radio" name="key0b21" id="key0b212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b212"><a name="answer-key0b212"></a>
+<div id="taoptionAnswer1q0b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">Por la entidad emisora, duración y crédito concedido.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b213" class="sr-av"><a href="#answer-key0b213">Opción 3</a></label><input type="radio" name="key0b21" id="key0b213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b213"><a name="answer-key0b213"></a>
+<div id="taoptionAnswer2q0b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">Por la entidad emisora, por su duración, por el crédito concedido, por la modalidad de pago y tiempo de devolución.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b214" class="sr-av"><a href="#answer-key0b214">Opción 4</a></label><input type="radio" name="key0b21" id="key0b214" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b214"><a name="answer-key0b214"></a>
+<div id="taoptionAnswer3q0b21" class="block iDevice_content">
+<p><span>Todas son correctas</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b21" class="block iDevice_content">
+<p><span><span face="Verdana, Arial" style="font-family: Verdana, Arial;"><span><b><span color="#000000" style="color: #000000;">2. Se encuentran los datos del cheque emitido a favor de una persona o empresa, y el detalle de facturas o servicios que se pagan con este cheque emitido, quien lo opera, quien lo revisa, quien lo recibe conforme a lo descrito, fecha de recibido, descripción de las facturas (números que se pagan), los precios totales, los descuentos y los impuestos. Elige la opción correcta:</span></b></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b211" class="sr-av"><a href="#answer-key1b211">Opción 1</a></label><input type="radio" name="key1b21" id="key1b211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b211"><a name="answer-key1b211"></a>
+<div id="taoptionAnswer0q1b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial"><span color="#000000">Factura o factura de pago.</span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b212" class="sr-av"><a href="#answer-key1b212">Opción 2</a></label><input type="radio" name="key1b21" id="key1b212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b212"><a name="answer-key1b212"></a>
+<div id="taoptionAnswer1q1b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">Ticket.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b213" class="sr-av"><a href="#answer-key1b213">Opción 3</a></label><input type="radio" name="key1b21" id="key1b213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b213"><a name="answer-key1b213"></a>
+<div id="taoptionAnswer2q1b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">Voucher o Recibo de pago.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b214" class="sr-av"><a href="#answer-key1b214">Opción 4</a></label><input type="radio" name="key1b21" id="key1b214" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b214"><a name="answer-key1b214"></a>
+<div id="taoptionAnswer3q1b21" class="block iDevice_content">
+<p><span>Cheques.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b21" class="block iDevice_content">
+<p><span><span face="Verdana, Arial" style="font-family: Verdana, Arial;"><span><b><span color="#000000" style="color: #000000;">3. Elige la opción correcta:</span></b></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b211" class="sr-av"><a href="#answer-key2b211">Opción 1</a></label><input type="radio" name="key2b21" id="key2b211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b211"><a name="answer-key2b211"></a>
+<div id="taoptionAnswer0q2b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial"><span color="#000000">Para que el libro de caja tenga validez legal, es necesario legalizarlo ante un notario público o juez de paz, antes de comenzar a registrarlo.</span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b212" class="sr-av"><a href="#answer-key2b212">Opción 2</a></label><input type="radio" name="key2b21" id="key2b212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b212"><a name="answer-key2b212"></a>
+<div id="taoptionAnswer1q2b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">Un libro de caja siempre tiene validez legal.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b213" class="sr-av"><a href="#answer-key2b213">Opción 3</a></label><input type="radio" name="key2b21" id="key2b213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b213"><a name="answer-key2b213"></a>
+<div id="taoptionAnswer2q2b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">El libro de caja es necesario que sea registrado ante un juez.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b214" class="sr-av"><a href="#answer-key2b214">Opción 4</a></label><input type="radio" name="key2b21" id="key2b214" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b214"><a name="answer-key2b214"></a>
+<div id="taoptionAnswer3q2b21" class="block iDevice_content">
+<p><span>Ninguna de las respuestas anteriores es correcta.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b21" class="block iDevice_content">
+<p><span><span face="Verdana, Arial" style="font-family: Verdana, Arial;"><span><b><span color="#000000" style="color: #000000;">4. La letra de cambio es…</span></b></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b211" class="sr-av"><a href="#answer-key3b211">Opción 1</a></label><input type="radio" name="key3b21" id="key3b211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b211"><a name="answer-key3b211"></a>
+<div id="taoptionAnswer0q3b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial"><span color="#000000">Es un documento mediante el cuál una entidad ordena a otra entidad, que pague una cantidad determinada, por motivos determinados.</span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b212" class="sr-av"><a href="#answer-key3b212">Opción 2</a></label><input type="radio" name="key3b21" id="key3b212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b212"><a name="answer-key3b212"></a>
+<div id="taoptionAnswer1q3b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">Es un documento formal de pago mediante el cual, una persona o entidad (librador) ordena a otra (librado), que pague una cantidad determinada en una fecha también determinada, a la orden de un tercero (tomador).</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b213" class="sr-av"><a href="#answer-key3b213">Opción 3</a></label><input type="radio" name="key3b21" id="key3b213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b213"><a name="answer-key3b213"></a>
+<div id="taoptionAnswer2q3b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">Ninguna es correcta.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b214" class="sr-av"><a href="#answer-key3b214">Opción 4</a></label><input type="radio" name="key3b21" id="key3b214" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b214"><a name="answer-key3b214"></a>
+<div id="taoptionAnswer3q3b21" class="block iDevice_content">
+<p><span>Es un documento formal en el cuál las letras deben extenderse en papel timbrado, de acuerdo a su cuantía; si el plazo fuese superior a seis meses, debe extenderse en papel timbrado correspondiente al doble de su cuantía.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b21" class="block iDevice_content">
+<p><span><span face="Verdana, Arial" style="font-family: Verdana, Arial;"><span><b><span color="#000000" style="color: #000000;">5. El pago contrarrembolso es:</span></b></span></span></span></p>
+<p align="justify"></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b211" class="sr-av"><a href="#answer-key4b211">Opción 1</a></label><input type="radio" name="key4b21" id="key4b211" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b211"><a name="answer-key4b211"></a>
+<div id="taoptionAnswer0q4b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial"><span color="#000000">El pago contra-reembolso es un medio de pago utilizado en las ventas a distancia que consiste en abonar el coste del pedido online directamente a la persona que nos haga la entrega del mismo en nuestro domicilio, generalmente en efectivo.</span></span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b212" class="sr-av"><a href="#answer-key4b212">Opción 2</a></label><input type="radio" name="key4b21" id="key4b212" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b212"><a name="answer-key4b212"></a>
+<div id="taoptionAnswer1q4b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">El pago contra-reembolso es el medio de pago online más seguro que existe en la compra por Internet y en general a distancia, aunque muchos comercios cobran una comisión por utilizarlo.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b213" class="sr-av"><a href="#answer-key4b213">Opción 3</a></label><input type="radio" name="key4b21" id="key4b213" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b213"><a name="answer-key4b213"></a>
+<div id="taoptionAnswer2q4b21" class="block iDevice_content">
+<p align="justify"><span face="Verdana, Arial">La opción a) es la correcta.</span></p>
+<p align="justify"></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b214" class="sr-av"><a href="#answer-key4b214">Opción 4</a></label><input type="radio" name="key4b21" id="key4b214" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b214"><a name="answer-key4b214"></a>
+<div id="taoptionAnswer3q4b21" class="block iDevice_content">
+<p><span>La opciones a y b son las correctas.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

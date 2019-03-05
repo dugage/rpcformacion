@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.3. Matrices </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.3. Matrices</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id3">
+<div class="iDevice emphasis0">
+<div id="ta3_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Al trabajar con Excel es habitual el uso de rangos de celdillas para almacenar valores y operar sobre ellos como si fuesen un todo. En Visual Basic, de manera análoga, es posible definir variables que actúan como matrices o listas, pudiendo almacenar un rango de valores.</p>
+<p>Una matriz es un conjunto de variables que comparten un mismo nombre y se diferencian unas de las otras por un índice o número de orden. Para declarar una matriz se sigue la misma técnica que para declarar cualquier otra variable, con la diferencia de que tras el nombre de la variable, y entre paréntesis, se indicará el número de elementos que existirá en la matriz. En la línea siguiente, por ejemplo, declaramos una variable que contará con diez elementos, numerados del 1 al 10, de tipo Variant.</p>
+<p>Dim Celdillas (10) As Variant</p>
+<p>La variable Celdillas sería como un rango de celdillas que están en una sola fila o una sola columna de la hoja de cálculo. Si el rango tiene varias filas y varias columnas el equivalente sería una matriz bidimensional, es decir, con dos dimensiones. Un ejemplo podría ser:</p>
+<p>Dim Celdillas (10, 5) As Variant</p>
+<p>Una vez declarada la matriz, para poder leer o modificar cualquiera de los valores es necesario facilitar el índice o índices apropiados. Es un mecanismo similar al usado en un capítulo previo, con la función INDICE, para obtener datos de una tabla. En este caso la tabla no es un rango de celdillas sino una variable, pero el funcionamiento es equivalente.</p>
+<p>Asumiendo que tenemos declarada la matriz anterior, con dos dimensiones, podríamos obtener el valor de uno de los elementos así:</p>
+<p>Debug.Print Celdillas (5, 1)</p>
+<p>En este caso, y asumiendo que el primer índice fuese la fila y el segundo la columna, estaríamos recuperando el valor almacenado en la quinta fila de la primera columna. En una hoja de cálculo la referencia equivalente es A5.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

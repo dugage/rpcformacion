@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id11">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 3;
+var key1 = 0;
+var key2 = 0;
+var key3 = 3;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b11");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm11").key0b11[i].checked)
+               {
+                  question0 = document.getElementById("quizForm11").key0b11[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b11");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm11").key1b11[i].checked)
+               {
+                  question1 = document.getElementById("quizForm11").key1b11[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b11");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm11").key2b11[i].checked)
+               {
+                  question2 = document.getElementById("quizForm11").key2b11[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b11");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm11").key3b11[i].checked)
+               {
+                  question3 = document.getElementById("quizForm11").key3b11[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b11");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm11").key4b11[i].checked)
+               {
+                  question4 = document.getElementById("quizForm11").key4b11[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm11").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica.</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm11" id="quizForm11" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-11" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b11" class="block iDevice_content">
+<p><strong>El Decreto 95/2000, de 22 de febrero, por el que se establecen las normas sanitarias aplicables a las piscinas de uso público, argumenta que:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b111" class="sr-av"><a href="#answer-key0b111">Opción 1</a></label><input type="radio" name="key0b11" id="key0b111" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b111"><a name="answer-key0b111"></a>
+<div id="taoptionAnswer0q0b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En las piscinas de uso público existen unos riesgos potenciales que no pueden ser controlados o modificados de modo substancial por la acción individual.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b112" class="sr-av"><a href="#answer-key0b112">Opción 2</a></label><input type="radio" name="key0b11" id="key0b112" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b112"><a name="answer-key0b112"></a>
+<div id="taoptionAnswer1q0b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Los titulares de las piscinas de uso público son los responsables de la seguridad y la salubridad en sus instalaciones.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b113" class="sr-av"><a href="#answer-key0b113">Opción 3</a></label><input type="radio" name="key0b11" id="key0b113" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b113"><a name="answer-key0b113"></a>
+<div id="taoptionAnswer2q0b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Los titulares de las piscinas deben poner los medios y el personal adecuados con el fin de garantizar la seguridad y la minimización de riesgos</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b114" class="sr-av"><a href="#answer-key0b114">Opción 4</a></label><input type="radio" name="key0b11" id="key0b114" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b114"><a name="answer-key0b114"></a>
+<div id="taoptionAnswer3q0b11" class="block iDevice_content">
+<p>Todas las opciones anteriores son correctas</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b11" class="block iDevice_content">
+<p><strong>“Aquellas piscinas abiertas al público o a un grupo definido de usuarios, no destinada únicamente a la familia e invitados del propietario u ocupante, con independencia del pago de un precio de entrada”. Esta definición se corresponde a:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b111" class="sr-av"><a href="#answer-key1b111">Opción 1</a></label><input type="radio" name="key1b11" id="key1b111" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b111"><a name="answer-key1b111"></a>
+<div id="taoptionAnswer0q1b11" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Piscinas de uso público</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b112" class="sr-av"><a href="#answer-key1b112">Opción 2</a></label><input type="radio" name="key1b11" id="key1b112" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b112"><a name="answer-key1b112"></a>
+<div id="taoptionAnswer1q1b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Piscinas</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b113" class="sr-av"><a href="#answer-key1b113">Opción 3</a></label><input type="radio" name="key1b11" id="key1b113" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b113"><a name="answer-key1b113"></a>
+<div id="taoptionAnswer2q1b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Piscinas de uso particular</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b114" class="sr-av"><a href="#answer-key1b114">Opción 4</a></label><input type="radio" name="key1b11" id="key1b114" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b114"><a name="answer-key1b114"></a>
+<div id="taoptionAnswer3q1b11" class="block iDevice_content">
+<p>Zona de baño</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b11" class="block iDevice_content">
+<p><strong>Señala la opción incorrecta respecto a las instalaciones y servicios de las piscinas.</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b111" class="sr-av"><a href="#answer-key2b111">Opción 1</a></label><input type="radio" name="key2b11" id="key2b111" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b111"><a name="answer-key2b111"></a>
+<div id="taoptionAnswer0q2b11" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Los pavimentos, las superficies de paso de los trampolines, las palancas y las escaleras, deben construirse con materiales deslizantes</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b112" class="sr-av"><a href="#answer-key2b112">Opción 2</a></label><input type="radio" name="key2b11" id="key2b112" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b112"><a name="answer-key2b112"></a>
+<div id="taoptionAnswer1q2b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Los elementos metálicos de las instalaciones deben ser materiales resistentes a la oxidación</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b113" class="sr-av"><a href="#answer-key2b113">Opción 3</a></label><input type="radio" name="key2b11" id="key2b113" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b113"><a name="answer-key2b113"></a>
+<div id="taoptionAnswer2q2b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Las superficies de todos los elementos que integren las instalaciones y los equipos de la piscina deben ser de materiales resistentes a los agentes químicos, de color claro y de fácil limpieza y desinfección</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b114" class="sr-av"><a href="#answer-key2b114">Opción 4</a></label><input type="radio" name="key2b11" id="key2b114" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b114"><a name="answer-key2b114"></a>
+<div id="taoptionAnswer3q2b11" class="block iDevice_content">
+<p>Las instalaciones eléctricas de las piscinas deben cumplir las normas de seguridad que les sean de aplicación</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b11" class="block iDevice_content">
+<p><strong>Según el artículo 19, el agua de los vasos debe ser filtrada, desinfectada y con poder desinfectante, y cumplir, en todo caso, las siguientes características:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b111" class="sr-av"><a href="#answer-key3b111">Opción 1</a></label><input type="radio" name="key3b11" id="key3b111" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b111"><a name="answer-key3b111"></a>
+<div id="taoptionAnswer0q3b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">No ser irritante para los ojos, la piel y las mucosas</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b112" class="sr-av"><a href="#answer-key3b112">Opción 2</a></label><input type="radio" name="key3b11" id="key3b112" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b112"><a name="answer-key3b112"></a>
+<div id="taoptionAnswer1q3b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Estar libre de microorganismos patógenos</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b113" class="sr-av"><a href="#answer-key3b113">Opción 3</a></label><input type="radio" name="key3b11" id="key3b113" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b113"><a name="answer-key3b113"></a>
+<div id="taoptionAnswer2q3b11" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">No hacer perceptible la presencia de sólidos en suspensión, espumas, aceites o grasas</div>
+<div class="ee_respuesta ee_correct"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b114" class="sr-av"><a href="#answer-key3b114">Opción 4</a></label><input type="radio" name="key3b11" id="key3b114" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b114"><a name="answer-key3b114"></a>
+<div id="taoptionAnswer3q3b11" class="block iDevice_content">
+<p>Todas las opciones anteriores son correctas</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b11" class="block iDevice_content">
+<div class="ee_enunciado"><strong>Indica si la siguiente afirmación es verdadera o falsa.</strong> <em>“Todo nuevo proyecto de construcción de una piscina o de modificación constructiva del vaso, que se inicie a partir de la entrada en vigor de esta norma, deberá seguir lo dispuesto en el Real Decreto 314/2006, de 17 de marzo, por el que se aprueba el Código Técnico de la Edificación y en el Real Decreto 1027/2007, de 20 de julio, por el que se aprueba el Reglamento de Instalaciones Térmicas en los Edificios. Además se regirá por cualquier otra legislación y norma que le fuera de aplicación”.</em></div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b111" class="sr-av"><a href="#answer-key4b111">Opción 1</a></label><input type="radio" name="key4b11" id="key4b111" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b111"><a name="answer-key4b111"></a>
+<div id="taoptionAnswer0q4b11" class="block iDevice_content">
+<div class="ee_respuesta ee_correct">Verdadero</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b112" class="sr-av"><a href="#answer-key4b112">Opción 2</a></label><input type="radio" name="key4b11" id="key4b112" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b112"><a name="answer-key4b112"></a>
+<div id="taoptionAnswer1q4b11" class="block iDevice_content">
+<p>Falso</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | El contrato de arrendamiento (II) </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id222">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 3;
+var key1 = 0;
+var key2 = 2;
+var key3 = 3;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b222");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm222").key0b222[i].checked)
+               {
+                  question0 = document.getElementById("quizForm222").key0b222[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b222");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm222").key1b222[i].checked)
+               {
+                  question1 = document.getElementById("quizForm222").key1b222[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b222");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm222").key2b222[i].checked)
+               {
+                  question2 = document.getElementById("quizForm222").key2b222[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b222");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm222").key3b222[i].checked)
+               {
+                  question3 = document.getElementById("quizForm222").key3b222[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm222").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm222" id="quizForm222" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-222" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b222" class="block iDevice_content">
+<p><strong>¿Cuál de las siguientes opciones pertenecen a las características de un arrendamiento?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2221" class="sr-av"><a href="#answer-key0b2221">Opción 1</a></label><input type="radio" name="key0b222" id="key0b2221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2221"><a name="answer-key0b2221"></a>
+<div id="taoptionAnswer0q0b222" class="block iDevice_content">
+<p><span>Es un contrato consensual.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2222" class="sr-av"><a href="#answer-key0b2222">Opción 2</a></label><input type="radio" name="key0b222" id="key0b2222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2222"><a name="answer-key0b2222"></a>
+<div id="taoptionAnswer1q0b222" class="block iDevice_content">
+<p><span>Es un contrato bilateral.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2223" class="sr-av"><a href="#answer-key0b2223">Opción 3</a></label><input type="radio" name="key0b222" id="key0b2223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2223"><a name="answer-key0b2223"></a>
+<div id="taoptionAnswer2q0b222" class="block iDevice_content">
+<p><span>Es un contrato temporal.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b2224" class="sr-av"><a href="#answer-key0b2224">Opción 4</a></label><input type="radio" name="key0b222" id="key0b2224" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b2224"><a name="answer-key0b2224"></a>
+<div id="taoptionAnswer3q0b222" class="block iDevice_content">
+<p><span>Todas las respuestas son correctas.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b222" class="block iDevice_content">
+<p><strong>Indica si la siguiente afirmación es verdadera o falsa: </strong><span></span><em>“Uno de los elementos del contrato de arrendamiento es el denominado elemento subjetivo”.</em></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2221" class="sr-av"><a href="#answer-key1b2221">Opción 1</a></label><input type="radio" name="key1b222" id="key1b2221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2221"><a name="answer-key1b2221"></a>
+<div id="taoptionAnswer0q1b222" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b2222" class="sr-av"><a href="#answer-key1b2222">Opción 2</a></label><input type="radio" name="key1b222" id="key1b2222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b2222"><a name="answer-key1b2222"></a>
+<div id="taoptionAnswer1q1b222" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b222" class="block iDevice_content">
+<div class="ee_enunciado"><strong>¿En qué título del Código Civil viene regulado el contrato de arrendamiento?</strong></div>
+<p><strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2221" class="sr-av"><a href="#answer-key2b2221">Opción 1</a></label><input type="radio" name="key2b222" id="key2b2221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2221"><a name="answer-key2b2221"></a>
+<div id="taoptionAnswer0q2b222" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Título IV.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2222" class="sr-av"><a href="#answer-key2b2222">Opción 2</a></label><input type="radio" name="key2b222" id="key2b2222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2222"><a name="answer-key2b2222"></a>
+<div id="taoptionAnswer1q2b222" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Título V.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2223" class="sr-av"><a href="#answer-key2b2223">Opción 3</a></label><input type="radio" name="key2b222" id="key2b2223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2223"><a name="answer-key2b2223"></a>
+<div id="taoptionAnswer2q2b222" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Título VI.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b2224" class="sr-av"><a href="#answer-key2b2224">Opción 4</a></label><input type="radio" name="key2b222" id="key2b2224" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b2224"><a name="answer-key2b2224"></a>
+<div id="taoptionAnswer3q2b222" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Título VII.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b222" class="block iDevice_content">
+<p><strong>¿A cuál de las siguientes cosas no está obligado el arrendatario?</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b2221" class="sr-av"><a href="#answer-key3b2221">Opción 1</a></label><input type="radio" name="key3b222" id="key3b2221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b2221"><a name="answer-key3b2221"></a>
+<div id="taoptionAnswer0q3b222" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">A pagar el precio del arrendamiento en lo convenido.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b2222" class="sr-av"><a href="#answer-key3b2222">Opción 2</a></label><input type="radio" name="key3b222" id="key3b2222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b2222"><a name="answer-key3b2222"></a>
+<div id="taoptionAnswer1q3b222" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A usar la cosa arrendada con la diligencia debida.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b2223" class="sr-av"><a href="#answer-key3b2223">Opción 3</a></label><input type="radio" name="key3b222" id="key3b2223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b2223"><a name="answer-key3b2223"></a>
+<div id="taoptionAnswer2q3b222" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">A conservar la cosa y devolverla en el mismo estado en la que se recibió.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b2224" class="sr-av"><a href="#answer-key3b2224">Opción 4</a></label><input type="radio" name="key3b222" id="key3b2224" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b2224"><a name="answer-key3b2224"></a>
+<div id="taoptionAnswer3q3b222" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">A hacer las reparaciones necesarias.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id223">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-223_108">
+<form name="multi-select-form-223_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion223_108" class="block question iDevice_content">
+<p><strong>¿Cuáles de los siguientes son motivos por los que puede extinguirse el arrendamiento? (Respuesta múltiple)</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op223_1080" class="sr-av"><a href="#answer-223_111">Opción 1</a></label><input type="checkbox" id="op223_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-223_111"><a name="answer-223_111"></a>
+<div id="taans223_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Vencimiento del plazo.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-223_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op223_1081" class="sr-av"><a href="#answer-223_501">Opción 2</a></label><input type="checkbox" id="op223_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-223_501"><a name="answer-223_501"></a>
+<div id="taans223_501" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Requerimiento antes de que finalice el contrato.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-223_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op223_1082" class="sr-av"><a href="#answer-223_503">Opción 3</a></label><input type="checkbox" id="op223_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-223_503"><a name="answer-223_503"></a>
+<div id="taans223_503" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Falta de aquiescencia del arrendador.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-223_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op223_1083" class="sr-av"><a href="#answer-223_505">Opción 4</a></label><input type="checkbox" id="op223_1083" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-223_505"><a name="answer-223_505"></a>
+<div id="taans223_505" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Muerte del arrendador o arrendatario.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-223_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'223_108')"/> 
+</p>
+</div>
+<div id="f223_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-223_111" class="right">Correcto</a></li>
+<li><a href="#answer-223_501" class="right">Correcto</a></li>
+<li><a href="#answer-223_503" class="right">Correcto</a></li>
+<li><a href="#answer-223_505" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

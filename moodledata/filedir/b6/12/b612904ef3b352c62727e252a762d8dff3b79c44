@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="Glosariodeterminos"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="1"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="1"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="4">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Glosario de términos"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Free Text"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="childs"></string>
+        <list></list>
+        <string role="key" value="content"></string>
+        <instance class="exe.engine.field.TextAreaField" reference="3">
+         <dictionary>
+          <string role="key" value="_id"></string>
+          <int value="85"></int>
+          <string role="key" value="_idevice"></string>
+          <reference key="1"></reference>
+          <string role="key" value="_instruc"></string>
+          <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+          <string role="key" value="_name"></string>
+          <unicode value="Free Text"></unicode>
+          <string role="key" value="anchor_names"></string>
+          <list></list>
+          <string role="key" value="anchors_linked_from_fields"></string>
+          <dictionary></dictionary>
+          <string role="key" value="content_w_resourcePaths"></string>
+          <unicode content="true" value="&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing: &lt;/strong&gt;Conjunto de técnicas y estudios que tienen como objeto mejorar la comercialización de un producto.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing Empresarial: &lt;/strong&gt;Va dirigido a la empresa privada y su objetivo es, por un lado, satisfacer las necesidades de los consumidores, y por otro, obtener un beneficio económico por ello.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing Gubernamental&lt;/strong&gt;: Es el que será desarrollado por la Administración Pública (Gobierno, Comunidades Autónomas, Ayuntamientos, Patronatos...).&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing verde (Green Marketing)&lt;/strong&gt;: Es el que impulsa productos que han sido diseñados cuidando el medio ambiente. El marketing verde ha sido necesario debido al crecimiento de la conciencia de desarrollo sostenible.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing viral:&lt;/strong&gt; Usa los medios digitales (las redes sociales fundamentalmente) para difundir la marca de la manera más rápida posible, que a su vez lo difunden a sus propias redes.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing one to one:&lt;/strong&gt; Tipo de marketing orientado a personalizar las respuestas a las necesidades específicas de cada cliente.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing 360º:&lt;/strong&gt; Compuesto de todos los medios al alcance del consumidor para la puesta en marcha de una campaña. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing relacional: S&lt;/strong&gt;e trata de un marketing de relaciones desde la captación de clientes hasta su fidelización.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Inbound Marketing: U&lt;/strong&gt;n tipo de marketing donde el contenido útil y relevante será crucial para ofrecer valor a los clientes en cada una de las etapas del proceso de compra. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing de buscadores:&lt;/strong&gt; Acciones orientadas a lograr un posicionamiento web óptimo en buscadores con el objetivo de alcanzar visibilidad para los usuarios.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing de afiliados:&lt;/strong&gt; A través de redes de afiliados la empresa tiene la posibilidad de comunicarse con clientes potenciales para aumentar las ventas a cambio de una comisión. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Email marketing:&lt;/strong&gt; Comunicación entre una empresa y sus públicos a través de envío de emails de diferente tipología (oferta, newsletter, cupón...).&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing conversacional:&lt;/strong&gt; La estrategia de negocio está basada en la comunicación activa y así maximizar la visibilidad y el nivel de exposición.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Neuromarketing&lt;/strong&gt;: Marketing centrado en el estudio del comportamiento humano teniendo en cuenta el funcionamiento del cerebro como responsable en el proceso de compra de los consumidores.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Ambient Marketing&lt;/strong&gt;: Las estrategias de marketing se integra en el medio utilizando objetivos de la vida cotidiana.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Mobile Marketing:&lt;/strong&gt; Se trata de un tipo de marketing basado en la tecnología y utilizando a los smartphones como canales de comunicación entre la empresa y el consumidor.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing sensoria&lt;/strong&gt;&lt;strong&gt;l&lt;/strong&gt;: Orientado a estimular los 5 sentidos en el consumidor y su parte emocional para influir en la compra. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Vídeo marketing:&lt;/strong&gt; Canal de comunicación basado en el vídeo y el poder de éste. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing horizontal&lt;/strong&gt;: Cuando la empresa se dirige a una tipología de cliente concreto aunque éste pertenezca a diferentes sectores. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing vertical&lt;/strong&gt;: Al contrario que el horizontal, este tipo de marketing se dirige a sectores muy específicos.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing lateral&lt;/strong&gt;: Su prioridad es la creatividad para ofrecer algo diferente a los consumidores.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing interno&lt;/strong&gt;: Aquél aplicado en el interior de la organización a través de comunicación interna, motivación, participación...&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Marketing en el punto de venta&lt;/strong&gt;: Se aplica con la presencia activa del producto en el lugar donde se encuentra el consumidor para adquirirlo.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Audio marketing&lt;/strong&gt;: Utiliza el sonido y la música en el lugar de venta para lograr que el consumidor realice una acción determinada, a través de la estimulación de las emociones que influyen en el proceso de compra. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;App marketing&lt;/strong&gt;: Técnicas de marketing aplicadas a un canal concreto, las aplicaciones móviles.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Influencer marketing&lt;/strong&gt;: Se utiliza la influencia de ciertas personas o líderes de opinión para generar notoriedad de marca o en la mente del consumidor o influyan en sus decisiones de compra. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Analítica web: &lt;/strong&gt;Proceso por el que se mide el comportamiento de los usuarios en un sitio web o red social, como por ejemplo visitas, tiempo de duración en tu web, páginas vistas, etc. Su objetivo es conocer todo ello para mejorar continuamente las estrategias de marketing digital, logrando mayor tráfico, mejores experiencias en los visitantes y, finalmente, mayores ventas para la empresa.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Blog: &lt;/strong&gt;Sitio web que &lt;span style=&quot;color: #000000;&quot;&gt;permite&lt;/span&gt; redactar contenidos y ser publicados. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Branding&lt;/strong&gt;: Es un anglicismo que hace referencia al proceso de construcción de una marca, a través de la administración de los activos relacionados directa o indirectamente al logotipo que identifica a la marca.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Calidad:&lt;/strong&gt; 1. Propiedad o conjunto de propiedades inherentes a una cosa que permiten caracterizarla y valorarla como igual, mejor o peor que las restantes de su especie2. Carácter de una persona.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Community Manager&lt;/strong&gt;: Profesional de Marketing digital que es responsable de la gestión y el desarrollo de la comunidad digital de una determinada marca o empresa en el mundo online.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Computadora:&lt;/strong&gt; Máquina electrónica con memoria usada para realizar procesos lógicos.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Consultor:&lt;/strong&gt; Persona que se dedica a dar su opinión profesional sobre un determinado asunto.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Consumidor:&lt;/strong&gt; Persona que compra y utiliza productos elaborados.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;CRM (Customer Relationship Management)&lt;/strong&gt;: Se entiende como la gestión sobre la relación que tiene una empresa con los consumidores.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Diseño:&lt;/strong&gt; 1. Actividad creativa que tiene por fin proyectar objetos, tipografías, logotipos, etc. 2. Dibujo que se hace de una cosa para que sirva de modelo en su realización3. Forma que toma en la realidad este dibujo4. Explicación breve y esquemática.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Emprendedor: &lt;/strong&gt;La función específica de los emprendedores es la capacidad para tomar los factores de la producción -tierra, trabajo y capital- y usarlos para producir bienes o servicios nuevos. El emprendedor percibe oportunidades que otros ejecutivos de empresas no ven o no les interesan.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Fragmentación de los mercados:&lt;/strong&gt; Diversidad de mercados que están compuestos por diferentes segmentos, que reflejan las distintas necesidades, deseos, comportamientos y respuestas a los mensajes de marketing.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Globalización de los mercados:&lt;/strong&gt; Es el cambio o proceso hacia una economía mundial, que va desde la expansión del comercio internacional, pasando por el crecimiento de las empresas multinacionales (en más de un país) con mayor grado de integración e interdependencia, en el que hace referencia a operaciones que cruzan el mercado nacional, más allá de fronteras, barreras arancelarias, diferencias étnicas, credos religiosos, ideologías políticas y condiciones socio-económicas o culturales.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;KPI&lt;/strong&gt;: Una medida financiera y no financiera usada para evaluar la evolución hacia un objetivo organizativo predefinido. Las KPIs son las medidas validadas, medibles y que reflejan los factores claves de éxito de una empresa.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Merchandising: &lt;/strong&gt;1. Técnica comercial para establecer correcciones o nuevos desarrollos a un producto, una vez que se encuentra en el mercado. 2. Conjunto de productos publicitarios para promocionar un artista, un grupo, una marca, etc.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;ORM (Online Reputation Management)&lt;/strong&gt;: Consiste en realizar un seguimiento continuo y análisis de la reputación online de una determinada marca y, al mismo tiempo, intentar influir positivamente sobre el contenido que pueda influir en ella. El objetivo de la gestión de la reputación online es la de crear, mantener y aumentar una imagen de marca positiva y evitar posibles crisis de reputación, gracias a una estrategia proactiva.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Posicionamiento web: &lt;/strong&gt;Proceso que mejora la visibilidad de un sitio web en los diferentes buscadores, estructurando y organizando la información de la página web. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Performance marketing: &lt;/strong&gt;Rama del marketing en el que la empresa anunciante solo paga por los resultados que obtiene después de contratar una campaña o acción de marketing digital. Se relaciona con objetivos que buscan elaborar estrategias de marketing para aumentar clientes, ventas etc.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Redes sociales:&lt;/strong&gt; Estructura social compuesta por una serie de usuarios/as, que se relacionan entre ellos en base a un criterio común. &lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Usabilidad:&lt;/strong&gt; Facilidad con la que los usuarios en nuestra web llevan a cabo cualquier acción usando cualquiera de los elementos que la componen.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;WEB:&lt;/strong&gt; 1. Conjunto de información que se encuentra en una dirección determinada de internet.&lt;/li&gt;
+&lt;li style=&quot;display: list-item;&quot;&gt;&lt;strong&gt;Web 2.0:&lt;/strong&gt; Se define como web social, es una plataforma en la red en la que están involucrados todos los sujetos clásicos de la comunicación y entran en juego multitud de canales y dispositivos. Además, una de las principales características de la Web 2.0 es que se encuentra en estado beta permanente, es decir, cambia y evoluciona de forma continua gracias, en gran parte, al gran uso y aportación de los usuarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;resources/dictionary-1619740_1280.jpg&quot; alt=&quot;vid&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;1280&quot; height=&quot;853&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+          <int value="4"></int>
+          <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+          <int value="2"></int>
+          <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+          <int value="3"></int>
+          <string role="key" value="htmlTag"></string>
+          <string value="div"></string>
+          <string role="key" value="images"></string>
+          <instance class="exe.engine.galleryidevice.GalleryImages">
+           <dictionary>
+            <string role="key" value=".listitems"></string>
+            <list>
+             <instance class="exe.engine.galleryidevice.GalleryImage">
+              <dictionary>
+               <string role="key" value="_caption"></string>
+               <instance class="exe.engine.field.TextField">
+                <dictionary>
+                 <string role="key" value="_id"></string>
+                 <int value="159"></int>
+                 <string role="key" value="_idevice"></string>
+                 <none></none>
+                 <string role="key" value="_instruc"></string>
+                 <string value=""></string>
+                 <string role="key" value="_name"></string>
+                 <string value=""></string>
+                 <string role="key" value="content"></string>
+                 <string value=""></string>
+                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                 <int value="4"></int>
+                </dictionary>
+               </instance>
+               <string role="key" value="_id"></string>
+               <unicode value="0_85.1"></unicode>
+               <string role="key" value="_imageResource"></string>
+               <instance class="exe.engine.resource.Resource" reference="5">
+                <dictionary>
+                 <string role="key" value="_idevice"></string>
+                 <reference key="1"></reference>
+                 <string role="key" value="_package"></string>
+                 <reference key="2"></reference>
+                 <string role="key" value="_storageName"></string>
+                 <string value="dictionary-1619740_1280.jpg"></string>
+                 <string role="key" value="_userName"></string>
+                 <string value="c:\\users\\usuario\\appdata\\local\\temp\\tmpied8oe\\dictionary-1619740_1280.jpg"></string>
+                 <string role="key" value="checksum"></string>
+                 <string value="049f51baa5029f90c475b81c35315dea"></string>
+                 <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                 <int value="2"></int>
+                 <string role="key" value="warningMsg"></string>
+                 <string value=""></string>
+                </dictionary>
+               </instance>
+               <string role="key" value="_parent"></string>
+               <reference key="3"></reference>
+               <string role="key" value="_thumbnailResource"></string>
+               <none></none>
+               <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+               <int value="3"></int>
+               <string role="key" value="makeThumbnail"></string>
+               <bool value="0"></bool>
+              </dictionary>
+             </instance>
+            </list>
+            <string role="key" value="idevice"></string>
+            <reference key="3"></reference>
+           </dictionary>
+          </instance>
+          <string role="key" value="intlinks_to_anchors"></string>
+          <dictionary></dictionary>
+          <string role="key" value="nextImageId"></string>
+          <int value="2"></int>
+          <string role="key" value="parentNode"></string>
+          <reference key="4"></reference>
+         </dictionary>
+        </instance>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+        <int value="7"></int>
+        <string role="key" value="icon"></string>
+        <string value=""></string>
+        <string role="key" value="id"></string>
+        <unicode value="0"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parent"></string>
+        <none></none>
+        <string role="key" value="parentNode"></string>
+        <reference key="4"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="type"></string>
+        <none></none>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list>
+         <reference key="5"></reference>
+        </list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="2"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="scorm"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Glosario%20de%20t%C3%A9rminos"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list></list>
+    </dictionary>
+   </instance>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value="Base"></string>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="4"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="15"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="creative commons: attribution - share alike 4.0"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2018-11-26T11:46:59.00+01:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2018-11-26T11:46:59.00+01:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Default"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary>
+   <string role="key" value="049f51baa5029f90c475b81c35315dea"></string>
+   <list>
+    <reference key="5"></reference>
+   </list>
+  </dictionary>
+  <string role="key" value="root"></string>
+  <reference key="4"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="INTEF"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

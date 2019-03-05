@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación | INTRODUCCIÓN A LA PSICOLOGÍA INFANTIL </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id46">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 3;
+var key1 = 1;
+var key2 = 0;
+var key3 = 2;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b46");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm46").key0b46[i].checked)
+               {
+                  question0 = document.getElementById("quizForm46").key0b46[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b46");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm46").key1b46[i].checked)
+               {
+                  question1 = document.getElementById("quizForm46").key1b46[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b46");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm46").key2b46[i].checked)
+               {
+                  question2 = document.getElementById("quizForm46").key2b46[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b46");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm46").key3b46[i].checked)
+               {
+                  question3 = document.getElementById("quizForm46").key3b46[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b46");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm46").key4b46[i].checked)
+               {
+                  question4 = document.getElementById("quizForm46").key4b46[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm46").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm46" id="quizForm46" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-46" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b46" class="block iDevice_content">
+<p><b>En el siglo XIX, más concretamente en el año 1822, se publica el libro “Die Seele des Kindes”, considerado como uno de los primeros clásicos de la Psicología del niño. ¿Quién fue su autor?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b461" class="sr-av"><a href="#answer-key0b461">Opción 1</a></label><input type="radio" name="key0b46" id="key0b461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b461"><a name="answer-key0b461"></a>
+<div id="taoptionAnswer0q0b46" class="block iDevice_content">
+<p><span>Jaeger.</span></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b462" class="sr-av"><a href="#answer-key0b462">Opción 2</a></label><input type="radio" name="key0b46" id="key0b462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b462"><a name="answer-key0b462"></a>
+<div id="taoptionAnswer1q0b46" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Basedow.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b463" class="sr-av"><a href="#answer-key0b463">Opción 3</a></label><input type="radio" name="key0b46" id="key0b463" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b463"><a name="answer-key0b463"></a>
+<div id="taoptionAnswer2q0b46" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Rousseau.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b464" class="sr-av"><a href="#answer-key0b464">Opción 4</a></label><input type="radio" name="key0b46" id="key0b464" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b464"><a name="answer-key0b464"></a>
+<div id="taoptionAnswer3q0b46" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Preyer.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b46" class="block iDevice_content">
+<p><b>Responde verdadero o falso:</b><span> </span><br /><i>“La obra de Tiedemann se aproxima mucho más a lo que actualmente se entiende por psicología infantil que la obra realizada por Preyer”.</i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b461" class="sr-av"><a href="#answer-key1b461">Opción 1</a></label><input type="radio" name="key1b46" id="key1b461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b461"><a name="answer-key1b461"></a>
+<div id="taoptionAnswer0q1b46" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b462" class="sr-av"><a href="#answer-key1b462">Opción 2</a></label><input type="radio" name="key1b46" id="key1b462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b462"><a name="answer-key1b462"></a>
+<div id="taoptionAnswer1q1b46" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b46" class="block iDevice_content">
+<p><b>Completa los espacios en blanco de la siguiente afirmación:</b><span> </span><br /><span>“Desde un enfoque conductista se afirma que el conocimiento es adquirido y aprendido mediante . Éste hace que los comportamientos se repitan si han sido reforzados o se inhabilitan si han castigados”.</span></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b461" class="sr-av"><a href="#answer-key2b461">Opción 1</a></label><input type="radio" name="key2b46" id="key2b461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b461"><a name="answer-key2b461"></a>
+<div id="taoptionAnswer0q2b46" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Condicionamiento.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b462" class="sr-av"><a href="#answer-key2b462">Opción 2</a></label><input type="radio" name="key2b46" id="key2b462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b462"><a name="answer-key2b462"></a>
+<div id="taoptionAnswer1q2b46" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Repetición.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b463" class="sr-av"><a href="#answer-key2b463">Opción 3</a></label><input type="radio" name="key2b46" id="key2b463" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b463"><a name="answer-key2b463"></a>
+<div id="taoptionAnswer2q2b46" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Reproducción.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b464" class="sr-av"><a href="#answer-key2b464">Opción 4</a></label><input type="radio" name="key2b46" id="key2b464" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b464"><a name="answer-key2b464"></a>
+<div id="taoptionAnswer3q2b46" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Observación.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b46" class="block iDevice_content">
+<div class="ee_enunciado"><b>Los conceptos de emoción, la conducta de apego, el desarrollo en el juego y el desarrollo psicosexual; ¿a qué dimensión pertenecen?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b461" class="sr-av"><a href="#answer-key3b461">Opción 1</a></label><input type="radio" name="key3b46" id="key3b461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b461"><a name="answer-key3b461"></a>
+<div id="taoptionAnswer0q3b46" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Social.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b462" class="sr-av"><a href="#answer-key3b462">Opción 2</a></label><input type="radio" name="key3b46" id="key3b462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b462"><a name="answer-key3b462"></a>
+<div id="taoptionAnswer1q3b46" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Cognitiva.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b463" class="sr-av"><a href="#answer-key3b463">Opción 3</a></label><input type="radio" name="key3b46" id="key3b463" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b463"><a name="answer-key3b463"></a>
+<div id="taoptionAnswer2q3b46" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Afectiva.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b464" class="sr-av"><a href="#answer-key3b464">Opción 4</a></label><input type="radio" name="key3b46" id="key3b464" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b464"><a name="answer-key3b464"></a>
+<div id="taoptionAnswer3q3b46" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Perceptiva.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b46" class="block iDevice_content">
+<p><b>Responde verdadero o falso:</b><span> </span><br /><i>“Las primeras manifestaciones sociales que realiza un niño pequeño se realizan a través de las emociones”.</i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b461" class="sr-av"><a href="#answer-key4b461">Opción 1</a></label><input type="radio" name="key4b46" id="key4b461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b461"><a name="answer-key4b461"></a>
+<div id="taoptionAnswer0q4b46" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b462" class="sr-av"><a href="#answer-key4b462">Opción 2</a></label><input type="radio" name="key4b46" id="key4b462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b462"><a name="answer-key4b462"></a>
+<div id="taoptionAnswer1q4b46" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

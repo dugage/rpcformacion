@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4. La solución completa </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4. La solución completa</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Con los nuevos elementos que acabamos de conocer, más los fundamentos adquiridos en capítulos previos, ya estamos en disposición de crear una macro mucho más útil. Ésta tendrá como objetivo seleccionar una tabla de población cualquier, ya sea de un continente o la tabla global que existe en el libro de ejemplo y generar, en una nueva hoja, una tabla equivalente donde se indiquen los porcentajes de cada entrada respecto a un total. Éste será solicitado mediante un cuadro de diálogo.</p>
+<p>El código completo de esta macro, incluyendo comentarios que aclaran la función de cada sentencia, es el siguiente:</p>
+<p>Sub CalculoPorcentajes ()</p>
+<p>Dim TablaDatos As Range</p>
+<p>Dim Celdilla As Range</p>
+<p>Dim PoblaciónTotal As Long</p>
+<p></p>
+<p>‘ Nos movemos a la primera columna del área</p>
+<p>ActiveCell.End (xlToLeft).Activate</p>
+<p>‘ y a la primera fila</p>
+<p>ActiveCell.End (xlUp).Activate</p>
+<p>‘ seleccionamos hasta la última columna</p>
+<p>Range (ActiveCell, ActiveCell.End (xlToRight)).Select</p>
+<p>‘ y hasta la última fila</p>
+<p>Set TablaDatos = Range (Selection, ActiveCell.End (xlDown))</p>
+<p>TablaDatos.Select ‘ activando toda la tabla</p>
+<p>‘ Solicitamos la celdilla que contiene la población total</p>
+<p>PoblaciónTotal = Application.INputBox ( _</p>
+<p>“Celdilla con el total”, “Porcentajes”, Type:=8).Value</p>
+<p></p>
+<p>‘ Insertamos una nueva hoja y la activamos</p>
+<p>ActiveWorkbook.Worksheets.Add.Activate</p>
+<p>‘ recorremos cada celdilla de la tabla</p>
+<p>For Each Celdilla In TablaDatos</p>
+<p>‘ Activamos en la nueva hoja la misma celdilla de la tabla</p>
+<p>Range (Celdilla.Address).Activate</p>
+<p>‘ si el valor que contiene es numérico</p>
+<p>If IsNumeric (Celdilla.Value) Then</p>
+<p>‘ calculamos el porcentaje sobre el total</p>
+<p>ActiveCell.Value = Celdilla.Value / PoblacionTotal</p>
+<p>‘ y le aplicamos el formato adecuado</p>
+<p>ActiveCell.NumberFormat = “#0.00%”</p>
+<p>Else ‘ en caso contrario copiamos el título</p>
+<p>ActiveCell.Value = Celdilla.Value</p>
+<p>‘ y lo ponemos en negrita</p>
+<p>ActiveCell.FOnt:Bold = True</p>
+<p>End If</p>
+<p>Next</p>
+<p>End sub</p>
+<p>En primer lugar seleccionaremos la tabla usando la técnica descrita al principio. Observe que el rango correspondiente lo guardamos en una variable. Acto seguido solicitamos que se indique cuál es la celdilla que contiene la población total, recuperando dicho valor. Añadimos una nueva hoja y la activamos, iniciando un bucle en el que recorremos todas las celdillas que componen la tabla.</p>
+<p>Por cada celdilla de la tabla origen seleccionaremos la hoja de destino la misma referencia. Acto seguido comprobaremso si su contenido es un número o no. En caso afirmativo efectuamos el cálculo y, de no ser así, simplemente copiamos el dato original. En ambos casos asignamos un formato a la celdilla.</p>
+<p>Al ejecutar la macro verá cómo se selecciona la tabla y aparece la ventana solicitando la celdilla que contiene el total, tal y como se aprecia en la figura 15.1. Al cerrar dicha ventana se añadirá la nueva hoja y verá cómo van incluyéndose los resultados en ella.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VHB6M2lITG53UFVueUdQd01ISXFNRm1ESWNWVjRwMlVIZzZGY2VXeUN5RSUzRA==" id="IMG_VHB6M2lITG53UFVueUdQd01ISXFNRm1ESWNWVjRwMlVIZzZGY2VXeUN5RSUzRA==" alt="Manipulación de datos" title="Manipulación de datos" width="441" /></p>
+<p><b>Figura 15.1.</b> La macro en ejecución.</p>
+<p>El resultado final será similar al mostrado en la figura 15.2.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VnRCdzlReTdMNzYxSU15WiUyQllONjZwU01FcG8lMkJEJTJCMUd5R0tFWjUwRDludyUzRA==" id="IMG_VnRCdzlReTdMNzYxSU15WiUyQllONjZwU01FcG8lMkJEJTJCMUd5R0tFWjUwRDludyUzRA==" alt="Manipulación de datos" title="Manipulación de datos" width="503" /></p>
+<p><b>Figura 15.2.</b> Aspecto de la tabla de datos resultante en la nueva hoja.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

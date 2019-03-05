@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | TEMA 6. LAS SESIONES DE CICLO-INDOOR </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id159">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 1;
+var key1 = 2;
+var key2 = 0;
+var key3 = 1;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b159");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm159").key0b159[i].checked)
+               {
+                  question0 = document.getElementById("quizForm159").key0b159[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b159");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm159").key1b159[i].checked)
+               {
+                  question1 = document.getElementById("quizForm159").key1b159[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b159");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm159").key2b159[i].checked)
+               {
+                  question2 = document.getElementById("quizForm159").key2b159[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b159");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm159").key3b159[i].checked)
+               {
+                  question3 = document.getElementById("quizForm159").key3b159[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b159");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm159").key4b159[i].checked)
+               {
+                  question4 = document.getElementById("quizForm159").key4b159[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm159").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm159" id="quizForm159" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-159" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b159" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Qué es el Stretching?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1591" class="sr-av"><a href="#answer-key0b1591">Opción 1</a></label><input type="radio" name="key0b159" id="key0b1591" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1591"><a name="answer-key0b1591"></a>
+<div id="taoptionAnswer0q0b159" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Calentamiento de toda la musculatura.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1592" class="sr-av"><a href="#answer-key0b1592">Opción 2</a></label><input type="radio" name="key0b159" id="key0b1592" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1592"><a name="answer-key0b1592"></a>
+<div id="taoptionAnswer1q0b159" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Estiramiento para preparar nuestro aparato locomotor al trabajo de los ejercicios.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1593" class="sr-av"><a href="#answer-key0b1593">Opción 3</a></label><input type="radio" name="key0b159" id="key0b1593" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1593"><a name="answer-key0b1593"></a>
+<div id="taoptionAnswer2q0b159" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Es una modalidad de Ciclo-Indoor.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b159" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Qué es la intensidad?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1591" class="sr-av"><a href="#answer-key1b1591">Opción 1</a></label><input type="radio" name="key1b159" id="key1b1591" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1591"><a name="answer-key1b1591"></a>
+<div id="taoptionAnswer0q1b159" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Es la capacidad de superar una resistencia mediante una contracción muscular.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1592" class="sr-av"><a href="#answer-key1b1592">Opción 2</a></label><input type="radio" name="key1b159" id="key1b1592" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1592"><a name="answer-key1b1592"></a>
+<div id="taoptionAnswer1q1b159" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Capacidad para mantener un esfuerzo eficaz durante el mayor período de tiempo posible.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1593" class="sr-av"><a href="#answer-key1b1593">Opción 3</a></label><input type="radio" name="key1b159" id="key1b1593" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1593"><a name="answer-key1b1593"></a>
+<div id="taoptionAnswer2q1b159" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Es la variable que va a marcar el trabajo de las sesiones de Ciclo-Indoor, es decir, es el esfuerzo necesario para superar una determinada carga de entrenamiento.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b159" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Cuáles de las siguientes descripciones se corresponden con la Zona III, utilizada para la delimitación del trabajo individual?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1591" class="sr-av"><a href="#answer-key2b1591">Opción 1</a></label><input type="radio" name="key2b159" id="key2b1591" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1591"><a name="answer-key2b1591"></a>
+<div id="taoptionAnswer0q2b159" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">80-90% de la FC máx. teórica. (Zona aeróbica intensa).</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1592" class="sr-av"><a href="#answer-key2b1592">Opción 2</a></label><input type="radio" name="key2b159" id="key2b1592" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1592"><a name="answer-key2b1592"></a>
+<div id="taoptionAnswer1q2b159" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">&lt;70% de la FC máx. teórica. (Zona de recuperación).</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b1593" class="sr-av"><a href="#answer-key2b1593">Opción 3</a></label><input type="radio" name="key2b159" id="key2b1593" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b1593"><a name="answer-key2b1593"></a>
+<div id="taoptionAnswer2q2b159" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">70-80% de la FC máx. teórica. (Zona aeróbica moderada).</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b159" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Qué se entiende por FasLek?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1591" class="sr-av"><a href="#answer-key3b1591">Opción 1</a></label><input type="radio" name="key3b159" id="key3b1591" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1591"><a name="answer-key3b1591"></a>
+<div id="taoptionAnswer0q3b159" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Es un programa específico de Ciclo-Indoor.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1592" class="sr-av"><a href="#answer-key3b1592">Opción 2</a></label><input type="radio" name="key3b159" id="key3b1592" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1592"><a name="answer-key3b1592"></a>
+<div id="taoptionAnswer1q3b159" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Son cambios de ritmos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b1593" class="sr-av"><a href="#answer-key3b1593">Opción 3</a></label><input type="radio" name="key3b159" id="key3b1593" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b1593"><a name="answer-key3b1593"></a>
+<div id="taoptionAnswer2q3b159" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Es un tipo de estiramiento muscular.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b159" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Qué nivel podemos considerar que posee una persona que lleva practicando Ciclo-Indoor entre seis meses y un año?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1591" class="sr-av"><a href="#answer-key4b1591">Opción 1</a></label><input type="radio" name="key4b159" id="key4b1591" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1591"><a name="answer-key4b1591"></a>
+<div id="taoptionAnswer0q4b159" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Nivel medio.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1592" class="sr-av"><a href="#answer-key4b1592">Opción 2</a></label><input type="radio" name="key4b159" id="key4b1592" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1592"><a name="answer-key4b1592"></a>
+<div id="taoptionAnswer1q4b159" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Nivel básico o iniciación.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b1593" class="sr-av"><a href="#answer-key4b1593">Opción 3</a></label><input type="radio" name="key4b159" id="key4b1593" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b1593"><a name="answer-key4b1593"></a>
+<div id="taoptionAnswer2q4b159" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Nivel alto o avanzado.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

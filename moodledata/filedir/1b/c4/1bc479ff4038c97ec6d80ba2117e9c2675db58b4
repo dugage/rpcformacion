@@ -1,0 +1,2473 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="4" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+ <dictionary>
+  <string role="key" value="_title"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="idevices"></string>
+  <list></list>
+  <string role="key" value="_addPagination"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_author"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_backgroundImg"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextMode"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_contextPlace"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_description"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_docType"></string>
+  <unicode value="HTML5"></unicode>
+  <string role="key" value="_intendedEndUserRoleGroup"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleTutor"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_intendedEndUserRoleType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_isChanged"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_isTemplate"></string>
+  <bool value="0"></bool>
+  <string role="key" value="_lang"></string>
+  <unicode value="es"></unicode>
+  <string role="key" value="_learningResourceType"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_levelNames"></string>
+  <list>
+   <unicode value="Tema"></unicode>
+   <unicode value="Sección"></unicode>
+   <unicode value="Unidad"></unicode>
+  </list>
+  <string role="key" value="_name"></string>
+  <unicode value="tema2"></unicode>
+  <string role="key" value="_nextIdeviceId"></string>
+  <int value="10"></int>
+  <string role="key" value="_nextNodeId"></string>
+  <int value="10"></int>
+  <string role="key" value="_nodeIdDict"></string>
+  <dictionary>
+   <unicode role="key" value="0"></unicode>
+   <instance class="exe.engine.node.Node" reference="3">
+    <dictionary>
+     <string role="key" value="_title"></string>
+     <unicode value="Unidad Didáctica 2: 1. El ejercicio contable"></unicode>
+     <string role="key" value="idevices"></string>
+     <list>
+      <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="1">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Free Text"></unicode>
+        <string role="key" value="_author"></string>
+        <unicode value="University of Auckland"></unicode>
+        <string role="key" value="_purpose"></string>
+        <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+        <string role="key" value="_tip"></string>
+        <string value=""></string>
+        <string role="key" value="childs"></string>
+        <list></list>
+        <string role="key" value="content"></string>
+        <instance class="exe.engine.field.TextAreaField" reference="2">
+         <dictionary>
+          <string role="key" value="_id"></string>
+          <int value="85"></int>
+          <string role="key" value="_idevice"></string>
+          <reference key="1"></reference>
+          <string role="key" value="_instruc"></string>
+          <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+          <string role="key" value="_name"></string>
+          <unicode value="Free Text"></unicode>
+          <string role="key" value="anchor_names"></string>
+          <list></list>
+          <string role="key" value="anchors_linked_from_fields"></string>
+          <dictionary></dictionary>
+          <string role="key" value="content_w_resourcePaths"></string>
+          <unicode content="true" value="&lt;p&gt;     Durante un ejercicio económico, la empresa se encontrará con varios acontecimientos contables que definirán su información económico-financiera. Con el ciclo contable ajustamos las operaciones y su repercusión en el patrimonio de la empresa a un período de tiempo determinado, que normalmente suele ir del 1 de enero al 31 de diciembre. Este ciclo se compone de los siguientes pasos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apertura de la contabilidad.&lt;/li&gt;
+&lt;li&gt;Registro de las operaciones del ejercicio.&lt;/li&gt;
+&lt;li&gt;Ajustes previos a la determinación del beneficio.&lt;/li&gt;
+&lt;li&gt;Balance de comprobación de sumas y saldos.&lt;/li&gt;
+&lt;li&gt;Cálculo del resultado.&lt;/li&gt;
+&lt;li&gt;Cierre de la contabilidad.&lt;/li&gt;
+&lt;li&gt;Cuentas anuales.&lt;/li&gt;
+&lt;li&gt;Distribución del resultado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;     Para explicar cada uno de los pasos del ciclo contable vamos a formular un ejemplo que iremos resolviendo a lo largo del tema. A 1 de enero, una empresa dedicada a la venta de muebles de oficina, cuenta con el siguiente patrimonio:&lt;/p&gt;
+&lt;table style=&quot;border-width: 0px; color: white; background-color: #878383;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; border=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td valign=&quot;top&quot; height=&quot;39&quot;&gt;
+&lt;p&gt;Local (oficina) 95.000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td valign=&quot;top&quot; height=&quot;39&quot;&gt;
+&lt;p&gt;Ordenadores 2.500&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td valign=&quot;top&quot; height=&quot;39&quot;&gt;
+&lt;p&gt;Existencias 500&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td valign=&quot;top&quot; height=&quot;39&quot;&gt;
+&lt;p&gt;Dinero 2.000&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td valign=&quot;top&quot; height=&quot;39&quot;&gt;
+&lt;p&gt;Capital 100.000 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+          <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+          <int value="4"></int>
+          <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+          <int value="2"></int>
+          <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+          <int value="3"></int>
+          <string role="key" value="htmlTag"></string>
+          <string value="div"></string>
+          <string role="key" value="images"></string>
+          <instance class="exe.engine.galleryidevice.GalleryImages">
+           <dictionary>
+            <string role="key" value=".listitems"></string>
+            <list></list>
+            <string role="key" value="idevice"></string>
+            <reference key="2"></reference>
+           </dictionary>
+          </instance>
+          <string role="key" value="intlinks_to_anchors"></string>
+          <dictionary></dictionary>
+          <string role="key" value="nextImageId"></string>
+          <int value="0"></int>
+          <string role="key" value="parentNode"></string>
+          <reference key="3"></reference>
+         </dictionary>
+        </instance>
+        <string role="key" value="edit"></string>
+        <bool value="0"></bool>
+        <string role="key" value="emphasis"></string>
+        <int value="0"></int>
+        <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+        <int value="7"></int>
+        <string role="key" value="icon"></string>
+        <string value=""></string>
+        <string role="key" value="id"></string>
+        <unicode value="0"></unicode>
+        <string role="key" value="lastIdevice"></string>
+        <bool value="0"></bool>
+        <string role="key" value="originalicon"></string>
+        <string value=""></string>
+        <string role="key" value="parent"></string>
+        <none></none>
+        <string role="key" value="parentNode"></string>
+        <reference key="3"></reference>
+        <string role="key" value="systemResources"></string>
+        <list></list>
+        <string role="key" value="type"></string>
+        <none></none>
+        <string role="key" value="undo"></string>
+        <bool value="1"></bool>
+        <string role="key" value="userResources"></string>
+        <list></list>
+        <string role="key" value="version"></string>
+        <int value="0"></int>
+       </dictionary>
+      </instance>
+     </list>
+     <string role="key" value="_id"></string>
+     <unicode value="0"></unicode>
+     <string role="key" value="_package"></string>
+     <reference key="4"></reference>
+     <string role="key" value="anchor_fields"></string>
+     <list></list>
+     <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+     <int value="2"></int>
+     <string role="key" value="exportType"></string>
+     <string value="scorm"></string>
+     <string role="key" value="last_full_node_path"></string>
+     <string value="exe-node:Unidad%20Did%C3%A1ctica%202%3A%201.%20El%20ejercicio%20contable"></string>
+     <string role="key" value="parent"></string>
+     <none></none>
+     <string role="key" value="top_anchors_linked_from_fields"></string>
+     <list></list>
+     <string role="key" value="children"></string>
+     <list>
+      <instance class="exe.engine.node.Node" reference="7">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="2. Balance de situación inicial"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="5">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="6">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="5"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div id=&quot;pagina_1&quot; style=&quot;display: block;&quot; class=&quot;dentro_contenidos&quot;&gt;
+&lt;p&gt;     Tanto en el Diario como en el Mayor se registrarán los elementos con los que cuenta la empresa en el momento de realizar la apertura del ejercicio contable. Las cuentas que figuren en el activo del balance constituirán los empleos y las que aparezcan en el pasivo los recursos.&lt;/p&gt;
+&lt;p&gt;En nuestro ejemplo, el asiento de apertura en el Libro Diario sería:&lt;/p&gt;
+&lt;p&gt;1 de enero&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_ZXV2SFJUSzNObUtrVWxZbiUyRiUyRnR5dmRuV0U1SFRwbk9yRjRPbzF0SGp1SXMlM0Q=&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZXV2SFJUSzNObUtrVWxZbiUyRiUyRnR5dmRuV0U1SFRwbk9yRjRPbzF0SGp1SXMlM0Q=&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;560&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="6"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="7"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="1"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="7"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="1"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="scorm"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Unidad%20Did%C3%A1ctica%202%3A%201.%20El%20ejercicio%20contable:2.%20Balance%20de%20situaci%C3%B3n%20inicial"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="10">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="3. Registro de las operaciones del ejercicio"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="8">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="9">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="8"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;     En este apartado se plasmarán las operaciones que le empresa vaya realizando. Cabe señalar que los incrementos de activo normalmente constituirán empleos (Debe), mientras que las disminuciones de valor de activo representarán recursos (Haber). Este hecho tiene incidencia en los movimientos de las cuentas de activo, como se plasma a continuación: &lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_SVoyZ0hMa0xpOHUxN2VoJTJGQiUyQk9IQVpVYXNMMUVQYzlPbVpuckJ5JTJCSmNOQSUzRA==&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_SVoyZ0hMa0xpOHUxN2VoJTJGQiUyQk9IQVpVYXNMMUVQYzlPbVpuckJ5JTJCSmNOQSUzRA==&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;567&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_VVpRUFpGeWVDcFl2aWhncGg4MjI5JTJGRXJrZHZkVVZzbmo4WTBrMmhtU3VrJTNE&quot; alt=&quot;tabla&quot; title=&quot;tabla&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VVpRUFpGeWVDcFl2aWhncGg4MjI5JTJGRXJrZHZkVVZzbmo4WTBrMmhtU3VrJTNE&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;descripcion_larga&quot;&gt;     De modo análogo, los incrementos de pasivo y neto generalmente constituirán recursos (y, por tanto, se anotarán en el Haber) y las disminuciones representarán empleos (Debe). Esta realidad puede expresarse esquemáticamente mediante cuentas de pasivo y neto, respectivamente, de la siguiente manera:&lt;/div&gt;
+&lt;p&gt;     Vamos a registrar las operaciones que se indican en el Libro Diario de EUROINNOVA.&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_MEtFN3RFd0M2dmlQVHhGaEQlMkZ5dVM0aGV4ZFdFSzhLJTJCSVhIUiUyRnolMkYlMkJVNWMlM0Q=&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MEtFN3RFd0M2dmlQVHhGaEQlMkZ5dVM0aGV4ZFdFSzhLJTJCSVhIUiUyRnolMkYlMkJVNWMlM0Q=&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;559&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;El 10 de enero compra mercaderías (muebles) por valor de 1.500 € pagándolo al contado:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_aU1nQzkzSnNFWDVGSHI5MnN0YmRVNE1BdkJuRVlkZEtZRUtOZjMyT2t4SSUzRA==&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_aU1nQzkzSnNFWDVGSHI5MnN0YmRVNE1BdkJuRVlkZEtZRUtOZjMyT2t4SSUzRA==&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;554&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;     La cuenta abonada podría ser «mercaderías», pero se va a utilizar la de “Compras de mercaderías”, que nos indica que de esta operación se deriva una compra.&lt;/p&gt;
+&lt;p&gt;     En Enero por la venta de mercaderías por valor de 50 €, con pago al contado de 20€ y dejándose el resto como crédito:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_anlkZnBOUnpzODU4T2MzJTJGYUllcUhwcDgySk5Vb2JZazc4JTJCZGlUek0ycjAlM0Q=&quot; alt=&quot;tabla&quot; title=&quot;tabla&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_anlkZnBOUnpzODU4T2MzJTJGYUllcUhwcDgySk5Vb2JZazc4JTJCZGlUek0ycjAlM0Q=&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;pieelemento&quot;&gt;
+&lt;div class=&quot;texto&quot;&gt;&lt;span class=&quot;title&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;     La cuenta abonada podría ser “mercaderías”, pero se va a utilizar la de “Ventas de mercaderías”, que viene a indicar que de esta operación se derivan ventas. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;En Marzo, por el cobro de los derechos pendientes del asiento anterior: &lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_QXNxdTdXQUxiTDJTWElJdiUyQndYSkhqSWZWYmclMkYwdDM3WHhadlc3S1RQbmclM0Q=&quot; alt=&quot;tabla&quot; title=&quot;tabla&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_QXNxdTdXQUxiTDJTWElJdiUyQndYSkhqSWZWYmclMkYwdDM3WHhadlc3S1RQbmclM0Q=&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;En Abril, por las compras de materias primas realizadas a la empresa “ELESA”: &lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_UXBMdHNuZWlhc2NNJTJCd3ZYc2tVb3N5OW92MVc3bmRVQVpBVmY5TkxlM0FFJTNE&quot; alt=&quot;tabla&quot; title=&quot;tabla&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UXBMdHNuZWlhc2NNJTJCd3ZYc2tVb3N5OW92MVc3bmRVQVpBVmY5TkxlM0FFJTNE&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;     Cargamos la cuenta «Compras de materias primas» y no «Materias primas», al incidir esta transacción en el cálculo del resultado, puesto que a la empresa le resulta indispensable comprar materias primas para llevar a cabo su proceso productivo. &lt;/p&gt;
+&lt;p&gt;En Mayo, pagamos a la empresa proveedora de materias primas:&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img id=&quot;IMG_bDZwZEJBdmNpWDRTJTJGREdwSGxGbzRZU0xud1AlMkYxY2hrVUU3JTJCS3ZrTTZaZyUzRA==&quot; alt=&quot;tabla&quot; title=&quot;tabla&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bDZwZEJBdmNpWDRTJTJGREdwSGxGbzRZU0xud1AlMkYxY2hrVUU3JTJCS3ZrTTZaZyUzRA==&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;pieelemento&quot;&gt;
+&lt;div class=&quot;texto&quot;&gt;&lt;span class=&quot;title&quot;&gt; &lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;En Junio, realizamos la devolución al banco de parte del préstamo que nos realizó:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_OVNhaEdIZ3RBS2RsaklCMDhCMUFkbDYwcEg0JTJCcUt2eHVCckc2bFRUWTBBJTNE&quot; alt=&quot;tabla&quot; title=&quot;tabla&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_OVNhaEdIZ3RBS2RsaklCMDhCMUFkbDYwcEg0JTJCcUt2eHVCckc2bFRUWTBBJTNE&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;pieelemento&quot;&gt;
+&lt;div class=&quot;texto&quot;&gt;&lt;span class=&quot;title&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;En Julio: compramos un ordenador para nuestras oficinas:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_RCUyQmQ0UUw4ZW1yczVHbiUyQnV4akdYaDNFOG5VSkFGOEI2YW9mTnUzJTJCMXEyUSUzRA==&quot; alt=&quot;tabla&quot; title=&quot;tabla&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_RCUyQmQ0UUw4ZW1yczVHbiUyQnV4akdYaDNFOG5VSkFGOEI2YW9mTnUzJTJCMXEyUSUzRA==&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;En los meses siguientes realizamos las siguientes operaciones:&lt;br /&gt;1. Pagamos la deuda pendiente por la compra del ordenador prevista para este año que suponemos que es de 5 euros:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_U1UzemRjTDFxMG16TjZXbzN6UnBMVnpxMWdxYkZadDdnU2F1aHJVcnVtNCUzRA==&quot; alt=&quot;tabla&quot; title=&quot;tabla&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_U1UzemRjTDFxMG16TjZXbzN6UnBMVnpxMWdxYkZadDdnU2F1aHJVcnVtNCUzRA==&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;2. Liquidamos las nóminas a nuestros trabajadores: &lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_S3VsZTlRY3dhejdCWmZTdWlhMHN0eiUyRkkwcXNvNXQ0WUNFRGtqSzZwaTk4JTNE&quot; alt=&quot;tabla&quot; title=&quot;tabla&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_S3VsZTlRY3dhejdCWmZTdWlhMHN0eiUyRkkwcXNvNXQ0WUNFRGtqSzZwaTk4JTNE&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;3. Pagamos la factura de suministro del agua:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_WmFtRnRCWnBKckoyTjRJdGVnWUglMkI2bkwyJTJCT3pFZHRFUGF3Z094RU04QnclM0Q=&quot; alt=&quot;tabla&quot; title=&quot;tabla&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_WmFtRnRCWnBKckoyTjRJdGVnWUglMkI2bkwyJTJCT3pFZHRFUGF3Z094RU04QnclM0Q=&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="9"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="10"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="2"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="10"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="2"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="scorm"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Unidad%20Did%C3%A1ctica%202%3A%201.%20El%20ejercicio%20contable:3.%20Registro%20de%20las%20operaciones%20del%20ejercicio"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="13">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="4. Ajustes previos a la determinación del beneficio generado en el ejercicio"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="11">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="12">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="11"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;p&gt;     Para calcular el resultado obtenido por la empresa en un período hay que considerar:&lt;/p&gt;
+&lt;p&gt;     En principio, el resultado del período vendrá dado por la diferencia entre los ingresos obtenidos por la venta de los productos y lo que cuesta fabricar los productos vendidos.&lt;br /&gt; Resultado = Ingresos por ventas – Coste de las ventas&lt;/p&gt;
+&lt;p&gt;     O sea, para determinar el beneficio del ejercicio se considerarán las unidades vendidas a precio de  venta menos éstas valoradas a precio de coste.&lt;/p&gt;
+&lt;p&gt;      Para fabricar los productos realizados en el ejercicio la empresa ha utilizado diversos elementos, como son: materias primas, mano de obra, energía eléctrica, etc. A lo largo del período, conforme los fue adquiriendo, los contabilizó. Es decir, la entidad ha registrado contablemente la adquisición de los factores que han intervenido en la producción del período, con independencia de que ésta sea o no vendida.&lt;br /&gt;      Ahora bien, se pueden presentar las siguientes situaciones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Al inicio del periodo, en el almacén de la empresa había productos fabricados en ejercicios anteriores, que si son vendidos se registra contablemente tal operación a un precio de venta. Los ingresos por ventas se han reflejado contablemente, pero ¿cómo se anota la incidencia del coste de fabricación de estos productos en el resultado del ejercicio?&lt;/li&gt;
+&lt;li&gt;Al cierre del ejercicio, algunos de los productos fabricados por la empresa no han sido vendidos, sino que todavía permanecen en el almacén, pero se ha contabilizado la adquisición de las materias primas utilizadas en su elaboración.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;     Para determinar contablemente el resultado, dando solución a las cuestiones planteadas, hay que registrar la &lt;strong&gt;variación de existencias&lt;/strong&gt; experimentada en el ejercicio. Para ello, al cierre del período se dan de baja las existencias que inicialmente había en almacén. Su registro será:&lt;/p&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;&lt;br /&gt; &lt;strong&gt;Concepto&lt;/strong&gt;&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Debe&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Haber&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Variación de existencias&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;Importe&lt;/p&gt;
+&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Existencias   &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;Importe&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;     Simultáneamente, se dan de alta las existencias que hay en este momento en el almacén (a través de un inventario):&lt;/p&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;&lt;br /&gt; &lt;strong&gt;Concepto&lt;/strong&gt;&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Debe&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Haber&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Existencias&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;Importe&lt;/p&gt;
+&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Variación de existencias&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;Importe&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;     Aplicando esto a nuestra empresa, tendremos lo siguiente:   &lt;br /&gt; Por las existencias iniciales:&lt;/p&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;&lt;br /&gt; &lt;strong&gt;Concepto&lt;/strong&gt;&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Debe&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Haber&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Variación de mercaderías&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;10&lt;/p&gt;
+&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Mercaderías  &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;10&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;     Por las existencias finales, suponiendo que en el almacén de “EUROINNOVA” hay mercaderías valoradas en 25 €, siendo el stock de materias primas igual a 0:&lt;/p&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;&lt;br /&gt; &lt;strong&gt;Concepto&lt;/strong&gt;&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Debe&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Haber&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Mercaderías&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;25&lt;/p&gt;
+&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Variación de mercaderías&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;25&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="12"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="13"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="3"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="13"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="3"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="scorm"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Unidad%20Did%C3%A1ctica%202%3A%201.%20El%20ejercicio%20contable:4.%20Ajustes%20previos%20a%20la%20determinaci%C3%B3n%20del%20beneficio%20generado%20en%20el%20ejercicio"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="16">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="5. Balance de sumas y saldos"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="14">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="15">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="14"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div id=&quot;pagina_1&quot; style=&quot;display: block;&quot; class=&quot;dentro_contenidos&quot;&gt;
+&lt;p&gt;     El balance de comprobación se utiliza para descartar posibles errores cometidos durante el registro de asientos del período (descuadres). El balance contiene las cuentas representativas de elementos patrimoniales y las de gastos e ingresos.&lt;/p&gt;
+&lt;p&gt;Su estructura es:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_UmVQZWZ0RFdDSDQlMkZTemtuWFhlSFEyc1A0SHYzOHBENHBtV2tRZHZCdll3JTNE&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_UmVQZWZ0RFdDSDQlMkZTemtuWFhlSFEyc1A0SHYzOHBENHBtV2tRZHZCdll3JTNE&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;515&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Los totales del Debe y el Haber y de los saldos Deudores y Acreedores deben coincidir.&lt;/p&gt;
+&lt;p&gt;     Para facilitar la confección del balance de comprobación de sumas y saldos, es recomendable consultar el Libro Mayor de cada cuenta:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_dkR0NXZpTHlkUzZMQjl5WGptJTJCa0VaV0ExZ2RUbDhkQlB1RG5Odk1ta2ZrJTNE&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_dkR0NXZpTHlkUzZMQjl5WGptJTJCa0VaV0ExZ2RUbDhkQlB1RG5Odk1ta2ZrJTNE&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;563&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_NmU3MzdOOUpwQTlaaWFJUVRReSUyQlhFYlBaRXEwTzRzY3ZUayUyRmNaeEdrcmslM0Q=&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_NmU3MzdOOUpwQTlaaWFJUVRReSUyQlhFYlBaRXEwTzRzY3ZUayUyRmNaeEdrcmslM0Q=&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;566&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_M3JDUEMlMkZRQ3lVeTdqNXo2Z1lYMHpPOFZrMVFobFFGRTRWYnV3dG96bmY4JTNE&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_M3JDUEMlMkZRQ3lVeTdqNXo2Z1lYMHpPOFZrMVFobFFGRTRWYnV3dG96bmY4JTNE&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;564&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;El Balance de comprobación:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_bGxIWCUyRlNiJTJCUHclMkY2R3NRdyUyQklUVGVtQ0pZbXZmZFhGZkR3QVBSRWNrRGtjJTNE&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bGxIWCUyRlNiJTJCUHclMkY2R3NRdyUyQklUVGVtQ0pZbXZmZFhGZkR3QVBSRWNrRGtjJTNE&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;562&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;     El hecho de que las sumas de estos balances sean iguales indica que todas las operaciones se han contabilizado correctamente desde un punto de vista formal (importes en debe y haber).&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="15"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="16"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="4"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="16"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="4"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="scorm"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Unidad%20Did%C3%A1ctica%202%3A%201.%20El%20ejercicio%20contable:5.%20Balance%20de%20sumas%20y%20saldos"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="19">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="6. Cálculo del resultado: beneficio o pérdida"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="17">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="18">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="17"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div id=&quot;pagina_1&quot; style=&quot;display: block;&quot; class=&quot;dentro_contenidos&quot;&gt;
+&lt;p&gt;     El resultado de un ejercicio viene dado por la diferencia entre los ingresos y gastos en él producidos. &lt;br /&gt; &lt;strong&gt;Resultado = Ingresos – Gastos&lt;/strong&gt;&lt;br /&gt;     En principio, puesto que estos conceptos son más amplios, los ingresos expresan (en €) las ventas de los productos fabricados por la empresa o los servicios por ella prestados y los gastos el importe monetario de todos aquellos factores productivos que la empresa adquiere para la obtención de aquéllos. &lt;br /&gt;      En el Diario, para determinar el excedente empresarial de un período, basta con abonar las cuentas de gastos y cargar las de ingresos, utilizando en ambos casos como contrapartida una cuenta representativa del resultado del ejercicio. &lt;br /&gt; En terminología contable, se habla de contrapartida de un asiento para designar la cuenta o cuentas que se cargan (o abonan) al abonar (o cargar) otra. &lt;br /&gt; Así, las anotaciones contables que se realizarán en el Diario, en forma resumida serán:&lt;/p&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;&lt;br /&gt; &lt;strong&gt;Concepto&lt;/strong&gt;&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Debe&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Haber&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Resultado del ejercicio&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;Importe&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Gastos&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;Importe&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Ingresos      &lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;Importe&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt; &lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p&gt;Resultado del ejercicio&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign=&quot;top&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;Importe&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br clear=&quot;all&quot; /&gt;
+&lt;p&gt;     El efecto en el Mayor, al pasar los asientos del Diario a aquél, es que todas las cuentas de gastos e ingresos quedan saldadas. &lt;br /&gt;      Saldar una cuenta significa efectuar un cargo o un abono  para lograr que presente saldo cero. &lt;br /&gt; &lt;strong&gt;Solución&lt;/strong&gt;&lt;br /&gt;      La empresa “EUROINNOVA” vendió mercaderías por 50 €, que constituyen ingresos y que, en este ejemplo, eran las mercaderías que tenía al comienzo del período en almacén; para fabricar más productos, incurrió en los siguientes gastos: abastecimiento de agua, compras de mercaderías y sueldos. Finalizado el ejercicio, cuenta con productos elaborados en este año y que no han sido vendidos. Como: &lt;br /&gt; Resultado = Ingresos por ventas – Coste de la producción vendida (I)&lt;br /&gt; Y puesto que: &lt;br /&gt; Existencias iniciales + Coste producción realizada = Coste producción vendida + Ex. finales&lt;br /&gt; Se deduce que: &lt;br /&gt; Ex. iniciales + Coste producción realizada – Ex. finales = Coste producción vendida&lt;br /&gt; Coste de la producción vendida = Agua + Compras + Sueldos + (Ex. iniciales – Ex. finales) = Agua + Compras + Sueldos + Variación de existencias =&lt;br /&gt; = 20 + 15 + 10 + (10 – 25) * = 60 €&lt;br /&gt; * Es de notar que en este caso la variación de existencias supone un menor gasto. Por ello, se considera que funciona como un ingreso.&lt;/p&gt;
+&lt;br clear=&quot;all&quot; /&gt;
+&lt;p&gt;La empresa, en el Diario, registrará:&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td nowrap=&quot;nowrap&quot;&gt;&lt;br /&gt;  &lt;strong&gt;Concepto&lt;/strong&gt;&lt;/td&gt;
+&lt;td nowrap=&quot;nowrap&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Debe&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap=&quot;nowrap&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Haber&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Resultado del ejercicio&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;45&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Agua&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;20&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Compras de mercaderías&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Sueldos y salarios&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;10&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Ventas de mercaderías&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;50&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Variación de mercaderías&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;15&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Resultado del ejercicio&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;65&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;     Tras pasar estos asientos del Diario al Mayor, en éste todas las cuentas de gastos e ingresos presentarán saldo cero, al tiempo que se abrirá la cuenta “Resultado del ejercicio”. Es recomendable que el lector compruebe la afirmación hecha en relación a las cuentas de gastos e ingresos; la cuenta de “Resultado del ejercicio” mostrará el siguiente movimiento:&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;br /&gt; &lt;strong&gt;Debe&lt;/strong&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt;«Resultado del ejercicio»&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt;Haber&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Gastos&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap=&quot;nowrap&quot;&gt;
+&lt;p&gt;45 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap=&quot;nowrap&quot;&gt;
+&lt;p&gt;65 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Ingresos&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p&gt;Suma&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap=&quot;nowrap&quot;&gt;
+&lt;p&gt;45 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td nowrap=&quot;nowrap&quot;&gt;
+&lt;p&gt;65 €&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;Suma&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Saldo acreedor 20 € &lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="18"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="19"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="5"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="19"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="5"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="scorm"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Unidad%20Did%C3%A1ctica%202%3A%201.%20El%20ejercicio%20contable:6.%20C%C3%A1lculo%20del%20resultado%3A%20beneficio%20o%20p%C3%A9rdida"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="22">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="7. Asiento de cierre de la contabilidad"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="20">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="21">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="20"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div id=&quot;pagina_1&quot; style=&quot;display: block;&quot; class=&quot;dentro_contenidos&quot;&gt;
+&lt;p&gt;     Para analizar y finalizar el ejercicio, en el libro diario se cargan todas las cuentas acreedoras y se abonan todas las deudoras. Al traspasar esta anotación al Mayor, todas las cuentas quedarán saldadas, es decir, con saldo nulo. En nuestro ejemplo:&lt;/p&gt;
+&lt;p&gt;Libro Diario:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_VHdQMFRWWVc4bzl4cXFhTnJLN3NlWmxuJTJCb2lZOHJpV0NlQ1pQZTVwZmJJJTNE&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_VHdQMFRWWVc4bzl4cXFhTnJLN3NlWmxuJTJCb2lZOHJpV0NlQ1pQZTVwZmJJJTNE&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;566&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="21"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="22"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="22"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="6"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="scorm"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Unidad%20Did%C3%A1ctica%202%3A%201.%20El%20ejercicio%20contable:7.%20Asiento%20de%20cierre%20de%20la%20contabilidad"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="25">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="8. Cuentas anuales"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="23">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="24">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="23"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div id=&quot;pagina_1&quot; style=&quot;display: block;&quot; class=&quot;dentro_contenidos&quot;&gt;
+&lt;p&gt;Las cuentas anuales de una pyme se componen de:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Balance.&lt;/li&gt;
+&lt;li&gt;Cuenta de Resultado del ejercicio.&lt;/li&gt;
+&lt;li&gt;Estado de cambios en el patrimonio neto.&lt;/li&gt;
+&lt;li&gt;Estado de flujos de efectivo.&lt;/li&gt;
+&lt;li&gt;Memoria.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;     Estos documentos forman una unidad. Sin embargo, el estado de flujos de efectivo y el estado de cambios en el patrimonio neto no son obligatorios para las empresas que pueden presentar balance, cuenta de Pérdidas y Ganancias y memoria abreviados (nos referimos a las empresas de reducida dimensión, en adelante PYMES).&lt;/p&gt;
+&lt;p&gt;     Para las empresas no PYMES, el Estado de Cambios en el Patrimonio Neto sí será obligatorio. En él se reflejan determinados ingresos y gastos imputados al patrimonio neto a través de las cuentas de los grupos 8 y 9. Estas imputaciones se realizarán en supuestos concretos. A saber, los relacionados con:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Moneda extranjera.&lt;/li&gt;
+&lt;li&gt;Activos financieros disponibles para la venta.&lt;/li&gt;
+&lt;li&gt;Subvenciones.&lt;/li&gt;
+&lt;li&gt;Coberturas Contables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;     El Estado de flujos de efectivo no es más que un documento en que se reflejen los movimientos de todas las cuentas de tesorería (cash flow). Como hemos indicado, las PYMES no están obligadas a presentarlo.&lt;/p&gt;
+&lt;p&gt;      Las cuentas anuales deben redactarse con claridad y estar orientadas a mostrar la imagen fiel del patrimonio, de la situación financiera y del resultado de la empresa. Para cumplir este objetivo podemos ampliar la información mediante la memoria.&lt;/p&gt;
+&lt;p&gt;En el antiguo PGC solo podíamos encontrar, dentro de las cuentas anuales:&lt;/p&gt;
+&lt;p&gt;a) Balance.&lt;/p&gt;
+&lt;p&gt;b) Cuenta de Resultado del ejercicio.&lt;/p&gt;
+&lt;p&gt;c) Memoria.&lt;/p&gt;
+&lt;p&gt;     El balance muestra el patrimonio empresarial en una fecha dada, reflejando los saldos de los distintos elementos que lo integran. La cuenta de Resultado del ejercicio explicará mediante qué actividades la entidad ha generado rentas y la memoria se ocupará de detallar y comentar la información en aquellas contenida.&lt;/p&gt;
+&lt;p&gt;     El Estado de Cambios en el Patrimonio Neto y el Estado de Flujos de Efectivo los estudiaremos más adelante detalladamente.&lt;/p&gt;
+&lt;p&gt;     Hay que diferenciar el &lt;strong&gt;balance de situación&lt;/strong&gt; y el &lt;strong&gt;de comprobación&lt;/strong&gt;, puesto que en el primero sólo aparecerán cuentas representativas de elementos patrimoniales, mientras que en el segundo figurarán, además de las citadas, las de gastos e ingresos.&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="24"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="25"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="7"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="25"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="7"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="scorm"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Unidad%20Did%C3%A1ctica%202%3A%201.%20El%20ejercicio%20contable:8.%20Cuentas%20anuales"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="28">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="9. Distribución del resultado"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="26">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="27">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="26"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;div id=&quot;pagina_1&quot; style=&quot;display: block;&quot; class=&quot;dentro_contenidos&quot;&gt;
+&lt;p&gt;     Dado el carácter introductor de este capítulo, este tema sólo puede ser abordado vagamente. Así, el beneficio obtenido por la empresa, tras el pago del Impuesto sobre Sociedades (en adelante IS), se destinará a repartirlo entre los propietarios de la entidad o a engrosar los fondos propios de ésta, mediante la creación de reservas. Con estas pinceladas, el registro de la distribución del resultado podrá plasmarse mediante una anotación como la que sigue:&lt;/p&gt;
+&lt;p&gt;&lt;img id=&quot;IMG_a05zclF4NHdvb0h2YWh2ZWt6JTJGbGdkRGglMkJndHY0QjMlMkY3cXBkMmZzY25USSUzRA==&quot; alt=&quot;Desarrollo del Ciclo Contable&quot; title=&quot;Desarrollo del Ciclo Contable&quot; src=&quot;http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_a05zclF4NHdvb0h2YWh2ZWt6JTJGbGdkRGglMkJndHY0QjMlMkY3cXBkMmZzY25USSUzRA==&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; width=&quot;564&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="27"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="28"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="8"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="28"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="8"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="scorm"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Unidad%20Did%C3%A1ctica%202%3A%201.%20El%20ejercicio%20contable:9.%20Distribuci%C3%B3n%20del%20resultado"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+      <instance class="exe.engine.node.Node" reference="31">
+       <dictionary>
+        <string role="key" value="_title"></string>
+        <unicode value="Recuerda"></unicode>
+        <string role="key" value="idevices"></string>
+        <list>
+         <instance class="exe.engine.freetextidevice.FreeTextIdevice" reference="29">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <unicode value="Free Text"></unicode>
+           <string role="key" value="_author"></string>
+           <unicode value="University of Auckland"></unicode>
+           <string role="key" value="_purpose"></string>
+           <unicode value="The majority of a learning resource will be 
+establishing context, delivering instructions and providing general information.
+This provides the framework within which the learning activities are built and 
+delivered."></unicode>
+           <string role="key" value="_tip"></string>
+           <string value=""></string>
+           <string role="key" value="childs"></string>
+           <list></list>
+           <string role="key" value="content"></string>
+           <instance class="exe.engine.field.TextAreaField" reference="30">
+            <dictionary>
+             <string role="key" value="_id"></string>
+             <int value="85"></int>
+             <string role="key" value="_idevice"></string>
+             <reference key="29"></reference>
+             <string role="key" value="_instruc"></string>
+             <unicode value="Use this field to enter text. This 
+iDevice has no emphasis applied although limited formatting can be applied to 
+text through the text editing buttons associated with the field."></unicode>
+             <string role="key" value="_name"></string>
+             <unicode value="Free Text"></unicode>
+             <string role="key" value="anchor_names"></string>
+             <list></list>
+             <string role="key" value="anchors_linked_from_fields"></string>
+             <dictionary></dictionary>
+             <string role="key" value="content_w_resourcePaths"></string>
+             <unicode content="true" value="&lt;ul&gt;
+&lt;li&gt;Proceso del ejercicio contable:
+&lt;ul&gt;
+&lt;li style=&quot;list-style-type: none;&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;Balance de situación inicial: refleja el patrimonio del que dispone la empresa al comienzo del ejercicio.&lt;/li&gt;
+&lt;li&gt;Apertura de la contabilidad: tanto en el Diario como en el Mayor se registrarán los elementos con los que cuenta la empresa en el momento de realizar la apertura del ejercicio contable.&lt;/li&gt;
+&lt;li&gt;Registro de las operaciones del ejercicio: plasmará las operaciones que la empresa vaya realizando.&lt;/li&gt;
+&lt;li&gt;Ajustes previos a la determinación del beneficio generado en el ejercicio: para calcular el resultado obtenido por la empresa en un periodo hay que considerar:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Diferencia entre los ingresos obtenidos por la venta de los productos y lo que cuesta fabricar los productos vendidos.&lt;/li&gt;
+&lt;li&gt;Se debe registrar la variación de existencias experimentada en el ejercicio.
+&lt;ul&gt;
+&lt;li&gt;Balance de comprobación de sumas y saldos: para comprobar que no se han cometido errores formales en las anotaciones efectuadas hasta la fecha de su realización.&lt;/li&gt;
+&lt;li&gt;Cálculo del resultado: el resultado de un ejercicio viene dado por la diferencia entre los ingresos y gastos en él producidos.&lt;/li&gt;
+&lt;li&gt;Cierre de la contabilidad: al finalizar el ejercicio, en el Diario se cargarán todas las cuentas acreedoras y se abonarán las deudoras.&lt;/li&gt;
+&lt;li&gt;Cuentas anuales, se componen de:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Balance.&lt;/li&gt;
+&lt;li&gt;Cuenta de Pérdidas y Ganancias.&lt;/li&gt;
+&lt;li&gt;Memoria.&lt;/li&gt;
+&lt;li&gt;Estado de cambios en el Patrimonio Neto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;     Distribución del resultado: el beneficio obtenido por la empresa, tras el pago del Impuesto sobre Sociedades, se destinará a repartirlo entre los propietarios de la entidad o a engrosar los fondos propios de ésta, mediante la creación de reservas.&lt;/p&gt;"></unicode>
+             <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+             <int value="4"></int>
+             <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+             <int value="2"></int>
+             <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+             <int value="3"></int>
+             <string role="key" value="htmlTag"></string>
+             <string value="div"></string>
+             <string role="key" value="images"></string>
+             <instance class="exe.engine.galleryidevice.GalleryImages">
+              <dictionary>
+               <string role="key" value=".listitems"></string>
+               <list></list>
+               <string role="key" value="idevice"></string>
+               <reference key="30"></reference>
+              </dictionary>
+             </instance>
+             <string role="key" value="intlinks_to_anchors"></string>
+             <dictionary></dictionary>
+             <string role="key" value="nextImageId"></string>
+             <int value="0"></int>
+             <string role="key" value="parentNode"></string>
+             <reference key="31"></reference>
+            </dictionary>
+           </instance>
+           <string role="key" value="edit"></string>
+           <bool value="0"></bool>
+           <string role="key" value="emphasis"></string>
+           <int value="0"></int>
+           <string role="key" value="exe.engine.freetextidevice.FreeTextIdevice.persistenceVersion"></string>
+           <int value="7"></int>
+           <string role="key" value="icon"></string>
+           <string value=""></string>
+           <string role="key" value="id"></string>
+           <unicode value="9"></unicode>
+           <string role="key" value="lastIdevice"></string>
+           <bool value="0"></bool>
+           <string role="key" value="originalicon"></string>
+           <string value=""></string>
+           <string role="key" value="parent"></string>
+           <none></none>
+           <string role="key" value="parentNode"></string>
+           <reference key="31"></reference>
+           <string role="key" value="systemResources"></string>
+           <list></list>
+           <string role="key" value="type"></string>
+           <none></none>
+           <string role="key" value="undo"></string>
+           <bool value="1"></bool>
+           <string role="key" value="userResources"></string>
+           <list></list>
+           <string role="key" value="version"></string>
+           <int value="0"></int>
+          </dictionary>
+         </instance>
+        </list>
+        <string role="key" value="_id"></string>
+        <unicode value="9"></unicode>
+        <string role="key" value="_package"></string>
+        <reference key="4"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
+        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+        <int value="2"></int>
+        <string role="key" value="exportType"></string>
+        <string value="scorm"></string>
+        <string role="key" value="last_full_node_path"></string>
+        <string value="exe-node:Unidad%20Did%C3%A1ctica%202%3A%201.%20El%20ejercicio%20contable:Recuerda"></string>
+        <string role="key" value="parent"></string>
+        <reference key="3"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
+        <string role="key" value="children"></string>
+        <list></list>
+       </dictionary>
+      </instance>
+     </list>
+    </dictionary>
+   </instance>
+   <unicode role="key" value="1"></unicode>
+   <reference key="7"></reference>
+   <unicode role="key" value="2"></unicode>
+   <reference key="10"></reference>
+   <unicode role="key" value="3"></unicode>
+   <reference key="13"></reference>
+   <unicode role="key" value="4"></unicode>
+   <reference key="16"></reference>
+   <unicode role="key" value="5"></unicode>
+   <reference key="19"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="22"></reference>
+   <unicode role="key" value="7"></unicode>
+   <reference key="25"></reference>
+   <unicode role="key" value="8"></unicode>
+   <reference key="28"></reference>
+   <unicode role="key" value="9"></unicode>
+   <reference key="31"></reference>
+  </dictionary>
+  <string role="key" value="_objectives"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_preknowledge"></string>
+  <unicode value=""></unicode>
+  <string role="key" value="_templateFile"></string>
+  <string value="Base"></string>
+  <string role="key" value="backgroundImgTile"></string>
+  <bool value="0"></bool>
+  <string role="key" value="compatibleWithVersion9"></string>
+  <bool value="0"></bool>
+  <string role="key" value="currentNode"></string>
+  <reference key="31"></reference>
+  <string role="key" value="dublinCore"></string>
+  <instance class="exe.engine.package.DublinCore">
+   <dictionary>
+    <string role="key" value="contributors"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="coverage"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="creator"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="date"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="description"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="format"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="identifier"></string>
+    <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+    <string role="key" value="language"></string>
+    <unicode value="es"></unicode>
+    <string role="key" value="publisher"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="relation"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="rights"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="source"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="subject"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="title"></string>
+    <unicode value=""></unicode>
+    <string role="key" value="type"></string>
+    <unicode value=""></unicode>
+   </dictionary>
+  </instance>
+  <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
+  <int value="15"></int>
+  <string role="key" value="exportMetadataType"></string>
+  <string value="LOMES"></string>
+  <string role="key" value="exportSource"></string>
+  <bool value="1"></bool>
+  <string role="key" value="footer"></string>
+  <string value=""></string>
+  <string role="key" value="isLoading"></string>
+  <bool value="0"></bool>
+  <string role="key" value="license"></string>
+  <unicode value="creative commons: attribution - share alike 4.0"></unicode>
+  <string role="key" value="lom"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOMv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2018-11-28T10:07:15.00+01:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOMv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <none></none>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="lomEs"></string>
+  <instance class="exe.engine.lom.lomsubs.lomSub">
+   <dictionary>
+    <string role="key" value="__index__"></string>
+    <dictionary></dictionary>
+    <string role="key" value="__oldchild__"></string>
+    <none></none>
+    <string role="key" value="annotation"></string>
+    <list></list>
+    <string role="key" value="classification"></string>
+    <list></list>
+    <string role="key" value="educational"></string>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
+    <string role="key" value="general"></string>
+    <instance class="exe.engine.lom.lomsubs.generalSub">
+     <dictionary>
+      <string role="key" value="aggregationLevel"></string>
+      <instance class="exe.engine.lom.lomsubs.aggregationLevelSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="source"></string>
+        <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list></list>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="source"></string>
+          <string role="key" value="valueOf_"></string>
+          <string value="LOM-ESv1.0"></string>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="aggregationLevel"></string>
+        <string role="key" value="value"></string>
+        <instance class="exe.engine.lom.lomsubs.aggregationLevelValueSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <none></none>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="value"></string>
+          <string role="key" value="value"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="2"></string>
+         </dictionary>
+        </instance>
+       </dictionary>
+      </instance>
+      <string role="key" value="coverage"></string>
+      <list></list>
+      <string role="key" value="description"></string>
+      <list></list>
+      <string role="key" value="identifier"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.identifierSub">
+        <dictionary>
+         <string role="key" value="catalog"></string>
+         <instance class="exe.engine.lom.lomsubs.catalogSub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="catalog"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="My Catalog"></unicode>
+          </dictionary>
+         </instance>
+         <string role="key" value="entry"></string>
+         <instance class="exe.engine.lom.lomsubs.entrySub">
+          <dictionary>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="entry"></string>
+           <string role="key" value="valueOf_"></string>
+           <unicode value="4a7d755e-34a5-410a-a7d4-601881136623"></unicode>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="keyword"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="structure"></string>
+      <none></none>
+      <string role="key" value="title"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="general"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="lifeCycle"></string>
+    <none></none>
+    <string role="key" value="metaMetadata"></string>
+    <instance class="exe.engine.lom.lomsubs.metaMetadataSub">
+     <dictionary>
+      <string role="key" value="contribute"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2018-11-28T10:07:15.00+01:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN: EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="identifier"></string>
+      <list></list>
+      <string role="key" value="language"></string>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="metadataSchema"></string>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
+        <dictionary>
+         <string role="key" value="valueOf_"></string>
+         <string value="LOM-ESv1.0"></string>
+        </dictionary>
+       </instance>
+      </list>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="metaMetadata"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="relation"></string>
+    <list></list>
+    <string role="key" value="rights"></string>
+    <instance class="exe.engine.lom.lomsubs.rightsSub">
+     <dictionary>
+      <string role="key" value="access"></string>
+      <instance class="exe.engine.lom.lomsubs.accessSub">
+       <dictionary>
+        <string role="key" value="accessType"></string>
+        <instance class="exe.engine.lom.lomsubs.accessTypeSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="uniqueElementName"></string>
+          <string value="accessType"></string>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.accessTypeValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="universal"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <string role="key" value="description"></string>
+        <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="en"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="Default"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <string role="key" value="uniqueElementName"></string>
+        <string value="access"></string>
+       </dictionary>
+      </instance>
+      <string role="key" value="copyrightAndOtherRestrictions"></string>
+      <none></none>
+      <string role="key" value="cost"></string>
+      <none></none>
+      <string role="key" value="description"></string>
+      <none></none>
+      <string role="key" value="uniqueElementName"></string>
+      <string value="rights"></string>
+     </dictionary>
+    </instance>
+    <string role="key" value="technical"></string>
+    <none></none>
+   </dictionary>
+  </instance>
+  <string role="key" value="mxmlforcemediaonly"></string>
+  <bool value="0"></bool>
+  <string role="key" value="mxmlheight"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlprofilelist"></string>
+  <string value=""></string>
+  <string role="key" value="mxmlwidth"></string>
+  <string value=""></string>
+  <string role="key" value="resources"></string>
+  <dictionary></dictionary>
+  <string role="key" value="root"></string>
+  <reference key="3"></reference>
+  <string role="key" value="scolinks"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowsinglepage"></string>
+  <bool value="0"></bool>
+  <string role="key" value="scowwebsite"></string>
+  <bool value="0"></bool>
+  <string role="key" value="style"></string>
+  <unicode value="INTEF"></unicode>
+  <string role="key" value="sugaractivityname"></string>
+  <string value=""></string>
+  <string role="key" value="sugarservicename"></string>
+  <string value=""></string>
+  <string role="key" value="tempFile"></string>
+  <bool value="0"></bool>
+ </dictionary>
+</instance>

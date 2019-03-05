@@ -1,0 +1,650 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Diferencias Temporarias </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Diferencias Temporarias</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id4">
+<div class="iDevice emphasis0">
+<div id="ta4_85" class="block iDevice_content">
+<p>Ya hemos visto el tratamiento de las diferencias permanentes. Son gastos contabilizados que no son deducibles fiscalmente ni en el año que estemos liquidando ni en los siguientes. Además, se tienen en cuenta a efectos contables para calcular el impuesto como gasto devengado. Por todo ello, no ofrecen mayor problema a la hora de contabilizar el impuesto sobre beneficios.</p>
+<p>Por otro lado encontramos las diferencias temporarias, que son las que tienen incidencia en la carga fiscal futura. Estas diferencias provienen de la diferente valoración, fiscal y contable, de determinados activos, pasivos e instrumentos de patrimonio.</p>
+<p>Las diferencias temporarias pueden aparecer por:</p>
+<ul>
+<li><strong>Diferencias temporales entre Base Imponible y Resultado Contable antes de Impuestos</strong>, basadas en diferentes criterios temporales de imputación empleados para determinar ambas magnitudes (Base y Resultado Contable). Debido a la distinta imputación temporal, fiscal y contable, tienen consecuencias en los ejercicios siguientes. Pensemos en una pérdida por deterioro de valor y que fiscalmente no es computable en este ejercicio pero si en el siguiente.</li>
+<li><strong>Ingresos y gastos registrados directamente en el patrimonio neto </strong>que no se computan en la base imponible. Por ejemplo, las variaciones de valor de los activos y pasivos cuando esa variación contable es diferente a la fiscal.</li>
+</ul>
+<p>Las diferencias temporarias se registran a través del Impuesto Diferido. Este impuesto diferido produce activos y pasivos diferidos. En este sentido distinguimos entre:</p>
+<p><strong>a) Pasivos por diferencias temporarias imponibles.</strong></p>
+<p><strong>b) Activos por diferencias temporarias deducibles</strong>: para ellos tenemos la cuenta 4740, &lt;&lt;Activos por diferencias temporarias deducibles&gt;&gt;. Originan menores cantidades a pagar en ejercicios siguientes, a medida que se recuperen los activos o se liquiden los pasivos de los que derivan. Provienen de diferencias temporales positivas que un año minoran la base imponible; ese año pagamos más impuesto pero lo recuperamos en los siguientes. Por eso hablamos de Impuesto anticipado.</p>
+<h4><strong>Pasivos por diferencias temporarias imponibles</strong></h4>
+<p>Se registran en la cuenta 479, &lt;&lt;Pasivos por Diferencias Temporarias Imponibles&gt;&gt;. Son las que dan lugar a mayor cantidad a pagar en ejercicios futuros, conforme se vayan recuperando los activos o se liquiden los pasivos que las originaron. Son los que se conocen como Impuesto diferido ya que ese año pagamos menos pero lo iremos devolviendo en los siguientes, en virtud de diferencias temporales negativas que reducen la base imponible.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>La sociedad EL GARROTÍN, S.A. adquiere unos equipos industriales a principio de 20XX. El precio de estos equipos es de 2.000 € con una vida útil de 4 años. Esta empresa tiene derecho, según la legislación fiscal, a aplicar libertad de amortización y así lo hará.</p>
+<p>A efectos de liquidar el impuesto de sociedades presenta, además, los siguientes datos:</p>
+<p>Beneficio antes de Impuestos 20.000; retenciones y pagos a cuenta efectuados 1.500; tiene derecho a una bonificación de 550; y le corresponde un tipo impositivo del 30%.</p>
+<p>Respecto a la libertad de amortización:</p>
+<p>2.000/4 años= 500 € como cuota anual de amortización, pero…</p>
+<table border="0" cellpadding="4" cellspacing="0">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>Años</strong></p>
+</td>
+<td valign="middle">
+<p><strong>Gasto Contable</strong></p>
+</td>
+<td valign="middle">
+<p><strong>Gasto Fiscal</strong></p>
+</td>
+<td valign="middle">
+<p><strong>Diferencia</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>20XX</p>
+</td>
+<td valign="middle">
+<p>500</p>
+</td>
+<td valign="middle">
+<p>2.000</p>
+</td>
+<td valign="middle">
+<p>- 1.500*</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>20XX+1</p>
+</td>
+<td valign="middle">
+<p>500</p>
+</td>
+<td valign="middle">
+<p>0</p>
+</td>
+<td valign="middle">
+<p>+500</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>20XX+2</p>
+</td>
+<td valign="middle">
+<p>500</p>
+</td>
+<td valign="middle">
+<p>0</p>
+</td>
+<td valign="middle">
+<p>+500</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>20XX+3</p>
+</td>
+<td valign="middle">
+<p>500</p>
+</td>
+<td valign="middle">
+<p>0</p>
+</td>
+<td valign="middle">
+<p>+500</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>*Podemos observar que según lo que comentábamos al principio de este epígrafe nos encontramos ante una diferencia temporaria imponible.</p>
+<table border="0" cellpadding="5" cellspacing="0">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p>Resultado contable (saldo de la cuenta 129)<br /><strong>Ajustes:</strong> <br />+/- Diferencias permanentes<br />+/- Diferencias temporarias</p>
+</td>
+<td valign="middle">
+<p><strong>20.000</strong></p>
+<p><strong>0</strong> <br /><strong>-1.500 </strong><strong>(30% s/1.500)= 450 importe de la cuenta 479</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>= Resultado fiscal del ejercicio<br />– Compensación de bases imponibles negativas de ejercicios anteriores</p>
+</td>
+<td valign="middle">
+<p><strong>18.500</strong> <br /><strong></strong><strong>____</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>= Beneficio fiscal</p>
+</td>
+<td valign="middle">
+<p>= <strong>18.500</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Cuota Integra (Base imponible x Tipo de gravamen(%))<br />– Deducciones y bonificaciones</p>
+</td>
+<td valign="middle">
+<p><strong>5.550</strong> <br /><strong>–</strong> <strong>550</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p><strong>Impuesto a pagar a Hacienda en el ejercicio</strong> <br />– Retenciones por rendimientos de capital mobiliario <br />– Pagos a cuenta</p>
+</td>
+<td valign="middle">
+<p><strong>= 5.000 </strong><br /><br /><strong>–</strong> <strong>1.500</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>= Cantidad a ingresar o devolver</p>
+</td>
+<td valign="middle">
+<p>= <strong>3.500</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Si lo contabilizamos:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><strong>Concepto</strong></p>
+</td>
+<td valign="top">
+<p><strong>Debe</strong></p>
+</td>
+<td valign="top">
+<p><strong>Haber</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>6300. Impuesto sobre benef. Corriente (cuota líquida)</p>
+</td>
+<td valign="top">
+<p>5.000</p>
+</td>
+<td valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>473. HP, retenciones y pagos a cuenta</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>1.500</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>4752. HP, acreedora por el impuesto de sociedades</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>3.500</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p><strong>Concepto</strong></p>
+</td>
+<td valign="top">
+<p><strong>Debe</strong></p>
+</td>
+<td valign="top">
+<p><strong>Haber</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>6301. Impuesto Diferido</p>
+</td>
+<td valign="top">
+<p>450</p>
+</td>
+<td valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>479. Pasivos por diferencias temporarias imponibles</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>450</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h4><strong>Activos por diferencias temporarias deducibles</strong></h4>
+<p>Para ellos tenemos la cuenta 4740, &lt;&lt;Activos por diferencias temporarias deducibles&gt;&gt;. Originan menores cantidades a pagar en ejercicios siguientes, a medida que se recuperen los activos o se liquiden los pasivos de los que derivan. Provienen de diferencias temporales positivas aumentan la base imponible; ese año pagamos más impuesto pero lo recuperamos en los siguientes. Por eso hablamos de Impuesto anticipado.</p>
+<p><strong>EJEMPLO</strong></p>
+<p>Nuestra empresa adquiere el 01/01/20XX un tractor cuyo precio es de 4.000 € y su vida útil de 5 años. Las tablas del Impuesto de Sociedades establecen para este tipo de elemento un coeficiente de amortización de 15%.</p>
+<p>Su beneficio antes de impuestos asciende a 30.000 € y su tipo impositivo es del 30 %. Además, pueden aplicar unas deducciones en cuota de 860 € y las retenciones y pagos a cuenta del ejercicio suman 2.000 €.</p>
+<p><em>Solución:</em></p>
+<p>Respecto a la amortización del tractor, tenemos que comparar amortización contable con amortización fiscal para determinar si la diferencia es imponible o deducible.</p>
+<p>La amortización contable se hace en función de su vida útil:</p>
+<p>4.000/ 5 años =800 € como cuota anual de amortización.</p>
+<p>Pero desde el punto de vista fiscal, la cuota anual seria 4.000 * 15%= 600</p>
+<table border="0" cellpadding="4" cellspacing="0">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p><strong>Años</strong></p>
+</td>
+<td valign="middle">
+<p><strong>Valor en libros</strong></p>
+</td>
+<td valign="middle">
+<p><strong>Base Fiscal</strong></p>
+</td>
+<td valign="middle">
+<p><strong>Diferencia</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>X</p>
+</td>
+<td valign="middle">
+<p>4000-800=3.200</p>
+</td>
+<td valign="middle">
+<p>4000-600=3400</p>
+</td>
+<td valign="middle">
+<p>200</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>x+1</p>
+</td>
+<td valign="middle">
+<p>2.400</p>
+</td>
+<td valign="middle">
+<p>2.800</p>
+</td>
+<td valign="middle">
+<p>400-200=200</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>x+2</p>
+</td>
+<td valign="middle">
+<p>1.600</p>
+</td>
+<td valign="middle">
+<p>2.200</p>
+</td>
+<td valign="middle">
+<p>600-400=200</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">x+3</td>
+<td valign="middle">
+<p>800</p>
+</td>
+<td valign="middle">
+<p>1.600</p>
+</td>
+<td valign="middle">
+<p>800-600=200</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>x+4</p>
+</td>
+<td valign="middle">
+<p>0</p>
+</td>
+<td valign="middle">
+<p>1.000</p>
+</td>
+<td valign="middle">
+<p>1000-800=200</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">x+5</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>400</p>
+</td>
+<td valign="middle">
+<p>400-1000=-600</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">x+6</td>
+<td valign="middle"></td>
+<td valign="middle">
+<p>0</p>
+</td>
+<td valign="middle">
+<p>-400</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Las cantidades de la cuarta columna, Diferencia, se obtienen de la siguiente manera:</p>
+<p>(Diferencia entre base fiscal y valor en libros de ese año)-(diferencia entre base fiscal y valor en libros del año anterior); por ejemplo en el año 02, (2800-2400)-(3.400-3.200)=400-200=200. De esta forma comparamos los valores y observamos que durante los cinco años de vida útil de la maquina tendremos un activo por diferencia temporaria deducible que nos lleva a pagar menor impuesto en los años x+5 y x+6.</p>
+<p>Para su contabilización,</p>
+<table border="0" cellpadding="5" cellspacing="0">
+<tbody>
+<tr valign="top">
+<td valign="middle">
+<p>Resultado contable (saldo de la cuenta 129)<br /><strong>Ajustes:</strong> <br />+/- Diferencias permanentes<br />+/- Diferencias temporarias</p>
+</td>
+<td valign="middle">
+<p><strong>30.000</strong></p>
+<p><strong>0</strong> <br /><strong>+200 </strong><strong>(30% s/200)=60 importe de la cuenta 4740</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>= Resultado fiscal del ejercicio<br />– Compensación de bases imponibles negativas de ejercicios anteriores</p>
+</td>
+<td valign="middle">
+<p><strong>30.200</strong> <br /><strong>0</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>= Beneficio fiscal</p>
+</td>
+<td valign="middle">
+<p>= <strong>30.200</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>Cuota Íntegra (Base imponible x Tipo de gravamen(%))<br />– Deducciones y bonificaciones</p>
+</td>
+<td valign="middle">
+<p><strong>9.060 </strong><br /><strong>–</strong> <strong>860</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p><strong>Impuesto a pagar a Hacienda en el ejercicio</strong> <br />– Retenciones por rendimientos de capital mobiliario <br />– Pagos a cuenta</p>
+</td>
+<td valign="middle">
+<p><strong>= 8200 </strong><br /><br /><strong>–</strong> <strong>2.000</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="middle">
+<p>= Cantidad a ingresar o devolver</p>
+</td>
+<td valign="middle">
+<p>= <strong>6.200</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Los asientos:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><strong>Concepto</strong></p>
+</td>
+<td valign="top">
+<p><strong>Debe</strong></p>
+</td>
+<td valign="top">
+<p><strong>Haber</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>6300. Impuesto sobre benef. corriente</p>
+</td>
+<td valign="top">
+<p>8.200</p>
+</td>
+<td valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>473. HP, retenciones y pagos a cuenta</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>2.000</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>4752. HP, acreedora por el impuesto de sociedades</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>6.200</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><strong>Concepto</strong></p>
+</td>
+<td valign="top">
+<p><strong>Debe</strong></p>
+</td>
+<td valign="top">
+<p><strong>Haber</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>4740. Activos por diferencias temporarias deducibles</p>
+</td>
+<td valign="top">
+<p>60</p>
+</td>
+<td valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>6301. Impuesto diferido</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>60</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Regularizamos:</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><strong>Concepto</strong></p>
+</td>
+<td valign="top">
+<p><strong>Debe</strong></p>
+</td>
+<td valign="top">
+<p><strong>Haber</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>6301. Impuesto diferido</p>
+</td>
+<td valign="top">
+<p>60</p>
+</td>
+<td valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>129. Resultado del ejercicio</p>
+</td>
+<td valign="top">
+<p>8.140</p>
+</td>
+<td valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>6300. Impuesto Corriente</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>8.200</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Pagamos a hacienda</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><strong>Concepto</strong></p>
+</td>
+<td valign="top">
+<p><strong>Debe</strong></p>
+</td>
+<td valign="top">
+<p><strong>Haber</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>4752. HP, acreedora por el impuesto de sociedades</p>
+</td>
+<td valign="top">
+<p>6.200</p>
+</td>
+<td valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>572. Banco</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>6.200</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>La reversión de este activo por diferencia temporaria deducible se hará</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><strong>Concepto</strong></p>
+</td>
+<td valign="top">
+<p><strong>Debe</strong></p>
+</td>
+<td valign="top">
+<p><strong>Haber</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>6300. impuesto sobre benef. corriente</p>
+</td>
+<td valign="top">
+<p>-</p>
+</td>
+<td valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>473. HP, retenciones y pagos a cuenta</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>-</p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>4752. HP, acreedora por el impuesto de sociedades</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>En este caso la cuenta 6300 será gracias a la diferencia temporaria que revierte: se aplica una diferencia temporal que reduce la base imponible</p>
+<table border="1" cellpadding="4" cellspacing="-1">
+<tbody>
+<tr valign="top">
+<td valign="top">
+<p><strong>Concepto</strong></p>
+</td>
+<td valign="top">
+<p><strong>Debe</strong></p>
+</td>
+<td valign="top">
+<p><strong>Haber</strong></p>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>6301. Impuesto diferido</p>
+</td>
+<td valign="top">
+<p>-</p>
+</td>
+<td valign="top"></td>
+</tr>
+<tr valign="top">
+<td valign="top">
+<p>4740. Activos por diferencias temporarias deducibles</p>
+</td>
+<td valign="top"></td>
+<td valign="top">
+<p>-</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>En la cuenta 4740 se recoge el importe de los ajustes que se han ido realizando y que en el año 05 se empiezan a recuperar.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

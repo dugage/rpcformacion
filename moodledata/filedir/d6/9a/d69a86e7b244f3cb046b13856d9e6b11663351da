@@ -1,0 +1,474 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | Los Derechos Reales. La Propiedad y los Derechos Reales Limitativos de Dominio </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id146">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 0;
+var key1 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b146");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm146").key0b146[i].checked)
+               {
+                  question0 = document.getElementById("quizForm146").key0b146[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b146");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm146").key1b146[i].checked)
+               {
+                  question1 = document.getElementById("quizForm146").key1b146[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm146").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm146" id="quizForm146" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-146" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b146" class="block iDevice_content">
+<div class="ee_enunciado"><b>Indica si es verdadero o falso el siguiente enunciado: </b><i>“La propiedad es un derecho subjetivo, ya que es el poder que se le atribuye a su titular sobre la cosa objeto de esa propiedad”.</i></div>
+<p><i> </i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1461" class="sr-av"><a href="#answer-key0b1461">Opción 1</a></label><input type="radio" name="key0b146" id="key0b1461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1461"><a name="answer-key0b1461"></a>
+<div id="taoptionAnswer0q0b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b1462" class="sr-av"><a href="#answer-key0b1462">Opción 2</a></label><input type="radio" name="key0b146" id="key0b1462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b1462"><a name="answer-key0b1462"></a>
+<div id="taoptionAnswer1q0b146" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b146" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Qué artículo de la Constitución Española reconoce el derecho a la propiedad privada y a la herencia?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1461" class="sr-av"><a href="#answer-key1b1461">Opción 1</a></label><input type="radio" name="key1b146" id="key1b1461" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1461"><a name="answer-key1b1461"></a>
+<div id="taoptionAnswer0q1b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El Artículo 32, párrafo 1º.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1462" class="sr-av"><a href="#answer-key1b1462">Opción 2</a></label><input type="radio" name="key1b146" id="key1b1462" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1462"><a name="answer-key1b1462"></a>
+<div id="taoptionAnswer1q1b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El Artículo 32.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1463" class="sr-av"><a href="#answer-key1b1463">Opción 3</a></label><input type="radio" name="key1b146" id="key1b1463" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1463"><a name="answer-key1b1463"></a>
+<div id="taoptionAnswer2q1b146" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El Artículo 33, párrafo 1º.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b1464" class="sr-av"><a href="#answer-key1b1464">Opción 4</a></label><input type="radio" name="key1b146" id="key1b1464" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b1464"><a name="answer-key1b1464"></a>
+<div id="taoptionAnswer3q1b146" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">El Artículo 33, párrafo 2º.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id147">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Múltiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-147_108">
+<form name="multi-select-form-147_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion147_108" class="block question iDevice_content">
+<div class="ee_enunciado"><b>¿Qué llevan aparejados los derechos reales? Seleccione las respuestas correctas.</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_1080" class="sr-av"><a href="#answer-147_111">Opción 1</a></label><input type="checkbox" id="op147_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_111"><a name="answer-147_111"></a>
+<div id="taans147_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">El deber de respeto.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_1081" class="sr-av"><a href="#answer-147_268">Opción 2</a></label><input type="checkbox" id="op147_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_268"><a name="answer-147_268"></a>
+<div id="taans147_268" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">El deber de abstención.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_1082" class="sr-av"><a href="#answer-147_270">Opción 3</a></label><input type="checkbox" id="op147_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_270"><a name="answer-147_270"></a>
+<div id="taans147_270" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">El deber de utilización.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_1083" class="sr-av"><a href="#answer-147_272">Opción 4</a></label><input type="checkbox" id="op147_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_272"><a name="answer-147_272"></a>
+<div id="taans147_272" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">El deber de limitación.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'147_108')"/> 
+</p>
+</div>
+<div id="f147_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-147_111" class="right">Correcto</a></li>
+<li><a href="#answer-147_268" class="right">Correcto</a></li>
+<li><a href="#answer-147_270" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-147_272" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-147_274">
+<form name="multi-select-form-147_274" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion147_274" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Indique cuáles son los dos tipos de derechos reales. (Respuesta múltiple)</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_2740" class="sr-av"><a href="#answer-147_277">Opción 1</a></label><input type="checkbox" id="op147_2740" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_277"><a name="answer-147_277"></a>
+<div id="taans147_277" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Derecho real pleno.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_2740" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_2741" class="sr-av"><a href="#answer-147_279">Opción 2</a></label><input type="checkbox" id="op147_2741" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_279"><a name="answer-147_279"></a>
+<div id="taans147_279" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Derecho real ilimitado.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_2741" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_2742" class="sr-av"><a href="#answer-147_281">Opción 3</a></label><input type="checkbox" id="op147_2742" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_281"><a name="answer-147_281"></a>
+<div id="taans147_281" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Derecho real parcial.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_2742" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_2743" class="sr-av"><a href="#answer-147_283">Opción 4</a></label><input type="checkbox" id="op147_2743" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_283"><a name="answer-147_283"></a>
+<div id="taans147_283" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Derecho real limitativo.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_2743" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'147_274')"/> 
+</p>
+</div>
+<div id="f147_274" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-147_277" class="right">Correcto</a></li>
+<li><a href="#answer-147_279" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-147_281" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-147_283" class="right">Correcto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-147_287">
+<form name="multi-select-form-147_287" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion147_287" class="block question iDevice_content">
+<div class="ee_enunciado"><b>Una cosa podrá ser objeto de usufructo siempre que (respuesta múltiple):</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_2870" class="sr-av"><a href="#answer-147_290">Opción 1</a></label><input type="checkbox" id="op147_2870" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_290"><a name="answer-147_290"></a>
+<div id="taans147_290" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Sea apropiable.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_2870" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_2871" class="sr-av"><a href="#answer-147_292">Opción 2</a></label><input type="checkbox" id="op147_2871" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_292"><a name="answer-147_292"></a>
+<div id="taans147_292" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Sea particular.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_2871" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_2872" class="sr-av"><a href="#answer-147_294">Opción 3</a></label><input type="checkbox" id="op147_2872" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_294"><a name="answer-147_294"></a>
+<div id="taans147_294" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Esté en el comercio.</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_2872" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op147_2873" class="sr-av"><a href="#answer-147_296">Opción 4</a></label><input type="checkbox" id="op147_2873" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-147_296"><a name="answer-147_296"></a>
+<div id="taans147_296" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_multipleSeleccionada">Ninguna de las anteriores es correcta.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-147_2873" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'147_287')"/> 
+</p>
+</div>
+<div id="f147_287" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-147_290" class="right">Correcto</a></li>
+<li><a href="#answer-147_292" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-147_294" class="right">Correcto</a></li>
+<li><a href="#answer-147_296" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Preguntas de Autoevaluación </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-27" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Preguntas de Autoevaluación</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id27">
+<div class="iDevice emphasis0">
+<div id="ta27_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id28">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta28_100" class="block iDevice_content">
+<p><b>1. Indica si es verdadero o falso el siguiente enunciado:</b></p>
+</div>
+<section class="question">
+<form name="true-false-form-0b28" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b28" class="block iDevice_content">
+<p><i>“Los objetivos de operaciones a temperatura ambiente son: eliminar las porciones no comestibles o no deseables, reducir las piezas al tamaño más conveniente y proporcionar propiedades tecnológicas concretas”</i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b28"><input type="radio" name="option0b28" id="true0b28" class="exe-radio-option exe-radio-option-0-2-0b28-truefalse" /> Verdadero</label> 
+<label for="false0b28"><input type="radio" name="option0b28" id="false0b28" class="exe-radio-option exe-radio-option-1-2-0b28-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b28" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b28-result" class="right">Verdadero</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id29">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b29");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm29").key0b29[i].checked)
+               {
+                  question0 = document.getElementById("quizForm29").key0b29[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm29").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm29" id="quizForm29" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-29" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b29" class="block iDevice_content">
+<div class="ee_enunciado"><b>2. ¿Cuál NO es el objetivo de la cocción?</b></div>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b291" class="sr-av"><a href="#answer-key0b291">Opción 1</a></label><input type="radio" name="key0b29" id="key0b291" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b291">
+<div id="taoptionAnswer0q0b29" class="block iDevice_content">
+<p>Minimizar la temperatura para que ocurran cambios físicos.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b292" class="sr-av"><a href="#answer-key0b292">Opción 2</a></label><input type="radio" name="key0b29" id="key0b292" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b292">
+<div id="taoptionAnswer1q0b29" class="block iDevice_content">
+<p>Cambiar la composición de nutrientes de un alimento.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b293" class="sr-av"><a href="#answer-key0b293">Opción 3</a></label><input type="radio" name="key0b29" id="key0b293" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b293">
+<div id="taoptionAnswer2q0b29" class="block iDevice_content">
+<p>Modificar la calidad nutricional y organoléptica.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore29"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id30">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-30_108">
+<form name="multi-select-form-30_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion30_108" class="block question iDevice_content">
+<p><b>3. ¿Qué requisitos debe cumplir la grasa utilizada en la cocción? (Respuesta múltiple)</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op30_1080" class="sr-av"><a href="#answer-30_111">Opción 1</a></label><input type="checkbox" id="op30_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-30_111"><div id="taans30_111" class="block iDevice_content">
+<p>Soportar cambios bruscos de temperatura.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-30_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op30_1081" class="sr-av"><a href="#answer-30_309">Opción 2</a></label><input type="checkbox" id="op30_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-30_309"><div id="taans30_309" class="block iDevice_content">
+<p>Tener un sabor fuerte que modifique el propio de los alimentos.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-30_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op30_1082" class="sr-av"><a href="#answer-30_311">Opción 3</a></label><input type="checkbox" id="op30_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-30_311"><div id="taans30_311" class="block iDevice_content">
+<p>Resistir oxidaciones.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-30_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-30_108" /> 
+</p>
+</div>
+<section id="f30_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-30_111" class="right">Correcto</a></li>
+<li><a href="#answer-30_309" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-30_311" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+<section class="question">
+<div id="actitity-30_313">
+<form name="multi-select-form-30_313" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion30_313" class="block question iDevice_content">
+<p><b>4. ¿Cuál de las siguientes técnicas no pertenece a la cocción especial? Respuesta múltiple</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op30_3130" class="sr-av"><a href="#answer-30_316">Opción 1</a></label><input type="checkbox" id="op30_3130" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-30_316"><div id="taans30_316" class="block iDevice_content">
+<p>Cocción a vacío.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-30_3130" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op30_3131" class="sr-av"><a href="#answer-30_318">Opción 2</a></label><input type="checkbox" id="op30_3131" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-30_318"><div id="taans30_318" class="block iDevice_content">
+<p>Cocción en olla a presión.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-30_3131" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op30_3132" class="sr-av"><a href="#answer-30_320">Opción 3</a></label><input type="checkbox" id="op30_3132" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-30_320"><div id="taans30_320" class="block iDevice_content">
+<p>Estofado.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-30_3132" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-30_313" /> 
+</p>
+</div>
+<section id="f30_313" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-30_316" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-30_318" class="right">Correcto</a></li>
+<li><a href="#answer-30_320" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id31">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b31");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm31").key0b31[i].checked)
+               {
+                  question0 = document.getElementById("quizForm31").key0b31[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm31").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm31" id="quizForm31" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-31" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b31" class="block iDevice_content">
+<p><b>5. ¿Qué inconvenientes tiene la cocción en microondas?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b311" class="sr-av"><a href="#answer-key0b311">Opción 1</a></label><input type="radio" name="key0b31" id="key0b311" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b311">
+<div id="taoptionAnswer0q0b31" class="block iDevice_content">
+<p>Es muy lenta.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b312" class="sr-av"><a href="#answer-key0b312">Opción 2</a></label><input type="radio" name="key0b31" id="key0b312" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b312">
+<div id="taoptionAnswer1q0b31" class="block iDevice_content">
+<p>Tiene efectos residuales de ondas electromagnéticas.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b313" class="sr-av"><a href="#answer-key0b313">Opción 3</a></label><input type="radio" name="key0b31" id="key0b313" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b313">
+<div id="taoptionAnswer2q0b31" class="block iDevice_content">
+<p>Produce un calentamiento irregular debido al tamaño y forma de los alimentos.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore31"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

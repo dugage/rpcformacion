@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id14">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 3;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var key0 = 2;
+var key1 = 0;
+var key2 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b14");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm14").key0b14[i].checked)
+               {
+                  question0 = document.getElementById("quizForm14").key0b14[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b14");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm14").key1b14[i].checked)
+               {
+                  question1 = document.getElementById("quizForm14").key1b14[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b14");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm14").key2b14[i].checked)
+               {
+                  question2 = document.getElementById("quizForm14").key2b14[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm14").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm14" id="quizForm14" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-14" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b14" class="block iDevice_content">
+<p><strong>El objeto de la Ley Orgánica 15/1999, de 13 de diciembre, es:</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b141" class="sr-av"><a href="#answer-key0b141">Opción 1</a></label><input type="radio" name="key0b14" id="key0b141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b141"><a name="answer-key0b141"></a>
+<div id="taoptionAnswer0q0b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Adaptar la normativa europea en materia de protección de datos personales al Ordenamiento jurídico español.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b142" class="sr-av"><a href="#answer-key0b142">Opción 2</a></label><input type="radio" name="key0b14" id="key0b142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b142"><a name="answer-key0b142"></a>
+<div id="taoptionAnswer1q0b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Crear un marco regulador de las funciones del responsable de ficheros, tanto de titularidad pública como privada.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b143" class="sr-av"><a href="#answer-key0b143">Opción 3</a></label><input type="radio" name="key0b14" id="key0b143" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b143"><a name="answer-key0b143"></a>
+<div id="taoptionAnswer2q0b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Garantizar y proteger, en lo que concierne al tratamiento de los datos personales, las libertades públicas y los derechos fundamentales de las personas físicas, y especialmente su honor e intimidad personal y familiar.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b144" class="sr-av"><a href="#answer-key0b144">Opción 4</a></label><input type="radio" name="key0b14" id="key0b144" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b144"><a name="answer-key0b144"></a>
+<div id="taoptionAnswer3q0b14" class="block iDevice_content">
+<p>Sancionar con carácter general a todo aquel, sea persona física o jurídica, que no cumpla con las previsiones que se recogen en su texto.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b14" class="block iDevice_content">
+<p><strong><strong>Las Comunidades Autónomas que han ejercitado el derecho a desarrollar la Ley de Protección de datos son:</strong> </strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b141" class="sr-av"><a href="#answer-key1b141">Opción 1</a></label><input type="radio" name="key1b14" id="key1b141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b141"><a name="answer-key1b141"></a>
+<div id="taoptionAnswer0q1b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Comunidad Autónoma de Madrid, Cataluña, País Vasco y Galicia.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b142" class="sr-av"><a href="#answer-key1b142">Opción 2</a></label><input type="radio" name="key1b14" id="key1b142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b142"><a name="answer-key1b142"></a>
+<div id="taoptionAnswer1q1b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Comunidad Autónoma de Cataluña, Valencia y Navarra.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b143" class="sr-av"><a href="#answer-key1b143">Opción 3</a></label><input type="radio" name="key1b14" id="key1b143" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b143"><a name="answer-key1b143"></a>
+<div id="taoptionAnswer2q1b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Comunidad Autónoma del País Vasco, Andalucía y Baleares.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b144" class="sr-av"><a href="#answer-key1b144">Opción 4</a></label><input type="radio" name="key1b14" id="key1b144" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b144"><a name="answer-key1b144"></a>
+<div id="taoptionAnswer3q1b14" class="block iDevice_content">
+<p>Comunidad Autónoma de La Rioja, País Vasco y Cataluña.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b14" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_enunciado"><strong> Los plazos para implantar las medidas de seguridad en las empresas se establecen en:</strong></div>
+</div>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b141" class="sr-av"><a href="#answer-key2b141">Opción 1</a></label><input type="radio" name="key2b14" id="key2b141" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b141"><a name="answer-key2b141"></a>
+<div id="taoptionAnswer0q2b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">La Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b142" class="sr-av"><a href="#answer-key2b142">Opción 2</a></label><input type="radio" name="key2b14" id="key2b142" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b142"><a name="answer-key2b142"></a>
+<div id="taoptionAnswer1q2b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de protección de datos de carácter personal.</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b143" class="sr-av"><a href="#answer-key2b143">Opción 3</a></label><input type="radio" name="key2b14" id="key2b143" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b143"><a name="answer-key2b143"></a>
+<div id="taoptionAnswer2q2b14" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">En la Ley 8/2001, de 13 De julio, de Protección de datos de Carácter Personal en la Comunidad de Madrid.</div>
+<div class="ee_respuesta ee_simpleNo_seleccionada"></div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b144" class="sr-av"><a href="#answer-key2b144">Opción 4</a></label><input type="radio" name="key2b14" id="key2b144" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b144"><a name="answer-key2b144"></a>
+<div id="taoptionAnswer3q2b14" class="block iDevice_content">
+<p>En el Real Decreto 3/2010, de 8 de enero, por el que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id18">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Multiple</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div class="question">
+<div id="actitity-18_108">
+<form name="multi-select-form-18_108" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion18_108" class="block question iDevice_content">
+<p><strong>Los principales datos sobre los que se incrementan las medidas de seguridad en el Real Decreto 1720/2007, de 21 de diciembre, son (Respuesta múltiple):</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1080" class="sr-av"><a href="#answer-18_111">Opción 1</a></label><input type="checkbox" id="op18_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_111"><a name="answer-18_111"></a>
+<div id="taans18_111" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Ficheros de entidades gestoras y servicios comunes de la Seguridad Social.</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1080" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1081" class="sr-av"><a href="#answer-18_165">Opción 2</a></label><input type="checkbox" id="op18_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_165"><a name="answer-18_165"></a>
+<div id="taans18_165" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Ficheros de los que son responsables operadores de servicios de comunicaciones electrónicas disponibles al público sobre datos de tráfico y localización.</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1081" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1082" class="sr-av"><a href="#answer-18_167">Opción 3</a></label><input type="checkbox" id="op18_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_167"><a name="answer-18_167"></a>
+<div id="taans18_167" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Datos derivados de la violencia de género.</div>
+<div class="ee_respuesta ee_multipleNo_seleccionada"></div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1082" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1083" class="sr-av"><a href="#answer-18_169">Opción 4</a></label><input type="checkbox" id="op18_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_169"><a name="answer-18_169"></a>
+<div id="taans18_169" class="block iDevice_content">
+<p>Los datos relativos a los menores de catorce años.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1083" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'18_108')"/> 
+</p>
+</div>
+<div id="f18_108" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-18_111" class="right">Correcto</a></li>
+<li><a href="#answer-18_165" class="right">Correcto</a></li>
+<li><a href="#answer-18_167" class="right">Correcto</a></li>
+<li><a href="#answer-18_169" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="question">
+<div id="actitity-18_171">
+<form name="multi-select-form-18_171" action="#" onsubmit="return false" class="activity-form">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion18_171" class="block question iDevice_content">
+<p><strong>La Agencia Española de Protección de Datos: (Respuesta múltiple)</strong></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1710" class="sr-av"><a href="#answer-18_174">Opción 1</a></label><input type="checkbox" id="op18_1710" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_174"><a name="answer-18_174"></a>
+<div id="taans18_174" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Informa sobre el contenido, los principios y las garantías del derecho fundamental a la protección de datos regulado por la Ley Orgánica de protección de datos.</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1710" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1711" class="sr-av"><a href="#answer-18_176">Opción 2</a></label><input type="checkbox" id="op18_1711" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_176"><a name="answer-18_176"></a>
+<div id="taans18_176" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Ayuda al ciudadano a ejercitar sus derechos.</div>
+<p></p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1711" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1712" class="sr-av"><a href="#answer-18_178">Opción 3</a></label><input type="checkbox" id="op18_1712" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_178"><a name="answer-18_178"></a>
+<div id="taans18_178" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleNo_seleccionada">Ayuda a los responsables y encargados de tratamientos a cumplir las obligaciones que establece la Ley Orgánica 15/1999, de 13 de diciembre y a resolver sus dudas.</div>
+<div class="ee_respuesta ee_multipleNo_seleccionada"></div>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1712" style="display:none"></div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op18_1713" class="sr-av"><a href="#answer-18_180">Opción 4</a></label><input type="checkbox" id="op18_1713" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-18_180"><a name="answer-18_180"></a>
+<div id="taans18_180" class="block iDevice_content">
+<p>Garantiza el derecho de los responsables o encargados de ficheros a que no se les sancione únicamente en caso de incumplimiento muy grave.</p>
+</div>
+</div>
+<div class="iDevice_answer-feedback feedback" id="feedback-18_1713" style="display:none"></div>
+</div>
+</div>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton" value="Mostrar retroalimentación" onclick="showFeedback(this,4,'18_171')"/> 
+</p>
+</div>
+<div id="f18_171" class="js-hidden js-feedback">
+<h4 class="js-sr-av">Retroalimentación</h4>
+
+</div>
+</form>
+<div class="iDevice_solution feedback js-hidden">
+<h4>Solución</h4>
+<ol>
+<li><a href="#answer-18_174" class="right">Correcto</a></li>
+<li><a href="#answer-18_176" class="right">Correcto</a></li>
+<li><a href="#answer-18_178" class="right">Correcto</a></li>
+<li><a href="#answer-18_180" class="wrong">Incorrecto</a></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

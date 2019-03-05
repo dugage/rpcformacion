@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Tema </title>
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.2 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body id="exe-node-16" class="exe-scorm" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<section id="main">
+<header id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Tema</h1></div></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id19">
+<div class="iDevice emphasis0">
+<div id="ta19_85" class="block iDevice_content">
+<p><img src="Leyenda.PNG" alt="leyenda" title="leyenda" style="display: block; margin-left: auto; margin-right: auto;" width="388" height="263" /></p>
+<p></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id20">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 0;
+var key1 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b20");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm20").key0b20[i].checked)
+               {
+                  question0 = document.getElementById("quizForm20").key0b20[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b20");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm20").key1b20[i].checked)
+               {
+                  question1 = document.getElementById("quizForm20").key1b20[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm20").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm20" id="quizForm20" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-20" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b20" class="block iDevice_content">
+<p><b>1. ¿Cuáles de las siguientes características corresponde al Trastorno de apego reactivo?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b201" class="sr-av"><a href="#answer-key0b201">Opción 1</a></label><input type="radio" name="key0b20" id="key0b201" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b201">
+<div id="taoptionAnswer0q0b20" class="block iDevice_content">
+<p>El niño raramente o muy pocas veces se deja consolar cuando siente malestar.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b202" class="sr-av"><a href="#answer-key0b202">Opción 2</a></label><input type="radio" name="key0b20" id="key0b202" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b202">
+<div id="taoptionAnswer1q0b20" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se da una educación en contextos habituales que aumentan en gran manera la oportunidad de elaborar un apego estable.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b203" class="sr-av"><a href="#answer-key0b203">Opción 3</a></label><input type="radio" name="key0b20" id="key0b203" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b203">
+<div id="taoptionAnswer2q0b20" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Se da una reducción o ausencia de reticencia para aproximarse e interaccionar con adultos extraños.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b20" class="block iDevice_content">
+<p><b>2. ¿En qué situación un niño menor de 6 años presentaría un trastorno de estrés postraumático?</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b201" class="sr-av"><a href="#answer-key1b201">Opción 1</a></label><input type="radio" name="key1b20" id="key1b201" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b201">
+<div id="taoptionAnswer0q1b20" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">El niño ha visualizado una película en la que ocurre un suceso traumático (por ejemplo, un accidente de coche) experimentando problemas de concentración y alteración del sueño durante dos semanas.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b202" class="sr-av"><a href="#answer-key1b202">Opción 2</a></label><input type="radio" name="key1b20" id="key1b202" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b202">
+<div id="taoptionAnswer1q1b20" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El niño ha presenciado directamente un accidente de coche, pero al cabo de un mes no presenta ningún malestar psicológico intenso, aunque sí alteraciones de sueño y de concentración cuando toma un medicamento.</div>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b203" class="sr-av"><a href="#answer-key1b203">Opción 3</a></label><input type="radio" name="key1b20" id="key1b203" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b203">
+<div id="taoptionAnswer2q1b20" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">El niño ha presenciado directamente el accidente de coche, presentando recuerdos angustiosos recurrentes sobre la colisión de los coches durante un mes y presentando conductas de evitación (no quiere atravesar pasos de peatones) lo cual causa problemas para ir al colegio.</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore20"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id21">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta Verdadero-Falso</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta21_100" class="block iDevice_content">
+<p><b>3. Indica si es verdadero o falso el siguiente enunciado:</b></p>
+</div>
+<section class="question">
+<form name="true-false-form-0b21" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b21" class="block iDevice_content">
+<p><i>“El trastorno de relación social desinhibida, hace referencia al desarrollo de síntomas emocionales o del comportamiento en respuesta a un factor o factores de estrés identificables que se producen en los tres meses siguientes al inicio del factor de estrés”. </i></p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b21"><input type="radio" name="option0b21" id="true0b21" class="exe-radio-option exe-radio-option-0-2-0b21-truefalse" /> Verdadero</label> 
+<label for="false0b21"><input type="radio" name="option0b21" id="false0b21" class="exe-radio-option exe-radio-option-1-2-0b21-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b21" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b21-result" class="wrong">Falso</strong></p>
+
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id22">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 1;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var key0 = 1;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b22");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm22").key0b22[i].checked)
+               {
+                  question0 = document.getElementById("quizForm22").key0b22[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm22").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Cuestionario SCORM</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm22" id="quizForm22" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-22" value="50" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b22" class="block iDevice_content">
+<p><b>4. El sentido de la realidad alterado del entorno o de uno mismo se refiere a un síntoma de estrés agudo:</b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b221" class="sr-av"><a href="#answer-key0b221">Opción 1</a></label><input type="radio" name="key0b22" id="key0b221" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b221">
+<div id="taoptionAnswer0q0b22" class="block iDevice_content">
+<p>De intrusión.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b222" class="sr-av"><a href="#answer-key0b222">Opción 2</a></label><input type="radio" name="key0b22" id="key0b222" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b222">
+<div id="taoptionAnswer1q0b22" class="block iDevice_content">
+<p>Disociativo.</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b223" class="sr-av"><a href="#answer-key0b223">Opción 3</a></label><input type="radio" name="key0b22" id="key0b223" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b223">
+<div id="taoptionAnswer2q0b22" class="block iDevice_content">
+<p>De evitación.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore22"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id23">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Selección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-23_108">
+<form name="multi-select-form-23_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion23_108" class="block question iDevice_content">
+<p><b>5. Indica las características de clasificación y diagnóstico que correspondan al Trastorno de adaptación de la CIE-10 (respuesta múltiple): </b></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op23_1080" class="sr-av"><a href="#answer-23_111">Opción 1</a></label><input type="checkbox" id="op23_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-23_111"><div id="taans23_111" class="block iDevice_content">
+<p>En las pautas para el diagnóstico se cuenta con la forma, el contenido y la gravedad de los síntomas.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-23_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op23_1081" class="sr-av"><a href="#answer-23_188">Opción 2</a></label><input type="checkbox" id="op23_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-23_188"><div id="taans23_188" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Incluye el Trastorno de ansiedad de separación en la infancia.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-23_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op23_1082" class="sr-av"><a href="#answer-23_190">Opción 3</a></label><input type="checkbox" id="op23_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-23_190"><div id="taans23_190" class="block iDevice_content">
+<div class="ee_respuesta ee_multipleSeleccionada">Se integran el shock cultural y las reacciones de duelo.</div>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-23_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-23_108" /> 
+</p>
+</div>
+<section id="f23_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-23_111" class="right">Correcto</a></li>
+<li><a href="#answer-23_188" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-23_190" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+</section>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</div>
+<script type="text/javascript" src="my_js.js"></script></body></html>

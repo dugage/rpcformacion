@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>5.1. Formatos personalizados </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.1.3 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",download:"Descargar",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" /></head>
+<body id="exe-node-18" class="exe-scorm" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js";jQuery(function(){loadPage()})</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">5.1. Formatos personalizados</h1></div></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id17">
+<div class="iDevice emphasis0">
+<div id="ta17_85" class="block iDevice_content">
+
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id18">
+<div class="iDevice emphasis0">
+<div id="ta18_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>El aspecto con el que aparece un cierto dato en una celdilla es independiente del formato con que se introduce. Un dato económico, por ejemplo, se introduce como una secuencia de dígitos numéricos, al igual que un teléfono o una cuenta bancaria. El aspecto con el que se muestran estos datos, no obstante, puede ser totalmente distinto.</p>
+<p>Excel cuenta con una serie de formatos predefinidos para la presentación de datos numéricos, pero nosotros podemos definir cualesquiera otros que necesitáramos en algún momento. Para ello compondríamos una máscara con una cierta estructura, usando para ello un conjunto de caracteres muy específico. Realmente podemos asociar hasta tres máscaras para números por cada celdilla: una a usar cuando el contenido de la celdilla fuese positivo, una segunda para el caso de los negativos y, finalmente, una tercera para utilizar cuando el número sea cero. Si tan sólo se facilita una máscara ésta se usa en todos los casos, mientras que si se definen dos, la primera se usará para positivos y cero, mientras que la segunda afectará sólo a números negativos.</p>
+<p>En la tabla 1.2 se enumeran algunos de los caracteres que podemos utilizar en la composición de estas máscaras. Recuerde que para signar estas máscaras a una o más celdillas, primero debe seleccionarlas, pulsando a continuación Control-1 y seleccionando Personaliza en la lista Categoría. En la figura 1.23, por ejemplo, se ha compuesto una máscara para presentar números de cuentas corrientes.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_MXVxWDZTekphNUlZVTJGb0FsYkpsNjFMOTNwa3V2cjRrWlQ1Nk9yYyUyRmt3JTNE" id="IMG_MXVxWDZTekphNUlZVTJGb0FsYkpsNjFMOTNwa3V2cjRrWlQ1Nk9yYyUyRmt3JTNE" alt="Edición de datos y fórmulas" title="Edición de datos y fórmulas" width="563" /></p>
+<p><b>Tabla 1.2. Caracteres para la composición de máscaras de formato.</b></p>
+<p>Los distintos caracteres pueden combinarse para crear formatos más o menos complejos. Observe la siguiente cadena de formatos, pensada para aplicar a celdillas que van a recibir cantidades en euros:</p>
+<p>[Azul] # # #. # #0,00” Euros”;[Rojo] # # #. # #0,00” Euros”</p>
+<p>Al introducir un número en la celdilla con este formato, se utilizará el color azul para representar cantidades positivas y el rojo para las negativas. Además, se separarán los miles y siempre existirán dos decimales, lo que provocará un redondeo en caso necesario. Por último, se añade la palabra Euros tras la cantidad introducida.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_R1NtJTJCJTJCNk1ZR0VWRiUyRmUxa1RKOTJpRFkxMHd6M3klMkJoc25tWll4eE82V0tBJTNE" id="IMG_R1NtJTJCJTJCNk1ZR0VWRiUyRmUxa1RKOTJpRFkxMHd6M3klMkJoc25tWll4eE82V0tBJTNE" alt="Edición de datos y fórmulas" title="Edición de datos y fórmulas" width="432" /></p>
+<p><b>Figura 1.23.</b> Ventana Formato de celdas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_fpd_js.js"></script></body></html>

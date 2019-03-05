@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | Tema 1: Introducción </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.1 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage(true)"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><div id="headerContent"><h1 id="nodeTitle">Autoevaluación</h1></div></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id335">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 0;
+var key1 = 3;
+var key2 = 2;
+var key3 = 2;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b335");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 2; i++)
+            {
+               if (document.getElementById("quizForm335").key0b335[i].checked)
+               {
+                  question0 = document.getElementById("quizForm335").key0b335[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b335");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm335").key1b335[i].checked)
+               {
+                  question1 = document.getElementById("quizForm335").key1b335[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b335");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm335").key2b335[i].checked)
+               {
+                  question2 = document.getElementById("quizForm335").key2b335[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b335");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm335").key3b335[i].checked)
+               {
+                  question3 = document.getElementById("quizForm335").key3b335[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm335").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+                    var msg_str ="Su puntuación es %d%%";            alert(msg_str.replace("%d",actualScore).replace("%%","%"));  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm335" id="quizForm335" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-335" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b335" class="block iDevice_content">
+<p><b>Indica si la siguiente afirmación es verdadera o falsa:</b><span> </span><i>“Gran parte de la economía española se apoya en el negocio inmobiliario”.</i></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b3351" class="sr-av"><a href="#answer-key0b3351">Opción 1</a></label><input type="radio" name="key0b335" id="key0b3351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b3351"><a name="answer-key0b3351"></a>
+<div id="taoptionAnswer0q0b335" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Verdadero</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b3352" class="sr-av"><a href="#answer-key0b3352">Opción 2</a></label><input type="radio" name="key0b335" id="key0b3352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b3352"><a name="answer-key0b3352"></a>
+<div id="taoptionAnswer1q0b335" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Falso</div>
+</div>
+<div class="botonera" id="botonera"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b335" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿Cuál es la principal función de un API?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b3351" class="sr-av"><a href="#answer-key1b3351">Opción 1</a></label><input type="radio" name="key1b335" id="key1b3351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b3351"><a name="answer-key1b3351"></a>
+<div id="taoptionAnswer0q1b335" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Crear su propio negocio.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b3352" class="sr-av"><a href="#answer-key1b3352">Opción 2</a></label><input type="radio" name="key1b335" id="key1b3352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b3352"><a name="answer-key1b3352"></a>
+<div id="taoptionAnswer1q1b335" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ofrecer su formación y experiencia para proponer sistemas de financiación favorables en una futura operación.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b3353" class="sr-av"><a href="#answer-key1b3353">Opción 3</a></label><input type="radio" name="key1b335" id="key1b3353" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b3353"><a name="answer-key1b3353"></a>
+<div id="taoptionAnswer2q1b335" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Crear dictámenes que le sean solicitados sobre el valor en venta, cesión o traspaso de los bienes inmuebles.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b3354" class="sr-av"><a href="#answer-key1b3354">Opción 4</a></label><input type="radio" name="key1b335" id="key1b3354" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b3354"><a name="answer-key1b3354"></a>
+<div id="taoptionAnswer3q1b335" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Servir de intermediario al usuario para cualquier cuestión relacionada con la vivienda.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b335" class="block iDevice_content">
+<div class="ee_enunciado"><b>¿En qué artículo del Código Civil se regula el contrato de mandato?</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b3351" class="sr-av"><a href="#answer-key2b3351">Opción 1</a></label><input type="radio" name="key2b335" id="key2b3351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b3351"><a name="answer-key2b3351"></a>
+<div id="taoptionAnswer0q2b335" class="block iDevice_content">
+<p>1705</p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b3352" class="sr-av"><a href="#answer-key2b3352">Opción 2</a></label><input type="radio" name="key2b335" id="key2b3352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b3352"><a name="answer-key2b3352"></a>
+<div id="taoptionAnswer1q2b335" class="block iDevice_content">
+<p>1707</p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b3353" class="sr-av"><a href="#answer-key2b3353">Opción 3</a></label><input type="radio" name="key2b335" id="key2b3353" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b3353"><a name="answer-key2b3353"></a>
+<div id="taoptionAnswer2q2b335" class="block iDevice_content">
+<p>1709</p>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b3354" class="sr-av"><a href="#answer-key2b3354">Opción 4</a></label><input type="radio" name="key2b335" id="key2b3354" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b3354"><a name="answer-key2b3354"></a>
+<div id="taoptionAnswer3q2b335" class="block iDevice_content">
+<p>1700</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b335" class="block iDevice_content">
+<p><b>Al hablar de un contrato principal, consensual y bilateral por el cual una de las partes, corredor o mediador, se compromete a indicar a otra la oportunidad de concluir un negocio jurídico con un tercero, ¿a qué tipo de contrato nos referimos?</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b3351" class="sr-av"><a href="#answer-key3b3351">Opción 1</a></label><input type="radio" name="key3b335" id="key3b3351" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b3351"><a name="answer-key3b3351"></a>
+<div id="taoptionAnswer0q3b335" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Contrato de arrendamiento de servicios.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b3352" class="sr-av"><a href="#answer-key3b3352">Opción 2</a></label><input type="radio" name="key3b335" id="key3b3352" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b3352"><a name="answer-key3b3352"></a>
+<div id="taoptionAnswer1q3b335" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Contrato de mandato.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b3353" class="sr-av"><a href="#answer-key3b3353">Opción 3</a></label><input type="radio" name="key3b335" id="key3b3353" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b3353"><a name="answer-key3b3353"></a>
+<div id="taoptionAnswer2q3b335" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Contrato de mediación o corretaje.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b3354" class="sr-av"><a href="#answer-key3b3354">Opción 4</a></label><input type="radio" name="key3b335" id="key3b3354" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b3354"><a name="answer-key3b3354"></a>
+<div id="taoptionAnswer3q3b335" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Ninguna de las respuestas es correcta.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="_max_js.js"></script></body></html>

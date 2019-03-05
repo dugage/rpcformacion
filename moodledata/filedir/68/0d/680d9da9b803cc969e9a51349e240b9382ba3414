@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>1.4. Selección de la tabla </title>
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">1.4. Selección de la tabla</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id4">
+<div class="iDevice emphasis0">
+<div id="ta4_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Utilizando conjuntamente los elementos descritos desde el principio, estamos en condiciones de crear una macro que, al ejecutarse, seleccione la tabla de datos a la que pertenece la celdilla activa. Esta macro sería la siguiente:</p>
+<p>Sub SeleccionarTabla ()</p>
+<p>‘ Nos movemos a la primera columna del área</p>
+<p>ActiveCell.End (xlToLeft).Activate</p>
+<p>‘ y la primera fila</p>
+<p>ActiveCell.End (xlUp).Activate</p>
+<p>‘ seleccionamos hasta la última columna</p>
+<p>Range (ActiveCell, ActiveCell.End (xlToRight)).Select</p>
+<p>‘ y hasta la última fila</p>
+<p>Range (Selection, ActiveCell.End (xlDown)).Select</p>
+<p>End sub</p>
+<p>Comenzaremos seleccionando la celdilla que esté más a la izquierda de la tabla, utilizando para ello la propiedad End y el método Activate. Acto seguido hacemos lo mismo pero utilizando la constante xlUp, consiguiendo que la celdilla activa se ala que ocupa la posición superior izquierda en la tabla.</p>
+<p>El siguiente paso es seleccionar un rango que va desde dicha celdilla, que ahora es la activa, hasta la que esté más a la derecha. Con esto tendríamos seleccionada la primera fila de la tabla. Por último, utilizando una sentencia similar, seleccionamos hasta la última fila, quedando marcada la tabla completa.</p>
+<p>Ajuste la ventana de Excel y de Visual Basic para poder ver ambas de manera simultánea. A continuación ejecute la macro paso a paso, verá el efecto que tiene cada una de las sentencias. Lógicamente, puede asociar una combinación de teclas a esta macro para ejecutarla sin necesidad de acceder al editor de código.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

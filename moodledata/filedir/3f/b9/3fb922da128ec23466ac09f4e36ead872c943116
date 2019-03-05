@@ -1,0 +1,484 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Autoevaluación | Marketing y comercialización </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">Autoevaluación</h1></div>
+<div class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id94">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 2;
+var key1 = 1;
+var key2 = 3;
+var key3 = 3;
+var key4 = 0;
+function getAnswer()
+        {
+            scorm.SetInteractionValue("cmi.interactions.0.id","key0b94");
+            scorm.SetInteractionValue("cmi.interactions.0.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.0.correct_responses.0.pattern",
+                          "2");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm94").key0b94[i].checked)
+               {
+                  question0 = document.getElementById("quizForm94").key0b94[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.0.student_response",question0);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.1.id","key1b94");
+            scorm.SetInteractionValue("cmi.interactions.1.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.1.correct_responses.0.pattern",
+                          "1");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm94").key1b94[i].checked)
+               {
+                  question1 = document.getElementById("quizForm94").key1b94[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.1.student_response",question1);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.2.id","key2b94");
+            scorm.SetInteractionValue("cmi.interactions.2.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.2.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm94").key2b94[i].checked)
+               {
+                  question2 = document.getElementById("quizForm94").key2b94[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.2.student_response",question2);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.3.id","key3b94");
+            scorm.SetInteractionValue("cmi.interactions.3.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.3.correct_responses.0.pattern",
+                          "3");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm94").key3b94[i].checked)
+               {
+                  question3 = document.getElementById("quizForm94").key3b94[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.3.student_response",question3);
+                  break;
+               }
+            }
+           
+            scorm.SetInteractionValue("cmi.interactions.4.id","key4b94");
+            scorm.SetInteractionValue("cmi.interactions.4.type","choice");
+            scorm.SetInteractionValue("cmi.interactions.4.correct_responses.0.pattern",
+                          "0");
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm94").key4b94[i].checked)
+               {
+                  question4 = document.getElementById("quizForm94").key4b94[i].value;
+                  scorm.SetInteractionValue("cmi.interactions.4.student_response",question4);
+                  break;
+               }
+            }
+           }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.0.result","wrong");
+            }
+            if (question1 == key1)
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.1.result","wrong");
+            }
+            if (question2 == key2)
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.2.result","wrong");
+            }
+            if (question3 == key3)
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.3.result","wrong");
+            }
+            if (question4 == key4)
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","correct");
+               rawScore++;
+            }
+            else
+            {
+               scorm.SetInteractionValue("cmi.interactions.4.result","wrong");
+            }
+        }
+       
+        function calcScore2()
+        {
+           computeTime();  // the student has stopped here.
+       
+           document.getElementById("quizForm94").submitB.disabled = true;
+       
+           getAnswer();
+    
+           calcRawScore();
+          
+           actualScore = Math.round(rawScore / numQuestions * 100);
+        alert("Su puntuación es " + actualScore + "%")  
+          
+           scorm.SetScoreRaw(actualScore+"" );
+           scorm.SetScoreMax("100");
+          
+           var mode = scorm.GetMode();
+
+               if ( mode != "review"  &&  mode != "browse" ){
+                 if ( actualScore < 50 )
+                 {
+                   scorm.SetCompletionStatus("incomplete");
+                   scorm.SetSuccessStatus("failed");
+                 }
+                 else
+                 {
+                   scorm.SetCompletionStatus("completed");
+                   scorm.SetSuccessStatus("passed");
+                 }
+
+                 scorm.SetExit("");
+                 }
+
+         exitPageStatus = true;
+    
+    
+         scorm.save();
+    
+         scorm.quit();
+         
+        }
+//]]> -->
+</script>
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Cuestionario: Selección Unica</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm94" id="quizForm94" action="javascript:calcScore2();">
+<input type="hidden" name="passrate" id="passrate-94" value="50" />
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion0b94" class="block iDevice_content">
+<div class="ee_enunciado"><b>Los tipos de Marketing que se pueden realizar en la empresa son:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b941" class="sr-av"><a href="#answer-key0b941">Opción 1</a></label><input type="radio" name="key0b94" id="key0b941" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b941"><a name="answer-key0b941"></a>
+<div id="taoptionAnswer0q0b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Estratégico y Directo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b942" class="sr-av"><a href="#answer-key0b942">Opción 2</a></label><input type="radio" name="key0b94" id="key0b942" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b942"><a name="answer-key0b942"></a>
+<div id="taoptionAnswer1q0b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Estratégico y analítico.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b943" class="sr-av"><a href="#answer-key0b943">Opción 3</a></label><input type="radio" name="key0b94" id="key0b943" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b943"><a name="answer-key0b943"></a>
+<div id="taoptionAnswer2q0b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Estratégico y operativo.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b944" class="sr-av"><a href="#answer-key0b944">Opción 4</a></label><input type="radio" name="key0b94" id="key0b944" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b944"><a name="answer-key0b944"></a>
+<div id="taoptionAnswer3q0b94" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Operativo y táctico.</div>
+</div>
+<div class="botonera" id="botonera"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion1b94" class="block iDevice_content">
+<p><b>Existen diferentes tipos de Investigación de mercado, una de ellas, se caracteriza por trabajar sobre la base de una guía de pautas, diseñadas para orientarles acerca de los aspectos a investigar. Nos referimos a:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b941" class="sr-av"><a href="#answer-key1b941">Opción 1</a></label><input type="radio" name="key1b94" id="key1b941" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b941"><a name="answer-key1b941"></a>
+<div id="taoptionAnswer0q1b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Investigación Cualitativa.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b942" class="sr-av"><a href="#answer-key1b942">Opción 2</a></label><input type="radio" name="key1b94" id="key1b942" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b942"><a name="answer-key1b942"></a>
+<div id="taoptionAnswer1q1b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Investigación Motivacional.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b943" class="sr-av"><a href="#answer-key1b943">Opción 3</a></label><input type="radio" name="key1b94" id="key1b943" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b943"><a name="answer-key1b943"></a>
+<div id="taoptionAnswer2q1b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Investigación Experimental.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b944" class="sr-av"><a href="#answer-key1b944">Opción 4</a></label><input type="radio" name="key1b94" id="key1b944" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b944"><a name="answer-key1b944"></a>
+<div id="taoptionAnswer3q1b94" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Investigación Cuantitativa.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion2b94" class="block iDevice_content">
+<p><b>Para llevar a cabo el proceso de desarrollo del producto, se atiende a diferentes enfoques metodológicos que son:</b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b941" class="sr-av"><a href="#answer-key2b941">Opción 1</a></label><input type="radio" name="key2b94" id="key2b941" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b941"><a name="answer-key2b941"></a>
+<div id="taoptionAnswer0q2b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Identificación de oportunidades, Especificación, Prueba e Introducción.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b942" class="sr-av"><a href="#answer-key2b942">Opción 2</a></label><input type="radio" name="key2b94" id="key2b942" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b942"><a name="answer-key2b942"></a>
+<div id="taoptionAnswer1q2b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Diseño, Especificación, Prueba e Introducción.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b943" class="sr-av"><a href="#answer-key2b943">Opción 3</a></label><input type="radio" name="key2b94" id="key2b943" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b943"><a name="answer-key2b943"></a>
+<div id="taoptionAnswer2q2b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Identificación de necesidades, Identificación de oportunidades, Diseño, Especificación, Prueba e Introducción.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b944" class="sr-av"><a href="#answer-key2b944">Opción 4</a></label><input type="radio" name="key2b94" id="key2b944" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b944"><a name="answer-key2b944"></a>
+<div id="taoptionAnswer3q2b94" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleSeleccionada">Identificación de oportunidades, Diseño, Prueba, Especificación e Introducción.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion3b94" class="block iDevice_content">
+<div class="ee_enunciado"><b>El mercado de Competencia Perfecta se caracteriza por:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b941" class="sr-av"><a href="#answer-key3b941">Opción 1</a></label><input type="radio" name="key3b94" id="key3b941" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b941"><a name="answer-key3b941"></a>
+<div id="taoptionAnswer0q3b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Homogeneidad del producto.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b942" class="sr-av"><a href="#answer-key3b942">Opción 2</a></label><input type="radio" name="key3b94" id="key3b942" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b942"><a name="answer-key3b942"></a>
+<div id="taoptionAnswer1q3b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Movilidad de los recursos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b943" class="sr-av"><a href="#answer-key3b943">Opción 3</a></label><input type="radio" name="key3b94" id="key3b943" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b943"><a name="answer-key3b943"></a>
+<div id="taoptionAnswer2q3b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Transparencia de la información de los mercados.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b944" class="sr-av"><a href="#answer-key3b944">Opción 4</a></label><input type="radio" name="key3b94" id="key3b944" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b944"><a name="answer-key3b944"></a>
+<div id="taoptionAnswer3q3b94" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Todas son correctas.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="question">
+<h3 class="js-sr-av">Pregunta</h3>
+<div id="taquestion4b94" class="block iDevice_content">
+<div class="ee_enunciado"><b>Los canales de distribución que permiten un mayor control de la comercialización son:</b></div>
+<p><b> </b></p>
+</div>
+<div class="iDevice_answers">
+<h4 class="js-sr-av">Respuestas</h4>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b941" class="sr-av"><a href="#answer-key4b941">Opción 1</a></label><input type="radio" name="key4b94" id="key4b941" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b941"><a name="answer-key4b941"></a>
+<div id="taoptionAnswer0q4b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Canales de cero niveles o canales directos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b942" class="sr-av"><a href="#answer-key4b942">Opción 2</a></label><input type="radio" name="key4b94" id="key4b942" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b942"><a name="answer-key4b942"></a>
+<div id="taoptionAnswer1q4b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Canales de un nivel o canales indirectos cortos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b943" class="sr-av"><a href="#answer-key4b943">Opción 3</a></label><input type="radio" name="key4b94" id="key4b943" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b943"><a name="answer-key4b943"></a>
+<div id="taoptionAnswer2q4b94" class="block iDevice_content">
+<div class="ee_respuesta ee_simpleSeleccionada">Canales de varios niveles o canales indirectos largos.</div>
+</div>
+</div>
+</div>
+<div class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key4b944" class="sr-av"><a href="#answer-key4b944">Opción 4</a></label><input type="radio" name="key4b94" id="key4b944" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key4b944"><a name="answer-key4b944"></a>
+<div id="taoptionAnswer3q4b94" class="block iDevice_content">
+<div class="ee_pregunta">
+<div class="ee_respuesta ee_simpleNo_seleccionada">Ninguna es correcta.</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
