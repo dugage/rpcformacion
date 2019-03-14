@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>4.4. Validación de datos </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">4.4. Validación de datos</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id15">
+<div class="iDevice emphasis0">
+<div id="ta15_85" class="block iDevice_content">
+<div class="dentro_contenidos" style="display: block;" id="pagina_1">
+<p>Si hay algo completamente humano en el uso de una aplicación informática es, sin duda alguna, la introducción de errores. Errar es de humanos, ya lo sabemos, pero Excel puede ayudarnos a reducir esos errores, especialmente durante la etapa de introducción de datos. Esto es especialmente útil, e importante, si la hoja de cálculo que estamos preparando va a ser usada por otras personas como modelo o punto de partida.</p>
+<p>Gracias al sistema de validación de datos de Excel podremos verificar que un número está comprendido entre dos valores dados, que un título o un nombre es uno de una lista dada, que una fecha se encuentra en un cierto espacio temporal, etc. El método de validación seleccionado, así como sus parámetros, deberán establecerse en la ventana mostrada en la figura 1.17, a la que puede acceder mediante la opción Datos&gt;Herramientas de datos&gt;Validación de datos. La validación se asociará a la celdilla o celdillas seleccionadas en ese momento.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_ZFhZY09LR0txJTJGUXBvMWxJWTNUbXV0aFc5Y0cwOWN3alFBaUJrbWpseUFvJTNE" id="IMG_ZFhZY09LR0txJTJGUXBvMWxJWTNUbXV0aFc5Y0cwOWN3alFBaUJrbWpseUFvJTNE" alt="Edición de datos y fórmulas" title="Edición de datos y fórmulas" width="435" /></p>
+<p><b>Figura 1.17.</b> Ventana Validación de datos.</p>
+<p>En la lista desplegable que hay en la parte superior indicaríamos el tipo de dato que puede introducirse, desde cualquier dato hasta sólo números enteros, números decimales, fechas, valores de una lista, etc. Dependiendo del tipo de dato, en la lista que hay debajo seleccionaríamos el tipo de validación: comprobar que el dato esté entre unos ciertos límites, que sea mayor o menor que un dato dado, que no supere cierta longitud, etc.</p>
+<p>Las dos páginas adicionales que existen en la misma ventana (véase figura 1.17) puede utilizarlas para entregar sendos mensajes o avisos: uno que aparecerá cuando vaya a introducirse el dato en la celdilla y un segundo que será usado tan sólo en caso de que se produzca un error durante la validación.</p>
+<h5><b>4.4.1. Selección de un valor de una lista</b></h5>
+<p>Un caso algo especial de validación se da cuando en una celdilla debe introducirse un valor de un grupo bien determinado, grupo que puede ser presentado como una lista.</p>
+<p>Suponga, por ejemplo, que en unas celdillas de encabezado, bajo las cuales introducirá algunos datos estadísticos, debe indicar si dichos datos son relativos a población, producto interior bruto o renta <i>per cápita</i>. Ningún otro valor debería poderse introducir en dichas celdillas.</p>
+<p>En lugar de dejar a la suerte que los títulos sean correctamente introducidos, y siempre respetando el mismo orden de palabras, las mayúsculas y minúsculas, podemos crear una regla de validación dando los siguientes pasos:</p>
+<p>1. Introducimos en una sucesión de celdillas de la hoja, bien sea en la misma hoja o en otra distinta, los valores que deberán aparecer en la lista.</p>
+<p>2. Seleccionamos el rango de celdillas en los que debe introducirse como valor uno de los elementos de esa lista.</p>
+<p>3. Elegimos la opción Datos&gt;Herramientas de datos&gt;Validación de datos y, como se aprecia en la figura 1.18, elegimos en el apartado Permitir la opción Lista, indicando más abajo el rango donde se encuentran los valores de la lista.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_amFITG1aUkZqcG5uM2FJMUxMRkZDOU5BVTN4Wm5obU5WZGhGOFJOVjV0cyUzRA==" id="IMG_amFITG1aUkZqcG5uM2FJMUxMRkZDOU5BVTN4Wm5obU5WZGhGOFJOVjV0cyUzRA==" alt="Edición de datos y fórmulas" title="Edición de datos y fórmulas" width="528" /></p>
+<p><b>Figura 1.18.</b> Definimos una regla de validación con una lista de valores asociada.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_bjhDQXhWJTJCQWU1V0tvYWdMSkQ2UVNaQzdKVmJqWmtrWlRjU0s1VE1sR1JZJTNE" id="IMG_bjhDQXhWJTJCQWU1V0tvYWdMSkQ2UVNaQzdKVmJqWmtrWlRjU0s1VE1sR1JZJTNE" alt="Edición de datos y fórmulas" title="Edición de datos y fórmulas" width="386" /></p>
+<p><b>Figura 1.19.</b> Selección del valor directamente desde la lista desplegable.</p>
+<p>Cerrada la ventana, podrá comprobar que en las celdillas a las que se ha aplicado la regla de validación no puede introducir manualmente un valor distinto de los existentes en la lista. Observe que, además, al seleccionar la celdilla aparece un botón que, al ser pulsado, despliega una lista con los posibles valores (véase figura 1.19), facilitando así la introducción rápida del dato.</p>
+<h5><b>4.4.2. Reglas de validación personalizadas</b></h5>
+<p>Otro caso especial de validación, respecto a los demás métodos que establecen rangos o límites, lo encontramos en el uso de una fórmula para decidir si la entrada efectuada es o no válida. Esto nos permite definir cualquier validación a medida, según nuestras necesidades.</p>
+<p>Imagine que está solicitando en una de sus hojas los datos de población a nivel global, por una parte el total de población mundial y, por otra, la población de cada continente. Las celdillas donde van a introducirse las poblaciones continentales podrían contar con una validación personalizada como la de la figura 1.20, en la cual se comprueba que la suma de población de todos los continentes no sea mayor que la población mundial.</p>
+<p>Tal como se aprecia en la mencionada figura, lo único que hemos de hacer es elegir la opción Personalizada en la lista Permitir e introducir la fórmula en el apartado Fórmula. Ésta deberá devolver un valor lógico, es decir, VERDADERO o FALSO. En este ejemplo indicamos que la suma de los daos introducidos en los continentes nunca debe ser mayor que el entregado en la celdilla de población total.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_V3IlMkJMYzZ3YlVKU1BLZW13bjRxbzYlMkIlMkJMMzRlWm5XOUtiWmVlYmczUHV1dyUzRA==" id="IMG_V3IlMkJMYzZ3YlVKU1BLZW13bjRxbzYlMkIlMkJMMzRlWm5XOUtiWmVlYmczUHV1dyUzRA==" alt="Edición de datos y fórmulas" title="Edición de datos y fórmulas" width="472" /></p>
+<p><b>Figura 1.20.</b> Definimos una regla de validación personalizada.</p>
+<p><img src="http://www.educalms.com/REPOSITORIO/cargador.php?v=IMG_S3VWeDBlVUEzZFZwNUdIYkVGOWJSOXFnVkVUU1pxdUo1enRJTktLMm9CYyUzRA==" id="IMG_S3VWeDBlVUEzZFZwNUdIYkVGOWJSOXFnVkVUU1pxdUo1enRJTktLMm9CYyUzRA==" alt="Edición de datos y fórmulas" title="Edición de datos y fórmulas" width="251" /></p>
+<p><b>Figura 1.21.</b> Ventana con las opciones de protección de una hoja de cálculo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>

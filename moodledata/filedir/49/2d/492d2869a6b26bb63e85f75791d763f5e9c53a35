@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>3.2. Introducción de fechas y horas </title>
+<meta http-equiv="content-language" content="es" />
+<meta name="generator" content="eXeLearning 2.0.4 - exelearning.net" />
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript">$exe_i18n={show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú"}</script>
+<script type="text/javascript" src="common.js"></script>
+<script type="text/javascript" src="SCORM_API_wrapper.js"></script>
+<script type="text/javascript" src="SCOFunctions.js"></script>
+</head>
+<body class="exe-scorm" onload="loadPage()" onunload="unloadPage()"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="outer">
+<div id="main">
+<div id="nodeDecoration"><h1 id="nodeTitle">3.2. Introducción de fechas y horas</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id6">
+<div class="iDevice emphasis0">
+<div id="ta6_85" class="block iDevice_content">
+<p>Para nosotros la fecha y hora son dos datos fundamentales a la hora de establecer referencias, determinando así el momento o periodo al que pertenecen los datos. Para Excel, por el contrario, la fecha y hora son números y, como tales, se almacenan aunque externamente sean representados correctamente según nosotros esperamos. Si usa la función TIPO, comentada antes, para obtener el tipo de una celdilla que contiene una fecha o una hora, verá que el índice devuelto es 1.</p>
+<p>Puede introducir manualmente cualquier fecha y hora que desee. Existen, no obstante, atajos si la fecha y/u hora que quiere escribir es la actual. La combinación de teclas <b>Control-</b>, introduce automáticamente la fecha actual, mientras que <b>Control-:</b> hace lo propio con la hora. Observe que en este segundo caso tiene que pulsar simultáneamente la tecla <b>Control</b> y la tecla <b>Mayús</b>, ya que el carácter <b>:</b> así lo exige por la configuración del teclado particular de nuestro idioma.</p>
+<p>Las fechas y horas se almacenan en las celdillas, tal y como se ha dicho, en forma de números. Son datos, por tanto, totalmente estáticos y que no se actualizarán para reflejar la fecha y hora actuales. En muchas ocasiones será precisamente esto lo que necesitemos: introducir una fecha, actual o del pasado, que establece una referencia temporal para los datos y que, como tal, no debe ser modificada.</p>
+<p>En otros casos lo que buscaremos será mantener en la hoja la fecha y/u hora actuales, siempre actualizadas. En lugar de introducir al fecha, ya sea manualmente o con la combinación <b>Control-,</b>, lo que haremos será componer una fórmula en la que tan sólo existirá un llamada a una función: HOY, para obtener la fecha actual, o AHORA para obtener la fecha y hora. Externamente, en la celdilla, seguiremos viendo una fecha o una hora, si bien estos datos se mantendrán siempre actualizados.</p>
+<p>Debe tener en cuenta que una vez se ha introducido una fecha en una celdilla, ésta habrá tomado ese tipo, tipo que permanecerá a pesar que, a posteriori, edite la celdilla e introduzca un dato numérico. Puede comprobarlo insertando una fecha en una celdilla y, a continuación, borrándola y facilitando un número. Lo que se obtiene es una nueva fecha, concretamente la correspondiente al número entregado contado como días transcurridos desde el 1 de enero de 1900. Para devolver a la celdilla cualquier otro formato sírvase de la lista Inicio&gt;Número&gt;Formato de número o bien de la ventana Formato de celdas mencionada previamente.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
